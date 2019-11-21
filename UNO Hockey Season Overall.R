@@ -9,6 +9,12 @@ hockey <- hockey %>%
   ungroup() %>%
   group_by(Season) %>%
   mutate(Game.Number = row_number()) %>%
+  ungroup()  %>%
+  group_by(Oppponent) %>%
+  mutate(Game.Number.Series = row_number()) %>%
+  mutate(running.wins = cumsum(Win),
+         running.loses = cumsum(Loss),
+         running.ties = cumsum(Tie)) %>%
   ungroup()
 
 hockey$win.streak = rowid(rleid(hockey$Win)) * hockey$Win
