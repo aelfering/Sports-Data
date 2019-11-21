@@ -1,0 +1,856 @@
+id,Season,Date,Oppponent,Result,UNO.Score,Opp.Score,Location,Win,Loss,Tie,Game.Number,Game.Number.Series,running.wins,running.loses,running.ties,win.streak,lose.streak,tie.streak
+1,1997,24-Oct-97,Air Force,L,2,4,"Colorado Springs, CO",0,1,0,1,1,0,1,0,0,1,0
+2,1997,26-Oct-97,Air Force,W,6,1,"Colorado Springs, CO",1,0,0,2,2,1,1,0,1,0,0
+3,1997,31-Oct-97,Princeton,L,2,5,"Omaha, NE",0,1,0,3,1,0,1,0,0,1,0
+4,1997,11/1/97,Princeton,L,3,5,"Omaha, NE",0,1,0,4,2,0,2,0,0,2,0
+5,1997,11/7/97,Massachusetts,L,2,3,"Omaha, NE",0,1,0,5,1,0,1,0,0,3,0
+6,1997,8-Nov-97,Massachusetts,W,5,1,"Omaha, NE",1,0,0,6,2,1,1,0,1,0,0
+7,1997,15-Nov-97,Denver,W,6,3,"Omaha, NE",1,0,0,7,1,1,0,0,2,0,0
+8,1997,16-Nov-97,Denver,W,7,5,"Omaha, NE",1,0,0,8,2,2,0,0,3,0,0
+9,1997,21-Nov-97,Army,L,1,2,"West Point, NY",0,1,0,9,1,0,1,0,0,1,0
+10,1997,21-Nov-97,Army,L,1,4,"West Point, NY",0,1,0,10,2,0,2,0,0,2,0
+11,1997,28-Nov-97,Union,W,6,3,"Omaha, NE",1,0,0,11,1,1,0,0,1,0,0
+12,1997,29-Nov-97,Union,L,3,6,"Omaha, NE",0,1,0,12,2,1,1,0,0,1,0
+13,1997,5-Dec-97,Minnesota-Duluth,L,3,4,"Duluth, MN",0,1,0,13,1,0,1,0,0,2,0
+14,1997,6-Dec-97,Minnesota-Duluth,L,0,3,"Duluth, MN",0,1,0,14,2,0,2,0,0,3,0
+15,1997,19-Dec-97,Michigan Tech,L,1,2,"Omaha, NE",0,1,0,15,1,0,1,0,0,4,0
+16,1997,20-Dec-97,Michigan Tech,L,1,6,"Omaha, NE",0,1,0,16,2,0,2,0,0,5,0
+17,1997,31-Dec-97,New Hampshire,L,2,6,"Omaha, NE",0,1,0,17,1,0,1,0,0,6,0
+18,1997,9-Jan-98,St. Cloud State,L,1,2,"St. Cloud, MN",0,1,0,18,1,0,1,0,0,7,0
+19,1997,10-Jan-98,St. Cloud State,L,2,6,"St. Cloud, MN",0,1,0,19,2,0,2,0,0,8,0
+20,1997,16-Jan-98,Wisconsin,L,1,5,"Madison, WI",0,1,0,20,1,0,1,0,0,9,0
+21,1997,18-Jan-98,Wisconsin,L,2,4,"Madison, WI",0,1,0,21,2,0,2,0,0,10,0
+22,1997,24-Jan-98,Alabama-Huntsville,W,5,2,"Huntsville, AL",1,0,0,22,1,1,0,0,1,0,0
+23,1997,25-Jan-98,Alabama-Huntsville,T,3,3,"Huntsville, AL",0,0,1,23,2,1,0,1,0,0,1
+24,1997,30-Jan-98,Air Force,W,2,1,"Omaha, NE",1,0,0,24,3,2,1,0,1,0,0
+25,1997,31-Jan-98,Air Force,W,4,3,"Omaha, NE",1,0,0,25,4,3,1,0,2,0,0
+26,1997,13-Feb-98,Minnesota State,W,7,4,"Mankato, MN",1,0,0,26,1,1,0,0,3,0,0
+27,1997,14-Feb-98,Minnesota State,W,7,4,"Mankato, MN",1,0,0,27,2,2,0,0,4,0,0
+28,1997,20-Feb-98,Alabama-Huntsville,T,2,2,"Omaha, NE",0,0,1,28,3,1,0,2,0,0,1
+29,1997,21-Feb-98,Alabama-Huntsville,W,4,0,"Omaha, NE",1,0,0,29,4,2,0,2,1,0,0
+30,1997,27-Feb-98,Maine,L,0,11,"Orono, ME",0,1,0,30,1,0,1,0,0,1,0
+31,1997,28-Feb-98,Maine,W,4,3,"Orono, ME",1,0,0,31,2,1,1,0,1,0,0
+32,1997,5-Mar-98,Minnesota State,L,2,3,"Omaha, NE",0,1,0,32,3,2,1,0,0,1,0
+33,1997,6-Mar-98,Minnesota State,T,2,2,"Omaha, NE",0,0,1,33,4,2,1,1,0,0,1
+34,1998,16-Oct-98,Maine,L,2,7,"Omaha, NE",0,1,0,1,3,1,2,0,0,1,0
+35,1998,17-Oct-98,Maine,L,0,3,"Omaha, NE",0,1,0,2,4,1,3,0,0,2,0
+36,1998,23-Oct-98,Denver,L,1,4,"Denver, CO",0,1,0,3,3,2,1,0,0,3,0
+37,1998,24-Oct-98,Denver,L,1,5,"Denver, CO",0,1,0,4,4,2,2,0,0,4,0
+38,1998,30-Oct-98,Minnesota State,L,1,5,"Omaha, NE",0,1,0,5,5,2,2,1,0,5,0
+39,1998,31-Oct-98,Minnesota State,W,6,5,"Omaha, NE",1,0,0,6,6,3,2,1,1,0,0
+40,1998,6-Nov-98,Army,L,5,6,"Omaha, NE",0,1,0,7,3,0,3,0,0,1,0
+41,1998,7-Nov-98,Army,L,1,2,"Omaha, NE",0,1,0,8,4,0,4,0,0,2,0
+42,1998,20-Nov-98,Niagara,L,0,4,"Niagara Univ., NY",0,1,0,9,1,0,1,0,0,3,0
+43,1998,21-Nov-98,Niagara,L,2,6,"Niagara Univ., NY",0,1,0,10,2,0,2,0,0,4,0
+44,1998,27-Nov-98,Dartmouth,L,1,2,"Omaha, NE",0,1,0,11,1,0,1,0,0,5,0
+45,1998,28-Nov-98,Dartmouth,W,7,4,"Omaha, NE",1,0,0,12,2,1,1,0,1,0,0
+46,1998,4-Dec-98,Michigan State,L,0,2,"East Lansing, MI",0,1,0,13,1,0,1,0,0,1,0
+47,1998,5-Dec-98,Michigan State,L,1,3,"East Lansing, MI",0,1,0,14,2,0,2,0,0,2,0
+48,1998,12-Dec-98,RIT,L,2,4,"Omaha, NE",0,1,0,15,1,0,1,0,0,3,0
+49,1998,13-Dec-98,RIT,L,3,5,"Omaha, NE",0,1,0,16,2,0,2,0,0,4,0
+50,1998,18-Dec-98,Harvard,L,1,4,"Omaha, NE",0,1,0,17,1,0,1,0,0,5,0
+51,1998,19-Dec-98,Harvard,L,3,4,"Omaha, NE",0,1,0,18,2,0,2,0,0,6,0
+52,1998,31-Dec-98,Wisconsin,L,2,6,"Madison, WI",0,1,0,19,3,0,3,0,0,7,0
+53,1998,2-Jan-99,Bowling Green,L,2,4,"Omaha, NE",0,1,0,20,1,0,1,0,0,8,0
+54,1998,3-Jan-99,Bowling Green,W,6,1,"Omaha, NE",1,0,0,21,2,1,1,0,1,0,0
+55,1998,15-Jan-99,Air Force,W,6,2,"Omaha, NE",1,0,0,22,5,4,1,0,2,0,0
+56,1998,16-Jan-99,Air Force,W,4,0,"Omaha, NE",1,0,0,23,6,5,1,0,3,0,0
+57,1998,22-Jan-99,Alaska Fairbanks,L,0,4,"Fairbanks, AK",0,1,0,24,1,0,1,0,0,1,0
+58,1998,23-Jan-99,Alaska Fairbanks,L,0,7,"Fairbanks, AK",0,1,0,25,2,0,2,0,0,2,0
+59,1998,29-Jan-99,Niagara,L,2,8,"Omaha, NE",0,1,0,26,3,0,3,0,0,3,0
+60,1998,30-Jan-99,Niagara,W,3,1,"Omaha, NE",1,0,0,27,4,1,3,0,1,0,0
+61,1998,12-Feb-99,St. Cloud State,L,0,2,"St. Cloud, MN",0,1,0,28,3,0,3,0,0,1,0
+62,1998,13-Feb-99,St. Cloud State,L,0,5,"St. Cloud, MN",0,1,0,29,4,0,4,0,0,2,0
+63,1998,18-Feb-99,Bemidji State,W,8,2,"Omaha, NE",1,0,0,30,1,1,0,0,1,0,0
+64,1998,19-Feb-99,Bemidji State,W,7,3,"Omaha, NE",1,0,0,31,2,2,0,0,2,0,0
+65,1998,26-Feb-99,Michigan Tech,W,6,4,"Houghton, MI",1,0,0,32,3,1,2,0,3,0,0
+66,1998,27-Feb-99,Michigan Tech,W,5,3,"Houghton, MI",1,0,0,33,4,2,2,0,4,0,0
+67,1998,5-Mar-99,Minnesota State,L,2,4,"Mankato, MN",0,1,0,34,7,3,3,1,0,1,0
+68,1998,6-Mar-99,Minnesota State,W,5,4,"Mankato, MN",1,0,0,35,8,4,3,1,1,0,0
+69,1999,15-Oct-99,Michigan State,L,2,5,"Omaha, NE",0,1,0,1,3,0,3,0,0,1,0
+70,1999,16-Oct-99,Michigan State,L,2,6,"Omaha, NE",0,1,0,2,4,0,4,0,0,2,0
+71,1999,29-Oct-99,Northern Michigan,L,0,2,"Marquette, MI",0,1,0,3,1,0,1,0,0,3,0
+72,1999,30-Oct-99,Northern Michigan,T,4,4,"Marquette, MI",0,0,1,4,2,0,1,1,0,0,1
+73,1999,5-Nov-99,Notre Dame,T,2,2,"Omaha, NE",0,0,1,5,1,0,0,1,0,0,2
+74,1999,6-Nov-99,Notre Dame,W,5,3,"Omaha, NE",1,0,0,6,2,1,0,1,1,0,0
+75,1999,12-Nov-99,Western Michigan,W,3,1,"Omaha, NE",1,0,0,7,1,1,0,0,2,0,0
+76,1999,13-Nov-99,Western Michigan,T,4,4,"Omaha, NE",0,0,1,8,2,1,0,1,0,0,1
+77,1999,19-Nov-99,Ohio State,L,2,5,"Columbus, OH",0,1,0,9,1,0,1,0,0,1,0
+78,1999,20-Nov-99,Ohio State,T,2,2,"Columbus, OH",0,0,1,10,2,0,1,1,0,0,1
+79,1999,3-Dec-99,Alaska Fairbanks,W,5,3,"Omaha, NE",1,0,0,11,3,1,2,0,1,0,0
+80,1999,4-Dec-99,Alaska Fairbanks,W,4,2,"Omaha, NE",1,0,0,12,4,2,2,0,2,0,0
+81,1999,10-Dec-99,Michigan,L,2,6,"Ann Arbor, MI",0,1,0,13,1,0,1,0,0,1,0
+82,1999,11-Dec-99,Michigan,L,1,6,"Ann Arbor, MI",0,1,0,14,2,0,2,0,0,2,0
+83,1999,17-Dec-99,Minnesota-Duluth,L,4,5,"Omaha, NE",0,1,0,15,3,0,3,0,0,3,0
+84,1999,18-Dec-99,Minnesota-Duluth,W,3,2,"Omaha, NE",1,0,0,16,4,1,3,0,1,0,0
+85,1999,27-Dec-99,Wisconsin,L,4,6,"Milwaukee, WI",0,1,0,17,4,0,4,0,0,1,0
+86,1999,28-Dec-99,Miami,W,4,3,"Milwaukee, WI",1,0,0,18,1,1,0,0,1,0,0
+87,1999,7-Jan-00,Denver,L,1,4,"Denver, CO",0,1,0,19,5,2,3,0,0,1,0
+88,1999,8-Jan-00,Denver,L,2,3,"Denver, CO",0,1,0,20,6,2,4,0,0,2,0
+89,1999,13-Jan-00,Michigan State,W,4,3,"East Lansing, MI",1,0,0,21,5,1,4,0,1,0,0
+90,1999,14-Jan-00,Michigan State,L,1,3,"East Lansing, MI",0,1,0,22,6,1,5,0,0,1,0
+91,1999,21-Jan-00,Lake Superior State,L,1,2,"Omaha, NE",0,1,0,23,1,0,1,0,0,2,0
+92,1999,22-Jan-00,Lake Superior State,W,4,1,"Omaha, NE",1,0,0,24,2,1,1,0,1,0,0
+93,1999,28-Jan-00,Ferris State,T,5,5,"Big Rapids, MI",0,0,1,25,1,0,0,1,0,0,1
+94,1999,29-Jan-00,Ferris State,W,5,2,"Big Rapids, MI",1,0,0,26,2,1,0,1,1,0,0
+95,1999,4-Feb-00,Bowling Green,W,4,3,"Omaha, NE",1,0,0,27,3,2,1,0,2,0,0
+96,1999,5-Feb-00,Bowling Green,L,2,3,"Omaha, NE",0,1,0,28,4,2,2,0,0,1,0
+97,1999,11-Feb-00,Notre Dame,W,3,1,"South Bend, IN",1,0,0,29,3,2,0,1,1,0,0
+98,1999,12-Feb-00,Notre Dame,L,4,7,"South Bend, IN",0,1,0,30,4,2,1,1,0,1,0
+99,1999,18-Feb-00,Miami,W,3,1,"Omaha, NE",1,0,0,31,2,2,0,0,1,0,0
+100,1999,20-Feb-00,Miami,L,3,6,"Omaha, NE",0,1,0,32,3,2,1,0,0,1,0
+101,1999,25-Feb-00,Alaska Fairbanks,T,2,2,"Fairbanks, AK",0,0,1,33,5,2,2,1,0,0,1
+102,1999,26-Feb-00,Alaska Fairbanks,L,4,5,"Fairbanks, AK",0,1,0,34,6,2,3,1,0,1,0
+103,1999,2-Mar-00,Niagara,L,0,6,"Omaha, NE",0,1,0,35,5,1,4,0,0,2,0
+104,1999,3-Mar-00,Niagara,T,3,3,"Omaha, NE",0,0,1,36,6,1,4,1,0,0,1
+105,1999,10-Mar-00,Northern Michigan,W,4,2,"Marquette, MI",1,0,0,37,3,1,1,1,1,0,0
+106,1999,11-Mar-00,Northern Michigan,L,1,5,"Marquette, MI",0,1,0,38,4,1,2,1,0,1,0
+107,1999,12-Mar-00,Northern Michigan,W,2,1,"Marquette, MI",1,0,0,39,5,2,2,1,1,0,0
+108,1999,14-Mar-00,Bowling Green,W,3,1,"Omaha, NE",1,0,0,40,5,3,2,0,2,0,0
+109,1999,17-Mar-00,Michigan,W,7,4,"Detroit, MI",1,0,0,41,3,1,2,0,3,0,0
+110,1999,18-Mar-00,Michigan State,L,0,6,"Detroit, MI",0,1,0,42,7,1,6,0,0,1,0
+111,2000,13-Oct-00,Niagara,W,4,0,"Omaha, NE",1,0,0,1,7,2,4,1,1,0,0
+112,2000,14-Oct-00,Boston College,L,1,5,"Omaha, NE",0,1,0,2,1,0,1,0,0,1,0
+113,2000,20-Oct-00,Michigan State,W,2,1,"East Lansing, MI",1,0,0,3,8,2,6,0,1,0,0
+114,2000,21-Oct-00,Michigan State,L,1,4,"East Lansing, MI",0,1,0,4,9,2,7,0,0,1,0
+115,2000,27-Oct-00,Ferris State,W,7,4,"Omaha, NE",1,0,0,5,3,2,0,1,1,0,0
+116,2000,28-Oct-00,Ferris State,W,7,3,"Omaha, NE",1,0,0,6,4,3,0,1,2,0,0
+117,2000,3-Nov-00,Lake Superior State,L,3,4,"Sault St. Marie, MI",0,1,0,7,3,1,2,0,0,1,0
+118,2000,4-Nov-00,Lake Superior State,L,2,5,"Sault St. Marie, MI",0,1,0,8,4,1,3,0,0,2,0
+119,2000,10-Nov-00,Massachusetts,W,3,2,"Omaha, NE",1,0,0,9,3,2,1,0,1,0,0
+120,2000,11-Nov-00,Massachusetts,W,3,1,"Omaha, NE",1,0,0,10,4,3,1,0,2,0,0
+121,2000,17-Nov-00,Miami,L,2,3,"Oxford, OH",0,1,0,11,4,2,2,0,0,1,0
+122,2000,18-Nov-00,Miami,L,2,6,"Oxford, OH",0,1,0,12,5,2,3,0,0,2,0
+123,2000,24-Nov-00,Merrimack,L,0,2,"North Andover, MA",0,1,0,13,1,0,1,0,0,3,0
+124,2000,25-Nov-00,Merrimack,L,1,2,"North Andover, MA",0,1,0,14,2,0,2,0,0,4,0
+125,2000,1-Dec-00,Alaska Fairbanks,W,5,1,"Omaha, NE",1,0,0,15,7,3,3,1,1,0,0
+126,2000,2-Dec-00,Alaska Fairbanks,T,2,2,"Omaha, NE",0,0,1,16,8,3,3,2,0,0,1
+127,2000,8-Dec-00,Bowling Green,W,3,1,"Bowling Green, OH",1,0,0,17,6,4,2,0,1,0,0
+128,2000,9-Dec-00,Bowling Green,L,2,7,"Bowling Green, OH",0,1,0,18,7,4,3,0,0,1,0
+129,2000,19-Dec-00,Notre Dame,W,1,0,"Omaha, NE",1,0,0,19,5,3,1,1,1,0,0
+130,2000,20-Dec-00,Notre Dame,L,3,7,"Omaha, NE",0,1,0,20,6,3,2,1,0,1,0
+131,2000,29-Dec-00,Massachusetts-Lowell,W,5,2,"Huntsville, AL",1,0,0,21,1,1,0,0,1,0,0
+132,2000,30-Dec-00,Canisius,W,3,1,"Huntsville, AL",1,0,0,22,1,1,0,0,2,0,0
+133,2000,12-Jan-01,Bowling Green,W,3,2,"Omaha, NE",1,0,0,23,8,5,3,0,3,0,0
+134,2000,13-Jan-01,Bowling Green,W,3,2,"Omaha, NE",1,0,0,24,9,6,3,0,4,0,0
+135,2000,19-Jan-01,Northern Michigan,W,4,2,"Omaha, NE",1,0,0,25,6,3,2,1,5,0,0
+136,2000,20-Jan-01,Northern Michigan,W,4,3,"Omaha, NE",1,0,0,26,7,4,2,1,6,0,0
+137,2000,26-Jan-01,Alaska Fairbanks,T,3,3,"Fairbanks, AK",0,0,1,27,9,3,3,3,0,0,1
+138,2000,27-Jan-01,Alaska Fairbanks,L,2,3,"Fairbanks, AK",0,1,0,28,10,3,4,3,0,1,0
+139,2000,2-Feb-01,Michigan,W,4,1,"Omaha, NE",1,0,0,29,4,2,2,0,1,0,0
+140,2000,3-Feb-01,Michigan,L,1,4,"Omaha, NE",0,1,0,30,5,2,3,0,0,1,0
+141,2000,9-Feb-01,Western Michigan,W,2,1,"Kalamazoo, MI",1,0,0,31,3,2,0,1,1,0,0
+142,2000,10-Feb-01,Western Michigan,T,3,3,"Kalamazoo, MI",0,0,1,32,4,2,0,2,0,0,1
+143,2000,16-Feb-01,Ohio State,L,3,4,"Omaha, NE",0,1,0,33,3,0,2,1,0,1,0
+144,2000,17-Feb-01,Ohio State,W,6,1,"Omaha, NE",1,0,0,34,4,1,2,1,1,0,0
+145,2000,23-Feb-01,Ferris State,W,4,2,"Big Rapids, MI",1,0,0,35,5,4,0,1,2,0,0
+146,2000,24-Feb-01,Ferris State,W,2,1,"Big Rapids, MI",1,0,0,36,6,5,0,1,3,0,0
+147,2000,1-Mar-01,Findlay,W,5,0,"Omaha, NE",1,0,0,37,1,1,0,0,4,0,0
+148,2000,2-Mar-01,Findlay,W,4,0,"Omaha, NE",1,0,0,38,2,2,0,0,5,0,0
+149,2000,9-Mar-01,Ohio State,L,4,5,"Omaha, NE",0,1,0,39,5,1,3,1,0,1,0
+150,2000,10-Mar-01,Ohio State,W,2,1,"Omaha, NE",1,0,0,40,6,2,3,1,1,0,0
+151,2000,11-Mar-01,Ohio State,W,4,3,"Omaha, NE",1,0,0,41,7,3,3,1,2,0,0
+152,2000,16-Mar-01,Michigan,L,2,3,"Detroit, MI",0,1,0,42,6,2,4,0,0,1,0
+153,2001,12-Oct-01,Minnesota-Duluth,L,2,5,"Omaha, NE",0,1,0,1,5,1,4,0,0,2,0
+154,2001,13-Oct-01,Providence,W,4,3,"Omaha, NE",1,0,0,2,1,1,0,0,1,0,0
+155,2001,19-Oct-01,Colgate,W,5,4,"Hamilton, NY",1,0,0,3,1,1,0,0,2,0,0
+156,2001,20-Oct-01,Colgate,W,5,3,"Hamilton, NY",1,0,0,4,2,2,0,0,3,0,0
+157,2001,26-Oct-01,Michigan State,W,4,3,"Omaha, NE",1,0,0,5,10,3,7,0,4,0,0
+158,2001,27-Oct-01,Michigan State,W,5,1,"Omaha, NE",1,0,0,6,11,4,7,0,5,0,0
+159,2001,2-Nov-01,Ohio State,L,0,1,"Columbus, OH",0,1,0,7,8,3,4,1,0,1,0
+160,2001,3-Nov-01,Ohio State,W,4,1,"Columbus, OH",1,0,0,8,9,4,4,1,1,0,0
+161,2001,9-Nov-01,Western Michigan,W,4,1,"Kalamazoo, MI",1,0,0,9,5,3,0,2,2,0,0
+162,2001,10-Nov-01,Western Michigan,L,0,2,"Kalamazoo, MI",0,1,0,10,6,3,1,2,0,1,0
+163,2001,16-Nov-01,Michigan,T,4,4,"Omaha, NE",0,0,1,11,7,2,4,1,0,0,1
+164,2001,17-Nov-01,Michigan,L,2,3,"Omaha, NE",0,1,0,12,8,2,5,1,0,1,0
+165,2001,23-Nov-01,Ferris State,L,2,7,"Omaha, NE",0,1,0,13,7,5,1,1,0,2,0
+166,2001,24-Nov-01,Ferris State,W,5,2,"Omaha, NE",1,0,0,14,8,6,1,1,1,0,0
+167,2001,30-Nov-01,Bowling Green,T,2,2,"Bowling Green, OH",0,0,1,15,10,6,3,1,0,0,1
+168,2001,1-Dec-01,Bowling Green,W,2,1,"Bowling Green, OH",1,0,0,16,11,7,3,1,1,0,0
+169,2001,7-Dec-01,Alaska Fairbanks,L,2,4,"Omaha, NE",0,1,0,17,11,3,5,3,0,1,0
+170,2001,8-Dec-01,Alaska Fairbanks,L,1,3,"Omaha, NE",0,1,0,18,12,3,6,3,0,2,0
+171,2001,20-Dec-01,Boston University,L,1,4,"Omaha, NE",0,1,0,19,1,0,1,0,0,3,0
+172,2001,21-Dec-01,Boston University,W,4,3,"Omaha, NE",1,0,0,20,2,1,1,0,1,0,0
+173,2001,4-Jan-02,Northern Michigan,L,1,3,"Marquette, MI",0,1,0,21,8,4,3,1,0,1,0
+174,2001,5-Jan-02,Northern Michigan,T,2,2,"Marquette, MI",0,0,1,22,9,4,3,2,0,0,1
+175,2001,11-Jan-02,Alabama-Huntsville,W,4,2,"Omaha, NE",1,0,0,23,5,3,0,2,1,0,0
+176,2001,12-Jan-02,Alabama-Huntsville,W,3,2,"Omaha, NE",1,0,0,24,6,4,0,2,2,0,0
+177,2001,18-Jan-02,Notre Dame,W,3,2,"South Bend, IN",1,0,0,25,7,4,2,1,3,0,0
+178,2001,19-Jan-02,Notre Dame,W,4,2,"South Bend, IN",1,0,0,26,8,5,2,1,4,0,0
+179,2001,25-Jan-02,Lake Superior State,W,3,0,"Omaha, NE",1,0,0,27,5,2,3,0,5,0,0
+180,2001,26-Jan-02,Lake Superior State,W,3,1,"Omaha, NE",1,0,0,28,6,3,3,0,6,0,0
+181,2001,1-Feb-02,Miami,W,2,0,"Omaha, NE",1,0,0,29,6,3,3,0,7,0,0
+182,2001,2-Feb-02,Miami,W,3,0,"Omaha, NE",1,0,0,30,7,4,3,0,8,0,0
+183,2001,8-Feb-02,Michigan,L,1,2,"Ann Arbor, MI",0,1,0,31,9,2,6,1,0,1,0
+184,2001,9-Feb-02,Michigan,L,3,6,"Ann Arbor, MI",0,1,0,32,10,2,7,1,0,2,0
+185,2001,15-Feb-02,Western Michigan,W,5,3,"Omaha, NE",1,0,0,33,7,4,1,2,1,0,0
+186,2001,16-Feb-02,Western Michigan,L,1,3,"Omaha, NE",0,1,0,34,8,4,2,2,0,1,0
+187,2001,22-Feb-02,Alaska Fairbanks,L,2,3,"Fairbanks, AK",0,1,0,35,13,3,7,3,0,2,0
+188,2001,23-Feb-02,Alaska Fairbanks,T,2,2,"Fairbanks, AK",0,0,1,36,14,3,7,4,0,0,1
+189,2001,28-Feb-02,Minnesota State,W,4,2,"Omaha, NE",1,0,0,37,9,5,3,1,1,0,0
+190,2001,2-Mar-02,Minnesota State,L,3,4,"Mankato, MN",0,1,0,38,10,5,4,1,0,1,0
+191,2001,8-Mar-02,Notre Dame,W,3,2,"Omaha, NE",1,0,0,39,9,6,2,1,1,0,0
+192,2001,9-Mar-02,Notre Dame,L,1,2,"Omaha, NE",0,1,0,40,10,6,3,1,0,1,0
+193,2001,10-Mar-02,Notre Dame,L,1,2,"Omaha, NE",0,1,0,41,11,6,4,1,0,2,0
+194,2002,11-Oct-02,Colgate,T,5,5,"Omaha, NE",0,0,1,1,3,2,0,1,0,0,1
+195,2002,12-Oct-02,Denver,L,2,3,"Omaha, NE",0,1,0,2,7,2,5,0,0,1,0
+196,2002,18-Oct-02,Miami,W,3,2,"Omaha, NE",1,0,0,3,8,5,3,0,1,0,0
+197,2002,19-Oct-02,Miami,L,2,5,"Omaha, NE",0,1,0,4,9,5,4,0,0,1,0
+198,2002,25-Oct-02,Boston University,L,4,6,"Boston, MA",0,1,0,5,3,1,2,0,0,2,0
+199,2002,27-Oct-02,Massachusetts,W,3,2,"Amherst, MA",1,0,0,6,5,4,1,0,1,0,0
+200,2002,1-Nov-02,Western Michigan,L,2,8,"Kalamazoo, MI",0,1,0,7,9,4,3,2,0,1,0
+201,2002,2-Nov-02,Western Michigan,W,2,0,"Kalamazoo, MI",1,0,0,8,10,5,3,2,1,0,0
+202,2002,8-Nov-02,Alaska Fairbanks,L,3,4,"Omaha, NE",0,1,0,9,15,3,8,4,0,1,0
+203,2002,9-Nov-02,Alaska Fairbanks,L,2,3,"Omaha, NE",0,1,0,10,16,3,9,4,0,2,0
+204,2002,22-Nov-02,Northern Michigan,L,1,2,"Omaha, NE",0,1,0,11,10,4,4,2,0,3,0
+205,2002,23-Nov-02,Northern Michigan,W,5,4,"Omaha, NE",1,0,0,12,11,5,4,2,1,0,0
+206,2002,29-Nov-02,Merrimack,T,3,3,"Omaha, NE",0,0,1,13,3,0,2,1,0,0,1
+207,2002,30-Nov-02,Merrimack,W,5,3,"Omaha, NE",1,0,0,14,4,1,2,1,1,0,0
+208,2002,6-Dec-02,Lake Superior State,W,4,1,"Sault St. Marie, MI",1,0,0,15,7,4,3,0,2,0,0
+209,2002,7-Dec-02,Lake Superior State,W,3,0,"Sault St. Marie, MI",1,0,0,16,8,5,3,0,3,0,0
+210,2002,13-Dec-02,Ohio State,L,1,4,"Columbus, OH",0,1,0,17,10,4,5,1,0,1,0
+211,2002,14-Dec-02,Ohio State,L,1,3,"Columbus, OH",0,1,0,18,11,4,6,1,0,2,0
+212,2002,3-Jan-03,Notre Dame,L,3,5,"Omaha, NE",0,1,0,19,12,6,5,1,0,3,0
+213,2002,4-Jan-03,Notre Dame,W,5,3,"Omaha, NE",1,0,0,20,13,7,5,1,1,0,0
+214,2002,10-Jan-03,Miami,L,0,3,"Oxford, OH",0,1,0,21,10,5,5,0,0,1,0
+215,2002,11-Jan-03,Miami,T,2,2,"Oxford, OH",0,0,1,22,11,5,5,1,0,0,1
+216,2002,17-Jan-03,Michigan State,L,2,5,"East Lansing, MI",0,1,0,23,12,4,8,0,0,1,0
+217,2002,18-Jan-03,Michigan State,L,0,7,"East Lansing, MI",0,1,0,24,13,4,9,0,0,2,0
+218,2002,24-Jan-03,Ohio State,W,4,0,"Omaha, NE",1,0,0,25,12,5,6,1,1,0,0
+219,2002,25-Jan-03,Ohio State,W,3,1,"Omaha, NE",1,0,0,26,13,6,6,1,2,0,0
+220,2002,31-Jan-03,Bowling Green,L,0,5,"Omaha, NE",0,1,0,27,12,7,4,1,0,1,0
+221,2002,1-Feb-03,Bowling Green,W,6,3,"Omaha, NE",1,0,0,28,13,8,4,1,1,0,0
+222,2002,7-Feb-03,Alaska Fairbanks,T,3,3,"Fairbanks, AK",0,0,1,29,17,3,9,5,0,0,1
+223,2002,8-Feb-03,Alaska Fairbanks,L,3,4,"Fairbanks, AK",0,1,0,30,18,3,10,5,0,1,0
+224,2002,14-Feb-03,Bemidji State,W,5,2,"Omaha, NE",1,0,0,31,3,3,0,0,1,0,0
+225,2002,15-Feb-03,Bemidji State,W,3,2,"Omaha, NE",1,0,0,32,4,4,0,0,2,0,0
+226,2002,21-Feb-03,Michigan,L,1,6,"Omaha, NE",0,1,0,33,11,2,8,1,0,1,0
+227,2002,22-Feb-03,Michigan,L,3,5,"Omaha, NE",0,1,0,34,12,2,9,1,0,2,0
+228,2002,28-Feb-03,Ferris State,L,0,5,"Big Rapids, MI",0,1,0,35,9,6,2,1,0,3,0
+229,2002,1-Mar-03,Ferris State,L,0,4,"Big Rapids, MI",0,1,0,36,10,6,3,1,0,4,0
+230,2002,6-Mar-03,Minnesota State,L,0,3,"Mankato, MN",0,1,0,37,11,5,5,1,0,5,0
+231,2002,8-Mar-03,Minnesota State,T,2,2,"Omaha, NE",0,0,1,38,12,5,5,2,0,0,1
+232,2002,14-Mar-03,Ohio State,L,1,4,"Columbus, OH",0,1,0,39,14,6,7,1,0,1,0
+233,2002,15-Mar-03,Ohio State,L,1,3,"Columbus, OH",0,1,0,40,15,6,8,1,0,2,0
+234,2003,10-Oct-03,Wisconsin,L,3,4,"Omaha, NE",0,1,0,1,5,0,5,0,0,3,0
+235,2003,11-Oct-03,Minnesota,L,3,7,"Omaha, NE",0,1,0,2,1,0,1,0,0,4,0
+236,2003,17-Oct-03,Western Michigan,L,1,5,"Kalamazoo, MI",0,1,0,3,11,5,4,2,0,5,0
+237,2003,18-Oct-03,Western Michigan,T,2,2,"Kalamazoo, MI",0,0,1,4,12,5,4,3,0,0,1
+238,2003,30-Oct-03,Notre Dame,L,2,4,"South Bend, IN",0,1,0,5,14,7,6,1,0,1,0
+239,2003,31-Oct-03,Notre Dame,L,0,2,"South Bend, IN",0,1,0,6,15,7,7,1,0,2,0
+240,2003,7-Nov-03,Lake Superior State,W,7,1,"Omaha, NE",1,0,0,7,9,6,3,0,1,0,0
+241,2003,8-Nov-03,Lake Superior State,L,1,4,"Omaha, NE",0,1,0,8,10,6,4,0,0,1,0
+242,2003,14-Nov-03,Northern Michigan,W,2,1,"Omaha, NE",1,0,0,9,12,6,4,2,1,0,0
+243,2003,15-Nov-03,Northern Michigan,L,2,4,"Omaha, NE",0,1,0,10,13,6,5,2,0,1,0
+244,2003,21-Nov-03,Ferris State,W,4,1,"Big Rapids, MI",1,0,0,11,11,7,3,1,1,0,0
+245,2003,22-Nov-03,Ferris State,L,0,4,"Big Rapids, MI",0,1,0,12,12,7,4,1,0,1,0
+246,2003,28-Nov-03,Massachusetts,W,7,2,"Omaha, NE",1,0,0,13,6,5,1,0,1,0,0
+247,2003,29-Nov-03,Massachusetts,T,1,1,"Omaha, NE",0,0,1,14,7,5,1,1,0,0,1
+248,2003,5-Dec-03,Alaska Fairbanks,L,2,5,"Fairbanks, AK",0,1,0,15,19,3,11,5,0,1,0
+249,2003,6-Dec-03,Alaska Fairbanks,L,1,4,"Fairbanks, AK",0,1,0,16,20,3,12,5,0,2,0
+250,2003,12-Dec-03,Michigan,L,1,2,"Omaha, NE",0,1,0,17,13,2,10,1,0,3,0
+251,2003,13-Dec-03,Michigan,T,3,3,"Omaha, NE",0,0,1,18,14,2,10,2,0,0,1
+252,2003,27-Dec-03,Yale,W,5,2,"Denver, CO",1,0,0,19,1,1,0,0,1,0,0
+253,2003,28-Dec-03,Denver,L,3,6,"Denver, CO",0,1,0,20,8,2,6,0,0,1,0
+254,2003,7-Jan-04,Ferris State,L,2,5,"Omaha, NE",0,1,0,21,13,7,5,1,0,2,0
+255,2003,8-Jan-04,Ferris State,W,6,1,"Omaha, NE",1,0,0,22,14,8,5,1,1,0,0
+256,2003,16-Jan-04,Western Michigan,L,4,5,"Omaha, NE",0,1,0,23,13,5,5,3,0,1,0
+257,2003,17-Jan-04,Western Michigan,L,2,3,"Omaha, NE",0,1,0,24,14,5,6,3,0,2,0
+258,2003,23-Jan-04,Miami,T,2,2,"Oxford, OH",0,0,1,25,12,5,5,2,0,0,1
+259,2003,24-Jan-04,Miami,L,1,7,"Oxford, OH",0,1,0,26,13,5,6,2,0,1,0
+260,2003,6-Feb-04,Bowling Green,T,3,3,"Omaha, NE",0,0,1,27,14,8,4,2,0,0,1
+261,2003,7-Feb-04,Bowling Green,L,1,3,"Omaha, NE",0,1,0,28,15,8,5,2,0,1,0
+262,2003,13-Feb-04,Ohio State,L,1,3,"Columbus, OH",0,1,0,29,16,6,9,1,0,2,0
+263,2003,14-Feb-04,Ohio State,L,3,4,"Columbus, OH",0,1,0,30,17,6,10,1,0,3,0
+264,2003,20-Feb-04,Michigan State,L,0,3,"East Lansing, MI",0,1,0,31,14,4,10,0,0,4,0
+265,2003,21-Feb-04,Michigan State,L,0,5,"East Lansing, MI",0,1,0,32,15,4,11,0,0,5,0
+266,2003,27-Feb-04,Alaska Fairbanks,L,0,1,"Omaha, NE",0,1,0,33,21,3,13,5,0,6,0
+267,2003,28-Feb-04,Alaska Fairbanks,W,7,4,"Omaha, NE",1,0,0,34,22,4,13,5,1,0,0
+268,2003,2-Mar-04,Minnesota State,L,3,5,"Omaha, NE",0,1,0,35,13,5,6,2,0,1,0
+269,2003,6-Mar-04,Minnesota State,L,1,9,"Mankato, MN",0,1,0,36,14,5,7,2,0,2,0
+270,2003,12-Mar-04,Michigan,L,0,2,"Ann Arbor, MI",0,1,0,37,15,2,11,2,0,3,0
+271,2003,13-Mar-04,Michigan,W,3,1,"Ann Arbor, MI",1,0,0,38,16,3,11,2,1,0,0
+272,2003,14-Mar-04,Michigan,L,2,5,"Ann Arbor, MI",0,1,0,39,17,3,12,2,0,1,0
+273,2004,9-Oct-04,Connecticut,W,4,1,"Omaha, NE",1,0,0,1,1,1,0,0,1,0,0
+274,2004,10-Oct-04,Merrimack,W,4,3,"Omaha, NE",1,0,0,2,5,2,2,1,2,0,0
+275,2004,22-Oct-04,Western Michigan,W,7,3,"Omaha, NE",1,0,0,3,15,6,6,3,3,0,0
+276,2004,23-Oct-04,Western Michigan,W,4,3,"Omaha, NE",1,0,0,4,16,7,6,3,4,0,0
+277,2004,29-Oct-04,Michigan State,L,2,5,"East Lansing, MI",0,1,0,5,16,4,12,0,0,1,0
+278,2004,30-Oct-04,Michigan State,W,5,2,"East Lansing, MI",1,0,0,6,17,5,12,0,1,0,0
+279,2004,5-Nov-04,Alaska Fairbanks,L,1,3,"Fairbanks, AK",0,1,0,7,23,4,14,5,0,1,0
+280,2004,6-Nov-04,Alaska Fairbanks,L,2,3,"Fairbanks, AK",0,1,0,8,24,4,15,5,0,2,0
+281,2004,12-Nov-04,Bowling Green,W,4,2,"Omaha, NE",1,0,0,9,16,9,5,2,1,0,0
+282,2004,13-Nov-04,Bowling Green,L,4,6,"Omaha, NE",0,1,0,10,17,9,6,2,0,1,0
+283,2004,19-Nov-04,Ohio State,W,4,0,"Omaha, NE",1,0,0,11,18,7,10,1,1,0,0
+284,2004,20-Nov-04,Ohio State,T,4,4,"Omaha, NE",0,0,1,12,19,7,10,2,0,0,1
+285,2004,3-Dec-04,Northern Michigan,L,2,3,"Marquette, MI",0,1,0,13,14,6,6,2,0,1,0
+286,2004,4-Dec-04,Northern Michigan,L,3,6,"Marquette, MI",0,1,0,14,15,6,7,2,0,2,0
+287,2004,9-Dec-04,Lake Superior State,L,2,5,"Omaha, NE",0,1,0,15,11,6,5,0,0,3,0
+288,2004,11-Dec-04,Lake Superior State,W,5,1,"Omaha, NE",1,0,0,16,12,7,5,0,1,0,0
+289,2004,29-Dec-04,Boston University,L,1,4,"Boston, MA",0,1,0,17,4,1,3,0,0,1,0
+290,2004,30-Dec-04,Massachusetts,L,2,5,"Amherst, MA",0,1,0,18,8,5,2,1,0,2,0
+291,2004,7-Jan-05,Northern Michigan,W,3,1,"Omaha, NE",1,0,0,19,16,7,7,2,1,0,0
+292,2004,8-Jan-05,Northern Michigan,W,3,1,"Omaha, NE",1,0,0,20,17,8,7,2,2,0,0
+293,2004,14-Jan-05,Ferris State,T,2,2,"Big Rapids, MI",0,0,1,21,15,8,5,2,0,0,1
+294,2004,15-Jan-05,Ferris State,W,4,1,"Big Rapids, MI",1,0,0,22,16,9,5,2,1,0,0
+295,2004,21-Jan-05,Miami,W,5,2,"Oxford, OH",1,0,0,23,14,6,6,2,2,0,0
+296,2004,22-Jan-05,Miami,L,2,4,"Oxford, OH",0,1,0,24,15,6,7,2,0,1,0
+297,2004,28-Jan-05,Wayne State,W,3,2,"Omaha, NE",1,0,0,25,1,1,0,0,1,0,0
+298,2004,29-Jan-05,Wayne State,W,4,2,"Omaha, NE",1,0,0,26,2,2,0,0,2,0,0
+299,2004,4-Feb-05,Notre Dame,T,1,1,"South Bend, IN",0,0,1,27,16,7,7,2,0,0,1
+300,2004,5-Feb-05,Notre Dame,W,6,3,"South Bend, IN",1,0,0,28,17,8,7,2,1,0,0
+301,2004,11-Feb-05,Michigan,L,4,6,"Omaha, NE",0,1,0,29,18,3,13,2,0,1,0
+302,2004,12-Feb-05,Michigan,L,3,4,"Omaha, NE",0,1,0,30,19,3,14,2,0,2,0
+303,2004,18-Feb-05,Lake Superior State,W,5,2,"Sault St. Marie, MI",1,0,0,31,13,8,5,0,1,0,0
+304,2004,19-Feb-05,Lake Superior State,T,3,3,"Sault St. Marie, MI",0,0,1,32,14,8,5,1,0,0,1
+305,2004,25-Feb-05,Alaska Fairbanks,L,4,6,"Omaha, NE",0,1,0,33,25,4,16,5,0,1,0
+306,2004,26-Feb-05,Alaska Fairbanks,W,7,2,"Omaha, NE",1,0,0,34,26,5,16,5,1,0,0
+307,2004,3-Mar-05,Minnesota State,L,2,6,"Omaha, NE",0,1,0,35,15,5,8,2,0,1,0
+308,2004,5-Mar-05,Minnesota State,L,4,6,"Mankato, MN",0,1,0,36,16,5,9,2,0,2,0
+309,2004,11-Mar-05,Lake Superior State,W,4,3,"Omaha, NE",1,0,0,37,15,9,5,1,1,0,0
+310,2004,12-Mar-05,Lake Superior State,W,4,3,"Omaha, NE",1,0,0,38,16,10,5,1,2,0,0
+311,2004,17-Mar-05,Michigan State,L,0,5,"Detroit, MI",0,1,0,39,18,5,13,0,0,1,0
+312,2005,14-Oct-05,Army,W,3,2,"Omaha, NE",1,0,0,1,5,1,4,0,1,0,0
+313,2005,15-Oct-05,New Hampshire,W,5,3,"Omaha, NE",1,0,0,2,2,1,1,0,2,0,0
+314,2005,21-Oct-05,Miami,L,3,6,"Omaha, NE",0,1,0,3,16,6,8,2,0,1,0
+315,2005,22-Oct-05,Miami,L,2,3,"Omaha, NE",0,1,0,4,17,6,9,2,0,2,0
+316,2005,4-Nov-05,Bowling Green,L,3,7,"Bowling Green, OH",0,1,0,5,18,9,7,2,0,3,0
+317,2005,5-Nov-05,Bowling Green,L,3,4,"Bowling Green, OH",0,1,0,6,19,9,8,2,0,4,0
+318,2005,11-Nov-05,Michigan State,W,7,4,"East Lansing, MI",1,0,0,7,19,6,13,0,1,0,0
+319,2005,12-Nov-05,Michigan State,W,3,2,"East Lansing, MI",1,0,0,8,20,7,13,0,2,0,0
+320,2005,18-Nov-05,Alaska Fairbanks,W,4,2,"Omaha, NE",1,0,0,9,27,6,16,5,3,0,0
+321,2005,19-Nov-05,Alaska Fairbanks,L,3,4,"Omaha, NE",0,1,0,10,28,6,17,5,0,1,0
+322,2005,22-Nov-05,Minnesota State,L,3,6,"Omaha, NE",0,1,0,11,17,5,10,2,0,2,0
+323,2005,25-Nov-05,Providence College,W,4,2,"Troy, NY",1,0,0,12,1,1,0,0,1,0,0
+324,2005,26-Nov-05,Holy Cross,W,6,1,"Troy, NY",1,0,0,13,1,1,0,0,2,0,0
+325,2005,2-Dec-05,Ferris State,W,5,2,"Omaha, NE",1,0,0,14,17,10,5,2,3,0,0
+326,2005,4-Dec-05,Ferris State,W,5,3,"Omaha, NE",1,0,0,15,18,11,5,2,4,0,0
+327,2005,9-Dec-05,Michigan,L,2,4,"Ann Arbor, MI",0,1,0,16,20,3,15,2,0,1,0
+328,2005,10-Dec-05,Michigan,L,3,7,"Ann Arbor, MI",0,1,0,17,21,3,16,2,0,2,0
+329,2005,29-Dec-05,Alabama-Huntsville,W,8,5,"Omaha, NE",1,0,0,18,7,5,0,2,1,0,0
+330,2005,31-Dec-05,Yale,W,3,2,"Omaha, NE",1,0,0,19,2,2,0,0,2,0,0
+331,2005,3-Jan-06,Minnesota State,L,2,5,"Mankato, MN",0,1,0,20,18,5,11,2,0,1,0
+332,2005,6-Jan-06,Notre Dame,L,1,4,"Omaha, NE",0,1,0,21,18,8,8,2,0,2,0
+333,2005,7-Jan-06,Notre Dame,T,2,2,"Omaha, NE",0,0,1,22,19,8,8,3,0,0,1
+334,2005,13-Jan-06,Ohio State,W,2,0,"Columbus, OH",1,0,0,23,20,8,10,2,1,0,0
+335,2005,14-Jan-06,Ohio State,T,2,2,"Columbus, OH",0,0,1,24,21,8,10,3,0,0,1
+336,2005,20-Jan-06,Michigan State,L,3,4,"Omaha, NE",0,1,0,25,21,7,14,0,0,1,0
+337,2005,21-Jan-06,Michigan State,W,3,2,"Omaha, NE",1,0,0,26,22,8,14,0,1,0,0
+338,2005,27-Jan-06,Alaska Fairbanks,W,4,1,"Fairbanks, AK",1,0,0,27,29,7,17,5,2,0,0
+339,2005,28-Jan-06,Alaska Fairbanks,T,3,3,"Fairbanks, AK",0,0,1,28,30,7,17,6,0,0,1
+340,2005,3-Feb-06,Lake Superior State,W,8,0,"Omaha, NE",1,0,0,29,17,11,5,1,1,0,0
+341,2005,4-Feb-06,Lake Superior State,T,2,2,"Omaha, NE",0,0,1,30,18,11,5,2,0,0,1
+342,2005,10-Feb-06,Northern Michigan,W,2,1,"Marquette, MI",1,0,0,31,18,9,7,2,1,0,0
+343,2005,11-Feb-06,Northern Michigan,W,8,3,"Marquette, MI",1,0,0,32,19,10,7,2,2,0,0
+344,2005,17-Feb-06,Michigan,W,4,3,"Omaha, NE",1,0,0,33,22,4,16,2,3,0,0
+345,2005,18-Feb-06,Michigan,T,4,4,"Omaha, NE",0,0,1,34,23,4,16,3,0,0,1
+346,2005,24-Feb-06,Western Michigan,T,5,5,"Kalamazoo, MI",0,0,1,35,17,7,6,4,0,0,2
+347,2005,25-Feb-06,Western Michigan,L,3,6,"Kalamazoo, MI",0,1,0,36,18,7,7,4,0,1,0
+348,2005,3-Mar-06,Bowling Green,W,4,2,"Omaha, NE",1,0,0,37,20,10,8,2,1,0,0
+349,2005,4-Mar-06,Bowling Green,W,4,2,"Omaha, NE",1,0,0,38,21,11,8,2,2,0,0
+350,2005,10-Mar-06,Northern Michigan,L,1,4,"Marquette, MI",0,1,0,39,20,10,8,2,0,1,0
+351,2005,11-Mar-06,Northern Michigan,L,2,3,"Marquette, MI",0,1,0,40,21,10,9,2,0,2,0
+352,2005,24-Mar-06,Boston University,L,2,9,"Worcester, MA",0,1,0,41,5,1,4,0,0,3,0
+353,2006,13-Oct-06,Colorado College,T,2,2,"Anchorage, AK",0,0,1,1,1,0,0,1,0,0,1
+354,2006,14-Oct-06,Alaska Anchorage,T,2,2,"Anchorage, AK",0,0,1,2,1,0,0,1,0,0,2
+355,2006,20-Oct-06,Niagara,W,10,1,"Omaha, NE",1,0,0,3,8,3,4,1,1,0,0
+356,2006,21-Oct-06,Northern Michigan,L,2,5,"Omaha, NE",0,1,0,4,22,10,10,2,0,1,0
+357,2006,27-Oct-06,Western Michigan,W,7,5,"Omaha, NE",1,0,0,5,19,8,7,4,1,0,0
+358,2006,28-Oct-06,Western Michigan,W,6,0,"Omaha, NE",1,0,0,6,20,9,7,4,2,0,0
+359,2006,3-Nov-06,Alaska Fairbanks,T,5,5,"Omaha, NE",0,0,1,7,31,7,17,7,0,0,1
+360,2006,4-Nov-06,Alaska Fairbanks,L,3,4,"Omaha, NE",0,1,0,8,32,7,18,7,0,1,0
+361,2006,10-Nov-06,Michigan,L,4,6,"Ann Arbor, MI",0,1,0,9,24,4,17,3,0,2,0
+362,2006,11-Nov-06,Michigan,L,1,5,"Ann Arbor, MI",0,1,0,10,25,4,18,3,0,3,0
+363,2006,17-Nov-06,Miami,L,3,7,"Oxford, OH",0,1,0,11,18,6,10,2,0,4,0
+364,2006,18-Nov-06,Miami,L,1,2,"Oxford, OH",0,1,0,12,19,6,11,2,0,5,0
+365,2006,21-Nov-06,Minnesota State,T,4,4,"Mankato, MN",0,0,1,13,19,5,11,3,0,0,1
+366,2006,24-Nov-06,Notre Dame,L,2,4,"Omaha, NE",0,1,0,14,20,8,9,3,0,1,0
+367,2006,25-Nov-06,Notre Dame,W,3,2,"Omaha, NE",1,0,0,15,21,9,9,3,1,0,0
+368,2006,1-Dec-06,Bowling Green,W,4,1,"Bowling Green, OH",1,0,0,16,22,12,8,2,2,0,0
+369,2006,2-Dec-06,Bowling Green,W,7,1,"Bowling Green, OH",1,0,0,17,23,13,8,2,3,0,0
+370,2006,8-Dec-06,Bentley,W,5,2,"Omaha, NE",1,0,0,18,1,1,0,0,4,0,0
+371,2006,10-Dec-06,Bentley,W,7,2,"Omaha, NE",1,0,0,19,2,2,0,0,5,0,0
+372,2006,29-Dec-06,Princeton,L,2,3,"Princeton, NJ",0,1,0,20,3,0,3,0,0,1,0
+373,2006,30-Dec-06,Yale,T,4,4,"New Haven, CT",0,0,1,21,3,2,0,1,0,0,1
+374,2006,5-Jan-07,Lake Superior State,T,4,4,"Sault St. Marie, MI",0,0,1,22,19,11,5,3,0,0,2
+375,2006,6-Jan-07,Lake Superior State,L,2,3,"Sault St. Marie, MI",0,1,0,23,20,11,6,3,0,1,0
+376,2006,12-Jan-07,Bowling Green,W,2,1,"Omaha, NE",1,0,0,24,24,14,8,2,1,0,0
+377,2006,13-Jan-07,Bowling Green,W,7,0,"Omaha, NE",1,0,0,25,25,15,8,2,2,0,0
+378,2006,16-Jan-07,Minnesota State,L,2,3,"Omaha, NE",0,1,0,26,20,5,12,3,0,1,0
+379,2006,19-Jan-07,Ferris State,W,3,1,"Big Rapids, MI",1,0,0,27,19,12,5,2,1,0,0
+380,2006,20-Jan-07,Ferris State,L,3,6,"Big Rapids, MI",0,1,0,28,20,12,6,2,0,1,0
+381,2006,26-Jan-07,Northern Michigan,W,5,2,"Omaha, NE",1,0,0,29,23,11,10,2,1,0,0
+382,2006,27-Jan-07,Northern Michigan,W,6,1,"Omaha, NE",1,0,0,30,24,12,10,2,2,0,0
+383,2006,2-Feb-07,Michigan State,L,1,5,"Omaha, NE",0,1,0,31,23,8,15,0,0,1,0
+384,2006,3-Feb-07,Michigan State,T,3,3,"Omaha, NE",0,0,1,32,24,8,15,1,0,0,1
+385,2006,9-Feb-07,Notre Dame,L,2,4,"South Bend, IN",0,1,0,33,22,9,10,3,0,1,0
+386,2006,10-Feb-07,Notre Dame,T,2,2,"South Bend, IN",0,0,1,34,23,9,10,4,0,0,1
+387,2006,16-Feb-07,Ohio State,L,3,4,"Omaha, NE",0,1,0,35,22,8,11,3,0,1,0
+388,2006,17-Feb-07,Ohio State,W,2,1,"Omaha, NE",1,0,0,36,23,9,11,3,1,0,0
+389,2006,23-Feb-07,Alaska Fairbanks,W,4,3,"Fairbanks, AK",1,0,0,37,33,8,18,7,2,0,0
+390,2006,24-Feb-07,Alaska Fairbanks,W,5,3,"Fairbanks, AK",1,0,0,38,34,9,18,7,3,0,0
+391,2006,2-Mar-07,Bowling Green,W,3,2,"Omaha, NE",1,0,0,39,26,16,8,2,4,0,0
+392,2006,3-Mar-07,Bowling Green,W,7,5,"Omaha, NE",1,0,0,40,27,17,8,2,5,0,0
+393,2006,9-Mar-07,Michigan State,L,2,4,"East Lansing, MI",0,1,0,41,25,8,16,1,0,1,0
+394,2006,10-Mar-07,Michigan State,L,1,4,"East Lansing, MI",0,1,0,42,26,8,17,1,0,2,0
+395,2007,20-Oct-07,Alabama-Huntsville,W,5,1,"Omaha, NE",1,0,0,1,8,6,0,2,1,0,0
+396,2007,26-Oct-07,Miami,L,2,7,"Oxford, OH",0,1,0,2,20,6,12,2,0,1,0
+397,2007,27-Oct-07,Miami,L,2,5,"Oxford, OH",0,1,0,3,21,6,13,2,0,2,0
+398,2007,2-Nov-07,Michigan,L,3,6,"Omaha, NE",0,1,0,4,26,4,19,3,0,3,0
+399,2007,3-Nov-07,Michigan,L,2,3,"Omaha, NE",0,1,0,5,27,4,20,3,0,4,0
+400,2007,8-Nov-07,Ohio State,W,5,2,"Columbus, OH",1,0,0,6,24,10,11,3,1,0,0
+401,2007,9-Nov-07,Ohio State,W,5,2,"Columbus, OH",1,0,0,7,25,11,11,3,2,0,0
+402,2007,16-Nov-07,Ferris State,L,1,5,"Omaha, NE",0,1,0,8,21,12,7,2,0,1,0
+403,2007,18-Nov-07,Ferris State,W,2,0,"Omaha, NE",1,0,0,9,22,13,7,2,1,0,0
+404,2007,23-Nov-07,Alaska Fairbanks,W,4,3,"Omaha, NE",1,0,0,10,35,10,18,7,2,0,0
+405,2007,24-Nov-07,Alaska Fairbanks,T,4,4,"Omaha, NE",0,0,1,11,36,10,18,8,0,0,1
+406,2007,30-Nov-07,Notre Dame,L,4,5,"South Bend, IN",0,1,0,12,24,9,11,4,0,1,0
+407,2007,1-Dec-07,Notre Dame,L,0,5,"South Bend, IN",0,1,0,13,25,9,12,4,0,2,0
+408,2007,7-Dec-07,Lake Superior State,T,1,1,"Omaha, NE",0,0,1,14,21,11,6,4,0,0,1
+409,2007,8-Dec-07,Lake Superior State,T,3,3,"Omaha, NE",0,0,1,15,22,11,6,5,0,0,2
+410,2007,14-Dec-07,Union,L,2,3,"Schenectady, NY",0,1,0,16,3,1,2,0,0,1,0
+411,2007,15-Dec-07,Union,W,4,2,"Schenectady, NY",1,0,0,17,4,2,2,0,1,0,0
+412,2007,18-Dec-07,Minnesota State,W,6,3,"Omaha, NE",1,0,0,18,21,6,12,3,2,0,0
+413,2007,28-Dec-07,Yale,L,3,6,"Omaha, NE",0,1,0,19,4,2,1,1,0,1,0
+414,2007,30-Dec-07,Princeton,L,3,5,"Omaha, NE",0,1,0,20,4,0,4,0,0,2,0
+415,2007,5-Jan-08,Western Michigan,W,6,3,"Kalamazoo, MI",1,0,0,21,21,10,7,4,1,0,0
+416,2007,6-Jan-08,Western Michigan,W,4,2,"Kalamazoo, MI",1,0,0,22,22,11,7,4,2,0,0
+417,2007,11-Jan-08,Miami,L,3,6,"Omaha, NE",0,1,0,23,22,6,14,2,0,1,0
+418,2007,12-Jan-08,Miami,L,1,4,"Omaha, NE",0,1,0,24,23,6,15,2,0,2,0
+419,2007,18-Jan-08,Alaska Fairbanks,W,3,1,"Fairbanks, AK",1,0,0,25,37,11,18,8,1,0,0
+420,2007,19-Jan-08,Alaska Fairbanks,W,4,3,"Fairbanks, AK",1,0,0,26,38,12,18,8,2,0,0
+421,2007,1-Feb-08,Michigan State,W,5,4,"East Lansing, MI",1,0,0,27,27,9,17,1,3,0,0
+422,2007,2-Feb-08,Michigan State,L,2,4,"East Lansing, MI",0,1,0,28,28,9,18,1,0,1,0
+423,2007,8-Feb-08,Ohio State,T,3,3,"Omaha, NE",0,0,1,29,26,11,11,4,0,0,1
+424,2007,9-Feb-08,Ohio State,W,5,2,"Omaha, NE",1,0,0,30,27,12,11,4,1,0,0
+425,2007,15-Feb-08,Bowling Green,W,5,3,"Omaha, NE",1,0,0,31,28,18,8,2,2,0,0
+426,2007,16-Feb-08,Bowling Green,L,1,3,"Omaha, NE",0,1,0,32,29,18,9,2,0,1,0
+427,2007,22-Feb-08,Northern Michigan,L,4,6,"Marquette, MI",0,1,0,33,25,12,11,2,0,2,0
+428,2007,23-Feb-08,Northern Michigan,L,3,4,"Marquette, MI",0,1,0,34,26,12,12,2,0,3,0
+429,2007,26-Feb-08,Minnesota State,W,4,2,"Mankato, MN",1,0,0,35,22,7,12,3,1,0,0
+430,2007,6-Mar-08,Alaska Fairbanks,W,4,3,"Omaha, NE",1,0,0,36,39,13,18,8,2,0,0
+431,2007,8-Mar-08,Alaska Fairbanks,L,3,5,"Omaha, NE",0,1,0,37,40,13,19,8,0,1,0
+432,2007,9-Mar-08,Alaska Fairbanks,W,2,1,"Omaha, NE",1,0,0,38,41,14,19,8,1,0,0
+433,2007,14-Mar-08,Michigan,L,1,10,"Ann Arbor, MI",0,1,0,39,28,4,21,3,0,1,0
+434,2007,15-Mar-08,Michigan,L,1,2,"Ann Arbor, MI",0,1,0,40,29,4,22,3,0,2,0
+435,2008,17-Oct-08,American International College,W,4,1,"Omaha, NE",1,0,0,1,1,1,0,0,1,0,0
+436,2008,18-Oct-08,Union,W,2,1,"Omaha, NE",1,0,0,2,5,3,2,0,2,0,0
+437,2008,24-Oct-08,Mercy Hurst,W,3,1,"Omaha, NE",1,0,0,3,1,1,0,0,3,0,0
+438,2008,25-Oct-08,Mercy Hurst,W,5,2,"Omaha, NE",1,0,0,4,2,2,0,0,4,0,0
+439,2008,31-Oct-08,Bowling Green,L,2,3,"Bowling Green, OH",0,1,0,5,30,18,10,2,0,1,0
+440,2008,1-Nov-08,Bowling Green,W,5,3,"Bowling Green, OH",1,0,0,6,31,19,10,2,1,0,0
+441,2008,7-Nov-08,Western Michigan,T,2,2,"Kalamazoo, MI",0,0,1,7,23,11,7,5,0,0,1
+442,2008,8-Nov-08,Western Michigan,W,5,2,"Kalamazoo, MI",1,0,0,8,24,12,7,5,1,0,0
+443,2008,14-Nov-08,Ferris State,L,2,3,"Omaha, NE",0,1,0,9,23,13,8,2,0,1,0
+444,2008,15-Nov-08,Ferris State,W,4,2,"Omaha, NE",1,0,0,10,24,14,8,2,1,0,0
+445,2008,21-Nov-08,Michigan State,W,7,1,"Omaha, NE",1,0,0,11,29,10,18,1,2,0,0
+446,2008,22-Nov-08,Michigan State,W,3,1,"Omaha, NE",1,0,0,12,30,11,18,1,3,0,0
+447,2008,28-Nov-08,Ohio State,L,3,4,"Columbus, OH",0,1,0,13,28,12,12,4,0,1,0
+448,2008,29-Nov-08,Ohio State,L,2,3,"Columbus, OH",0,1,0,14,29,12,13,4,0,2,0
+449,2008,5-Dec-08,Alaska Fairbanks,T,0,0,"Omaha, NE",0,0,1,15,42,14,19,9,0,0,1
+450,2008,6-Dec-08,Alaska Fairbanks,T,1,1,"Sault St. Marie, MI",0,0,1,16,43,14,19,10,0,0,2
+451,2008,12-Dec-08,Lake Superior State,W,3,2,"Sault St. Marie, MI",1,0,0,17,23,12,6,5,1,0,0
+452,2008,13-Dec-08,Lake Superior State,W,2,1,"New Haven, CT",1,0,0,18,24,13,6,5,2,0,0
+453,2008,29-Dec-08,Yale,W,8,3,"Princeton, NJ",1,0,0,19,5,3,1,1,3,0,0
+454,2008,30-Dec-08,Princeton,L,1,5,"Mankato, MN",0,1,0,20,5,0,5,0,0,1,0
+455,2008,3-Jan-09,Minnesota State,L,3,4,"Omaha, NE",0,1,0,21,23,7,13,3,0,2,0
+456,2008,9-Jan-09,Northern Michigan,W,4,3,"Omaha, NE",1,0,0,22,27,13,12,2,1,0,0
+457,2008,10-Jan-09,Northern Michigan,L,2,3,"Fairbanks, AK",0,1,0,23,28,13,13,2,0,1,0
+458,2008,16-Jan-09,Alaska Fairbanks,L,0,2,"Fairbanks, AK",0,1,0,24,44,14,20,10,0,2,0
+459,2008,17-Jan-09,Alaska Fairbanks,T,1,1,"Omaha, NE",0,0,1,25,45,14,20,11,0,0,1
+460,2008,23-Jan-09,Miami,T,2,2,"Omaha, NE",0,0,1,26,24,6,15,3,0,0,2
+461,2008,24-Jan-09,Miami,L,1,6,"Big Rapids, MI",0,1,0,27,25,6,16,3,0,1,0
+462,2008,30-Jan-09,Ferris State,L,1,7,"Big Rapids, MI",0,1,0,28,25,14,9,2,0,2,0
+463,2008,31-Jan-09,Ferris State,T,1,1,"Omaha, NE",0,0,1,29,26,14,9,3,0,0,1
+464,2008,6-Feb-09,Western Michigan,T,1,1,"Omaha, NE",0,0,1,30,25,12,7,6,0,0,2
+465,2008,7-Feb-09,Western Michigan,L,0,5,"Ann Arbor, MI",0,1,0,31,26,12,8,6,0,1,0
+466,2008,13-Feb-09,Michigan,L,3,8,"Ann Arbor, MI",0,1,0,32,30,4,23,3,0,2,0
+467,2008,14-Feb-09,Michigan,L,2,4,"Omaha, NE",0,1,0,33,31,4,24,3,0,3,0
+468,2008,20-Feb-09,Notre Dame,L,3,4,"Omaha, NE",0,1,0,34,26,9,13,4,0,4,0
+469,2008,21-Feb-09,Notre Dame,L,0,1,"Omaha, NE",0,1,0,35,27,9,14,4,0,5,0
+470,2008,24-Feb-09,Minnesota State,T,2,2,"Omaha, NE",0,0,1,36,24,7,13,4,0,0,1
+471,2008,6-Mar-09,Ferris State,W,3,0,"Omaha, NE",1,0,0,37,27,15,9,3,1,0,0
+472,2008,7-Mar-09,Ferris State,W,5,2,"Omaha, NE",1,0,0,38,28,16,9,3,2,0,0
+473,2008,13-Mar-09,Notre Dame,L,0,5,"South Bend, IN",0,1,0,39,28,9,15,4,0,1,0
+474,2008,14-Mar-09,Notre Dame,L,0,1,"South Bend, IN",0,1,0,40,29,9,16,4,0,2,0
+475,2009,9-Oct-09,Army,W,6,4,"Omaha, NE",1,0,0,1,6,2,4,0,1,0,0
+476,2009,10-Oct-09,Massachusetts-Lowell,W,4,3,"Omaha, NE",1,0,0,2,2,2,0,0,2,0,0
+477,2009,16-Oct-09,Colgate,T,1,1,"Hamilton, NY",0,0,1,3,4,2,0,2,0,0,1
+478,2009,17-Oct-09,Colgate,W,4,1,"Hamilton, NY",1,0,0,4,5,3,0,2,1,0,0
+479,2009,30-Oct-09,Bowling Green,T,3,3,"Omaha, NE",0,0,1,5,32,19,10,3,0,0,1
+480,2009,31-Oct-09,Bowling Green,W,3,1,"Omaha, NE",1,0,0,6,33,20,10,3,1,0,0
+481,2009,5-Nov-09,Michigan State,L,0,3,"East Lansing, MI",0,1,0,7,31,11,19,1,0,1,0
+482,2009,6-Nov-09,Michigan State,T,3,3,"East Lansing, MI",0,0,1,8,32,11,19,2,0,0,1
+483,2009,13-Nov-09,Lake Superior State,W,4,0,"Omaha, NE",1,0,0,9,25,14,6,5,1,0,0
+484,2009,14-Nov-09,Lake Superior State,L,1,3,"Omaha, NE",0,1,0,10,26,14,7,5,0,1,0
+485,2009,20-Nov-09,Northern Michigan,L,1,5,"Marquette, MI",0,1,0,11,29,13,14,2,0,2,0
+486,2009,21-Nov-09,Northern Michigan,L,3,6,"Marquette, MI",0,1,0,12,30,13,15,2,0,3,0
+487,2009,27-Nov-09,Western Michigan,W,4,3,"Omaha, NE",1,0,0,13,27,13,8,6,1,0,0
+488,2009,28-Nov-09,Western Michigan,W,4,2,"Omaha, NE",1,0,0,14,28,14,8,6,2,0,0
+489,2009,4-Dec-09,Ferris State,L,0,2,"Big Rapids, MI",0,1,0,15,29,16,10,3,0,1,0
+490,2009,5-Dec-09,Ferris State,L,1,3,"Big Rapids, MI",0,1,0,16,30,16,11,3,0,2,0
+491,2009,11-Dec-09,Alaska Fairbanks,L,3,4,"Fairbanks, AK",0,1,0,17,46,14,21,11,0,3,0
+492,2009,12-Dec-09,Alaska Fairbanks,W,5,3,"Fairbanks, AK",1,0,0,18,47,15,21,11,1,0,0
+493,2009,18-Dec-09,Minnesota State,T,1,1,"Mankato, MN",0,0,1,19,25,7,13,5,0,0,1
+494,2009,19-Dec-09,Minnesota State,W,2,1,"Omaha, NE",1,0,0,20,26,8,13,5,1,0,0
+495,2009,1-Jan-10,Denver,L,0,7,"Denver, CO",0,1,0,21,9,2,7,0,0,1,0
+496,2009,2-Jan-10,St. Lawrence,T,2,2,"Denver, CO",0,0,1,22,1,0,0,1,0,0,1
+497,2009,8-Jan-10,Alaska Fairbanks,L,1,3,"Omaha, NE",0,1,0,23,48,15,22,11,0,1,0
+498,2009,9-Jan-10,Alaska Fairbanks,W,2,1,"Omaha, NE",1,0,0,24,49,16,22,11,1,0,0
+499,2009,15-Jan-10,Lake Superior State,L,1,2,"Sault St. Marie, MI",0,1,0,25,27,14,8,5,0,1,0
+500,2009,16-Jan-10,Lake Superior State,L,4,5,"Sault St. Marie, MI",0,1,0,26,28,14,9,5,0,2,0
+501,2009,22-Jan-10,Northern Michigan,W,7,2,"Omaha, NE",1,0,0,27,31,14,15,2,1,0,0
+502,2009,23-Jan-10,Northern Michigan,W,5,3,"Omaha, NE",1,0,0,28,32,15,15,2,2,0,0
+503,2009,29-Jan-10,Notre Dame,W,5,3,"South Bend, IN",1,0,0,29,30,10,16,4,3,0,0
+504,2009,30-Jan-10,Notre Dame,L,2,3,"South Bend, IN",0,1,0,30,31,10,17,4,0,1,0
+505,2009,5-Feb-10,Ohio State,T,5,5,"Omaha, NE",0,0,1,31,30,12,13,5,0,0,1
+506,2009,6-Feb-10,Ohio State,W,4,3,"Omaha, NE",1,0,0,32,31,13,13,5,1,0,0
+507,2009,12-Feb-10,Michigan,W,4,3,"Omaha, NE",1,0,0,33,32,5,24,3,2,0,0
+508,2009,13-Feb-10,Michigan,W,4,1,"Omaha, NE",1,0,0,34,33,6,24,3,3,0,0
+509,2009,19-Feb-10,Miami,L,2,6,"Oxford, OH",0,1,0,35,26,6,17,3,0,1,0
+510,2009,20-Feb-10,Miami,W,4,2,"Oxford, OH",1,0,0,36,27,7,17,3,1,0,0
+511,2009,26-Feb-10,Bemidji State,L,1,3,"Omaha, NE",0,1,0,37,5,4,1,0,0,1,0
+512,2009,27-Feb-10,Bemidji State,W,3,2,"Omaha, NE",1,0,0,38,6,5,1,0,1,0,0
+513,2009,5-Mar-10,Bowling Green,W,6,1,"Omaha, NE",1,0,0,39,34,21,10,3,2,0,0
+514,2009,6-Mar-10,Bowling Green,W,6,1,"Omaha, NE",1,0,0,40,35,22,10,3,3,0,0
+515,2009,12-Mar-10,Ferris State,L,1,3,"Big Rapids, MI",0,1,0,41,31,16,12,3,0,1,0
+516,2009,13-Mar-10,Ferris State,L,2,3,"Big Rapids, MI",0,1,0,42,32,16,13,3,0,2,0
+517,2010,8-Oct-10,Clarkson,W,8,0,"Omaha, NE",1,0,0,1,1,1,0,0,1,0,0
+518,2010,9-Oct-10,RIT,W,5,3,"Omaha, NE",1,0,0,2,3,1,2,0,2,0,0
+519,2010,15-Oct-10,Minnesota,W,5,4,"Minneapolis, MN",1,0,0,3,2,1,1,0,3,0,0
+520,2010,16-Oct-10,Minnesota,W,4,2,"Minneapolis, MN",1,0,0,4,3,2,1,0,4,0,0
+521,2010,22-Oct-10,Michigan,W,4,2,"Ann Arbor, MI",1,0,0,5,34,7,24,3,5,0,0
+522,2010,23-Oct-10,Michigan,L,1,6,"Ann Arbor, MI",0,1,0,6,35,7,25,3,0,1,0
+523,2010,5-Nov-10,Minnesota State,W,5,1,"Omaha, NE",1,0,0,7,27,9,13,5,1,0,0
+524,2010,6-Nov-10,Minnesota State,W,5,2,"Omaha, NE",1,0,0,8,28,10,13,5,2,0,0
+525,2010,12-Nov-10,St. Cloud State,W,3,0,"St. Cloud, MN",1,0,0,9,5,1,4,0,3,0,0
+526,2010,13-Nov-10,St. Cloud State,T,4,4,"St. Cloud, MN",0,0,1,10,6,1,4,1,0,0,1
+527,2010,19-Nov-10,North Dakota,L,5,6,"Omaha, NE",0,1,0,11,1,0,1,0,0,1,0
+528,2010,20-Nov-10,North Dakota,W,1,0,"Omaha, NE",1,0,0,12,2,1,1,0,1,0,0
+529,2010,3-Dec-10,Bemidji State,L,0,3,"Bemidji, MN",0,1,0,13,7,5,2,0,0,1,0
+530,2010,4-Dec-10,Bemidji State,L,1,3,"Bemidji, MN",0,1,0,14,8,5,3,0,0,2,0
+531,2010,9-Dec-10,Michigan Tech,W,5,2,"Omaha, NE",1,0,0,15,5,3,2,0,1,0,0
+532,2010,10-Dec-10,Michigan Tech,W,3,1,"Omaha, NE",1,0,0,16,6,4,2,0,2,0,0
+533,2010,18-Dec-10,Colorado College,L,2,5,"Colorado Springs, CO",0,1,0,17,2,0,1,1,0,1,0
+534,2010,19-Dec-10,Colorado College,W,3,0,"Colorado Springs, CO",1,0,0,18,3,1,1,1,1,0,0
+535,2010,30-Dec-10,Quinnipiac,L,3,4,"Hamden, CT",0,1,0,19,1,0,1,0,0,1,0
+536,2010,31-Dec-10,Quinnipiac,L,2,3,"Hamden, CT",0,1,0,20,2,0,2,0,0,2,0
+537,2010,14-Jan-11,Bemidji State,T,2,2,"Omaha, NE",0,0,1,21,9,5,3,1,0,0,1
+538,2010,15-Jan-11,Bemidji State,L,2,3,"Omaha, NE",0,1,0,22,10,5,4,1,0,1,0
+539,2010,21-Jan-11,North Dakota,W,8,4,"Grand Forks, ND",1,0,0,23,3,2,1,0,1,0,0
+540,2010,22-Jan-11,North Dakota,L,2,4,"Grand Forks, ND",0,1,0,24,4,2,2,0,0,1,0
+541,2010,28-Jan-11,Alabama-Huntsville,W,4,0,"Omaha, NE",1,0,0,25,9,7,0,2,1,0,0
+542,2010,29-Jan-11,Alabama-Huntsville,L,1,2,"Omaha, NE",0,1,0,26,10,7,1,2,0,1,0
+543,2010,4-Feb-11,St. Cloud State,W,3,0,"Omaha, NE",1,0,0,27,7,2,4,1,1,0,0
+544,2010,5-Feb-11,St. Cloud State,W,4,3,"Omaha, NE",1,0,0,28,8,3,4,1,2,0,0
+545,2010,11-Feb-11,Wisconsin,W,4,1,"Omaha, NE",1,0,0,29,6,1,5,0,3,0,0
+546,2010,12-Feb-11,Wisconsin,W,4,3,"Omaha, NE",1,0,0,30,7,2,5,0,4,0,0
+547,2010,18-Feb-11,Alaska Anchorage,L,2,3,"Anchorage, AK",0,1,0,31,2,0,1,1,0,1,0
+548,2010,19-Feb-11,Alaska Anchorage,W,4,1,"Anchorage, AK",1,0,0,32,3,1,1,1,1,0,0
+549,2010,25-Feb-11,Denver,W,5,2,"Omaha, NE",1,0,0,33,10,3,7,0,2,0,0
+550,2010,26-Feb-11,Denver,L,2,4,"Omaha, NE",0,1,0,34,11,3,8,0,0,1,0
+551,2010,4-Mar-11,Minnesota Duluth,L,1,4,"Duluth, MN",0,1,0,35,1,0,1,0,0,2,0
+552,2010,5-Mar-11,Minnesota Duluth,W,5,2,"Duluth, MN",1,0,0,36,2,1,1,0,1,0,0
+553,2010,11-Mar-11,Bemidji State,L,2,4,"Omaha, NE",0,1,0,37,11,5,5,1,0,1,0
+554,2010,12-Mar-11,Bemidji State,L,2,3,"Omaha, NE",0,1,0,38,12,5,6,1,0,2,0
+555,2010,25-Mar-11,Michigan,L,2,3,"St. Louis, MO",0,1,0,39,36,7,26,3,0,3,0
+556,2011,7-Oct-11,Mercy Hurst,W,5,1,"Omaha, NE",1,0,0,1,3,3,0,0,1,0,0
+557,2011,8-Oct-11,Colgate,L,3,4,"Omaha, NE",0,1,0,2,6,3,1,2,0,1,0
+558,2011,14-Oct-11,Alaska Anchorage,L,0,3,"Fairbanks, AK",0,1,0,3,4,1,2,1,0,2,0
+559,2011,15-Oct-11,Alaska Fairbanks,L,1,4,"Fairbanks, AK",0,1,0,4,50,16,23,11,0,3,0
+560,2011,21-Oct-11,Alaska Anchorage,W,4,1,"Omaha, NE",1,0,0,5,5,2,2,1,1,0,0
+561,2011,22-Oct-11,Alaska Anchorage,W,3,1,"Omaha, NE",1,0,0,6,6,3,2,1,2,0,0
+562,2011,28-Oct-11,Wisconsin,W,5,4,"Madison, WI",1,0,0,7,8,3,5,0,3,0,0
+563,2011,29-Oct-11,Wisconsin,L,3,6,"Madison, WI",0,1,0,8,9,3,6,0,0,1,0
+564,2011,4-Nov-11,Colorado College,W,7,5,"Omaha, NE",1,0,0,9,4,2,1,1,1,0,0
+565,2011,5-Nov-11,Colorado College,L,2,5,"Omaha, NE",0,1,0,10,5,2,2,1,0,1,0
+566,2011,11-Nov-11,Bemidji State,T,3,3,"Bemidji, MN",0,0,1,11,13,5,6,2,0,0,1
+567,2011,12-Nov-11,Bemidji State,W,5,1,"Bemidji, MN",1,0,0,12,14,6,6,2,1,0,0
+568,2011,18-Nov-11,Denver,L,3,7,"Denver, CO",0,1,0,13,12,3,9,0,0,1,0
+569,2011,19-Nov-11,Denver,T,3,3,"Denver, CO",0,0,1,14,13,3,9,1,0,0,1
+570,2011,26-Nov-11,St. Cloud State,W,4,3,"Omaha, NE",1,0,0,15,9,4,4,1,1,0,0
+571,2011,27-Nov-11,St. Cloud State,T,2,2,"Omaha, NE",0,0,1,16,10,4,4,2,0,0,1
+572,2011,2-Dec-11,Alabama-Huntsville,L,1,3,"Nashville, TN",0,1,0,17,11,7,2,2,0,1,0
+573,2011,3-Dec-11,Alabama-Huntsville,W,6,2,"Nashville, TN",1,0,0,18,12,8,2,2,1,0,0
+574,2011,9-Dec-11,North Dakota,W,2,1,"Grand Forks, ND",1,0,0,19,5,3,2,0,2,0,0
+575,2011,10-Dec-11,North Dakota,L,0,1,"Grand Forks, ND",0,1,0,20,6,3,3,0,0,1,0
+576,2011,30-Dec-11,Quinnipiac,T,2,2,"Omaha, NE",0,0,1,21,3,0,2,1,0,0,1
+577,2011,31-Dec-11,Quinnipiac,W,4,1,"Omaha, NE",1,0,0,22,4,1,2,1,1,0,0
+578,2011,13-Jan-12,Minnesota Duluth,L,2,6,"Omaha, NE",0,1,0,23,3,1,2,0,0,1,0
+579,2011,14-Jan-12,Minnesota Duluth,W,3,1,"Omaha, NE",1,0,0,24,4,2,2,0,1,0,0
+580,2011,20-Jan-12,Minnesota State,W,2,1,"Mankato, MN",1,0,0,25,29,11,13,5,2,0,0
+581,2011,21-Jan-12,Minnesota State,L,4,5,"Mankato, MN",0,1,0,26,30,11,14,5,0,1,0
+582,2011,3-Feb-12,Bemidji State,T,1,1,"Omaha, NE",0,0,1,27,15,6,6,3,0,0,1
+583,2011,4-Feb-12,Bemidji State,L,4,6,"Omaha, NE",0,1,0,28,16,6,7,3,0,1,0
+584,2011,10-Feb-12,Michigan Tech,T,3,3,"Houghton, MI",0,0,1,29,7,4,2,1,0,0,1
+585,2011,11-Feb-12,Michigan Tech,W,4,0,"Houghton, MI",1,0,0,30,8,5,2,1,1,0,0
+586,2011,17-Feb-12,Colorado College,L,3,4,"Colorado Springs, CO",0,1,0,31,6,2,3,1,0,1,0
+587,2011,18-Feb-12,Colorado College,W,5,3,"Colorado Springs, CO",1,0,0,32,7,3,3,1,1,0,0
+588,2011,24-Feb-12,Minnesota,L,2,3,"Omaha, NE",0,1,0,33,4,2,2,0,0,1,0
+589,2011,25-Feb-12,Minnesota,L,2,3,"Omaha, NE",0,1,0,34,5,2,3,0,0,2,0
+590,2011,2-Mar-12,Denver,L,0,3,"Omaha, NE",0,1,0,35,14,3,10,1,0,3,0
+591,2011,3-Mar-12,Denver,L,2,3,"Omaha, NE",0,1,0,36,15,3,11,1,0,4,0
+592,2011,9-Mar-12,St. Cloud State,L,0,4,"St. Cloud, MN",0,1,0,37,11,4,5,2,0,5,0
+593,2011,10-Mar-12,St. Cloud State,L,1,3,"St. Cloud, MN",0,1,0,38,12,4,6,2,0,6,0
+594,2012,12-Oct-12,Army,W,5,1,"Kansas City, MO",1,0,0,1,7,3,4,0,1,0,0
+595,2012,13-Oct-12,Notre Dame,L,2,3,"Kansas City, MO",0,1,0,2,32,10,18,4,0,1,0
+596,2012,19-Oct-12,Northern Michigan,W,5,2,"Omaha, NE",1,0,0,3,33,16,15,2,1,0,0
+597,2012,20-Oct-12,Northern Michigan,L,1,2,"Omaha, NE",0,1,0,4,34,16,16,2,0,1,0
+598,2012,26-Oct-12,Bemidji State,T,3,3,"Omaha, NE",0,0,1,5,17,6,7,4,0,0,1
+599,2012,27-Oct-12,Bemidji State,L,2,3,"Omaha, NE",0,1,0,6,18,6,8,4,0,1,0
+600,2012,2-Nov-12,Michigan Tech,W,2,1,"Houghton, MI",1,0,0,7,9,6,2,1,1,0,0
+601,2012,3-Nov-12,Michigan Tech,W,5,3,"Houghton, MI",1,0,0,8,10,7,2,1,2,0,0
+602,2012,10-Nov-12,Minnesota Duluth,W,3,2,"Omaha, NE",1,0,0,9,5,3,2,0,3,0,0
+603,2012,11-Nov-12,Minnesota Duluth,W,6,3,"Omaha, NE",1,0,0,10,6,4,2,0,4,0,0
+604,2012,23-Nov-12,Alabama-Huntsville,W,3,2,"Omaha, NE",1,0,0,11,13,9,2,2,5,0,0
+605,2012,24-Nov-12,Alabama-Huntsville,W,8,0,"Omaha, NE",1,0,0,12,14,10,2,2,6,0,0
+606,2012,30-Nov-12,Minnesota,W,3,2,"Minneapolis, MN",1,0,0,13,6,3,3,0,7,0,0
+607,2012,1-Dec-12,Minnesota,L,2,3,"Minneapolis, MN",0,1,0,14,7,3,4,0,0,1,0
+608,2012,7-Dec-12,St. Cloud State,W,6,5,"St. Cloud, MN",1,0,0,15,13,5,6,2,1,0,0
+609,2012,8-Dec-12,St. Cloud State,L,1,2,"St. Cloud, MN",0,1,0,16,14,5,7,2,0,1,0
+610,2012,14-Dec-12,Minnesota State,L,3,6,"Omaha, NE",0,1,0,17,31,11,15,5,0,2,0
+611,2012,15-Dec-12,Minnesota State,W,5,1,"Omaha, NE",1,0,0,18,32,12,15,5,1,0,0
+612,2012,29-Dec-12,Quinnipiac,L,4,5,"Hamden, CT",0,1,0,19,5,1,3,1,0,1,0
+613,2012,30-Dec-12,Quinnipiac,L,1,3,"Hamden, CT",0,1,0,20,6,1,4,1,0,2,0
+614,2012,4-Jan-13,Colorado College,W,8,4,"Omaha, NE",1,0,0,21,8,4,3,1,1,0,0
+615,2012,5-Jan-13,Colorado College,W,3,1,"Omaha, NE",1,0,0,22,9,5,3,1,2,0,0
+616,2012,11-Jan-12,Denver,L,4,7,"Denver, CO",0,1,0,23,16,3,12,1,0,1,0
+617,2012,12-Jan-13,Denver,T,3,3,"Denver, CO",0,0,1,24,17,3,12,2,0,0,1
+618,2012,25-Jan-13,Bemidji State,W,5,3,"Bemidji, MN",1,0,0,25,19,7,8,4,1,0,0
+619,2012,26-Jan-13,Bemidji State,W,2,1,"Bemidji, MN",1,0,0,26,20,8,8,4,2,0,0
+620,2012,1-Feb-13,Michigan Tech,W,4,3,"Omaha, NE",1,0,0,27,11,8,2,1,3,0,0
+621,2012,2-Feb-13,Michigan Tech,L,1,2,"Omaha, NE",0,1,0,28,12,8,3,1,0,1,0
+622,2012,8-Feb-13,North Dakota,L,1,2,"Omaha, NE",0,1,0,29,7,3,4,0,0,2,0
+623,2012,9-Feb-13,North Dakota,L,2,5,"Omaha, NE",0,1,0,30,8,3,5,0,0,3,0
+624,2012,15-Feb-13,Alaska Anchorage,W,3,0,"Anchorage, AK",1,0,0,31,7,4,2,1,1,0,0
+625,2012,16-Feb-13,Alaska Anchorage,W,6,5,"Anchorage, AK",1,0,0,32,8,5,2,1,2,0,0
+626,2012,1-Mar-13,Wisconsin,L,3,4,"Omaha, NE",0,1,0,33,10,3,7,0,0,1,0
+627,2012,2-Mar-13,Wisconsin,L,2,6,"Omaha, NE",0,1,0,34,11,3,8,0,0,2,0
+628,2012,8-Mar-13,Minnesota Duluth,L,4,5,"Duluth, MN",0,1,0,35,7,4,3,0,0,3,0
+629,2012,9-Mar-13,Minnesota Duluth,L,0,6,"Duluth, MN",0,1,0,36,8,4,4,0,0,4,0
+630,2012,15-Mar-13,Minnesota State,L,3,4,"Mankato, MN",0,1,0,37,33,12,16,5,0,5,0
+631,2012,16-Mar-13,Minnesota State,W,2,1,"Mankato, MN",1,0,0,38,34,13,16,5,1,0,0
+632,2012,17-Mar-13,Minnesota State,L,1,3,"Mankato, MN",0,1,0,39,35,13,17,5,0,1,0
+633,2013,11-Oct-13,Bentley,L,4,6,"Omaha, NE",0,1,0,1,3,2,1,0,0,2,0
+634,2013,12-Oct-13,Bentley,W,4,2,"Omaha, NE",1,0,0,2,4,3,1,0,1,0,0
+635,2013,18-Oct-13,Northern Michigan,W,2,1,"Marquette, MI",1,0,0,3,35,17,16,2,2,0,0
+636,2013,19-Oct-13,Northern Michigan,L,3,6,"Marquette, MI",0,1,0,4,36,17,17,2,0,1,0
+637,2013,25-Oct-13,Cornell,L,3,5,"Omaha, NE",0,1,0,5,1,0,1,0,0,2,0
+638,2013,26-Oct-13,Cornell,L,3,4,"Omaha, NE",0,1,0,6,2,0,2,0,0,3,0
+639,2013,1-Nov-13,Denver,W,3,2,"Denver, CO",1,0,0,7,18,4,12,2,1,0,0
+640,2013,2-Dec-13,Denver,W,3,2,"Denver, CO",1,0,0,8,19,5,12,2,2,0,0
+641,2013,9-Nov-13,North Dakota,W,4,2,"Omaha, NE",1,0,0,9,9,4,5,0,3,0,0
+642,2013,10-Nov-13,North Dakota,L,2,3,"Omaha, NE",0,1,0,10,10,4,6,0,0,1,0
+643,2013,15-Nov-13,Michigan,W,3,2,"Omaha, NE",1,0,0,11,37,8,26,3,1,0,0
+644,2013,16-Nov-13,Michigan,L,3,4,"Omaha, NE",0,1,0,12,38,8,27,3,0,1,0
+645,2013,22-Nov-13,Miami,W,6,3,"Omaha, NE",1,0,0,13,28,8,17,3,1,0,0
+646,2013,23-Nov-13,Miami,W,3,1,"Omaha, NE",1,0,0,14,29,9,17,3,2,0,0
+647,2013,6-Dec-13,Colorado College,L,2,4,"Colorado Springs, CO",0,1,0,15,10,5,4,1,0,1,0
+648,2013,7-Dec-13,Colorado College,T,3,3,"Colorado Springs, CO",0,0,1,16,11,5,4,2,0,0,1
+649,2013,3-Jan-14,New Hampshire,L,3,6,"Durham, NH",0,1,0,17,3,1,2,0,0,1,0
+650,2013,4-Jan-14,New Hampshire,L,2,5,"Durham, NH",0,1,0,18,4,1,3,0,0,2,0
+651,2013,10-Jan-14,Minnesota Duluth,L,2,3,"Omaha, NE",0,1,0,19,9,4,5,0,0,3,0
+652,2013,11-Jan-14,Minnesota Duluth,L,1,3,"Omaha, NE",0,1,0,20,10,4,6,0,0,4,0
+653,2013,17-Jan-14,Miami,T,2,2,"Oxford, OH",0,0,1,21,30,9,17,4,0,0,1
+654,2013,18-Jan-14,Miami,W,5,1,"Oxford, OH",1,0,0,22,31,10,17,4,1,0,0
+655,2013,31-Jan-14,St. Cloud State,L,3,5,"Omaha, NE",0,1,0,23,15,5,8,2,0,1,0
+656,2013,1-Feb-14,St. Cloud State,W,8,6,"Omaha, NE",1,0,0,24,16,6,8,2,1,0,0
+657,2013,7-Feb-14,North Dakota,L,2,4,"Grand Forks, ND",0,1,0,25,11,4,7,0,0,1,0
+658,2013,8-Feb-14,North Dakota,W,6,3,"Grand Forks, ND",1,0,0,26,12,5,7,0,1,0,0
+659,2013,14-Feb-14,Denver,W,4,2,"Omaha, NE",1,0,0,27,20,6,12,2,2,0,0
+660,2013,15-Feb-14,Denver,L,1,4,"Omaha, NE",0,1,0,28,21,6,13,2,0,1,0
+661,2013,21-Feb-14,Western Michigan,W,5,1,"Kalamazoo, MI",1,0,0,29,29,15,8,6,1,0,0
+662,2013,22-Feb-14,Western Michigan,L,3,5,"Kalamazoo, MI",0,1,0,30,30,15,9,6,0,1,0
+663,2013,28-Feb-14,Colorado College,W,6,0,"Omaha, NE",1,0,0,31,12,6,4,2,1,0,0
+664,2013,1-Mar-14,Colorado College,W,2,1,"Omaha, NE",1,0,0,32,13,7,4,2,2,0,0
+665,2013,7-Mar-14,Minnesota Duluth,L,2,8,"Duluth, MN",0,1,0,33,11,4,7,0,0,1,0
+666,2013,8-Mar-14,Minnesota Duluth,W,4,1,"Duluth, MN",1,0,0,34,12,5,7,0,1,0,0
+667,2013,13-Mar-14,Denver,W,4,3,"Omaha, NE",1,0,0,35,22,7,13,2,2,0,0
+668,2013,14-Mar-14,Denver,L,1,5,"Omaha, NE",0,1,0,36,23,7,14,2,0,1,0
+669,2013,15-Mar-14,Denver,L,0,2,"Omaha, NE",0,1,0,37,24,7,15,2,0,2,0
+670,2014,10-Oct-14,Minnesota State,W,5,3,"Omaha, NE",1,0,0,1,36,14,17,5,1,0,0
+671,2014,11-Oct-14,Minnesota State,L,2,4,"Omaha, NE",0,1,0,2,37,14,18,5,0,1,0
+672,2014,17-Oct-14,Western Michigan,W,5,2,"Kalamazoo, MI",1,0,0,3,31,16,9,6,1,0,0
+673,2014,18-Oct-14,Western Michigan,W,3,0,"Kalamazoo, MI",1,0,0,4,32,17,9,6,2,0,0
+674,2014,31-Oct-14,Cornell,T,1,1,"Ithaca, NY",0,0,1,5,3,0,2,1,0,0,1
+675,2014,1-Nov-14,Cornell,W,2,1,"Ithaca, NY",1,0,0,6,4,1,2,1,1,0,0
+676,2014,7-Nov-14,Ohio State,W,4,1,"Columbus, OH",1,0,0,7,32,14,13,5,2,0,0
+677,2014,8-Nov-14,Ohio State,W,4,3,"Columbus, OH",1,0,0,8,33,15,13,5,3,0,0
+678,2014,21-Nov-14,Minnesota Duluth,L,2,3,"Omaha, NE",0,1,0,9,13,5,8,0,0,1,0
+679,2014,22-Nov-14,Minnesota Duluth,W,4,1,"Omaha, NE",1,0,0,10,14,6,8,0,1,0,0
+680,2014,28-Nov-14,North Dakota,T,2,2,"Grand Forks, ND",0,0,1,11,13,5,7,1,0,0,1
+681,2014,29-Nov-14,North Dakota,L,2,3,"Grand Forks, ND",0,1,0,12,14,5,8,1,0,1,0
+682,2014,5-Dec-14,Miami,L,2,8,"Oxford, OH",0,1,0,13,32,10,18,4,0,2,0
+683,2014,6-Nov-14,Miami,W,5,2,"Oxford, OH",1,0,0,14,33,11,18,4,1,0,0
+684,2014,12-Dec-14,St. Cloud State,W,3,2,"Omaha, NE",1,0,0,15,17,7,8,2,2,0,0
+685,2014,13-Dec-14,St. Cloud State,W,5,3,"Omaha, NE",1,0,0,16,18,8,8,2,3,0,0
+686,2014,20-Dec-14,Alabama-Huntsville,W,2,1,"Omaha, NE",1,0,0,17,15,11,2,2,4,0,0
+687,2014,21-Dec-14,Alabama-Huntsville,T,3,3,"Omaha, NE",0,0,1,18,16,11,2,3,0,0,1
+688,2014,30-Dec-14,New Hampshire,W,2,1,"Omaha, NE",1,0,0,19,5,2,3,0,1,0,0
+689,2014,31-Dec-14,New Hampshire,L,2,6,"Omaha, NE",0,1,0,20,6,2,4,0,0,1,0
+690,2014,9-Jan-15,Denver,W,5,4,"Omaha, NE",1,0,0,21,25,8,15,2,1,0,0
+691,2014,10-Jan-15,Denver,W,1,0,"Omaha, NE",1,0,0,22,26,9,15,2,2,0,0
+692,2014,16-Jan-15,Colorado College,L,3,4,"Colorado Springs, CO",0,1,0,23,14,7,5,2,0,1,0
+693,2014,17-Jan-15,Colorado College,W,4,1,"Colorado Springs, CO",1,0,0,24,15,8,5,2,1,0,0
+694,2014,30-Jan-15,North Dakota,W,3,2,"Omaha, NE",1,0,0,25,15,6,8,1,2,0,0
+695,2014,31-Jan-15,North Dakota,L,3,4,"Omaha, NE",0,1,0,26,16,6,9,1,0,1,0
+696,2014,13-Feb-15,Western Michigan,L,1,2,"Omaha, NE",0,1,0,27,33,17,10,6,0,2,0
+697,2014,14-Feb-15,Western Michigan,W,3,1,"Omaha, NE",1,0,0,28,34,18,10,6,1,0,0
+698,2014,20-Feb-15,St. Cloud State,L,3,4,"St. Cloud, MN",0,1,0,29,19,8,9,2,0,1,0
+699,2014,21-Feb-15,St. Cloud State,L,0,2,"St. Cloud, MN",0,1,0,30,20,8,10,2,0,2,0
+700,2014,27-Feb-15,Minnesota Duluth,T,1,1,"Duluth, MN",0,0,1,31,15,6,8,1,0,0,1
+701,2014,28-Feb-15,Minnesota Duluth,T,1,1,"Duluth, MN",0,0,1,32,16,6,8,2,0,0,2
+702,2014,6-Mar-15,Colorado College,T,2,2,"Omaha, NE",0,0,1,33,16,8,5,3,0,0,3
+703,2014,7-Mar-15,Colorado College,W,4,2,"Omaha, NE",1,0,0,34,17,9,5,3,1,0,0
+704,2014,13-Mar-15,St. Cloud State,L,1,2,"Omaha, NE",0,1,0,35,21,8,11,2,0,1,0
+705,2014,14-Mar-15,St. Cloud State,L,1,3,"Omaha, NE",0,1,0,36,22,8,12,2,0,2,0
+706,2014,28-Mar-15,Harvard,W,4,1,"South Bend, IN",1,0,0,37,3,1,2,0,1,0,0
+707,2014,29-Mar-15,RIT,W,4,0,"South Bend, IN",1,0,0,38,4,2,2,0,2,0,0
+708,2014,9-Apr-15,Providence,L,1,4,"Boston, MA",0,1,0,39,2,1,1,0,0,1,0
+709,2015,9-Oct-15,Minnesota State,W,3,2,"Mankato, MN",1,0,0,1,38,15,18,5,1,0,0
+710,2015,10-Oct-15,Minnesota State,W,2,0,"Mankato, MN",1,0,0,2,39,16,18,5,2,0,0
+711,2015,16-Oct-15,Vermont,W,4,3,"Burlington, VT",1,0,0,3,1,1,0,0,3,0,0
+712,2015,17-Oct-15,Vermont,W,3,1,"Burlington, VT",1,0,0,4,2,2,0,0,4,0,0
+713,2015,23-Oct-15,Air Force,W,4,2,"Omaha, NE",1,0,0,5,7,6,1,0,5,0,0
+714,2015,24-Oct-15,Air Force,W,4,1,"Omaha, NE",1,0,0,6,8,7,1,0,6,0,0
+715,2015,30-Oct-15,Western Michigan,L,2,4,"Kalamazoo, MI",0,1,0,7,35,18,11,6,0,1,0
+716,2015,31-Oct-15,Western Michigan,L,1,6,"Kalamazoo, MI",0,1,0,8,36,18,12,6,0,2,0
+717,2015,6-Nov-15,Minnesota Duluth,W,4,2,"Omaha, NE",1,0,0,9,17,7,8,2,1,0,0
+718,2015,7-Nov-15,Minnesota Duluth,W,4,2,"Omaha, NE",1,0,0,10,18,8,8,2,2,0,0
+719,2015,20-Nov-15,Miami,T,3,3,"Oxford, OH",0,0,1,11,34,11,18,5,0,0,1
+720,2015,21-Nov-15,Miami,W,3,2,"Oxford, OH",1,0,0,12,35,12,18,5,1,0,0
+721,2015,27-Nov-15,Ohio State,W,3,1,"Omaha, NE",1,0,0,13,34,16,13,5,2,0,0
+722,2015,28-Nov-15,Ohio State,W,6,4,"Omaha, NE",1,0,0,14,35,17,13,5,3,0,0
+723,2015,4-Dec-15,St. Cloud State,L,1,4,"St. Cloud, MN",0,1,0,15,23,8,13,2,0,1,0
+724,2015,5-Dec-15,St. Cloud State,W,7,2,"St. Cloud, MN",1,0,0,16,24,9,13,2,1,0,0
+725,2015,19-Dec-15,Arizona State,W,3,1,"Omaha, NE",1,0,0,17,1,1,0,0,2,0,0
+726,2015,20-Dec-15,Arizona State,W,6,0,"Omaha, NE",1,0,0,18,2,2,0,0,3,0,0
+727,2015,8-Jan-16,Denver,L,0,3,"Omaha, NE",0,1,0,19,27,9,16,2,0,1,0
+728,2015,9-Jan-16,Denver,L,3,4,"Omaha, NE",0,1,0,20,28,9,17,2,0,2,0
+729,2015,15-Jan-16,North Dakota,W,4,3,"Grand Forks, ND",1,0,0,21,17,7,9,1,1,0,0
+730,2015,16-Jan-16,North Dakota,L,1,5,"Grand Forks, ND",0,1,0,22,18,7,10,1,0,1,0
+731,2015,22-Jan-16,Miami,L,1,3,"Omaha, NE",0,1,0,23,36,12,19,5,0,2,0
+732,2015,23-Jan-16,Miami,L,3,7,"Omaha, NE",0,1,0,24,37,12,20,5,0,3,0
+733,2015,29-Jan-16,Colorado College,L,1,5,"Colorado Springs, CO",0,1,0,25,18,9,6,3,0,4,0
+734,2015,30-Jan-16,Colorado College,W,6,1,"Colorado Springs, CO",1,0,0,26,19,10,6,3,1,0,0
+735,2015,12-Feb-16,Western Michigan,W,2,1,"Omaha, NE",1,0,0,27,37,19,12,6,2,0,0
+736,2015,13-Feb-16,Western Michigan,W,6,3,"Omaha, NE",1,0,0,28,38,20,12,6,3,0,0
+737,2015,19-Feb-16,St. Cloud State,L,1,4,"Omaha, NE",0,1,0,29,25,9,14,2,0,1,0
+738,2015,20-Feb-16,St. Cloud State,L,3,6,"Omaha, NE",0,1,0,30,26,9,15,2,0,2,0
+739,2015,26-Feb-16,North Dakota,L,2,4,"Omaha, NE",0,1,0,31,19,7,11,1,0,3,0
+740,2015,27-Feb-16,North Dakota,L,1,4,"Omaha, NE",0,1,0,32,20,7,12,1,0,4,0
+741,2015,4-Mar-16,Denver,L,0,3,"Denver, CO",0,1,0,33,29,9,18,2,0,5,0
+742,2015,5-Mar-16,Denver,L,1,2,"Denver, CO",0,1,0,34,30,9,19,2,0,6,0
+743,2015,11-Mar-16,Denver,L,2,5,"Denver, CO",0,1,0,35,31,9,20,2,0,7,0
+744,2015,12-Mar-16,Denver,L,3,4,"Denver, CO",0,1,0,36,32,9,21,2,0,8,0
+745,2016,14-Oct-16,Alaska Anchorage,W,3,1,"Fairbanks, AK",1,0,0,1,9,6,2,1,1,0,0
+746,2016,15-Oct-16,Alaska Fairbanks,W,4,3,"Fairbanks, AK",1,0,0,2,51,17,23,11,2,0,0
+747,2016,21-Oct-16,Vermont,T,4,4,"Omaha, NE",0,0,1,3,3,2,0,1,0,0,1
+748,2016,22-Oct-16,Vermont,L,2,5,"Omaha, NE",0,1,0,4,4,2,1,1,0,1,0
+749,2016,28-Oct-16,Massachusetts-Lowell,W,5,1,"Omaha, NE",1,0,0,5,3,3,0,0,1,0,0
+750,2016,29-Oct-16,Massachusetts-Lowell,L,2,4,"Omaha, NE",0,1,0,6,4,3,1,0,0,1,0
+751,2016,4-Nov-16,Colorado College,L,1,2,"Omaha, NE",0,1,0,7,20,10,7,3,0,2,0
+752,2016,5-Nov-16,Colorado College,W,6,4,"Omaha, NE",1,0,0,8,21,11,7,3,1,0,0
+753,2016,11-Nov-16,Miami,W,6,4,"Oxford, OH",1,0,0,9,38,13,20,5,2,0,0
+754,2016,12-Nov-16,Miami,W,6,2,"Oxford, OH",1,0,0,10,39,14,20,5,3,0,0
+755,2016,18-Nov-16,Minnesota Duluth,L,4,6,"Omaha, NE",0,1,0,11,19,8,9,2,0,1,0
+756,2016,19-Nov-16,Minnesota Duluth,L,2,3,"Omaha, NE",0,1,0,12,20,8,10,2,0,2,0
+757,2016,25-Nov-16,Northern Michigan,T,2,2,"Marquette, MI",0,0,1,13,37,17,17,3,0,0,1
+758,2016,26-Nov-16,Northern Michigan,W,2,0,"Marquette, MI",1,0,0,14,38,18,17,3,1,0,0
+759,2016,2-Dec-16,Wisconsin,T,3,3,"Madison, WI",0,0,1,15,12,3,8,1,0,0,1
+760,2016,3-Dec-16,Wisconsin,W,7,4,"Madison, WI",1,0,0,16,13,4,8,1,1,0,0
+761,2016,9-Dec-16,St. Cloud State,W,3,1,"St. Cloud, MN",1,0,0,17,27,10,15,2,2,0,0
+762,2016,10-Dec-16,St. Cloud State,L,2,4,"St. Cloud, MN",0,1,0,18,28,10,16,2,0,1,0
+763,2016,30-Dec-16,Lake Superior State,W,4,1,"Omaha, NE",1,0,0,19,29,15,9,5,1,0,0
+764,2016,31-Dec-16,Lake Superior State,W,5,3,"Omaha, NE",1,0,0,20,30,16,9,5,2,0,0
+765,2016,6-Jan-17,North Dakota,L,1,9,"Omaha, NE",0,1,0,21,21,7,13,1,0,1,0
+766,2016,7-Jan-17,North Dakota,L,3,7,"Omaha, NE",0,1,0,22,22,7,14,1,0,2,0
+767,2016,13-Jan-17,Colorado College,W,5,2,"Colorado Springs, CO",1,0,0,23,22,12,7,3,1,0,0
+768,2016,14-Jan-17,Colorado College,W,4,2,"Colorado Springs, CO",1,0,0,24,23,13,7,3,2,0,0
+769,2016,20-Jan-17,Miami,T,3,3,"Omaha, NE",0,0,1,25,40,14,20,6,0,0,1
+770,2016,21-Jan-17,Miami,W,2,0,"Omaha, NE",1,0,0,26,41,15,20,6,1,0,0
+771,2016,27-Jan-17,Denver,L,3,5,"Denver, CO",0,1,0,27,33,9,22,2,0,1,0
+772,2016,28-Jan-17,Denver,L,0,5,"Denver, CO",0,1,0,28,34,9,23,2,0,2,0
+773,2016,3-Feb-17,Minnesota Duluth,T,2,2,"Duluth, MN",0,0,1,29,21,8,10,3,0,0,1
+774,2016,4-Feb-17,Minnesota Duluth,L,0,5,"Duluth, MN",0,1,0,30,22,8,11,3,0,1,0
+775,2016,10-Feb-17,Western Michigan,L,6,7,"Omaha, NE",0,1,0,31,39,20,13,6,0,2,0
+776,2016,11-Feb-17,Western Michigan,W,6,3,"Omaha, NE",1,0,0,32,40,21,13,6,1,0,0
+777,2016,24-Feb-17,North Dakota,L,4,6,"Grand Forks, ND",0,1,0,33,23,7,15,1,0,1,0
+778,2016,25-Feb-17,North Dakota,W,3,0,"Grand Forks, ND",1,0,0,34,24,8,15,1,1,0,0
+779,2016,3-Mar-17,Denver,L,2,4,"Omaha, NE",0,1,0,35,35,9,24,2,0,1,0
+780,2016,4-Mar-17,Denver,L,0,3,"Omaha, NE",0,1,0,36,36,9,25,2,0,2,0
+781,2016,10-Mar-17,Western Michigan,W,2,1,"Kalamazoo, MI",1,0,0,37,41,22,13,6,1,0,0
+782,2016,11-Mar-17,Western Michigan,L,2,5,"Kalamazoo, MI",0,1,0,38,42,22,14,6,0,1,0
+783,2016,12-Mar-17,Western Michigan,L,1,2,"Kalamazoo, MI",0,1,0,39,43,22,15,6,0,2,0
+784,2017,13-Oct-17,Massachusetts-Lowell,W,4,2,"Lowell, MA",1,0,0,1,5,4,1,0,1,0,0
+785,2017,14-Oct-17,Massachusetts-Lowell,L,2,5,"Lowell, MA",0,1,0,2,6,4,2,0,0,1,0
+786,2017,20-Oct-17,Arizona State,W,5,1,"Omaha, NE",1,0,0,3,3,3,0,0,1,0,0
+787,2017,21-Oct-17,Arizona State,T,4,4,"Omaha, NE",0,0,1,4,4,3,0,1,0,0,1
+788,2017,26-Oct-17,Notre Dame,W,6,4,"South Bend, IN",1,0,0,5,33,11,18,4,1,0,0
+789,2017,27-Oct-17,Notre Dame,L,4,5,"South Bend, IN",0,1,0,6,34,11,19,4,0,1,0
+790,2017,10-Nov-17,Colorado College,W,5,3,"Colorado Springs, CO",1,0,0,7,24,14,7,3,1,0,0
+791,2017,11-Nov-17,Colorado College,L,0,4,"Colorado Springs, CO",0,1,0,8,25,14,8,3,0,1,0
+792,2017,17-Nov-17,Western Michigan,L,1,4,"Kalamazoo, MI",0,1,0,9,44,22,16,6,0,2,0
+793,2017,18-Nov-17,Western Michigan,L,2,5,"Kalamazoo, MI",0,1,0,10,45,22,17,6,0,3,0
+794,2017,24-Nov-17,Northern Michigan,W,4,3,"Omaha, NE",1,0,0,11,39,19,17,3,1,0,0
+795,2017,25-Nov-17,Northern Michigan,W,4,1,"Omaha, NE",1,0,0,12,40,20,17,3,2,0,0
+796,2017,1-Dec-17,St. Cloud State,L,4,7,"Omaha, NE",0,1,0,13,29,10,17,2,0,1,0
+797,2017,2-Dec-17,St. Cloud State,L,0,5,"Omaha, NE",0,1,0,14,30,10,18,2,0,2,0
+798,2017,8-Dec-17,Minnesota Duluth,W,7,5,"Omaha, NE",1,0,0,15,23,9,11,3,1,0,0
+799,2017,9-Dec-17,Minnesota Duluth,L,2,6,"Omaha, NE",0,1,0,16,24,9,12,3,0,1,0
+800,2017,29-Dec-17,Union,W,5,1,"Omaha, NE",1,0,0,17,6,4,2,0,1,0,0
+801,2017,30-Dec-17,Union,W,5,3,"Omaha, NE",1,0,0,18,7,5,2,0,2,0,0
+802,2017,5-Jan-18,North Dakota,W,4,1,"Grand Forks, ND",1,0,0,19,25,9,15,1,3,0,0
+803,2017,6-Jan-18,North Dakota,L,0,7,"Grand Forks, ND",0,1,0,20,26,9,16,1,0,1,0
+804,2017,12-Jan-18,Miami,W,11,7,"Omaha, NE",1,0,0,21,42,16,20,6,1,0,0
+805,2017,13-Jan-18,Miami,W,4,3,"Omaha, NE",1,0,0,22,43,17,20,6,2,0,0
+806,2017,19-Jan-18,Denver,L,0,5,"Denver, CO",0,1,0,23,37,9,26,2,0,1,0
+807,2017,20-Jan-18,Denver,L,0,4,"Denver, CO",0,1,0,24,38,9,27,2,0,2,0
+808,2017,26-Jan-18,Western Michigan,W,6,2,"Omaha, NE",1,0,0,25,46,23,17,6,1,0,0
+809,2017,27-Jan-18,Western Michigan,W,7,3,"Omaha, NE",1,0,0,26,47,24,17,6,2,0,0
+810,2017,2-Feb-18,St. Cloud State,L,3,5,"St. Cloud, MN",0,1,0,27,31,10,19,2,0,1,0
+811,2017,3-Feb-18,St. Cloud State,L,2,6,"St. Cloud, MN",0,1,0,28,32,10,20,2,0,2,0
+812,2017,16-Feb-18,North Dakota,W,6,3,"Omaha, NE",1,0,0,29,27,10,16,1,1,0,0
+813,2017,17-Feb-18,North Dakota,L,0,3,"Omaha, NE",0,1,0,30,28,10,17,1,0,1,0
+814,2017,23-Feb-18,Colorado College,W,4,2,"Omaha, NE",1,0,0,31,26,15,8,3,1,0,0
+815,2017,24-Feb-18,Colorado College,T,2,2,"Omaha, NE",0,0,1,32,27,15,8,4,0,0,1
+816,2017,2-Mar-18,Minnesota Duluth,W,4,1,"Duluth, MN",1,0,0,33,25,10,12,3,1,0,0
+817,2017,3-Mar-17,Minnesota Duluth,L,1,4,"Duluth, MN",0,1,0,34,26,10,13,3,0,1,0
+818,2017,9-Mar-18,North Dakota,L,0,4,"Grand Forks, ND",0,1,0,35,29,10,18,1,0,2,0
+819,2017,10-Mar-18,North Dakota,L,3,4,"Grand Forks, ND",0,1,0,36,30,10,19,1,0,3,0
+820,2018,12-Oct-18,Union,T,3,3,"Schenectady, NY",0,0,1,1,8,5,2,1,0,0,1
+821,2018,13-Oct-18,Union,L,4,5,"Schenectady, NY",0,1,0,2,9,5,3,1,0,1,0
+822,2018,19-Oct-18,Notre Dame,L,1,4,"Omaha, NE",0,1,0,3,35,11,20,4,0,2,0
+823,2018,20-Oct-18,Notre Dame,L,2,8,"Omaha, NE",0,1,0,4,36,11,21,4,0,3,0
+824,2018,26-Oct-18,Arizona State,L,3,6,"Tempe, AZ",0,1,0,5,5,3,1,1,0,4,0
+825,2018,27-Oct-18,Arizona State,L,2,7,"Tempe, AZ",0,1,0,6,6,3,2,1,0,5,0
+826,2018,2-Nov-18,Miami,L,1,4,"Omaha, NE",0,1,0,7,44,17,21,6,0,6,0
+827,2018,3-Nov-18,Miami,W,6,3,"Omaha, NE",1,0,0,8,45,18,21,6,1,0,0
+828,2018,9-Nov-18,Western Michigan,L,2,7,"Kalamazoo, MI",0,1,0,9,48,24,18,6,0,1,0
+829,2018,10-Nov-18,Western Michigan,W,4,2,"Kalamazoo, MI",1,0,0,10,49,25,18,6,1,0,0
+830,2018,23-Nov-18,Arizona State,W,6,4,"Omaha, NE",1,0,0,11,7,4,2,1,2,0,0
+831,2018,24-Nov-18,Arizona State,W,4,0,"Omaha, NE",1,0,0,12,8,5,2,1,3,0,0
+832,2018,30-Nov-18,Colorado College,T,3,3,"Omaha, NE",0,0,1,13,28,15,8,5,0,0,1
+833,2018,1-Dec-18,Colorado College,L,3,6,"Omaha, NE",0,1,0,14,29,15,9,5,0,1,0
+834,2018,7-Dec-18,St. Cloud State,L,0,2,"St. Cloud, MN",0,1,0,15,33,10,21,2,0,2,0
+835,2018,8-Dec-18,St. Cloud State,L,1,7,"St. Cloud, MN",0,1,0,16,34,10,22,2,0,3,0
+836,2018,29-Dec-18,Alaska Anchorage,W,3,0,"Omaha, NE",1,0,0,17,10,7,2,1,1,0,0
+837,2018,31-Dec-18,Alaska Anchorage,W,4,0,"Omaha, NE",1,0,0,18,11,8,2,1,2,0,0
+838,2018,11-Jan-19,Denver,L,0,1,"Denver, CO",0,1,0,19,39,9,28,2,0,1,0
+839,2018,12-Jan-19,Denver,L,2,3,"Denver, CO",0,1,0,20,40,9,29,2,0,2,0
+840,2018,18-Jan-19,North Dakota,L,3,4,"Omaha, NE",0,1,0,21,31,10,20,1,0,3,0
+841,2018,19-Jan-19,North Dakota,W,4,3,"Omaha, NE",1,0,0,22,32,11,20,1,1,0,0
+842,2018,25-Jan-19,Minnesota Duluth,L,2,7,"Duluth, MN",0,1,0,23,27,10,14,3,0,1,0
+843,2018,26-Jan-19,Minnesota Duluth,L,1,3,"Duluth, MN",0,1,0,24,28,10,15,3,0,2,0
+844,2018,1-Feb-19,Western Michigan,L,3,4,"Omaha, NE",0,1,0,25,50,25,19,6,0,3,0
+845,2018,2-Feb-19,Western Michigan,W,6,3,"Omaha, NE",1,0,0,26,51,26,19,6,1,0,0
+846,2018,8-Feb-19,Miami,W,3,0,"Oxford, OH",1,0,0,27,46,19,21,6,2,0,0
+847,2018,9-Feb-19,Miami,L,2,4,"Oxford, OH",0,1,0,28,47,19,22,6,0,1,0
+848,2018,22-Feb-19,St. Cloud State,L,1,4,"Omaha, NE",0,1,0,29,35,10,23,2,0,2,0
+849,2018,23-Feb-19,St. Cloud State,L,0,5,"Omaha, NE",0,1,0,30,36,10,24,2,0,3,0
+850,2018,1-Mar-19,Denver,L,1,4,"Omaha, NE",0,1,0,31,41,9,30,2,0,4,0
+851,2018,2-Mar-19,Denver,T,3,3,"Omaha, NE",0,0,1,32,42,9,30,3,0,0,1
+852,2018,8-Mar-19,North Dakota,L,1,2,"Grand Forks, ND",0,1,0,33,33,11,21,1,0,1,0
+853,2018,9-Mar-19,North Dakota,L,4,5,"Grand Forks, ND",0,1,0,34,34,11,22,1,0,2,0
+854,2018,15-Mar-19,Minnesota Duluth,L,1,2,"Duluth, MN",0,1,0,35,29,10,16,3,0,3,0
+855,2018,16-Mar-19,Minnesota Duluth,L,1,4,"Duluth, MN",0,1,0,36,30,10,17,3,0,4,0
