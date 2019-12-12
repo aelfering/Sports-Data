@@ -109,31 +109,64 @@ conf.performance <- ia_game_data %>%
 top_10 <- ia_game_data %>%
   filter(Opp.Rank <= 10 & Opp.Rank != 0) %>%
   group_by(Coach) %>%
-  mutate(top_10_number = row_number(),
+  mutate(Level = 'Against Top 10 Teams',
+         Winning.Streak = rowid(rleid(Win.Int)) * Win.Int,
+         top_10_number = row_number(),
          top_10_wins = cumsum(Win.Int),
          top_10_loses = cumsum(Lose.Int),
          top_10_ties = cumsum(Tie.Int)) %>%
-  ungroup()
-  
-  ia_game_data %>%
-    filter(Opp.Rank <= 25 & Opp.Rank != 0) %>%
-    group_by(Coach) %>%
-    summarise(Wins = sum(Win.Int),
-              Loses = sum(Lose.Int),
-              Ties = sum(Tie.Int))
+  ungroup() %>%
+  select(Level,
+         Coach,
+         Conference,
+         Season,
+         Game.No = top_10_number,
+         G,
+         Date,
+         School,
+         Team.Rank,
+         Location,
+         Opponent,
+         Opp.Rank,
+         Conf,
+         Result,
+         Pts,
+         Opp,
+         Winning.Streak)
 
 top_25 <- ia_game_data %>%
   filter(Opp.Rank <= 25 & Opp.Rank != 0) %>%
   group_by(Coach) %>%
-  mutate(top_25_number = row_number(),
+  mutate(Winning.Streak = rowid(rleid(Win.Int)) * Win.Int,
+         Level = 'Against Top 25 Teams',
+         top_25_number = row_number(),
          top_25_wins = cumsum(Win.Int),
          top_25_loses = cumsum(Lose.Int),
          top_25_ties = cumsum(Tie.Int)) %>%
-  ungroup()
+  ungroup() %>%
+  select(Level,
+         Coach,
+         Conference,
+         Season,
+         Game.No = top_25_number,
+         G,
+         Date,
+         School,
+         Team.Rank,
+         Location,
+         Opponent,
+         Opp.Rank,
+         Conf,
+         Result,
+         Pts,
+         Opp,
+         Winning.Streak)
   
 ####  Export Data ####
 
-iowa_coaches_df <- bind_rows(coaches_game_no, conf.performance)
+iowa_coaches_df <- bind_rows(coaches_game_no, conf.performance, top_10, top_25)
+
+iowa_coaches_df <- inner_join(iowa_coaches_df, coach_years, by = c('Season' = 'Season', 'Coach' = 'Coach'))
 
 write.csv(iowa_coaches_df, file = 'iowa_winning_record.csv')
 
