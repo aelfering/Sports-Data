@@ -51,27 +51,58 @@ ia_game_data <- ia_game_data %>%
 coaches_game_no <- ia_game_data %>%
   group_by(Coach) %>%
   mutate(Game.No = row_number(),
+         Winning.Streak = rowid(rleid(Win.Int)) * Win.Int,
          Running.Wins = cumsum(Win.Int),
          Running.Loses = cumsum(Lose.Int),
-         Running.Ties = cumsum(Tie.Int)) %>%
-  ungroup()
+         Running.Ties = cumsum(Tie.Int),
+         Level = 'Season Overall') %>%
+  ungroup() %>%
+  select(Level,
+         Coach,
+         Conference,
+         Season, 
+         Game.No,
+         G,
+         Date,
+         School,
+         Team.Rank,
+         Location, 
+         Opponent,
+         Opp.Rank,
+         Conf,
+         Result,
+         Pts,
+         Opp,
+         Winning.Streak)
 
 ####  What is the coaching record adjusted for conference? ####
 conf.performance <- ia_game_data %>%
   filter(Conf.Game == 1, G != 13) %>%
   group_by(Coach) %>%
-  mutate(Conf.Number = row_number(),
+  mutate(Level = 'Conference Only',
+         Conf.Number = row_number(),
          Conf.Winning.Streak = rowid(rleid(Win.Int)) * Win.Int,
          Running.Conf.Wins = cumsum(Win.Int),
          Running.Conf.Loses = cumsum(Lose.Int),
          Running.Conf.Ties = cumsum(Tie.Int)) %>%
-  ungroup() 
-
-  code.check <- conf.performance %>%
-    group_by(Coach) %>%
-    summarise(Wins = sum(Win.Int),
-              Loses = sum(Lose.Int),
-              Ties = sum(Tie.Int))
+  ungroup() %>%
+  select(Level,
+         Coach,
+         Conference,
+         Season,
+         Game.No = Conf.Number,
+         G,
+         Date,
+         School,
+         Team.Rank,
+         Location,
+         Opponent,
+         Opp.Rank,
+         Conf,
+         Result,
+         Pts,
+         Opp,
+         Winning.Streak = Conf.Winning.Streak)
 
 
 ####  How is Iowa against Top 25 and Top 10 Teams? ####
@@ -102,9 +133,8 @@ top_25 <- ia_game_data %>%
   
 ####  Export Data ####
 
-coaches_game_no <- left_join(coaches_game_no, conf.performance, by = c('Date' = 'Date'))
-coaches_game_no <- inner_join(coaches_game_no, coach_years, by = c('Coach' = 'Coach', 'Season' = 'Season'))
+iowa_coaches_df <- bind_rows(coaches_game_no, conf.performance)
 
-write.csv(coaches_game_no, file = 'iowa_winning_record.csv')
+write.csv(iowa_coaches_df, file = 'iowa_winning_record.csv')
 
 
