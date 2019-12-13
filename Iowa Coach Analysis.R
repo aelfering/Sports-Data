@@ -162,11 +162,21 @@ top_25 <- ia_game_data %>%
          Opp,
          Winning.Streak)
   
+####  How does Iowa perform against each Opponent? ####
+opponent.record <- ia_game_data %>%
+  group_by(Opponent) %>%
+  mutate(Running.Wins = cumsum(Win.Int),
+         Running.Loses = cumsum(Lose.Int),
+         Running.Ties = cumsum(Tie.Int)) %>%
+  ungroup() %>%
+  select(Season, Date, Opponent, Running.Wins, Running.Loses, Running.Ties)
 ####  Export Data ####
 
 iowa_coaches_df <- bind_rows(coaches_game_no, conf.performance, top_10, top_25)
 
 iowa_coaches_df <- inner_join(iowa_coaches_df, coach_years, by = c('Season' = 'Season', 'Coach' = 'Coach'))
+
+iowa_coaches_df <- left_join(iowa_coaches_df, opponent.record, by = c('Season' = 'Season', 'Date' = 'Date', 'Opponent' = 'Opponent'))
 
 write.csv(iowa_coaches_df, file = 'iowa_winning_record.csv')
 
