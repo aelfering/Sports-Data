@@ -1,4 +1,7 @@
-# College Swimming and Diving
+# College Swimming and Diving Analysis
+# By Alex Elfering
+# Script Completed:
+
 library(dplyr)
 library(tidyverse)
 library(tidyr)
