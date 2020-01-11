@@ -23,7 +23,7 @@ ia_games <- ia_games %>%
          Lose.Int = ifelse(Result == 'L', 1, 0),
          Tie.Int = ifelse(Result == 'T', 1, 0))
 
-coach_years <- ia_games %>%
+coach_year <- ia_games %>%
   distinct(Coach, Season) %>%
   select(Coach, Season) %>%
   group_by(Coach) %>%
