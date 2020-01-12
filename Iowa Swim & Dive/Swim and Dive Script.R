@@ -74,8 +74,10 @@ swim_times_data <- swim_times %>%
 
 swim_roster_join <- inner_join(swim_times_data, roster_full_name, by = c('Name.Key' = 'Name.Key', 'Gender' = 'Gender'))
 
-swim_roster_join %>%
+swim_with_ranks <- swim_roster_join %>%
   select(Name, 
+         Last.Name,
+         Name.Key,
          Gender, 
          Class, # Class starts with 2015-2016 roster
          Season = Season.x, 
@@ -90,7 +92,15 @@ swim_roster_join %>%
          Event.Name, 
          Date, 
          Course,
-         Hometown)
+         Hometown) %>%
+  # PR Rank
+  group_by(Name, Event) %>%
+  mutate(PR.Rank = dense_rank(desc(Seconds))) %>%
+  ungroup() %>%
+  # Best Swimmer per Event
+  group_by(Event) %>%
+  mutate(Event.Rank = dense_rank(desc(Seconds)))
+  
 
 
 
