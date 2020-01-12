@@ -43,12 +43,15 @@ other_count <- swim_no_DiveRelays %>%
 swim_times <- bind_rows(two_count, four_five_count, other_count)
 
 # Time conversion to minutes
-swim_times$swim_decimal <- sapply(strsplit(swim_times$Time, ":"),
+swim_times$Minutes <- sapply(strsplit(swim_times$Time, ":"),
        function(x){
          x <- as.numeric(x)
          x[1] + x[2]/60
        }
 )
+
+# Time conversion to seconds
+swim_times$Seconds <- period_to_seconds(hms(paste("0:", swim_times$Time, sep = "")))
 
 swim_times_data <- swim_times %>%
   select(Name,
@@ -63,14 +66,31 @@ swim_times_data <- swim_times %>%
          Course,
          Gender,
          Season,
-         swim_decimal) %>%
+         Minutes,
+         Seconds) %>%
   mutate(Date = dmy(Date),
          Name.Key = tolower(Name)) %>%
   mutate(Name.Key = gsub(" ", "", Name.Key, fixed = TRUE))
 
+swim_roster_join <- inner_join(swim_times_data, roster_full_name, by = c('Name.Key' = 'Name.Key', 'Gender' = 'Gender'))
 
-
-test <- inner_join(swim_times_data, roster_full_name, by = c('Name.Key' = 'Name.Key', 'Gender' = 'Gender'))
+swim_roster_join %>%
+  select(Name, 
+         Gender, 
+         Class, # Class starts with 2015-2016 roster
+         Season = Season.x, 
+         Event, 
+         Round, 
+         Place, 
+         Time, 
+         Minutes,
+         Seconds,
+         Flag, 
+         Pts, 
+         Event.Name, 
+         Date, 
+         Course,
+         Hometown)
 
 
 
