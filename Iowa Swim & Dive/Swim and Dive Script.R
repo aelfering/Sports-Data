@@ -20,13 +20,13 @@ roster_full_name$Name.Key <- tolower(roster_full_roster$Full.Name)
 
 roster_full_name$Name.Key <- gsub(" ", "", roster_full_name$Name.Key, fixed = TRUE)
 
-####  Swim & Dive Time Manipulation ####
+####  Swim Time Manipulation ####
 swim_no_DiveRelays <- swim_dive %>%
   filter(!grepl("Relay|Diving", Event)) %>%
   mutate(Time = as.character(Time),
          Time_Count = nchar(Time),
-         Name = gsub("Jack Allen", "Jackson Allen", Name)) #  Jackson Allen goes by Jack Allen and I need to standardize
-
+         Name = gsub("Jack Allen", "Jackson Allen", Name)) %>% #  Jackson Allen goes by Jack Allen and I need to standardize
+  
 # The time column is a mix of two, four, five, or more character column and I needed 
 # to manipulate the columns differently to get them into the same format.
 two_count <- swim_no_DiveRelays %>%
@@ -75,7 +75,9 @@ swim_times_data <- swim_times %>%
 swim_roster_join <- inner_join(swim_times_data, roster_full_name, by = c('Name.Key' = 'Name.Key', 'Gender' = 'Gender'))
 
 swim_with_ranks <- swim_roster_join %>%
-  select(Name, 
+  mutate(Event.Category = 'Swimming') %>%
+  select(Event.Category,
+         Name, 
          Last.Name,
          Name.Key,
          Gender, 
@@ -99,7 +101,17 @@ swim_with_ranks <- swim_roster_join %>%
   ungroup() %>%
   # Best Swimmer per Event
   group_by(Event) %>%
-  mutate(Event.Rank = dense_rank(desc(Seconds)))
+  mutate(Event.Rank = dense_rank(desc(Seconds))) %>%
+  ungroup()
+
+####  Diving Manipulation ####
+# Let's 'dive' into the diver section
+# Sorry, I had to...
+
+diving <- swim_dive %>%
+  filter(grepl("Diving", Event)) %>%
+  # Correct name spelling
+  
   
 
 
