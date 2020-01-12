@@ -97,11 +97,11 @@ swim_with_ranks <- swim_roster_join %>%
          Hometown) %>%
   # PR Rank
   group_by(Name, Event) %>%
-  mutate(PR.Rank = dense_rank(desc(Seconds))) %>%
+  mutate(PR.Rank = dense_rank(Seconds)) %>%
   ungroup() %>%
   # Best Swimmer per Event
   group_by(Event) %>%
-  mutate(Event.Rank = dense_rank(desc(Seconds))) %>%
+  mutate(Event.Rank = dense_rank(Seconds)) %>%
   ungroup()
 
 ####  Diving Manipulation ####
@@ -110,7 +110,19 @@ swim_with_ranks <- swim_roster_join %>%
 
 diving <- swim_dive %>%
   filter(grepl("Diving", Event)) %>%
-  # Correct name spelling
+  filter(!Name %in% c('Iowa 1', 'Iowa Women 2', 'Uic 1', 'Iowa Women 1')) %>%
+  # Fixing some name misspellings
+  mutate(Name = gsub('Will Brenner', 'William Brenner', Name),
+         Name = gsub('Sam Tamborski', 'Samantha Tamborski', Name),
+         Name = gsub('Matt Mauser', 'Matthew Mauser', Name),
+         Name = gsub('Mohamed Noaman', 'Mohamed Neuman', Name),
+         Name = gsub('Mohamad Neuman', 'Mohamed Neuman', Name),
+         Name = gsub('Anton Hoerz', 'Anton Hoherz', Name)) %>%
+  mutate(Name.Key = gsub(" ", "", tolower(Name)))
+
+dive_set <- inner_join(diving, roster_full_name, by = c('Name.Key' = 'Name.Key'))
+  
+write.csv(swim_with_ranks, file = 'Swimming and Dive.csv')  
   
   
 
