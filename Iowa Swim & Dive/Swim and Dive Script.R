@@ -72,7 +72,7 @@ swim_times_data <- swim_times %>%
          Name.Key = tolower(Name)) %>%
   mutate(Name.Key = gsub(" ", "", Name.Key, fixed = TRUE))
 
-swim_roster_join <- inner_join(swim_times_data, roster_full_name, by = c('Name.Key' = 'Name.Key', 'Gender' = 'Gender'))
+swim_roster_join <- inner_join(swim_times_data, roster_full_name, by = c('Name.Key' = 'Name.Key', 'Gender' = 'Gender', 'Season' = 'Season'))
 
 swim_with_ranks <- swim_roster_join %>%
   mutate(Event.Category = 'Swimming') %>%
@@ -82,7 +82,7 @@ swim_with_ranks <- swim_roster_join %>%
          Name.Key,
          Gender, 
          Class, # Class starts with 2015-2016 roster
-         Season = Season.x, 
+         Season, 
          Event, 
          Round, 
          Place, 
@@ -94,15 +94,10 @@ swim_with_ranks <- swim_roster_join %>%
          Event.Name, 
          Date, 
          Course,
-         Hometown) %>%
-  # PR Rank
-  group_by(Name, Event) %>%
-  mutate(PR.Rank = dense_rank(Seconds)) %>%
-  ungroup() %>%
-  # Best Swimmer per Event
-  group_by(Event) %>%
-  mutate(Event.Rank = dense_rank(Seconds)) %>%
-  ungroup()
+         Hometown)
+
+class_test <- swim_with_ranks %>%
+  distinct(Name, Season, Class)
 
 ####  Diving Manipulation ####
 # Let's 'dive' into the diver section
