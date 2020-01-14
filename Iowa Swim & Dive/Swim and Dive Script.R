@@ -150,6 +150,9 @@ diving <- swim_dive %>%
          Name = gsub('Mohamed Noaman', 'Mohamed Neuman', Name),
          Name = gsub('Mohamad Neuman', 'Mohamed Neuman', Name),
          Name = gsub('Anton Hoerz', 'Anton Hoherz', Name)) %>%
+  mutate(Event = gsub('3M Diving (6 dives)', '3M Diving', Event),
+         Event = gsub('1M Diving (6 dives)', '1M Diving', Event),
+         Event = gsub('10M Diving (6 dives)', '10M Diving', Event)) %>%
   mutate(Name.Key = gsub(" ", "", tolower(Name)),
          Date = dmy(Date))
 
@@ -157,7 +160,7 @@ dive_set <- inner_join(diving, roster_name_list, by = c('Name.Key' = 'Name.Key',
 
 dive_clean <- dive_set %>%
   mutate(Event.Category = 'Diving',
-         Minutes = 0,
+         Minutes = '',
          Seconds = 0) %>%
   select(Event.Category,
          Name,
@@ -170,9 +173,9 @@ dive_clean <- dive_set %>%
          Event,
          Round,
          Place,
-         Time,
+         Time = Minutes,
          Minutes,
-         Seconds,
+         Seconds = Time,
          Flag,
          Pts,
          Event.Name,
