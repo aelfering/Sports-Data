@@ -20,12 +20,16 @@ roster_full_name$Name.Key <- tolower(roster_full_roster$Full.Name)
 
 roster_full_name$Name.Key <- gsub(" ", "", roster_full_name$Name.Key, fixed = TRUE)
 
+roster_name_list <- roster_full_name %>%
+  filter(grepl(year(Sys.Date()), roster_full_name$Season)) %>%
+  distinct(Name.Key, First.Name, Last.Name, Hometown, Gender, Class)
+
 ####  Swim Time Manipulation ####
 swim_no_DiveRelays <- swim_dive %>%
   filter(!grepl("Relay|Diving", Event)) %>%
   mutate(Time = as.character(Time),
          Time_Count = nchar(Time),
-         Name = gsub("Jack Allen", "Jackson Allen", Name)) %>% #  Jackson Allen goes by Jack Allen and I need to standardize
+         Name = gsub("Jack Allen", "Jackson Allen", Name)) #  Jackson Allen goes by Jack Allen and I need to standardize
   
 # The time column is a mix of two, four, five, or more character column and I needed 
 # to manipulate the columns differently to get them into the same format.
@@ -72,12 +76,14 @@ swim_times_data <- swim_times %>%
          Name.Key = tolower(Name)) %>%
   mutate(Name.Key = gsub(" ", "", Name.Key, fixed = TRUE))
 
+swim_roster_join <- inner_join(swim_times_data, roster_name_list, by = c('Name.Key' = 'Name.Key', 'Gender' = 'Gender'))
 swim_roster_join <- inner_join(swim_times_data, roster_full_name, by = c('Name.Key' = 'Name.Key', 'Gender' = 'Gender', 'Season' = 'Season'))
 
-swim_with_ranks <- swim_roster_join %>%
+swim_clean <- swim_roster_join %>%
   mutate(Event.Category = 'Swimming') %>%
   select(Event.Category,
          Name, 
+         First.Name,
          Last.Name,
          Name.Key,
          Gender, 
@@ -96,8 +102,39 @@ swim_with_ranks <- swim_roster_join %>%
          Course,
          Hometown)
 
-class_test <- swim_with_ranks %>%
-  distinct(Name, Season, Class)
+swimmer_pr_times <- swim_clean %>%
+  group_by(Name, Event) %>%
+  mutate(Swimmer.Pr.Rank = dense_rank(Seconds)) %>%
+  as.data.frame() %>%
+  select(Name, Last.Name, Name.Key, Gender, Class, Season, Event, Event.Name, Round, Swimmer.Pr.Rank)
+
+event_pr_times <- swim_clean %>%
+  group_by(Event) %>%
+  mutate(Event.PR.Rank = dense_rank(Seconds)) %>%
+  as.data.frame()%>%
+  select(Name, Last.Name, Name.Key, Gender, Class, Season, Event, Event.Name, Round, Event.PR.Rank)
+
+
+swim_clean_swimmer_pr <- left_join(swim_clean, swimmer_pr_times, by = c('Name' = 'Name',
+                                                                        'Last.Name' = 'Last.Name',
+                                                                        'Name.Key' = 'Name.Key',
+                                                                        'Gender' = 'Gender',
+                                                                        'Class' = 'Class',
+                                                                        'Season' = 'Season',
+                                                                        'Event' = 'Event',
+                                                                        'Event.Name' = "Event.Name",
+                                                                        'Round' = 'Round'))
+
+final_swimmer_dataset <- left_join(swim_clean_swimmer_pr, event_pr_times, by = c('Name' = 'Name',
+                                                                        'Last.Name' = 'Last.Name',
+                                                                        'Name.Key' = 'Name.Key',
+                                                                        'Gender' = 'Gender',
+                                                                        'Class' = 'Class',
+                                                                        'Season' = 'Season',
+                                                                        'Event' = 'Event',
+                                                                        'Event.Name' = "Event.Name",
+                                                                        'Round' = 'Round'))
+
 
 ####  Diving Manipulation ####
 # Let's 'dive' into the diver section
@@ -113,11 +150,71 @@ diving <- swim_dive %>%
          Name = gsub('Mohamed Noaman', 'Mohamed Neuman', Name),
          Name = gsub('Mohamad Neuman', 'Mohamed Neuman', Name),
          Name = gsub('Anton Hoerz', 'Anton Hoherz', Name)) %>%
-  mutate(Name.Key = gsub(" ", "", tolower(Name)))
+  mutate(Name.Key = gsub(" ", "", tolower(Name)),
+         Date = dmy(Date))
 
-dive_set <- inner_join(diving, roster_full_name, by = c('Name.Key' = 'Name.Key'))
+dive_set <- inner_join(diving, roster_name_list, by = c('Name.Key' = 'Name.Key', 'Gender' = 'Gender'))
+
+dive_clean <- dive_set %>%
+  mutate(Event.Category = 'Diving',
+         Minutes = 0,
+         Seconds = 0) %>%
+  select(Event.Category,
+         Name,
+         First.Name,
+         Last.Name,
+         Name.Key,
+         Gender,
+         Class,
+         Season,
+         Event,
+         Round,
+         Place,
+         Time,
+         Minutes,
+         Seconds,
+         Flag,
+         Pts,
+         Event.Name,
+         Date,
+         Course,
+         Hometown)
+
+diver_pr <- dive_clean %>%
+  group_by(Name, Event) %>%
+  mutate(Swimmer.Pr.Rank = dense_rank(Time)) %>%
+  ungroup() %>%
+  select(Name, Last.Name, Name.Key, Gender, Class, Season, Event, Event.Name, Round, Swimmer.Pr.Rank)
+
+event_pr <- dive_clean %>%
+  group_by(Event) %>%
+  mutate(Event.PR.Rank = dense_rank(Time)) %>%
+  ungroup()%>%
+  select(Name, Last.Name, Name.Key, Gender, Class, Season, Event, Event.Name, Round, Event.PR.Rank)
+
+dive_clean_diver_pr <- left_join(dive_clean, diver_pr, by = c('Name' = 'Name',
+                                                                        'Last.Name' = 'Last.Name',
+                                                                        'Name.Key' = 'Name.Key',
+                                                                        'Gender' = 'Gender',
+                                                                        'Class' = 'Class',
+                                                                        'Season' = 'Season',
+                                                                        'Event' = 'Event',
+                                                                        'Event.Name' = "Event.Name",
+                                                                        'Round' = 'Round'))
+
+final_diver_dataset <- left_join(dive_clean_diver_pr, event_pr, by = c('Name' = 'Name',
+                                                                                 'Last.Name' = 'Last.Name',
+                                                                                 'Name.Key' = 'Name.Key',
+                                                                                 'Gender' = 'Gender',
+                                                                                 'Class' = 'Class',
+                                                                                 'Season' = 'Season',
+                                                                                 'Event' = 'Event',
+                                                                                 'Event.Name' = "Event.Name",
+                                                                                 'Round' = 'Round'))
+
+iowa_swim_dive_data <- bind_rows(final_diver_dataset, final_swimmer_dataset)
   
-write.csv(swim_with_ranks, file = 'Swimming and Dive.csv')  
+write.csv(iowa_swim_dive_data, file = 'Swimming and Dive.csv')
   
   
 
