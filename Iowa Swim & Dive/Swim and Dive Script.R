@@ -150,6 +150,7 @@ diving <- swim_dive %>%
          Name = gsub('Mohamed Noaman', 'Mohamed Neuman', Name),
          Name = gsub('Mohamad Neuman', 'Mohamed Neuman', Name),
          Name = gsub('Anton Hoerz', 'Anton Hoherz', Name)) %>%
+  # Standardizing the event names
   mutate(Event = gsub('3M Diving (6 dives)', '3M Diving', Event),
          Event = gsub('1M Diving (6 dives)', '1M Diving', Event),
          Event = gsub('10M Diving (6 dives)', '10M Diving', Event)) %>%
