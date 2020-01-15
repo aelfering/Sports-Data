@@ -5,6 +5,8 @@
 library(dplyr)
 library(tidyverse)
 library(tidyr)
+library(tibble)
+library(lubridate)
 
 swim_dive <- read.csv('iowa swimming.csv')
 roster <- read.csv('Iowa Roster.csv')
@@ -77,7 +79,6 @@ swim_times_data <- swim_times %>%
   mutate(Name.Key = gsub(" ", "", Name.Key, fixed = TRUE))
 
 swim_roster_join <- inner_join(swim_times_data, roster_name_list, by = c('Name.Key' = 'Name.Key', 'Gender' = 'Gender'))
-swim_roster_join <- inner_join(swim_times_data, roster_full_name, by = c('Name.Key' = 'Name.Key', 'Gender' = 'Gender', 'Season' = 'Season'))
 
 swim_clean <- swim_roster_join %>%
   mutate(Event.Category = 'Swimming') %>%
@@ -161,8 +162,9 @@ dive_set <- inner_join(diving, roster_name_list, by = c('Name.Key' = 'Name.Key',
 
 dive_clean <- dive_set %>%
   mutate(Event.Category = 'Diving',
-         Minutes = '',
-         Seconds = 0) %>%
+         Seconds = as.numeric(Time)) %>%
+  mutate(Minutes = 0,
+         Time = '') %>%
   select(Event.Category,
          Name,
          First.Name,
@@ -174,9 +176,9 @@ dive_clean <- dive_set %>%
          Event,
          Round,
          Place,
-         Time = Minutes,
+         Time,
          Minutes,
-         Seconds = Time,
+         Seconds,
          Flag,
          Pts,
          Event.Name,
@@ -215,6 +217,7 @@ final_diver_dataset <- left_join(dive_clean_diver_pr, event_pr, by = c('Name' = 
                                                                                  'Event' = 'Event',
                                                                                  'Event.Name' = "Event.Name",
                                                                                  'Round' = 'Round'))
+
 
 iowa_swim_dive_data <- bind_rows(final_diver_dataset, final_swimmer_dataset)
   
