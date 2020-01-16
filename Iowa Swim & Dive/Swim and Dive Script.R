@@ -138,8 +138,6 @@ final_swimmer_dataset <- left_join(swim_clean_swimmer_pr, event_pr_times, by = c
 
 
 ####  Diving Manipulation ####
-# Let's 'dive' into the diver section
-# Sorry, I had to...
 
 diving <- swim_dive %>%
   filter(grepl("Diving", Event)) %>%
