@@ -29,6 +29,7 @@ roster_name_list <- roster_full_name %>%
 ####  Swim Time Manipulation ####
 swim_no_DiveRelays <- swim_dive %>%
   filter(!grepl("Relay|Diving", Event)) %>%
+  filter(!grepl("Iowa Black & Gold Intrasquad")) %>%
   mutate(Time = as.character(Time),
          Time_Count = nchar(Time),
          Name = gsub("Jack Allen", "Jackson Allen", Name)) #  Jackson Allen goes by Jack Allen and I need to standardize
@@ -141,6 +142,7 @@ final_swimmer_dataset <- left_join(swim_clean_swimmer_pr, event_pr_times, by = c
 
 diving <- swim_dive %>%
   filter(grepl("Diving", Event)) %>%
+  filter(!grepl("Iowa Black & Gold Intrasquad", Event.Name)) %>%
   filter(!Name %in% c('Iowa 1', 'Iowa Women 2', 'Uic 1', 'Iowa Women 1')) %>%
   # Fixing some name misspellings
   mutate(Name = gsub('Will Brenner', 'William Brenner', Name),
@@ -158,7 +160,7 @@ dive_set <- inner_join(diving, roster_name_list, by = c('Name.Key' = 'Name.Key',
 
 dive_clean <- dive_set %>%
   mutate(Event.Category = 'Diving',
-         Seconds = as.numeric(Time)) %>%
+         Seconds = as.numeric(as.character(Time))) %>%
   mutate(Minutes = 0,
          Time = '') %>%
   select(Event.Category,
@@ -187,12 +189,6 @@ diver_pr <- dive_clean %>%
   mutate(Swimmer.Pr.Rank = dense_rank(Time)) %>%
   ungroup() %>%
   select(Name, Last.Name, Name.Key, Gender, Class, Season, Event, Event.Name, Round, Swimmer.Pr.Rank)
-
-event_pr <- dive_clean %>%
-  group_by(Event) %>%
-  mutate(Event.PR.Rank = dense_rank(Time)) %>%
-  ungroup()%>%
-  select(Name, Last.Name, Name.Key, Gender, Class, Season, Event, Event.Name, Round, Event.PR.Rank)
 
 dive_clean_diver_pr <- left_join(dive_clean, diver_pr, by = c('Name' = 'Name',
                                                                         'Last.Name' = 'Last.Name',
