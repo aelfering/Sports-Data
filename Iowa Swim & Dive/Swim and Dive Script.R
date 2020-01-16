@@ -152,9 +152,7 @@ diving <- swim_dive %>%
          Name = gsub('Mohamad Neuman', 'Mohamed Neuman', Name),
          Name = gsub('Anton Hoerz', 'Anton Hoherz', Name)) %>%
   # Standardizing the event names
-  mutate(Event = gsub('3M Diving (6 dives)', '3M Diving', Event),
-         Event = gsub('1M Diving (6 dives)', '1M Diving', Event),
-         Event = gsub('10M Diving (6 dives)', '10M Diving', Event)) %>%
+  mutate(Event = gsub(' (6 dives)', '', Event, fixed = TRUE)) %>%
   mutate(Name.Key = gsub(" ", "", tolower(Name)),
          Date = dmy(Date))
 
