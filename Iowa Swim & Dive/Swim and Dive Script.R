@@ -32,7 +32,7 @@ swim_no_DiveRelays <- swim_dive %>%
   filter(!grepl("Iowa Black & Gold Intrasquad", Event.Name)) %>%
   mutate(Time = as.character(Time),
          Time_Count = nchar(Time),
-         Name = gsub("Jack Allen", "Jackson Allen", Name)) #  Jackson Allen goes by Jack Allen and I need to standardize
+         Name = gsub("Jack Allen", "Jackson Allen", Name))
   
 # The time column is a mix of two, four, five, or more character column and I needed 
 # to manipulate the columns differently to get them into the same format.
@@ -111,7 +111,7 @@ swimmer_pr_times <- swim_clean %>%
   select(Name, Last.Name, Name.Key, Gender, Class, Season, Event, Event.Name, Round, Swimmer.Pr.Rank)
 
 event_pr_times <- swim_clean %>%
-  group_by(Event) %>%
+  group_by(Event, Gender) %>%
   mutate(Event.PR.Rank = dense_rank(Seconds)) %>%
   as.data.frame()%>%
   select(Name, Last.Name, Name.Key, Gender, Class, Season, Event, Event.Name, Round, Event.PR.Rank)
@@ -192,6 +192,12 @@ diver_pr <- dive_clean %>%
   as.data.frame() %>%
   filter(Swimmer.Pr.Rank == 1)
 
+event_pr <- dive_clean %>%
+  group_by(Event, Gender) %>%
+  mutate(Event.PR.Rank = dense_rank(Seconds)) %>%
+  as.data.frame()%>%
+  select(Name, Last.Name, Name.Key, Gender, Class, Season, Event, Event.Name, Round, Event.PR.Rank)
+
 dive_clean_diver_pr <- left_join(dive_clean, diver_pr, by = c('Name' = 'Name',
                                                                         'Last.Name' = 'Last.Name',
                                                                         'Name.Key' = 'Name.Key',
@@ -217,11 +223,4 @@ iowa_swim_dive_data <- bind_rows(final_diver_dataset, final_swimmer_dataset)
   
 write.csv(iowa_swim_dive_data, file = 'Swimming and Dive.csv')
   
-  
-
-
-
-
-
-
 
