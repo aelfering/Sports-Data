@@ -195,6 +195,7 @@ diver_pr <- dive_clean %>%
 event_pr <- dive_clean %>%
   group_by(Event, Gender) %>%
   mutate(Event.PR.Rank = dense_rank(Seconds)) %>%
+  ungroup() %>%
   as.data.frame()%>%
   select(Name, Last.Name, Name.Key, Gender, Class, Season, Event, Event.Name, Round, Event.PR.Rank)
 
