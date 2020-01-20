@@ -69,7 +69,7 @@ scrub_team_names <- opponent_names_cleaned %>%
 # Team and Opponent names scrubbed
 clean_team_opponent_names <- bind_rows(non_college_uni_team_names, scrub_team_names)
   
-
+# What was the opponent's record for each team's win?
 
 
 
