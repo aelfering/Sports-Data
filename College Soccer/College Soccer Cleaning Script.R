@@ -28,7 +28,6 @@ soccer_with_scores <- separate(data = soccer, col = Just.Score, into = c("Team.S
 
 # Scrub the team name to remove college/university where appropriate and add additional columns for analysis
 soccer_games_cleaned <- soccer_with_scores %>%
-  mutate(Team = gsub("University", "", Team)) %>%
   select(Month, Date, Season, Team, Opponent.Name, Location, Gender, Division, Result, Team.Score, Opp.Score) %>%
   mutate(Wins = ifelse(Result == "W", 1, 0),
          Loses = ifelse(Result == "L", 1, 0),
@@ -40,29 +39,43 @@ soccer_games_cleaned <- soccer_with_scores %>%
   ungroup() %>%
   as.data.frame()
 
-# Scrub Opponent Name
+# Next we need to scrub the team and opponent names to remove "University" and "College" where appropriate
+# We won't do this for schools like Boston College, Colorado College, or College of Charleston...what would they be without College?!
 
-college_opp_names <- soccer_games_cleaned %>%
-  filter(grepl("College", Opponent.Name)) %>%
-  filter(!Opponent.Name %in% c('Siena College', 'Boston College')) %>%
-  gsub('College', '', Opponent.Name) %>%
-  distinct(Opponent.Name)
+clean_these_names <- c('Iona College', 'Middle Georgia College', 'Central Baptist College', 'Central Baptist College', 
+                       'Jarvis Christian College', 'Boston University', 'Troy University', 'Lamar University',
+                       'Hampton University', 'Ohio University', 'King University', 'Columbia International University',
+                       'Union University', 'Southern University')
 
-uni_opp_names <- soccer_games_cleaned %>%
-  filter(grepl("University", Opponent.Name)) %>%
-  filter(!Opponent.Name %in% c('University of the Southwest')) %>%
-  distinct(Opponent.Name)
+non_college_uni_opp_names <- dplyr::filter(soccer_games_cleaned, !Opponent.Name %in% clean_these_names)
 
-keep_names <- c('')
+scrub_college_uni_opp_names <- soccer_games_cleaned %>%
+  filter(Opponent.Name %in% clean_these_names) %>%
+  mutate(Opponent.Name = gsub("College|University", "", Opponent.Name))
 
-soccer_games_cleaned %>%
-  group_by(Team, Gender, Division) %>%
-  summarise(Goals.For = sum(Team.Score),
-            Goals.Against = sum(Opp.Score)) %>%
-  mutate(Diff = Goals.For - Goals.Against) %>%
-  ungroup() %>%
-  arrange(Diff) %>%
-  as.data.frame()
+opponent_names_cleaned <- bind_rows(non_college_uni_opp_names, scrub_college_uni_opp_names)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   
 
 
