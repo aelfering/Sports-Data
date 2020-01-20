@@ -55,7 +55,20 @@ scrub_college_uni_opp_names <- soccer_games_cleaned %>%
 
 opponent_names_cleaned <- bind_rows(non_college_uni_opp_names, scrub_college_uni_opp_names)
 
+opponent_names_cleaned %>%
+  filter(grepl("College|University", Team)) %>%
+  distinct(Team)
 
+# Now cleaning team names
+non_college_uni_team_names <- dplyr::filter(opponent_names_cleaned, !Team %in% c('Hampton University', 'Southern University'))      
+
+scrub_team_names <- opponent_names_cleaned %>%
+  filter(Team %in% c('Hampton University', 'Southern University')) %>%
+  mutate(Team = gsub('University', '', Team))
+
+# Team and Opponent names scrubbed
+clean_team_opponent_names <- bind_rows(non_college_uni_team_names, scrub_team_names)
+  
 
 
 
