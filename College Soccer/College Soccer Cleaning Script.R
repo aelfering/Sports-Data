@@ -39,37 +39,23 @@ soccer_games_cleaned <- soccer_with_scores %>%
   ungroup() %>%
   as.data.frame()
 
-# Next we need to scrub the team and opponent names to remove "University" and "College" where appropriate
-# We won't do this for schools like Boston College, Colorado College, or College of Charleston...what would they be without College?!
+head(soccer_games_cleaned)
 
-clean_these_names <- c('Iona College', 'Middle Georgia College', 'Central Baptist College', 'Central Baptist College', 
-                       'Jarvis Christian College', 'Boston University', 'Troy University', 'Lamar University',
-                       'Hampton University', 'Ohio University', 'King University', 'Columbia International University',
-                       'Union University', 'Southern University')
+plus_minus_soccer <- soccer_games_cleaned %>%
+  group_by(Team, Gender, Division) %>%
+  summarise(Goals.For = sum(Team.Score),
+            Goals.Against = sum(Opp.Score),
+            Total.Wins = sum(Wins),
+            Total.Losses = sum(Loses),
+            Total.Ties = sum(Ties),
+            Total.Games = max(Game.Number))%>%
+  ungroup() %>%
+  mutate(Plus.Minus = Goals.For - Goals.Against,
+         Pct.Won = Total.Wins/Total.Games)
 
-non_college_uni_opp_names <- dplyr::filter(soccer_games_cleaned, !Opponent.Name %in% clean_these_names)
-
-scrub_college_uni_opp_names <- soccer_games_cleaned %>%
-  filter(Opponent.Name %in% clean_these_names) %>%
-  mutate(Opponent.Name = gsub("College|University", "", Opponent.Name))
-
-opponent_names_cleaned <- bind_rows(non_college_uni_opp_names, scrub_college_uni_opp_names)
-
-opponent_names_cleaned %>%
-  filter(grepl("College|University", Team)) %>%
-  distinct(Team)
-
-# Now cleaning team names
-non_college_uni_team_names <- dplyr::filter(opponent_names_cleaned, !Team %in% c('Hampton University', 'Southern University'))      
-
-scrub_team_names <- opponent_names_cleaned %>%
-  filter(Team %in% c('Hampton University', 'Southern University')) %>%
-  mutate(Team = gsub('University', '', Team))
-
-# Team and Opponent names scrubbed
-clean_team_opponent_names <- bind_rows(non_college_uni_team_names, scrub_team_names)
+write.csv(plus_minus_soccer, file = 'college soccer plus minus.csv')
   
-# What was the opponent's record for each team's win?
+  
 
 
 
