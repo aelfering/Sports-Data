@@ -39,10 +39,16 @@ soccer_games_cleaned <- soccer_with_scores %>%
   ungroup() %>%
   as.data.frame()
 
+soccer_games_cleaned %>%
+  mutate(Margin = Team.Score - Opp.Score) %>%
+  group_by(Gender) %>%
+  summarise(Mean.Margin = mean(Margin)) %>%
+  ungroup()
+
 head(soccer_games_cleaned)
 
 plus_minus_soccer <- soccer_games_cleaned %>%
-  group_by(Team, Gender, Division) %>%
+  group_by(Team, Gender) %>%
   summarise(Goals.For = sum(Team.Score),
             Goals.Against = sum(Opp.Score),
             Total.Wins = sum(Wins),
@@ -51,7 +57,10 @@ plus_minus_soccer <- soccer_games_cleaned %>%
             Total.Games = max(Game.Number))%>%
   ungroup() %>%
   mutate(Plus.Minus = Goals.For - Goals.Against,
-         Pct.Won = Total.Wins/Total.Games)
+         Pct.Won = Total.Wins/Total.Games) %>%
+  group_by(Gender) %>%
+  mutate(Plus.Minus.Rank = dense_rank(desc(Plus.Minus))) %>%
+  ungroup()
 
 write.csv(plus_minus_soccer, file = 'college soccer plus minus.csv')
   
