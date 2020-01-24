@@ -189,8 +189,7 @@ diver_pr <- dive_clean %>%
   mutate(Swimmer.Pr.Rank = dense_rank(Seconds)) %>%
   ungroup() %>%
   select(Name, Last.Name, Name.Key, Gender, Class, Season, Event, Event.Name, Round, Swimmer.Pr.Rank) %>%
-  as.data.frame() %>%
-  filter(Swimmer.Pr.Rank == 1)
+  as.data.frame()
 
 event_pr <- dive_clean %>%
   group_by(Event, Gender) %>%
