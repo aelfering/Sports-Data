@@ -62,8 +62,6 @@ plus_minus_soccer <- soccer_games_cleaned %>%
 
 ####  Estimating Overall Opponent Strength of Schedule ####
 
-head(plus_minus_soccer)
-
 opponent_record <- dplyr::select(plus_minus_soccer,
                                  Team,
                                  Gender,
@@ -73,12 +71,13 @@ opponent_record <- dplyr::select(plus_minus_soccer,
                                  Total.Losses,
                                  Total.Ties)
 
-test_join1 <- left_join(soccer_games_cleaned, opponent_record, by = c('Opponent.Name' = 'Team',
-                                                                      'Gender' = 'Gender'))
+opponent_game_record <- left_join(soccer_games_cleaned, opponent_record, by = c('Opponent.Name' = 'Team',
+                                                                                'Gender' = 'Gender'))
 
-test_join1[is.na(test_join1)] <- 0
+opponent_game_record[is.na(opponent_game_record)] <- 0
 
-distinct_games <- test_join1 %>% #to adjust for rematches
+distinct_games <- opponent_game_record %>%
+  #to adjust for rematches
   filter(Result == 'W') %>%
   group_by(Team, Gender, Opponent.Name) %>%
   summarise(Game.Number = max(Game.Number)) %>%
