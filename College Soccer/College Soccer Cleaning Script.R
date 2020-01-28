@@ -60,8 +60,47 @@ plus_minus_soccer <- soccer_games_cleaned %>%
   mutate(Plus.Minus.Rank = dense_rank(desc(Plus.Minus))) %>%
   ungroup()
 
-####  Estimating Opponent Strength of Schedule ####
+####  Estimating Overall Opponent Strength of Schedule ####
 
+head(plus_minus_soccer)
+
+opponent_record <- dplyr::select(plus_minus_soccer,
+                                 Team,
+                                 Gender,
+                                 Goals.For,
+                                 Goals.Against, 
+                                 Total.Wins,
+                                 Total.Losses,
+                                 Total.Ties)
+
+test_join1 <- left_join(soccer_games_cleaned, opponent_record, by = c('Opponent.Name' = 'Team',
+                                                                      'Gender' = 'Gender'))
+
+test_join1[is.na(test_join1)] <- 0
+
+distinct_games <- test_join1 %>% #to adjust for rematches
+  filter(Result == 'W') %>%
+  group_by(Team, Gender, Opponent.Name) %>%
+  summarise(Game.Number = max(Game.Number)) %>%
+  ungroup() %>%
+  as.data.frame()
+
+distinct_matches <- inner_join(test_join1, distinct_games, by = c('Gender' = 'Gender',
+                                                                  'Team' = 'Team',
+                                                                  'Opponent.Name' = 'Opponent.Name',
+                                                                  'Game.Number' = 'Game.Number'))
+
+sos_overall <- distinct_matches %>%
+  group_by(Team, Gender) %>%
+  summarise(Opp.Wins = sum(Total.Wins),
+            Opp.Losses = sum(Total.Losses),
+            Opp.Ties = sum(Total.Ties),
+            Opp.Goals.For = sum(Goals.For),
+            Opp.Goals.Against = sum(Goals.Against)) %>%
+  ungroup() %>%
+  as.data.frame()
+
+####  Exporting the dataset ####
 write.csv(plus_minus_soccer, file = 'college soccer plus minus.csv')
   
   
