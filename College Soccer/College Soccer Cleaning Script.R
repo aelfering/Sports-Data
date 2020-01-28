@@ -44,6 +44,31 @@ soccer_games_cleaned <- soccer_with_scores %>%
   ungroup() %>%
   as.data.frame()
 
+# Adding conferences
+soccer_games_team_conference <- left_join(soccer_games_cleaned, conferences, by = c('Team' = 'School', 'Gender' = 'Gender'))
+soccer_games_opp_conference <- left_join(soccer_games_team_conference, conferences, by = c('Opponent.Name' = 'School', 'Gender' = 'Gender'))
+
+soccer_games_basic <- soccer_games_opp_conference %>%
+  select(Month, 
+         Date,
+         Season,
+         Team,
+         Opponent.Name,
+         Location,
+         Gender,
+         Division,
+         Result,
+         Team.Score,
+         Opp.Score,
+         Wins,
+         Loses,
+         Ties,
+         Game.Number,
+         Shut.Out,
+         Shut.Outs,
+         Team.Conference = Conference.x,
+         Opp.Conference = Conference.y)
+
 ####  Plus-Minus Scores ####
 # Creating plus-minus scores
 plus_minus_soccer <- soccer_games_cleaned %>%
@@ -108,7 +133,7 @@ distinct_games <- opponent_game_record %>%
   ungroup() %>%
   as.data.frame()
 
-distinct_matches <- inner_join(test_join1, distinct_games, by = c('Gender' = 'Gender',
+distinct_matches <- inner_join(opponent_game_record, distinct_games, by = c('Gender' = 'Gender',
                                                                   'Team' = 'Team',
                                                                   'Opponent.Name' = 'Opponent.Name',
                                                                   'Game.Number' = 'Game.Number'))
@@ -127,7 +152,7 @@ sos_overall <- distinct_matches %>%
   mutate(Pct.Won = Opp.Wins/Total.Games) %>%
   as.data.frame() %>%
   select(Team,
-         Conference,
+         Conference.x,
          Gender,
          Opp.Wins,
          Opp.Losses,
