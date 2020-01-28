@@ -165,8 +165,31 @@ sos_overall <- distinct_matches %>%
 college_soccer_data <- left_join(plus_minus_soccer, sos_overall, by = c('Gender' = 'Gender',
                                                                         'Team' = 'Team'))
 
+#### Ranking the top five conferences by gender who won the most games ####
+conference_performance <- college_soccer_data %>%
+  group_by(Team.Conference,
+           Gender) %>%
+  summarise(Total.Wins = sum(Total.Wins),
+            Total.Losses = sum(Total.Losses),
+            Total.Ties = sum(Total.Ties),
+            Total.Games = sum(Total.Games)) %>%
+  ungroup() %>%
+  mutate(Pct.Won = Total.Wins/Total.Games) %>%
+  group_by(Gender) %>%
+  mutate(Rank.Pct.Won = dense_rank(desc(Pct.Won))) %>%
+  ungroup() %>%
+  arrange(Gender, 
+          Rank.Pct.Won) %>%
+  select(Team.Conference,
+         Gender,
+         Conference.Pct.Won = Pct.Won,
+         Rank.Pct.Won)
+
+soccer_conf_games <- left_join(college_soccer_data, conference_performance, by = c('Team.Conference' = 'Team.Conference',
+                                                                                   'Gender' = 'Gender'))
+
 ####  Exporting the dataset ####
-write.csv(plus_minus_soccer, file = 'college soccer plus minus.csv')
+write.csv(soccer_conf_games, file = 'college soccer team conference performance.csv')
   
   
 
