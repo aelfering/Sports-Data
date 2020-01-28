@@ -151,17 +151,16 @@ sos_overall <- distinct_matches %>%
             Opp.Goals.Against = sum(Goals.Against)) %>%
   ungroup() %>%
   mutate(Total.Games = Opp.Wins + Opp.Losses + Opp.Ties) %>%
-  mutate(Pct.Won = Opp.Wins/Total.Games) %>%
+  mutate(Opp.Pct.Won = Opp.Wins/Total.Games) %>%
   as.data.frame() %>%
   select(Team,
-         Conference.x,
          Gender,
          Opp.Wins,
          Opp.Losses,
          Opp.Ties,
          Opp.Goals.For,
          Opp.Goals.Against,
-         Pct.Won) 
+         Opp.Pct.Won) 
 
 college_soccer_data <- left_join(plus_minus_soccer, sos_overall, by = c('Gender' = 'Gender',
                                                                         'Team' = 'Team'))
