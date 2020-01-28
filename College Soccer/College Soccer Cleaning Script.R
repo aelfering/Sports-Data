@@ -78,7 +78,6 @@ opponent_game_record[is.na(opponent_game_record)] <- 0
 
 distinct_games <- opponent_game_record %>%
   #to adjust for rematches
-  filter(Result == 'W') %>%
   group_by(Team, Gender, Opponent.Name) %>%
   summarise(Game.Number = max(Game.Number)) %>%
   ungroup() %>%
@@ -90,6 +89,7 @@ distinct_matches <- inner_join(test_join1, distinct_games, by = c('Gender' = 'Ge
                                                                   'Game.Number' = 'Game.Number'))
 
 sos_overall <- distinct_matches %>%
+  filter(Result == 'W') %>%
   group_by(Team, Gender) %>%
   summarise(Opp.Wins = sum(Total.Wins),
             Opp.Losses = sum(Total.Losses),
