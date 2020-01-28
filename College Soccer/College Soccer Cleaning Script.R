@@ -71,14 +71,16 @@ soccer_games_basic <- soccer_games_opp_conference %>%
 
 ####  Plus-Minus Scores ####
 # Creating plus-minus scores
-plus_minus_soccer <- soccer_games_cleaned %>%
-  group_by(Team, Gender) %>%
+plus_minus_soccer <- soccer_games_basic %>%
+  group_by(Team, Team.Conference, Gender) %>%
   summarise(Goals.For = sum(Team.Score),
             Goals.Against = sum(Opp.Score),
             Total.Wins = sum(Wins),
             Total.Losses = sum(Loses),
             Total.Ties = sum(Ties),
-            Total.Games = max(Game.Number))%>%
+            Total.Games = max(Game.Number),
+            Total.Shut.Out = sum(Shut.Out),
+            Total.Shut.Outs = sum(Shut.Outs))%>%
   ungroup() %>%
   mutate(Plus.Minus = Goals.For - Goals.Against,
          Pct.Won = Total.Wins/Total.Games) %>%
