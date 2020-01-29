@@ -10,6 +10,7 @@ library(stringr)
 
 soccer <- read.csv('College Soccer.csv')
 conferences <- read.csv('Soccer Conference Data.csv')
+united_rankings <- read.csv('United Soccer Coach Rankings.csv') #Final united soccer coach rankings thanks to NCAA
 
 ####  Data Tidying ####
 # Separating Score from the Result
@@ -27,6 +28,19 @@ soccer$Location <- substring(soccer$Clean.Opponent, 1, 2)
 soccer$Opponent.Name <- gsub("\\*", "", soccer$Opponent.Name)
 
 soccer_with_scores <- separate(data = soccer, col = Just.Score, into = c("Team.Score", "Opp.Score"), sep = "-")
+
+####  Cleaning United Soccer Coach Rankings ####
+ranks_united <- united_rankings %>%
+  mutate(School = gsub("\\(", "", School)) %>%
+  mutate(School = gsub("\\)", "", School)) %>%
+  mutate(School = gsub(' [[:digit:]]+', '', School)) %>%
+  mutate(School = gsub("Saint Mary's CA", "St. Mary's (CA)", School)) %>%
+  mutate(School = gsub("Southern California", "USC", School)) %>%
+  mutate(School = gsub("North Carolina State", "NC State", School)) %>%
+  mutate(School = gsub("Southern Methodist", "SMU", School)) %>%
+  select(United.Soccer.Coaches.Ranking,
+         School,
+         Gender)
 
 ####  Data Manipulation ####
 # Adding additional columns such as a flag for win, loss, and tie as well as game number
@@ -190,29 +204,3 @@ soccer_conf_games <- left_join(college_soccer_data, conference_performance, by =
 
 ####  Exporting the dataset ####
 write.csv(soccer_conf_games, file = 'college soccer team conference performance.csv')
-  
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
-
-
-
-
