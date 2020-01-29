@@ -53,8 +53,8 @@ soccer_games_cleaned <- soccer_with_scores %>%
          Opp.Score = as.numeric(Opp.Score)) %>%
   group_by(Team, Division, Gender) %>%
   mutate(Game.Number = row_number(),
-         Shut.Out = ifelse(Team.Score == 0, 1, 0),
-         Shut.Outs = ifelse(Opp.Score == 0, 1, 0)) %>%
+         Shut.Out = ifelse(Team.Score == 0 & Result == 'L', 1, 0),
+         Shut.Outs = ifelse(Opp.Score == 0 & Result == 'W', 1, 0)) %>%
   ungroup() %>%
   as.data.frame()
 
@@ -179,7 +179,7 @@ sos_overall <- distinct_matches %>%
 college_soccer_data <- left_join(plus_minus_soccer, sos_overall, by = c('Gender' = 'Gender',
                                                                         'Team' = 'Team'))
 
-#### Ranking the top five conferences by gender who won the most games ####
+####  Ranking the top five conferences by gender who won the most games ####
 conference_performance <- college_soccer_data %>%
   group_by(Team.Conference,
            Gender) %>%
@@ -203,6 +203,9 @@ soccer_conf_games <- left_join(college_soccer_data, conference_performance, by =
                                                                                    'Gender' = 'Gender'))
 
 soccer_conf_games <- left_join(soccer_conf_games, ranks_united, by = c('Gender' = 'Gender', 'Team' = 'School'))
+
+soccer_conf_games <- soccer_conf_games %>%
+  mutate(United.Soccer.Coaches.Ranking = ifelse(is.na(United.Soccer.Coaches.Ranking), 0, United.Soccer.Coaches.Ranking))
 
 ####  Exporting the dataset ####
 write.csv(soccer_conf_games, file = 'college soccer team conference performance.csv')
