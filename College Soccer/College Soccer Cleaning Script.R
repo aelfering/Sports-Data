@@ -202,5 +202,7 @@ conference_performance <- college_soccer_data %>%
 soccer_conf_games <- left_join(college_soccer_data, conference_performance, by = c('Team.Conference' = 'Team.Conference',
                                                                                    'Gender' = 'Gender'))
 
+soccer_conf_games <- left_join(soccer_conf_games, ranks_united, by = c('Gender' = 'Gender', 'Team' = 'School'))
+
 ####  Exporting the dataset ####
 write.csv(soccer_conf_games, file = 'college soccer team conference performance.csv')
