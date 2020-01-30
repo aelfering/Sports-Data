@@ -7,6 +7,8 @@ library(lubridate)
 library(reshape2)
 library(stringi)
 library(stringr)
+library(ggthemes)
+library(ggplot2)
 
 soccer <- read.csv('College Soccer.csv')
 conferences <- read.csv('Soccer Conference Data.csv')
@@ -206,6 +208,30 @@ soccer_conf_games <- left_join(soccer_conf_games, ranks_united, by = c('Gender' 
 
 soccer_conf_games <- soccer_conf_games %>%
   mutate(United.Soccer.Coaches.Ranking = ifelse(is.na(United.Soccer.Coaches.Ranking), 0, United.Soccer.Coaches.Ranking))
+
+####  Visualization ####
+men_soccer <- soccer_conf_games %>%
+  filter(Gender == 'M')
+
+men25 <- subset(test, test$United.Soccer.Coaches.Ranking > 0)
+men1 <- subset(test, test$United.Soccer.Coaches.Ranking == 1)
+
+ggplot(men_soccer, aes(Plus.Minus)) +
+  geom_histogram(binwidth = 5, colour = "white", fill = "#ffb68e", aes(group = Team)) +
+  geom_histogram(data = men25, binwidth = 5, colour = "white", fill = "#ff5a00", aes(group = Team)) +
+  geom_histogram(data = men1, binwidth = 5, colour = "black", fill = "#ff5a00", aes(group = Team)) +
+  geom_hline(yintercept = 0) +  
+  geom_vline(xintercept = 0, linetype = 'dashed') +
+  geom_curve(aes(x = 44, y = 8, xend = 45, yend = 1),
+             colour = "#555555", size=0.5, curvature = -0.2, linetype = 'dashed') +
+  geom_label(aes(x = 44, y = 8, label = "Georgetown finished #1"), 
+             hjust = 0.5, vjust = 0.5, colour = "#555555", fill = "white", 
+             label.size = NA, family="Helvetica", size = 3) +
+  labs(x_axis = "Plus Minus Score",
+       ylab = "Teams") +
+  scale_colour_hc() +
+  theme_hc()
+
 
 ####  Exporting the dataset ####
 write.csv(soccer_conf_games, file = 'college soccer team conference performance.csv')
