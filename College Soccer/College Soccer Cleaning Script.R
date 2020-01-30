@@ -129,6 +129,22 @@ conf_rec <- soccer_games_opp_conf %>%
   ungroup() %>%
   as.data.frame()
 
+####  Plus-Minus by Game Number ####
+running_plus_minus <- soccer_games_basic %>%
+  select(Team,
+         Gender, 
+         Game.Number,
+         Team.Score,
+         Opp.Score) %>%
+  group_by(Team,
+           Gender) %>%
+  mutate(Team.Running = cumsum(Team.Score),
+         Opp.Running = cumsum(Opp.Score)) %>%
+  mutate(Running.Plus.Minus = Team.Running-Opp.Running) %>%
+  ungroup() %>%
+  as.data.frame()
+
+
 ####  Estimating Overall Opponent Strength of Schedule ####
 opponent_record <- dplyr::select(plus_minus_soccer,
                                  Team,
@@ -210,16 +226,18 @@ soccer_conf_games <- soccer_conf_games %>%
   mutate(United.Soccer.Coaches.Ranking = ifelse(is.na(United.Soccer.Coaches.Ranking), 0, United.Soccer.Coaches.Ranking))
 
 ####  Visualization ####
+
+# Men's soccer visualization
 men_soccer <- soccer_conf_games %>%
   filter(Gender == 'M')
 
-men25 <- subset(test, test$United.Soccer.Coaches.Ranking > 0)
-men1 <- subset(test, test$United.Soccer.Coaches.Ranking == 1)
+men25 <- subset(men_soccer, men_soccer$United.Soccer.Coaches.Ranking > 0)
+men1 <- subset(men_soccer, men_soccer$United.Soccer.Coaches.Ranking == 1)
 
 ggplot(men_soccer, aes(Plus.Minus)) +
-  geom_histogram(binwidth = 5, colour = "white", fill = "#ffb68e", aes(group = Team)) +
-  geom_histogram(data = men25, binwidth = 5, colour = "white", fill = "#ff5a00", aes(group = Team)) +
-  geom_histogram(data = men1, binwidth = 5, colour = "black", fill = "#ff5a00", aes(group = Team)) +
+  geom_histogram(binwidth = 5, colour = "white", fill = "#ffbda1", aes(group = Team)) +
+  geom_histogram(data = men25, binwidth = 5, colour = "white", fill = "#ff814b", aes(group = Team)) +
+  geom_histogram(data = men1, binwidth = 5, colour = "black", fill = "#ff814b", aes(group = Team)) +
   geom_hline(yintercept = 0) +  
   geom_vline(xintercept = 0, linetype = 'dashed') +
   geom_curve(aes(x = 44, y = 8, xend = 45, yend = 1),
@@ -227,8 +245,31 @@ ggplot(men_soccer, aes(Plus.Minus)) +
   geom_label(aes(x = 44, y = 8, label = "Georgetown finished #1"), 
              hjust = 0.5, vjust = 0.5, colour = "#555555", fill = "white", 
              label.size = NA, family="Helvetica", size = 3) +
-  labs(x_axis = "Plus Minus Score",
-       ylab = "Teams") +
+  labs(x = "Plus Minus Score",
+       y = "Teams") +
+  scale_colour_hc() +
+  theme_hc()
+
+# Women's soccer visualization
+women_soccer <- soccer_conf_games %>%
+  filter(Gender == 'W')
+
+women25 <- subset(women_soccer, women_soccer$United.Soccer.Coaches.Ranking > 0)
+women1 <- subset(women_soccer, women_soccer$United.Soccer.Coaches.Ranking == 1)
+
+ggplot(women_soccer, aes(Plus.Minus)) +
+  geom_histogram(binwidth = 5, colour = "white", fill = "#9bb7d4", aes(group = Team)) +
+  geom_histogram(data = women25, binwidth = 5, colour = "white", fill = "#007dff", aes(group = Team)) +
+  geom_histogram(data = women1, binwidth = 5, colour = "black", fill = "#007dff", aes(group = Team)) +
+  geom_hline(yintercept = 0) +  
+  geom_vline(xintercept = 0, linetype = 'dashed') +
+  geom_curve(aes(x = 90, y = 12, xend = 91, yend = 1),
+             colour = "#555555", size=0.5, curvature = -0.2, linetype = 'dashed') +
+  geom_label(aes(x = 90, y = 13, label = "Stanford finished #1"), 
+             hjust = 1, vjust = 0.5, colour = "#555555", fill = "white", 
+             label.size = NA, family="Helvetica", size = 3) +
+  labs(x = "Plus Minus Score",
+       y = "Teams") +
   scale_colour_hc() +
   theme_hc()
 
