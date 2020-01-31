@@ -276,3 +276,4 @@ ggplot(women_soccer, aes(Plus.Minus)) +
 
 ####  Exporting the dataset ####
 write.csv(soccer_conf_games, file = 'college soccer team conference performance.csv')
+write.csv(running_plus_minus, file = 'running plus_minus scores.csv')
