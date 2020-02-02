@@ -219,8 +219,58 @@ final_diver_dataset <- left_join(dive_clean_diver_pr, event_pr, by = c('Name' = 
                                                                                  'Round' = 'Round'))
 
 
+####  Exporting Data ####
 iowa_swim_dive_data <- bind_rows(final_diver_dataset, final_swimmer_dataset)
   
 write.csv(iowa_swim_dive_data, file = 'Swimming and Dive.csv')
   
 
+
+####  Best times per date by swimmer ####
+columns_needed <- iowa_swim_dive_data %>%
+  select(Name, 
+         Name.Key,
+         Gender,
+         Class,
+         Event,
+         Round,
+         Place,
+         Time,
+         Minutes,
+         Seconds,
+         Flag,
+         Pts,
+         Event.Name,
+         Date,
+         Season,
+         Course)
+
+# How many times has a swimmer competed in an event?
+times_competed <- columns_needed %>%
+  distinct(Name, Event.Name, Event) %>%
+  arrange(Name, Event) %>%
+  select(Name, Event) %>%
+  group_by(Name, Event) %>%
+  summarise(Times.Competed = n()) %>%
+  ungroup() %>%
+  filter(Times.Competed >= 2) %>%
+  as.data.frame()
+
+swimmer_best_times_meet <- columns_needed %>%
+  group_by(Season, Name, Event.Name, Event) %>%
+  slice(which.min(Seconds)) %>%
+  ungroup() %>%
+  group_by(Name, Event) %>%
+  mutate(Number = row_number()) %>%
+  ungroup() %>%
+  as.data.frame()
+
+frequent_events <- inner_join(swimmer_best_times_meet, times_competed, by = c('Name' = 'Name',
+                                                                              'Event' = 'Event'))
+
+first_event_swim_time <- frequent_events %>%
+  filter(Number == 1) %>%
+  select(Name,
+         First_Time = Seconds)
+
+write.csv(frequent_events, file = 'frequent_swimmer_events.csv')
