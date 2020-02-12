@@ -14,7 +14,7 @@ dive_adj <- diving %>%
          Total = gsub("_", "0.5", Total),
          Full.Dive.No = paste(as.character(Dive), X., sep = ''))
 
-#### How to decode the dive? ####
+#### Decoding the Dive ####
 # 1: The first digit indicates the dive’s group: 1 = forward, 2 = back, 3 = reverse, 4 = inward, 5 = twisting, 6 = armstand.
 # 2: In front, back, reverse, and inward dives, a ‘1’ as the second digit indicates a flying action. A ‘0’ indicates none. In twisting and armstand dives, the second digit indicates the dive’s group (forward, back, reverse).
 # 3: The third digit indicates the number of half somersaults.
@@ -97,7 +97,9 @@ five_charac_dive <- dive_select %>%
   
   
 
-bind_rows(four_charac_dive, five_charac_dive) 
+test <- bind_rows(four_charac_dive, five_charac_dive) 
+
+write.csv(test, file = 'diving british.csv')
   
   
   
