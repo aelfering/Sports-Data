@@ -26,8 +26,6 @@ dive_adj <- diving %>%
   mutate(DD.Rank = dense_rank(desc(DD))) %>% #  How tough is this dive? Ranking
   ungroup()
 
-write.csv(dive_adj, "Diving Performance.csv")
-
 #### Decoding the Dive ####
 # 1: The first digit indicates the dive’s group: 1 = forward, 2 = back, 3 = reverse, 4 = inward, 5 = twisting, 6 = armstand.
 # 2: In front, back, reverse, and inward dives, a ‘1’ as the second digit indicates a flying action. A ‘0’ indicates none. In twisting and armstand dives, the second digit indicates the dive’s group (forward, back, reverse).
@@ -112,6 +110,13 @@ five_charac_dive <- dive_select %>%
 full.diving.names <- bind_rows(four_charac_dive, five_charac_dive) 
 
 ####  Bringing all the dataframes together ####
+
+full.diving.data.frame <- inner_join(dive_adj, full.diving.names, by = c('Meet' = 'Meet',
+                                                                         'Event' = 'Event',
+                                                                         'Date' = 'Date',
+                                                                         'Diver' = 'Diver',
+                                                                         'Stage' = 'Stage',
+                                                                         'Full.Dive.No' = 'Full.Dive.No'))
 
 write.csv(test, file = 'diving british.csv')
   
