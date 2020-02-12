@@ -6,6 +6,10 @@ head(diving)
 
 dive_adj <- diving %>%
   mutate(Date = dmy(Date)) %>%
+  # Fixing typos in the script
+  mutate(Stage = gsub("Fina", "Final", Stage)) %>%
+  mutate(Stage = gsub("Finall", "Final", Stage)) %>%
+  # Additional Calculations
   mutate(Aprox.Age = year(Date) - DOB,
          Total = gsub("_", "0.5", Total),
          Full.Dive.No = paste(as.character(Dive), X., sep = ''))
@@ -17,7 +21,7 @@ dive_adj <- diving %>%
 # 4: The fourth digit, if applicable, indicates the number of half twists.
 # 5: The letter indicates body position: A = straight, B = pike, C = tuck, D = free.
 
-dive_select <- dplyr::select(dive_adj, Meet, Event, Date, Diver, Full.Dive.No)
+dive_select <- dplyr::select(dive_adj, Meet, Stage, Event, Date, Diver, Full.Dive.No)
 
 four_charac_dive <- dive_select %>%
   filter(nchar(Full.Dive.No) == 4) %>%
@@ -49,6 +53,8 @@ four_charac_dive <- dive_select %>%
                          ifelse(substring(Full.Dive.No, 4, 4) == "B", "Pike",
                                 ifelse(substring(Full.Dive.No, 4, 4) == "C", "Tuck",
                                        ifelse(substring(Full.Dive.No, 4, 4) == "D", "Free", ""))))) %>%
+  # The irrelvant Fifth Character
+  mutate(Fifth = "") %>%
   # Put it together
   mutate(Dive.Name = paste(Second, " ", First, " - ", Third, " - ", Fourth, sep = ""))
                          
@@ -90,7 +96,8 @@ five_charac_dive <- dive_select %>%
   mutate(Dive.Name = paste(Second, " ", First, " - ", Third, " - ", Fourth, " - ", Fifth, sep = ""))
   
   
-  
+
+bind_rows(four_charac_dive, five_charac_dive) 
   
   
   
