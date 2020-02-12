@@ -11,8 +11,22 @@ dive_adj <- diving %>%
   mutate(Stage = gsub("Finall", "Final", Stage)) %>%
   # Additional Calculations
   mutate(Aprox.Age = year(Date) - DOB,
-         Total = gsub("_", "0.5", Total),
-         Full.Dive.No = paste(as.character(Dive), X., sep = ''))
+         J1 = as.numeric(gsub("_", ".5", J1)),
+         J2 = as.numeric(gsub("_", ".5", J2)),
+         J3 = as.numeric(gsub("_", ".5", J3)),
+         J4 = as.numeric(gsub("_", ".5", J4)),
+         J5 = as.numeric(gsub("_", ".5", J5)),
+         J6 = as.numeric(gsub("_", ".5", J6)),
+         J7 = as.numeric(gsub("_", ".5", J7)),
+         Full.Dive.No = paste(as.character(Dive), X., sep = '')) %>%
+  mutate(Total = J1 + J2 + J3 + J4 + J5 + J6 + J7) %>%   # This is not quite there yet and needs some scrunity
+  group_by(Diver, 
+           Event, 
+           Stage) %>%
+  mutate(DD.Rank = dense_rank(desc(DD))) %>% #  How tough is this dive? Ranking
+  ungroup()
+
+write.csv(dive_adj, "Diving Performance.csv")
 
 #### Decoding the Dive ####
 # 1: The first digit indicates the dive’s group: 1 = forward, 2 = back, 3 = reverse, 4 = inward, 5 = twisting, 6 = armstand.
@@ -95,9 +109,9 @@ five_charac_dive <- dive_select %>%
   # Putting it together
   mutate(Dive.Name = paste(Second, " ", First, " - ", Third, " - ", Fourth, " - ", Fifth, sep = ""))
   
-  
+full.diving.names <- bind_rows(four_charac_dive, five_charac_dive) 
 
-test <- bind_rows(four_charac_dive, five_charac_dive) 
+####  Bringing all the dataframes together ####
 
 write.csv(test, file = 'diving british.csv')
   
