@@ -19,11 +19,17 @@ dive_adj <- diving %>%
          J6 = as.numeric(gsub("_", ".5", J6)),
          J7 = as.numeric(gsub("_", ".5", J7)),
          Full.Dive.No = paste(as.character(Dive), X., sep = '')) %>%
-  mutate(Total = J1 + J2 + J3 + J4 + J5 + J6 + J7) %>%   # This is not quite there yet and needs some scrunity
+  mutate(Total = Points/DD) %>%   # This is not quite there yet and needs some scrunity
   group_by(Diver, 
            Event, 
            Stage) %>%
   mutate(DD.Rank = dense_rank(desc(DD))) %>% #  How tough is this dive? Ranking
+  ungroup() %>%
+  # Who is the points leader by event, stage and round?
+  group_by(Event,
+           Stage,
+           Round) %>%
+  mutate(Points.Leader = dense_rank(desc(Score))) %>%
   ungroup()
 
 #### Decoding the Dive ####
