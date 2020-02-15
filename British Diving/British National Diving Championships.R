@@ -4,6 +4,7 @@
 diving <- read.csv('british diving.csv')
 head(diving)
 
+####  Fixing the scores ####
 dive_adj <- diving %>%
   mutate(Date = dmy(Date)) %>%
   # Fixing typos in the script
@@ -19,7 +20,7 @@ dive_adj <- diving %>%
          J6 = as.numeric(gsub("_", ".5", J6)),
          J7 = as.numeric(gsub("_", ".5", J7)),
          Full.Dive.No = paste(as.character(Dive), X., sep = '')) %>%
-  mutate(Total = Points/DD) %>%   # This is not quite there yet and needs some scrunity
+  mutate(Total = Points/DD) %>%   
   group_by(Diver, 
            Event, 
            Stage) %>%
@@ -30,9 +31,18 @@ dive_adj <- diving %>%
            Stage,
            Round) %>%
   mutate(Points.Leader = dense_rank(desc(Score))) %>%
+  ungroup() %>%
+  # How far are they from beating the next person above them?
+  group_by(Event,
+           Date,
+           Meet,
+           Stage,
+           Round) %>%
+  arrange(Points.Leader, .by_group = TRUE) %>%
+  mutate(Points.Behind = Score - lag(Score, default = first(Score), order_by = Points.Leader)) %>%
   ungroup()
 
-#### Decoding the Dive ####
+####  Decoding the Dive ####
 # 1: The first digit indicates the dive’s group: 1 = forward, 2 = back, 3 = reverse, 4 = inward, 5 = twisting, 6 = armstand.
 # 2: In front, back, reverse, and inward dives, a ‘1’ as the second digit indicates a flying action. A ‘0’ indicates none. In twisting and armstand dives, the second digit indicates the dive’s group (forward, back, reverse).
 # 3: The third digit indicates the number of half somersaults.
@@ -124,7 +134,7 @@ full.diving.data.frame <- inner_join(dive_adj, full.diving.names, by = c('Meet' 
                                                                          'Stage' = 'Stage',
                                                                          'Full.Dive.No' = 'Full.Dive.No'))
 
-write.csv(test, file = 'diving british.csv')
+write.csv(full.diving.data.frame, file = 'diving british.csv')
   
   
   
@@ -135,3 +145,58 @@ write.csv(test, file = 'diving british.csv')
                                
                                
                                
+
+####  Which diver outperformed their prelim performance the most? ####
+head(full.diving.data.frame)
+
+# Comparing Final Scores
+finals <- full.diving.data.frame %>%
+  filter(Stage == 'Final') %>%
+  group_by(Event, Diver) %>%
+  slice(which.max(Score)) %>%
+  select(Event, 
+         Diver,
+         Gender,
+         FinalScore = Score)
+
+prelims <- full.diving.data.frame %>%
+  filter(Stage == 'Preliminary') %>%
+  group_by(Event, Diver) %>%
+  slice(which.max(Score)) %>%
+  select(Event, 
+         Diver,
+         Gender,
+         PrelimScore = Score)
+
+compare <- inner_join(finals, prelims, by = c('Event' = 'Event',
+                                   'Diver' = 'Diver',
+                                   'Gender' = 'Gender'))
+
+compare.diff <- compare %>%
+  mutate(Diff = FinalScore - PrelimScore) %>%
+  arrange(desc(Diff)) %>%
+  as.data.frame()
+
+ggplot(subset(compare.diff, Event == 'Mens Platform'), aes(x = reorder(Diver, FinalScore), y = FinalScore)) +
+  coord_flip() +
+  geom_bar(fill = 'gray',
+           stat = 'identity',
+           position = 'identity') +
+  geom_bar(data = subset(compare.diff, Event == 'Mens Platform'), 
+           aes(y = PrelimScore), 
+           stat = 'identity', 
+           position = 'identity', 
+           fill = NA,
+           color = 'black') +
+  theme_gdocs() +
+  labs(title = "Matthew Dixon Cracked 500 Points to Win Platform",
+       subtitle = "\n\n",
+       caption = "\nSource: British Swimming, DiveRecorder\nVisualization by Alex Elfering",
+       x = "",
+       y = "Final Score\n(Preliminary Score in Black Box)") +
+  theme(plot.title = element_text(face = 'bold', size = 18),
+        plot.subtitle = element_text(size = 15)) +
+  theme()
+
+
+
