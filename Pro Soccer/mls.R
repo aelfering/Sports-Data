@@ -6,6 +6,7 @@ library(lubridate)
 
 mls.soccer <- read.csv('mls soccer.csv', header=FALSE, stringsAsFactors=FALSE)
 
+####  Cleaning the initial script  ####
 shootouts <- paste('\\(', 0:20, '\\)', sep = '')
 
 mls.header <- as.character(mls.soccer[1,])
@@ -65,3 +66,6 @@ reorder.not.loss <- mls.not.lose %>%
 full.mls.match <- rbind(reorder.loss, reorder.not.loss)
 full.mls.new.result <- dplyr::mutate(full.mls.match, Result = ifelse(Team.Points > Opp.Points, "W",
                                                                      ifelse(Team.Points > Opp.Points, "L", "D")))
+
+
+####  Full Win and Loss Dataframe  ####
