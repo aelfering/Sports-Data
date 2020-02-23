@@ -3,6 +3,7 @@ library(tidyr)
 library(tidyverse)
 library(reshape2)
 library(lubridate)
+library(data.table)
 
 mls.soccer <- read.csv('mls soccer.csv', header=FALSE, stringsAsFactors=FALSE)
 
@@ -22,6 +23,10 @@ mls.match <- mls.no.header %>%
 mls.score <- separate(data = mls.match, col = Score, into = c("Team.Points", "Opp.Points"), sep = "\\-")
 
 mls.results <- mls.score %>%
+  mutate(Team.Points = gsub('\\(', '', Team.Points)) %>%
+  mutate(Opp.Points = gsub('\\(', '', Opp.Points)) %>%
+  mutate(Team.Points = gsub('\\)', '', Team.Points)) %>%
+  mutate(Opp.Points = gsub('\\)', '', Opp.Points)) %>%
   mutate(Team.Points = gsub('\\s+', '', Team.Points)) %>%
   mutate(Opp.Points = gsub('\\s+', '', Opp.Points)) %>%
   mutate(Result = ifelse(Team.Points > Opp.Points, "W",
@@ -102,6 +107,7 @@ team.name.clean <- win.loss.mls.games.dates %>%
          Opponent = ifelse(Opponent %in% c('MetroStars'), 'NY Red Bulls', Opponent)) 
 
 team.records <- team.name.clean %>%
+  mutate(Round.Group = ifelse(Round == 'Regular Season', Round, 'Post-Season')) %>%
   arrange(Date) %>%
   # Win, Loss, Draws by Team and Season
   group_by(Season, Team) %>%
@@ -123,20 +129,80 @@ team.records <- team.name.clean %>%
   mutate(Running.Series.Wins = cumsum(Team.Opp.Wins),
          Running.Series.Losses = cumsum(Team.Opp.Loses),
          Running.Series.Draws = cumsum(Team.Opp.Draws)) %>%
+  mutate(Series.Winning.Streak = rowid(rleid(Team.Opp.Wins)) * Team.Opp.Wins) %>%
   ungroup()  %>%
   # Win, Loss, Draws by Team
   group_by(Team) %>%
   mutate(Total.Game.Num = row_number(),
          Series.Wins = cumsum(Team.Wins),
          Series.Losses = cumsum(Team.Loses),
-         Series.Draws = cumsum(Team.Draws)) %>%
-  ungroup()
+         Series.Draws = cumsum(Team.Draws),
+         Total.Winning.Streak = rowid(rleid(Team.Wins)) * Team.Wins) %>%
+  ungroup() %>%
+  as.data.frame()
 
-head(team.records)
 
-ggplot(team.records, aes(x = Season.Game.Number, y = Series.Wins)) +
-  geom_line() +
-  facet_wrap(~Team)
+####  Visualizations ####
+
+first.post <- team.records %>%
+  group_by(Team, 
+           Season) %>%
+  slice(which.min(Total.Game.Num))
+
+post.season <- team.records %>%
+  filter(Round.Group == 'Post-Season') %>%
+  group_by(Team, 
+           Season) %>%
+  slice(which.min(Total.Game.Num))
+
+mls.cup.champ <- team.records %>%
+  filter(grepl('MLS Cup', Round),
+         Result == 'W')
+
+mls.draw.wins <- team.records %>%
+  filter(grepl('MLS Cup', Round),
+         grepl('won', Notes))
+
+all.mls.cup.wins <- rbind(mls.cup.champ, mls.draw.wins)
+
+team <- 'Sporting KC'
+ggplot(subset(team.records, Team == team), 
+       aes(x = Total.Game.Num, 
+           y = Running.Team.Points-Running.Opponent.Points, 
+           group = Season)) +
+  # Lines to identify a new season or when Sporting KC entered the post-season
+  geom_vline(data = subset(first.post, Team == team), aes(xintercept = Total.Game.Num), color = '#aeaeae') +
+  geom_vline(data = subset(post.season, Team == team), aes(xintercept = Total.Game.Num), color = '#ffffff') +
+  # Elements of the visualization itself
+  geom_hline(yintercept = 0, size = 0.2)  +
+  geom_line(aes(group = Season),
+            color = '#0050bf') +
+  geom_point(data = subset(all.mls.cup.wins, Team == team), 
+             aes(x = Total.Game.Num, 
+             y = Running.Team.Points-Running.Opponent.Points, 
+             color = '#ff6714',
+             group = Season)) +
+  theme(axis.line = element_line(colour = "black"),
+        panel.grid.major = element_blank(),
+        legend.position = "none",
+        panel.grid.minor = element_blank(),
+        plot.title = element_text(face = 'bold', size = 18)) + 
+  scale_x_continuous(limits=c(0,720),
+                     breaks = seq(0, 720, by = 20)) +
+  labs(title = 'The History of Sporting Kansas City',
+       subtitle = 'Plus-Minus Score per Season',
+       x = element_blank(),
+       y = 'Plus-Minus Socre',
+       caption = 'Source: FBRef\nVisualization by Alex Elfering\nInspired by FiveThirtyEight') +
+  geom_label(aes(x = 160, y = 27, label = "Post-Season"), 
+             hjust = 0, vjust = 0.5, colour = "#555555", fill = "white", 
+             label.size = NA,  family="Arial",  size = 3) +
+  geom_label(aes(x = 160, y = 18, label = "Won MLS Cup"), 
+             hjust = 0, vjust = 0.5, colour = "#555555", fill = "white", 
+             label.size = NA,  family="Arial",  size = 3) +
+  geom_label(aes(x = 690, y = 18, label = "KC was knocked out\nin semifinals despite\nstrong showing."), 
+             hjust = 0, vjust = 0.5, colour = "#555555", fill = "white", 
+             label.size = NA,  family="Arial",  size = 3)
   
 write.csv(team.records, 'basic mls.csv')
   
