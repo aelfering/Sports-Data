@@ -144,6 +144,33 @@ team.records <- team.name.clean %>%
 
 ####  Visualizations ####
 
+first.post.season.games <- team.records %>%
+  filter(Round.Group == 'Post-Season') %>%
+  group_by(Team, 
+           Season) %>%
+  slice(which.min(Total.Game.Num)) %>%
+  ungroup() %>%
+  select(Season,
+         Team,
+         Total.Game.Num = Total.Game.Num,
+         Running.Team.Points,
+         Running.Opponent.Points)
+
+last.post.season.games <- team.records %>%
+  filter(Round.Group == 'Post-Season') %>%
+  group_by(Team, 
+           Season) %>%
+  slice(which.max(Total.Game.Num)) %>%
+  ungroup() %>%
+  select(Season,
+         Team,
+         Last.Game = Total.Game.Num,
+         Running.Team.Points,
+         Running.Opponent.Points)
+
+first.last.games <- inner_join(first.post.season.games, last.post.season.games, by = c('Team' = 'Team',
+                                                                                       'Season' = 'Season'))
+
 first.post <- team.records %>%
   group_by(Team, 
            Season) %>%
@@ -166,45 +193,81 @@ mls.draw.wins <- team.records %>%
 all.mls.cup.wins <- rbind(mls.cup.champ, mls.draw.wins)
 
 team <- 'Sporting KC'
-ggplot(subset(team.records, Team == team), 
-       aes(x = Total.Game.Num, 
-           y = Running.Team.Points-Running.Opponent.Points, 
-           group = Season)) +
-  # Lines to identify a new season or when Sporting KC entered the post-season
-  geom_vline(data = subset(first.post, Team == team), aes(xintercept = Total.Game.Num), color = '#aeaeae') +
-  geom_vline(data = subset(post.season, Team == team), aes(xintercept = Total.Game.Num), color = '#ffffff') +
-  # Elements of the visualization itself
+ggplot(subset(team.records, 
+              Team == team),
+       aes(x = Total.Game.Num + 1)) +
   geom_hline(yintercept = 0, size = 0.2)  +
-  geom_line(aes(group = Season),
+  # Identifies the beginning of the season
+  geom_vline(data = subset(first.post, Team == team), 
+             aes(xintercept = Total.Game.Num), 
+             color = '#3a3939', 
+             alpha = 0.9) +
+  # Labels the season
+  geom_text(data = subset(first.post, 
+                          Team == team), 
+            mapping = aes(label = substr(Season, 
+                                         start = 3, 
+                                         stop = 4), 
+                          y = -25), 
+            size = 3,
+            hjust = 0) +
+  # Charts the plus-minus score by season
+  geom_line(aes(x = Total.Game.Num, 
+                y = Running.Team.Points-Running.Opponent.Points,
+                group = Season),
             color = '#0050bf') +
+  # Shading identifies the post-season
+  geom_rect(subset(first.last.games, 
+                   Team == team), 
+            mapping = aes(xmin = Total.Game.Num,
+                          xmax = Last.Game + 1,
+                          ymin = -Inf,
+                          ymax = Inf),
+            alpha = 0.3) +
+  # Pinpoints when a team won the MLS Cup
   geom_point(data = subset(all.mls.cup.wins, Team == team), 
              aes(x = Total.Game.Num, 
-             y = Running.Team.Points-Running.Opponent.Points, 
-             color = '#ff6714',
-             group = Season)) +
+                 y = Running.Team.Points-Running.Opponent.Points, 
+                 color = '#ff6714',
+                 group = Season)) +
+  # Chart Theme and Formatting
   theme(axis.line = element_line(colour = "black"),
         panel.grid.major = element_blank(),
+        axis.text.x=element_blank(),
+        axis.ticks.x=element_blank(),
         legend.position = "none",
         panel.grid.minor = element_blank(),
+        plot.background = element_rect(fill = "white"),
+        panel.background = element_rect(fill = "white"),
         plot.title = element_text(face = 'bold', size = 18)) + 
   scale_x_continuous(limits=c(0,720),
                      breaks = seq(0, 720, by = 20)) +
-  labs(title = 'The History of Sporting Kansas City',
-       subtitle = 'Plus-Minus Score per Season',
+  # Titles and Captions
+  labs(title = 'Plus-Minus Score: The History of Sporting Kansas City',
+       subtitle = 'Sporting Kansas City will compete in its 24th consecutive season as a member of Major League Soccer. In 2018 after finishing 19-9-5, scoring a plus-minus score of 26 and making it to the\nSemifinals, KC went 10-16-4 and recorded its third-worst season by plus-minus score in franchise history.',
        x = element_blank(),
-       y = 'Plus-Minus Socre',
+       y = 'Plus-Minus Score',
        caption = 'Source: FBRef\nVisualization by Alex Elfering\nInspired by FiveThirtyEight') +
+  # Annotations
   geom_label(aes(x = 160, y = 27, label = "Post-Season"), 
-             hjust = 0, vjust = 0.5, colour = "#555555", fill = "white", 
+             hjust = 0, vjust = 0.5, colour = "#555555", fill = 'white',  
              label.size = NA,  family="Arial",  size = 3) +
   geom_label(aes(x = 160, y = 18, label = "Won MLS Cup"), 
-             hjust = 0, vjust = 0.5, colour = "#555555", fill = "white", 
+             hjust = 0, vjust = 0.5, colour = "#555555", fill = 'white', 
              label.size = NA,  family="Arial",  size = 3) +
-  geom_label(aes(x = 690, y = 18, label = "KC was knocked out\nin semifinals despite\nstrong showing."), 
-             hjust = 0, vjust = 0.5, colour = "#555555", fill = "white", 
-             label.size = NA,  family="Arial",  size = 3)
-  
-write.csv(team.records, 'basic mls.csv')
+  geom_label(aes(x = 690, y = 18, label = "KC was knocked\nout in semifinals\ndespite strong showing."), 
+             hjust = 0, vjust = 0.5, colour = "#555555", fill = 'white',  
+             label.size = NA,  family="Arial",  size = 3) +
+# Arrows
+  geom_curve(aes(x = 160, y = 27, xend = 148, yend = 27),
+             colour = "#555555", size=0.2, curvature = -0.2,
+             arrow = arrow(length = unit(0.01, "npc"))) +
+  geom_curve(aes(x = 160, y = 18, xend = 152, yend = 22),
+             colour = "#555555", size=0.2, curvature = 0.2,
+             arrow = arrow(length = unit(0.01, "npc"))) +
+  geom_curve(aes(x = 690, y = 18, xend = 679, yend = 25),
+             colour = "#555555", size=0.2, curvature = 0.2,
+             arrow = arrow(length = unit(0.01, "npc")))
   
   
   
