@@ -255,7 +255,7 @@ ggplot(subset(team.records,
   geom_label(aes(x = 160, y = 18, label = "Won MLS Cup"), 
              hjust = 0, vjust = 0.5, colour = "#555555", fill = 'white', 
              label.size = NA,  family="Arial",  size = 3) +
-  geom_label(aes(x = 690, y = 18, label = "KC was knocked\nout in semifinals\ndespite strong showing."), 
+  geom_label(aes(x = 690, y = 18, label = "KC was knocked\nout in semifinals\ndespite strong\nshowing."), 
              hjust = 0, vjust = 0.5, colour = "#555555", fill = 'white',  
              label.size = NA,  family="Arial",  size = 3) +
 # Arrows
