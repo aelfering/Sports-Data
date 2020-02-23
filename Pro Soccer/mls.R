@@ -268,14 +268,3 @@ ggplot(subset(team.records,
   geom_curve(aes(x = 690, y = 18, xend = 679, yend = 25),
              colour = "#555555", size=0.2, curvature = 0.2,
              arrow = arrow(length = unit(0.01, "npc")))
-  
-  
-  
-  
-  
-  
-  
-  
-
-
-
