@@ -29,7 +29,7 @@ iowa.column.rename <- dplyr::select(iowa.team.opp,
                                     Team.FG = FG.x,
                                     Team.FGA = FGA.x,
                                     Team.2P = X2P.x,
-                                    Team.2PA = X2P.x,
+                                    Team.2PA = X2PA.x,
                                     Team.3P = X3P.x,
                                     Team.3PA = X3PA.x,
                                     Team.FT = FT.x,
@@ -38,7 +38,7 @@ iowa.column.rename <- dplyr::select(iowa.team.opp,
                                     Opp.FG = FG.y,
                                     Opp.FGA = FGA.y,
                                     Opp.2P = X2P.y,
-                                    Opp.2PA = X2P.y,
+                                    Opp.2PA = X2PA.y,
                                     Opp.3P = X3P.y,
                                     Opp.3PA = X3PA.y,
                                     Opp.FT = FT.y,
@@ -60,10 +60,49 @@ iowa.results.pts.int <- dplyr::mutate(iowa.results.seasons,
                                       Iowa.Pts = as.numeric(Iowa.Pts),
                                       Opp.Pts = as.numeric(Opp.Pts))
 
+#### What percent of points come from 3-point shots? ####
+percent.shots <- iowa.results.pts.int %>%
+  group_by(Season) %>%
+  summarise(Total.Season.Pts = sum(Team.PTS),
+            Total.3P.Pts = sum(Team.3P) * 3,
+            Total.2P.Pts = sum(Team.2P) * 2,
+            Total.FT.Pts = sum(Team.FT)) %>%
+  ungroup() %>%
+  mutate(Pct.3P = Total.3P.Pts/Total.Season.Pts,
+         Pct.2P = Total.2P.Pts/Total.Season.Pts,
+         Pct.FT = Total.FT.Pts/Total.Season.Pts,
+         Season = as.factor(Season))
 
+ggplot(percent.shots, aes(x = Season, y = Pct.3P)) +
+  geom_line(aes(group = 1)) +
+  geom_point() +
+  theme_bw()
 
+# This visualizes that percent of points from three pointers has increased per share
 
+####  Net Pointers?
+running.net <- iowa.results.pts.int %>%
+  mutate(Net.3P = Team.3P-Opp.3P,
+         Net.2P = Team.2P-Opp.2P,
+         Net.FT = Team.FT-Opp.FT) %>%
+  group_by(Season) %>%
+  mutate(Running.Net.3P = cumsum(Net.3P),
+         Running.Net.2P = cumsum(Net.2P),
+         Running.Net.FT = cumsum(Net.FT),
+         Season.Game.No = row_number()) %>%
+  ungroup()
 
-
-
-
+ggplot(running.net, 
+       aes(x = Season.Game.No)) +
+  geom_hline(yintercept = 0, 
+             alpha = 0.6) +
+  theme_bw() +
+  geom_line(mapping = aes(y = Running.Net.FT),
+            color = 'red') + 
+  geom_line(mapping = aes(y = Running.Net.2P),
+            color = 'blue') + 
+  geom_line(mapping = aes(y = Running.Net.3P),
+            color = 'orange') + 
+  facet_wrap(~Season)
+  
+head(iowa.results.pts.int)  
