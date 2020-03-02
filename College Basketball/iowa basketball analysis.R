@@ -60,22 +60,39 @@ iowa.results.pts.int <- dplyr::mutate(iowa.results.seasons,
                                       Iowa.Pts = as.numeric(Iowa.Pts),
                                       Opp.Pts = as.numeric(Opp.Pts))
 
+head(iowa.results.pts.int)
+
 #### What percent of points come from 3-point shots? ####
 percent.shots <- iowa.results.pts.int %>%
   group_by(Season) %>%
   summarise(Total.Season.Pts = sum(Team.PTS),
+            Total.Season.Att = sum(Team.3PA) + sum(Team.2PA) + sum(Team.FTA),
             Total.3P.Pts = sum(Team.3P) * 3,
+            Total.3P.Att = sum(Team.3PA),
             Total.2P.Pts = sum(Team.2P) * 2,
-            Total.FT.Pts = sum(Team.FT)) %>%
+            Total.2P.Att = sum(Team.2PA),
+            Total.FT.Pts = sum(Team.FT),
+            Total.FT.Att = sum(Team.FTA),
+            Total.Minutes = max(MP)) %>%
   ungroup() %>%
   mutate(Pct.3P = Total.3P.Pts/Total.Season.Pts,
+         Pct.3PA = Total.3P.Att/Total.Season.Att,
          Pct.2P = Total.2P.Pts/Total.Season.Pts,
+         Pct.2PA = Total.2P.Att/Total.Season.Att,
          Pct.FT = Total.FT.Pts/Total.Season.Pts,
+         Pct.FTA = Total.FT.Att/Total.Season.Att,
          Season = as.factor(Season))
 
-ggplot(percent.shots, aes(x = Season, y = Pct.3P)) +
+ggplot(percent.shots, aes(x = Season, y = Pct.FTA)) +
   geom_line(aes(group = 1)) +
   geom_point() +
+  theme(plot.title = element_text(size = 18, face = 'strong')) +
+  labs(title = 'Iowa has Made Three-Pointers a Bigger Focus',
+       subtitle = 'Percent of points from three-point shots by season',
+       caption = 'Visualization by Alex Elfering\nSource: College Basketball Reference',
+       x = '',
+       y = 'Percent of Points from Three-Pointers') +
+  scale_y_continuous(labels = scales::percent) +
   theme_bw()
 
 # This visualizes that percent of points from three pointers has increased per share
