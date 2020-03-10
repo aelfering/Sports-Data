@@ -66,7 +66,7 @@ head(iowa.results.pts.int)
 percent.shots <- iowa.results.pts.int %>%
   group_by(Season) %>%
   summarise(Total.Season.Pts = sum(Team.PTS),
-            Total.Season.Att = sum(Team.3PA) + sum(Team.2PA) + sum(Team.FTA),
+            Total.Season.Att = sum(Team.3PA) + sum(Team.2PA),
             Total.3P.Pts = sum(Team.3P) * 3,
             Total.3P.Att = sum(Team.3PA),
             Total.2P.Pts = sum(Team.2P) * 2,
@@ -77,23 +77,29 @@ percent.shots <- iowa.results.pts.int %>%
   ungroup() %>%
   mutate(Pct.3P = Total.3P.Pts/Total.Season.Pts,
          Pct.3PA = Total.3P.Att/Total.Season.Att,
+         Three.Points.40.Min = (Total.3P.Att * 40)/Total.Minutes,
          Pct.2P = Total.2P.Pts/Total.Season.Pts,
          Pct.2PA = Total.2P.Att/Total.Season.Att,
+         Two.Points.40.Minutes = (Total.2P.Att * 40)/Total.Minutes,
          Pct.FT = Total.FT.Pts/Total.Season.Pts,
          Pct.FTA = Total.FT.Att/Total.Season.Att,
          Season = as.factor(Season))
 
-ggplot(percent.shots, aes(x = Season, y = Pct.FTA)) +
-  geom_line(aes(group = 1)) +
-  geom_point() +
-  theme(plot.title = element_text(size = 18, face = 'strong')) +
-  labs(title = 'Iowa has Made Three-Pointers a Bigger Focus',
-       subtitle = 'Percent of points from three-point shots by season',
+ggplot(percent.shots, aes(x = Season, y = Pct.3PA)) +
+  # Examining shot attempts
+  geom_line(aes(group = 1), color = '#94003a') +
+  geom_point(color = '#94003a') +
+  geom_line(data = percent.shots, aes(x = Season, y = Pct.2PA, group = 1), color = '#00bcff') +
+  geom_point(data = percent.shots, aes(x = Season, y = Pct.2PA, group = 1), color = '#00bcff') +
+  # Theme Elements
+  theme(plot.title = element_text(size = 18, face = 'bold', family = 'Arial'),
+        plot.subtitle = element_text(size = 15, family = 'Arial')) +
+  labs(title = 'Three Point Shots are a Bigger Focus for Iowa',
+       subtitle = 'Attempts for three-point attempts have steadily climbed to nearly 40% from ',
        caption = 'Visualization by Alex Elfering\nSource: College Basketball Reference',
        x = '',
-       y = 'Percent of Points from Three-Pointers') +
-  scale_y_continuous(labels = scales::percent) +
-  theme_bw()
+       y = 'Percent of Attempts') +
+  scale_y_continuous(labels = scales::percent)
 
 # This visualizes that percent of points from three pointers has increased per share
 
