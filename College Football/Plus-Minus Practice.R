@@ -70,38 +70,41 @@ cfb_records <- full_cfb %>%
          Ties = ifelse(Opponent.Pts == Team.Pts, 1, 0)) %>%
   group_by(Season,
            Team) %>%
-  summarise(Points.For = median(Team.Pts),
-            Points.Against = (median(Opponent.Pts)*-1),
-            Points.Against.Line = median(Opponent.Pts),
+  summarise(Points.For = mean(Team.Pts),
+            Points.Against = (mean(Opponent.Pts)*-1),
+            Points.Against.Line = mean(Opponent.Pts),
             Games.Played = n_distinct(Date),
             Total.Wins = sum(Wins),
             Total.Losses = sum(Loses),
             Total.Ties = sum(Ties)) %>%
   ungroup() %>%
-  mutate(Margin = Points.For + Points.Against)
+  mutate(Margin = Points.For + Points.Against) %>%
+  filter(Total.Wins + Total.Losses + Total.Ties >= 10)
 
 # Visualization
 
 # Highlights bad seasons
 winning.seasons <- cfb_records %>%
   mutate(Losing.Season = ifelse(Total.Losses > Total.Wins, Total.Wins, 0)) %>%
-  mutate(Lower = ifelse(Losing.Season > 0, Season - 0.5, NA),
-         Upper = ifelse(Losing.Season > 0, Season + 0.5, NA)) %>%
+  mutate(Lower = ifelse(Losing.Season > 0 | Total.Wins == 0, Season - 0.5, NA),
+         Upper = ifelse(Losing.Season > 0 | Total.Wins == 0, Season + 0.5, NA)) %>%
   filter(Games.Played >= 10)
 
-team.filter <- 'Louisville'
+team.filter <- 'Illinois'
 
 # How many games has team.filter won/lost in the last five seasons?
 recent.season <- max(cfb_records$Season)
-last.season <- max(cfb_records$Season)-5
+last.season <- max(cfb_records$Season)-3
 
 five.season.perf <- cfb_records %>%
   filter(Team == team.filter) %>%
+  group_by(Team) %>%
   filter(Season >= last.season) %>%
   summarise(Total.Wins = sum(Total.Wins),
             Total.Losses = sum(Total.Losses),
-            Avg.Points.Scored = median(Points.For),
-            Avg.Points.Against = median(Points.Against))
+            Avg.Points.Scored = mean(Points.For),
+            Avg.Points.Against = mean(Points.Against)) %>%
+  ungroup()
 
 total.wins <- as.numeric(five.season.perf$Total.Wins)
 total.losses <- as.numeric(five.season.perf$Total.Losses)
