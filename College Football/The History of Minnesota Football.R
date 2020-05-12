@@ -62,6 +62,20 @@ coach_df <- inner_join(coach_roll, coach_yrs, by = c('Coach' = 'Coach', 'Season'
 coach_df <- dplyr::mutate(coach_df, Coach = paste(Coach, " (", First_Season, '-', Latest_Season, ")", sep = ''))
 coach_df <- dplyr::mutate(coach_df, Coach_Name = paste(Coach, " (", First_Season, '-', Latest_Season, ")", sep = ''))
 
+# Who are the winningest coaches of all time (for Minnesota)?
+winningest_coaches <- coach_df %>%
+  group_by(Coach) %>%
+  slice(which.max(Coach_Game_No)) %>%
+  ungroup() %>%
+  select(Coach,
+         Percent.Wins) %>%
+  arrange(desc(Percent.Wins)) %>%
+  filter(row_number() <= 3)
+
+winningest_coaches_names <- as.character(winningest_coaches$Coach)
+
+top_coaches <- dplyr::filter(coach_df, Coach %in% winningest_coaches_names)
+
 # Order the facets by the coach's first season
 coach_df$Coach <- factor(coach_df$Coach, levels = unique(coach_df$Coach[order(coach_df$First_Season)]))
 
@@ -76,7 +90,13 @@ ggplot(coach_df,
             aes(group = Coach_Name), 
             size = 1,
             color = 'gray',
-            alpha = 0.7) +   
+            alpha = 0.4) +   
+  geom_line(data = transform(top_coaches,
+                             Coach = NULL), 
+            aes(group = Coach_Name), 
+            size = 1,
+            color = '#575757',
+            alpha = 0.7) +  
   geom_hline(yintercept = 0,
              color = '#898989',
              linetype = 'dashed') +
