@@ -39,6 +39,10 @@ coach_roll <- msp %>%
          Result,
          Points,
          Opp.Points) %>%
+  mutate(Coach = as.character(Coach)) %>%
+  mutate(Coach = ifelse(Coach == 'Bernie Bierman' & Season <= 1941, 'Bernie Bierman (1st Time)',
+                        ifelse(Coach == 'Bernie Bierman' & Season > 1942, 'Bernie Bierman (2nd Time)', Coach))) %>%
+  mutate(Coach = as.factor(Coach)) %>%
   group_by(Coach) %>%
   mutate(Coach_Game_No = row_number(),
          Games_Coached = n_distinct(Date),
