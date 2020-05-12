@@ -49,7 +49,7 @@ coach_roll <- msp %>%
          Running.Margin = cumsum(Points - Opp.Points)) %>%
   mutate(Wins = ifelse(Points > Opp.Points, 1, 0),
          Loses = ifelse(Points < Opp.Points, 1, 0)) %>%
-  filter(Games_Coached >= 3) %>%
+  filter(Games_Coached > 6) %>%
   ungroup() %>%
   mutate(Margin = Points - Opp.Points,
          Rolling.Margin = rollapplyr(Margin, 11, sum, partial = TRUE),
@@ -88,7 +88,7 @@ ggplot(coach_df,
   labs(title = 'The History of Minnesota Football by Coach',
        x = 'Game Number',
        y = 'Rolling Margin',
-       subtitle = 'Rolling Plus-Minus Every 11 Games For Coaches Who Led at Least 3 Games',
+       subtitle = 'Rolling Plus-Minus Every 11 Games For Coaches Who Led More Than 6 Games',
        caption = 'Since Minnesota joined the Western/Big Ten Conference.\nSource: College Football Reference\nVisualization by Alex Elfering') + 
   theme(plot.title = element_text(face = 'bold', size = 18, family = 'Arial'),
         plot.subtitle = element_text(size = 15, family = 'Arial'),
