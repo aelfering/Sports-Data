@@ -15,8 +15,8 @@ coach_yrs <- msp %>%
   distinct(Coach,
            Season) %>%
   mutate(Coach = as.character(Coach)) %>%
-  mutate(Coach = ifelse(Coach == 'Bernie Bierman' & Season <= 1941, 'Bernie Bierman (1st Time)',
-                        ifelse(Coach == 'Bernie Bierman' & Season > 1942, 'Bernie Bierman (2nd Time)', Coach))) %>%
+  mutate(Coach = ifelse(Coach == 'Bernie Bierman' & Season <= 1941, 'Bernie Bierman (1st)',
+                        ifelse(Coach == 'Bernie Bierman' & Season > 1942, 'Bernie Bierman (2nd)', Coach))) %>%
   group_by(Coach) %>%
   mutate(Year_No = row_number(),
          First_Season = (min(Season)),
