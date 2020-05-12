@@ -16,9 +16,11 @@ coach_yrs <- msp %>%
            Season) %>%
   group_by(Coach) %>%
   mutate(Year_No = row_number(),
-         First_Season = as.character(min(Season)),
-         Latest_Season = as.character(max(Season))) %>%
-  ungroup() 
+         First_Season = (min(Season)),
+         Latest_Season = (max(Season))) %>%
+  ungroup() %>%
+  mutate(First_Season = factor(First_Season),
+         Latest_Season = factor(Latest_Season))
 
 # Calculate the rolling margin for every 11 games (modern teams play between 11-12 games each season)
 coach_roll <- msp %>%
@@ -47,6 +49,11 @@ coach_roll <- msp %>%
 # Joining the dataframes together
 coach_df <- inner_join(coach_roll, coach_yrs, by = c('Coach' = 'Coach', 'Season' = 'Season'))
 
+str(coach_df)
+
+# Order the facets by the coach's first season
+coach_df$Coach <- factor(coach_df$Coach, levels = unique(coach_df$Coach[order(coach_df$First_Season)]))
+
 # The visualization!
 # Using geom_line() and transform() to create a small multiples graph that highlights each coach by facet
 ggplot(coach_df, 
@@ -66,7 +73,8 @@ ggplot(coach_df,
             color = 'brown',
             size = 1) + 
   scale_colour_identity() + 
-  facet_wrap(~ Coach) +
+  facet_wrap(~Coach) +
+  #~factor(df$id, levels = unique(df$id))
   labs(title = 'The History of Minnesota Football by Coach',
        x = 'Game Number',
        y = 'Rolling Margin',
