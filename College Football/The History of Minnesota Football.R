@@ -48,7 +48,8 @@ coach_roll <- msp %>%
          Games_Coached = n_distinct(Date),
          Running.Margin = cumsum(Points - Opp.Points)) %>%
   mutate(Wins = ifelse(Points > Opp.Points, 1, 0),
-         Loses = ifelse(Points < Opp.Points, 1, 0)) %>%
+         Loses = ifelse(Points < Opp.Points, 1, 0),
+         Percent.Wins = cumsum(Wins)/Games_Coached) %>%
   filter(Games_Coached > 6) %>%
   ungroup() %>%
   mutate(Margin = Points - Opp.Points,
@@ -86,7 +87,7 @@ ggplot(coach_df,
   facet_wrap(~Coach) +
   #~factor(df$id, levels = unique(df$id))
   labs(title = 'The History of Minnesota Football by Coach',
-       x = 'Game Number',
+       x = 'Total Games Coached',
        y = 'Rolling Margin',
        subtitle = 'Rolling Plus-Minus Every 11 Games For Coaches Who Led More Than 6 Games',
        caption = 'Since Minnesota joined the Western/Big Ten Conference.\nSource: College Football Reference\nVisualization by Alex Elfering') + 
@@ -103,6 +104,43 @@ ggplot(coach_df,
         panel.grid.major.x = element_blank()) 
 
 
+
+
+ggplot(coach_df, 
+       aes(x = Coach_Game_No, 
+           y = Percent.Wins,
+           group = Coach)) + 
+  geom_line(data = transform(coach_df,
+                             Coach = NULL), 
+            aes(group = Coach_Name), 
+            size = 1,
+            color = 'gray',
+            alpha = 0.7) +   
+  geom_hline(yintercept = 0,
+             color = '#898989',
+             linetype = 'dashed') +
+  geom_line(aes(group = Coach), 
+            color = 'brown',
+            size = 1) + 
+  scale_colour_identity() + 
+  facet_wrap(~Coach) +
+  scale_y_continuous(labels = scales::percent) +
+  labs(title = 'The History of Minnesota Football by Coach',
+       x = 'Total Games Coached',
+       y = 'Percent of Games Won',
+       subtitle = 'Percent of Games Won By Each Coach Who Led More Than 6 Games',
+       caption = 'Since Minnesota joined the Western/Big Ten Conference.\nSource: College Football Reference\nVisualization by Alex Elfering') + 
+  theme(plot.title = element_text(face = 'bold', size = 18, family = 'Arial'),
+        plot.subtitle = element_text(size = 15, family = 'Arial'),
+        plot.caption = element_text(size = 12, family = 'Arial'),
+        axis.title = element_text(size = 12, family = 'Arial'),
+        axis.text = element_text(size = 12, family = 'Arial'),
+        strip.text = ggplot2::element_text(size = 12, hjust = 0, face = 'bold', color = 'brown', family = 'Arial'),
+        strip.background = element_rect(fill = NA),
+        panel.background = ggplot2::element_blank(),
+        axis.line = element_line(colour = "#222222", linetype = "solid"),
+        panel.grid.major.y = ggplot2::element_line(color = "#dedede", linetype = 'dashed'),
+        panel.grid.major.x = element_blank()) 
 
 
 
