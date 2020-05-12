@@ -40,8 +40,8 @@ coach_roll <- msp %>%
          Points,
          Opp.Points) %>%
   mutate(Coach = as.character(Coach)) %>%
-  mutate(Coach = ifelse(Coach == 'Bernie Bierman' & Season <= 1941, 'Bernie Bierman (1st Time)',
-                        ifelse(Coach == 'Bernie Bierman' & Season > 1942, 'Bernie Bierman (2nd Time)', Coach))) %>%
+  mutate(Coach = ifelse(Coach == 'Bernie Bierman' & Season <= 1941, 'Bernie Bierman (1st)',
+                        ifelse(Coach == 'Bernie Bierman' & Season > 1942, 'Bernie Bierman (2nd)', Coach))) %>%
   mutate(Coach = as.factor(Coach)) %>%
   group_by(Coach) %>%
   mutate(Coach_Game_No = row_number(),
@@ -58,6 +58,8 @@ coach_roll <- msp %>%
 
 # Joining the dataframes together
 coach_df <- inner_join(coach_roll, coach_yrs, by = c('Coach' = 'Coach', 'Season' = 'Season'))
+coach_df <- dplyr::mutate(coach_df, Coach = paste(Coach, " (", First_Season, '-', Latest_Season, ")", sep = ''))
+coach_df <- dplyr::mutate(coach_df, Coach_Name = paste(Coach, " (", First_Season, '-', Latest_Season, ")", sep = ''))
 
 # Order the facets by the coach's first season
 coach_df$Coach <- factor(coach_df$Coach, levels = unique(coach_df$Coach[order(coach_df$First_Season)]))
