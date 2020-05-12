@@ -61,16 +61,16 @@ coach_roll <- msp %>%
 # Joining the dataframes together
 coach_df <- inner_join(coach_roll, coach_yrs, by = c('Coach' = 'Coach', 'Season' = 'Season'))
 coach_df <- dplyr::mutate(coach_df, Coach = paste(Coach, " (", First_Season, '-', Latest_Season, ")", sep = ''))
-coach_df <- dplyr::mutate(coach_df, Coach_Name = paste(Coach, " (", First_Season, '-', Latest_Season, ")", sep = ''))
+coach_df <- dplyr::mutate(coach_df, Coach_Name = Coach)
 
 # Who are the winningest coaches of all time (for Minnesota)?
-winningest_coaches <- coach_df %>%
+winningest_coaches <- coach_roll %>%
   group_by(Coach) %>%
   slice(which.max(Coach_Game_No)) %>%
   ungroup() %>%
+  mutate(Percent.Wins = Rollings.Wins/Coach_Game_No) %>%
   select(Coach,
          Percent.Wins) %>%
-  arrange(desc(Percent.Wins)) %>%
   filter(row_number() <= 3)
 
 winningest_coaches_names <- as.character(winningest_coaches$Coach)
