@@ -14,16 +14,16 @@ msp <- read.csv('minnesota fb history.csv')
 coach_yrs <- msp %>%
   distinct(Coach,
            Season) %>%
+  mutate(Coach = as.character(Coach)) %>%
+  mutate(Coach = ifelse(Coach == 'Bernie Bierman' & Season <= 1941, 'Bernie Bierman (1st Time)',
+                        ifelse(Coach == 'Bernie Bierman' & Season > 1942, 'Bernie Bierman (2nd Time)', Coach))) %>%
   group_by(Coach) %>%
   mutate(Year_No = row_number(),
          First_Season = (min(Season)),
          Latest_Season = (max(Season))) %>%
   ungroup() %>%
-  mutate(Coach = as.character(Coach)) %>%
   # Bernie Bierman was Minnesota's coach from 1932-1941 and 1945-1950
   # Need to identify those breaks and separate each tenure
-  mutate(Coach = ifelse(Coach == 'Bernie Bierman' & Season <= 1941, 'Bernie Bierman (1st Time)',
-                        ifelse(Coach == 'Bernie Bierman' & Season > 1942, 'Bernie Bierman (2nd Time)', Coach))) %>%
   mutate(First_Season = factor(First_Season),
          Latest_Season = factor(Latest_Season),
          Coach = as.factor(Coach))
