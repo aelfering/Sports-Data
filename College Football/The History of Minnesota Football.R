@@ -19,8 +19,14 @@ coach_yrs <- msp %>%
          First_Season = (min(Season)),
          Latest_Season = (max(Season))) %>%
   ungroup() %>%
+  mutate(Coach = as.character(Coach)) %>%
+  # Bernie Bierman was Minnesota's coach from 1932-1941 and 1945-1950
+  # Need to identify those breaks and separate each tenure
+  mutate(Coach = ifelse(Coach == 'Bernie Bierman' & Season <= 1941, 'Bernie Bierman (1st Time)',
+                        ifelse(Coach == 'Bernie Bierman' & Season > 1942, 'Bernie Bierman (2nd Time)', Coach))) %>%
   mutate(First_Season = factor(First_Season),
-         Latest_Season = factor(Latest_Season))
+         Latest_Season = factor(Latest_Season),
+         Coach = as.factor(Coach))
 
 # Calculate the rolling margin for every 11 games (modern teams play between 11-12 games each season)
 coach_roll <- msp %>%
@@ -48,8 +54,6 @@ coach_roll <- msp %>%
 
 # Joining the dataframes together
 coach_df <- inner_join(coach_roll, coach_yrs, by = c('Coach' = 'Coach', 'Season' = 'Season'))
-
-str(coach_df)
 
 # Order the facets by the coach's first season
 coach_df$Coach <- factor(coach_df$Coach, levels = unique(coach_df$Coach[order(coach_df$First_Season)]))
