@@ -52,21 +52,21 @@ coach_df <- inner_join(coach_roll, coach_yrs, by = c('Coach' = 'Coach', 'Season'
 ggplot(coach_df, 
        aes(x = Coach_Game_No, 
            y = Rolling.Margin,
-           group = coach_order_name)) + 
+           group = Coach)) + 
   geom_line(data = transform(coach_df,
                              Coach = NULL), 
-            aes(group = paste(Coach_Name, as.character(Year_No), sep = '')), 
+            aes(group = Coach_Name), 
             size = 1,
             color = 'gray',
             alpha = 0.7) +   
   geom_hline(yintercept = 0,
              color = '#898989',
              linetype = 'dashed') +
-  geom_line(aes(group = paste(coach_order_name, as.character(Year_No), sep = '')), 
+  geom_line(aes(group = Coach), 
             color = 'brown',
             size = 1) + 
   scale_colour_identity() + 
-  facet_wrap(~ paste(Coach, " (", First_Season, '-', Latest_Season, ")", sep ='')) +
+  facet_wrap(~ Coach) +
   labs(title = 'The History of Minnesota Football by Coach',
        x = 'Game Number',
        y = 'Rolling Margin',
