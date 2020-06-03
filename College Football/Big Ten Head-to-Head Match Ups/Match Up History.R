@@ -57,6 +57,7 @@ all_time_record <- big_ten %>%
   # The final calculation
   mutate(Percent_Won = (Total_Wins /(Total_Losses + Total_Ties + Total_Wins)))
 
+# The Visualization
 perc_wins_losses <- ggplot(all_time_record, 
        aes(Opponent, 
            School, 
