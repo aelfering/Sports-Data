@@ -31,8 +31,7 @@ all_time_record <- big_ten %>%
   mutate(School = trim.leading(School),
          Opponent = trim.leading(Opponent)) %>%
   # Filtering for Conference Match Ups and Most Recent ~20 Years
-  filter(Conference == Conf,
-         Season >= 1999) %>%
+  filter(Conference == Conf) %>%
   # Summing Wins, Losses, and Ties Between Teams in Head-to-Head Matchups
   select(Season,
          G,
@@ -55,34 +54,57 @@ all_time_record <- big_ten %>%
             Total_Ties = sum(Ties)) %>%
   ungroup() %>%
   # The final calculation
-  mutate(Percent_Won = (Total_Wins /(Total_Losses + Total_Ties + Total_Wins)))
+  mutate(Percent_Won = (Total_Wins /(Total_Losses + Total_Ties + Total_Wins)),
+         Percent_Buckets = ifelse(Percent_Won <= 0.25, '0-25%',
+                                  ifelse(Percent_Won <= 0.50, '25-50%',
+                                         ifelse(Percent_Won <= 0.75, '50-75%', '75-100%'))))
 
 # The Visualization
 perc_wins_losses <- ggplot(all_time_record, 
        aes(Opponent, 
            School, 
-           fill = Plus_Minus_Wins)) + 
+           fill = Percent_Buckets)) + 
+  # Establish Tiles
   geom_tile(color = 'white',
             size = 1,
             aes(width = 0.95, 
                 height = 0.95)) +
-  scale_fill_manual(values = c('#00429d', '#315ca9', '#4b77b4', '#6393be', '#a8a8a8'), 
-                    limits = c(0, 1)) +
+  # Set color for buckets
+  scale_fill_manual(values = c('#c6c6c6', '#4bacc5', '#1985a1', '#005f79')) +
+  # Titles and labels
   labs(x = '\n...Against Each Conference Opponent.',
        y = '\nHow the Team Performs...',
        title = 'Percent of Games Won Between Big Ten Teams',
        subtitle = 'Since the Conference was Renamed Big Nine/Ten',
        caption = 'Visualization by Alex Elfering\nSource: College Football Reference') +
-  theme(plot.title = element_text(face = 'bold', size = 18, family = 'Arial'),
+  # Theme adjustments
+  theme(plot.title = element_text(face = 'bold', 
+                                  size = 18, 
+                                  family = 'Arial'),
         legend.position = 'top',
-        axis.text.x = element_text(angle = 270, hjust = 0.5, size = 10),
-        axis.title.y = element_text(angle = 270, hjust = 0.5, vjust = 0.5, size = 12),
-        axis.title.x = element_text(hjust = 0, size = 12),
-        plot.subtitle = element_text(size = 15, family = 'Arial'),
-        plot.caption = element_text(size = 10, family = 'Arial'),
-        axis.title = element_text(size = 10, family = 'Arial'),
-        axis.text = element_text(size = 10, family = 'Arial'),
-        strip.text = ggplot2::element_text(size = 10, hjust = 0, face = 'bold', color = 'brown', family = 'Arial'),
+        axis.text.x = element_text(angle = 270, 
+                                   vjust = 0.5, 
+                                   hjust = 0, 
+                                   size = 10),
+        axis.title.y = element_text(angle = 270, 
+                                    hjust = 0.5, 
+                                    vjust = 0.5, 
+                                    size = 12),
+        axis.title.x = element_text(hjust = 0, 
+                                    size = 12),
+        plot.subtitle = element_text(size = 15, 
+                                     family = 'Arial'),
+        plot.caption = element_text(size = 10, 
+                                    family = 'Arial'),
+        axis.title = element_text(size = 10, 
+                                  family = 'Arial'),
+        axis.text = element_text(size = 10, 
+                                 family = 'Arial'),
+        strip.text = ggplot2::element_text(size = 10, 
+                                           hjust = 0, 
+                                           face = 'bold', 
+                                           color = 'brown', 
+                                           family = 'Arial'),
         strip.background = element_rect(fill = NA),
         panel.background = ggplot2::element_blank(),
         axis.line = element_blank(),
@@ -92,9 +114,4 @@ perc_wins_losses <- ggplot(all_time_record,
 perc_wins_losses
 
 #print(mark1, vp = grid::viewport(width = 0.5, height=0.5, angle = -45))
-
-#ggsave("mark5.png", width = 5, height = 5)
-
-
-
 
