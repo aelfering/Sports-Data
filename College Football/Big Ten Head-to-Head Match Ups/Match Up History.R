@@ -1,0 +1,93 @@
+# The History of the Big Ten Conference
+
+library(RColorBrewer)
+library(grid)
+library(ggplot2)
+library(tidyr)
+library(dplyr)
+library(tidyverse)
+
+big_ten <- read.csv('history big ten.csv')
+
+# Function to trim the leading and trailing white spaces
+trim.leading <- function (x)  sub("^\\s+", "", x)
+
+# Ranks to identify and remove from Team and Opponent names
+ap_ranks <- c("\\(1\\)|\\(2\\)|\\(3\\)|\\(4\\)|\\(5\\)|\\(6\\)|\\(7\\)|\\(8\\)|\\(9\\)|\\(10\\)|\\(11\\)|\\(12\\)|\\(13\\)|\\(14\\)|\\(15\\)|\\(16\\)|\\(17\\)|\\(18\\)|\\(19\\)|\\(20\\)|\\(21\\)|\\(22\\)|\\(23\\)|\\(24\\)|\\(25\\)")
+
+# Clean up the data frame and calculate wins, losses, and ties between head-to-head opponents
+all_time_record <- big_ten %>%
+  # Data cleaning: Removing the Rank from the Team and Opponent Name
+  mutate(Conference = as.character(Conference),
+         Conf = as.character(Conf),
+         School = str_replace_all(School, ap_ranks, ""),
+         Opponent = str_replace_all(Opponent, ap_ranks, "")) %>%
+  mutate(School = trim.leading(School),
+         Opponent = trim.leading(Opponent)) %>%
+  # Filtering for Conference Match Ups and Most Recent ~20 Years
+  filter(Conference == Conf,
+         Season >= 1999) %>%
+  # Summing Wins, Losses, and Ties Between Teams in Head-to-Head Matchups
+  select(Season,
+         G,
+         Date,
+         School,
+         Location = X,
+         Opponent,
+         Conf,
+         Result = X.1,
+         Pts,
+         Opp) %>%
+  mutate(Margin = Pts-Opp,
+         Wins = ifelse(Result == 'W', 1, 0),
+         Loses = ifelse(Result == 'L', 1, 0),
+         Ties = ifelse(Result == 'T', 1, 0)) %>%
+  group_by(School,
+           Opponent) %>%
+  summarise(Total_Wins = sum(Wins),
+            Total_Losses = sum(Loses),
+            Total_Ties = sum(Ties)) %>%
+  ungroup() %>%
+  # The final calculation
+  mutate(Percent_Won = (Total_Wins /(Total_Losses + Total_Ties + Total_Wins)))
+
+perc_wins_losses <- ggplot(all_time_record, 
+       aes(Opponent, 
+           School, 
+           fill = Plus_Minus_Wins)) + 
+  geom_tile(color = 'white',
+            size = 1,
+            aes(width = 0.95, 
+                height = 0.95)) +
+  scale_fill_manual(values = c('#00429d', '#315ca9', '#4b77b4', '#6393be', '#a8a8a8'), 
+                    limits = c(0, 1)) +
+  labs(x = '\n...Against Each Conference Opponent.',
+       y = '\nHow the Team Performs...',
+       title = 'Percent of Games Won Between Big Ten Teams',
+       subtitle = 'Since the Conference was Renamed Big Nine/Ten',
+       caption = 'Visualization by Alex Elfering\nSource: College Football Reference') +
+  theme(plot.title = element_text(face = 'bold', size = 18, family = 'Arial'),
+        legend.position = 'top',
+        axis.text.x = element_text(angle = 270, hjust = 0.5, size = 10),
+        axis.title.y = element_text(angle = 270, hjust = 0.5, vjust = 0.5, size = 12),
+        axis.title.x = element_text(hjust = 0, size = 12),
+        plot.subtitle = element_text(size = 15, family = 'Arial'),
+        plot.caption = element_text(size = 10, family = 'Arial'),
+        axis.title = element_text(size = 10, family = 'Arial'),
+        axis.text = element_text(size = 10, family = 'Arial'),
+        strip.text = ggplot2::element_text(size = 10, hjust = 0, face = 'bold', color = 'brown', family = 'Arial'),
+        strip.background = element_rect(fill = NA),
+        panel.background = ggplot2::element_blank(),
+        axis.line = element_blank(),
+        panel.grid.major.y = element_blank(),
+        panel.grid.major.x = element_blank()) 
+
+perc_wins_losses
+
+#print(mark1, vp = grid::viewport(width = 0.5, height=0.5, angle = -45))
+
+#ggsave("mark5.png", width = 5, height = 5)
+
+
+
+
