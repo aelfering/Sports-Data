@@ -1,5 +1,11 @@
 # The History of the Big Ten Conference
 
+# This script is designed to calculate the percent of games won in head-to-head match ups between Big Ten teams
+# End Product is a Heat Map
+# Source of Data: College Football Reference
+# By: Alex Elfering
+# Initially Published: 3 June 2020
+
 library(RColorBrewer)
 library(grid)
 library(ggplot2)
