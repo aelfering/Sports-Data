@@ -60,7 +60,7 @@ all_time_record <- big_ten %>%
                                          ifelse(Percent_Won <= 0.75, '50-75%', '75-100%'))))
 
 # The Visualization
-perc_wins_losses <- ggplot(all_time_record, 
+ggplot(all_time_record, 
        aes(Opponent, 
            School, 
            fill = Percent_Buckets)) + 
@@ -73,10 +73,8 @@ perc_wins_losses <- ggplot(all_time_record,
   scale_fill_manual(values = c('#c6c6c6', '#4bacc5', '#1985a1', '#005f79')) +
   # Titles and labels
   labs(x = '\n...Against Each Conference Opponent.',
-       y = '\nHow the Team Performs...',
-       title = 'Percent of Games Won Between Big Ten Teams',
-       subtitle = 'Since the Conference was Renamed Big Nine/Ten',
-       caption = 'Visualization by Alex Elfering\nSource: College Football Reference') +
+       y = '\nHow Each Team Performs...',
+       fill = 'Percent of Games Won') +
   # Theme adjustments
   theme(plot.title = element_text(face = 'bold', 
                                   size = 18, 
@@ -90,7 +88,7 @@ perc_wins_losses <- ggplot(all_time_record,
                                     hjust = 0.5, 
                                     vjust = 0.5, 
                                     size = 12),
-        axis.title.x = element_text(hjust = -1, 
+        axis.title.x = element_text(hjust = 0.5, 
                                     vjust = 0.5, 
                                     size = 12),
         plot.subtitle = element_text(size = 15, 
@@ -111,8 +109,6 @@ perc_wins_losses <- ggplot(all_time_record,
         axis.line = element_blank(),
         panel.grid.major.y = element_blank(),
         panel.grid.major.x = element_blank()) 
-
-perc_wins_losses
 
 #print(mark1, vp = grid::viewport(width = 0.5, height=0.5, angle = -45))
 
