@@ -8,33 +8,50 @@ library(lubridate)
 library(stringr)
 
 # Load the Data
-big_12_stats <- read.csv('data.csv')
+big_12_reg <- read.csv('2019 Reg Season Stats.csv')
+big_12_post <- read.csv('2019 Post Season Stats.csv')
 
-#### Recreate basic win-loss data ####   
-team1 <- big_12_stats %>%
+big_12_schedule <- read.csv('2019 Schedule.csv')
+full_big_12_stats <- bind_rows(big_12_reg, big_12_post)
+
+# create a dataframe of the game_id and dates
+sched_dates <- big_12_schedule %>%
+  select(game_id = id,
+         date = start_date) %>%
+  mutate(date = substr(date, 1, 10),
+         date = ymd(date)) %>%
   distinct(game_id,
+           date)
+
+full_big_12_stats_dates <- inner_join(sched_dates, full_big_12_stats, by = c('game_id' = 'game_id'))
+
+####  Recreate basic win-loss data ####   
+team1 <- full_big_12_stats_dates %>%
+  distinct(date,
+           game_id,
            school,
            conference,
            homeAway,
            points) %>%
   filter(conference == 'Big 12') %>%
   arrange(school,
-          game_id)
+          date)
 
-team2 <- big_12_stats %>%
-  distinct(game_id,
+team2 <- full_big_12_stats_dates %>%
+  distinct(date,
+           game_id,
            school,
            conference,
            homeAway,
            points) %>%
   arrange(school,
-          game_id)
+          date)
 
-team_1_2_join <- inner_join(team1, team2, by = c('game_id' = 'game_id'))
+team_1_2_join <- inner_join(team1, team2, by = c('game_id' = 'game_id', 'date' = 'date'))
 
 full_scores <- team_1_2_join %>%
   filter(school.x != school.y) %>%
-  select(game_id,
+  select(date,
          school = school.x,
          sch_conf = conference.x,
          location = homeAway.x,
@@ -43,7 +60,10 @@ full_scores <- team_1_2_join %>%
          opp_conf = conference.y,
          opponent_pts = points.y) %>%
   arrange(school,
-          game_id)
+          date) %>%
+  group_by(school) %>%
+  mutate(game_no = row_number()) %>%
+  ungroup()
 
 wins_losses <- full_scores %>%
   mutate(wins = ifelse(school_pts > opponent_pts, 1, 0),
@@ -52,9 +72,76 @@ wins_losses <- full_scores %>%
   summarise(total_wins = sum(wins),
             total_losses = sum(loses),
             points_for = sum(school_pts),
-            points_agt = sum(opponent_pts)) %>%
+            points_agt = sum(opponent_pts),
+            avg_points_for = mean(school_pts),
+            avg_points_agt = mean(opponent_pts)) %>%
   ungroup() %>%
   mutate(plus_minus = points_for - points_agt) %>%
   # Arrange the teams by total wins
   arrange(desc(total_wins))
+
+
+####  How did the Big 12 perform by other statistics? ####
+head(big_12_stats)
+
+# How many first downs did each team get? What was the average, and for the conference overall?
+big_12_stats %>%
+  filter(conference == 'Big 12') %>%
+  filter(grepl('firstDowns', stat_category)) %>%
+  mutate(stat = as.character(stat),
+         stat = as.integer(stat),
+         avg_1st_downs = mean(stat)) %>%
+  group_by(school) %>%
+  mutate(school_avg_1st_downs = mean(stat),
+         highest_1st_downs = max(stat),
+         least_first_downs = min(stat)) %>%
+  slice(which.max(school)) %>%
+  ungroup() %>%
+  select(school,
+         avg_1st_downs,
+         school_avg_1st_downs,
+         highest_1st_downs,
+         least_first_downs)
+
+# How efficient are teams at converting on the third and fourth down?
+# Tom Osborne talked about 45% conversion rate for success
+
+mark1 <- full_big_12_stats %>%
+  filter(conference == 'Big 12') %>%
+  filter(stat_category %in% c('fourthDownEff', 'thirdDownEff'))
+
+mark2 <- separate(data = mark1, col = stat, into = c("conversions", "attempts"), sep = "\\-")
+
+mark2 %>%
+  mutate(conversions = as.character(conversions),
+         conversions = as.integer(conversions),
+         attempts = as.character(attempts),
+         attempts = as.integer(attempts)) %>%
+  group_by(school,
+           stat_category) %>%
+  summarise(conversions = sum(conversions),
+            attempts = sum(attempts)) %>%
+  ungroup() %>%
+  mutate(pct_conversion = conversions/attempts) %>%
+  arrange(desc(stat_category),
+          desc(pct_conversion))
+
+# How many completions did each team make for every attempt?
+completionAttempts <- full_big_12_stats %>%
+  filter(conference == 'Big 12') %>%
+  filter(stat_category %in% c('completionAttempts'))
+
+big_12_cmpAtt <- separate(data = completionAttempts, col = stat, into = c("completions", "attempts"), sep = "\\-")
+
+big_12_cmpAtt %>%
+  mutate(completions = as.character(completions),
+         completions = as.integer(completions),
+         attempts = as.character(attempts),
+         attempts = as.integer(attempts)) %>%
+  group_by(school) %>%
+  summarise(completions = sum(completions),
+            attempts = sum(attempts)) %>%
+  ungroup() %>%
+  mutate(pct = completions/attempts)
+
 
