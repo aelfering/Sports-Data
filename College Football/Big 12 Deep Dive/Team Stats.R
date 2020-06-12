@@ -12,6 +12,7 @@ big_12_reg <- read.csv('2019 Reg Season Stats.csv')
 big_12_post <- read.csv('2019 Post Season Stats.csv')
 
 big_12_schedule <- read.csv('2019 Schedule.csv')
+
 full_big_12_stats <- bind_rows(big_12_reg, big_12_post)
 
 # create a dataframe of the game_id and dates
@@ -63,7 +64,8 @@ full_scores <- team_1_2_join %>%
           date) %>%
   group_by(school) %>%
   mutate(game_no = row_number()) %>%
-  ungroup()
+  ungroup() #%>%
+  #filter(game_no <= 12)
 
 wins_losses <- full_scores %>%
   mutate(wins = ifelse(school_pts > opponent_pts, 1, 0),
@@ -82,10 +84,10 @@ wins_losses <- full_scores %>%
 
 
 ####  How did the Big 12 perform by other statistics? ####
-head(big_12_stats)
+head(full_big_12_stats_dates)
 
-# How many first downs did each team get? What was the average, and for the conference overall?
-big_12_stats %>%
+# How many first downs did each team get? What was the average, and for the conference overall?s
+total_first_downs <- full_big_12_stats_dates %>%
   filter(conference == 'Big 12') %>%
   filter(grepl('firstDowns', stat_category)) %>%
   mutate(stat = as.character(stat),
@@ -95,7 +97,7 @@ big_12_stats %>%
   mutate(school_avg_1st_downs = mean(stat),
          highest_1st_downs = max(stat),
          least_first_downs = min(stat)) %>%
-  slice(which.max(school)) %>%
+  slice(which.max(date)) %>%
   ungroup() %>%
   select(school,
          avg_1st_downs,
@@ -106,11 +108,30 @@ big_12_stats %>%
 # How efficient are teams at converting on the third and fourth down?
 # Tom Osborne talked about 45% conversion rate for success
 
-mark1 <- full_big_12_stats %>%
+mark1 <- full_big_12_stats_dates %>%
   filter(conference == 'Big 12') %>%
   filter(stat_category %in% c('fourthDownEff', 'thirdDownEff'))
 
 mark2 <- separate(data = mark1, col = stat, into = c("conversions", "attempts"), sep = "\\-")
+
+mark2 %>%
+  distinct(school,
+           date)
+
+mark_iii <- mark2 %>%
+  mutate(conversions = as.character(conversions),
+         conversions = as.integer(conversions),
+         attempts = as.character(attempts),
+         attempts = as.integer(attempts)) %>%
+  group_by(school,
+           date,
+           stat_category) %>%
+  summarise(conversions = sum(conversions),
+            attempts = sum(attempts)) %>%
+  ungroup() %>%
+  mutate(pct_conversion = conversions/attempts) %>%
+  arrange(desc(stat_category),
+          desc(pct_conversion))
 
 mark2 %>%
   mutate(conversions = as.character(conversions),
@@ -133,7 +154,7 @@ completionAttempts <- full_big_12_stats %>%
 
 big_12_cmpAtt <- separate(data = completionAttempts, col = stat, into = c("completions", "attempts"), sep = "\\-")
 
-big_12_cmpAtt %>%
+passes_completed <- big_12_cmpAtt %>%
   mutate(completions = as.character(completions),
          completions = as.integer(completions),
          attempts = as.character(attempts),
@@ -143,5 +164,34 @@ big_12_cmpAtt %>%
             attempts = sum(attempts)) %>%
   ungroup() %>%
   mutate(pct = completions/attempts)
+
+# How many touchdowns resulted from passes?
+passes_touchdown <- full_big_12_stats %>%
+  filter(conference == 'Big 12') %>%
+  filter(stat_category %in% c('passingTDs')) %>%
+  mutate(passingTD = as.character(stat),
+         passingTD = as.integer(passingTD)) %>%
+  group_by(school) %>%
+  summarise(passingTDs = sum(passingTD))
+
+# How many interceptions were thrown per attempt?
+passes_intercepted <- full_big_12_stats %>%
+  filter(conference == 'Big 12') %>%
+  filter(stat_category %in% c('interceptions')) %>%
+  mutate(interceptions = as.character(stat),
+         interceptions = as.integer(interceptions)) %>%
+  group_by(school) %>%
+  summarise(interceptions = sum(interceptions))
+
+# Bring all the passes, touchdowns, and interceptions together
+passes_touchdowns <- inner_join(passes_completed, passes_touchdown, by = c('school' = 'school'))
+passes_touchdowns_int <- inner_join(passes_touchdowns, passes_intercepted, by = c('school' = 'school'))
+
+passes_touchdowns_int %>%
+  mutate(touchdown_ratio = passingTDs/interceptions,
+         pct_interceptions = interceptions/attempts,
+         ratio_rank = dense_rank(desc(touchdown_ratio)),
+         interception_rank = dense_rank(desc(pct_interceptions))) %>%
+  arrange(desc(touchdown_ratio))
 
 
