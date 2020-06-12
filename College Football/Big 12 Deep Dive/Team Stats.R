@@ -108,17 +108,13 @@ total_first_downs <- full_big_12_stats_dates %>%
 # How efficient are teams at converting on the third and fourth down?
 # Tom Osborne talked about 45% conversion rate for success
 
-mark1 <- full_big_12_stats_dates %>%
+downs <- full_big_12_stats_dates %>%
   filter(conference == 'Big 12') %>%
   filter(stat_category %in% c('fourthDownEff', 'thirdDownEff'))
 
-mark2 <- separate(data = mark1, col = stat, into = c("conversions", "attempts"), sep = "\\-")
+downs_sep <- separate(data = mark1, col = stat, into = c("conversions", "attempts"), sep = "\\-")
 
-mark2 %>%
-  distinct(school,
-           date)
-
-mark_iii <- mark2 %>%
+downs_conversion_games <- downs_sep %>%
   mutate(conversions = as.character(conversions),
          conversions = as.integer(conversions),
          attempts = as.character(attempts),
@@ -133,7 +129,7 @@ mark_iii <- mark2 %>%
   arrange(desc(stat_category),
           desc(pct_conversion))
 
-mark2 %>%
+downs_conversion_pct <- downs_sep %>%
   mutate(conversions = as.character(conversions),
          conversions = as.integer(conversions),
          attempts = as.character(attempts),
