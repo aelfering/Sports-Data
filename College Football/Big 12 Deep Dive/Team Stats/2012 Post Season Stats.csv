@@ -1,0 +1,475 @@
+game_id,school,conference,homeAway,points,stat_category,stat
+323640183,West Virginia,Big 12,away,14,fumblesRecovered,1
+323640183,West Virginia,Big 12,away,14,rushingTDs,0
+323640183,West Virginia,Big 12,away,14,passingTDs,2
+323640183,West Virginia,Big 12,away,14,kickReturnYards,93
+323640183,West Virginia,Big 12,away,14,kickReturnTDs,0
+323640183,West Virginia,Big 12,away,14,kickReturns,8
+323640183,West Virginia,Big 12,away,14,kickingPoints,2
+323640183,West Virginia,Big 12,away,14,interceptionYards,0
+323640183,West Virginia,Big 12,away,14,interceptionTDs,0
+323640183,West Virginia,Big 12,away,14,passesIntercepted,1
+323640183,West Virginia,Big 12,away,14,firstDowns,16
+323640183,West Virginia,Big 12,away,14,thirdDownEff,0-10
+323640183,West Virginia,Big 12,away,14,fourthDownEff,0-2
+323640183,West Virginia,Big 12,away,14,totalYards,304
+323640183,West Virginia,Big 12,away,14,netPassingYards,201
+323640183,West Virginia,Big 12,away,14,completionAttempts,19-28
+323640183,West Virginia,Big 12,away,14,yardsPerPass,7.2
+323640183,West Virginia,Big 12,away,14,rushingYards,103
+323640183,West Virginia,Big 12,away,14,rushingAttempts,30
+323640183,West Virginia,Big 12,away,14,yardsPerRushAttempt,3.4
+323640183,West Virginia,Big 12,away,14,totalPenaltiesYards,11-116
+323640183,West Virginia,Big 12,away,14,turnovers,1
+323640183,West Virginia,Big 12,away,14,fumblesLost,1
+323640183,West Virginia,Big 12,away,14,interceptions,0
+323640183,West Virginia,Big 12,away,14,possessionTime,23:37
+323640183,Syracuse,Big East,home,38,fumblesRecovered,1
+323640183,Syracuse,Big East,home,38,rushingTDs,2
+323640183,Syracuse,Big East,home,38,passingTDs,2
+323640183,Syracuse,Big East,home,38,kickReturnYards,69
+323640183,Syracuse,Big East,home,38,kickReturnTDs,0
+323640183,Syracuse,Big East,home,38,kickReturns,4
+323640183,Syracuse,Big East,home,38,kickingPoints,10
+323640183,Syracuse,Big East,home,38,firstDowns,28
+323640183,Syracuse,Big East,home,38,thirdDownEff,9-18
+323640183,Syracuse,Big East,home,38,fourthDownEff,2-4
+323640183,Syracuse,Big East,home,38,totalYards,507
+323640183,Syracuse,Big East,home,38,netPassingYards,138
+323640183,Syracuse,Big East,home,38,completionAttempts,12-24
+323640183,Syracuse,Big East,home,38,yardsPerPass,5.8
+323640183,Syracuse,Big East,home,38,rushingYards,369
+323640183,Syracuse,Big East,home,38,rushingAttempts,65
+323640183,Syracuse,Big East,home,38,yardsPerRushAttempt,5.7
+323640183,Syracuse,Big East,home,38,totalPenaltiesYards,5-57
+323640183,Syracuse,Big East,home,38,turnovers,2
+323640183,Syracuse,Big East,home,38,fumblesLost,1
+323640183,Syracuse,Big East,home,38,interceptions,1
+323640183,Syracuse,Big East,home,38,possessionTime,36:15
+323660202,Iowa State,Big 12,away,17,fumblesRecovered,0
+323660202,Iowa State,Big 12,away,17,rushingTDs,0
+323660202,Iowa State,Big 12,away,17,puntReturnYards,10
+323660202,Iowa State,Big 12,away,17,puntReturnTDs,0
+323660202,Iowa State,Big 12,away,17,puntReturns,1
+323660202,Iowa State,Big 12,away,17,passingTDs,1
+323660202,Iowa State,Big 12,away,17,kickReturnYards,130
+323660202,Iowa State,Big 12,away,17,kickReturnTDs,0
+323660202,Iowa State,Big 12,away,17,kickReturns,6
+323660202,Iowa State,Big 12,away,17,kickingPoints,5
+323660202,Iowa State,Big 12,away,17,interceptionYards,31
+323660202,Iowa State,Big 12,away,17,interceptionTDs,1
+323660202,Iowa State,Big 12,away,17,passesIntercepted,1
+323660202,Iowa State,Big 12,away,17,firstDowns,9
+323660202,Iowa State,Big 12,away,17,thirdDownEff,2-14
+323660202,Iowa State,Big 12,away,17,fourthDownEff,0-1
+323660202,Iowa State,Big 12,away,17,totalYards,268
+323660202,Iowa State,Big 12,away,17,netPassingYards,170
+323660202,Iowa State,Big 12,away,17,completionAttempts,14-28
+323660202,Iowa State,Big 12,away,17,yardsPerPass,6.1
+323660202,Iowa State,Big 12,away,17,rushingYards,98
+323660202,Iowa State,Big 12,away,17,rushingAttempts,28
+323660202,Iowa State,Big 12,away,17,yardsPerRushAttempt,3.5
+323660202,Iowa State,Big 12,away,17,totalPenaltiesYards,9-84
+323660202,Iowa State,Big 12,away,17,turnovers,3
+323660202,Iowa State,Big 12,away,17,fumblesLost,1
+323660202,Iowa State,Big 12,away,17,interceptions,2
+323660202,Iowa State,Big 12,away,17,possessionTime,23:54
+323660202,Tulsa,Conference USA,home,31,fumblesRecovered,1
+323660202,Tulsa,Conference USA,home,31,rushingTDs,4
+323660202,Tulsa,Conference USA,home,31,puntReturnYards,0
+323660202,Tulsa,Conference USA,home,31,puntReturnTDs,0
+323660202,Tulsa,Conference USA,home,31,puntReturns,2
+323660202,Tulsa,Conference USA,home,31,passingTDs,0
+323660202,Tulsa,Conference USA,home,31,kickReturnYards,83
+323660202,Tulsa,Conference USA,home,31,kickReturnTDs,0
+323660202,Tulsa,Conference USA,home,31,kickReturns,4
+323660202,Tulsa,Conference USA,home,31,kickingPoints,7
+323660202,Tulsa,Conference USA,home,31,interceptionYards,0
+323660202,Tulsa,Conference USA,home,31,interceptionTDs,0
+323660202,Tulsa,Conference USA,home,31,passesIntercepted,2
+323660202,Tulsa,Conference USA,home,31,firstDowns,23
+323660202,Tulsa,Conference USA,home,31,thirdDownEff,5-17
+323660202,Tulsa,Conference USA,home,31,fourthDownEff,1-2
+323660202,Tulsa,Conference USA,home,31,totalYards,410
+323660202,Tulsa,Conference USA,home,31,netPassingYards,93
+323660202,Tulsa,Conference USA,home,31,completionAttempts,11-23
+323660202,Tulsa,Conference USA,home,31,yardsPerPass,4.0
+323660202,Tulsa,Conference USA,home,31,rushingYards,317
+323660202,Tulsa,Conference USA,home,31,rushingAttempts,60
+323660202,Tulsa,Conference USA,home,31,yardsPerRushAttempt,5.3
+323660202,Tulsa,Conference USA,home,31,totalPenaltiesYards,9-73
+323660202,Tulsa,Conference USA,home,31,turnovers,1
+323660202,Tulsa,Conference USA,home,31,fumblesLost,0
+323660202,Tulsa,Conference USA,home,31,interceptions,1
+323660202,Tulsa,Conference USA,home,31,possessionTime,35:14
+330010197,Oklahoma State,Big 12,home,58,fumblesRecovered,3
+330010197,Oklahoma State,Big 12,home,58,rushingTDs,1
+330010197,Oklahoma State,Big 12,home,58,puntReturnYards,73
+330010197,Oklahoma State,Big 12,home,58,puntReturnTDs,0
+330010197,Oklahoma State,Big 12,home,58,puntReturns,2
+330010197,Oklahoma State,Big 12,home,58,passingTDs,5
+330010197,Oklahoma State,Big 12,home,58,kickReturnYards,61
+330010197,Oklahoma State,Big 12,home,58,kickReturnTDs,0
+330010197,Oklahoma State,Big 12,home,58,kickReturns,3
+330010197,Oklahoma State,Big 12,home,58,kickingPoints,16
+330010197,Oklahoma State,Big 12,home,58,interceptionYards,15
+330010197,Oklahoma State,Big 12,home,58,interceptionTDs,0
+330010197,Oklahoma State,Big 12,home,58,passesIntercepted,2
+330010197,Oklahoma State,Big 12,home,58,firstDowns,28
+330010197,Oklahoma State,Big 12,home,58,thirdDownEff,4-12
+330010197,Oklahoma State,Big 12,home,58,fourthDownEff,1-1
+330010197,Oklahoma State,Big 12,home,58,totalYards,524
+330010197,Oklahoma State,Big 12,home,58,netPassingYards,311
+330010197,Oklahoma State,Big 12,home,58,completionAttempts,25-34
+330010197,Oklahoma State,Big 12,home,58,yardsPerPass,9.1
+330010197,Oklahoma State,Big 12,home,58,rushingYards,213
+330010197,Oklahoma State,Big 12,home,58,rushingAttempts,41
+330010197,Oklahoma State,Big 12,home,58,yardsPerRushAttempt,5.2
+330010197,Oklahoma State,Big 12,home,58,totalPenaltiesYards,7-62
+330010197,Oklahoma State,Big 12,home,58,turnovers,0
+330010197,Oklahoma State,Big 12,home,58,fumblesLost,0
+330010197,Oklahoma State,Big 12,home,58,interceptions,0
+330010197,Oklahoma State,Big 12,home,58,possessionTime,26:49
+330010197,Purdue,Big Ten,away,14,fumblesRecovered,0
+330010197,Purdue,Big Ten,away,14,rushingTDs,0
+330010197,Purdue,Big Ten,away,14,passingTDs,2
+330010197,Purdue,Big Ten,away,14,kickReturnYards,160
+330010197,Purdue,Big Ten,away,14,kickReturnTDs,0
+330010197,Purdue,Big Ten,away,14,kickReturns,7
+330010197,Purdue,Big Ten,away,14,kickingPoints,2
+330010197,Purdue,Big Ten,away,14,firstDowns,18
+330010197,Purdue,Big Ten,away,14,thirdDownEff,5-15
+330010197,Purdue,Big Ten,away,14,fourthDownEff,2-3
+330010197,Purdue,Big Ten,away,14,totalYards,363
+330010197,Purdue,Big Ten,away,14,netPassingYards,212
+330010197,Purdue,Big Ten,away,14,completionAttempts,21-34
+330010197,Purdue,Big Ten,away,14,yardsPerPass,6.2
+330010197,Purdue,Big Ten,away,14,rushingYards,151
+330010197,Purdue,Big Ten,away,14,rushingAttempts,38
+330010197,Purdue,Big Ten,away,14,yardsPerRushAttempt,4.0
+330010197,Purdue,Big Ten,away,14,totalPenaltiesYards,4-45
+330010197,Purdue,Big Ten,away,14,turnovers,5
+330010197,Purdue,Big Ten,away,14,fumblesLost,3
+330010197,Purdue,Big Ten,away,14,interceptions,2
+330010197,Purdue,Big Ten,away,14,possessionTime,31:54
+323640127,TCU,Big 12,away,16,fumblesRecovered,0
+323640127,TCU,Big 12,away,16,rushingTDs,1
+323640127,TCU,Big 12,away,16,puntReturnYards,10
+323640127,TCU,Big 12,away,16,puntReturnTDs,0
+323640127,TCU,Big 12,away,16,puntReturns,3
+323640127,TCU,Big 12,away,16,passingTDs,0
+323640127,TCU,Big 12,away,16,kickReturnYards,79
+323640127,TCU,Big 12,away,16,kickReturnTDs,0
+323640127,TCU,Big 12,away,16,kickReturns,3
+323640127,TCU,Big 12,away,16,kickingPoints,10
+323640127,TCU,Big 12,away,16,firstDowns,11
+323640127,TCU,Big 12,away,16,thirdDownEff,4-15
+323640127,TCU,Big 12,away,16,fourthDownEff,0-1
+323640127,TCU,Big 12,away,16,totalYards,288
+323640127,TCU,Big 12,away,16,netPassingYards,201
+323640127,TCU,Big 12,away,16,completionAttempts,13-29
+323640127,TCU,Big 12,away,16,yardsPerPass,6.9
+323640127,TCU,Big 12,away,16,rushingYards,87
+323640127,TCU,Big 12,away,16,rushingAttempts,30
+323640127,TCU,Big 12,away,16,yardsPerRushAttempt,2.9
+323640127,TCU,Big 12,away,16,totalPenaltiesYards,5-39
+323640127,TCU,Big 12,away,16,turnovers,2
+323640127,TCU,Big 12,away,16,fumblesLost,1
+323640127,TCU,Big 12,away,16,interceptions,1
+323640127,TCU,Big 12,away,16,possessionTime,34:25
+323640127,Michigan State,Big Ten,home,17,fumblesRecovered,1
+323640127,Michigan State,Big Ten,home,17,rushingTDs,1
+323640127,Michigan State,Big Ten,home,17,passingTDs,1
+323640127,Michigan State,Big Ten,home,17,kickReturnYards,75
+323640127,Michigan State,Big Ten,home,17,kickReturnTDs,0
+323640127,Michigan State,Big Ten,home,17,kickReturns,3
+323640127,Michigan State,Big Ten,home,17,kickingPoints,5
+323640127,Michigan State,Big Ten,home,17,interceptionYards,29
+323640127,Michigan State,Big Ten,home,17,interceptionTDs,0
+323640127,Michigan State,Big Ten,home,17,passesIntercepted,1
+323640127,Michigan State,Big Ten,home,17,firstDowns,15
+323640127,Michigan State,Big Ten,home,17,thirdDownEff,6-18
+323640127,Michigan State,Big Ten,home,17,fourthDownEff,0-0
+323640127,Michigan State,Big Ten,home,17,totalYards,227
+323640127,Michigan State,Big Ten,home,17,netPassingYards,104
+323640127,Michigan State,Big Ten,home,17,completionAttempts,11-27
+323640127,Michigan State,Big Ten,home,17,yardsPerPass,3.9
+323640127,Michigan State,Big Ten,home,17,rushingYards,123
+323640127,Michigan State,Big Ten,home,17,rushingAttempts,42
+323640127,Michigan State,Big Ten,home,17,yardsPerRushAttempt,2.9
+323640127,Michigan State,Big Ten,home,17,totalPenaltiesYards,7-72
+323640127,Michigan State,Big Ten,home,17,turnovers,0
+323640127,Michigan State,Big Ten,home,17,fumblesLost,0
+323640127,Michigan State,Big Ten,home,17,interceptions,0
+323640127,Michigan State,Big Ten,home,17,possessionTime,32:48
+323632641,Texas Tech,Big 12,home,34,fumblesRecovered,0
+323632641,Texas Tech,Big 12,home,34,rushingTDs,1
+323632641,Texas Tech,Big 12,home,34,puntReturnYards,18
+323632641,Texas Tech,Big 12,home,34,puntReturnTDs,0
+323632641,Texas Tech,Big 12,home,34,puntReturns,2
+323632641,Texas Tech,Big 12,home,34,passingTDs,2
+323632641,Texas Tech,Big 12,home,34,kickReturnYards,119
+323632641,Texas Tech,Big 12,home,34,kickReturnTDs,1
+323632641,Texas Tech,Big 12,home,34,kickReturns,3
+323632641,Texas Tech,Big 12,home,34,kickingPoints,10
+323632641,Texas Tech,Big 12,home,34,interceptionYards,39
+323632641,Texas Tech,Big 12,home,34,interceptionTDs,0
+323632641,Texas Tech,Big 12,home,34,passesIntercepted,1
+323632641,Texas Tech,Big 12,home,34,firstDowns,23
+323632641,Texas Tech,Big 12,home,34,thirdDownEff,8-14
+323632641,Texas Tech,Big 12,home,34,fourthDownEff,1-1
+323632641,Texas Tech,Big 12,home,34,totalYards,429
+323632641,Texas Tech,Big 12,home,34,netPassingYards,284
+323632641,Texas Tech,Big 12,home,34,completionAttempts,32-47
+323632641,Texas Tech,Big 12,home,34,yardsPerPass,6.0
+323632641,Texas Tech,Big 12,home,34,rushingYards,145
+323632641,Texas Tech,Big 12,home,34,rushingAttempts,24
+323632641,Texas Tech,Big 12,home,34,yardsPerRushAttempt,6.0
+323632641,Texas Tech,Big 12,home,34,totalPenaltiesYards,13-135
+323632641,Texas Tech,Big 12,home,34,turnovers,2
+323632641,Texas Tech,Big 12,home,34,fumblesLost,0
+323632641,Texas Tech,Big 12,home,34,interceptions,2
+323632641,Texas Tech,Big 12,home,34,possessionTime,23:04
+323632641,Minnesota,Big Ten,away,31,fumblesRecovered,0
+323632641,Minnesota,Big Ten,away,31,rushingTDs,2
+323632641,Minnesota,Big Ten,away,31,puntReturnYards,6
+323632641,Minnesota,Big Ten,away,31,puntReturnTDs,0
+323632641,Minnesota,Big Ten,away,31,puntReturns,2
+323632641,Minnesota,Big Ten,away,31,passingTDs,2
+323632641,Minnesota,Big Ten,away,31,kickReturnYards,123
+323632641,Minnesota,Big Ten,away,31,kickReturnTDs,0
+323632641,Minnesota,Big Ten,away,31,kickReturns,5
+323632641,Minnesota,Big Ten,away,31,kickingPoints,7
+323632641,Minnesota,Big Ten,away,31,interceptionYards,0
+323632641,Minnesota,Big Ten,away,31,interceptionTDs,0
+323632641,Minnesota,Big Ten,away,31,passesIntercepted,2
+323632641,Minnesota,Big Ten,away,31,firstDowns,23
+323632641,Minnesota,Big Ten,away,31,thirdDownEff,9-16
+323632641,Minnesota,Big Ten,away,31,fourthDownEff,0-1
+323632641,Minnesota,Big Ten,away,31,totalYards,368
+323632641,Minnesota,Big Ten,away,31,netPassingYards,146
+323632641,Minnesota,Big Ten,away,31,completionAttempts,8-19
+323632641,Minnesota,Big Ten,away,31,yardsPerPass,7.7
+323632641,Minnesota,Big Ten,away,31,rushingYards,222
+323632641,Minnesota,Big Ten,away,31,rushingAttempts,54
+323632641,Minnesota,Big Ten,away,31,yardsPerRushAttempt,4.1
+323632641,Minnesota,Big Ten,away,31,totalPenaltiesYards,7-84
+323632641,Minnesota,Big Ten,away,31,turnovers,1
+323632641,Minnesota,Big Ten,away,31,fumblesLost,0
+323632641,Minnesota,Big Ten,away,31,interceptions,1
+323632641,Minnesota,Big Ten,away,31,possessionTime,36:18
+330032306,Oregon,Pac-12,away,35,fumblesRecovered,0
+330032306,Oregon,Pac-12,away,35,rushingTDs,1
+330032306,Oregon,Pac-12,away,35,puntReturnYards,1
+330032306,Oregon,Pac-12,away,35,puntReturnTDs,0
+330032306,Oregon,Pac-12,away,35,puntReturns,1
+330032306,Oregon,Pac-12,away,35,passingTDs,2
+330032306,Oregon,Pac-12,away,35,kickReturnYards,164
+330032306,Oregon,Pac-12,away,35,kickReturnTDs,1
+330032306,Oregon,Pac-12,away,35,kickReturns,4
+330032306,Oregon,Pac-12,away,35,kickingPoints,8
+330032306,Oregon,Pac-12,away,35,interceptionYards,33
+330032306,Oregon,Pac-12,away,35,interceptionTDs,0
+330032306,Oregon,Pac-12,away,35,passesIntercepted,2
+330032306,Oregon,Pac-12,away,35,firstDowns,22
+330032306,Oregon,Pac-12,away,35,thirdDownEff,4-13
+330032306,Oregon,Pac-12,away,35,fourthDownEff,1-4
+330032306,Oregon,Pac-12,away,35,totalYards,385
+330032306,Oregon,Pac-12,away,35,netPassingYards,166
+330032306,Oregon,Pac-12,away,35,completionAttempts,12-24
+330032306,Oregon,Pac-12,away,35,yardsPerPass,6.9
+330032306,Oregon,Pac-12,away,35,rushingYards,219
+330032306,Oregon,Pac-12,away,35,rushingAttempts,45
+330032306,Oregon,Pac-12,away,35,yardsPerRushAttempt,4.9
+330032306,Oregon,Pac-12,away,35,totalPenaltiesYards,5-33
+330032306,Oregon,Pac-12,away,35,turnovers,0
+330032306,Oregon,Pac-12,away,35,fumblesLost,0
+330032306,Oregon,Pac-12,away,35,interceptions,0
+330032306,Oregon,Pac-12,away,35,possessionTime,26:34
+330032306,Kansas State,Big 12,home,17,fumblesRecovered,0
+330032306,Kansas State,Big 12,home,17,rushingTDs,1
+330032306,Kansas State,Big 12,home,17,puntReturnYards,8
+330032306,Kansas State,Big 12,home,17,puntReturnTDs,0
+330032306,Kansas State,Big 12,home,17,puntReturns,3
+330032306,Kansas State,Big 12,home,17,passingTDs,1
+330032306,Kansas State,Big 12,home,17,kickReturnYards,205
+330032306,Kansas State,Big 12,home,17,kickReturnTDs,0
+330032306,Kansas State,Big 12,home,17,kickReturns,7
+330032306,Kansas State,Big 12,home,17,kickingPoints,5
+330032306,Kansas State,Big 12,home,17,firstDowns,20
+330032306,Kansas State,Big 12,home,17,thirdDownEff,7-15
+330032306,Kansas State,Big 12,home,17,fourthDownEff,0-1
+330032306,Kansas State,Big 12,home,17,totalYards,283
+330032306,Kansas State,Big 12,home,17,netPassingYards,151
+330032306,Kansas State,Big 12,home,17,completionAttempts,17-33
+330032306,Kansas State,Big 12,home,17,yardsPerPass,4.6
+330032306,Kansas State,Big 12,home,17,rushingYards,132
+330032306,Kansas State,Big 12,home,17,rushingAttempts,37
+330032306,Kansas State,Big 12,home,17,yardsPerRushAttempt,3.6
+330032306,Kansas State,Big 12,home,17,totalPenaltiesYards,7-57
+330032306,Kansas State,Big 12,home,17,turnovers,2
+330032306,Kansas State,Big 12,home,17,fumblesLost,0
+330032306,Kansas State,Big 12,home,17,interceptions,2
+330032306,Kansas State,Big 12,home,17,possessionTime,32:12
+323620026,UCLA,Pac-12,home,26,fumblesRecovered,3
+323620026,UCLA,Pac-12,home,26,rushingTDs,0
+323620026,UCLA,Pac-12,home,26,puntReturnYards,50
+323620026,UCLA,Pac-12,home,26,puntReturnTDs,0
+323620026,UCLA,Pac-12,home,26,puntReturns,3
+323620026,UCLA,Pac-12,home,26,passingTDs,3
+323620026,UCLA,Pac-12,home,26,kickReturnYards,118
+323620026,UCLA,Pac-12,home,26,kickReturnTDs,0
+323620026,UCLA,Pac-12,home,26,kickReturns,6
+323620026,UCLA,Pac-12,home,26,kickingPoints,8
+323620026,UCLA,Pac-12,home,26,firstDowns,15
+323620026,UCLA,Pac-12,home,26,thirdDownEff,1-17
+323620026,UCLA,Pac-12,home,26,fourthDownEff,3-8
+323620026,UCLA,Pac-12,home,26,totalYards,362
+323620026,UCLA,Pac-12,home,26,netPassingYards,329
+323620026,UCLA,Pac-12,home,26,completionAttempts,26-52
+323620026,UCLA,Pac-12,home,26,yardsPerPass,6.3
+323620026,UCLA,Pac-12,home,26,rushingYards,33
+323620026,UCLA,Pac-12,home,26,rushingAttempts,28
+323620026,UCLA,Pac-12,home,26,yardsPerRushAttempt,1.2
+323620026,UCLA,Pac-12,home,26,totalPenaltiesYards,6-59
+323620026,UCLA,Pac-12,home,26,turnovers,0
+323620026,UCLA,Pac-12,home,26,fumblesLost,0
+323620026,UCLA,Pac-12,home,26,interceptions,0
+323620026,UCLA,Pac-12,home,26,possessionTime,24:30
+323620026,Baylor,Big 12,away,49,fumblesRecovered,0
+323620026,Baylor,Big 12,away,49,rushingTDs,5
+323620026,Baylor,Big 12,away,49,puntReturnYards,17
+323620026,Baylor,Big 12,away,49,puntReturnTDs,0
+323620026,Baylor,Big 12,away,49,puntReturns,1
+323620026,Baylor,Big 12,away,49,passingTDs,2
+323620026,Baylor,Big 12,away,49,kickReturnYards,0
+323620026,Baylor,Big 12,away,49,kickReturnTDs,0
+323620026,Baylor,Big 12,away,49,kickReturns,1
+323620026,Baylor,Big 12,away,49,kickingPoints,7
+323620026,Baylor,Big 12,away,49,firstDowns,24
+323620026,Baylor,Big 12,away,49,thirdDownEff,6-14
+323620026,Baylor,Big 12,away,49,fourthDownEff,1-2
+323620026,Baylor,Big 12,away,49,totalYards,494
+323620026,Baylor,Big 12,away,49,netPassingYards,188
+323620026,Baylor,Big 12,away,49,completionAttempts,10-13
+323620026,Baylor,Big 12,away,49,yardsPerPass,14.5
+323620026,Baylor,Big 12,away,49,rushingYards,306
+323620026,Baylor,Big 12,away,49,rushingAttempts,67
+323620026,Baylor,Big 12,away,49,yardsPerRushAttempt,4.6
+323620026,Baylor,Big 12,away,49,totalPenaltiesYards,1-5
+323620026,Baylor,Big 12,away,49,turnovers,3
+323620026,Baylor,Big 12,away,49,fumblesLost,3
+323620026,Baylor,Big 12,away,49,interceptions,0
+323620026,Baylor,Big 12,away,49,possessionTime,35:30
+330040201,Texas A&M,SEC,away,41,fumblesRecovered,0
+330040201,Texas A&M,SEC,away,41,rushingTDs,4
+330040201,Texas A&M,SEC,away,41,puntReturnYards,-2
+330040201,Texas A&M,SEC,away,41,puntReturnTDs,0
+330040201,Texas A&M,SEC,away,41,puntReturns,1
+330040201,Texas A&M,SEC,away,41,passingTDs,2
+330040201,Texas A&M,SEC,away,41,kickReturnYards,35
+330040201,Texas A&M,SEC,away,41,kickReturnTDs,0
+330040201,Texas A&M,SEC,away,41,kickReturns,2
+330040201,Texas A&M,SEC,away,41,kickingPoints,5
+330040201,Texas A&M,SEC,away,41,interceptionYards,22
+330040201,Texas A&M,SEC,away,41,interceptionTDs,0
+330040201,Texas A&M,SEC,away,41,passesIntercepted,1
+330040201,Texas A&M,SEC,away,41,firstDowns,28
+330040201,Texas A&M,SEC,away,41,thirdDownEff,5-11
+330040201,Texas A&M,SEC,away,41,fourthDownEff,1-1
+330040201,Texas A&M,SEC,away,41,totalYards,633
+330040201,Texas A&M,SEC,away,41,netPassingYards,307
+330040201,Texas A&M,SEC,away,41,completionAttempts,23-35
+330040201,Texas A&M,SEC,away,41,yardsPerPass,8.8
+330040201,Texas A&M,SEC,away,41,rushingYards,326
+330040201,Texas A&M,SEC,away,41,rushingAttempts,31
+330040201,Texas A&M,SEC,away,41,yardsPerRushAttempt,10.5
+330040201,Texas A&M,SEC,away,41,totalPenaltiesYards,7-60
+330040201,Texas A&M,SEC,away,41,turnovers,1
+330040201,Texas A&M,SEC,away,41,fumblesLost,0
+330040201,Texas A&M,SEC,away,41,interceptions,1
+330040201,Texas A&M,SEC,away,41,possessionTime,22:55
+330040201,Oklahoma,Big 12,home,13,fumblesRecovered,0
+330040201,Oklahoma,Big 12,home,13,rushingTDs,0
+330040201,Oklahoma,Big 12,home,13,puntReturnYards,-1
+330040201,Oklahoma,Big 12,home,13,puntReturnTDs,0
+330040201,Oklahoma,Big 12,home,13,puntReturns,1
+330040201,Oklahoma,Big 12,home,13,passingTDs,1
+330040201,Oklahoma,Big 12,home,13,kickReturnYards,55
+330040201,Oklahoma,Big 12,home,13,kickReturnTDs,0
+330040201,Oklahoma,Big 12,home,13,kickReturns,3
+330040201,Oklahoma,Big 12,home,13,kickingPoints,7
+330040201,Oklahoma,Big 12,home,13,interceptionYards,0
+330040201,Oklahoma,Big 12,home,13,interceptionTDs,0
+330040201,Oklahoma,Big 12,home,13,passesIntercepted,1
+330040201,Oklahoma,Big 12,home,13,firstDowns,27
+330040201,Oklahoma,Big 12,home,13,thirdDownEff,8-15
+330040201,Oklahoma,Big 12,home,13,fourthDownEff,0-1
+330040201,Oklahoma,Big 12,home,13,totalYards,401
+330040201,Oklahoma,Big 12,home,13,netPassingYards,278
+330040201,Oklahoma,Big 12,home,13,completionAttempts,35-49
+330040201,Oklahoma,Big 12,home,13,yardsPerPass,5.7
+330040201,Oklahoma,Big 12,home,13,rushingYards,123
+330040201,Oklahoma,Big 12,home,13,rushingAttempts,34
+330040201,Oklahoma,Big 12,home,13,yardsPerRushAttempt,3.6
+330040201,Oklahoma,Big 12,home,13,totalPenaltiesYards,7-47
+330040201,Oklahoma,Big 12,home,13,turnovers,1
+330040201,Oklahoma,Big 12,home,13,fumblesLost,0
+330040201,Oklahoma,Big 12,home,13,interceptions,1
+330040201,Oklahoma,Big 12,home,13,possessionTime,36:29
+323640204,Oregon State,Pac-12,home,27,fumblesRecovered,0
+323640204,Oregon State,Pac-12,home,27,rushingTDs,3
+323640204,Oregon State,Pac-12,home,27,puntReturnYards,20
+323640204,Oregon State,Pac-12,home,27,puntReturnTDs,0
+323640204,Oregon State,Pac-12,home,27,puntReturns,1
+323640204,Oregon State,Pac-12,home,27,passingTDs,0
+323640204,Oregon State,Pac-12,home,27,kickReturnYards,74
+323640204,Oregon State,Pac-12,home,27,kickReturnTDs,0
+323640204,Oregon State,Pac-12,home,27,kickReturns,4
+323640204,Oregon State,Pac-12,home,27,kickingPoints,9
+323640204,Oregon State,Pac-12,home,27,interceptionYards,2
+323640204,Oregon State,Pac-12,home,27,interceptionTDs,0
+323640204,Oregon State,Pac-12,home,27,passesIntercepted,1
+323640204,Oregon State,Pac-12,home,27,firstDowns,21
+323640204,Oregon State,Pac-12,home,27,thirdDownEff,3-11
+323640204,Oregon State,Pac-12,home,27,fourthDownEff,0-2
+323640204,Oregon State,Pac-12,home,27,totalYards,297
+323640204,Oregon State,Pac-12,home,27,netPassingYards,194
+323640204,Oregon State,Pac-12,home,27,completionAttempts,15-29
+323640204,Oregon State,Pac-12,home,27,yardsPerPass,6.7
+323640204,Oregon State,Pac-12,home,27,rushingYards,103
+323640204,Oregon State,Pac-12,home,27,rushingAttempts,42
+323640204,Oregon State,Pac-12,home,27,yardsPerRushAttempt,2.5
+323640204,Oregon State,Pac-12,home,27,totalPenaltiesYards,2-10
+323640204,Oregon State,Pac-12,home,27,turnovers,3
+323640204,Oregon State,Pac-12,home,27,fumblesLost,1
+323640204,Oregon State,Pac-12,home,27,interceptions,2
+323640204,Oregon State,Pac-12,home,27,possessionTime,30:58
+323640204,Texas,Big 12,away,31,fumblesRecovered,1
+323640204,Texas,Big 12,away,31,rushingTDs,2
+323640204,Texas,Big 12,away,31,puntReturnYards,26
+323640204,Texas,Big 12,away,31,puntReturnTDs,0
+323640204,Texas,Big 12,away,31,puntReturns,2
+323640204,Texas,Big 12,away,31,passingTDs,2
+323640204,Texas,Big 12,away,31,kickReturnYards,64
+323640204,Texas,Big 12,away,31,kickReturnTDs,0
+323640204,Texas,Big 12,away,31,kickReturns,4
+323640204,Texas,Big 12,away,31,kickingPoints,7
+323640204,Texas,Big 12,away,31,interceptionYards,7
+323640204,Texas,Big 12,away,31,interceptionTDs,0
+323640204,Texas,Big 12,away,31,passesIntercepted,2
+323640204,Texas,Big 12,away,31,firstDowns,16
+323640204,Texas,Big 12,away,31,thirdDownEff,5-16
+323640204,Texas,Big 12,away,31,fourthDownEff,1-2
+323640204,Texas,Big 12,away,31,totalYards,358
+323640204,Texas,Big 12,away,31,netPassingYards,241
+323640204,Texas,Big 12,away,31,completionAttempts,21-34
+323640204,Texas,Big 12,away,31,yardsPerPass,7.1
+323640204,Texas,Big 12,away,31,rushingYards,117
+323640204,Texas,Big 12,away,31,rushingAttempts,31
+323640204,Texas,Big 12,away,31,yardsPerRushAttempt,3.8
+323640204,Texas,Big 12,away,31,totalPenaltiesYards,9-78
+323640204,Texas,Big 12,away,31,turnovers,1
+323640204,Texas,Big 12,away,31,fumblesLost,0
+323640204,Texas,Big 12,away,31,interceptions,1
+323640204,Texas,Big 12,away,31,possessionTime,29:02

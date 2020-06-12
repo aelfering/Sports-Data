@@ -1,0 +1,525 @@
+game_id,school,conference,homeAway,points,stat_category,stat
+400953390,South Florida,American Athletic,home,38,rushingTDs,1
+400953390,South Florida,American Athletic,home,38,puntReturnYards,1
+400953390,South Florida,American Athletic,home,38,puntReturnTDs,0
+400953390,South Florida,American Athletic,home,38,puntReturns,1
+400953390,South Florida,American Athletic,home,38,passingTDs,4
+400953390,South Florida,American Athletic,home,38,kickReturnYards,66
+400953390,South Florida,American Athletic,home,38,kickReturnTDs,0
+400953390,South Florida,American Athletic,home,38,kickReturns,3
+400953390,South Florida,American Athletic,home,38,kickingPoints,8
+400953390,South Florida,American Athletic,home,38,interceptionYards,25
+400953390,South Florida,American Athletic,home,38,interceptionTDs,0
+400953390,South Florida,American Athletic,home,38,passesIntercepted,2
+400953390,South Florida,American Athletic,home,38,fumblesRecovered,0
+400953390,South Florida,American Athletic,home,38,totalFumbles,2
+400953390,South Florida,American Athletic,home,38,tacklesForLoss,7
+400953390,South Florida,American Athletic,home,38,defensiveTDs,0
+400953390,South Florida,American Athletic,home,38,tackles,63
+400953390,South Florida,American Athletic,home,38,sacks,3
+400953390,South Florida,American Athletic,home,38,qbHurries,7
+400953390,South Florida,American Athletic,home,38,passesDeflected,3
+400953390,South Florida,American Athletic,home,38,firstDowns,27
+400953390,South Florida,American Athletic,home,38,thirdDownEff,7-15
+400953390,South Florida,American Athletic,home,38,fourthDownEff,1-4
+400953390,South Florida,American Athletic,home,38,totalYards,561
+400953390,South Florida,American Athletic,home,38,netPassingYards,311
+400953390,South Florida,American Athletic,home,38,completionAttempts,17-34
+400953390,South Florida,American Athletic,home,38,yardsPerPass,9.1
+400953390,South Florida,American Athletic,home,38,rushingYards,250
+400953390,South Florida,American Athletic,home,38,rushingAttempts,48
+400953390,South Florida,American Athletic,home,38,yardsPerRushAttempt,5.2
+400953390,South Florida,American Athletic,home,38,totalPenaltiesYards,10-100
+400953390,South Florida,American Athletic,home,38,turnovers,2
+400953390,South Florida,American Athletic,home,38,fumblesLost,2
+400953390,South Florida,American Athletic,home,38,interceptions,0
+400953390,South Florida,American Athletic,home,38,possessionTime,24:39
+400953390,Texas Tech,Big 12,away,34,rushingTDs,1
+400953390,Texas Tech,Big 12,away,34,puntReturnYards,25
+400953390,Texas Tech,Big 12,away,34,puntReturnTDs,0
+400953390,Texas Tech,Big 12,away,34,puntReturns,3
+400953390,Texas Tech,Big 12,away,34,passingTDs,3
+400953390,Texas Tech,Big 12,away,34,kickReturnYards,81
+400953390,Texas Tech,Big 12,away,34,kickReturnTDs,0
+400953390,Texas Tech,Big 12,away,34,kickReturns,4
+400953390,Texas Tech,Big 12,away,34,kickingPoints,10
+400953390,Texas Tech,Big 12,away,34,fumblesRecovered,2
+400953390,Texas Tech,Big 12,away,34,totalFumbles,0
+400953390,Texas Tech,Big 12,away,34,tacklesForLoss,3
+400953390,Texas Tech,Big 12,away,34,defensiveTDs,0
+400953390,Texas Tech,Big 12,away,34,tackles,56
+400953390,Texas Tech,Big 12,away,34,sacks,0
+400953390,Texas Tech,Big 12,away,34,qbHurries,4
+400953390,Texas Tech,Big 12,away,34,passesDeflected,3
+400953390,Texas Tech,Big 12,away,34,firstDowns,28
+400953390,Texas Tech,Big 12,away,34,thirdDownEff,10-19
+400953390,Texas Tech,Big 12,away,34,fourthDownEff,0-1
+400953390,Texas Tech,Big 12,away,34,totalYards,549
+400953390,Texas Tech,Big 12,away,34,netPassingYards,416
+400953390,Texas Tech,Big 12,away,34,completionAttempts,32-59
+400953390,Texas Tech,Big 12,away,34,yardsPerPass,7.1
+400953390,Texas Tech,Big 12,away,34,rushingYards,133
+400953390,Texas Tech,Big 12,away,34,rushingAttempts,35
+400953390,Texas Tech,Big 12,away,34,yardsPerRushAttempt,3.8
+400953390,Texas Tech,Big 12,away,34,totalPenaltiesYards,10-107
+400953390,Texas Tech,Big 12,away,34,turnovers,2
+400953390,Texas Tech,Big 12,away,34,fumblesLost,0
+400953390,Texas Tech,Big 12,away,34,interceptions,2
+400953390,Texas Tech,Big 12,away,34,possessionTime,35:21
+400953395,West Virginia,Big 12,home,14,rushingTDs,0
+400953395,West Virginia,Big 12,home,14,puntReturnYards,-7
+400953395,West Virginia,Big 12,home,14,puntReturnTDs,0
+400953395,West Virginia,Big 12,home,14,puntReturns,1
+400953395,West Virginia,Big 12,home,14,passingTDs,1
+400953395,West Virginia,Big 12,home,14,kickReturnYards,168
+400953395,West Virginia,Big 12,home,14,kickReturnTDs,0
+400953395,West Virginia,Big 12,home,14,kickReturns,7
+400953395,West Virginia,Big 12,home,14,kickingPoints,6
+400953395,West Virginia,Big 12,home,14,fumblesRecovered,2
+400953395,West Virginia,Big 12,home,14,totalFumbles,2
+400953395,West Virginia,Big 12,home,14,tacklesForLoss,12
+400953395,West Virginia,Big 12,home,14,defensiveTDs,0
+400953395,West Virginia,Big 12,home,14,tackles,47
+400953395,West Virginia,Big 12,home,14,sacks,6
+400953395,West Virginia,Big 12,home,14,qbHurries,1
+400953395,West Virginia,Big 12,home,14,passesDeflected,4
+400953395,West Virginia,Big 12,home,14,firstDowns,6
+400953395,West Virginia,Big 12,home,14,thirdDownEff,2-14
+400953395,West Virginia,Big 12,home,14,fourthDownEff,1-1
+400953395,West Virginia,Big 12,home,14,totalYards,153
+400953395,West Virginia,Big 12,home,14,netPassingYards,124
+400953395,West Virginia,Big 12,home,14,completionAttempts,10-30
+400953395,West Virginia,Big 12,home,14,yardsPerPass,4.1
+400953395,West Virginia,Big 12,home,14,rushingYards,29
+400953395,West Virginia,Big 12,home,14,rushingAttempts,21
+400953395,West Virginia,Big 12,home,14,yardsPerRushAttempt,1.4
+400953395,West Virginia,Big 12,home,14,totalPenaltiesYards,5-51
+400953395,West Virginia,Big 12,home,14,turnovers,4
+400953395,West Virginia,Big 12,home,14,fumblesLost,2
+400953395,West Virginia,Big 12,home,14,interceptions,2
+400953395,West Virginia,Big 12,home,14,possessionTime,21:26
+400953395,Utah,Pac-12,away,30,rushingTDs,3
+400953395,Utah,Pac-12,away,30,puntReturnYards,46
+400953395,Utah,Pac-12,away,30,puntReturnTDs,0
+400953395,Utah,Pac-12,away,30,puntReturns,4
+400953395,Utah,Pac-12,away,30,passingTDs,0
+400953395,Utah,Pac-12,away,30,kickReturnYards,39
+400953395,Utah,Pac-12,away,30,kickReturnTDs,0
+400953395,Utah,Pac-12,away,30,kickReturns,3
+400953395,Utah,Pac-12,away,30,kickingPoints,12
+400953395,Utah,Pac-12,away,30,interceptionYards,24
+400953395,Utah,Pac-12,away,30,interceptionTDs,0
+400953395,Utah,Pac-12,away,30,passesIntercepted,2
+400953395,Utah,Pac-12,away,30,fumblesRecovered,2
+400953395,Utah,Pac-12,away,30,totalFumbles,2
+400953395,Utah,Pac-12,away,30,tacklesForLoss,4
+400953395,Utah,Pac-12,away,30,defensiveTDs,0
+400953395,Utah,Pac-12,away,30,tackles,27
+400953395,Utah,Pac-12,away,30,sacks,2
+400953395,Utah,Pac-12,away,30,qbHurries,4
+400953395,Utah,Pac-12,away,30,passesDeflected,4
+400953395,Utah,Pac-12,away,30,firstDowns,19
+400953395,Utah,Pac-12,away,30,thirdDownEff,6-19
+400953395,Utah,Pac-12,away,30,fourthDownEff,2-3
+400953395,Utah,Pac-12,away,30,totalYards,362
+400953395,Utah,Pac-12,away,30,netPassingYards,165
+400953395,Utah,Pac-12,away,30,completionAttempts,12-27
+400953395,Utah,Pac-12,away,30,yardsPerPass,6.1
+400953395,Utah,Pac-12,away,30,rushingYards,197
+400953395,Utah,Pac-12,away,30,rushingAttempts,53
+400953395,Utah,Pac-12,away,30,yardsPerRushAttempt,3.7
+400953395,Utah,Pac-12,away,30,totalPenaltiesYards,5-32
+400953395,Utah,Pac-12,away,30,turnovers,2
+400953395,Utah,Pac-12,away,30,fumblesLost,2
+400953395,Utah,Pac-12,away,30,interceptions,0
+400953395,Utah,Pac-12,away,30,possessionTime,38:34
+400953396,UCLA,Pac-12,home,17,rushingTDs,0
+400953396,UCLA,Pac-12,home,17,passingTDs,2
+400953396,UCLA,Pac-12,home,17,kickReturnYards,95
+400953396,UCLA,Pac-12,home,17,kickReturnTDs,0
+400953396,UCLA,Pac-12,home,17,kickReturns,5
+400953396,UCLA,Pac-12,home,17,kickingPoints,5
+400953396,UCLA,Pac-12,home,17,interceptionYards,0
+400953396,UCLA,Pac-12,home,17,interceptionTDs,0
+400953396,UCLA,Pac-12,home,17,passesIntercepted,1
+400953396,UCLA,Pac-12,home,17,fumblesRecovered,0
+400953396,UCLA,Pac-12,home,17,totalFumbles,1
+400953396,UCLA,Pac-12,home,17,tacklesForLoss,6
+400953396,UCLA,Pac-12,home,17,defensiveTDs,0
+400953396,UCLA,Pac-12,home,17,tackles,57
+400953396,UCLA,Pac-12,home,17,sacks,3
+400953396,UCLA,Pac-12,home,17,qbHurries,0
+400953396,UCLA,Pac-12,home,17,passesDeflected,3
+400953396,UCLA,Pac-12,home,17,firstDowns,14
+400953396,UCLA,Pac-12,home,17,thirdDownEff,3-13
+400953396,UCLA,Pac-12,home,17,fourthDownEff,3-5
+400953396,UCLA,Pac-12,home,17,totalYards,364
+400953396,UCLA,Pac-12,home,17,netPassingYards,295
+400953396,UCLA,Pac-12,home,17,completionAttempts,21-34
+400953396,UCLA,Pac-12,home,17,yardsPerPass,8.7
+400953396,UCLA,Pac-12,home,17,rushingYards,69
+400953396,UCLA,Pac-12,home,17,rushingAttempts,25
+400953396,UCLA,Pac-12,home,17,yardsPerRushAttempt,2.8
+400953396,UCLA,Pac-12,home,17,totalPenaltiesYards,8-73
+400953396,UCLA,Pac-12,home,17,turnovers,1
+400953396,UCLA,Pac-12,home,17,fumblesLost,1
+400953396,UCLA,Pac-12,home,17,interceptions,0
+400953396,UCLA,Pac-12,home,17,possessionTime,24:47
+400953396,Kansas State,Big 12,away,35,rushingTDs,4
+400953396,Kansas State,Big 12,away,35,puntReturnYards,-4
+400953396,Kansas State,Big 12,away,35,puntReturnTDs,0
+400953396,Kansas State,Big 12,away,35,puntReturns,2
+400953396,Kansas State,Big 12,away,35,passingTDs,1
+400953396,Kansas State,Big 12,away,35,kickReturnYards,100
+400953396,Kansas State,Big 12,away,35,kickReturnTDs,0
+400953396,Kansas State,Big 12,away,35,kickReturns,4
+400953396,Kansas State,Big 12,away,35,kickingPoints,5
+400953396,Kansas State,Big 12,away,35,fumblesRecovered,1
+400953396,Kansas State,Big 12,away,35,totalFumbles,1
+400953396,Kansas State,Big 12,away,35,tacklesForLoss,6
+400953396,Kansas State,Big 12,away,35,defensiveTDs,0
+400953396,Kansas State,Big 12,away,35,tackles,45
+400953396,Kansas State,Big 12,away,35,sacks,0
+400953396,Kansas State,Big 12,away,35,qbHurries,0
+400953396,Kansas State,Big 12,away,35,passesDeflected,2
+400953396,Kansas State,Big 12,away,35,firstDowns,21
+400953396,Kansas State,Big 12,away,35,thirdDownEff,6-13
+400953396,Kansas State,Big 12,away,35,fourthDownEff,2-2
+400953396,Kansas State,Big 12,away,35,totalYards,423
+400953396,Kansas State,Big 12,away,35,netPassingYards,79
+400953396,Kansas State,Big 12,away,35,completionAttempts,10-17
+400953396,Kansas State,Big 12,away,35,yardsPerPass,4.6
+400953396,Kansas State,Big 12,away,35,rushingYards,344
+400953396,Kansas State,Big 12,away,35,rushingAttempts,49
+400953396,Kansas State,Big 12,away,35,yardsPerRushAttempt,7.0
+400953396,Kansas State,Big 12,away,35,totalPenaltiesYards,2-20
+400953396,Kansas State,Big 12,away,35,turnovers,1
+400953396,Kansas State,Big 12,away,35,fumblesLost,0
+400953396,Kansas State,Big 12,away,35,interceptions,1
+400953396,Kansas State,Big 12,away,35,possessionTime,35:13
+400953399,Missouri,SEC,home,16,rushingTDs,1
+400953399,Missouri,SEC,home,16,passingTDs,1
+400953399,Missouri,SEC,home,16,kickReturnYards,110
+400953399,Missouri,SEC,home,16,kickReturnTDs,0
+400953399,Missouri,SEC,home,16,kickReturns,5
+400953399,Missouri,SEC,home,16,kickingPoints,4
+400953399,Missouri,SEC,home,16,fumblesRecovered,0
+400953399,Missouri,SEC,home,16,totalFumbles,3
+400953399,Missouri,SEC,home,16,tacklesForLoss,11
+400953399,Missouri,SEC,home,16,defensiveTDs,0
+400953399,Missouri,SEC,home,16,tackles,43
+400953399,Missouri,SEC,home,16,sacks,2
+400953399,Missouri,SEC,home,16,qbHurries,3
+400953399,Missouri,SEC,home,16,passesDeflected,2
+400953399,Missouri,SEC,home,16,firstDowns,17
+400953399,Missouri,SEC,home,16,thirdDownEff,3-14
+400953399,Missouri,SEC,home,16,fourthDownEff,0-0
+400953399,Missouri,SEC,home,16,totalYards,390
+400953399,Missouri,SEC,home,16,netPassingYards,269
+400953399,Missouri,SEC,home,16,completionAttempts,18-34
+400953399,Missouri,SEC,home,16,yardsPerPass,7.9
+400953399,Missouri,SEC,home,16,rushingYards,121
+400953399,Missouri,SEC,home,16,rushingAttempts,34
+400953399,Missouri,SEC,home,16,yardsPerRushAttempt,3.6
+400953399,Missouri,SEC,home,16,totalPenaltiesYards,9-86
+400953399,Missouri,SEC,home,16,turnovers,4
+400953399,Missouri,SEC,home,16,fumblesLost,3
+400953399,Missouri,SEC,home,16,interceptions,1
+400953399,Missouri,SEC,home,16,possessionTime,24:45
+400953399,Texas,Big 12,away,33,rushingTDs,1
+400953399,Texas,Big 12,away,33,puntReturnYards,29
+400953399,Texas,Big 12,away,33,puntReturnTDs,0
+400953399,Texas,Big 12,away,33,puntReturns,2
+400953399,Texas,Big 12,away,33,passingTDs,2
+400953399,Texas,Big 12,away,33,kickReturnYards,36
+400953399,Texas,Big 12,away,33,kickReturnTDs,0
+400953399,Texas,Big 12,away,33,kickReturns,1
+400953399,Texas,Big 12,away,33,kickingPoints,7
+400953399,Texas,Big 12,away,33,interceptionYards,0
+400953399,Texas,Big 12,away,33,interceptionTDs,0
+400953399,Texas,Big 12,away,33,passesIntercepted,1
+400953399,Texas,Big 12,away,33,fumblesRecovered,3
+400953399,Texas,Big 12,away,33,totalFumbles,0
+400953399,Texas,Big 12,away,33,tacklesForLoss,4
+400953399,Texas,Big 12,away,33,defensiveTDs,0
+400953399,Texas,Big 12,away,33,tackles,44
+400953399,Texas,Big 12,away,33,sacks,1
+400953399,Texas,Big 12,away,33,qbHurries,4
+400953399,Texas,Big 12,away,33,passesDeflected,6
+400953399,Texas,Big 12,away,33,firstDowns,17
+400953399,Texas,Big 12,away,33,thirdDownEff,6-18
+400953399,Texas,Big 12,away,33,fourthDownEff,0-0
+400953399,Texas,Big 12,away,33,totalYards,280
+400953399,Texas,Big 12,away,33,netPassingYards,167
+400953399,Texas,Big 12,away,33,completionAttempts,17-29
+400953399,Texas,Big 12,away,33,yardsPerPass,5.8
+400953399,Texas,Big 12,away,33,rushingYards,113
+400953399,Texas,Big 12,away,33,rushingAttempts,42
+400953399,Texas,Big 12,away,33,yardsPerRushAttempt,2.7
+400953399,Texas,Big 12,away,33,totalPenaltiesYards,7-82
+400953399,Texas,Big 12,away,33,turnovers,0
+400953399,Texas,Big 12,away,33,fumblesLost,0
+400953399,Texas,Big 12,away,33,interceptions,0
+400953399,Texas,Big 12,away,33,possessionTime,35:15
+400953401,Stanford,Pac-12,away,37,rushingTDs,2
+400953401,Stanford,Pac-12,away,37,passingTDs,3
+400953401,Stanford,Pac-12,away,37,kickReturnYards,155
+400953401,Stanford,Pac-12,away,37,kickReturnTDs,0
+400953401,Stanford,Pac-12,away,37,kickReturns,7
+400953401,Stanford,Pac-12,away,37,kickingPoints,7
+400953401,Stanford,Pac-12,away,37,interceptionYards,37
+400953401,Stanford,Pac-12,away,37,interceptionTDs,0
+400953401,Stanford,Pac-12,away,37,passesIntercepted,2
+400953401,Stanford,Pac-12,away,37,fumblesRecovered,1
+400953401,Stanford,Pac-12,away,37,totalFumbles,1
+400953401,Stanford,Pac-12,away,37,tacklesForLoss,5
+400953401,Stanford,Pac-12,away,37,defensiveTDs,0
+400953401,Stanford,Pac-12,away,37,tackles,44
+400953401,Stanford,Pac-12,away,37,sacks,0
+400953401,Stanford,Pac-12,away,37,qbHurries,2
+400953401,Stanford,Pac-12,away,37,passesDeflected,4
+400953401,Stanford,Pac-12,away,37,firstDowns,17
+400953401,Stanford,Pac-12,away,37,thirdDownEff,8-16
+400953401,Stanford,Pac-12,away,37,fourthDownEff,1-1
+400953401,Stanford,Pac-12,away,37,totalYards,369
+400953401,Stanford,Pac-12,away,37,netPassingYards,212
+400953401,Stanford,Pac-12,away,37,completionAttempts,15-27
+400953401,Stanford,Pac-12,away,37,yardsPerPass,7.9
+400953401,Stanford,Pac-12,away,37,rushingYards,157
+400953401,Stanford,Pac-12,away,37,rushingAttempts,34
+400953401,Stanford,Pac-12,away,37,yardsPerRushAttempt,4.6
+400953401,Stanford,Pac-12,away,37,totalPenaltiesYards,3-15
+400953401,Stanford,Pac-12,away,37,turnovers,2
+400953401,Stanford,Pac-12,away,37,fumblesLost,0
+400953401,Stanford,Pac-12,away,37,interceptions,2
+400953401,Stanford,Pac-12,away,37,possessionTime,33:03
+400953401,TCU,Big 12,home,39,rushingTDs,1
+400953401,TCU,Big 12,home,39,puntReturnYards,94
+400953401,TCU,Big 12,home,39,puntReturnTDs,1
+400953401,TCU,Big 12,home,39,puntReturns,3
+400953401,TCU,Big 12,home,39,passingTDs,3
+400953401,TCU,Big 12,home,39,kickReturnYards,54
+400953401,TCU,Big 12,home,39,kickReturnTDs,0
+400953401,TCU,Big 12,home,39,kickReturns,3
+400953401,TCU,Big 12,home,39,kickingPoints,9
+400953401,TCU,Big 12,home,39,interceptionYards,0
+400953401,TCU,Big 12,home,39,interceptionTDs,0
+400953401,TCU,Big 12,home,39,passesIntercepted,2
+400953401,TCU,Big 12,home,39,fumblesRecovered,0
+400953401,TCU,Big 12,home,39,totalFumbles,1
+400953401,TCU,Big 12,home,39,tacklesForLoss,6
+400953401,TCU,Big 12,home,39,defensiveTDs,1
+400953401,TCU,Big 12,home,39,tackles,35
+400953401,TCU,Big 12,home,39,sacks,1
+400953401,TCU,Big 12,home,39,qbHurries,6
+400953401,TCU,Big 12,home,39,passesDeflected,4
+400953401,TCU,Big 12,home,39,firstDowns,21
+400953401,TCU,Big 12,home,39,thirdDownEff,5-13
+400953401,TCU,Big 12,home,39,fourthDownEff,0-2
+400953401,TCU,Big 12,home,39,totalYards,488
+400953401,TCU,Big 12,home,39,netPassingYards,341
+400953401,TCU,Big 12,home,39,completionAttempts,28-41
+400953401,TCU,Big 12,home,39,yardsPerPass,8.3
+400953401,TCU,Big 12,home,39,rushingYards,147
+400953401,TCU,Big 12,home,39,rushingAttempts,26
+400953401,TCU,Big 12,home,39,yardsPerRushAttempt,5.7
+400953401,TCU,Big 12,home,39,totalPenaltiesYards,1-4
+400953401,TCU,Big 12,home,39,turnovers,3
+400953401,TCU,Big 12,home,39,fumblesLost,1
+400953401,TCU,Big 12,home,39,interceptions,2
+400953401,TCU,Big 12,home,39,possessionTime,26:57
+400953416,Oklahoma State,Big 12,home,30,rushingTDs,1
+400953416,Oklahoma State,Big 12,home,30,puntReturnYards,5
+400953416,Oklahoma State,Big 12,home,30,puntReturnTDs,0
+400953416,Oklahoma State,Big 12,home,30,puntReturns,2
+400953416,Oklahoma State,Big 12,home,30,passingTDs,2
+400953416,Oklahoma State,Big 12,home,30,kickReturnYards,23
+400953416,Oklahoma State,Big 12,home,30,kickReturnTDs,0
+400953416,Oklahoma State,Big 12,home,30,kickReturns,2
+400953416,Oklahoma State,Big 12,home,30,kickingPoints,12
+400953416,Oklahoma State,Big 12,home,30,interceptionYards,30
+400953416,Oklahoma State,Big 12,home,30,interceptionTDs,0
+400953416,Oklahoma State,Big 12,home,30,passesIntercepted,1
+400953416,Oklahoma State,Big 12,home,30,fumblesRecovered,1
+400953416,Oklahoma State,Big 12,home,30,totalFumbles,0
+400953416,Oklahoma State,Big 12,home,30,tacklesForLoss,3
+400953416,Oklahoma State,Big 12,home,30,defensiveTDs,0
+400953416,Oklahoma State,Big 12,home,30,tackles,53
+400953416,Oklahoma State,Big 12,home,30,sacks,2
+400953416,Oklahoma State,Big 12,home,30,qbHurries,6
+400953416,Oklahoma State,Big 12,home,30,passesDeflected,5
+400953416,Oklahoma State,Big 12,home,30,firstDowns,25
+400953416,Oklahoma State,Big 12,home,30,thirdDownEff,5-12
+400953416,Oklahoma State,Big 12,home,30,fourthDownEff,0-2
+400953416,Oklahoma State,Big 12,home,30,totalYards,488
+400953416,Oklahoma State,Big 12,home,30,netPassingYards,351
+400953416,Oklahoma State,Big 12,home,30,completionAttempts,21-32
+400953416,Oklahoma State,Big 12,home,30,yardsPerPass,11.0
+400953416,Oklahoma State,Big 12,home,30,rushingYards,137
+400953416,Oklahoma State,Big 12,home,30,rushingAttempts,32
+400953416,Oklahoma State,Big 12,home,30,yardsPerRushAttempt,4.3
+400953416,Oklahoma State,Big 12,home,30,totalPenaltiesYards,4-20
+400953416,Oklahoma State,Big 12,home,30,turnovers,0
+400953416,Oklahoma State,Big 12,home,30,fumblesLost,0
+400953416,Oklahoma State,Big 12,home,30,interceptions,0
+400953416,Oklahoma State,Big 12,home,30,possessionTime,21:47
+400953416,Virginia Tech,ACC,away,21,rushingTDs,2
+400953416,Virginia Tech,ACC,away,21,puntReturnYards,13
+400953416,Virginia Tech,ACC,away,21,puntReturnTDs,0
+400953416,Virginia Tech,ACC,away,21,puntReturns,2
+400953416,Virginia Tech,ACC,away,21,passingTDs,1
+400953416,Virginia Tech,ACC,away,21,kickReturnYards,105
+400953416,Virginia Tech,ACC,away,21,kickReturnTDs,0
+400953416,Virginia Tech,ACC,away,21,kickReturns,6
+400953416,Virginia Tech,ACC,away,21,kickingPoints,3
+400953416,Virginia Tech,ACC,away,21,fumblesRecovered,0
+400953416,Virginia Tech,ACC,away,21,totalFumbles,1
+400953416,Virginia Tech,ACC,away,21,tacklesForLoss,8
+400953416,Virginia Tech,ACC,away,21,defensiveTDs,0
+400953416,Virginia Tech,ACC,away,21,tackles,44
+400953416,Virginia Tech,ACC,away,21,sacks,3
+400953416,Virginia Tech,ACC,away,21,qbHurries,1
+400953416,Virginia Tech,ACC,away,21,passesDeflected,2
+400953416,Virginia Tech,ACC,away,21,firstDowns,33
+400953416,Virginia Tech,ACC,away,21,thirdDownEff,10-18
+400953416,Virginia Tech,ACC,away,21,fourthDownEff,1-4
+400953416,Virginia Tech,ACC,away,21,totalYards,518
+400953416,Virginia Tech,ACC,away,21,netPassingYards,270
+400953416,Virginia Tech,ACC,away,21,completionAttempts,23-42
+400953416,Virginia Tech,ACC,away,21,yardsPerPass,6.4
+400953416,Virginia Tech,ACC,away,21,rushingYards,248
+400953416,Virginia Tech,ACC,away,21,rushingAttempts,50
+400953416,Virginia Tech,ACC,away,21,yardsPerRushAttempt,5.0
+400953416,Virginia Tech,ACC,away,21,totalPenaltiesYards,5-65
+400953416,Virginia Tech,ACC,away,21,turnovers,2
+400953416,Virginia Tech,ACC,away,21,fumblesLost,1
+400953416,Virginia Tech,ACC,away,21,interceptions,1
+400953416,Virginia Tech,ACC,away,21,possessionTime,38:13
+400953406,Memphis,American Athletic,home,20,rushingTDs,0
+400953406,Memphis,American Athletic,home,20,puntReturnYards,11
+400953406,Memphis,American Athletic,home,20,puntReturnTDs,0
+400953406,Memphis,American Athletic,home,20,puntReturns,2
+400953406,Memphis,American Athletic,home,20,passingTDs,2
+400953406,Memphis,American Athletic,home,20,kickReturnYards,75
+400953406,Memphis,American Athletic,home,20,kickReturnTDs,0
+400953406,Memphis,American Athletic,home,20,kickReturns,3
+400953406,Memphis,American Athletic,home,20,kickingPoints,8
+400953406,Memphis,American Athletic,home,20,fumblesRecovered,1
+400953406,Memphis,American Athletic,home,20,totalFumbles,1
+400953406,Memphis,American Athletic,home,20,tacklesForLoss,5
+400953406,Memphis,American Athletic,home,20,defensiveTDs,0
+400953406,Memphis,American Athletic,home,20,tackles,42
+400953406,Memphis,American Athletic,home,20,sacks,3
+400953406,Memphis,American Athletic,home,20,qbHurries,2
+400953406,Memphis,American Athletic,home,20,passesDeflected,6
+400953406,Memphis,American Athletic,home,20,firstDowns,17
+400953406,Memphis,American Athletic,home,20,thirdDownEff,3-12
+400953406,Memphis,American Athletic,home,20,fourthDownEff,1-3
+400953406,Memphis,American Athletic,home,20,totalYards,339
+400953406,Memphis,American Athletic,home,20,netPassingYards,286
+400953406,Memphis,American Athletic,home,20,completionAttempts,21-33
+400953406,Memphis,American Athletic,home,20,yardsPerPass,8.7
+400953406,Memphis,American Athletic,home,20,rushingYards,53
+400953406,Memphis,American Athletic,home,20,rushingAttempts,26
+400953406,Memphis,American Athletic,home,20,yardsPerRushAttempt,2.0
+400953406,Memphis,American Athletic,home,20,totalPenaltiesYards,5-34
+400953406,Memphis,American Athletic,home,20,turnovers,0
+400953406,Memphis,American Athletic,home,20,fumblesLost,0
+400953406,Memphis,American Athletic,home,20,interceptions,0
+400953406,Memphis,American Athletic,home,20,possessionTime,22:11
+400953406,Iowa State,Big 12,away,21,rushingTDs,1
+400953406,Iowa State,Big 12,away,21,passingTDs,2
+400953406,Iowa State,Big 12,away,21,kickReturnYards,43
+400953406,Iowa State,Big 12,away,21,kickReturnTDs,0
+400953406,Iowa State,Big 12,away,21,kickReturns,3
+400953406,Iowa State,Big 12,away,21,kickingPoints,3
+400953406,Iowa State,Big 12,away,21,fumblesRecovered,0
+400953406,Iowa State,Big 12,away,21,totalFumbles,2
+400953406,Iowa State,Big 12,away,21,tacklesForLoss,10
+400953406,Iowa State,Big 12,away,21,defensiveTDs,0
+400953406,Iowa State,Big 12,away,21,tackles,40
+400953406,Iowa State,Big 12,away,21,sacks,6
+400953406,Iowa State,Big 12,away,21,qbHurries,3
+400953406,Iowa State,Big 12,away,21,passesDeflected,5
+400953406,Iowa State,Big 12,away,21,firstDowns,22
+400953406,Iowa State,Big 12,away,21,thirdDownEff,7-17
+400953406,Iowa State,Big 12,away,21,fourthDownEff,2-3
+400953406,Iowa State,Big 12,away,21,totalYards,346
+400953406,Iowa State,Big 12,away,21,netPassingYards,314
+400953406,Iowa State,Big 12,away,21,completionAttempts,24-38
+400953406,Iowa State,Big 12,away,21,yardsPerPass,8.3
+400953406,Iowa State,Big 12,away,21,rushingYards,32
+400953406,Iowa State,Big 12,away,21,rushingAttempts,42
+400953406,Iowa State,Big 12,away,21,yardsPerRushAttempt,0.8
+400953406,Iowa State,Big 12,away,21,totalPenaltiesYards,3-20
+400953406,Iowa State,Big 12,away,21,turnovers,1
+400953406,Iowa State,Big 12,away,21,fumblesLost,1
+400953406,Iowa State,Big 12,away,21,interceptions,0
+400953406,Iowa State,Big 12,away,21,possessionTime,37:49
+400953412,Oklahoma,Big 12,home,48,rushingTDs,2
+400953412,Oklahoma,Big 12,home,48,puntReturnYards,4
+400953412,Oklahoma,Big 12,home,48,puntReturnTDs,0
+400953412,Oklahoma,Big 12,home,48,puntReturns,1
+400953412,Oklahoma,Big 12,home,48,passingTDs,3
+400953412,Oklahoma,Big 12,home,48,kickReturnYards,44
+400953412,Oklahoma,Big 12,home,48,kickReturnTDs,0
+400953412,Oklahoma,Big 12,home,48,kickReturns,3
+400953412,Oklahoma,Big 12,home,48,kickingPoints,12
+400953412,Oklahoma,Big 12,home,48,fumblesRecovered,1
+400953412,Oklahoma,Big 12,home,48,totalFumbles,0
+400953412,Oklahoma,Big 12,home,48,tacklesForLoss,4
+400953412,Oklahoma,Big 12,home,48,defensiveTDs,1
+400953412,Oklahoma,Big 12,home,48,tackles,38
+400953412,Oklahoma,Big 12,home,48,sacks,2
+400953412,Oklahoma,Big 12,home,48,qbHurries,0
+400953412,Oklahoma,Big 12,home,48,passesDeflected,1
+400953412,Oklahoma,Big 12,home,48,firstDowns,24
+400953412,Oklahoma,Big 12,home,48,thirdDownEff,7-18
+400953412,Oklahoma,Big 12,home,48,fourthDownEff,0-0
+400953412,Oklahoma,Big 12,home,48,totalYards,531
+400953412,Oklahoma,Big 12,home,48,netPassingYards,289
+400953412,Oklahoma,Big 12,home,48,completionAttempts,24-36
+400953412,Oklahoma,Big 12,home,48,yardsPerPass,8.0
+400953412,Oklahoma,Big 12,home,48,rushingYards,242
+400953412,Oklahoma,Big 12,home,48,rushingAttempts,45
+400953412,Oklahoma,Big 12,home,48,yardsPerRushAttempt,5.4
+400953412,Oklahoma,Big 12,home,48,totalPenaltiesYards,1-5
+400953412,Oklahoma,Big 12,home,48,turnovers,1
+400953412,Oklahoma,Big 12,home,48,fumblesLost,0
+400953412,Oklahoma,Big 12,home,48,interceptions,1
+400953412,Oklahoma,Big 12,home,48,possessionTime,32:58
+400953412,Georgia,SEC,away,54,rushingTDs,5
+400953412,Georgia,SEC,away,54,puntReturnYards,21
+400953412,Georgia,SEC,away,54,puntReturnTDs,0
+400953412,Georgia,SEC,away,54,puntReturns,1
+400953412,Georgia,SEC,away,54,passingTDs,2
+400953412,Georgia,SEC,away,54,kickReturnYards,55
+400953412,Georgia,SEC,away,54,kickReturnTDs,0
+400953412,Georgia,SEC,away,54,kickReturns,2
+400953412,Georgia,SEC,away,54,kickingPoints,12
+400953412,Georgia,SEC,away,54,interceptionYards,39
+400953412,Georgia,SEC,away,54,interceptionTDs,0
+400953412,Georgia,SEC,away,54,passesIntercepted,1
+400953412,Georgia,SEC,away,54,fumblesRecovered,0
+400953412,Georgia,SEC,away,54,totalFumbles,1
+400953412,Georgia,SEC,away,54,tacklesForLoss,9
+400953412,Georgia,SEC,away,54,defensiveTDs,0
+400953412,Georgia,SEC,away,54,tackles,44
+400953412,Georgia,SEC,away,54,sacks,5
+400953412,Georgia,SEC,away,54,qbHurries,0
+400953412,Georgia,SEC,away,54,passesDeflected,1
+400953412,Georgia,SEC,away,54,firstDowns,21
+400953412,Georgia,SEC,away,54,thirdDownEff,3-11
+400953412,Georgia,SEC,away,54,fourthDownEff,0-0
+400953412,Georgia,SEC,away,54,totalYards,527
+400953412,Georgia,SEC,away,54,netPassingYards,210
+400953412,Georgia,SEC,away,54,completionAttempts,20-29
+400953412,Georgia,SEC,away,54,yardsPerPass,7.2
+400953412,Georgia,SEC,away,54,rushingYards,317
+400953412,Georgia,SEC,away,54,rushingAttempts,34
+400953412,Georgia,SEC,away,54,yardsPerRushAttempt,9.3
+400953412,Georgia,SEC,away,54,totalPenaltiesYards,6-39
+400953412,Georgia,SEC,away,54,turnovers,1
+400953412,Georgia,SEC,away,54,fumblesLost,1
+400953412,Georgia,SEC,away,54,interceptions,0
+400953412,Georgia,SEC,away,54,possessionTime,27:02
