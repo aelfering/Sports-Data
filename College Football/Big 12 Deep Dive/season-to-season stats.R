@@ -260,8 +260,10 @@ passingTDs <- team_stats_with_dates %>%
 
 cmpAtt_int <- inner_join(cmpAtt_stats, interceptions, by = c('season' = 'season', "school" = "school"))
 cmpAtt_int_TDs <- inner_join(cmpAtt_int, passingTDs, by = c('season' = 'season', "school" = "school"))
+offensiveLine_stats <- left_join(cmpAtt_int_TDs, sacks, by = c('season' = 'season', "school" = "school"))
 
-offensive_drive <- cmpAtt_int_TDs %>%
+offensive_drive <- offensiveLine_stats %>%
   mutate(pct_interceptions = interceptions/attempts,
-         pct_touchdowns = passingTDs/attempts)
+         pct_touchdowns = passingTDs/attempts,
+         pct_sacks = sacks/attempts)
 
