@@ -1,0 +1,1761 @@
+﻿Season,Game.Number,Date,Oppponent,Result,UNO.Score,Opp.Score
+1997,1,10/24/97,Air Force,L,2,4
+1997,2,10/26/97,Air Force,W,6,1
+1997,3,10/31/97,Princeton,L,2,5
+1997,4,11/1/97,Princeton,L,3,5
+1997,5,11/7/97,Massachusetts,L,2,3
+1997,6,11/8/97,Massachusetts,W,5,1
+1997,7,11/15/97,Denver,W,6,3
+1997,8,11/16/97,Denver,W,7,5
+1997,9,11/21/97,Army,L,1,2
+1997,10,11/21/97,Army,L,1,4
+1997,11,11/28/97,Union,W,6,3
+1997,12,11/29/97,Union,L,3,6
+1997,13,12/5/97,Minnesota-Duluth,L,3,4
+1997,14,12/6/97,Minnesota-Duluth,L,0,3
+1997,15,12/19/97,Michigan Tech,L,1,2
+1997,16,12/20/97,Michigan Tech,L,1,6
+1997,17,12/31/97,New Hampshire,L,2,6
+1997,18,1/9/98,St. Cloud State,L,1,2
+1997,19,1/10/98,St. Cloud State,L,2,6
+1997,20,1/16/98,Wisconsin,L,1,5
+1997,21,1/18/98,Wisconsin,L,2,4
+1997,22,1/24/98,Alabama-Huntsville,W,5,2
+1997,23,1/25/98,Alabama-Huntsville,T,3,3
+1997,24,1/30/98,Air Force,W,2,1
+1997,25,1/31/98,Air Force,W,4,3
+1997,26,2/13/98,Minnesota State,W,7,4
+1997,27,2/14/98,Minnesota State,W,7,4
+1997,28,2/20/98,Alabama-Huntsville,T,2,2
+1997,29,2/21/98,Alabama-Huntsville,W,4,0
+1997,30,2/27/98,Maine,L,0,11
+1997,31,2/28/98,Maine,W,4,3
+1997,32,3/5/98,Minnesota State,L,2,3
+1997,33,3/6/98,Minnesota State,T,2,2
+1998,1,10/16/98,Maine,L,2,7
+1998,2,10/17/98,Maine,L,0,3
+1998,3,10/23/98,Denver,L,1,4
+1998,4,10/24/98,Denver,L,1,5
+1998,5,10/30/98,Minnesota State,L,1,5
+1998,6,10/31/98,Minnesota State,W,6,5
+1998,7,11/6/98,Army,L,5,6
+1998,8,11/7/98,Army,L,1,2
+1998,9,11/20/98,Niagara,L,0,4
+1998,10,11/21/98,Niagara,L,2,6
+1998,11,11/27/98,Dartmouth,L,1,2
+1998,12,11/28/98,Dartmouth,W,7,4
+1998,13,12/4/98,Michigan State,L,0,2
+1998,14,12/5/98,Michigan State,L,1,3
+1998,15,12/12/98,RIT,L,2,4
+1998,16,12/13/98,RIT,L,3,5
+1998,17,12/18/98,Harvard,L,1,4
+1998,18,12/19/98,Harvard,L,3,4
+1998,19,12/31/98,Wisconsin,L,2,6
+1998,20,1/2/99,Bowling Green,L,2,4
+1998,21,1/3/99,Bowling Green,W,6,1
+1998,22,1/15/99,Air Force,W,6,2
+1998,23,1/16/99,Air Force,W,4,0
+1998,24,1/22/99,Alaska Fairbanks,L,0,4
+1998,25,1/23/99,Alaska Fairbanks,L,0,7
+1998,26,1/29/99,Niagara,L,2,8
+1998,27,1/30/99,Niagara,W,3,1
+1998,28,2/12/99,St. Cloud State,L,0,2
+1998,29,2/13/99,St. Cloud State,L,0,5
+1998,30,2/18/99,Bemidji State,W,8,2
+1998,31,2/19/99,Bemidji State,W,7,3
+1998,32,2/26/99,Michigan Tech,W,6,4
+1998,33,2/27/99,Michigan Tech,W,5,3
+1998,34,3/5/99,Minnesota State,L,2,4
+1998,35,3/6/99,Minnesota State,W,5,4
+1999,1,10/15/99,Michigan State,L,2,5
+1999,2,10/16/99,Michigan State,L,2,6
+1999,3,10/29/99,Northern Michigan,L,0,2
+1999,4,10/30/99,Northern Michigan,T,4,4
+1999,5,11/5/99,Notre Dame,T,2,2
+1999,6,11/6/99,Notre Dame,W,5,3
+1999,7,11/12/99,Western Michigan,W,3,1
+1999,8,11/13/99,Western Michigan,T,4,4
+1999,9,11/19/99,Ohio State,L,2,5
+1999,10,11/20/99,Ohio State,T,2,2
+1999,11,12/3/99,Alaska Fairbanks,W,5,3
+1999,12,12/4/99,Alaska Fairbanks,W,4,2
+1999,13,12/10/99,Michigan,L,2,6
+1999,14,12/11/99,Michigan,L,1,6
+1999,15,12/17/99,Minnesota-Duluth,L,4,5
+1999,16,12/18/99,Minnesota-Duluth,W,3,2
+1999,17,12/27/99,Wisconsin,L,4,6
+1999,18,12/28/99,Miami,W,4,3
+1999,19,1/7/00,Denver,L,1,4
+1999,20,1/8/00,Denver,L,2,3
+1999,21,1/13/00,Michigan State,W,4,3
+1999,22,1/14/00,Michigan State,L,1,3
+1999,23,1/21/00,Lake Superior State,L,1,2
+1999,24,1/22/00,Lake Superior State,W,4,1
+1999,25,1/28/00,Ferris State,T,5,5
+1999,26,1/29/00,Ferris State,W,5,2
+1999,27,2/4/00,Bowling Green,W,4,3
+1999,28,2/5/00,Bowling Green,L,2,3
+1999,29,2/11/00,Notre Dame,W,3,1
+1999,30,2/12/00,Notre Dame,L,4,7
+1999,31,2/18/00,Miami,W,3,1
+1999,32,2/20/00,Miami,L,3,6
+1999,33,2/25/00,Alaska Fairbanks,T,2,2
+1999,34,2/26/00,Alaska Fairbanks,L,4,5
+1999,35,3/2/00,Niagara,L,0,6
+1999,36,3/3/00,Niagara,T,3,3
+1999,37,3/10/00,Northern Michigan,W,4,2
+1999,38,3/11/00,Northern Michigan,L,1,5
+1999,39,3/12/00,Northern Michigan,W,2,1
+1999,40,3/14/00,Bowling Green,W,3,1
+1999,41,3/17/00,Michigan,W,7,4
+1999,42,3/18/00,Michigan State,L,0,6
+2000,1,10/13/00,Niagara,W,4,0
+2000,2,10/14/00,Boston College,L,1,5
+2000,3,10/20/00,Michigan State,W,2,1
+2000,4,10/21/00,Michigan State,L,1,4
+2000,5,10/27/00,Ferris State,W,7,4
+2000,6,10/28/00,Ferris State,W,7,3
+2000,7,11/3/00,Lake Superior State,L,3,4
+2000,8,11/4/00,Lake Superior State,L,2,5
+2000,9,11/10/00,Massachusetts,W,3,2
+2000,10,11/11/00,Massachusetts,W,3,1
+2000,11,11/17/00,Miami,L,2,3
+2000,12,11/18/00,Miami,L,2,6
+2000,13,11/24/00,Merrimack,L,0,2
+2000,14,11/25/00,Merrimack,L,1,2
+2000,15,12/1/00,Alaska Fairbanks,W,5,1
+2000,16,12/2/00,Alaska Fairbanks,T,2,2
+2000,17,12/8/00,Bowling Green,W,3,1
+2000,18,12/9/00,Bowling Green,L,2,7
+2000,19,12/19/00,Notre Dame,W,1,0
+2000,20,12/20/00,Notre Dame,L,3,7
+2000,21,12/29/00,Massachusetts-Lowell,W,5,2
+2000,22,12/30/00,Canisius,W,3,1
+2000,23,1/12/01,Bowling Green,W,3,2
+2000,24,1/13/01,Bowling Green,W,3,2
+2000,25,1/19/01,Northern Michigan,W,4,2
+2000,26,1/20/01,Northern Michigan,W,4,3
+2000,27,1/26/01,Alaska Fairbanks,T,3,3
+2000,28,1/27/01,Alaska Fairbanks,L,2,3
+2000,29,2/2/01,Michigan,W,4,1
+2000,30,2/3/01,Michigan,L,1,4
+2000,31,2/9/01,Western Michigan,W,2,1
+2000,32,2/10/01,Western Michigan,T,3,3
+2000,33,2/16/01,Ohio State,L,3,4
+2000,34,2/17/01,Ohio State,W,6,1
+2000,35,2/23/01,Ferris State,W,4,2
+2000,36,2/24/01,Ferris State,W,2,1
+2000,37,3/1/01,Findlay,W,5,0
+2000,38,3/2/01,Findlay,W,4,0
+2000,39,3/9/01,Ohio State,L,4,5
+2000,40,3/10/01,Ohio State,W,2,1
+2000,41,3/11/01,Ohio State,W,4,3
+2000,42,3/16/01,Michigan,L,2,3
+2001,1,10/12/01,Minnesota-Duluth,L,2,5
+2001,2,10/13/01,Providence,W,4,3
+2001,3,10/19/01,Colgate,W,5,4
+2001,4,10/20/01,Colgate,W,5,3
+2001,5,10/26/01,Michigan State,W,4,3
+2001,6,10/27/01,Michigan State,W,5,1
+2001,7,11/2/01,Ohio State,L,0,1
+2001,8,11/3/01,Ohio State,W,4,1
+2001,9,11/9/01,Western Michigan,W,4,1
+2001,10,11/10/01,Western Michigan,L,0,2
+2001,11,11/16/01,Michigan,T,4,4
+2001,12,11/17/01,Michigan,L,2,3
+2001,13,11/23/01,Ferris State,L,2,7
+2001,14,11/24/01,Ferris State,W,5,2
+2001,15,11/30/01,Bowling Green,T,2,2
+2001,16,12/1/01,Bowling Green,W,2,1
+2001,17,12/7/01,Alaska Fairbanks,L,2,4
+2001,18,12/8/01,Alaska Fairbanks,L,1,3
+2001,19,12/20/01,Boston University,L,1,4
+2001,20,12/21/01,Boston University,W,4,3
+2001,21,1/4/02,Northern Michigan,L,1,3
+2001,22,1/5/02,Northern Michigan,T,2,2
+2001,23,1/11/02,Alabama-Huntsville,W,4,2
+2001,24,1/12/02,Alabama-Huntsville,W,3,2
+2001,25,1/18/02,Notre Dame,W,3,2
+2001,26,1/19/02,Notre Dame,W,4,2
+2001,27,1/25/02,Lake Superior State,W,3,0
+2001,28,1/26/02,Lake Superior State,W,3,1
+2001,29,2/1/02,Miami,W,2,0
+2001,30,2/2/02,Miami,W,3,0
+2001,31,2/8/02,Michigan,L,1,2
+2001,32,2/9/02,Michigan,L,3,6
+2001,33,2/15/02,Western Michigan,W,5,3
+2001,34,2/16/02,Western Michigan,L,1,3
+2001,35,2/22/02,Alaska Fairbanks,L,2,3
+2001,36,2/23/02,Alaska Fairbanks,T,2,2
+2001,37,2/28/02,Minnesota State,W,4,2
+2001,38,3/2/02,Minnesota State,L,3,4
+2001,39,3/8/02,Notre Dame,W,3,2
+2001,40,3/9/02,Notre Dame,L,1,2
+2001,41,3/10/02,Notre Dame,L,1,2
+2002,1,10/11/02,Colgate,T,5,5
+2002,2,10/12/02,Denver,L,2,3
+2002,3,10/18/02,Miami,W,3,2
+2002,4,10/19/02,Miami,L,2,5
+2002,5,10/25/02,Boston University,L,4,6
+2002,6,10/27/02,Massachusetts,W,3,2
+2002,7,11/1/02,Western Michigan,L,2,8
+2002,8,11/2/02,Western Michigan,W,2,0
+2002,9,11/8/02,Alaska Fairbanks,L,3,4
+2002,10,11/9/02,Alaska Fairbanks,L,2,3
+2002,11,11/22/02,Northern Michigan,L,1,2
+2002,12,11/23/02,Northern Michigan,W,5,4
+2002,13,11/29/02,Merrimack,T,3,3
+2002,14,11/30/02,Merrimack,W,5,3
+2002,15,12/6/02,Lake Superior State,W,4,1
+2002,16,12/7/02,Lake Superior State,W,3,0
+2002,17,12/13/02,Ohio State,L,1,4
+2002,18,12/14/02,Ohio State,L,1,3
+2002,19,1/3/03,Notre Dame,L,3,5
+2002,20,1/4/03,Notre Dame,W,5,3
+2002,21,1/10/03,Miami,L,0,3
+2002,22,1/11/03,Miami,T,2,2
+2002,23,1/17/03,Michigan State,L,2,5
+2002,24,1/18/03,Michigan State,L,0,7
+2002,25,1/24/03,Ohio State,W,4,0
+2002,26,1/25/03,Ohio State,W,3,1
+2002,27,1/31/03,Bowling Green,L,0,5
+2002,28,2/1/03,Bowling Green,W,6,3
+2002,29,2/7/03,Alaska Fairbanks,T,3,3
+2002,30,2/8/03,Alaska Fairbanks,L,3,4
+2002,31,2/14/03,Bemidji State,W,5,2
+2002,32,2/15/03,Bemidji State,W,3,2
+2002,33,2/21/03,Michigan,L,1,6
+2002,34,2/22/03,Michigan,L,3,5
+2002,35,2/28/03,Ferris State,L,0,5
+2002,36,3/1/03,Ferris State,L,0,4
+2002,37,3/6/03,Minnesota State,L,0,3
+2002,38,3/8/03,Minnesota State,T,2,2
+2002,39,3/14/03,Ohio State,L,1,4
+2002,40,3/15/03,Ohio State,L,1,3
+2003,1,10/10/03,Wisconsin,L,3,4
+2003,2,10/11/03,Minnesota,L,3,7
+2003,3,10/17/03,Western Michigan,L,1,5
+2003,4,10/18/03,Western Michigan,T,2,2
+2003,5,10/30/03,Notre Dame,L,2,4
+2003,6,10/31/03,Notre Dame,L,0,2
+2003,7,11/7/03,Lake Superior State,W,7,1
+2003,8,11/8/03,Lake Superior State,L,1,4
+2003,9,11/14/03,Northern Michigan,W,2,1
+2003,10,11/15/03,Northern Michigan,L,2,4
+2003,11,11/21/03,Ferris State,W,4,1
+2003,12,11/22/03,Ferris State,L,0,4
+2003,13,11/28/03,Massachusetts,W,7,2
+2003,14,11/29/03,Massachusetts,T,1,1
+2003,15,12/5/03,Alaska Fairbanks,L,2,5
+2003,16,12/6/03,Alaska Fairbanks,L,1,4
+2003,17,12/12/03,Michigan,L,1,2
+2003,18,12/13/03,Michigan,T,3,3
+2003,19,12/27/03,Yale,W,5,2
+2003,20,12/28/03,Denver,L,3,6
+2003,21,1/7/04,Ferris State,L,2,5
+2003,22,1/8/04,Ferris State,W,6,1
+2003,23,1/16/04,Western Michigan,L,4,5
+2003,24,1/17/04,Western Michigan,L,2,3
+2003,25,1/23/04,Miami,T,2,2
+2003,26,1/24/04,Miami,L,1,7
+2003,27,2/6/04,Bowling Green,T,3,3
+2003,28,2/7/04,Bowling Green,L,1,3
+2003,29,2/13/04,Ohio State,L,1,3
+2003,30,2/14/04,Ohio State,L,3,4
+2003,31,2/20/04,Michigan State,L,0,3
+2003,32,2/21/04,Michigan State,L,0,5
+2003,33,2/27/04,Alaska Fairbanks,L,0,1
+2003,34,2/28/04,Alaska Fairbanks,W,7,4
+2003,35,3/2/04,Minnesota State,L,3,5
+2003,36,3/6/04,Minnesota State,L,1,9
+2003,37,3/12/04,Michigan,L,0,2
+2003,38,3/13/04,Michigan,W,3,1
+2003,39,3/14/04,Michigan,L,2,5
+2004,1,10/9/04,Connecticut,W,4,1
+2004,2,10/10/04,Merrimack,W,4,3
+2004,3,10/22/04,Western Michigan,W,7,3
+2004,4,10/23/04,Western Michigan,W,4,3
+2004,5,10/29/04,Michigan State,L,2,5
+2004,6,10/30/04,Michigan State,W,5,2
+2004,7,11/5/04,Alaska Fairbanks,L,1,3
+2004,8,11/6/04,Alaska Fairbanks,L,2,3
+2004,9,11/12/04,Bowling Green,W,4,2
+2004,10,11/13/04,Bowling Green,L,4,6
+2004,11,11/19/04,Ohio State,W,4,0
+2004,12,11/20/04,Ohio State,T,4,4
+2004,13,12/3/04,Northern Michigan,L,2,3
+2004,14,12/4/04,Northern Michigan,L,3,6
+2004,15,12/9/04,Lake Superior State,L,2,5
+2004,16,12/11/04,Lake Superior State,W,5,1
+2004,17,12/29/04,Boston University,L,1,4
+2004,18,12/30/04,Massachusetts,L,2,5
+2004,19,1/7/05,Northern Michigan,W,3,1
+2004,20,1/8/05,Northern Michigan,W,3,1
+2004,21,1/14/05,Ferris State,T,2,2
+2004,22,1/15/05,Ferris State,W,4,1
+2004,23,1/21/05,Miami,W,5,2
+2004,24,1/22/05,Miami,L,2,4
+2004,25,1/28/05,Wayne State,W,3,2
+2004,26,1/29/05,Wayne State,W,4,2
+2004,27,2/4/05,Notre Dame,T,1,1
+2004,28,2/5/05,Notre Dame,W,6,3
+2004,29,2/11/05,Michigan,L,4,6
+2004,30,2/12/05,Michigan,L,3,4
+2004,31,2/18/05,Lake Superior State,W,5,2
+2004,32,2/19/05,Lake Superior State,T,3,3
+2004,33,2/25/05,Alaska Fairbanks,L,4,6
+2004,34,2/26/05,Alaska Fairbanks,W,7,2
+2004,35,3/3/05,Minnesota State,L,2,6
+2004,36,3/5/05,Minnesota State,L,4,6
+2004,37,3/11/05,Lake Superior State,W,4,3
+2004,38,3/12/05,Lake Superior State,W,4,3
+2004,39,3/17/05,Michigan State,L,0,5
+2005,1,10/14/05,Army,W,3,2
+2005,2,10/15/05,New Hampshire,W,5,3
+2005,3,10/21/05,Miami,L,3,6
+2005,4,10/22/05,Miami,L,2,3
+2005,5,11/4/05,Bowling Green,L,3,7
+2005,6,11/5/05,Bowling Green,L,3,4
+2005,7,11/11/05,Michigan State,W,7,4
+2005,8,11/12/05,Michigan State,W,3,2
+2005,9,11/18/05,Alaska Fairbanks,W,4,2
+2005,10,11/19/05,Alaska Fairbanks,L,3,4
+2005,11,11/22/05,Minnesota State,L,3,6
+2005,12,11/25/05,Providence College,W,4,2
+2005,13,11/26/05,Holy Cross,W,6,1
+2005,14,12/2/05,Ferris State,W,5,2
+2005,15,12/4/05,Ferris State,W,5,3
+2005,16,12/9/05,Michigan,L,2,4
+2005,17,12/10/05,Michigan,L,3,7
+2005,18,12/29/05,Alabama-Huntsville,W,8,5
+2005,19,12/31/05,Yale,W,3,2
+2005,20,1/3/06,Minnesota State,L,2,5
+2005,21,1/6/06,Notre Dame,L,1,4
+2005,22,1/7/06,Notre Dame,T,2,2
+2005,23,1/13/06,Ohio State,W,2,0
+2005,24,1/14/06,Ohio State,T,2,2
+2005,25,1/20/06,Michigan State,L,3,4
+2005,26,1/21/06,Michigan State,W,3,2
+2005,27,1/27/06,Alaska Fairbanks,W,4,1
+2005,28,1/28/06,Alaska Fairbanks,T,3,3
+2005,29,2/3/06,Lake Superior State,W,8,0
+2005,30,2/4/06,Lake Superior State,T,2,2
+2005,31,2/10/06,Northern Michigan,W,2,1
+2005,32,2/11/06,Northern Michigan,W,8,3
+2005,33,2/17/06,Michigan,W,4,3
+2005,34,2/18/06,Michigan,T,4,4
+2005,35,2/24/06,Western Michigan,T,5,5
+2005,36,2/25/06,Western Michigan,L,3,6
+2005,37,3/3/06,Bowling Green,W,4,2
+2005,38,3/4/06,Bowling Green,W,4,2
+2005,39,3/10/06,Northern Michigan,L,1,4
+2005,40,3/11/06,Northern Michigan,L,2,3
+2005,41,3/24/06,Boston University,L,2,9
+2006,1,10/13/06,Colorado College,T,2,2
+2006,2,10/14/06,Alaska Anchorage,T,2,2
+2006,3,10/20/06,Niagara,W,10,1
+2006,4,10/21/06,Northern Michigan,L,2,5
+2006,5,10/27/06,Western Michigan,W,7,5
+2006,6,10/28/06,Western Michigan,W,6,0
+2006,7,11/3/06,Alaska Fairbanks,T,5,5
+2006,8,11/4/06,Alaska Fairbanks,L,3,4
+2006,9,11/10/06,Michigan,L,4,6
+2006,10,11/11/06,Michigan,L,1,5
+2006,11,11/17/06,Miami,L,3,7
+2006,12,11/18/06,Miami,L,1,2
+2006,13,11/21/06,Minnesota State,T,4,4
+2006,14,11/24/06,Notre Dame,L,2,4
+2006,15,11/25/06,Notre Dame,W,3,2
+2006,16,12/1/06,Bowling Green,W,4,1
+2006,17,12/2/06,Bowling Green,W,7,1
+2006,18,12/8/06,Bentley,W,5,2
+2006,19,12/10/06,Bentley,W,7,2
+2006,20,12/29/06,Princeton,L,2,3
+2006,21,12/30/06,Yale,T,4,4
+2006,22,1/5/07,Lake Superior State,T,4,4
+2006,23,1/6/07,Lake Superior State,L,2,3
+2006,24,1/12/07,Bowling Green,W,2,1
+2006,25,1/13/07,Bowling Green,W,7,0
+2006,26,1/16/07,Minnesota State,L,2,3
+2006,27,1/19/07,Ferris State,W,3,1
+2006,28,1/20/07,Ferris State,L,3,6
+2006,29,1/26/07,Northern Michigan,W,5,2
+2006,30,1/27/07,Northern Michigan,W,6,1
+2006,31,2/2/07,Michigan State,L,1,5
+2006,32,2/3/07,Michigan State,T,3,3
+2006,33,2/9/07,Notre Dame,L,2,4
+2006,34,2/10/07,Notre Dame,T,2,2
+2006,35,2/16/07,Ohio State,L,3,4
+2006,36,2/17/07,Ohio State,W,2,1
+2006,37,2/23/07,Alaska Fairbanks,W,4,3
+2006,38,2/24/07,Alaska Fairbanks,W,5,3
+2006,39,3/2/07,Bowling Green,W,3,2
+2006,40,3/3/07,Bowling Green,W,7,5
+2006,41,3/9/07,Michigan State,L,2,4
+2006,42,3/10/07,Michigan State,L,1,4
+2007,1,10/20/07,Alabama-Huntsville,W,5,1
+2007,2,10/26/07,Miami,L,2,7
+2007,3,10/27/07,Miami,L,2,5
+2007,4,11/2/07,Michigan,L,3,6
+2007,5,11/3/07,Michigan,L,2,3
+2007,6,11/8/07,Ohio State,W,5,2
+2007,7,11/9/07,Ohio State,W,5,2
+2007,8,11/16/07,Ferris State,L,1,5
+2007,9,11/18/07,Ferris State,W,2,0
+2007,10,11/23/07,Alaska Fairbanks,W,4,3
+2007,11,11/24/07,Alaska Fairbanks,T,4,4
+2007,12,11/30/07,Notre Dame,L,4,5
+2007,13,12/1/07,Notre Dame,L,0,5
+2007,14,12/7/07,Lake Superior State,T,1,1
+2007,15,12/8/07,Lake Superior State,T,3,3
+2007,16,12/14/07,Union,L,2,3
+2007,17,12/15/07,Union,W,4,2
+2007,18,12/18/07,Minnesota State,W,6,3
+2007,19,12/28/07,Yale,L,3,6
+2007,20,12/30/07,Princeton,L,3,5
+2007,21,1/5/08,Western Michigan,W,6,3
+2007,22,1/6/08,Western Michigan,W,4,2
+2007,23,1/11/08,Miami,L,3,6
+2007,24,1/12/08,Miami,L,1,4
+2007,25,1/18/08,Alaska Fairbanks,W,3,1
+2007,26,1/19/08,Alaska Fairbanks,W,4,3
+2007,27,2/1/08,Michigan State,W,5,4
+2007,28,2/2/08,Michigan State,L,2,4
+2007,29,2/8/08,Ohio State,T,3,3
+2007,30,2/9/08,Ohio State,W,5,2
+2007,31,2/15/08,Bowling Green,W,5,3
+2007,32,2/16/08,Bowling Green,L,1,3
+2007,33,2/22/08,Northern Michigan,L,4,6
+2007,34,2/23/08,Northern Michigan,L,3,4
+2007,35,2/26/08,Minnesota State,W,4,2
+2007,36,3/6/08,Alaska Fairbanks,W,4,3
+2007,37,3/8/08,Alaska Fairbanks,L,3,5
+2007,38,3/9/08,Alaska Fairbanks,W,2,1
+2007,39,3/14/08,Michigan,L,1,10
+2007,40,3/15/08,Michigan,L,1,2
+2008,1,10/17/08,American International College,W,4,1
+2008,2,10/18/08,Union,W,2,1
+2008,3,10/24/08,Mercy Hurst,W,3,1
+2008,4,10/25/08,Mercy Hurst,W,5,2
+2008,5,10/31/08,Bowling Green,L,2,3
+2008,6,11/1/08,Bowling Green,W,5,3
+2008,7,11/7/08,Western Michigan,T,2,2
+2008,8,11/8/08,Western Michigan,W,5,2
+2008,9,11/14/08,Ferris State,L,2,3
+2008,10,11/15/08,Ferris State,W,4,2
+2008,11,11/21/08,Michigan State,W,7,1
+2008,12,11/22/08,Michigan State,W,3,1
+2008,13,11/28/08,Ohio State,L,3,4
+2008,14,11/29/08,Ohio State,L,2,3
+2008,15,12/5/08,Alaska Fairbanks,T,0,0
+2008,16,12/6/08,Alaska Fairbanks,T,1,1
+2008,17,12/12/08,Lake Superior State,W,3,2
+2008,18,12/13/08,Lake Superior State,W,2,1
+2008,19,12/29/08,Yale,W,8,3
+2008,20,12/30/08,Princeton,L,1,5
+2008,21,1/3/09,Minnesota State,L,3,4
+2008,22,1/9/09,Northern Michigan,W,4,3
+2008,23,1/10/09,Northern Michigan,L,2,3
+2008,24,1/16/09,Alaska Fairbanks,L,0,2
+2008,25,1/17/09,Alaska Fairbanks,T,1,1
+2008,26,1/23/09,Miami,T,2,2
+2008,27,1/24/09,Miami,L,1,6
+2008,28,1/30/09,Ferris State,L,1,7
+2008,29,1/31/09,Ferris State,T,1,1
+2008,30,2/6/09,Western Michigan,T,1,1
+2008,31,2/7/09,Western Michigan,L,0,5
+2008,32,2/13/09,Michigan,L,3,8
+2008,33,2/14/09,Michigan,L,2,4
+2008,34,2/20/09,Notre Dame,L,3,4
+2008,35,2/21/09,Notre Dame,L,0,1
+2008,36,2/24/09,Minnesota State,T,2,2
+2008,37,3/6/09,Ferris State,W,3,0
+2008,38,3/7/09,Ferris State,W,5,2
+2008,39,3/13/09,Notre Dame,L,0,5
+2008,40,3/14/09,Notre Dame,L,0,1
+2009,1,10/9/09,Army,W,6,4
+2009,2,10/10/09,Massachusetts-Lowell,W,4,3
+2009,3,10/16/09,Colgate,T,1,1
+2009,4,10/17/09,Colgate,W,4,1
+2009,5,10/30/09,Bowling Green,T,3,3
+2009,6,10/31/09,Bowling Green,W,3,1
+2009,7,11/5/09,Michigan State,L,0,3
+2009,8,11/6/09,Michigan State,T,3,3
+2009,9,11/13/09,Lake Superior State,W,4,0
+2009,10,11/14/09,Lake Superior State,L,1,3
+2009,11,11/20/09,Northern Michigan,L,1,5
+2009,12,11/21/09,Northern Michigan,L,3,6
+2009,13,11/27/09,Western Michigan,W,4,3
+2009,14,11/28/09,Western Michigan,W,4,2
+2009,15,12/4/09,Ferris State,L,0,2
+2009,16,12/5/09,Ferris State,L,1,3
+2009,17,12/11/09,Alaska Fairbanks,L,3,4
+2009,18,12/12/09,Alaska Fairbanks,W,5,3
+2009,19,12/18/09,Minnesota State,T,1,1
+2009,20,12/19/09,Minnesota State,W,2,1
+2009,21,1/1/10,Denver,L,0,7
+2009,22,1/2/10,St. Lawrence,T,2,2
+2009,23,1/8/10,Alaska Fairbanks,L,1,3
+2009,24,1/9/10,Alaska Fairbanks,W,2,1
+2009,25,1/15/10,Lake Superior State,L,1,2
+2009,26,1/16/10,Lake Superior State,L,4,5
+2009,27,1/22/10,Northern Michigan,W,7,2
+2009,28,1/23/10,Northern Michigan,W,5,3
+2009,29,1/29/10,Notre Dame,W,5,3
+2009,30,1/30/10,Notre Dame,L,2,3
+2009,31,2/5/10,Ohio State,T,5,5
+2009,32,2/6/10,Ohio State,W,4,3
+2009,33,2/12/10,Michigan,W,4,3
+2009,34,2/13/10,Michigan,W,4,1
+2009,35,2/19/10,Miami,L,2,6
+2009,36,2/20/10,Miami,W,4,2
+2009,37,2/26/10,Bemidji State,L,1,3
+2009,38,2/27/10,Bemidji State,W,3,2
+2009,39,3/5/10,Bowling Green,W,6,1
+2009,40,3/6/10,Bowling Green,W,6,1
+2009,41,3/12/10,Ferris State,L,1,3
+2009,42,3/13/10,Ferris State,L,2,3
+2010,1,10/8/10,Clarkson,W,8,0
+2010,2,10/9/10,RIT,W,5,3
+2010,3,10/15/10,Minnesota,W,5,4
+2010,4,10/16/10,Minnesota,W,4,2
+2010,5,10/22/10,Michigan,W,4,2
+2010,6,10/23/10,Michigan,L,1,6
+2010,7,11/5/10,Minnesota State,W,5,1
+2010,8,11/6/10,Minnesota State,W,5,2
+2010,9,11/12/10,St. Cloud State,W,3,0
+2010,10,11/13/10,St. Cloud State,T,4,4
+2010,11,11/19/10,North Dakota,L,5,6
+2010,12,11/20/10,North Dakota,W,1,0
+2010,13,12/3/10,Bemidji State,L,0,3
+2010,14,12/4/10,Bemidji State,L,1,3
+2010,15,12/9/10,Michigan Tech,W,5,2
+2010,16,12/10/10,Michigan Tech,W,3,1
+2010,17,12/18/10,Colorado College,L,2,5
+2010,18,12/19/10,Colorado College,W,3,0
+2010,19,12/30/10,Quinnipiac,L,3,4
+2010,20,12/31/10,Quinnipiac,L,2,3
+2010,21,1/14/11,Bemidji State,T,2,2
+2010,22,1/15/11,Bemidji State,L,2,3
+2010,23,1/21/11,North Dakota,W,8,4
+2010,24,1/22/11,North Dakota,L,2,4
+2010,25,1/28/11,Alabama-Huntsville,W,4,0
+2010,26,1/29/11,Alabama-Huntsville,L,1,2
+2010,27,2/4/11,St. Cloud State,W,3,0
+2010,28,2/5/11,St. Cloud State,W,4,3
+2010,29,2/11/11,Wisconsin,W,4,1
+2010,30,2/12/11,Wisconsin,W,4,3
+2010,31,2/18/11,Alaska Anchorage,L,2,3
+2010,32,2/19/11,Alaska Anchorage,W,4,1
+2010,33,2/25/11,Denver,W,5,2
+2010,34,2/26/11,Denver,L,2,4
+2010,35,3/4/11,Minnesota Duluth,L,1,4
+2010,36,3/5/11,Minnesota Duluth,W,5,2
+2010,37,3/11/11,Bemidji State,L,2,4
+2010,38,3/12/11,Bemidji State,L,2,3
+2010,39,3/25/11,Michigan,L,2,3
+2011,1,10/7/11,Mercy Hurst,W,5,1
+2011,2,10/8/11,Colgate,L,3,4
+2011,3,10/14/11,Alaska Anchorage,L,0,3
+2011,4,10/15/11,Alaska Fairbanks,L,1,4
+2011,5,10/21/11,Alaska Anchorage,W,4,1
+2011,6,10/22/11,Alaska Anchorage,W,3,1
+2011,7,10/28/11,Wisconsin,W,5,4
+2011,8,10/29/11,Wisconsin,L,3,6
+2011,9,11/4/11,Colorado College,W,7,5
+2011,10,11/5/11,Colorado College,L,2,5
+2011,11,11/11/11,Bemidji State,T,3,3
+2011,12,11/12/11,Bemidji State,W,5,1
+2011,13,11/18/11,Denver,L,3,7
+2011,14,11/19/11,Denver,T,3,3
+2011,15,11/26/11,St. Cloud State,W,4,3
+2011,16,11/27/11,St. Cloud State,T,2,2
+2011,17,12/2/11,Alabama-Huntsville,L,1,3
+2011,18,12/3/11,Alabama-Huntsville,W,6,2
+2011,19,12/9/11,North Dakota,W,2,1
+2011,20,12/10/11,North Dakota,L,0,1
+2011,21,12/30/11,Quinnipiac,T,2,2
+2011,22,12/31/11,Quinnipiac,W,4,1
+2011,23,1/13/12,Minnesota Duluth,L,2,6
+2011,24,1/14/12,Minnesota Duluth,W,3,1
+2011,25,1/20/12,Minnesota State,W,2,1
+2011,26,1/21/12,Minnesota State,L,4,5
+2011,27,2/3/12,Bemidji State,T,1,1
+2011,28,2/4/12,Bemidji State,L,4,6
+2011,29,2/10/12,Michigan Tech,T,3,3
+2011,30,2/11/12,Michigan Tech,W,4,0
+2011,31,2/17/12,Colorado College,L,3,4
+2011,32,2/18/12,Colorado College,W,5,3
+2011,33,2/24/12,Minnesota,L,2,3
+2011,34,2/25/12,Minnesota,L,2,3
+2011,35,3/2/12,Denver,L,0,3
+2011,36,3/3/12,Denver,L,2,3
+2011,37,3/9/12,St. Cloud State,L,0,4
+2011,38,3/10/12,St. Cloud State,L,1,3
+2012,1,10/12/12,Army,W,5,1
+2012,2,10/13/12,Notre Dame,L,2,3
+2012,3,10/19/12,Northern Michigan,W,5,2
+2012,4,10/20/12,Northern Michigan,L,1,2
+2012,5,10/26/12,Bemidji State,T,3,3
+2012,6,10/27/12,Bemidji State,L,2,3
+2012,7,11/2/12,Michigan Tech,W,2,1
+2012,8,11/3/12,Michigan Tech,W,5,3
+2012,9,11/10/12,Minnesota Duluth,W,3,2
+2012,10,11/11/12,Minnesota Duluth,W,6,3
+2012,11,11/23/12,Alabama-Huntsville,W,3,2
+2012,12,11/24/12,Alabama-Huntsville,W,8,0
+2012,13,11/30/12,Minnesota,W,3,2
+2012,14,12/1/12,Minnesota,L,2,3
+2012,15,12/7/12,St. Cloud State,W,6,5
+2012,16,12/8/12,St. Cloud State,L,1,2
+2012,17,12/14/12,Minnesota State,L,3,6
+2012,18,12/15/12,Minnesota State,W,5,1
+2012,19,12/29/12,Quinnipiac,L,4,5
+2012,20,12/30/12,Quinnipiac,L,1,3
+2012,21,1/4/13,Colorado College,W,8,4
+2012,22,1/5/13,Colorado College,W,3,1
+2012,23,1/11/13,Denver,L,4,7
+2012,24,1/12/13,Denver,T,3,3
+2012,25,1/25/13,Bemidji State,W,5,3
+2012,26,1/26/13,Bemidji State,W,2,1
+2012,27,2/1/13,Michigan Tech,W,4,3
+2012,28,2/2/13,Michigan Tech,L,1,2
+2012,29,2/8/13,North Dakota,L,1,2
+2012,30,2/9/13,North Dakota,L,2,5
+2012,31,2/15/13,Alaska Anchorage,W,3,0
+2012,32,2/16/13,Alaska Anchorage,W,6,5
+2012,33,3/1/13,Wisconsin,L,3,4
+2012,34,3/2/13,Wisconsin,L,2,6
+2012,35,3/8/13,Minnesota Duluth,L,4,5
+2012,36,3/9/13,Minnesota Duluth,L,0,6
+2012,37,3/15/13,Minnesota State,L,3,4
+2012,38,3/16/13,Minnesota State,W,2,1
+2012,39,3/17/13,Minnesota State,L,1,3
+2013,1,10/11/13,Bentley,L,4,6
+2013,2,10/12/13,Bentley,W,4,2
+2013,3,10/18/13,Northern Michigan,W,2,1
+2013,4,10/19/13,Northern Michigan,L,3,6
+2013,5,10/25/13,Cornell,L,3,5
+2013,6,10/26/13,Cornell,L,3,4
+2013,7,11/1/13,Denver,W,3,2
+2013,8,12/2/13,Denver,W,3,2
+2013,9,11/9/13,North Dakota,W,4,2
+2013,10,11/10/13,North Dakota,L,2,3
+2013,11,11/15/13,Michigan,W,3,2
+2013,12,11/16/13,Michigan,L,3,4
+2013,13,11/22/13,Miami,W,6,3
+2013,14,11/23/13,Miami,W,3,1
+2013,15,12/6/13,Colorado College,L,2,4
+2013,16,12/7/13,Colorado College,T,3,3
+2013,17,1/3/14,New Hampshire,L,3,6
+2013,18,1/4/14,New Hampshire,L,2,5
+2013,19,1/10/14,Minnesota Duluth,L,2,3
+2013,20,1/11/14,Minnesota Duluth,L,1,3
+2013,21,1/17/14,Miami,T,2,2
+2013,22,1/18/14,Miami,W,5,1
+2013,23,1/31/14,St. Cloud State,L,3,5
+2013,24,2/1/14,St. Cloud State,W,8,6
+2013,25,2/7/14,North Dakota,L,2,4
+2013,26,2/8/14,North Dakota,W,6,3
+2013,27,2/14/14,Denver,W,4,2
+2013,28,2/15/14,Denver,L,1,4
+2013,29,2/21/14,Western Michigan,W,5,1
+2013,30,2/22/14,Western Michigan,L,3,5
+2013,31,2/28/14,Colorado College,W,6,0
+2013,32,3/1/14,Colorado College,W,2,1
+2013,33,3/7/14,Minnesota Duluth,L,2,8
+2013,34,3/8/14,Minnesota Duluth,W,4,1
+2013,35,3/13/14,Denver,W,4,3
+2013,36,3/14/14,Denver,L,1,5
+2013,37,3/15/14,Denver,L,0,2
+2014,1,10/10/14,Minnesota State,W,5,3
+2014,2,10/11/14,Minnesota State,L,2,4
+2014,3,10/17/14,Western Michigan,W,5,2
+2014,4,10/18/14,Western Michigan,W,3,0
+2014,5,10/31/14,Cornell,T,1,1
+2014,6,11/1/14,Cornell,W,2,1
+2014,7,11/7/14,Ohio State,W,4,1
+2014,8,11/8/14,Ohio State,W,4,3
+2014,9,11/21/14,Minnesota Duluth,L,2,3
+2014,10,11/22/14,Minnesota Duluth,W,4,1
+2014,11,11/28/14,North Dakota,T,2,2
+2014,12,11/29/14,North Dakota,L,2,3
+2014,13,12/5/14,Miami,L,2,8
+2014,14,11/6/14,Miami,W,5,2
+2014,15,12/12/14,St. Cloud State,W,3,2
+2014,16,12/13/14,St. Cloud State,W,5,3
+2014,17,12/20/14,Alabama-Huntsville,W,2,1
+2014,18,12/21/14,Alabama-Huntsville,T,3,3
+2014,19,12/30/14,New Hampshire,W,2,1
+2014,20,12/31/14,New Hampshire,L,2,6
+2014,21,1/9/15,Denver,W,5,4
+2014,22,1/10/15,Denver,W,1,0
+2014,23,1/16/15,Colorado College,L,3,4
+2014,24,1/17/15,Colorado College,W,4,1
+2014,25,1/30/15,North Dakota,W,3,2
+2014,26,1/31/15,North Dakota,L,3,4
+2014,27,2/13/15,Western Michigan,L,1,2
+2014,28,2/14/15,Western Michigan,W,3,1
+2014,29,2/20/15,St. Cloud State,L,3,4
+2014,30,2/21/15,St. Cloud State,L,0,2
+2014,31,2/27/15,Minnesota Duluth,T,1,1
+2014,32,2/28/15,Minnesota Duluth,T,1,1
+2014,33,3/6/15,Colorado College,T,2,2
+2014,34,3/7/15,Colorado College,W,4,2
+2014,35,3/13/15,St. Cloud State,L,1,2
+2014,36,3/14/15,St. Cloud State,L,1,3
+2014,37,3/28/15,Harvard,W,4,1
+2014,38,3/29/15,RIT,W,4,0
+2014,39,4/9/15,Providence,L,1,4
+2015,1,10/9/15,Minnesota State,W,3,2
+2015,2,10/10/15,Minnesota State,W,2,0
+2015,3,10/16/15,Vermont,W,4,3
+2015,4,10/17/15,Vermont,W,3,1
+2015,5,10/23/15,Air Force,W,4,2
+2015,6,10/24/15,Air Force,W,4,1
+2015,7,10/30/15,Western Michigan,L,2,4
+2015,8,10/31/15,Western Michigan,L,1,6
+2015,9,11/6/15,Minnesota Duluth,W,4,2
+2015,10,11/7/15,Minnesota Duluth,W,4,2
+2015,11,11/20/15,Miami,T,3,3
+2015,12,11/21/15,Miami,W,3,2
+2015,13,11/27/15,Ohio State,W,3,1
+2015,14,11/28/15,Ohio State,W,6,4
+2015,15,12/4/15,St. Cloud State,L,1,4
+2015,16,12/5/15,St. Cloud State,W,7,2
+2015,17,12/19/15,Arizona State,W,3,1
+2015,18,12/20/15,Arizona State,W,6,0
+2015,19,1/8/16,Denver,L,0,3
+2015,20,1/9/16,Denver,L,3,4
+2015,21,1/15/16,North Dakota,W,4,3
+2015,22,1/16/16,North Dakota,L,1,5
+2015,23,1/22/16,Miami,L,1,3
+2015,24,1/23/16,Miami,L,3,7
+2015,25,1/29/16,Colorado College,L,1,5
+2015,26,1/30/16,Colorado College,W,6,1
+2015,27,2/12/16,Western Michigan,W,2,1
+2015,28,2/13/16,Western Michigan,W,6,3
+2015,29,2/19/16,St. Cloud State,L,1,4
+2015,30,2/20/16,St. Cloud State,L,3,6
+2015,31,2/26/16,North Dakota,L,2,4
+2015,32,2/27/16,North Dakota,L,1,4
+2015,33,3/4/16,Denver,L,0,3
+2015,34,3/5/16,Denver,L,1,2
+2015,35,3/11/16,Denver,L,2,5
+2015,36,3/12/16,Denver,L,3,4
+2016,1,10/14/16,Alaska Anchorage,W,3,1
+2016,2,10/15/16,Alaska Fairbanks,W,4,3
+2016,3,10/21/16,Vermont,T,4,4
+2016,4,10/22/16,Vermont,L,2,5
+2016,5,10/28/16,Massachusetts-Lowell,W,5,1
+2016,6,10/29/16,Massachusetts-Lowell,L,2,4
+2016,7,11/4/16,Colorado College,L,1,2
+2016,8,11/5/16,Colorado College,W,6,4
+2016,9,11/11/16,Miami,W,6,4
+2016,10,11/12/16,Miami,W,6,2
+2016,11,11/18/16,Minnesota Duluth,L,4,6
+2016,12,11/19/16,Minnesota Duluth,L,2,3
+2016,13,11/25/16,Northern Michigan,T,2,2
+2016,14,11/26/16,Northern Michigan,W,2,0
+2016,15,12/2/16,Wisconsin,T,3,3
+2016,16,12/3/16,Wisconsin,W,7,4
+2016,17,12/9/16,St. Cloud State,W,3,1
+2016,18,12/10/16,St. Cloud State,L,2,4
+2016,19,12/30/16,Lake Superior State,W,4,1
+2016,20,12/31/16,Lake Superior State,W,5,3
+2016,21,1/6/17,North Dakota,L,1,9
+2016,22,1/7/17,North Dakota,L,3,7
+2016,23,1/13/17,Colorado College,W,5,2
+2016,24,1/14/17,Colorado College,W,4,2
+2016,25,1/20/17,Miami,T,3,3
+2016,26,1/21/17,Miami,W,2,0
+2016,27,1/27/17,Denver,L,3,5
+2016,28,1/28/17,Denver,L,0,5
+2016,29,2/3/17,Minnesota Duluth,T,2,2
+2016,30,2/4/17,Minnesota Duluth,L,0,5
+2016,31,2/10/17,Western Michigan,L,6,7
+2016,32,2/11/17,Western Michigan,W,6,3
+2016,33,2/24/17,North Dakota,L,4,6
+2016,34,2/25/17,North Dakota,W,3,0
+2016,35,3/3/17,Denver,L,2,4
+2016,36,3/4/17,Denver,L,0,3
+2016,37,3/10/17,Western Michigan,W,2,1
+2016,38,3/11/17,Western Michigan,L,2,5
+2016,39,3/12/17,Western Michigan,L,1,2
+2017,1,10/13/17,Massachusetts-Lowell,W,4,2
+2017,2,10/14/17,Massachusetts-Lowell,L,2,5
+2017,3,10/20/17,Arizona State,W,5,1
+2017,4,10/21/17,Arizona State,T,4,4
+2017,5,10/26/17,Notre Dame,W,6,4
+2017,6,10/27/17,Notre Dame,L,4,5
+2017,7,11/10/17,Colorado College,W,5,3
+2017,8,11/11/17,Colorado College,L,0,4
+2017,9,11/17/17,Western Michigan,L,1,4
+2017,10,11/18/17,Western Michigan,L,2,5
+2017,11,11/24/17,Northern Michigan,W,4,3
+2017,12,11/25/17,Northern Michigan,W,4,1
+2017,13,12/1/17,St. Cloud State,L,4,7
+2017,14,12/2/17,St. Cloud State,L,0,5
+2017,15,12/8/17,Minnesota Duluth,W,7,5
+2017,16,12/9/17,Minnesota Duluth,L,2,6
+2017,17,12/29/17,Union,W,5,1
+2017,18,12/30/17,Union,W,5,3
+2017,19,1/5/18,North Dakota,W,4,1
+2017,20,1/6/18,North Dakota,L,0,7
+2017,21,1/12/18,Miami,W,11,7
+2017,22,1/13/18,Miami,W,4,3
+2017,23,1/19/18,Denver,L,0,5
+2017,24,1/20/18,Denver,L,0,4
+2017,25,1/26/18,Western Michigan,W,6,2
+2017,26,1/27/18,Western Michigan,W,7,3
+2017,27,2/2/18,St. Cloud State,L,3,5
+2017,28,2/3/18,St. Cloud State,L,2,6
+2017,29,2/16/18,North Dakota,W,6,3
+2017,30,2/17/18,North Dakota,L,0,3
+2017,31,2/23/18,Colorado College,W,4,2
+2017,32,2/24/18,Colorado College,T,2,2
+2017,33,3/2/18,Minnesota Duluth,W,4,1
+2017,34,3/3/17,Minnesota Duluth,L,1,4
+2017,35,3/9/18,North Dakota,L,0,4
+2017,36,3/10/18,North Dakota,L,3,4
+2018,1,10/12/18,Union,T,3,3
+2018,2,10/13/18,Union,L,4,5
+2018,3,10/19/18,Notre Dame,L,1,4
+2018,4,10/20/18,Notre Dame,L,2,8
+2018,5,10/26/18,Arizona State,L,3,6
+2018,6,10/27/18,Arizona State,L,2,7
+2018,7,11/2/18,Miami,L,1,4
+2018,8,11/3/18,Miami,W,6,3
+2018,9,11/9/18,Western Michigan,L,2,7
+2018,10,11/10/18,Western Michigan,W,4,2
+2018,11,11/23/18,Arizona State,W,6,4
+2018,12,11/24/18,Arizona State,W,4,0
+2018,13,11/30/18,Colorado College,T,3,3
+2018,14,12/1/18,Colorado College,L,3,6
+2018,15,12/7/18,St. Cloud State,L,0,2
+2018,16,12/8/18,St. Cloud State,L,1,7
+2018,17,12/29/18,Alaska Anchorage,W,3,0
+2018,18,12/31/18,Alaska Anchorage,W,4,0
+2018,19,1/11/19,Denver,L,0,1
+2018,20,1/12/19,Denver,L,2,3
+2018,21,1/18/19,North Dakota,L,3,4
+2018,22,1/19/19,North Dakota,W,4,3
+2018,23,1/25/19,Minnesota Duluth,L,2,7
+2018,24,1/26/19,Minnesota Duluth,L,1,3
+2018,25,2/1/19,Western Michigan,L,3,4
+2018,26,2/2/19,Western Michigan,W,6,3
+2018,27,2/8/19,Miami,W,3,0
+2018,28,2/9/19,Miami,L,2,4
+2018,29,2/22/19,St. Cloud State,L,1,4
+2018,30,2/23/19,St. Cloud State,L,0,5
+2018,31,3/1/19,Denver,L,1,4
+2018,32,3/2/19,Denver,T,3,3
+2018,33,3/8/19,North Dakota,L,1,2
+2018,34,3/9/19,North Dakota,L,4,5
+2018,35,3/15/19,Minnesota Duluth,L,1,2
+2018,36,3/16/19,Minnesota Duluth,L,1,4
+2019,1,10/11/19,Alabama-Huntsville,W,6,1
+2019,2,10/12/19,Alabama-Huntsville,W,5,0
+2019,3,10/18/19,Ohio State,L,3,2
+2019,4,10/19/19,Ohio State,W,2,1
+2019,5,10/31/19,Alaska Anchorage,W,4,3
+2019,6,11/1/19,Alaska Anchorage,T,3,3
+2019,7,11/8/19,Wisconsin,L,5,2
+2019,8,11/9/19,Wisconsin,W,5,2
+2019,9,11/15/19,Western Michigan,L,3,2
+2019,10,11/16/19,Western Michigan,W,6,3
+2019,11,11/22/19,Miami,T,3,3
+2019,12,11/23/19,Miami,L,1,4
+2019,13,12/6/19,Minnesota Duluth,L,3,6
+2019,14,12/7/19,Minnesota Duluth,L,3,4
+1997,1,10/24/97,Air Force,L,2,4
+1997,2,10/26/97,Air Force,W,6,1
+1997,3,10/31/97,Princeton,L,2,5
+1997,4,11/1/97,Princeton,L,3,5
+1997,5,11/7/97,Massachusetts,L,2,3
+1997,6,11/8/97,Massachusetts,W,5,1
+1997,7,11/15/97,Denver,W,6,3
+1997,8,11/16/97,Denver,W,7,5
+1997,9,11/21/97,Army,L,1,2
+1997,10,11/21/97,Army,L,1,4
+1997,11,11/28/97,Union,W,6,3
+1997,12,11/29/97,Union,L,3,6
+1997,13,12/5/97,Minnesota-Duluth,L,3,4
+1997,14,12/6/97,Minnesota-Duluth,L,0,3
+1997,15,12/19/97,Michigan Tech,L,1,2
+1997,16,12/20/97,Michigan Tech,L,1,6
+1997,17,12/31/97,New Hampshire,L,2,6
+1997,18,1/9/98,St. Cloud State,L,1,2
+1997,19,1/10/98,St. Cloud State,L,2,6
+1997,20,1/16/98,Wisconsin,L,1,5
+1997,21,1/18/98,Wisconsin,L,2,4
+1997,22,1/24/98,Alabama-Huntsville,W,5,2
+1997,23,1/25/98,Alabama-Huntsville,T,3,3
+1997,24,1/30/98,Air Force,W,2,1
+1997,25,1/31/98,Air Force,W,4,3
+1997,26,2/13/98,Minnesota State,W,7,4
+1997,27,2/14/98,Minnesota State,W,7,4
+1997,28,2/20/98,Alabama-Huntsville,T,2,2
+1997,29,2/21/98,Alabama-Huntsville,W,4,0
+1997,30,2/27/98,Maine,L,0,11
+1997,31,2/28/98,Maine,W,4,3
+1997,32,3/5/98,Minnesota State,L,2,3
+1997,33,3/6/98,Minnesota State,T,2,2
+1998,1,10/16/98,Maine,L,2,7
+1998,2,10/17/98,Maine,L,0,3
+1998,3,10/23/98,Denver,L,1,4
+1998,4,10/24/98,Denver,L,1,5
+1998,5,10/30/98,Minnesota State,L,1,5
+1998,6,10/31/98,Minnesota State,W,6,5
+1998,7,11/6/98,Army,L,5,6
+1998,8,11/7/98,Army,L,1,2
+1998,9,11/20/98,Niagara,L,0,4
+1998,10,11/21/98,Niagara,L,2,6
+1998,11,11/27/98,Dartmouth,L,1,2
+1998,12,11/28/98,Dartmouth,W,7,4
+1998,13,12/4/98,Michigan State,L,0,2
+1998,14,12/5/98,Michigan State,L,1,3
+1998,15,12/12/98,RIT,L,2,4
+1998,16,12/13/98,RIT,L,3,5
+1998,17,12/18/98,Harvard,L,1,4
+1998,18,12/19/98,Harvard,L,3,4
+1998,19,12/31/98,Wisconsin,L,2,6
+1998,20,1/2/99,Bowling Green,L,2,4
+1998,21,1/3/99,Bowling Green,W,6,1
+1998,22,1/15/99,Air Force,W,6,2
+1998,23,1/16/99,Air Force,W,4,0
+1998,24,1/22/99,Alaska Fairbanks,L,0,4
+1998,25,1/23/99,Alaska Fairbanks,L,0,7
+1998,26,1/29/99,Niagara,L,2,8
+1998,27,1/30/99,Niagara,W,3,1
+1998,28,2/12/99,St. Cloud State,L,0,2
+1998,29,2/13/99,St. Cloud State,L,0,5
+1998,30,2/18/99,Bemidji State,W,8,2
+1998,31,2/19/99,Bemidji State,W,7,3
+1998,32,2/26/99,Michigan Tech,W,6,4
+1998,33,2/27/99,Michigan Tech,W,5,3
+1998,34,3/5/99,Minnesota State,L,2,4
+1998,35,3/6/99,Minnesota State,W,5,4
+1999,1,10/15/99,Michigan State,L,2,5
+1999,2,10/16/99,Michigan State,L,2,6
+1999,3,10/29/99,Northern Michigan,L,0,2
+1999,4,10/30/99,Northern Michigan,T,4,4
+1999,5,11/5/99,Notre Dame,T,2,2
+1999,6,11/6/99,Notre Dame,W,5,3
+1999,7,11/12/99,Western Michigan,W,3,1
+1999,8,11/13/99,Western Michigan,T,4,4
+1999,9,11/19/99,Ohio State,L,2,5
+1999,10,11/20/99,Ohio State,T,2,2
+1999,11,12/3/99,Alaska Fairbanks,W,5,3
+1999,12,12/4/99,Alaska Fairbanks,W,4,2
+1999,13,12/10/99,Michigan,L,2,6
+1999,14,12/11/99,Michigan,L,1,6
+1999,15,12/17/99,Minnesota-Duluth,L,4,5
+1999,16,12/18/99,Minnesota-Duluth,W,3,2
+1999,17,12/27/99,Wisconsin,L,4,6
+1999,18,12/28/99,Miami,W,4,3
+1999,19,1/7/00,Denver,L,1,4
+1999,20,1/8/00,Denver,L,2,3
+1999,21,1/13/00,Michigan State,W,4,3
+1999,22,1/14/00,Michigan State,L,1,3
+1999,23,1/21/00,Lake Superior State,L,1,2
+1999,24,1/22/00,Lake Superior State,W,4,1
+1999,25,1/28/00,Ferris State,T,5,5
+1999,26,1/29/00,Ferris State,W,5,2
+1999,27,2/4/00,Bowling Green,W,4,3
+1999,28,2/5/00,Bowling Green,L,2,3
+1999,29,2/11/00,Notre Dame,W,3,1
+1999,30,2/12/00,Notre Dame,L,4,7
+1999,31,2/18/00,Miami,W,3,1
+1999,32,2/20/00,Miami,L,3,6
+1999,33,2/25/00,Alaska Fairbanks,T,2,2
+1999,34,2/26/00,Alaska Fairbanks,L,4,5
+1999,35,3/2/00,Niagara,L,0,6
+1999,36,3/3/00,Niagara,T,3,3
+1999,37,3/10/00,Northern Michigan,W,4,2
+1999,38,3/11/00,Northern Michigan,L,1,5
+1999,39,3/12/00,Northern Michigan,W,2,1
+1999,40,3/14/00,Bowling Green,W,3,1
+1999,41,3/17/00,Michigan,W,7,4
+1999,42,3/18/00,Michigan State,L,0,6
+2000,1,10/13/00,Niagara,W,4,0
+2000,2,10/14/00,Boston College,L,1,5
+2000,3,10/20/00,Michigan State,W,2,1
+2000,4,10/21/00,Michigan State,L,1,4
+2000,5,10/27/00,Ferris State,W,7,4
+2000,6,10/28/00,Ferris State,W,7,3
+2000,7,11/3/00,Lake Superior State,L,3,4
+2000,8,11/4/00,Lake Superior State,L,2,5
+2000,9,11/10/00,Massachusetts,W,3,2
+2000,10,11/11/00,Massachusetts,W,3,1
+2000,11,11/17/00,Miami,L,2,3
+2000,12,11/18/00,Miami,L,2,6
+2000,13,11/24/00,Merrimack,L,0,2
+2000,14,11/25/00,Merrimack,L,1,2
+2000,15,12/1/00,Alaska Fairbanks,W,5,1
+2000,16,12/2/00,Alaska Fairbanks,T,2,2
+2000,17,12/8/00,Bowling Green,W,3,1
+2000,18,12/9/00,Bowling Green,L,2,7
+2000,19,12/19/00,Notre Dame,W,1,0
+2000,20,12/20/00,Notre Dame,L,3,7
+2000,21,12/29/00,Massachusetts-Lowell,W,5,2
+2000,22,12/30/00,Canisius,W,3,1
+2000,23,1/12/01,Bowling Green,W,3,2
+2000,24,1/13/01,Bowling Green,W,3,2
+2000,25,1/19/01,Northern Michigan,W,4,2
+2000,26,1/20/01,Northern Michigan,W,4,3
+2000,27,1/26/01,Alaska Fairbanks,T,3,3
+2000,28,1/27/01,Alaska Fairbanks,L,2,3
+2000,29,2/2/01,Michigan,W,4,1
+2000,30,2/3/01,Michigan,L,1,4
+2000,31,2/9/01,Western Michigan,W,2,1
+2000,32,2/10/01,Western Michigan,T,3,3
+2000,33,2/16/01,Ohio State,L,3,4
+2000,34,2/17/01,Ohio State,W,6,1
+2000,35,2/23/01,Ferris State,W,4,2
+2000,36,2/24/01,Ferris State,W,2,1
+2000,37,3/1/01,Findlay,W,5,0
+2000,38,3/2/01,Findlay,W,4,0
+2000,39,3/9/01,Ohio State,L,4,5
+2000,40,3/10/01,Ohio State,W,2,1
+2000,41,3/11/01,Ohio State,W,4,3
+2000,42,3/16/01,Michigan,L,2,3
+2001,1,10/12/01,Minnesota-Duluth,L,2,5
+2001,2,10/13/01,Providence,W,4,3
+2001,3,10/19/01,Colgate,W,5,4
+2001,4,10/20/01,Colgate,W,5,3
+2001,5,10/26/01,Michigan State,W,4,3
+2001,6,10/27/01,Michigan State,W,5,1
+2001,7,11/2/01,Ohio State,L,0,1
+2001,8,11/3/01,Ohio State,W,4,1
+2001,9,11/9/01,Western Michigan,W,4,1
+2001,10,11/10/01,Western Michigan,L,0,2
+2001,11,11/16/01,Michigan,T,4,4
+2001,12,11/17/01,Michigan,L,2,3
+2001,13,11/23/01,Ferris State,L,2,7
+2001,14,11/24/01,Ferris State,W,5,2
+2001,15,11/30/01,Bowling Green,T,2,2
+2001,16,12/1/01,Bowling Green,W,2,1
+2001,17,12/7/01,Alaska Fairbanks,L,2,4
+2001,18,12/8/01,Alaska Fairbanks,L,1,3
+2001,19,12/20/01,Boston University,L,1,4
+2001,20,12/21/01,Boston University,W,4,3
+2001,21,1/4/02,Northern Michigan,L,1,3
+2001,22,1/5/02,Northern Michigan,T,2,2
+2001,23,1/11/02,Alabama-Huntsville,W,4,2
+2001,24,1/12/02,Alabama-Huntsville,W,3,2
+2001,25,1/18/02,Notre Dame,W,3,2
+2001,26,1/19/02,Notre Dame,W,4,2
+2001,27,1/25/02,Lake Superior State,W,3,0
+2001,28,1/26/02,Lake Superior State,W,3,1
+2001,29,2/1/02,Miami,W,2,0
+2001,30,2/2/02,Miami,W,3,0
+2001,31,2/8/02,Michigan,L,1,2
+2001,32,2/9/02,Michigan,L,3,6
+2001,33,2/15/02,Western Michigan,W,5,3
+2001,34,2/16/02,Western Michigan,L,1,3
+2001,35,2/22/02,Alaska Fairbanks,L,2,3
+2001,36,2/23/02,Alaska Fairbanks,T,2,2
+2001,37,2/28/02,Minnesota State,W,4,2
+2001,38,3/2/02,Minnesota State,L,3,4
+2001,39,3/8/02,Notre Dame,W,3,2
+2001,40,3/9/02,Notre Dame,L,1,2
+2001,41,3/10/02,Notre Dame,L,1,2
+2002,1,10/11/02,Colgate,T,5,5
+2002,2,10/12/02,Denver,L,2,3
+2002,3,10/18/02,Miami,W,3,2
+2002,4,10/19/02,Miami,L,2,5
+2002,5,10/25/02,Boston University,L,4,6
+2002,6,10/27/02,Massachusetts,W,3,2
+2002,7,11/1/02,Western Michigan,L,2,8
+2002,8,11/2/02,Western Michigan,W,2,0
+2002,9,11/8/02,Alaska Fairbanks,L,3,4
+2002,10,11/9/02,Alaska Fairbanks,L,2,3
+2002,11,11/22/02,Northern Michigan,L,1,2
+2002,12,11/23/02,Northern Michigan,W,5,4
+2002,13,11/29/02,Merrimack,T,3,3
+2002,14,11/30/02,Merrimack,W,5,3
+2002,15,12/6/02,Lake Superior State,W,4,1
+2002,16,12/7/02,Lake Superior State,W,3,0
+2002,17,12/13/02,Ohio State,L,1,4
+2002,18,12/14/02,Ohio State,L,1,3
+2002,19,1/3/03,Notre Dame,L,3,5
+2002,20,1/4/03,Notre Dame,W,5,3
+2002,21,1/10/03,Miami,L,0,3
+2002,22,1/11/03,Miami,T,2,2
+2002,23,1/17/03,Michigan State,L,2,5
+2002,24,1/18/03,Michigan State,L,0,7
+2002,25,1/24/03,Ohio State,W,4,0
+2002,26,1/25/03,Ohio State,W,3,1
+2002,27,1/31/03,Bowling Green,L,0,5
+2002,28,2/1/03,Bowling Green,W,6,3
+2002,29,2/7/03,Alaska Fairbanks,T,3,3
+2002,30,2/8/03,Alaska Fairbanks,L,3,4
+2002,31,2/14/03,Bemidji State,W,5,2
+2002,32,2/15/03,Bemidji State,W,3,2
+2002,33,2/21/03,Michigan,L,1,6
+2002,34,2/22/03,Michigan,L,3,5
+2002,35,2/28/03,Ferris State,L,0,5
+2002,36,3/1/03,Ferris State,L,0,4
+2002,37,3/6/03,Minnesota State,L,0,3
+2002,38,3/8/03,Minnesota State,T,2,2
+2002,39,3/14/03,Ohio State,L,1,4
+2002,40,3/15/03,Ohio State,L,1,3
+2003,1,10/10/03,Wisconsin,L,3,4
+2003,2,10/11/03,Minnesota,L,3,7
+2003,3,10/17/03,Western Michigan,L,1,5
+2003,4,10/18/03,Western Michigan,T,2,2
+2003,5,10/30/03,Notre Dame,L,2,4
+2003,6,10/31/03,Notre Dame,L,0,2
+2003,7,11/7/03,Lake Superior State,W,7,1
+2003,8,11/8/03,Lake Superior State,L,1,4
+2003,9,11/14/03,Northern Michigan,W,2,1
+2003,10,11/15/03,Northern Michigan,L,2,4
+2003,11,11/21/03,Ferris State,W,4,1
+2003,12,11/22/03,Ferris State,L,0,4
+2003,13,11/28/03,Massachusetts,W,7,2
+2003,14,11/29/03,Massachusetts,T,1,1
+2003,15,12/5/03,Alaska Fairbanks,L,2,5
+2003,16,12/6/03,Alaska Fairbanks,L,1,4
+2003,17,12/12/03,Michigan,L,1,2
+2003,18,12/13/03,Michigan,T,3,3
+2003,19,12/27/03,Yale,W,5,2
+2003,20,12/28/03,Denver,L,3,6
+2003,21,1/7/04,Ferris State,L,2,5
+2003,22,1/8/04,Ferris State,W,6,1
+2003,23,1/16/04,Western Michigan,L,4,5
+2003,24,1/17/04,Western Michigan,L,2,3
+2003,25,1/23/04,Miami,T,2,2
+2003,26,1/24/04,Miami,L,1,7
+2003,27,2/6/04,Bowling Green,T,3,3
+2003,28,2/7/04,Bowling Green,L,1,3
+2003,29,2/13/04,Ohio State,L,1,3
+2003,30,2/14/04,Ohio State,L,3,4
+2003,31,2/20/04,Michigan State,L,0,3
+2003,32,2/21/04,Michigan State,L,0,5
+2003,33,2/27/04,Alaska Fairbanks,L,0,1
+2003,34,2/28/04,Alaska Fairbanks,W,7,4
+2003,35,3/2/04,Minnesota State,L,3,5
+2003,36,3/6/04,Minnesota State,L,1,9
+2003,37,3/12/04,Michigan,L,0,2
+2003,38,3/13/04,Michigan,W,3,1
+2003,39,3/14/04,Michigan,L,2,5
+2004,1,10/9/04,Connecticut,W,4,1
+2004,2,10/10/04,Merrimack,W,4,3
+2004,3,10/22/04,Western Michigan,W,7,3
+2004,4,10/23/04,Western Michigan,W,4,3
+2004,5,10/29/04,Michigan State,L,2,5
+2004,6,10/30/04,Michigan State,W,5,2
+2004,7,11/5/04,Alaska Fairbanks,L,1,3
+2004,8,11/6/04,Alaska Fairbanks,L,2,3
+2004,9,11/12/04,Bowling Green,W,4,2
+2004,10,11/13/04,Bowling Green,L,4,6
+2004,11,11/19/04,Ohio State,W,4,0
+2004,12,11/20/04,Ohio State,T,4,4
+2004,13,12/3/04,Northern Michigan,L,2,3
+2004,14,12/4/04,Northern Michigan,L,3,6
+2004,15,12/9/04,Lake Superior State,L,2,5
+2004,16,12/11/04,Lake Superior State,W,5,1
+2004,17,12/29/04,Boston University,L,1,4
+2004,18,12/30/04,Massachusetts,L,2,5
+2004,19,1/7/05,Northern Michigan,W,3,1
+2004,20,1/8/05,Northern Michigan,W,3,1
+2004,21,1/14/05,Ferris State,T,2,2
+2004,22,1/15/05,Ferris State,W,4,1
+2004,23,1/21/05,Miami,W,5,2
+2004,24,1/22/05,Miami,L,2,4
+2004,25,1/28/05,Wayne State,W,3,2
+2004,26,1/29/05,Wayne State,W,4,2
+2004,27,2/4/05,Notre Dame,T,1,1
+2004,28,2/5/05,Notre Dame,W,6,3
+2004,29,2/11/05,Michigan,L,4,6
+2004,30,2/12/05,Michigan,L,3,4
+2004,31,2/18/05,Lake Superior State,W,5,2
+2004,32,2/19/05,Lake Superior State,T,3,3
+2004,33,2/25/05,Alaska Fairbanks,L,4,6
+2004,34,2/26/05,Alaska Fairbanks,W,7,2
+2004,35,3/3/05,Minnesota State,L,2,6
+2004,36,3/5/05,Minnesota State,L,4,6
+2004,37,3/11/05,Lake Superior State,W,4,3
+2004,38,3/12/05,Lake Superior State,W,4,3
+2004,39,3/17/05,Michigan State,L,0,5
+2005,1,10/14/05,Army,W,3,2
+2005,2,10/15/05,New Hampshire,W,5,3
+2005,3,10/21/05,Miami,L,3,6
+2005,4,10/22/05,Miami,L,2,3
+2005,5,11/4/05,Bowling Green,L,3,7
+2005,6,11/5/05,Bowling Green,L,3,4
+2005,7,11/11/05,Michigan State,W,7,4
+2005,8,11/12/05,Michigan State,W,3,2
+2005,9,11/18/05,Alaska Fairbanks,W,4,2
+2005,10,11/19/05,Alaska Fairbanks,L,3,4
+2005,11,11/22/05,Minnesota State,L,3,6
+2005,12,11/25/05,Providence College,W,4,2
+2005,13,11/26/05,Holy Cross,W,6,1
+2005,14,12/2/05,Ferris State,W,5,2
+2005,15,12/4/05,Ferris State,W,5,3
+2005,16,12/9/05,Michigan,L,2,4
+2005,17,12/10/05,Michigan,L,3,7
+2005,18,12/29/05,Alabama-Huntsville,W,8,5
+2005,19,12/31/05,Yale,W,3,2
+2005,20,1/3/06,Minnesota State,L,2,5
+2005,21,1/6/06,Notre Dame,L,1,4
+2005,22,1/7/06,Notre Dame,T,2,2
+2005,23,1/13/06,Ohio State,W,2,0
+2005,24,1/14/06,Ohio State,T,2,2
+2005,25,1/20/06,Michigan State,L,3,4
+2005,26,1/21/06,Michigan State,W,3,2
+2005,27,1/27/06,Alaska Fairbanks,W,4,1
+2005,28,1/28/06,Alaska Fairbanks,T,3,3
+2005,29,2/3/06,Lake Superior State,W,8,0
+2005,30,2/4/06,Lake Superior State,T,2,2
+2005,31,2/10/06,Northern Michigan,W,2,1
+2005,32,2/11/06,Northern Michigan,W,8,3
+2005,33,2/17/06,Michigan,W,4,3
+2005,34,2/18/06,Michigan,T,4,4
+2005,35,2/24/06,Western Michigan,T,5,5
+2005,36,2/25/06,Western Michigan,L,3,6
+2005,37,3/3/06,Bowling Green,W,4,2
+2005,38,3/4/06,Bowling Green,W,4,2
+2005,39,3/10/06,Northern Michigan,L,1,4
+2005,40,3/11/06,Northern Michigan,L,2,3
+2005,41,3/24/06,Boston University,L,2,9
+2006,1,10/13/06,Colorado College,T,2,2
+2006,2,10/14/06,Alaska Anchorage,T,2,2
+2006,3,10/20/06,Niagara,W,10,1
+2006,4,10/21/06,Northern Michigan,L,2,5
+2006,5,10/27/06,Western Michigan,W,7,5
+2006,6,10/28/06,Western Michigan,W,6,0
+2006,7,11/3/06,Alaska Fairbanks,T,5,5
+2006,8,11/4/06,Alaska Fairbanks,L,3,4
+2006,9,11/10/06,Michigan,L,4,6
+2006,10,11/11/06,Michigan,L,1,5
+2006,11,11/17/06,Miami,L,3,7
+2006,12,11/18/06,Miami,L,1,2
+2006,13,11/21/06,Minnesota State,T,4,4
+2006,14,11/24/06,Notre Dame,L,2,4
+2006,15,11/25/06,Notre Dame,W,3,2
+2006,16,12/1/06,Bowling Green,W,4,1
+2006,17,12/2/06,Bowling Green,W,7,1
+2006,18,12/8/06,Bentley,W,5,2
+2006,19,12/10/06,Bentley,W,7,2
+2006,20,12/29/06,Princeton,L,2,3
+2006,21,12/30/06,Yale,T,4,4
+2006,22,1/5/07,Lake Superior State,T,4,4
+2006,23,1/6/07,Lake Superior State,L,2,3
+2006,24,1/12/07,Bowling Green,W,2,1
+2006,25,1/13/07,Bowling Green,W,7,0
+2006,26,1/16/07,Minnesota State,L,2,3
+2006,27,1/19/07,Ferris State,W,3,1
+2006,28,1/20/07,Ferris State,L,3,6
+2006,29,1/26/07,Northern Michigan,W,5,2
+2006,30,1/27/07,Northern Michigan,W,6,1
+2006,31,2/2/07,Michigan State,L,1,5
+2006,32,2/3/07,Michigan State,T,3,3
+2006,33,2/9/07,Notre Dame,L,2,4
+2006,34,2/10/07,Notre Dame,T,2,2
+2006,35,2/16/07,Ohio State,L,3,4
+2006,36,2/17/07,Ohio State,W,2,1
+2006,37,2/23/07,Alaska Fairbanks,W,4,3
+2006,38,2/24/07,Alaska Fairbanks,W,5,3
+2006,39,3/2/07,Bowling Green,W,3,2
+2006,40,3/3/07,Bowling Green,W,7,5
+2006,41,3/9/07,Michigan State,L,2,4
+2006,42,3/10/07,Michigan State,L,1,4
+2007,1,10/20/07,Alabama-Huntsville,W,5,1
+2007,2,10/26/07,Miami,L,2,7
+2007,3,10/27/07,Miami,L,2,5
+2007,4,11/2/07,Michigan,L,3,6
+2007,5,11/3/07,Michigan,L,2,3
+2007,6,11/8/07,Ohio State,W,5,2
+2007,7,11/9/07,Ohio State,W,5,2
+2007,8,11/16/07,Ferris State,L,1,5
+2007,9,11/18/07,Ferris State,W,2,0
+2007,10,11/23/07,Alaska Fairbanks,W,4,3
+2007,11,11/24/07,Alaska Fairbanks,T,4,4
+2007,12,11/30/07,Notre Dame,L,4,5
+2007,13,12/1/07,Notre Dame,L,0,5
+2007,14,12/7/07,Lake Superior State,T,1,1
+2007,15,12/8/07,Lake Superior State,T,3,3
+2007,16,12/14/07,Union,L,2,3
+2007,17,12/15/07,Union,W,4,2
+2007,18,12/18/07,Minnesota State,W,6,3
+2007,19,12/28/07,Yale,L,3,6
+2007,20,12/30/07,Princeton,L,3,5
+2007,21,1/5/08,Western Michigan,W,6,3
+2007,22,1/6/08,Western Michigan,W,4,2
+2007,23,1/11/08,Miami,L,3,6
+2007,24,1/12/08,Miami,L,1,4
+2007,25,1/18/08,Alaska Fairbanks,W,3,1
+2007,26,1/19/08,Alaska Fairbanks,W,4,3
+2007,27,2/1/08,Michigan State,W,5,4
+2007,28,2/2/08,Michigan State,L,2,4
+2007,29,2/8/08,Ohio State,T,3,3
+2007,30,2/9/08,Ohio State,W,5,2
+2007,31,2/15/08,Bowling Green,W,5,3
+2007,32,2/16/08,Bowling Green,L,1,3
+2007,33,2/22/08,Northern Michigan,L,4,6
+2007,34,2/23/08,Northern Michigan,L,3,4
+2007,35,2/26/08,Minnesota State,W,4,2
+2007,36,3/6/08,Alaska Fairbanks,W,4,3
+2007,37,3/8/08,Alaska Fairbanks,L,3,5
+2007,38,3/9/08,Alaska Fairbanks,W,2,1
+2007,39,3/14/08,Michigan,L,1,10
+2007,40,3/15/08,Michigan,L,1,2
+2008,1,10/17/08,American International College,W,4,1
+2008,2,10/18/08,Union,W,2,1
+2008,3,10/24/08,Mercy Hurst,W,3,1
+2008,4,10/25/08,Mercy Hurst,W,5,2
+2008,5,10/31/08,Bowling Green,L,2,3
+2008,6,11/1/08,Bowling Green,W,5,3
+2008,7,11/7/08,Western Michigan,T,2,2
+2008,8,11/8/08,Western Michigan,W,5,2
+2008,9,11/14/08,Ferris State,L,2,3
+2008,10,11/15/08,Ferris State,W,4,2
+2008,11,11/21/08,Michigan State,W,7,1
+2008,12,11/22/08,Michigan State,W,3,1
+2008,13,11/28/08,Ohio State,L,3,4
+2008,14,11/29/08,Ohio State,L,2,3
+2008,15,12/5/08,Alaska Fairbanks,T,0,0
+2008,16,12/6/08,Alaska Fairbanks,T,1,1
+2008,17,12/12/08,Lake Superior State,W,3,2
+2008,18,12/13/08,Lake Superior State,W,2,1
+2008,19,12/29/08,Yale,W,8,3
+2008,20,12/30/08,Princeton,L,1,5
+2008,21,1/3/09,Minnesota State,L,3,4
+2008,22,1/9/09,Northern Michigan,W,4,3
+2008,23,1/10/09,Northern Michigan,L,2,3
+2008,24,1/16/09,Alaska Fairbanks,L,0,2
+2008,25,1/17/09,Alaska Fairbanks,T,1,1
+2008,26,1/23/09,Miami,T,2,2
+2008,27,1/24/09,Miami,L,1,6
+2008,28,1/30/09,Ferris State,L,1,7
+2008,29,1/31/09,Ferris State,T,1,1
+2008,30,2/6/09,Western Michigan,T,1,1
+2008,31,2/7/09,Western Michigan,L,0,5
+2008,32,2/13/09,Michigan,L,3,8
+2008,33,2/14/09,Michigan,L,2,4
+2008,34,2/20/09,Notre Dame,L,3,4
+2008,35,2/21/09,Notre Dame,L,0,1
+2008,36,2/24/09,Minnesota State,T,2,2
+2008,37,3/6/09,Ferris State,W,3,0
+2008,38,3/7/09,Ferris State,W,5,2
+2008,39,3/13/09,Notre Dame,L,0,5
+2008,40,3/14/09,Notre Dame,L,0,1
+2009,1,10/9/09,Army,W,6,4
+2009,2,10/10/09,Massachusetts-Lowell,W,4,3
+2009,3,10/16/09,Colgate,T,1,1
+2009,4,10/17/09,Colgate,W,4,1
+2009,5,10/30/09,Bowling Green,T,3,3
+2009,6,10/31/09,Bowling Green,W,3,1
+2009,7,11/5/09,Michigan State,L,0,3
+2009,8,11/6/09,Michigan State,T,3,3
+2009,9,11/13/09,Lake Superior State,W,4,0
+2009,10,11/14/09,Lake Superior State,L,1,3
+2009,11,11/20/09,Northern Michigan,L,1,5
+2009,12,11/21/09,Northern Michigan,L,3,6
+2009,13,11/27/09,Western Michigan,W,4,3
+2009,14,11/28/09,Western Michigan,W,4,2
+2009,15,12/4/09,Ferris State,L,0,2
+2009,16,12/5/09,Ferris State,L,1,3
+2009,17,12/11/09,Alaska Fairbanks,L,3,4
+2009,18,12/12/09,Alaska Fairbanks,W,5,3
+2009,19,12/18/09,Minnesota State,T,1,1
+2009,20,12/19/09,Minnesota State,W,2,1
+2009,21,1/1/10,Denver,L,0,7
+2009,22,1/2/10,St. Lawrence,T,2,2
+2009,23,1/8/10,Alaska Fairbanks,L,1,3
+2009,24,1/9/10,Alaska Fairbanks,W,2,1
+2009,25,1/15/10,Lake Superior State,L,1,2
+2009,26,1/16/10,Lake Superior State,L,4,5
+2009,27,1/22/10,Northern Michigan,W,7,2
+2009,28,1/23/10,Northern Michigan,W,5,3
+2009,29,1/29/10,Notre Dame,W,5,3
+2009,30,1/30/10,Notre Dame,L,2,3
+2009,31,2/5/10,Ohio State,T,5,5
+2009,32,2/6/10,Ohio State,W,4,3
+2009,33,2/12/10,Michigan,W,4,3
+2009,34,2/13/10,Michigan,W,4,1
+2009,35,2/19/10,Miami,L,2,6
+2009,36,2/20/10,Miami,W,4,2
+2009,37,2/26/10,Bemidji State,L,1,3
+2009,38,2/27/10,Bemidji State,W,3,2
+2009,39,3/5/10,Bowling Green,W,6,1
+2009,40,3/6/10,Bowling Green,W,6,1
+2009,41,3/12/10,Ferris State,L,1,3
+2009,42,3/13/10,Ferris State,L,2,3
+2010,1,10/8/10,Clarkson,W,8,0
+2010,2,10/9/10,RIT,W,5,3
+2010,3,10/15/10,Minnesota,W,5,4
+2010,4,10/16/10,Minnesota,W,4,2
+2010,5,10/22/10,Michigan,W,4,2
+2010,6,10/23/10,Michigan,L,1,6
+2010,7,11/5/10,Minnesota State,W,5,1
+2010,8,11/6/10,Minnesota State,W,5,2
+2010,9,11/12/10,St. Cloud State,W,3,0
+2010,10,11/13/10,St. Cloud State,T,4,4
+2010,11,11/19/10,North Dakota,L,5,6
+2010,12,11/20/10,North Dakota,W,1,0
+2010,13,12/3/10,Bemidji State,L,0,3
+2010,14,12/4/10,Bemidji State,L,1,3
+2010,15,12/9/10,Michigan Tech,W,5,2
+2010,16,12/10/10,Michigan Tech,W,3,1
+2010,17,12/18/10,Colorado College,L,2,5
+2010,18,12/19/10,Colorado College,W,3,0
+2010,19,12/30/10,Quinnipiac,L,3,4
+2010,20,12/31/10,Quinnipiac,L,2,3
+2010,21,1/14/11,Bemidji State,T,2,2
+2010,22,1/15/11,Bemidji State,L,2,3
+2010,23,1/21/11,North Dakota,W,8,4
+2010,24,1/22/11,North Dakota,L,2,4
+2010,25,1/28/11,Alabama-Huntsville,W,4,0
+2010,26,1/29/11,Alabama-Huntsville,L,1,2
+2010,27,2/4/11,St. Cloud State,W,3,0
+2010,28,2/5/11,St. Cloud State,W,4,3
+2010,29,2/11/11,Wisconsin,W,4,1
+2010,30,2/12/11,Wisconsin,W,4,3
+2010,31,2/18/11,Alaska Anchorage,L,2,3
+2010,32,2/19/11,Alaska Anchorage,W,4,1
+2010,33,2/25/11,Denver,W,5,2
+2010,34,2/26/11,Denver,L,2,4
+2010,35,3/4/11,Minnesota Duluth,L,1,4
+2010,36,3/5/11,Minnesota Duluth,W,5,2
+2010,37,3/11/11,Bemidji State,L,2,4
+2010,38,3/12/11,Bemidji State,L,2,3
+2010,39,3/25/11,Michigan,L,2,3
+2011,1,10/7/11,Mercy Hurst,W,5,1
+2011,2,10/8/11,Colgate,L,3,4
+2011,3,10/14/11,Alaska Anchorage,L,0,3
+2011,4,10/15/11,Alaska Fairbanks,L,1,4
+2011,5,10/21/11,Alaska Anchorage,W,4,1
+2011,6,10/22/11,Alaska Anchorage,W,3,1
+2011,7,10/28/11,Wisconsin,W,5,4
+2011,8,10/29/11,Wisconsin,L,3,6
+2011,9,11/4/11,Colorado College,W,7,5
+2011,10,11/5/11,Colorado College,L,2,5
+2011,11,11/11/11,Bemidji State,T,3,3
+2011,12,11/12/11,Bemidji State,W,5,1
+2011,13,11/18/11,Denver,L,3,7
+2011,14,11/19/11,Denver,T,3,3
+2011,15,11/26/11,St. Cloud State,W,4,3
+2011,16,11/27/11,St. Cloud State,T,2,2
+2011,17,12/2/11,Alabama-Huntsville,L,1,3
+2011,18,12/3/11,Alabama-Huntsville,W,6,2
+2011,19,12/9/11,North Dakota,W,2,1
+2011,20,12/10/11,North Dakota,L,0,1
+2011,21,12/30/11,Quinnipiac,T,2,2
+2011,22,12/31/11,Quinnipiac,W,4,1
+2011,23,1/13/12,Minnesota Duluth,L,2,6
+2011,24,1/14/12,Minnesota Duluth,W,3,1
+2011,25,1/20/12,Minnesota State,W,2,1
+2011,26,1/21/12,Minnesota State,L,4,5
+2011,27,2/3/12,Bemidji State,T,1,1
+2011,28,2/4/12,Bemidji State,L,4,6
+2011,29,2/10/12,Michigan Tech,T,3,3
+2011,30,2/11/12,Michigan Tech,W,4,0
+2011,31,2/17/12,Colorado College,L,3,4
+2011,32,2/18/12,Colorado College,W,5,3
+2011,33,2/24/12,Minnesota,L,2,3
+2011,34,2/25/12,Minnesota,L,2,3
+2011,35,3/2/12,Denver,L,0,3
+2011,36,3/3/12,Denver,L,2,3
+2011,37,3/9/12,St. Cloud State,L,0,4
+2011,38,3/10/12,St. Cloud State,L,1,3
+2012,1,10/12/12,Army,W,5,1
+2012,2,10/13/12,Notre Dame,L,2,3
+2012,3,10/19/12,Northern Michigan,W,5,2
+2012,4,10/20/12,Northern Michigan,L,1,2
+2012,5,10/26/12,Bemidji State,T,3,3
+2012,6,10/27/12,Bemidji State,L,2,3
+2012,7,11/2/12,Michigan Tech,W,2,1
+2012,8,11/3/12,Michigan Tech,W,5,3
+2012,9,11/10/12,Minnesota Duluth,W,3,2
+2012,10,11/11/12,Minnesota Duluth,W,6,3
+2012,11,11/23/12,Alabama-Huntsville,W,3,2
+2012,12,11/24/12,Alabama-Huntsville,W,8,0
+2012,13,11/30/12,Minnesota,W,3,2
+2012,14,12/1/12,Minnesota,L,2,3
+2012,15,12/7/12,St. Cloud State,W,6,5
+2012,16,12/8/12,St. Cloud State,L,1,2
+2012,17,12/14/12,Minnesota State,L,3,6
+2012,18,12/15/12,Minnesota State,W,5,1
+2012,19,12/29/12,Quinnipiac,L,4,5
+2012,20,12/30/12,Quinnipiac,L,1,3
+2012,21,1/4/13,Colorado College,W,8,4
+2012,22,1/5/13,Colorado College,W,3,1
+2012,23,1/11/13,Denver,L,4,7
+2012,24,1/12/13,Denver,T,3,3
+2012,25,1/25/13,Bemidji State,W,5,3
+2012,26,1/26/13,Bemidji State,W,2,1
+2012,27,2/1/13,Michigan Tech,W,4,3
+2012,28,2/2/13,Michigan Tech,L,1,2
+2012,29,2/8/13,North Dakota,L,1,2
+2012,30,2/9/13,North Dakota,L,2,5
+2012,31,2/15/13,Alaska Anchorage,W,3,0
+2012,32,2/16/13,Alaska Anchorage,W,6,5
+2012,33,3/1/13,Wisconsin,L,3,4
+2012,34,3/2/13,Wisconsin,L,2,6
+2012,35,3/8/13,Minnesota Duluth,L,4,5
+2012,36,3/9/13,Minnesota Duluth,L,0,6
+2012,37,3/15/13,Minnesota State,L,3,4
+2012,38,3/16/13,Minnesota State,W,2,1
+2012,39,3/17/13,Minnesota State,L,1,3
+2013,1,10/11/13,Bentley,L,4,6
+2013,2,10/12/13,Bentley,W,4,2
+2013,3,10/18/13,Northern Michigan,W,2,1
+2013,4,10/19/13,Northern Michigan,L,3,6
+2013,5,10/25/13,Cornell,L,3,5
+2013,6,10/26/13,Cornell,L,3,4
+2013,7,11/1/13,Denver,W,3,2
+2013,8,12/2/13,Denver,W,3,2
+2013,9,11/9/13,North Dakota,W,4,2
+2013,10,11/10/13,North Dakota,L,2,3
+2013,11,11/15/13,Michigan,W,3,2
+2013,12,11/16/13,Michigan,L,3,4
+2013,13,11/22/13,Miami,W,6,3
+2013,14,11/23/13,Miami,W,3,1
+2013,15,12/6/13,Colorado College,L,2,4
+2013,16,12/7/13,Colorado College,T,3,3
+2013,17,1/3/14,New Hampshire,L,3,6
+2013,18,1/4/14,New Hampshire,L,2,5
+2013,19,1/10/14,Minnesota Duluth,L,2,3
+2013,20,1/11/14,Minnesota Duluth,L,1,3
+2013,21,1/17/14,Miami,T,2,2
+2013,22,1/18/14,Miami,W,5,1
+2013,23,1/31/14,St. Cloud State,L,3,5
+2013,24,2/1/14,St. Cloud State,W,8,6
+2013,25,2/7/14,North Dakota,L,2,4
+2013,26,2/8/14,North Dakota,W,6,3
+2013,27,2/14/14,Denver,W,4,2
+2013,28,2/15/14,Denver,L,1,4
+2013,29,2/21/14,Western Michigan,W,5,1
+2013,30,2/22/14,Western Michigan,L,3,5
+2013,31,2/28/14,Colorado College,W,6,0
+2013,32,3/1/14,Colorado College,W,2,1
+2013,33,3/7/14,Minnesota Duluth,L,2,8
+2013,34,3/8/14,Minnesota Duluth,W,4,1
+2013,35,3/13/14,Denver,W,4,3
+2013,36,3/14/14,Denver,L,1,5
+2013,37,3/15/14,Denver,L,0,2
+2014,1,10/10/14,Minnesota State,W,5,3
+2014,2,10/11/14,Minnesota State,L,2,4
+2014,3,10/17/14,Western Michigan,W,5,2
+2014,4,10/18/14,Western Michigan,W,3,0
+2014,5,10/31/14,Cornell,T,1,1
+2014,6,11/1/14,Cornell,W,2,1
+2014,7,11/7/14,Ohio State,W,4,1
+2014,8,11/8/14,Ohio State,W,4,3
+2014,9,11/21/14,Minnesota Duluth,L,2,3
+2014,10,11/22/14,Minnesota Duluth,W,4,1
+2014,11,11/28/14,North Dakota,T,2,2
+2014,12,11/29/14,North Dakota,L,2,3
+2014,13,12/5/14,Miami,L,2,8
+2014,14,11/6/14,Miami,W,5,2
+2014,15,12/12/14,St. Cloud State,W,3,2
+2014,16,12/13/14,St. Cloud State,W,5,3
+2014,17,12/20/14,Alabama-Huntsville,W,2,1
+2014,18,12/21/14,Alabama-Huntsville,T,3,3
+2014,19,12/30/14,New Hampshire,W,2,1
+2014,20,12/31/14,New Hampshire,L,2,6
+2014,21,1/9/15,Denver,W,5,4
+2014,22,1/10/15,Denver,W,1,0
+2014,23,1/16/15,Colorado College,L,3,4
+2014,24,1/17/15,Colorado College,W,4,1
+2014,25,1/30/15,North Dakota,W,3,2
+2014,26,1/31/15,North Dakota,L,3,4
+2014,27,2/13/15,Western Michigan,L,1,2
+2014,28,2/14/15,Western Michigan,W,3,1
+2014,29,2/20/15,St. Cloud State,L,3,4
+2014,30,2/21/15,St. Cloud State,L,0,2
+2014,31,2/27/15,Minnesota Duluth,T,1,1
+2014,32,2/28/15,Minnesota Duluth,T,1,1
+2014,33,3/6/15,Colorado College,T,2,2
+2014,34,3/7/15,Colorado College,W,4,2
+2014,35,3/13/15,St. Cloud State,L,1,2
+2014,36,3/14/15,St. Cloud State,L,1,3
+2014,37,3/28/15,Harvard,W,4,1
+2014,38,3/29/15,RIT,W,4,0
+2014,39,4/9/15,Providence,L,1,4
+2015,1,10/9/15,Minnesota State,W,3,2
+2015,2,10/10/15,Minnesota State,W,2,0
+2015,3,10/16/15,Vermont,W,4,3
+2015,4,10/17/15,Vermont,W,3,1
+2015,5,10/23/15,Air Force,W,4,2
+2015,6,10/24/15,Air Force,W,4,1
+2015,7,10/30/15,Western Michigan,L,2,4
+2015,8,10/31/15,Western Michigan,L,1,6
+2015,9,11/6/15,Minnesota Duluth,W,4,2
+2015,10,11/7/15,Minnesota Duluth,W,4,2
+2015,11,11/20/15,Miami,T,3,3
+2015,12,11/21/15,Miami,W,3,2
+2015,13,11/27/15,Ohio State,W,3,1
+2015,14,11/28/15,Ohio State,W,6,4
+2015,15,12/4/15,St. Cloud State,L,1,4
+2015,16,12/5/15,St. Cloud State,W,7,2
+2015,17,12/19/15,Arizona State,W,3,1
+2015,18,12/20/15,Arizona State,W,6,0
+2015,19,1/8/16,Denver,L,0,3
+2015,20,1/9/16,Denver,L,3,4
+2015,21,1/15/16,North Dakota,W,4,3
+2015,22,1/16/16,North Dakota,L,1,5
+2015,23,1/22/16,Miami,L,1,3
+2015,24,1/23/16,Miami,L,3,7
+2015,25,1/29/16,Colorado College,L,1,5
+2015,26,1/30/16,Colorado College,W,6,1
+2015,27,2/12/16,Western Michigan,W,2,1
+2015,28,2/13/16,Western Michigan,W,6,3
+2015,29,2/19/16,St. Cloud State,L,1,4
+2015,30,2/20/16,St. Cloud State,L,3,6
+2015,31,2/26/16,North Dakota,L,2,4
+2015,32,2/27/16,North Dakota,L,1,4
+2015,33,3/4/16,Denver,L,0,3
+2015,34,3/5/16,Denver,L,1,2
+2015,35,3/11/16,Denver,L,2,5
+2015,36,3/12/16,Denver,L,3,4
+2016,1,10/14/16,Alaska Anchorage,W,3,1
+2016,2,10/15/16,Alaska Fairbanks,W,4,3
+2016,3,10/21/16,Vermont,T,4,4
+2016,4,10/22/16,Vermont,L,2,5
+2016,5,10/28/16,Massachusetts-Lowell,W,5,1
+2016,6,10/29/16,Massachusetts-Lowell,L,2,4
+2016,7,11/4/16,Colorado College,L,1,2
+2016,8,11/5/16,Colorado College,W,6,4
+2016,9,11/11/16,Miami,W,6,4
+2016,10,11/12/16,Miami,W,6,2
+2016,11,11/18/16,Minnesota Duluth,L,4,6
+2016,12,11/19/16,Minnesota Duluth,L,2,3
+2016,13,11/25/16,Northern Michigan,T,2,2
+2016,14,11/26/16,Northern Michigan,W,2,0
+2016,15,12/2/16,Wisconsin,T,3,3
+2016,16,12/3/16,Wisconsin,W,7,4
+2016,17,12/9/16,St. Cloud State,W,3,1
+2016,18,12/10/16,St. Cloud State,L,2,4
+2016,19,12/30/16,Lake Superior State,W,4,1
+2016,20,12/31/16,Lake Superior State,W,5,3
+2016,21,1/6/17,North Dakota,L,1,9
+2016,22,1/7/17,North Dakota,L,3,7
+2016,23,1/13/17,Colorado College,W,5,2
+2016,24,1/14/17,Colorado College,W,4,2
+2016,25,1/20/17,Miami,T,3,3
+2016,26,1/21/17,Miami,W,2,0
+2016,27,1/27/17,Denver,L,3,5
+2016,28,1/28/17,Denver,L,0,5
+2016,29,2/3/17,Minnesota Duluth,T,2,2
+2016,30,2/4/17,Minnesota Duluth,L,0,5
+2016,31,2/10/17,Western Michigan,L,6,7
+2016,32,2/11/17,Western Michigan,W,6,3
+2016,33,2/24/17,North Dakota,L,4,6
+2016,34,2/25/17,North Dakota,W,3,0
+2016,35,3/3/17,Denver,L,2,4
+2016,36,3/4/17,Denver,L,0,3
+2016,37,3/10/17,Western Michigan,W,2,1
+2016,38,3/11/17,Western Michigan,L,2,5
+2016,39,3/12/17,Western Michigan,L,1,2
+2017,1,10/13/17,Massachusetts-Lowell,W,4,2
+2017,2,10/14/17,Massachusetts-Lowell,L,2,5
+2017,3,10/20/17,Arizona State,W,5,1
+2017,4,10/21/17,Arizona State,T,4,4
+2017,5,10/26/17,Notre Dame,W,6,4
+2017,6,10/27/17,Notre Dame,L,4,5
+2017,7,11/10/17,Colorado College,W,5,3
+2017,8,11/11/17,Colorado College,L,0,4
+2017,9,11/17/17,Western Michigan,L,1,4
+2017,10,11/18/17,Western Michigan,L,2,5
+2017,11,11/24/17,Northern Michigan,W,4,3
+2017,12,11/25/17,Northern Michigan,W,4,1
+2017,13,12/1/17,St. Cloud State,L,4,7
+2017,14,12/2/17,St. Cloud State,L,0,5
+2017,15,12/8/17,Minnesota Duluth,W,7,5
+2017,16,12/9/17,Minnesota Duluth,L,2,6
+2017,17,12/29/17,Union,W,5,1
+2017,18,12/30/17,Union,W,5,3
+2017,19,1/5/18,North Dakota,W,4,1
+2017,20,1/6/18,North Dakota,L,0,7
+2017,21,1/12/18,Miami,W,11,7
+2017,22,1/13/18,Miami,W,4,3
+2017,23,1/19/18,Denver,L,0,5
+2017,24,1/20/18,Denver,L,0,4
+2017,25,1/26/18,Western Michigan,W,6,2
+2017,26,1/27/18,Western Michigan,W,7,3
+2017,27,2/2/18,St. Cloud State,L,3,5
+2017,28,2/3/18,St. Cloud State,L,2,6
+2017,29,2/16/18,North Dakota,W,6,3
+2017,30,2/17/18,North Dakota,L,0,3
+2017,31,2/23/18,Colorado College,W,4,2
+2017,32,2/24/18,Colorado College,T,2,2
+2017,33,3/2/18,Minnesota Duluth,W,4,1
+2017,34,3/3/17,Minnesota Duluth,L,1,4
+2017,35,3/9/18,North Dakota,L,0,4
+2017,36,3/10/18,North Dakota,L,3,4
+2018,1,10/12/18,Union,T,3,3
+2018,2,10/13/18,Union,L,4,5
+2018,3,10/19/18,Notre Dame,L,1,4
+2018,4,10/20/18,Notre Dame,L,2,8
+2018,5,10/26/18,Arizona State,L,3,6
+2018,6,10/27/18,Arizona State,L,2,7
+2018,7,11/2/18,Miami,L,1,4
+2018,8,11/3/18,Miami,W,6,3
+2018,9,11/9/18,Western Michigan,L,2,7
+2018,10,11/10/18,Western Michigan,W,4,2
+2018,11,11/23/18,Arizona State,W,6,4
+2018,12,11/24/18,Arizona State,W,4,0
+2018,13,11/30/18,Colorado College,T,3,3
+2018,14,12/1/18,Colorado College,L,3,6
+2018,15,12/7/18,St. Cloud State,L,0,2
+2018,16,12/8/18,St. Cloud State,L,1,7
+2018,17,12/29/18,Alaska Anchorage,W,3,0
+2018,18,12/31/18,Alaska Anchorage,W,4,0
+2018,19,1/11/19,Denver,L,0,1
+2018,20,1/12/19,Denver,L,2,3
+2018,21,1/18/19,North Dakota,L,3,4
+2018,22,1/19/19,North Dakota,W,4,3
+2018,23,1/25/19,Minnesota Duluth,L,2,7
+2018,24,1/26/19,Minnesota Duluth,L,1,3
+2018,25,2/1/19,Western Michigan,L,3,4
+2018,26,2/2/19,Western Michigan,W,6,3
+2018,27,2/8/19,Miami,W,3,0
+2018,28,2/9/19,Miami,L,2,4
+2018,29,2/22/19,St. Cloud State,L,1,4
+2018,30,2/23/19,St. Cloud State,L,0,5
+2018,31,3/1/19,Denver,L,1,4
+2018,32,3/2/19,Denver,T,3,3
+2018,33,3/8/19,North Dakota,L,1,2
+2018,34,3/9/19,North Dakota,L,4,5
+2018,35,3/15/19,Minnesota Duluth,L,1,2
+2018,36,3/16/19,Minnesota Duluth,L,1,4
+2019,1,10/11/19,Alabama-Huntsville,W,6,1
+2019,2,10/12/19,Alabama-Huntsville,W,5,0
+2019,3,10/18/19,Ohio State,L,3,2
+2019,4,10/19/19,Ohio State,W,2,1
+2019,5,10/31/19,Alaska Anchorage,W,4,3
+2019,6,11/1/19,Alaska Anchorage,T,3,3
+2019,7,11/8/19,Wisconsin,L,5,2
+2019,8,11/9/19,Wisconsin,W,5,2
+2019,9,11/15/19,Western Michigan,L,3,2
+2019,10,11/16/19,Western Michigan,W,6,3
+2019,11,11/22/19,Miami,T,3,3
+2019,12,11/23/19,Miami,L,1,4
+2019,13,12/6/19,Minnesota Duluth,L,3,6
+2019,14,12/7/19,Minnesota Duluth,L,3,4
+2019,15,12/13/19,St. Cloud State,L,1,4
+2019,16,12/14/19,St. Cloud State,W,4,3
+2019,17,12/21/19,Arizona State,L,4,5
+2019,18,12/22/19,Arizona State,W,8,4
+2019,19,1/3/20,Maine,T,2,2
+2019,20,1/4/20,Maine,L,2,3
+2019,21,1/10/20,North Dakota,W,6,3
+2019,22,1/11/20,North Dakota,L,1,4
+2019,23,1/17/20,Denver,T,1,1
+2019,24,1/18/20,Denver,T,2,2
+2019,25,1/24/20,Colorado College,W,6,4
+2019,26,1/25/20,Colorado College,W,4,1
+2019,27,1/31/20,Western Michigan,L,2,5
+2019,28,2/1/20,Western Michigan,W,4,2
+2019,29,2/7/20,Minnesota Duluth,L,2,3
+2019,30,2/8/20,Minnesota Duluth,L,1,4
+2019,31,2/21/20,Colorado College,W,5,0
+2019,32,2/22/20,Colorado College,L,2,3
+2019,33,2/28/20,Miami,L,0,3
+2019,34,2/29/20,Miami,L,0,4
+2019,35,3/6/20,North Dakota,W,4,1
+2019,36,3/7/20,North Dakota,L,0,5
