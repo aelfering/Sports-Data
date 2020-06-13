@@ -71,7 +71,7 @@ big_12_play <- points_join %>%
   filter(tm.conf == opp.conf)
 
 # Find wins and losses by season and team
-big_12_wins_losses <- clean_points %>%
+clean_points %>%
   mutate(wins = ifelse(team.pts > opp.pts, 1, 0),
          loses = ifelse(team.pts < opp.pts, 1, 0)) %>%
   group_by(season,
@@ -88,15 +88,6 @@ big_12_play %>%
   summarise(wins = sum(wins),
             losses = sum(loses)) %>%
   ungroup()
-
-
-
-
-
-
-
-
-
 
 ####  What is the touchdown-interception ratio by team each season? ####
 passingTD <- team_stats_with_dates %>%
