@@ -238,16 +238,6 @@ interceptions <- team_stats_with_dates %>%
   summarise(interceptions = sum(stat)) %>%
   ungroup()
 
-sacks <- team_stats_with_dates %>%
-  filter(stat_category == 'sacks',
-         conference == 'Big 12') %>%
-  mutate(stat = as.character(stat),
-         stat = as.integer(stat)) %>%
-  group_by(season,
-           school) %>%
-  summarise(sacks = sum(stat)) %>%
-  ungroup()
-
 passingTDs <- team_stats_with_dates %>%
   filter(stat_category == 'passingTDs',
          conference == 'Big 12') %>%
@@ -258,12 +248,54 @@ passingTDs <- team_stats_with_dates %>%
   summarise(passingTDs = sum(stat)) %>%
   ungroup()
 
+# To find the number of sacks is a little tricky
+# You need to find what the opponents sacks were to find the school's sacks
+big12sacks <- team_stats_with_dates %>%
+  filter(stat_category == 'sacks',
+         conference == 'Big 12') %>%
+  mutate(stat = as.character(stat),
+         stat = as.integer(stat)) %>%
+  group_by(season,
+           game_id,
+           date,
+           school) %>%
+  summarise(sacks = sum(stat)) %>%
+  ungroup()
+
+allsacks <- team_stats_with_dates %>%
+  filter(stat_category == 'sacks') %>%
+  mutate(stat = as.character(stat),
+         stat = as.integer(stat)) %>%
+  group_by(season,
+           game_id,
+           date,
+           school) %>%
+  summarise(sacks = sum(stat)) %>%
+  ungroup()
+
+sacks_join <- inner_join(big12sacks, allsacks, by = c('season' = 'season', "game_id" = "game_id", "date" = "date"))
+
+sacks_df_clean <- sacks_join %>%
+  filter(school.x != school.y) %>%
+  select(season,
+         game_id,
+         date,
+         school = school.x,
+         school.sacks = sacks.x,
+         opponent = school.y,
+         opponent.sacks = sacks.y) %>%
+  group_by(season,
+           school) %>%
+  summarise(sacks_allowed = sum(opponent.sacks)) %>%
+  ungroup()
+
+# Join all of the stats together
 cmpAtt_int <- inner_join(cmpAtt_stats, interceptions, by = c('season' = 'season', "school" = "school"))
 cmpAtt_int_TDs <- inner_join(cmpAtt_int, passingTDs, by = c('season' = 'season', "school" = "school"))
-offensiveLine_stats <- left_join(cmpAtt_int_TDs, sacks, by = c('season' = 'season', "school" = "school"))
+offensiveLine_stats <- left_join(cmpAtt_int_TDs, sacks_df_clean, by = c('season' = 'season', "school" = "school"))
 
 offensive_drive <- offensiveLine_stats %>%
   mutate(pct_interceptions = interceptions/attempts,
          pct_touchdowns = passingTDs/attempts,
-         pct_sacks = sacks/attempts)
+         pct_sacks = sacks_allowed/attempts)
 
