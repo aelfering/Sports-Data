@@ -1,0 +1,1401 @@
+game_id,school,conference,homeAway,points,stat_category,stat_type,athlete,stat
+400610227,Washington,Pac-12,away,22,passing,C/ATT,Cyler Miles,25/38
+400610227,Washington,Pac-12,away,22,passing,C/ATT,Jeff Lindquist,0/1
+400610227,Washington,Pac-12,away,22,passing,YDS,Cyler Miles,268
+400610227,Washington,Pac-12,away,22,passing,YDS,Jeff Lindquist,0
+400610227,Washington,Pac-12,away,22,passing,AVG,Cyler Miles,7.1
+400610227,Washington,Pac-12,away,22,passing,AVG,Jeff Lindquist,0.0
+400610227,Washington,Pac-12,away,22,passing,TD,Cyler Miles,1
+400610227,Washington,Pac-12,away,22,passing,TD,Jeff Lindquist,0
+400610227,Washington,Pac-12,away,22,passing,INT,Cyler Miles,1
+400610227,Washington,Pac-12,away,22,passing,INT,Jeff Lindquist,0
+400610227,Washington,Pac-12,away,22,passing,QBR,Cyler Miles,44.1
+400610227,Washington,Pac-12,away,22,passing,QBR,Jeff Lindquist,46.6
+400610227,Washington,Pac-12,away,22,rushing,CAR,Dwayne Washington,13
+400610227,Washington,Pac-12,away,22,rushing,CAR,Jaydon Mickens,1
+400610227,Washington,Pac-12,away,22,rushing,CAR,Cyler Miles,9
+400610227,Washington,Pac-12,away,22,rushing,CAR,Deontae Cooper,2
+400610227,Washington,Pac-12,away,22,rushing,YDS,Dwayne Washington,42
+400610227,Washington,Pac-12,away,22,rushing,YDS,Jaydon Mickens,31
+400610227,Washington,Pac-12,away,22,rushing,YDS,Cyler Miles,27
+400610227,Washington,Pac-12,away,22,rushing,YDS,Deontae Cooper,1
+400610227,Washington,Pac-12,away,22,rushing,AVG,Dwayne Washington,3.2
+400610227,Washington,Pac-12,away,22,rushing,AVG,Jaydon Mickens,31.0
+400610227,Washington,Pac-12,away,22,rushing,AVG,Cyler Miles,3.0
+400610227,Washington,Pac-12,away,22,rushing,AVG,Deontae Cooper,0.5
+400610227,Washington,Pac-12,away,22,rushing,TD,Dwayne Washington,0
+400610227,Washington,Pac-12,away,22,rushing,TD,Jaydon Mickens,1
+400610227,Washington,Pac-12,away,22,rushing,TD,Cyler Miles,0
+400610227,Washington,Pac-12,away,22,rushing,TD,Deontae Cooper,0
+400610227,Washington,Pac-12,away,22,rushing,LONG,Dwayne Washington,18
+400610227,Washington,Pac-12,away,22,rushing,LONG,Jaydon Mickens,31
+400610227,Washington,Pac-12,away,22,rushing,LONG,Cyler Miles,13
+400610227,Washington,Pac-12,away,22,rushing,LONG,Deontae Cooper,1
+400610227,Washington,Pac-12,away,22,receiving,REC,Jaydon Mickens,7
+400610227,Washington,Pac-12,away,22,receiving,REC,Kasen Williams,5
+400610227,Washington,Pac-12,away,22,receiving,REC,Darrell Daniels,2
+400610227,Washington,Pac-12,away,22,receiving,REC,Dante Pettis,2
+400610227,Washington,Pac-12,away,22,receiving,REC,Dwayne Washington,4
+400610227,Washington,Pac-12,away,22,receiving,REC,Joshua Perkins,2
+400610227,Washington,Pac-12,away,22,receiving,REC,Kendyl Taylor,1
+400610227,Washington,Pac-12,away,22,receiving,REC,Marvin Hall,2
+400610227,Washington,Pac-12,away,22,receiving,YDS,Jaydon Mickens,82
+400610227,Washington,Pac-12,away,22,receiving,YDS,Kasen Williams,73
+400610227,Washington,Pac-12,away,22,receiving,YDS,Darrell Daniels,34
+400610227,Washington,Pac-12,away,22,receiving,YDS,Dante Pettis,26
+400610227,Washington,Pac-12,away,22,receiving,YDS,Dwayne Washington,21
+400610227,Washington,Pac-12,away,22,receiving,YDS,Joshua Perkins,18
+400610227,Washington,Pac-12,away,22,receiving,YDS,Kendyl Taylor,11
+400610227,Washington,Pac-12,away,22,receiving,YDS,Marvin Hall,3
+400610227,Washington,Pac-12,away,22,receiving,AVG,Jaydon Mickens,11.7
+400610227,Washington,Pac-12,away,22,receiving,AVG,Kasen Williams,14.6
+400610227,Washington,Pac-12,away,22,receiving,AVG,Darrell Daniels,17.0
+400610227,Washington,Pac-12,away,22,receiving,AVG,Dante Pettis,13.0
+400610227,Washington,Pac-12,away,22,receiving,AVG,Dwayne Washington,5.3
+400610227,Washington,Pac-12,away,22,receiving,AVG,Joshua Perkins,9.0
+400610227,Washington,Pac-12,away,22,receiving,AVG,Kendyl Taylor,11.0
+400610227,Washington,Pac-12,away,22,receiving,AVG,Marvin Hall,1.5
+400610227,Washington,Pac-12,away,22,receiving,TD,Jaydon Mickens,1
+400610227,Washington,Pac-12,away,22,receiving,TD,Kasen Williams,0
+400610227,Washington,Pac-12,away,22,receiving,TD,Darrell Daniels,0
+400610227,Washington,Pac-12,away,22,receiving,TD,Dante Pettis,0
+400610227,Washington,Pac-12,away,22,receiving,TD,Dwayne Washington,0
+400610227,Washington,Pac-12,away,22,receiving,TD,Joshua Perkins,0
+400610227,Washington,Pac-12,away,22,receiving,TD,Kendyl Taylor,0
+400610227,Washington,Pac-12,away,22,receiving,TD,Marvin Hall,0
+400610227,Washington,Pac-12,away,22,receiving,LONG,Jaydon Mickens,23
+400610227,Washington,Pac-12,away,22,receiving,LONG,Kasen Williams,19
+400610227,Washington,Pac-12,away,22,receiving,LONG,Darrell Daniels,19
+400610227,Washington,Pac-12,away,22,receiving,LONG,Dante Pettis,17
+400610227,Washington,Pac-12,away,22,receiving,LONG,Dwayne Washington,9
+400610227,Washington,Pac-12,away,22,receiving,LONG,Joshua Perkins,12
+400610227,Washington,Pac-12,away,22,receiving,LONG,Kendyl Taylor,11
+400610227,Washington,Pac-12,away,22,receiving,LONG,Marvin Hall,6
+400610227,Washington,Pac-12,away,22,interceptions,INT,Budda Baker,1
+400610227,Washington,Pac-12,away,22,interceptions,YDS,Budda Baker,44
+400610227,Washington,Pac-12,away,22,interceptions,TD,Budda Baker,0
+400610227,Washington,Pac-12,away,22,kickReturns,NO,John Ross,6
+400610227,Washington,Pac-12,away,22,kickReturns,NO,Deontae Cooper,1
+400610227,Washington,Pac-12,away,22,kickReturns,YDS,John Ross,176
+400610227,Washington,Pac-12,away,22,kickReturns,YDS,Deontae Cooper,7
+400610227,Washington,Pac-12,away,22,kickReturns,AVG,John Ross,29.3
+400610227,Washington,Pac-12,away,22,kickReturns,AVG,Deontae Cooper,7.0
+400610227,Washington,Pac-12,away,22,kickReturns,LONG,John Ross,96
+400610227,Washington,Pac-12,away,22,kickReturns,LONG,Deontae Cooper,7
+400610227,Washington,Pac-12,away,22,kickReturns,TD,John Ross,1
+400610227,Washington,Pac-12,away,22,kickReturns,TD,Deontae Cooper,0
+400610227,Washington,Pac-12,away,22,puntReturns,NO,John Timu,1
+400610227,Washington,Pac-12,away,22,puntReturns,YDS,John Timu,0
+400610227,Washington,Pac-12,away,22,puntReturns,AVG,John Timu,0.0
+400610227,Washington,Pac-12,away,22,puntReturns,LONG,John Timu,0
+400610227,Washington,Pac-12,away,22,puntReturns,TD,John Timu,0
+400610227,Washington,Pac-12,away,22,kicking,FG,Cameron Van Winkle,0/1
+400610227,Washington,Pac-12,away,22,kicking,PCT,Cameron Van Winkle,0.0
+400610227,Washington,Pac-12,away,22,kicking,LONG,Cameron Van Winkle,0
+400610227,Washington,Pac-12,away,22,kicking,XP,Cameron Van Winkle,2/2
+400610227,Washington,Pac-12,away,22,kicking,PTS,Cameron Van Winkle,2
+400610227,Washington,Pac-12,away,22,punting,NO,Korey Durkee,3
+400610227,Washington,Pac-12,away,22,punting,NO,Cyler Miles,2
+400610227,Washington,Pac-12,away,22,punting,YDS,Korey Durkee,142
+400610227,Washington,Pac-12,away,22,punting,YDS,Cyler Miles,46
+400610227,Washington,Pac-12,away,22,punting,AVG,Korey Durkee,47.3
+400610227,Washington,Pac-12,away,22,punting,AVG,Cyler Miles,23.0
+400610227,Washington,Pac-12,away,22,punting,TB,Korey Durkee,0
+400610227,Washington,Pac-12,away,22,punting,TB,Cyler Miles,0
+400610227,Washington,Pac-12,away,22,punting,In 20,Korey Durkee,0
+400610227,Washington,Pac-12,away,22,punting,In 20,Cyler Miles,2
+400610227,Washington,Pac-12,away,22,punting,LONG,Korey Durkee,50
+400610227,Washington,Pac-12,away,22,punting,LONG,Cyler Miles,25
+400610227,Oklahoma State,Big 12,home,30,receiving,TD,Jhajuan Seales,0
+400610227,Oklahoma State,Big 12,home,30,receiving,TD,Brandon Sheperd,1
+400610227,Oklahoma State,Big 12,home,30,receiving,TD,James Castleman,0
+400610227,Oklahoma State,Big 12,home,30,receiving,TD,Jeremy Seaton,0
+400610227,Oklahoma State,Big 12,home,30,receiving,TD,James Washington,1
+400610227,Oklahoma State,Big 12,home,30,receiving,TD,David Glidden,0
+400610227,Oklahoma State,Big 12,home,30,receiving,TD,Mason Rudolph,0
+400610227,Oklahoma State,Big 12,home,30,receiving,TD,Rennie Childs,0
+400610227,Oklahoma State,Big 12,home,30,receiving,TD,Blake Jarwin,0
+400610227,Oklahoma State,Big 12,home,30,receiving,REC,Brandon Sheperd,5
+400610227,Oklahoma State,Big 12,home,30,receiving,REC,James Castleman,1
+400610227,Oklahoma State,Big 12,home,30,receiving,REC,Jeremy Seaton,4
+400610227,Oklahoma State,Big 12,home,30,receiving,REC,James Washington,2
+400610227,Oklahoma State,Big 12,home,30,receiving,REC,David Glidden,2
+400610227,Oklahoma State,Big 12,home,30,receiving,REC,Mason Rudolph,1
+400610227,Oklahoma State,Big 12,home,30,receiving,REC,Jhajuan Seales,1
+400610227,Oklahoma State,Big 12,home,30,receiving,REC,Rennie Childs,1
+400610227,Oklahoma State,Big 12,home,30,receiving,REC,Blake Jarwin,1
+400610227,Oklahoma State,Big 12,home,30,receiving,YDS,Brandon Sheperd,98
+400610227,Oklahoma State,Big 12,home,30,receiving,YDS,James Castleman,48
+400610227,Oklahoma State,Big 12,home,30,receiving,YDS,Jeremy Seaton,40
+400610227,Oklahoma State,Big 12,home,30,receiving,YDS,James Washington,33
+400610227,Oklahoma State,Big 12,home,30,receiving,YDS,David Glidden,30
+400610227,Oklahoma State,Big 12,home,30,receiving,YDS,Mason Rudolph,22
+400610227,Oklahoma State,Big 12,home,30,receiving,YDS,Jhajuan Seales,20
+400610227,Oklahoma State,Big 12,home,30,receiving,YDS,Rennie Childs,16
+400610227,Oklahoma State,Big 12,home,30,receiving,YDS,Blake Jarwin,14
+400610227,Oklahoma State,Big 12,home,30,receiving,AVG,Brandon Sheperd,19.6
+400610227,Oklahoma State,Big 12,home,30,receiving,AVG,James Castleman,48.0
+400610227,Oklahoma State,Big 12,home,30,receiving,AVG,Jeremy Seaton,10.0
+400610227,Oklahoma State,Big 12,home,30,receiving,AVG,James Washington,16.5
+400610227,Oklahoma State,Big 12,home,30,receiving,AVG,David Glidden,15.0
+400610227,Oklahoma State,Big 12,home,30,receiving,AVG,Mason Rudolph,22.0
+400610227,Oklahoma State,Big 12,home,30,receiving,AVG,Jhajuan Seales,20.0
+400610227,Oklahoma State,Big 12,home,30,receiving,AVG,Rennie Childs,16.0
+400610227,Oklahoma State,Big 12,home,30,receiving,AVG,Blake Jarwin,14.0
+400610227,Oklahoma State,Big 12,home,30,receiving,LONG,Brandon Sheperd,47
+400610227,Oklahoma State,Big 12,home,30,receiving,LONG,James Castleman,48
+400610227,Oklahoma State,Big 12,home,30,receiving,LONG,Jeremy Seaton,18
+400610227,Oklahoma State,Big 12,home,30,receiving,LONG,James Washington,28
+400610227,Oklahoma State,Big 12,home,30,receiving,LONG,David Glidden,30
+400610227,Oklahoma State,Big 12,home,30,receiving,LONG,Mason Rudolph,22
+400610227,Oklahoma State,Big 12,home,30,receiving,LONG,Jhajuan Seales,20
+400610227,Oklahoma State,Big 12,home,30,receiving,LONG,Rennie Childs,16
+400610227,Oklahoma State,Big 12,home,30,receiving,LONG,Blake Jarwin,14
+400610227,Oklahoma State,Big 12,home,30,passing,C/ATT,Mason Rudolph,17/26
+400610227,Oklahoma State,Big 12,home,30,passing,C/ATT,Brandon Sheperd,1/1
+400610227,Oklahoma State,Big 12,home,30,passing,YDS,Mason Rudolph,299
+400610227,Oklahoma State,Big 12,home,30,passing,YDS,Brandon Sheperd,22
+400610227,Oklahoma State,Big 12,home,30,passing,AVG,Mason Rudolph,11.5
+400610227,Oklahoma State,Big 12,home,30,passing,AVG,Brandon Sheperd,22.0
+400610227,Oklahoma State,Big 12,home,30,passing,TD,Mason Rudolph,2
+400610227,Oklahoma State,Big 12,home,30,passing,TD,Brandon Sheperd,0
+400610227,Oklahoma State,Big 12,home,30,passing,INT,Mason Rudolph,1
+400610227,Oklahoma State,Big 12,home,30,passing,INT,Brandon Sheperd,0
+400610227,Oklahoma State,Big 12,home,30,passing,QBR,Mason Rudolph,78.8
+400610227,Oklahoma State,Big 12,home,30,passing,QBR,Brandon Sheperd,94.8
+400610227,Oklahoma State,Big 12,home,30,rushing,CAR,Desmond Roland,32
+400610227,Oklahoma State,Big 12,home,30,rushing,CAR,Rennie Childs,9
+400610227,Oklahoma State,Big 12,home,30,rushing,CAR,Brandon Sheperd,2
+400610227,Oklahoma State,Big 12,home,30,rushing,CAR,James Castleman,1
+400610227,Oklahoma State,Big 12,home,30,rushing,CAR,Mason Rudolph,4
+400610227,Oklahoma State,Big 12,home,30,rushing,YDS,Desmond Roland,123
+400610227,Oklahoma State,Big 12,home,30,rushing,YDS,Rennie Childs,33
+400610227,Oklahoma State,Big 12,home,30,rushing,YDS,Brandon Sheperd,11
+400610227,Oklahoma State,Big 12,home,30,rushing,YDS,James Castleman,1
+400610227,Oklahoma State,Big 12,home,30,rushing,YDS,Mason Rudolph,-15
+400610227,Oklahoma State,Big 12,home,30,rushing,AVG,Desmond Roland,3.8
+400610227,Oklahoma State,Big 12,home,30,rushing,AVG,Rennie Childs,3.7
+400610227,Oklahoma State,Big 12,home,30,rushing,AVG,Brandon Sheperd,5.5
+400610227,Oklahoma State,Big 12,home,30,rushing,AVG,James Castleman,1.0
+400610227,Oklahoma State,Big 12,home,30,rushing,AVG,Mason Rudolph,-3.8
+400610227,Oklahoma State,Big 12,home,30,rushing,TD,Desmond Roland,0
+400610227,Oklahoma State,Big 12,home,30,rushing,TD,Rennie Childs,0
+400610227,Oklahoma State,Big 12,home,30,rushing,TD,Brandon Sheperd,0
+400610227,Oklahoma State,Big 12,home,30,rushing,TD,James Castleman,1
+400610227,Oklahoma State,Big 12,home,30,rushing,TD,Mason Rudolph,0
+400610227,Oklahoma State,Big 12,home,30,rushing,LONG,Desmond Roland,23
+400610227,Oklahoma State,Big 12,home,30,rushing,LONG,Rennie Childs,9
+400610227,Oklahoma State,Big 12,home,30,rushing,LONG,Brandon Sheperd,9
+400610227,Oklahoma State,Big 12,home,30,rushing,LONG,James Castleman,1
+400610227,Oklahoma State,Big 12,home,30,rushing,LONG,Mason Rudolph,5
+400610227,Oklahoma State,Big 12,home,30,interceptions,INT,Kevin Peterson,1
+400610227,Oklahoma State,Big 12,home,30,interceptions,YDS,Kevin Peterson,11
+400610227,Oklahoma State,Big 12,home,30,interceptions,TD,Kevin Peterson,0
+400610227,Oklahoma State,Big 12,home,30,kickReturns,NO,Brandon Sheperd,5
+400610227,Oklahoma State,Big 12,home,30,kickReturns,YDS,Brandon Sheperd,83
+400610227,Oklahoma State,Big 12,home,30,kickReturns,AVG,Brandon Sheperd,16.6
+400610227,Oklahoma State,Big 12,home,30,kickReturns,LONG,Brandon Sheperd,31
+400610227,Oklahoma State,Big 12,home,30,kickReturns,TD,Brandon Sheperd,0
+400610227,Oklahoma State,Big 12,home,30,puntReturns,NO,Brandon Sheperd,1
+400610227,Oklahoma State,Big 12,home,30,puntReturns,YDS,Brandon Sheperd,7
+400610227,Oklahoma State,Big 12,home,30,puntReturns,AVG,Brandon Sheperd,7.0
+400610227,Oklahoma State,Big 12,home,30,puntReturns,LONG,Brandon Sheperd,7
+400610227,Oklahoma State,Big 12,home,30,puntReturns,TD,Brandon Sheperd,0
+400610227,Oklahoma State,Big 12,home,30,kicking,FG,Ben Grogan,3/4
+400610227,Oklahoma State,Big 12,home,30,kicking,PCT,Ben Grogan,75.0
+400610227,Oklahoma State,Big 12,home,30,kicking,LONG,Ben Grogan,40
+400610227,Oklahoma State,Big 12,home,30,kicking,XP,Ben Grogan,3/3
+400610227,Oklahoma State,Big 12,home,30,kicking,PTS,Ben Grogan,12
+400610227,Oklahoma State,Big 12,home,30,punting,NO,Kip Smith,4
+400610227,Oklahoma State,Big 12,home,30,punting,YDS,Kip Smith,151
+400610227,Oklahoma State,Big 12,home,30,punting,AVG,Kip Smith,37.8
+400610227,Oklahoma State,Big 12,home,30,punting,TB,Kip Smith,0
+400610227,Oklahoma State,Big 12,home,30,punting,In 20,Kip Smith,4
+400610227,Oklahoma State,Big 12,home,30,punting,LONG,Kip Smith,44
+400610218,Kansas State,Big 12,away,35,passing,C/ATT,Jake Waters,31/48
+400610218,Kansas State,Big 12,away,35,passing,C/ATT,Tyler Lockett,0/1
+400610218,Kansas State,Big 12,away,35,passing,YDS,Jake Waters,338
+400610218,Kansas State,Big 12,away,35,passing,YDS,Tyler Lockett,0
+400610218,Kansas State,Big 12,away,35,passing,AVG,Jake Waters,7.0
+400610218,Kansas State,Big 12,away,35,passing,AVG,Tyler Lockett,0.0
+400610218,Kansas State,Big 12,away,35,passing,TD,Jake Waters,2
+400610218,Kansas State,Big 12,away,35,passing,TD,Tyler Lockett,0
+400610218,Kansas State,Big 12,away,35,passing,INT,Jake Waters,1
+400610218,Kansas State,Big 12,away,35,passing,INT,Tyler Lockett,0
+400610218,Kansas State,Big 12,away,35,passing,QBR,Jake Waters,49.4
+400610218,Kansas State,Big 12,away,35,passing,QBR,Tyler Lockett,2.8
+400610218,Kansas State,Big 12,away,35,rushing,CAR,Charles Jones,9
+400610218,Kansas State,Big 12,away,35,rushing,CAR,Jake Waters,15
+400610218,Kansas State,Big 12,away,35,rushing,CAR,DeMarcus Robinson,7
+400610218,Kansas State,Big 12,away,35,rushing,YDS,Charles Jones,19
+400610218,Kansas State,Big 12,away,35,rushing,YDS,Jake Waters,13
+400610218,Kansas State,Big 12,away,35,rushing,YDS,DeMarcus Robinson,1
+400610218,Kansas State,Big 12,away,35,rushing,AVG,Charles Jones,2.1
+400610218,Kansas State,Big 12,away,35,rushing,AVG,Jake Waters,0.9
+400610218,Kansas State,Big 12,away,35,rushing,AVG,DeMarcus Robinson,0.1
+400610218,Kansas State,Big 12,away,35,rushing,TD,Charles Jones,0
+400610218,Kansas State,Big 12,away,35,rushing,TD,Jake Waters,1
+400610218,Kansas State,Big 12,away,35,rushing,TD,DeMarcus Robinson,1
+400610218,Kansas State,Big 12,away,35,rushing,LONG,Charles Jones,6
+400610218,Kansas State,Big 12,away,35,rushing,LONG,Jake Waters,25
+400610218,Kansas State,Big 12,away,35,rushing,LONG,DeMarcus Robinson,6
+400610218,Kansas State,Big 12,away,35,receiving,REC,Tyler Lockett,13
+400610218,Kansas State,Big 12,away,35,receiving,REC,Curry Sexton,10
+400610218,Kansas State,Big 12,away,35,receiving,REC,Kody Cook,3
+400610218,Kansas State,Big 12,away,35,receiving,REC,Charles Jones,2
+400610218,Kansas State,Big 12,away,35,receiving,REC,Judah Jones,1
+400610218,Kansas State,Big 12,away,35,receiving,REC,DeMarcus Robinson,1
+400610218,Kansas State,Big 12,away,35,receiving,REC,Glenn Gronkowski,1
+400610218,Kansas State,Big 12,away,35,receiving,YDS,Tyler Lockett,164
+400610218,Kansas State,Big 12,away,35,receiving,YDS,Curry Sexton,104
+400610218,Kansas State,Big 12,away,35,receiving,YDS,Kody Cook,26
+400610218,Kansas State,Big 12,away,35,receiving,YDS,Charles Jones,20
+400610218,Kansas State,Big 12,away,35,receiving,YDS,Judah Jones,10
+400610218,Kansas State,Big 12,away,35,receiving,YDS,DeMarcus Robinson,7
+400610218,Kansas State,Big 12,away,35,receiving,YDS,Glenn Gronkowski,7
+400610218,Kansas State,Big 12,away,35,receiving,AVG,Tyler Lockett,12.6
+400610218,Kansas State,Big 12,away,35,receiving,AVG,Curry Sexton,10.4
+400610218,Kansas State,Big 12,away,35,receiving,AVG,Kody Cook,8.7
+400610218,Kansas State,Big 12,away,35,receiving,AVG,Charles Jones,10.0
+400610218,Kansas State,Big 12,away,35,receiving,AVG,Judah Jones,10.0
+400610218,Kansas State,Big 12,away,35,receiving,AVG,DeMarcus Robinson,7.0
+400610218,Kansas State,Big 12,away,35,receiving,AVG,Glenn Gronkowski,7.0
+400610218,Kansas State,Big 12,away,35,receiving,TD,Tyler Lockett,2
+400610218,Kansas State,Big 12,away,35,receiving,TD,Curry Sexton,0
+400610218,Kansas State,Big 12,away,35,receiving,TD,Kody Cook,0
+400610218,Kansas State,Big 12,away,35,receiving,TD,Charles Jones,0
+400610218,Kansas State,Big 12,away,35,receiving,TD,Judah Jones,0
+400610218,Kansas State,Big 12,away,35,receiving,TD,DeMarcus Robinson,0
+400610218,Kansas State,Big 12,away,35,receiving,TD,Glenn Gronkowski,0
+400610218,Kansas State,Big 12,away,35,receiving,LONG,Tyler Lockett,29
+400610218,Kansas State,Big 12,away,35,receiving,LONG,Curry Sexton,23
+400610218,Kansas State,Big 12,away,35,receiving,LONG,Kody Cook,13
+400610218,Kansas State,Big 12,away,35,receiving,LONG,Charles Jones,12
+400610218,Kansas State,Big 12,away,35,receiving,LONG,Judah Jones,10
+400610218,Kansas State,Big 12,away,35,receiving,LONG,DeMarcus Robinson,7
+400610218,Kansas State,Big 12,away,35,receiving,LONG,Glenn Gronkowski,7
+400610218,Kansas State,Big 12,away,35,kickReturns,NO,Tyler Lockett,3
+400610218,Kansas State,Big 12,away,35,kickReturns,YDS,Tyler Lockett,44
+400610218,Kansas State,Big 12,away,35,kickReturns,AVG,Tyler Lockett,14.7
+400610218,Kansas State,Big 12,away,35,kickReturns,LONG,Tyler Lockett,19
+400610218,Kansas State,Big 12,away,35,kickReturns,TD,Tyler Lockett,0
+400610218,Kansas State,Big 12,away,35,puntReturns,NO,Tyler Lockett,2
+400610218,Kansas State,Big 12,away,35,puntReturns,YDS,Tyler Lockett,41
+400610218,Kansas State,Big 12,away,35,puntReturns,AVG,Tyler Lockett,20.5
+400610218,Kansas State,Big 12,away,35,puntReturns,LONG,Tyler Lockett,41
+400610218,Kansas State,Big 12,away,35,puntReturns,TD,Tyler Lockett,0
+400610218,Kansas State,Big 12,away,35,kicking,FG,Matthew McCrane,2/2
+400610218,Kansas State,Big 12,away,35,kicking,PCT,Matthew McCrane,100.0
+400610218,Kansas State,Big 12,away,35,kicking,LONG,Matthew McCrane,47
+400610218,Kansas State,Big 12,away,35,kicking,XP,Matthew McCrane,3/3
+400610218,Kansas State,Big 12,away,35,kicking,PTS,Matthew McCrane,9
+400610218,Kansas State,Big 12,away,35,punting,NO,Nick Walsh,4
+400610218,Kansas State,Big 12,away,35,punting,YDS,Nick Walsh,197
+400610218,Kansas State,Big 12,away,35,punting,AVG,Nick Walsh,49.3
+400610218,Kansas State,Big 12,away,35,punting,TB,Nick Walsh,1
+400610218,Kansas State,Big 12,away,35,punting,In 20,Nick Walsh,1
+400610218,Kansas State,Big 12,away,35,punting,LONG,Nick Walsh,54
+400610218,UCLA,Pac-12,home,40,rushing,YDS,Nate Starks,9
+400610218,UCLA,Pac-12,home,40,rushing,YDS,JJ James,1
+400610218,UCLA,Pac-12,home,40,rushing,YDS,Paul Perkins,194
+400610218,UCLA,Pac-12,home,40,rushing,YDS,Brett Hundley,96
+400610218,UCLA,Pac-12,home,40,rushing,YDS,Devin Lucien,34
+400610218,UCLA,Pac-12,home,40,rushing,CAR,Paul Perkins,20
+400610218,UCLA,Pac-12,home,40,rushing,CAR,Brett Hundley,11
+400610218,UCLA,Pac-12,home,40,rushing,CAR,Devin Lucien,1
+400610218,UCLA,Pac-12,home,40,rushing,CAR,Nate Starks,3
+400610218,UCLA,Pac-12,home,40,rushing,CAR,JJ James,1
+400610218,UCLA,Pac-12,home,40,rushing,AVG,Paul Perkins,9.7
+400610218,UCLA,Pac-12,home,40,rushing,AVG,Brett Hundley,8.7
+400610218,UCLA,Pac-12,home,40,rushing,AVG,Devin Lucien,34.0
+400610218,UCLA,Pac-12,home,40,rushing,AVG,Nate Starks,3.0
+400610218,UCLA,Pac-12,home,40,rushing,AVG,JJ James,1.0
+400610218,UCLA,Pac-12,home,40,rushing,TD,Paul Perkins,2
+400610218,UCLA,Pac-12,home,40,rushing,TD,Brett Hundley,2
+400610218,UCLA,Pac-12,home,40,rushing,TD,Devin Lucien,0
+400610218,UCLA,Pac-12,home,40,rushing,TD,Nate Starks,0
+400610218,UCLA,Pac-12,home,40,rushing,TD,JJ James,0
+400610218,UCLA,Pac-12,home,40,rushing,LONG,Paul Perkins,67
+400610218,UCLA,Pac-12,home,40,rushing,LONG,Brett Hundley,40
+400610218,UCLA,Pac-12,home,40,rushing,LONG,Devin Lucien,34
+400610218,UCLA,Pac-12,home,40,rushing,LONG,Nate Starks,4
+400610218,UCLA,Pac-12,home,40,rushing,LONG,JJ James,1
+400610218,UCLA,Pac-12,home,40,passing,C/ATT,Brett Hundley,12/24
+400610218,UCLA,Pac-12,home,40,passing,YDS,Brett Hundley,136
+400610218,UCLA,Pac-12,home,40,passing,AVG,Brett Hundley,5.7
+400610218,UCLA,Pac-12,home,40,passing,TD,Brett Hundley,1
+400610218,UCLA,Pac-12,home,40,passing,INT,Brett Hundley,0
+400610218,UCLA,Pac-12,home,40,passing,QBR,Brett Hundley,87.3
+400610218,UCLA,Pac-12,home,40,receiving,REC,Jordan Payton,4
+400610218,UCLA,Pac-12,home,40,receiving,REC,Devin Lucien,3
+400610218,UCLA,Pac-12,home,40,receiving,REC,Thomas Duarte,1
+400610218,UCLA,Pac-12,home,40,receiving,REC,Devin Lewis Fuller,2
+400610218,UCLA,Pac-12,home,40,receiving,REC,Mossi Johnson,2
+400610218,UCLA,Pac-12,home,40,receiving,YDS,Jordan Payton,58
+400610218,UCLA,Pac-12,home,40,receiving,YDS,Devin Lucien,29
+400610218,UCLA,Pac-12,home,40,receiving,YDS,Thomas Duarte,19
+400610218,UCLA,Pac-12,home,40,receiving,YDS,Devin Lewis Fuller,19
+400610218,UCLA,Pac-12,home,40,receiving,YDS,Mossi Johnson,11
+400610218,UCLA,Pac-12,home,40,receiving,AVG,Jordan Payton,14.5
+400610218,UCLA,Pac-12,home,40,receiving,AVG,Devin Lucien,9.7
+400610218,UCLA,Pac-12,home,40,receiving,AVG,Thomas Duarte,19.0
+400610218,UCLA,Pac-12,home,40,receiving,AVG,Devin Lewis Fuller,9.5
+400610218,UCLA,Pac-12,home,40,receiving,AVG,Mossi Johnson,5.5
+400610218,UCLA,Pac-12,home,40,receiving,TD,Jordan Payton,0
+400610218,UCLA,Pac-12,home,40,receiving,TD,Devin Lucien,1
+400610218,UCLA,Pac-12,home,40,receiving,TD,Thomas Duarte,0
+400610218,UCLA,Pac-12,home,40,receiving,TD,Devin Lewis Fuller,0
+400610218,UCLA,Pac-12,home,40,receiving,TD,Mossi Johnson,0
+400610218,UCLA,Pac-12,home,40,receiving,LONG,Jordan Payton,37
+400610218,UCLA,Pac-12,home,40,receiving,LONG,Devin Lucien,13
+400610218,UCLA,Pac-12,home,40,receiving,LONG,Thomas Duarte,19
+400610218,UCLA,Pac-12,home,40,receiving,LONG,Devin Lewis Fuller,12
+400610218,UCLA,Pac-12,home,40,receiving,LONG,Mossi Johnson,8
+400610218,UCLA,Pac-12,home,40,interceptions,INT,Myles Jack,1
+400610218,UCLA,Pac-12,home,40,interceptions,YDS,Myles Jack,41
+400610218,UCLA,Pac-12,home,40,interceptions,TD,Myles Jack,0
+400610218,UCLA,Pac-12,home,40,kickReturns,NO,Ishmael Adams,3
+400610218,UCLA,Pac-12,home,40,kickReturns,NO,Jaleel Wadood,1
+400610218,UCLA,Pac-12,home,40,kickReturns,YDS,Ishmael Adams,61
+400610218,UCLA,Pac-12,home,40,kickReturns,YDS,Jaleel Wadood,21
+400610218,UCLA,Pac-12,home,40,kickReturns,AVG,Ishmael Adams,20.3
+400610218,UCLA,Pac-12,home,40,kickReturns,AVG,Jaleel Wadood,21.0
+400610218,UCLA,Pac-12,home,40,kickReturns,LONG,Ishmael Adams,22
+400610218,UCLA,Pac-12,home,40,kickReturns,LONG,Jaleel Wadood,21
+400610218,UCLA,Pac-12,home,40,kickReturns,TD,Ishmael Adams,0
+400610218,UCLA,Pac-12,home,40,kickReturns,TD,Jaleel Wadood,0
+400610218,UCLA,Pac-12,home,40,puntReturns,NO,Ishmael Adams,2
+400610218,UCLA,Pac-12,home,40,puntReturns,YDS,Ishmael Adams,9
+400610218,UCLA,Pac-12,home,40,puntReturns,AVG,Ishmael Adams,4.5
+400610218,UCLA,Pac-12,home,40,puntReturns,LONG,Ishmael Adams,9
+400610218,UCLA,Pac-12,home,40,puntReturns,TD,Ishmael Adams,0
+400610218,UCLA,Pac-12,home,40,kicking,FG,Ka'imi Fairbairn,2/2
+400610218,UCLA,Pac-12,home,40,kicking,PCT,Ka'imi Fairbairn,100.0
+400610218,UCLA,Pac-12,home,40,kicking,LONG,Ka'imi Fairbairn,44
+400610218,UCLA,Pac-12,home,40,kicking,XP,Ka'imi Fairbairn,4/4
+400610218,UCLA,Pac-12,home,40,kicking,PTS,Ka'imi Fairbairn,10
+400610218,UCLA,Pac-12,home,40,punting,NO,Matt Mengel,4
+400610218,UCLA,Pac-12,home,40,punting,YDS,Matt Mengel,186
+400610218,UCLA,Pac-12,home,40,punting,AVG,Matt Mengel,46.5
+400610218,UCLA,Pac-12,home,40,punting,TB,Matt Mengel,0
+400610218,UCLA,Pac-12,home,40,punting,In 20,Matt Mengel,1
+400610218,UCLA,Pac-12,home,40,punting,LONG,Matt Mengel,53
+400610179,Michigan State,Big Ten,away,42,passing,C/ATT,Connor Cook,24/42
+400610179,Michigan State,Big Ten,away,42,passing,YDS,Connor Cook,314
+400610179,Michigan State,Big Ten,away,42,passing,AVG,Connor Cook,7.5
+400610179,Michigan State,Big Ten,away,42,passing,TD,Connor Cook,2
+400610179,Michigan State,Big Ten,away,42,passing,INT,Connor Cook,2
+400610179,Michigan State,Big Ten,away,42,passing,QBR,Connor Cook,51.7
+400610179,Michigan State,Big Ten,away,42,rushing,CAR,Jeremy Langford,27
+400610179,Michigan State,Big Ten,away,42,rushing,CAR,Nick Hill,7
+400610179,Michigan State,Big Ten,away,42,rushing,CAR,Tony Lippett,1
+400610179,Michigan State,Big Ten,away,42,rushing,CAR,R.J. Shelton,2
+400610179,Michigan State,Big Ten,away,42,rushing,CAR,Connor Cook,6
+400610179,Michigan State,Big Ten,away,42,rushing,CAR,Michael Geiger,1
+400610179,Michigan State,Big Ten,away,42,rushing,CAR,Macgarrett Kings Jr.,1
+400610179,Michigan State,Big Ten,away,42,rushing,YDS,Jeremy Langford,162
+400610179,Michigan State,Big Ten,away,42,rushing,YDS,Nick Hill,26
+400610179,Michigan State,Big Ten,away,42,rushing,YDS,Tony Lippett,19
+400610179,Michigan State,Big Ten,away,42,rushing,YDS,R.J. Shelton,11
+400610179,Michigan State,Big Ten,away,42,rushing,YDS,Connor Cook,11
+400610179,Michigan State,Big Ten,away,42,rushing,YDS,Michael Geiger,6
+400610179,Michigan State,Big Ten,away,42,rushing,YDS,Macgarrett Kings Jr.,4
+400610179,Michigan State,Big Ten,away,42,rushing,AVG,Jeremy Langford,6.0
+400610179,Michigan State,Big Ten,away,42,rushing,AVG,Nick Hill,3.7
+400610179,Michigan State,Big Ten,away,42,rushing,AVG,Tony Lippett,19.0
+400610179,Michigan State,Big Ten,away,42,rushing,AVG,R.J. Shelton,5.5
+400610179,Michigan State,Big Ten,away,42,rushing,AVG,Connor Cook,1.8
+400610179,Michigan State,Big Ten,away,42,rushing,AVG,Michael Geiger,6.0
+400610179,Michigan State,Big Ten,away,42,rushing,AVG,Macgarrett Kings Jr.,4.0
+400610179,Michigan State,Big Ten,away,42,rushing,TD,Jeremy Langford,3
+400610179,Michigan State,Big Ten,away,42,rushing,TD,Nick Hill,0
+400610179,Michigan State,Big Ten,away,42,rushing,TD,Tony Lippett,0
+400610179,Michigan State,Big Ten,away,42,rushing,TD,R.J. Shelton,1
+400610179,Michigan State,Big Ten,away,42,rushing,TD,Connor Cook,0
+400610179,Michigan State,Big Ten,away,42,rushing,TD,Michael Geiger,0
+400610179,Michigan State,Big Ten,away,42,rushing,TD,Macgarrett Kings Jr.,0
+400610179,Michigan State,Big Ten,away,42,rushing,LONG,Jeremy Langford,65
+400610179,Michigan State,Big Ten,away,42,rushing,LONG,Nick Hill,12
+400610179,Michigan State,Big Ten,away,42,rushing,LONG,Tony Lippett,19
+400610179,Michigan State,Big Ten,away,42,rushing,LONG,R.J. Shelton,11
+400610179,Michigan State,Big Ten,away,42,rushing,LONG,Connor Cook,10
+400610179,Michigan State,Big Ten,away,42,rushing,LONG,Michael Geiger,6
+400610179,Michigan State,Big Ten,away,42,rushing,LONG,Macgarrett Kings Jr.,4
+400610179,Michigan State,Big Ten,away,42,receiving,REC,Keith Mumphery,4
+400610179,Michigan State,Big Ten,away,42,receiving,REC,Tony Lippett,5
+400610179,Michigan State,Big Ten,away,42,receiving,REC,Aaron Burbridge,4
+400610179,Michigan State,Big Ten,away,42,receiving,REC,Josiah Price,3
+400610179,Michigan State,Big Ten,away,42,receiving,REC,Jamal Lyles,1
+400610179,Michigan State,Big Ten,away,42,receiving,REC,Macgarrett Kings Jr.,3
+400610179,Michigan State,Big Ten,away,42,receiving,REC,R.J. Shelton,1
+400610179,Michigan State,Big Ten,away,42,receiving,REC,Jeremy Langford,2
+400610179,Michigan State,Big Ten,away,42,receiving,REC,Delton Williams,1
+400610179,Michigan State,Big Ten,away,42,receiving,YDS,Keith Mumphery,87
+400610179,Michigan State,Big Ten,away,42,receiving,YDS,Tony Lippett,74
+400610179,Michigan State,Big Ten,away,42,receiving,YDS,Aaron Burbridge,57
+400610179,Michigan State,Big Ten,away,42,receiving,YDS,Josiah Price,27
+400610179,Michigan State,Big Ten,away,42,receiving,YDS,Jamal Lyles,21
+400610179,Michigan State,Big Ten,away,42,receiving,YDS,Macgarrett Kings Jr.,19
+400610179,Michigan State,Big Ten,away,42,receiving,YDS,R.J. Shelton,17
+400610179,Michigan State,Big Ten,away,42,receiving,YDS,Jeremy Langford,7
+400610179,Michigan State,Big Ten,away,42,receiving,YDS,Delton Williams,5
+400610179,Michigan State,Big Ten,away,42,receiving,AVG,Keith Mumphery,21.8
+400610179,Michigan State,Big Ten,away,42,receiving,AVG,Tony Lippett,14.8
+400610179,Michigan State,Big Ten,away,42,receiving,AVG,Aaron Burbridge,14.3
+400610179,Michigan State,Big Ten,away,42,receiving,AVG,Josiah Price,9.0
+400610179,Michigan State,Big Ten,away,42,receiving,AVG,Jamal Lyles,21.0
+400610179,Michigan State,Big Ten,away,42,receiving,AVG,Macgarrett Kings Jr.,6.3
+400610179,Michigan State,Big Ten,away,42,receiving,AVG,R.J. Shelton,17.0
+400610179,Michigan State,Big Ten,away,42,receiving,AVG,Jeremy Langford,3.5
+400610179,Michigan State,Big Ten,away,42,receiving,AVG,Delton Williams,5.0
+400610179,Michigan State,Big Ten,away,42,receiving,TD,Keith Mumphery,1
+400610179,Michigan State,Big Ten,away,42,receiving,TD,Tony Lippett,0
+400610179,Michigan State,Big Ten,away,42,receiving,TD,Aaron Burbridge,0
+400610179,Michigan State,Big Ten,away,42,receiving,TD,Josiah Price,1
+400610179,Michigan State,Big Ten,away,42,receiving,TD,Jamal Lyles,0
+400610179,Michigan State,Big Ten,away,42,receiving,TD,Macgarrett Kings Jr.,0
+400610179,Michigan State,Big Ten,away,42,receiving,TD,R.J. Shelton,0
+400610179,Michigan State,Big Ten,away,42,receiving,TD,Jeremy Langford,0
+400610179,Michigan State,Big Ten,away,42,receiving,TD,Delton Williams,0
+400610179,Michigan State,Big Ten,away,42,receiving,LONG,Keith Mumphery,50
+400610179,Michigan State,Big Ten,away,42,receiving,LONG,Tony Lippett,24
+400610179,Michigan State,Big Ten,away,42,receiving,LONG,Aaron Burbridge,39
+400610179,Michigan State,Big Ten,away,42,receiving,LONG,Josiah Price,10
+400610179,Michigan State,Big Ten,away,42,receiving,LONG,Jamal Lyles,21
+400610179,Michigan State,Big Ten,away,42,receiving,LONG,Macgarrett Kings Jr.,9
+400610179,Michigan State,Big Ten,away,42,receiving,LONG,R.J. Shelton,17
+400610179,Michigan State,Big Ten,away,42,receiving,LONG,Jeremy Langford,4
+400610179,Michigan State,Big Ten,away,42,receiving,LONG,Delton Williams,5
+400610179,Michigan State,Big Ten,away,42,interceptions,INT,Riley Bullough,1
+400610179,Michigan State,Big Ten,away,42,interceptions,YDS,Riley Bullough,-1
+400610179,Michigan State,Big Ten,away,42,interceptions,TD,Riley Bullough,0
+400610179,Michigan State,Big Ten,away,42,kickReturns,NO,R.J. Shelton,3
+400610179,Michigan State,Big Ten,away,42,kickReturns,NO,Nick Hill,2
+400610179,Michigan State,Big Ten,away,42,kickReturns,YDS,R.J. Shelton,89
+400610179,Michigan State,Big Ten,away,42,kickReturns,YDS,Nick Hill,30
+400610179,Michigan State,Big Ten,away,42,kickReturns,AVG,R.J. Shelton,29.7
+400610179,Michigan State,Big Ten,away,42,kickReturns,AVG,Nick Hill,15.0
+400610179,Michigan State,Big Ten,away,42,kickReturns,LONG,R.J. Shelton,37
+400610179,Michigan State,Big Ten,away,42,kickReturns,LONG,Nick Hill,17
+400610179,Michigan State,Big Ten,away,42,kickReturns,TD,R.J. Shelton,0
+400610179,Michigan State,Big Ten,away,42,kickReturns,TD,Nick Hill,0
+400610179,Michigan State,Big Ten,away,42,kicking,FG,Michael Geiger,0/0
+400610179,Michigan State,Big Ten,away,42,kicking,PCT,Michael Geiger,0.0
+400610179,Michigan State,Big Ten,away,42,kicking,LONG,Michael Geiger,0
+400610179,Michigan State,Big Ten,away,42,kicking,XP,Michael Geiger,6/6
+400610179,Michigan State,Big Ten,away,42,kicking,PTS,Michael Geiger,6
+400610179,Michigan State,Big Ten,away,42,punting,NO,Mike Sadler,3
+400610179,Michigan State,Big Ten,away,42,punting,YDS,Mike Sadler,119
+400610179,Michigan State,Big Ten,away,42,punting,AVG,Mike Sadler,39.7
+400610179,Michigan State,Big Ten,away,42,punting,TB,Mike Sadler,0
+400610179,Michigan State,Big Ten,away,42,punting,In 20,Mike Sadler,1
+400610179,Michigan State,Big Ten,away,42,punting,LONG,Mike Sadler,46
+400610179,Baylor,Big 12,home,41,passing,C/ATT,Bryce Petty,36/51
+400610179,Baylor,Big 12,home,41,passing,C/ATT,Jay Lee,1/1
+400610179,Baylor,Big 12,home,41,passing,YDS,Bryce Petty,550
+400610179,Baylor,Big 12,home,41,passing,YDS,Jay Lee,53
+400610179,Baylor,Big 12,home,41,passing,AVG,Bryce Petty,10.8
+400610179,Baylor,Big 12,home,41,passing,AVG,Jay Lee,53.0
+400610179,Baylor,Big 12,home,41,passing,TD,Bryce Petty,3
+400610179,Baylor,Big 12,home,41,passing,TD,Jay Lee,1
+400610179,Baylor,Big 12,home,41,passing,INT,Bryce Petty,1
+400610179,Baylor,Big 12,home,41,passing,INT,Jay Lee,0
+400610179,Baylor,Big 12,home,41,passing,QBR,Bryce Petty,88.8
+400610179,Baylor,Big 12,home,41,passing,QBR,Jay Lee,100.0
+400610179,Baylor,Big 12,home,41,rushing,CAR,Shock Linwood,11
+400610179,Baylor,Big 12,home,41,rushing,CAR,Johnny Jefferson,2
+400610179,Baylor,Big 12,home,41,rushing,CAR,Devin Chafin,1
+400610179,Baylor,Big 12,home,41,rushing,CAR,Bryce Petty,7
+400610179,Baylor,Big 12,home,41,rushing,YDS,Shock Linwood,26
+400610179,Baylor,Big 12,home,41,rushing,YDS,Johnny Jefferson,-2
+400610179,Baylor,Big 12,home,41,rushing,YDS,Devin Chafin,-2
+400610179,Baylor,Big 12,home,41,rushing,YDS,Bryce Petty,-36
+400610179,Baylor,Big 12,home,41,rushing,AVG,Shock Linwood,2.4
+400610179,Baylor,Big 12,home,41,rushing,AVG,Johnny Jefferson,-1.0
+400610179,Baylor,Big 12,home,41,rushing,AVG,Devin Chafin,-2.0
+400610179,Baylor,Big 12,home,41,rushing,AVG,Bryce Petty,-5.1
+400610179,Baylor,Big 12,home,41,rushing,TD,Shock Linwood,0
+400610179,Baylor,Big 12,home,41,rushing,TD,Johnny Jefferson,0
+400610179,Baylor,Big 12,home,41,rushing,TD,Devin Chafin,0
+400610179,Baylor,Big 12,home,41,rushing,TD,Bryce Petty,1
+400610179,Baylor,Big 12,home,41,rushing,LONG,Shock Linwood,10
+400610179,Baylor,Big 12,home,41,rushing,LONG,Johnny Jefferson,2
+400610179,Baylor,Big 12,home,41,rushing,LONG,Devin Chafin,0
+400610179,Baylor,Big 12,home,41,rushing,LONG,Bryce Petty,3
+400610179,Baylor,Big 12,home,41,receiving,REC,KD Cannon,8
+400610179,Baylor,Big 12,home,41,receiving,REC,Corey Coleman,7
+400610179,Baylor,Big 12,home,41,receiving,REC,Antwan Goodley,9
+400610179,Baylor,Big 12,home,41,receiving,REC,Levi Norwood,6
+400610179,Baylor,Big 12,home,41,receiving,REC,Jay Lee,2
+400610179,Baylor,Big 12,home,41,receiving,REC,Clay Fuller,2
+400610179,Baylor,Big 12,home,41,receiving,REC,LaQuan McGowan,1
+400610179,Baylor,Big 12,home,41,receiving,REC,Shock Linwood,1
+400610179,Baylor,Big 12,home,41,receiving,REC,Tre'Von Armstead,1
+400610179,Baylor,Big 12,home,41,receiving,YDS,KD Cannon,197
+400610179,Baylor,Big 12,home,41,receiving,YDS,Corey Coleman,150
+400610179,Baylor,Big 12,home,41,receiving,YDS,Antwan Goodley,93
+400610179,Baylor,Big 12,home,41,receiving,YDS,Levi Norwood,64
+400610179,Baylor,Big 12,home,41,receiving,YDS,Jay Lee,37
+400610179,Baylor,Big 12,home,41,receiving,YDS,Clay Fuller,25
+400610179,Baylor,Big 12,home,41,receiving,YDS,LaQuan McGowan,18
+400610179,Baylor,Big 12,home,41,receiving,YDS,Shock Linwood,14
+400610179,Baylor,Big 12,home,41,receiving,YDS,Tre'Von Armstead,5
+400610179,Baylor,Big 12,home,41,receiving,AVG,KD Cannon,24.6
+400610179,Baylor,Big 12,home,41,receiving,AVG,Corey Coleman,21.4
+400610179,Baylor,Big 12,home,41,receiving,AVG,Antwan Goodley,10.3
+400610179,Baylor,Big 12,home,41,receiving,AVG,Levi Norwood,10.7
+400610179,Baylor,Big 12,home,41,receiving,AVG,Jay Lee,18.5
+400610179,Baylor,Big 12,home,41,receiving,AVG,Clay Fuller,12.5
+400610179,Baylor,Big 12,home,41,receiving,AVG,LaQuan McGowan,18.0
+400610179,Baylor,Big 12,home,41,receiving,AVG,Shock Linwood,14.0
+400610179,Baylor,Big 12,home,41,receiving,AVG,Tre'Von Armstead,5.0
+400610179,Baylor,Big 12,home,41,receiving,TD,KD Cannon,2
+400610179,Baylor,Big 12,home,41,receiving,TD,Corey Coleman,1
+400610179,Baylor,Big 12,home,41,receiving,TD,Antwan Goodley,0
+400610179,Baylor,Big 12,home,41,receiving,TD,Levi Norwood,0
+400610179,Baylor,Big 12,home,41,receiving,TD,Jay Lee,0
+400610179,Baylor,Big 12,home,41,receiving,TD,Clay Fuller,0
+400610179,Baylor,Big 12,home,41,receiving,TD,LaQuan McGowan,1
+400610179,Baylor,Big 12,home,41,receiving,TD,Shock Linwood,0
+400610179,Baylor,Big 12,home,41,receiving,TD,Tre'Von Armstead,0
+400610179,Baylor,Big 12,home,41,receiving,LONG,KD Cannon,74
+400610179,Baylor,Big 12,home,41,receiving,LONG,Corey Coleman,53
+400610179,Baylor,Big 12,home,41,receiving,LONG,Antwan Goodley,37
+400610179,Baylor,Big 12,home,41,receiving,LONG,Levi Norwood,31
+400610179,Baylor,Big 12,home,41,receiving,LONG,Jay Lee,26
+400610179,Baylor,Big 12,home,41,receiving,LONG,Clay Fuller,15
+400610179,Baylor,Big 12,home,41,receiving,LONG,LaQuan McGowan,18
+400610179,Baylor,Big 12,home,41,receiving,LONG,Shock Linwood,14
+400610179,Baylor,Big 12,home,41,receiving,LONG,Tre'Von Armstead,5
+400610179,Baylor,Big 12,home,41,interceptions,INT,Taylor Young,1
+400610179,Baylor,Big 12,home,41,interceptions,INT,Alfred Pullom,1
+400610179,Baylor,Big 12,home,41,interceptions,YDS,Taylor Young,37
+400610179,Baylor,Big 12,home,41,interceptions,YDS,Alfred Pullom,21
+400610179,Baylor,Big 12,home,41,interceptions,TD,Taylor Young,0
+400610179,Baylor,Big 12,home,41,interceptions,TD,Alfred Pullom,0
+400610179,Baylor,Big 12,home,41,kickReturns,NO,Clay Fuller,1
+400610179,Baylor,Big 12,home,41,kickReturns,NO,Levi Norwood,1
+400610179,Baylor,Big 12,home,41,kickReturns,YDS,Clay Fuller,19
+400610179,Baylor,Big 12,home,41,kickReturns,YDS,Levi Norwood,7
+400610179,Baylor,Big 12,home,41,kickReturns,AVG,Clay Fuller,19.0
+400610179,Baylor,Big 12,home,41,kickReturns,AVG,Levi Norwood,7.0
+400610179,Baylor,Big 12,home,41,kickReturns,LONG,Clay Fuller,19
+400610179,Baylor,Big 12,home,41,kickReturns,LONG,Levi Norwood,7
+400610179,Baylor,Big 12,home,41,kickReturns,TD,Clay Fuller,0
+400610179,Baylor,Big 12,home,41,kickReturns,TD,Levi Norwood,0
+400610179,Baylor,Big 12,home,41,puntReturns,NO,Levi Norwood,1
+400610179,Baylor,Big 12,home,41,puntReturns,YDS,Levi Norwood,10
+400610179,Baylor,Big 12,home,41,puntReturns,AVG,Levi Norwood,10.0
+400610179,Baylor,Big 12,home,41,puntReturns,LONG,Levi Norwood,10
+400610179,Baylor,Big 12,home,41,puntReturns,TD,Levi Norwood,0
+400610179,Baylor,Big 12,home,41,kicking,FG,Chris Callahan,2/4
+400610179,Baylor,Big 12,home,41,kicking,PCT,Chris Callahan,50.0
+400610179,Baylor,Big 12,home,41,kicking,LONG,Chris Callahan,46
+400610179,Baylor,Big 12,home,41,kicking,XP,Chris Callahan,5/5
+400610179,Baylor,Big 12,home,41,kicking,PTS,Chris Callahan,11
+400610179,Baylor,Big 12,home,41,punting,NO,Spencer Roth,1
+400610179,Baylor,Big 12,home,41,punting,YDS,Spencer Roth,48
+400610179,Baylor,Big 12,home,41,punting,AVG,Spencer Roth,48.0
+400610179,Baylor,Big 12,home,41,punting,TB,Spencer Roth,0
+400610179,Baylor,Big 12,home,41,punting,In 20,Spencer Roth,0
+400610179,Baylor,Big 12,home,41,punting,LONG,Spencer Roth,48
+400610182,Ole Miss,SEC,away,3,passing,C/ATT,Bo Wallace,10/23
+400610182,Ole Miss,SEC,away,3,passing,C/ATT,Devante Kincade,1/3
+400610182,Ole Miss,SEC,away,3,passing,YDS,Bo Wallace,109
+400610182,Ole Miss,SEC,away,3,passing,YDS,Devante Kincade,11
+400610182,Ole Miss,SEC,away,3,passing,AVG,Bo Wallace,4.7
+400610182,Ole Miss,SEC,away,3,passing,AVG,Devante Kincade,3.7
+400610182,Ole Miss,SEC,away,3,passing,TD,Bo Wallace,0
+400610182,Ole Miss,SEC,away,3,passing,TD,Devante Kincade,0
+400610182,Ole Miss,SEC,away,3,passing,INT,Bo Wallace,3
+400610182,Ole Miss,SEC,away,3,passing,INT,Devante Kincade,0
+400610182,Ole Miss,SEC,away,3,passing,QBR,Bo Wallace,0.9
+400610182,Ole Miss,SEC,away,3,passing,QBR,Devante Kincade,4.1
+400610182,Ole Miss,SEC,away,3,rushing,CAR,I'Tavius Mathers,7
+400610182,Ole Miss,SEC,away,3,rushing,CAR,Devante Kincade,3
+400610182,Ole Miss,SEC,away,3,rushing,CAR,Jaylen Walton,8
+400610182,Ole Miss,SEC,away,3,rushing,CAR,Jordan Wilkins,4
+400610182,Ole Miss,SEC,away,3,rushing,CAR,Bo Wallace,14
+400610182,Ole Miss,SEC,away,3,rushing,YDS,I'Tavius Mathers,26
+400610182,Ole Miss,SEC,away,3,rushing,YDS,Devante Kincade,5
+400610182,Ole Miss,SEC,away,3,rushing,YDS,Jaylen Walton,3
+400610182,Ole Miss,SEC,away,3,rushing,YDS,Jordan Wilkins,3
+400610182,Ole Miss,SEC,away,3,rushing,YDS,Bo Wallace,-14
+400610182,Ole Miss,SEC,away,3,rushing,AVG,I'Tavius Mathers,3.7
+400610182,Ole Miss,SEC,away,3,rushing,AVG,Devante Kincade,1.7
+400610182,Ole Miss,SEC,away,3,rushing,AVG,Jaylen Walton,0.4
+400610182,Ole Miss,SEC,away,3,rushing,AVG,Jordan Wilkins,0.8
+400610182,Ole Miss,SEC,away,3,rushing,AVG,Bo Wallace,-1.0
+400610182,Ole Miss,SEC,away,3,rushing,TD,I'Tavius Mathers,0
+400610182,Ole Miss,SEC,away,3,rushing,TD,Devante Kincade,0
+400610182,Ole Miss,SEC,away,3,rushing,TD,Jaylen Walton,0
+400610182,Ole Miss,SEC,away,3,rushing,TD,Jordan Wilkins,0
+400610182,Ole Miss,SEC,away,3,rushing,TD,Bo Wallace,0
+400610182,Ole Miss,SEC,away,3,rushing,LONG,I'Tavius Mathers,12
+400610182,Ole Miss,SEC,away,3,rushing,LONG,Devante Kincade,3
+400610182,Ole Miss,SEC,away,3,rushing,LONG,Jaylen Walton,5
+400610182,Ole Miss,SEC,away,3,rushing,LONG,Jordan Wilkins,5
+400610182,Ole Miss,SEC,away,3,rushing,LONG,Bo Wallace,4
+400610182,Ole Miss,SEC,away,3,receiving,REC,Markell Pack,4
+400610182,Ole Miss,SEC,away,3,receiving,REC,Cody Core,3
+400610182,Ole Miss,SEC,away,3,receiving,REC,I'Tavius Mathers,1
+400610182,Ole Miss,SEC,away,3,receiving,REC,Evan Engram,1
+400610182,Ole Miss,SEC,away,3,receiving,REC,Quincy Adeboyejo,1
+400610182,Ole Miss,SEC,away,3,receiving,REC,Jaylen Walton,1
+400610182,Ole Miss,SEC,away,3,receiving,YDS,Markell Pack,55
+400610182,Ole Miss,SEC,away,3,receiving,YDS,Cody Core,28
+400610182,Ole Miss,SEC,away,3,receiving,YDS,I'Tavius Mathers,11
+400610182,Ole Miss,SEC,away,3,receiving,YDS,Evan Engram,11
+400610182,Ole Miss,SEC,away,3,receiving,YDS,Quincy Adeboyejo,10
+400610182,Ole Miss,SEC,away,3,receiving,YDS,Jaylen Walton,5
+400610182,Ole Miss,SEC,away,3,receiving,AVG,Markell Pack,13.8
+400610182,Ole Miss,SEC,away,3,receiving,AVG,Cody Core,9.3
+400610182,Ole Miss,SEC,away,3,receiving,AVG,I'Tavius Mathers,11.0
+400610182,Ole Miss,SEC,away,3,receiving,AVG,Evan Engram,11.0
+400610182,Ole Miss,SEC,away,3,receiving,AVG,Quincy Adeboyejo,10.0
+400610182,Ole Miss,SEC,away,3,receiving,AVG,Jaylen Walton,5.0
+400610182,Ole Miss,SEC,away,3,receiving,TD,Markell Pack,0
+400610182,Ole Miss,SEC,away,3,receiving,TD,Cody Core,0
+400610182,Ole Miss,SEC,away,3,receiving,TD,I'Tavius Mathers,0
+400610182,Ole Miss,SEC,away,3,receiving,TD,Evan Engram,0
+400610182,Ole Miss,SEC,away,3,receiving,TD,Quincy Adeboyejo,0
+400610182,Ole Miss,SEC,away,3,receiving,TD,Jaylen Walton,0
+400610182,Ole Miss,SEC,away,3,receiving,LONG,Markell Pack,28
+400610182,Ole Miss,SEC,away,3,receiving,LONG,Cody Core,20
+400610182,Ole Miss,SEC,away,3,receiving,LONG,I'Tavius Mathers,11
+400610182,Ole Miss,SEC,away,3,receiving,LONG,Evan Engram,11
+400610182,Ole Miss,SEC,away,3,receiving,LONG,Quincy Adeboyejo,10
+400610182,Ole Miss,SEC,away,3,receiving,LONG,Jaylen Walton,5
+400610182,Ole Miss,SEC,away,3,interceptions,INT,Senquez Golson,1
+400610182,Ole Miss,SEC,away,3,interceptions,INT,Keith Lewis,1
+400610182,Ole Miss,SEC,away,3,interceptions,INT,Cody Prewitt,1
+400610182,Ole Miss,SEC,away,3,interceptions,YDS,Senquez Golson,36
+400610182,Ole Miss,SEC,away,3,interceptions,YDS,Keith Lewis,3
+400610182,Ole Miss,SEC,away,3,interceptions,YDS,Cody Prewitt,0
+400610182,Ole Miss,SEC,away,3,interceptions,TD,Senquez Golson,0
+400610182,Ole Miss,SEC,away,3,interceptions,TD,Keith Lewis,0
+400610182,Ole Miss,SEC,away,3,interceptions,TD,Cody Prewitt,0
+400610182,Ole Miss,SEC,away,3,kickReturns,NO,Jaylen Walton,4
+400610182,Ole Miss,SEC,away,3,kickReturns,NO,Mark Dodson,2
+400610182,Ole Miss,SEC,away,3,kickReturns,YDS,Jaylen Walton,78
+400610182,Ole Miss,SEC,away,3,kickReturns,YDS,Mark Dodson,49
+400610182,Ole Miss,SEC,away,3,kickReturns,AVG,Jaylen Walton,19.5
+400610182,Ole Miss,SEC,away,3,kickReturns,AVG,Mark Dodson,24.5
+400610182,Ole Miss,SEC,away,3,kickReturns,LONG,Jaylen Walton,26
+400610182,Ole Miss,SEC,away,3,kickReturns,LONG,Mark Dodson,31
+400610182,Ole Miss,SEC,away,3,kickReturns,TD,Jaylen Walton,0
+400610182,Ole Miss,SEC,away,3,kickReturns,TD,Mark Dodson,0
+400610182,Ole Miss,SEC,away,3,kicking,FG,Gary Wunderlich,1/2
+400610182,Ole Miss,SEC,away,3,kicking,PCT,Gary Wunderlich,50.0
+400610182,Ole Miss,SEC,away,3,kicking,LONG,Gary Wunderlich,27
+400610182,Ole Miss,SEC,away,3,kicking,XP,Gary Wunderlich,0/0
+400610182,Ole Miss,SEC,away,3,kicking,PTS,Gary Wunderlich,3
+400610182,Ole Miss,SEC,away,3,punting,NO,Will Gleeson,8
+400610182,Ole Miss,SEC,away,3,punting,YDS,Will Gleeson,345
+400610182,Ole Miss,SEC,away,3,punting,AVG,Will Gleeson,43.1
+400610182,Ole Miss,SEC,away,3,punting,TB,Will Gleeson,0
+400610182,Ole Miss,SEC,away,3,punting,In 20,Will Gleeson,1
+400610182,Ole Miss,SEC,away,3,punting,LONG,Will Gleeson,65
+400610182,TCU,Big 12,home,42,passing,C/ATT,Trevone Boykin,22/31
+400610182,TCU,Big 12,home,42,passing,C/ATT,Kolby Listenbee,1/1
+400610182,TCU,Big 12,home,42,passing,C/ATT,Bram Kohlhausen,4/5
+400610182,TCU,Big 12,home,42,passing,YDS,Trevone Boykin,187
+400610182,TCU,Big 12,home,42,passing,YDS,Kolby Listenbee,31
+400610182,TCU,Big 12,home,42,passing,YDS,Bram Kohlhausen,28
+400610182,TCU,Big 12,home,42,passing,AVG,Trevone Boykin,6.0
+400610182,TCU,Big 12,home,42,passing,AVG,Kolby Listenbee,31.0
+400610182,TCU,Big 12,home,42,passing,AVG,Bram Kohlhausen,5.6
+400610182,TCU,Big 12,home,42,passing,TD,Trevone Boykin,3
+400610182,TCU,Big 12,home,42,passing,TD,Kolby Listenbee,1
+400610182,TCU,Big 12,home,42,passing,TD,Bram Kohlhausen,0
+400610182,TCU,Big 12,home,42,passing,INT,Trevone Boykin,3
+400610182,TCU,Big 12,home,42,passing,INT,Kolby Listenbee,0
+400610182,TCU,Big 12,home,42,passing,INT,Bram Kohlhausen,0
+400610182,TCU,Big 12,home,42,passing,QBR,Trevone Boykin,67.6
+400610182,TCU,Big 12,home,42,passing,QBR,Kolby Listenbee,100.0
+400610182,TCU,Big 12,home,42,passing,QBR,Bram Kohlhausen,54.6
+400610182,TCU,Big 12,home,42,rushing,CAR,Aaron Green,18
+400610182,TCU,Big 12,home,42,rushing,CAR,Trevone Boykin,10
+400610182,TCU,Big 12,home,42,rushing,CAR,Trevorris Johnson,8
+400610182,TCU,Big 12,home,42,rushing,CAR,Kyle Hicks,4
+400610182,TCU,Big 12,home,42,rushing,CAR,Cliff Murphy,1
+400610182,TCU,Big 12,home,42,rushing,CAR,Cameron Echols-Luper,1
+400610182,TCU,Big 12,home,42,rushing,YDS,Aaron Green,68
+400610182,TCU,Big 12,home,42,rushing,YDS,Trevone Boykin,65
+400610182,TCU,Big 12,home,42,rushing,YDS,Trevorris Johnson,31
+400610182,TCU,Big 12,home,42,rushing,YDS,Kyle Hicks,6
+400610182,TCU,Big 12,home,42,rushing,YDS,Cliff Murphy,4
+400610182,TCU,Big 12,home,42,rushing,YDS,Cameron Echols-Luper,3
+400610182,TCU,Big 12,home,42,rushing,AVG,Aaron Green,3.8
+400610182,TCU,Big 12,home,42,rushing,AVG,Trevone Boykin,6.5
+400610182,TCU,Big 12,home,42,rushing,AVG,Trevorris Johnson,3.9
+400610182,TCU,Big 12,home,42,rushing,AVG,Kyle Hicks,1.5
+400610182,TCU,Big 12,home,42,rushing,AVG,Cliff Murphy,4.0
+400610182,TCU,Big 12,home,42,rushing,AVG,Cameron Echols-Luper,3.0
+400610182,TCU,Big 12,home,42,rushing,TD,Aaron Green,1
+400610182,TCU,Big 12,home,42,rushing,TD,Trevone Boykin,0
+400610182,TCU,Big 12,home,42,rushing,TD,Trevorris Johnson,0
+400610182,TCU,Big 12,home,42,rushing,TD,Kyle Hicks,0
+400610182,TCU,Big 12,home,42,rushing,TD,Cliff Murphy,0
+400610182,TCU,Big 12,home,42,rushing,TD,Cameron Echols-Luper,0
+400610182,TCU,Big 12,home,42,rushing,LONG,Aaron Green,17
+400610182,TCU,Big 12,home,42,rushing,LONG,Trevone Boykin,22
+400610182,TCU,Big 12,home,42,rushing,LONG,Trevorris Johnson,11
+400610182,TCU,Big 12,home,42,rushing,LONG,Kyle Hicks,4
+400610182,TCU,Big 12,home,42,rushing,LONG,Cliff Murphy,4
+400610182,TCU,Big 12,home,42,rushing,LONG,Cameron Echols-Luper,3
+400610182,TCU,Big 12,home,42,receiving,REC,Josh Doctson,6
+400610182,TCU,Big 12,home,42,receiving,REC,Aaron Green,2
+400610182,TCU,Big 12,home,42,receiving,REC,Kolby Listenbee,3
+400610182,TCU,Big 12,home,42,receiving,REC,Emanuel Porter,2
+400610182,TCU,Big 12,home,42,receiving,REC,Deante Gray,2
+400610182,TCU,Big 12,home,42,receiving,REC,Ty Slanina,3
+400610182,TCU,Big 12,home,42,receiving,REC,David Porter,3
+400610182,TCU,Big 12,home,42,receiving,REC,Jordan Moore,2
+400610182,TCU,Big 12,home,42,receiving,REC,Griffin Gilbert,1
+400610182,TCU,Big 12,home,42,receiving,REC,Desmon White,1
+400610182,TCU,Big 12,home,42,receiving,REC,Ja'Juan Story,1
+400610182,TCU,Big 12,home,42,receiving,REC,Trevone Boykin,1
+400610182,TCU,Big 12,home,42,receiving,YDS,Josh Doctson,59
+400610182,TCU,Big 12,home,42,receiving,YDS,Aaron Green,46
+400610182,TCU,Big 12,home,42,receiving,YDS,Kolby Listenbee,44
+400610182,TCU,Big 12,home,42,receiving,YDS,Emanuel Porter,20
+400610182,TCU,Big 12,home,42,receiving,YDS,Deante Gray,18
+400610182,TCU,Big 12,home,42,receiving,YDS,Ty Slanina,16
+400610182,TCU,Big 12,home,42,receiving,YDS,David Porter,15
+400610182,TCU,Big 12,home,42,receiving,YDS,Jordan Moore,12
+400610182,TCU,Big 12,home,42,receiving,YDS,Griffin Gilbert,8
+400610182,TCU,Big 12,home,42,receiving,YDS,Desmon White,8
+400610182,TCU,Big 12,home,42,receiving,YDS,Ja'Juan Story,2
+400610182,TCU,Big 12,home,42,receiving,YDS,Trevone Boykin,-2
+400610182,TCU,Big 12,home,42,receiving,AVG,Josh Doctson,9.8
+400610182,TCU,Big 12,home,42,receiving,AVG,Aaron Green,23.0
+400610182,TCU,Big 12,home,42,receiving,AVG,Kolby Listenbee,14.7
+400610182,TCU,Big 12,home,42,receiving,AVG,Emanuel Porter,10.0
+400610182,TCU,Big 12,home,42,receiving,AVG,Deante Gray,9.0
+400610182,TCU,Big 12,home,42,receiving,AVG,Ty Slanina,5.3
+400610182,TCU,Big 12,home,42,receiving,AVG,David Porter,5.0
+400610182,TCU,Big 12,home,42,receiving,AVG,Jordan Moore,6.0
+400610182,TCU,Big 12,home,42,receiving,AVG,Griffin Gilbert,8.0
+400610182,TCU,Big 12,home,42,receiving,AVG,Desmon White,8.0
+400610182,TCU,Big 12,home,42,receiving,AVG,Ja'Juan Story,2.0
+400610182,TCU,Big 12,home,42,receiving,AVG,Trevone Boykin,-2.0
+400610182,TCU,Big 12,home,42,receiving,TD,Josh Doctson,2
+400610182,TCU,Big 12,home,42,receiving,TD,Aaron Green,1
+400610182,TCU,Big 12,home,42,receiving,TD,Kolby Listenbee,1
+400610182,TCU,Big 12,home,42,receiving,TD,Emanuel Porter,0
+400610182,TCU,Big 12,home,42,receiving,TD,Deante Gray,0
+400610182,TCU,Big 12,home,42,receiving,TD,Ty Slanina,0
+400610182,TCU,Big 12,home,42,receiving,TD,David Porter,0
+400610182,TCU,Big 12,home,42,receiving,TD,Jordan Moore,0
+400610182,TCU,Big 12,home,42,receiving,TD,Griffin Gilbert,0
+400610182,TCU,Big 12,home,42,receiving,TD,Desmon White,0
+400610182,TCU,Big 12,home,42,receiving,TD,Ja'Juan Story,0
+400610182,TCU,Big 12,home,42,receiving,TD,Trevone Boykin,0
+400610182,TCU,Big 12,home,42,receiving,LONG,Josh Doctson,27
+400610182,TCU,Big 12,home,42,receiving,LONG,Aaron Green,31
+400610182,TCU,Big 12,home,42,receiving,LONG,Kolby Listenbee,35
+400610182,TCU,Big 12,home,42,receiving,LONG,Emanuel Porter,11
+400610182,TCU,Big 12,home,42,receiving,LONG,Deante Gray,10
+400610182,TCU,Big 12,home,42,receiving,LONG,Ty Slanina,6
+400610182,TCU,Big 12,home,42,receiving,LONG,David Porter,12
+400610182,TCU,Big 12,home,42,receiving,LONG,Jordan Moore,6
+400610182,TCU,Big 12,home,42,receiving,LONG,Griffin Gilbert,8
+400610182,TCU,Big 12,home,42,receiving,LONG,Desmon White,8
+400610182,TCU,Big 12,home,42,receiving,LONG,Ja'Juan Story,2
+400610182,TCU,Big 12,home,42,receiving,LONG,Trevone Boykin,0
+400610182,TCU,Big 12,home,42,interceptions,INT,James McFarland,1
+400610182,TCU,Big 12,home,42,interceptions,INT,Derrick Kindred,1
+400610182,TCU,Big 12,home,42,interceptions,INT,Chris Hackett,1
+400610182,TCU,Big 12,home,42,interceptions,YDS,James McFarland,0
+400610182,TCU,Big 12,home,42,interceptions,YDS,Derrick Kindred,1
+400610182,TCU,Big 12,home,42,interceptions,YDS,Chris Hackett,0
+400610182,TCU,Big 12,home,42,interceptions,TD,James McFarland,1
+400610182,TCU,Big 12,home,42,interceptions,TD,Derrick Kindred,0
+400610182,TCU,Big 12,home,42,interceptions,TD,Chris Hackett,0
+400610182,TCU,Big 12,home,42,kickReturns,NO,Ranthony Texada,1
+400610182,TCU,Big 12,home,42,kickReturns,YDS,Ranthony Texada,65
+400610182,TCU,Big 12,home,42,kickReturns,AVG,Ranthony Texada,65.0
+400610182,TCU,Big 12,home,42,kickReturns,LONG,Ranthony Texada,65
+400610182,TCU,Big 12,home,42,kickReturns,TD,Ranthony Texada,0
+400610182,TCU,Big 12,home,42,puntReturns,NO,Cameron Echols-Luper,2
+400610182,TCU,Big 12,home,42,puntReturns,YDS,Cameron Echols-Luper,6
+400610182,TCU,Big 12,home,42,puntReturns,AVG,Cameron Echols-Luper,3.0
+400610182,TCU,Big 12,home,42,puntReturns,LONG,Cameron Echols-Luper,4
+400610182,TCU,Big 12,home,42,puntReturns,TD,Cameron Echols-Luper,0
+400610182,TCU,Big 12,home,42,kicking,FG,Jaden Oberkrom,0/1
+400610182,TCU,Big 12,home,42,kicking,PCT,Jaden Oberkrom,0.0
+400610182,TCU,Big 12,home,42,kicking,LONG,Jaden Oberkrom,0
+400610182,TCU,Big 12,home,42,kicking,XP,Jaden Oberkrom,6/6
+400610182,TCU,Big 12,home,42,kicking,PTS,Jaden Oberkrom,6
+400610182,TCU,Big 12,home,42,punting,NO,Ethan Perry,4
+400610182,TCU,Big 12,home,42,punting,YDS,Ethan Perry,169
+400610182,TCU,Big 12,home,42,punting,AVG,Ethan Perry,42.3
+400610182,TCU,Big 12,home,42,punting,TB,Ethan Perry,0
+400610182,TCU,Big 12,home,42,punting,In 20,Ethan Perry,3
+400610182,TCU,Big 12,home,42,punting,LONG,Ethan Perry,55
+400610223,Texas,Big 12,home,7,passing,C/ATT,Tyrone Swoopes,13/25
+400610223,Texas,Big 12,home,7,passing,YDS,Tyrone Swoopes,57
+400610223,Texas,Big 12,home,7,passing,AVG,Tyrone Swoopes,2.3
+400610223,Texas,Big 12,home,7,passing,TD,Tyrone Swoopes,0
+400610223,Texas,Big 12,home,7,passing,INT,Tyrone Swoopes,1
+400610223,Texas,Big 12,home,7,passing,QBR,Tyrone Swoopes,18.3
+400610223,Texas,Big 12,home,7,rushing,CAR,Malcolm Brown,7
+400610223,Texas,Big 12,home,7,rushing,CAR,Johnathan Gray,6
+400610223,Texas,Big 12,home,7,rushing,CAR,Tyrone Swoopes,5
+400610223,Texas,Big 12,home,7,rushing,YDS,Malcolm Brown,25
+400610223,Texas,Big 12,home,7,rushing,YDS,Johnathan Gray,9
+400610223,Texas,Big 12,home,7,rushing,YDS,Tyrone Swoopes,-32
+400610223,Texas,Big 12,home,7,rushing,AVG,Malcolm Brown,3.6
+400610223,Texas,Big 12,home,7,rushing,AVG,Johnathan Gray,1.5
+400610223,Texas,Big 12,home,7,rushing,AVG,Tyrone Swoopes,-6.4
+400610223,Texas,Big 12,home,7,rushing,TD,Malcolm Brown,0
+400610223,Texas,Big 12,home,7,rushing,TD,Johnathan Gray,0
+400610223,Texas,Big 12,home,7,rushing,TD,Tyrone Swoopes,1
+400610223,Texas,Big 12,home,7,rushing,LONG,Malcolm Brown,11
+400610223,Texas,Big 12,home,7,rushing,LONG,Johnathan Gray,9
+400610223,Texas,Big 12,home,7,rushing,LONG,Tyrone Swoopes,9
+400610223,Texas,Big 12,home,7,receiving,REC,John Harris,4
+400610223,Texas,Big 12,home,7,receiving,REC,Jacorey Warrick,3
+400610223,Texas,Big 12,home,7,receiving,REC,Marcus Johnson,1
+400610223,Texas,Big 12,home,7,receiving,REC,Jaxon Shipley,1
+400610223,Texas,Big 12,home,7,receiving,REC,Daje Johnson,3
+400610223,Texas,Big 12,home,7,receiving,REC,Malcolm Brown,1
+400610223,Texas,Big 12,home,7,receiving,YDS,John Harris,36
+400610223,Texas,Big 12,home,7,receiving,YDS,Jacorey Warrick,13
+400610223,Texas,Big 12,home,7,receiving,YDS,Marcus Johnson,9
+400610223,Texas,Big 12,home,7,receiving,YDS,Jaxon Shipley,6
+400610223,Texas,Big 12,home,7,receiving,YDS,Daje Johnson,0
+400610223,Texas,Big 12,home,7,receiving,YDS,Malcolm Brown,-7
+400610223,Texas,Big 12,home,7,receiving,AVG,John Harris,9.0
+400610223,Texas,Big 12,home,7,receiving,AVG,Jacorey Warrick,4.3
+400610223,Texas,Big 12,home,7,receiving,AVG,Marcus Johnson,9.0
+400610223,Texas,Big 12,home,7,receiving,AVG,Jaxon Shipley,6.0
+400610223,Texas,Big 12,home,7,receiving,AVG,Daje Johnson,0.0
+400610223,Texas,Big 12,home,7,receiving,AVG,Malcolm Brown,-7.0
+400610223,Texas,Big 12,home,7,receiving,TD,John Harris,0
+400610223,Texas,Big 12,home,7,receiving,TD,Jacorey Warrick,0
+400610223,Texas,Big 12,home,7,receiving,TD,Marcus Johnson,0
+400610223,Texas,Big 12,home,7,receiving,TD,Jaxon Shipley,0
+400610223,Texas,Big 12,home,7,receiving,TD,Daje Johnson,0
+400610223,Texas,Big 12,home,7,receiving,TD,Malcolm Brown,0
+400610223,Texas,Big 12,home,7,receiving,LONG,John Harris,15
+400610223,Texas,Big 12,home,7,receiving,LONG,Jacorey Warrick,5
+400610223,Texas,Big 12,home,7,receiving,LONG,Marcus Johnson,9
+400610223,Texas,Big 12,home,7,receiving,LONG,Jaxon Shipley,6
+400610223,Texas,Big 12,home,7,receiving,LONG,Daje Johnson,11
+400610223,Texas,Big 12,home,7,receiving,LONG,Malcolm Brown,0
+400610223,Texas,Big 12,home,7,kickReturns,NO,Daje Johnson,4
+400610223,Texas,Big 12,home,7,kickReturns,NO,Jacorey Warrick,1
+400610223,Texas,Big 12,home,7,kickReturns,YDS,Daje Johnson,98
+400610223,Texas,Big 12,home,7,kickReturns,YDS,Jacorey Warrick,30
+400610223,Texas,Big 12,home,7,kickReturns,AVG,Daje Johnson,24.5
+400610223,Texas,Big 12,home,7,kickReturns,AVG,Jacorey Warrick,30.0
+400610223,Texas,Big 12,home,7,kickReturns,LONG,Daje Johnson,30
+400610223,Texas,Big 12,home,7,kickReturns,LONG,Jacorey Warrick,30
+400610223,Texas,Big 12,home,7,kickReturns,TD,Daje Johnson,0
+400610223,Texas,Big 12,home,7,kickReturns,TD,Jacorey Warrick,0
+400610223,Texas,Big 12,home,7,puntReturns,NO,Jaxon Shipley,1
+400610223,Texas,Big 12,home,7,puntReturns,YDS,Jaxon Shipley,4
+400610223,Texas,Big 12,home,7,puntReturns,AVG,Jaxon Shipley,4.0
+400610223,Texas,Big 12,home,7,puntReturns,LONG,Jaxon Shipley,4
+400610223,Texas,Big 12,home,7,puntReturns,TD,Jaxon Shipley,0
+400610223,Texas,Big 12,home,7,kicking,FG,Nick Rose,0/0
+400610223,Texas,Big 12,home,7,kicking,PCT,Nick Rose,0.0
+400610223,Texas,Big 12,home,7,kicking,LONG,Nick Rose,0
+400610223,Texas,Big 12,home,7,kicking,XP,Nick Rose,1/1
+400610223,Texas,Big 12,home,7,kicking,PTS,Nick Rose,1
+400610223,Texas,Big 12,home,7,punting,NO,Michael Davidson,7
+400610223,Texas,Big 12,home,7,punting,YDS,Michael Davidson,292
+400610223,Texas,Big 12,home,7,punting,AVG,Michael Davidson,41.7
+400610223,Texas,Big 12,home,7,punting,TB,Michael Davidson,0
+400610223,Texas,Big 12,home,7,punting,In 20,Michael Davidson,1
+400610223,Texas,Big 12,home,7,punting,LONG,Michael Davidson,47
+400610223,Arkansas,SEC,away,31,passing,C/ATT,Brandon Allen,12/23
+400610223,Arkansas,SEC,away,31,passing,YDS,Brandon Allen,160
+400610223,Arkansas,SEC,away,31,passing,AVG,Brandon Allen,7.0
+400610223,Arkansas,SEC,away,31,passing,TD,Brandon Allen,2
+400610223,Arkansas,SEC,away,31,passing,INT,Brandon Allen,0
+400610223,Arkansas,SEC,away,31,passing,QBR,Brandon Allen,80.4
+400610223,Arkansas,SEC,away,31,rushing,CAR,Jonathan Williams,23
+400610223,Arkansas,SEC,away,31,rushing,CAR,Alex Collins,17
+400610223,Arkansas,SEC,away,31,rushing,CAR,Brandon Allen,6
+400610223,Arkansas,SEC,away,31,rushing,CAR,Keon Hatcher,1
+400610223,Arkansas,SEC,away,31,rushing,YDS,Jonathan Williams,105
+400610223,Arkansas,SEC,away,31,rushing,YDS,Alex Collins,76
+400610223,Arkansas,SEC,away,31,rushing,YDS,Brandon Allen,13
+400610223,Arkansas,SEC,away,31,rushing,YDS,Keon Hatcher,2
+400610223,Arkansas,SEC,away,31,rushing,AVG,Jonathan Williams,4.6
+400610223,Arkansas,SEC,away,31,rushing,AVG,Alex Collins,4.5
+400610223,Arkansas,SEC,away,31,rushing,AVG,Brandon Allen,2.2
+400610223,Arkansas,SEC,away,31,rushing,AVG,Keon Hatcher,2.0
+400610223,Arkansas,SEC,away,31,rushing,TD,Jonathan Williams,1
+400610223,Arkansas,SEC,away,31,rushing,TD,Alex Collins,0
+400610223,Arkansas,SEC,away,31,rushing,TD,Brandon Allen,0
+400610223,Arkansas,SEC,away,31,rushing,TD,Keon Hatcher,0
+400610223,Arkansas,SEC,away,31,rushing,LONG,Jonathan Williams,25
+400610223,Arkansas,SEC,away,31,rushing,LONG,Alex Collins,10
+400610223,Arkansas,SEC,away,31,rushing,LONG,Brandon Allen,10
+400610223,Arkansas,SEC,away,31,rushing,LONG,Keon Hatcher,2
+400610223,Arkansas,SEC,away,31,receiving,REC,Demetrius Wilson,2
+400610223,Arkansas,SEC,away,31,receiving,REC,Keon Hatcher,4
+400610223,Arkansas,SEC,away,31,receiving,REC,Drew Morgan,2
+400610223,Arkansas,SEC,away,31,receiving,REC,Hunter Henry,1
+400610223,Arkansas,SEC,away,31,receiving,REC,Jared Cornelius,3
+400610223,Arkansas,SEC,away,31,receiving,YDS,Demetrius Wilson,52
+400610223,Arkansas,SEC,away,31,receiving,YDS,Keon Hatcher,41
+400610223,Arkansas,SEC,away,31,receiving,YDS,Drew Morgan,33
+400610223,Arkansas,SEC,away,31,receiving,YDS,Hunter Henry,18
+400610223,Arkansas,SEC,away,31,receiving,YDS,Jared Cornelius,16
+400610223,Arkansas,SEC,away,31,receiving,AVG,Demetrius Wilson,26.0
+400610223,Arkansas,SEC,away,31,receiving,AVG,Keon Hatcher,10.3
+400610223,Arkansas,SEC,away,31,receiving,AVG,Drew Morgan,16.5
+400610223,Arkansas,SEC,away,31,receiving,AVG,Hunter Henry,18.0
+400610223,Arkansas,SEC,away,31,receiving,AVG,Jared Cornelius,5.3
+400610223,Arkansas,SEC,away,31,receiving,TD,Demetrius Wilson,1
+400610223,Arkansas,SEC,away,31,receiving,TD,Keon Hatcher,1
+400610223,Arkansas,SEC,away,31,receiving,TD,Drew Morgan,0
+400610223,Arkansas,SEC,away,31,receiving,TD,Hunter Henry,0
+400610223,Arkansas,SEC,away,31,receiving,TD,Jared Cornelius,0
+400610223,Arkansas,SEC,away,31,receiving,LONG,Demetrius Wilson,36
+400610223,Arkansas,SEC,away,31,receiving,LONG,Keon Hatcher,17
+400610223,Arkansas,SEC,away,31,receiving,LONG,Drew Morgan,24
+400610223,Arkansas,SEC,away,31,receiving,LONG,Hunter Henry,10
+400610223,Arkansas,SEC,away,31,receiving,LONG,Jared Cornelius,11
+400610223,Arkansas,SEC,away,31,interceptions,INT,Henre' Toliver,1
+400610223,Arkansas,SEC,away,31,interceptions,YDS,Henre' Toliver,46
+400610223,Arkansas,SEC,away,31,interceptions,TD,Henre' Toliver,0
+400610223,Arkansas,SEC,away,31,kickReturns,NO,Alex Collins,2
+400610223,Arkansas,SEC,away,31,kickReturns,YDS,Alex Collins,60
+400610223,Arkansas,SEC,away,31,kickReturns,AVG,Alex Collins,30.0
+400610223,Arkansas,SEC,away,31,kickReturns,LONG,Alex Collins,39
+400610223,Arkansas,SEC,away,31,kickReturns,TD,Alex Collins,0
+400610223,Arkansas,SEC,away,31,puntReturns,NO,Jared Cornelius,1
+400610223,Arkansas,SEC,away,31,puntReturns,YDS,Jared Cornelius,27
+400610223,Arkansas,SEC,away,31,puntReturns,AVG,Jared Cornelius,27.0
+400610223,Arkansas,SEC,away,31,puntReturns,LONG,Jared Cornelius,27
+400610223,Arkansas,SEC,away,31,puntReturns,TD,Jared Cornelius,0
+400610223,Arkansas,SEC,away,31,kicking,FG,Adam McFain,1/2
+400610223,Arkansas,SEC,away,31,kicking,PCT,Adam McFain,50.0
+400610223,Arkansas,SEC,away,31,kicking,LONG,Adam McFain,32
+400610223,Arkansas,SEC,away,31,kicking,XP,Adam McFain,4/4
+400610223,Arkansas,SEC,away,31,kicking,PTS,Adam McFain,7
+400610223,Arkansas,SEC,away,31,punting,NO,Sam Irwin-Hill,4
+400610223,Arkansas,SEC,away,31,punting,YDS,Sam Irwin-Hill,159
+400610223,Arkansas,SEC,away,31,punting,AVG,Sam Irwin-Hill,39.8
+400610223,Arkansas,SEC,away,31,punting,TB,Sam Irwin-Hill,0
+400610223,Arkansas,SEC,away,31,punting,In 20,Sam Irwin-Hill,4
+400610223,Arkansas,SEC,away,31,punting,LONG,Sam Irwin-Hill,48
+400610208,Clemson,ACC,home,40,passing,C/ATT,Cole Stoudt,26/36
+400610208,Clemson,ACC,home,40,passing,C/ATT,David Olson,0/1
+400610208,Clemson,ACC,home,40,passing,YDS,Cole Stoudt,319
+400610208,Clemson,ACC,home,40,passing,YDS,David Olson,0
+400610208,Clemson,ACC,home,40,passing,AVG,Cole Stoudt,8.9
+400610208,Clemson,ACC,home,40,passing,AVG,David Olson,0.0
+400610208,Clemson,ACC,home,40,passing,TD,Cole Stoudt,3
+400610208,Clemson,ACC,home,40,passing,TD,David Olson,0
+400610208,Clemson,ACC,home,40,passing,INT,Cole Stoudt,0
+400610208,Clemson,ACC,home,40,passing,INT,David Olson,0
+400610208,Clemson,ACC,home,40,passing,QBR,Cole Stoudt,68.8
+400610208,Clemson,ACC,home,40,passing,QBR,David Olson,1.4
+400610208,Clemson,ACC,home,40,rushing,CAR,Wayne Gallman,19
+400610208,Clemson,ACC,home,40,rushing,CAR,Tyshon Dye,6
+400610208,Clemson,ACC,home,40,rushing,CAR,Artavis Scott,1
+400610208,Clemson,ACC,home,40,rushing,CAR,C.J. Davidson,2
+400610208,Clemson,ACC,home,40,rushing,CAR,Kevin Williamson,2
+400610208,Clemson,ACC,home,40,rushing,CAR,D.J. Howard,3
+400610208,Clemson,ACC,home,40,rushing,CAR,Nick Schuessler,1
+400610208,Clemson,ACC,home,40,rushing,CAR,Cole Stoudt,8
+400610208,Clemson,ACC,home,40,rushing,YDS,Wayne Gallman,55
+400610208,Clemson,ACC,home,40,rushing,YDS,Tyshon Dye,13
+400610208,Clemson,ACC,home,40,rushing,YDS,Artavis Scott,6
+400610208,Clemson,ACC,home,40,rushing,YDS,C.J. Davidson,3
+400610208,Clemson,ACC,home,40,rushing,YDS,Kevin Williamson,2
+400610208,Clemson,ACC,home,40,rushing,YDS,D.J. Howard,1
+400610208,Clemson,ACC,home,40,rushing,YDS,Nick Schuessler,-4
+400610208,Clemson,ACC,home,40,rushing,YDS,Cole Stoudt,-8
+400610208,Clemson,ACC,home,40,rushing,AVG,Wayne Gallman,2.9
+400610208,Clemson,ACC,home,40,rushing,AVG,Tyshon Dye,2.2
+400610208,Clemson,ACC,home,40,rushing,AVG,Artavis Scott,6.0
+400610208,Clemson,ACC,home,40,rushing,AVG,C.J. Davidson,1.5
+400610208,Clemson,ACC,home,40,rushing,AVG,Kevin Williamson,1.0
+400610208,Clemson,ACC,home,40,rushing,AVG,D.J. Howard,0.3
+400610208,Clemson,ACC,home,40,rushing,AVG,Nick Schuessler,-4.0
+400610208,Clemson,ACC,home,40,rushing,AVG,Cole Stoudt,-1.0
+400610208,Clemson,ACC,home,40,rushing,TD,Wayne Gallman,0
+400610208,Clemson,ACC,home,40,rushing,TD,Tyshon Dye,0
+400610208,Clemson,ACC,home,40,rushing,TD,Artavis Scott,0
+400610208,Clemson,ACC,home,40,rushing,TD,C.J. Davidson,0
+400610208,Clemson,ACC,home,40,rushing,TD,Kevin Williamson,0
+400610208,Clemson,ACC,home,40,rushing,TD,D.J. Howard,0
+400610208,Clemson,ACC,home,40,rushing,TD,Nick Schuessler,0
+400610208,Clemson,ACC,home,40,rushing,TD,Cole Stoudt,1
+400610208,Clemson,ACC,home,40,rushing,LONG,Wayne Gallman,14
+400610208,Clemson,ACC,home,40,rushing,LONG,Tyshon Dye,4
+400610208,Clemson,ACC,home,40,rushing,LONG,Artavis Scott,6
+400610208,Clemson,ACC,home,40,rushing,LONG,C.J. Davidson,3
+400610208,Clemson,ACC,home,40,rushing,LONG,Kevin Williamson,1
+400610208,Clemson,ACC,home,40,rushing,LONG,D.J. Howard,1
+400610208,Clemson,ACC,home,40,rushing,LONG,Nick Schuessler,0
+400610208,Clemson,ACC,home,40,rushing,LONG,Cole Stoudt,9
+400610208,Clemson,ACC,home,40,receiving,REC,Artavis Scott,8
+400610208,Clemson,ACC,home,40,receiving,REC,Mike Williams,9
+400610208,Clemson,ACC,home,40,receiving,REC,Charone Peake,2
+400610208,Clemson,ACC,home,40,receiving,REC,Adam Humphries,5
+400610208,Clemson,ACC,home,40,receiving,REC,Germone Hopper,1
+400610208,Clemson,ACC,home,40,receiving,REC,D.J. Howard,1
+400610208,Clemson,ACC,home,40,receiving,YDS,Artavis Scott,114
+400610208,Clemson,ACC,home,40,receiving,YDS,Mike Williams,112
+400610208,Clemson,ACC,home,40,receiving,YDS,Charone Peake,40
+400610208,Clemson,ACC,home,40,receiving,YDS,Adam Humphries,28
+400610208,Clemson,ACC,home,40,receiving,YDS,Germone Hopper,24
+400610208,Clemson,ACC,home,40,receiving,YDS,D.J. Howard,1
+400610208,Clemson,ACC,home,40,receiving,AVG,Artavis Scott,14.3
+400610208,Clemson,ACC,home,40,receiving,AVG,Mike Williams,12.4
+400610208,Clemson,ACC,home,40,receiving,AVG,Charone Peake,20.0
+400610208,Clemson,ACC,home,40,receiving,AVG,Adam Humphries,5.6
+400610208,Clemson,ACC,home,40,receiving,AVG,Germone Hopper,24.0
+400610208,Clemson,ACC,home,40,receiving,AVG,D.J. Howard,1.0
+400610208,Clemson,ACC,home,40,receiving,TD,Artavis Scott,1
+400610208,Clemson,ACC,home,40,receiving,TD,Mike Williams,1
+400610208,Clemson,ACC,home,40,receiving,TD,Charone Peake,0
+400610208,Clemson,ACC,home,40,receiving,TD,Adam Humphries,0
+400610208,Clemson,ACC,home,40,receiving,TD,Germone Hopper,1
+400610208,Clemson,ACC,home,40,receiving,TD,D.J. Howard,0
+400610208,Clemson,ACC,home,40,receiving,LONG,Artavis Scott,65
+400610208,Clemson,ACC,home,40,receiving,LONG,Mike Williams,31
+400610208,Clemson,ACC,home,40,receiving,LONG,Charone Peake,22
+400610208,Clemson,ACC,home,40,receiving,LONG,Adam Humphries,7
+400610208,Clemson,ACC,home,40,receiving,LONG,Germone Hopper,24
+400610208,Clemson,ACC,home,40,receiving,LONG,D.J. Howard,1
+400610208,Clemson,ACC,home,40,interceptions,INT,Ben Boulware,1
+400610208,Clemson,ACC,home,40,interceptions,INT,Korrin Wiggins,1
+400610208,Clemson,ACC,home,40,interceptions,INT,T.J. Green,1
+400610208,Clemson,ACC,home,40,interceptions,YDS,Ben Boulware,47
+400610208,Clemson,ACC,home,40,interceptions,YDS,Korrin Wiggins,7
+400610208,Clemson,ACC,home,40,interceptions,YDS,T.J. Green,-3
+400610208,Clemson,ACC,home,40,interceptions,TD,Ben Boulware,1
+400610208,Clemson,ACC,home,40,interceptions,TD,Korrin Wiggins,0
+400610208,Clemson,ACC,home,40,interceptions,TD,T.J. Green,0
+400610208,Clemson,ACC,home,40,kickReturns,NO,T.J. Green,1
+400610208,Clemson,ACC,home,40,kickReturns,YDS,T.J. Green,26
+400610208,Clemson,ACC,home,40,kickReturns,AVG,T.J. Green,26.0
+400610208,Clemson,ACC,home,40,kickReturns,LONG,T.J. Green,26
+400610208,Clemson,ACC,home,40,kickReturns,TD,T.J. Green,0
+400610208,Clemson,ACC,home,40,puntReturns,NO,Adam Humphries,3
+400610208,Clemson,ACC,home,40,puntReturns,YDS,Adam Humphries,5
+400610208,Clemson,ACC,home,40,puntReturns,AVG,Adam Humphries,1.7
+400610208,Clemson,ACC,home,40,puntReturns,LONG,Adam Humphries,4
+400610208,Clemson,ACC,home,40,puntReturns,TD,Adam Humphries,0
+400610208,Clemson,ACC,home,40,kicking,FG,Ammon Lakip,2/3
+400610208,Clemson,ACC,home,40,kicking,PCT,Ammon Lakip,66.7
+400610208,Clemson,ACC,home,40,kicking,LONG,Ammon Lakip,49
+400610208,Clemson,ACC,home,40,kicking,XP,Ammon Lakip,4/5
+400610208,Clemson,ACC,home,40,kicking,PTS,Ammon Lakip,10
+400610208,Clemson,ACC,home,40,punting,NO,Bradley Pinion,5
+400610208,Clemson,ACC,home,40,punting,NO,Andy Teasdall,2
+400610208,Clemson,ACC,home,40,punting,NO,Ammon Lakip,1
+400610208,Clemson,ACC,home,40,punting,YDS,Bradley Pinion,217
+400610208,Clemson,ACC,home,40,punting,YDS,Andy Teasdall,87
+400610208,Clemson,ACC,home,40,punting,YDS,Ammon Lakip,25
+400610208,Clemson,ACC,home,40,punting,AVG,Bradley Pinion,43.4
+400610208,Clemson,ACC,home,40,punting,AVG,Andy Teasdall,43.5
+400610208,Clemson,ACC,home,40,punting,AVG,Ammon Lakip,25.0
+400610208,Clemson,ACC,home,40,punting,TB,Bradley Pinion,0
+400610208,Clemson,ACC,home,40,punting,TB,Andy Teasdall,0
+400610208,Clemson,ACC,home,40,punting,TB,Ammon Lakip,0
+400610208,Clemson,ACC,home,40,punting,In 20,Bradley Pinion,2
+400610208,Clemson,ACC,home,40,punting,In 20,Andy Teasdall,0
+400610208,Clemson,ACC,home,40,punting,In 20,Ammon Lakip,1
+400610208,Clemson,ACC,home,40,punting,LONG,Bradley Pinion,51
+400610208,Clemson,ACC,home,40,punting,LONG,Andy Teasdall,44
+400610208,Clemson,ACC,home,40,punting,LONG,Ammon Lakip,25
+400610208,Oklahoma,Big 12,away,6,passing,C/ATT,Trevor Knight,17/37
+400610208,Oklahoma,Big 12,away,6,passing,YDS,Trevor Knight,103
+400610208,Oklahoma,Big 12,away,6,passing,AVG,Trevor Knight,2.8
+400610208,Oklahoma,Big 12,away,6,passing,TD,Trevor Knight,0
+400610208,Oklahoma,Big 12,away,6,passing,INT,Trevor Knight,3
+400610208,Oklahoma,Big 12,away,6,passing,QBR,Trevor Knight,1.4
+400610208,Oklahoma,Big 12,away,6,rushing,CAR,Samaje Perine,23
+400610208,Oklahoma,Big 12,away,6,rushing,CAR,Alex Ross,2
+400610208,Oklahoma,Big 12,away,6,rushing,CAR,Keith Ford,4
+400610208,Oklahoma,Big 12,away,6,rushing,CAR,Trevor Knight,2
+400610208,Oklahoma,Big 12,away,6,rushing,YDS,Samaje Perine,134
+400610208,Oklahoma,Big 12,away,6,rushing,YDS,Alex Ross,31
+400610208,Oklahoma,Big 12,away,6,rushing,YDS,Keith Ford,8
+400610208,Oklahoma,Big 12,away,6,rushing,YDS,Trevor Knight,-1
+400610208,Oklahoma,Big 12,away,6,rushing,AVG,Samaje Perine,5.8
+400610208,Oklahoma,Big 12,away,6,rushing,AVG,Alex Ross,15.5
+400610208,Oklahoma,Big 12,away,6,rushing,AVG,Keith Ford,2.0
+400610208,Oklahoma,Big 12,away,6,rushing,AVG,Trevor Knight,-0.5
+400610208,Oklahoma,Big 12,away,6,rushing,TD,Samaje Perine,0
+400610208,Oklahoma,Big 12,away,6,rushing,TD,Alex Ross,1
+400610208,Oklahoma,Big 12,away,6,rushing,TD,Keith Ford,0
+400610208,Oklahoma,Big 12,away,6,rushing,TD,Trevor Knight,0
+400610208,Oklahoma,Big 12,away,6,rushing,LONG,Samaje Perine,25
+400610208,Oklahoma,Big 12,away,6,rushing,LONG,Alex Ross,20
+400610208,Oklahoma,Big 12,away,6,rushing,LONG,Keith Ford,8
+400610208,Oklahoma,Big 12,away,6,rushing,LONG,Trevor Knight,7
+400610208,Oklahoma,Big 12,away,6,receiving,REC,Michiah Quick,7
+400610208,Oklahoma,Big 12,away,6,receiving,REC,Samaje Perine,3
+400610208,Oklahoma,Big 12,away,6,receiving,REC,Dimitri Flowers,2
+400610208,Oklahoma,Big 12,away,6,receiving,REC,Sterling Shepard,1
+400610208,Oklahoma,Big 12,away,6,receiving,REC,Durron Neal,2
+400610208,Oklahoma,Big 12,away,6,receiving,REC,Blake Bell,1
+400610208,Oklahoma,Big 12,away,6,receiving,REC,Alex Ross,1
+400610208,Oklahoma,Big 12,away,6,receiving,YDS,Michiah Quick,46
+400610208,Oklahoma,Big 12,away,6,receiving,YDS,Samaje Perine,22
+400610208,Oklahoma,Big 12,away,6,receiving,YDS,Dimitri Flowers,17
+400610208,Oklahoma,Big 12,away,6,receiving,YDS,Sterling Shepard,13
+400610208,Oklahoma,Big 12,away,6,receiving,YDS,Durron Neal,5
+400610208,Oklahoma,Big 12,away,6,receiving,YDS,Blake Bell,1
+400610208,Oklahoma,Big 12,away,6,receiving,YDS,Alex Ross,-1
+400610208,Oklahoma,Big 12,away,6,receiving,AVG,Michiah Quick,6.6
+400610208,Oklahoma,Big 12,away,6,receiving,AVG,Samaje Perine,7.3
+400610208,Oklahoma,Big 12,away,6,receiving,AVG,Dimitri Flowers,8.5
+400610208,Oklahoma,Big 12,away,6,receiving,AVG,Sterling Shepard,13.0
+400610208,Oklahoma,Big 12,away,6,receiving,AVG,Durron Neal,2.5
+400610208,Oklahoma,Big 12,away,6,receiving,AVG,Blake Bell,1.0
+400610208,Oklahoma,Big 12,away,6,receiving,AVG,Alex Ross,-1.0
+400610208,Oklahoma,Big 12,away,6,receiving,TD,Michiah Quick,0
+400610208,Oklahoma,Big 12,away,6,receiving,TD,Samaje Perine,0
+400610208,Oklahoma,Big 12,away,6,receiving,TD,Dimitri Flowers,0
+400610208,Oklahoma,Big 12,away,6,receiving,TD,Sterling Shepard,0
+400610208,Oklahoma,Big 12,away,6,receiving,TD,Durron Neal,0
+400610208,Oklahoma,Big 12,away,6,receiving,TD,Blake Bell,0
+400610208,Oklahoma,Big 12,away,6,receiving,TD,Alex Ross,0
+400610208,Oklahoma,Big 12,away,6,receiving,LONG,Michiah Quick,11
+400610208,Oklahoma,Big 12,away,6,receiving,LONG,Samaje Perine,16
+400610208,Oklahoma,Big 12,away,6,receiving,LONG,Dimitri Flowers,13
+400610208,Oklahoma,Big 12,away,6,receiving,LONG,Sterling Shepard,13
+400610208,Oklahoma,Big 12,away,6,receiving,LONG,Durron Neal,4
+400610208,Oklahoma,Big 12,away,6,receiving,LONG,Blake Bell,1
+400610208,Oklahoma,Big 12,away,6,receiving,LONG,Alex Ross,0
+400610208,Oklahoma,Big 12,away,6,kickReturns,NO,Alex Ross,1
+400610208,Oklahoma,Big 12,away,6,kickReturns,NO,Durron Neal,1
+400610208,Oklahoma,Big 12,away,6,kickReturns,YDS,Alex Ross,14
+400610208,Oklahoma,Big 12,away,6,kickReturns,YDS,Durron Neal,0
+400610208,Oklahoma,Big 12,away,6,kickReturns,AVG,Alex Ross,14.0
+400610208,Oklahoma,Big 12,away,6,kickReturns,AVG,Durron Neal,0.0
+400610208,Oklahoma,Big 12,away,6,kickReturns,LONG,Alex Ross,14
+400610208,Oklahoma,Big 12,away,6,kickReturns,LONG,Durron Neal,0
+400610208,Oklahoma,Big 12,away,6,kickReturns,TD,Alex Ross,0
+400610208,Oklahoma,Big 12,away,6,kickReturns,TD,Durron Neal,0
+400610208,Oklahoma,Big 12,away,6,puntReturns,NO,Zack Sanchez,1
+400610208,Oklahoma,Big 12,away,6,puntReturns,YDS,Zack Sanchez,0
+400610208,Oklahoma,Big 12,away,6,puntReturns,AVG,Zack Sanchez,0.0
+400610208,Oklahoma,Big 12,away,6,puntReturns,LONG,Zack Sanchez,0
+400610208,Oklahoma,Big 12,away,6,puntReturns,TD,Zack Sanchez,0
+400610208,Oklahoma,Big 12,away,6,kicking,FG,Michael Hunnicutt,0/0
+400610208,Oklahoma,Big 12,away,6,kicking,PCT,Michael Hunnicutt,0.0
+400610208,Oklahoma,Big 12,away,6,kicking,LONG,Michael Hunnicutt,0
+400610208,Oklahoma,Big 12,away,6,kicking,XP,Michael Hunnicutt,0/1
+400610208,Oklahoma,Big 12,away,6,kicking,PTS,Michael Hunnicutt,0
+400610208,Oklahoma,Big 12,away,6,punting,NO,Jed Barnett,9
+400610208,Oklahoma,Big 12,away,6,punting,YDS,Jed Barnett,449
+400610208,Oklahoma,Big 12,away,6,punting,AVG,Jed Barnett,49.9
+400610208,Oklahoma,Big 12,away,6,punting,TB,Jed Barnett,1
+400610208,Oklahoma,Big 12,away,6,punting,In 20,Jed Barnett,2
+400610208,Oklahoma,Big 12,away,6,punting,LONG,Jed Barnett,63
+400610226,Texas A&M,SEC,away,45,passing,C/ATT,Kyle Allen,22/35
+400610226,Texas A&M,SEC,away,45,passing,YDS,Kyle Allen,294
+400610226,Texas A&M,SEC,away,45,passing,AVG,Kyle Allen,8.4
+400610226,Texas A&M,SEC,away,45,passing,TD,Kyle Allen,4
+400610226,Texas A&M,SEC,away,45,passing,INT,Kyle Allen,1
+400610226,Texas A&M,SEC,away,45,passing,QBR,Kyle Allen,84.0
+400610226,Texas A&M,SEC,away,45,rushing,CAR,Tra Carson,25
+400610226,Texas A&M,SEC,away,45,rushing,CAR,Trey Williams,11
+400610226,Texas A&M,SEC,away,45,rushing,CAR,Kyle Allen,10
+400610226,Texas A&M,SEC,away,45,rushing,CAR,Brandon Williams,1
+400610226,Texas A&M,SEC,away,45,rushing,YDS,Tra Carson,133
+400610226,Texas A&M,SEC,away,45,rushing,YDS,Trey Williams,86
+400610226,Texas A&M,SEC,away,45,rushing,YDS,Kyle Allen,33
+400610226,Texas A&M,SEC,away,45,rushing,YDS,Brandon Williams,5
+400610226,Texas A&M,SEC,away,45,rushing,AVG,Tra Carson,5.3
+400610226,Texas A&M,SEC,away,45,rushing,AVG,Trey Williams,7.8
+400610226,Texas A&M,SEC,away,45,rushing,AVG,Kyle Allen,3.3
+400610226,Texas A&M,SEC,away,45,rushing,AVG,Brandon Williams,5.0
+400610226,Texas A&M,SEC,away,45,rushing,TD,Tra Carson,0
+400610226,Texas A&M,SEC,away,45,rushing,TD,Trey Williams,1
+400610226,Texas A&M,SEC,away,45,rushing,TD,Kyle Allen,1
+400610226,Texas A&M,SEC,away,45,rushing,TD,Brandon Williams,0
+400610226,Texas A&M,SEC,away,45,rushing,LONG,Tra Carson,39
+400610226,Texas A&M,SEC,away,45,rushing,LONG,Trey Williams,18
+400610226,Texas A&M,SEC,away,45,rushing,LONG,Kyle Allen,14
+400610226,Texas A&M,SEC,away,45,rushing,LONG,Brandon Williams,5
+400610226,Texas A&M,SEC,away,45,receiving,REC,Malcome Kennedy,7
+400610226,Texas A&M,SEC,away,45,receiving,REC,Josh Reynolds,5
+400610226,Texas A&M,SEC,away,45,receiving,REC,Trey Williams,2
+400610226,Texas A&M,SEC,away,45,receiving,REC,Speedy Noil,2
+400610226,Texas A&M,SEC,away,45,receiving,REC,Ricky Seals-Jones,1
+400610226,Texas A&M,SEC,away,45,receiving,REC,Tra Carson,1
+400610226,Texas A&M,SEC,away,45,receiving,REC,Frank Iheanacho,1
+400610226,Texas A&M,SEC,away,45,receiving,REC,Sabian Holmes,2
+400610226,Texas A&M,SEC,away,45,receiving,REC,Jeremy Tabuyo,1
+400610226,Texas A&M,SEC,away,45,receiving,YDS,Malcome Kennedy,82
+400610226,Texas A&M,SEC,away,45,receiving,YDS,Josh Reynolds,80
+400610226,Texas A&M,SEC,away,45,receiving,YDS,Trey Williams,46
+400610226,Texas A&M,SEC,away,45,receiving,YDS,Speedy Noil,24
+400610226,Texas A&M,SEC,away,45,receiving,YDS,Ricky Seals-Jones,21
+400610226,Texas A&M,SEC,away,45,receiving,YDS,Tra Carson,20
+400610226,Texas A&M,SEC,away,45,receiving,YDS,Frank Iheanacho,13
+400610226,Texas A&M,SEC,away,45,receiving,YDS,Sabian Holmes,8
+400610226,Texas A&M,SEC,away,45,receiving,YDS,Jeremy Tabuyo,0
+400610226,Texas A&M,SEC,away,45,receiving,AVG,Malcome Kennedy,11.7
+400610226,Texas A&M,SEC,away,45,receiving,AVG,Josh Reynolds,16.0
+400610226,Texas A&M,SEC,away,45,receiving,AVG,Trey Williams,23.0
+400610226,Texas A&M,SEC,away,45,receiving,AVG,Speedy Noil,12.0
+400610226,Texas A&M,SEC,away,45,receiving,AVG,Ricky Seals-Jones,21.0
+400610226,Texas A&M,SEC,away,45,receiving,AVG,Tra Carson,20.0
+400610226,Texas A&M,SEC,away,45,receiving,AVG,Frank Iheanacho,13.0
+400610226,Texas A&M,SEC,away,45,receiving,AVG,Sabian Holmes,4.0
+400610226,Texas A&M,SEC,away,45,receiving,AVG,Jeremy Tabuyo,0.0
+400610226,Texas A&M,SEC,away,45,receiving,TD,Malcome Kennedy,2
+400610226,Texas A&M,SEC,away,45,receiving,TD,Josh Reynolds,1
+400610226,Texas A&M,SEC,away,45,receiving,TD,Trey Williams,1
+400610226,Texas A&M,SEC,away,45,receiving,TD,Speedy Noil,0
+400610226,Texas A&M,SEC,away,45,receiving,TD,Ricky Seals-Jones,0
+400610226,Texas A&M,SEC,away,45,receiving,TD,Tra Carson,0
+400610226,Texas A&M,SEC,away,45,receiving,TD,Frank Iheanacho,0
+400610226,Texas A&M,SEC,away,45,receiving,TD,Sabian Holmes,0
+400610226,Texas A&M,SEC,away,45,receiving,TD,Jeremy Tabuyo,0
+400610226,Texas A&M,SEC,away,45,receiving,LONG,Malcome Kennedy,22
+400610226,Texas A&M,SEC,away,45,receiving,LONG,Josh Reynolds,44
+400610226,Texas A&M,SEC,away,45,receiving,LONG,Trey Williams,40
+400610226,Texas A&M,SEC,away,45,receiving,LONG,Speedy Noil,12
+400610226,Texas A&M,SEC,away,45,receiving,LONG,Ricky Seals-Jones,21
+400610226,Texas A&M,SEC,away,45,receiving,LONG,Tra Carson,20
+400610226,Texas A&M,SEC,away,45,receiving,LONG,Frank Iheanacho,13
+400610226,Texas A&M,SEC,away,45,receiving,LONG,Sabian Holmes,9
+400610226,Texas A&M,SEC,away,45,receiving,LONG,Jeremy Tabuyo,0
+400610226,Texas A&M,SEC,away,45,kickReturns,NO,Trey Williams,4
+400610226,Texas A&M,SEC,away,45,kickReturns,NO,Speedy Noil,3
+400610226,Texas A&M,SEC,away,45,kickReturns,YDS,Trey Williams,103
+400610226,Texas A&M,SEC,away,45,kickReturns,YDS,Speedy Noil,70
+400610226,Texas A&M,SEC,away,45,kickReturns,AVG,Trey Williams,25.8
+400610226,Texas A&M,SEC,away,45,kickReturns,AVG,Speedy Noil,23.3
+400610226,Texas A&M,SEC,away,45,kickReturns,LONG,Trey Williams,33
+400610226,Texas A&M,SEC,away,45,kickReturns,LONG,Speedy Noil,30
+400610226,Texas A&M,SEC,away,45,kickReturns,TD,Trey Williams,0
+400610226,Texas A&M,SEC,away,45,kickReturns,TD,Speedy Noil,0
+400610226,Texas A&M,SEC,away,45,puntReturns,NO,Speedy Noil,1
+400610226,Texas A&M,SEC,away,45,puntReturns,YDS,Speedy Noil,2
+400610226,Texas A&M,SEC,away,45,puntReturns,AVG,Speedy Noil,2.0
+400610226,Texas A&M,SEC,away,45,puntReturns,LONG,Speedy Noil,2
+400610226,Texas A&M,SEC,away,45,puntReturns,TD,Speedy Noil,0
+400610226,Texas A&M,SEC,away,45,kicking,FG,Josh Lambo,1/1
+400610226,Texas A&M,SEC,away,45,kicking,PCT,Josh Lambo,100.0
+400610226,Texas A&M,SEC,away,45,kicking,LONG,Josh Lambo,26
+400610226,Texas A&M,SEC,away,45,kicking,XP,Josh Lambo,6/6
+400610226,Texas A&M,SEC,away,45,kicking,PTS,Josh Lambo,9
+400610226,Texas A&M,SEC,away,45,punting,NO,Drew Kaser,6
+400610226,Texas A&M,SEC,away,45,punting,YDS,Drew Kaser,245
+400610226,Texas A&M,SEC,away,45,punting,AVG,Drew Kaser,40.8
+400610226,Texas A&M,SEC,away,45,punting,TB,Drew Kaser,1
+400610226,Texas A&M,SEC,away,45,punting,In 20,Drew Kaser,3
+400610226,Texas A&M,SEC,away,45,punting,LONG,Drew Kaser,55
+400610226,West Virginia,Big 12,home,37,passing,C/ATT,Skyler Howard,20/45
+400610226,West Virginia,Big 12,home,37,passing,YDS,Skyler Howard,346
+400610226,West Virginia,Big 12,home,37,passing,AVG,Skyler Howard,7.7
+400610226,West Virginia,Big 12,home,37,passing,TD,Skyler Howard,3
+400610226,West Virginia,Big 12,home,37,passing,INT,Skyler Howard,0
+400610226,West Virginia,Big 12,home,37,passing,QBR,Skyler Howard,47.0
+400610226,West Virginia,Big 12,home,37,rushing,CAR,Wendell Smallwood,8
+400610226,West Virginia,Big 12,home,37,rushing,CAR,Skyler Howard,10
+400610226,West Virginia,Big 12,home,37,rushing,CAR,Rushel Shell,12
+400610226,West Virginia,Big 12,home,37,rushing,CAR,Dreamius Smith,1
+400610226,West Virginia,Big 12,home,37,rushing,CAR,Jordan Thompson,1
+400610226,West Virginia,Big 12,home,37,rushing,YDS,Wendell Smallwood,77
+400610226,West Virginia,Big 12,home,37,rushing,YDS,Skyler Howard,33
+400610226,West Virginia,Big 12,home,37,rushing,YDS,Rushel Shell,22
+400610226,West Virginia,Big 12,home,37,rushing,YDS,Dreamius Smith,-3
+400610226,West Virginia,Big 12,home,37,rushing,YDS,Jordan Thompson,-3
+400610226,West Virginia,Big 12,home,37,rushing,AVG,Wendell Smallwood,9.6
+400610226,West Virginia,Big 12,home,37,rushing,AVG,Skyler Howard,3.3
+400610226,West Virginia,Big 12,home,37,rushing,AVG,Rushel Shell,1.8
+400610226,West Virginia,Big 12,home,37,rushing,AVG,Dreamius Smith,-3.0
+400610226,West Virginia,Big 12,home,37,rushing,AVG,Jordan Thompson,-3.0
+400610226,West Virginia,Big 12,home,37,rushing,TD,Wendell Smallwood,0
+400610226,West Virginia,Big 12,home,37,rushing,TD,Skyler Howard,0
+400610226,West Virginia,Big 12,home,37,rushing,TD,Rushel Shell,0
+400610226,West Virginia,Big 12,home,37,rushing,TD,Dreamius Smith,0
+400610226,West Virginia,Big 12,home,37,rushing,TD,Jordan Thompson,0
+400610226,West Virginia,Big 12,home,37,rushing,LONG,Wendell Smallwood,35
+400610226,West Virginia,Big 12,home,37,rushing,LONG,Skyler Howard,18
+400610226,West Virginia,Big 12,home,37,rushing,LONG,Rushel Shell,7
+400610226,West Virginia,Big 12,home,37,rushing,LONG,Dreamius Smith,0
+400610226,West Virginia,Big 12,home,37,rushing,LONG,Jordan Thompson,0
+400610226,West Virginia,Big 12,home,37,receiving,REC,Kevin White,7
+400610226,West Virginia,Big 12,home,37,receiving,REC,Jordan Thompson,3
+400610226,West Virginia,Big 12,home,37,receiving,REC,Mario Alford,3
+400610226,West Virginia,Big 12,home,37,receiving,REC,Shelton Gibson,1
+400610226,West Virginia,Big 12,home,37,receiving,REC,Rushel Shell,2
+400610226,West Virginia,Big 12,home,37,receiving,REC,Dreamius Smith,1
+400610226,West Virginia,Big 12,home,37,receiving,REC,Wendell Smallwood,1
+400610226,West Virginia,Big 12,home,37,receiving,REC,Elijah Wellman,1
+400610226,West Virginia,Big 12,home,37,receiving,REC,Andrew Buie,1
+400610226,West Virginia,Big 12,home,37,receiving,YDS,Kevin White,129
+400610226,West Virginia,Big 12,home,37,receiving,YDS,Jordan Thompson,84
+400610226,West Virginia,Big 12,home,37,receiving,YDS,Mario Alford,57
+400610226,West Virginia,Big 12,home,37,receiving,YDS,Shelton Gibson,47
+400610226,West Virginia,Big 12,home,37,receiving,YDS,Rushel Shell,9
+400610226,West Virginia,Big 12,home,37,receiving,YDS,Dreamius Smith,8
+400610226,West Virginia,Big 12,home,37,receiving,YDS,Wendell Smallwood,5
+400610226,West Virginia,Big 12,home,37,receiving,YDS,Elijah Wellman,4
+400610226,West Virginia,Big 12,home,37,receiving,YDS,Andrew Buie,3
+400610226,West Virginia,Big 12,home,37,receiving,AVG,Kevin White,18.4
+400610226,West Virginia,Big 12,home,37,receiving,AVG,Jordan Thompson,28.0
+400610226,West Virginia,Big 12,home,37,receiving,AVG,Mario Alford,19.0
+400610226,West Virginia,Big 12,home,37,receiving,AVG,Shelton Gibson,47.0
+400610226,West Virginia,Big 12,home,37,receiving,AVG,Rushel Shell,4.5
+400610226,West Virginia,Big 12,home,37,receiving,AVG,Dreamius Smith,8.0
+400610226,West Virginia,Big 12,home,37,receiving,AVG,Wendell Smallwood,5.0
+400610226,West Virginia,Big 12,home,37,receiving,AVG,Elijah Wellman,4.0
+400610226,West Virginia,Big 12,home,37,receiving,AVG,Andrew Buie,3.0
+400610226,West Virginia,Big 12,home,37,receiving,TD,Kevin White,1
+400610226,West Virginia,Big 12,home,37,receiving,TD,Jordan Thompson,0
+400610226,West Virginia,Big 12,home,37,receiving,TD,Mario Alford,1
+400610226,West Virginia,Big 12,home,37,receiving,TD,Shelton Gibson,0
+400610226,West Virginia,Big 12,home,37,receiving,TD,Rushel Shell,0
+400610226,West Virginia,Big 12,home,37,receiving,TD,Dreamius Smith,0
+400610226,West Virginia,Big 12,home,37,receiving,TD,Wendell Smallwood,0
+400610226,West Virginia,Big 12,home,37,receiving,TD,Elijah Wellman,1
+400610226,West Virginia,Big 12,home,37,receiving,TD,Andrew Buie,0
+400610226,West Virginia,Big 12,home,37,receiving,LONG,Kevin White,49
+400610226,West Virginia,Big 12,home,37,receiving,LONG,Jordan Thompson,43
+400610226,West Virginia,Big 12,home,37,receiving,LONG,Mario Alford,45
+400610226,West Virginia,Big 12,home,37,receiving,LONG,Shelton Gibson,47
+400610226,West Virginia,Big 12,home,37,receiving,LONG,Rushel Shell,10
+400610226,West Virginia,Big 12,home,37,receiving,LONG,Dreamius Smith,8
+400610226,West Virginia,Big 12,home,37,receiving,LONG,Wendell Smallwood,5
+400610226,West Virginia,Big 12,home,37,receiving,LONG,Elijah Wellman,4
+400610226,West Virginia,Big 12,home,37,receiving,LONG,Andrew Buie,3
+400610226,West Virginia,Big 12,home,37,interceptions,INT,K.J. Dillon,1
+400610226,West Virginia,Big 12,home,37,interceptions,YDS,K.J. Dillon,35
+400610226,West Virginia,Big 12,home,37,interceptions,TD,K.J. Dillon,1
+400610226,West Virginia,Big 12,home,37,kickReturns,NO,Mario Alford,4
+400610226,West Virginia,Big 12,home,37,kickReturns,NO,Shelton Gibson,2
+400610226,West Virginia,Big 12,home,37,kickReturns,YDS,Mario Alford,134
+400610226,West Virginia,Big 12,home,37,kickReturns,YDS,Shelton Gibson,30
+400610226,West Virginia,Big 12,home,37,kickReturns,AVG,Mario Alford,33.5
+400610226,West Virginia,Big 12,home,37,kickReturns,AVG,Shelton Gibson,15.0
+400610226,West Virginia,Big 12,home,37,kickReturns,LONG,Mario Alford,50
+400610226,West Virginia,Big 12,home,37,kickReturns,LONG,Shelton Gibson,19
+400610226,West Virginia,Big 12,home,37,kickReturns,TD,Mario Alford,0
+400610226,West Virginia,Big 12,home,37,kickReturns,TD,Shelton Gibson,0
+400610226,West Virginia,Big 12,home,37,puntReturns,NO,Vernon Davis,1
+400610226,West Virginia,Big 12,home,37,puntReturns,YDS,Vernon Davis,-3
+400610226,West Virginia,Big 12,home,37,puntReturns,AVG,Vernon Davis,-3.0
+400610226,West Virginia,Big 12,home,37,puntReturns,LONG,Vernon Davis,-3
+400610226,West Virginia,Big 12,home,37,puntReturns,TD,Vernon Davis,0
+400610226,West Virginia,Big 12,home,37,kicking,FG,Josh Lambert,3/3
+400610226,West Virginia,Big 12,home,37,kicking,PCT,Josh Lambert,100.0
+400610226,West Virginia,Big 12,home,37,kicking,LONG,Josh Lambert,40
+400610226,West Virginia,Big 12,home,37,kicking,XP,Josh Lambert,4/4
+400610226,West Virginia,Big 12,home,37,kicking,PTS,Josh Lambert,13
+400610226,West Virginia,Big 12,home,37,punting,NO,Nick O'Toole,5
+400610226,West Virginia,Big 12,home,37,punting,YDS,Nick O'Toole,173
+400610226,West Virginia,Big 12,home,37,punting,AVG,Nick O'Toole,34.6
+400610226,West Virginia,Big 12,home,37,punting,TB,Nick O'Toole,0
+400610226,West Virginia,Big 12,home,37,punting,In 20,Nick O'Toole,1
+400610226,West Virginia,Big 12,home,37,punting,LONG,Nick O'Toole,45

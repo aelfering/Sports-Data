@@ -1,0 +1,1208 @@
+game_id,school,conference,homeAway,points,stat_category,stat_type,athlete,stat
+333622306,Kansas State,Big 12,home,31,passing,C/ATT,Jake Waters,21/27
+333622306,Kansas State,Big 12,home,31,passing,C/ATT,Daniel Sams,0/1
+333622306,Kansas State,Big 12,home,31,passing,YDS,Jake Waters,271
+333622306,Kansas State,Big 12,home,31,passing,YDS,Daniel Sams,0
+333622306,Kansas State,Big 12,home,31,passing,AVG,Jake Waters,10.0
+333622306,Kansas State,Big 12,home,31,passing,AVG,Daniel Sams,0.0
+333622306,Kansas State,Big 12,home,31,passing,TD,Jake Waters,3
+333622306,Kansas State,Big 12,home,31,passing,TD,Daniel Sams,0
+333622306,Kansas State,Big 12,home,31,passing,INT,Jake Waters,0
+333622306,Kansas State,Big 12,home,31,passing,INT,Daniel Sams,0
+333622306,Kansas State,Big 12,home,31,passing,QBR,Jake Waters,94.5
+333622306,Kansas State,Big 12,home,31,passing,QBR,Daniel Sams,0.3
+333622306,Kansas State,Big 12,home,31,rushing,CAR,John Hubert,16
+333622306,Kansas State,Big 12,home,31,rushing,CAR,Jake Waters,12
+333622306,Kansas State,Big 12,home,31,rushing,CAR,Daniel Sams,4
+333622306,Kansas State,Big 12,home,31,rushing,CAR,Tyler Lockett,1
+333622306,Kansas State,Big 12,home,31,rushing,CAR,Robert Rose,2
+333622306,Kansas State,Big 12,home,31,rushing,YDS,John Hubert,80
+333622306,Kansas State,Big 12,home,31,rushing,YDS,Jake Waters,42
+333622306,Kansas State,Big 12,home,31,rushing,YDS,Daniel Sams,23
+333622306,Kansas State,Big 12,home,31,rushing,YDS,Tyler Lockett,4
+333622306,Kansas State,Big 12,home,31,rushing,YDS,Robert Rose,2
+333622306,Kansas State,Big 12,home,31,rushing,AVG,John Hubert,5.0
+333622306,Kansas State,Big 12,home,31,rushing,AVG,Jake Waters,3.5
+333622306,Kansas State,Big 12,home,31,rushing,AVG,Daniel Sams,5.8
+333622306,Kansas State,Big 12,home,31,rushing,AVG,Tyler Lockett,4.0
+333622306,Kansas State,Big 12,home,31,rushing,AVG,Robert Rose,1.0
+333622306,Kansas State,Big 12,home,31,rushing,TD,John Hubert,1
+333622306,Kansas State,Big 12,home,31,rushing,TD,Jake Waters,0
+333622306,Kansas State,Big 12,home,31,rushing,TD,Daniel Sams,0
+333622306,Kansas State,Big 12,home,31,rushing,TD,Tyler Lockett,0
+333622306,Kansas State,Big 12,home,31,rushing,TD,Robert Rose,0
+333622306,Kansas State,Big 12,home,31,rushing,LONG,John Hubert,15
+333622306,Kansas State,Big 12,home,31,rushing,LONG,Jake Waters,21
+333622306,Kansas State,Big 12,home,31,rushing,LONG,Daniel Sams,7
+333622306,Kansas State,Big 12,home,31,rushing,LONG,Tyler Lockett,5
+333622306,Kansas State,Big 12,home,31,rushing,LONG,Robert Rose,3
+333622306,Kansas State,Big 12,home,31,receiving,REC,Tyler Lockett,10
+333622306,Kansas State,Big 12,home,31,receiving,REC,Tramaine Thompson,4
+333622306,Kansas State,Big 12,home,31,receiving,REC,Glenn Gronkowski,1
+333622306,Kansas State,Big 12,home,31,receiving,REC,Curry Sexton,3
+333622306,Kansas State,Big 12,home,31,receiving,REC,Andre McDonald,1
+333622306,Kansas State,Big 12,home,31,receiving,REC,Torell Miller,1
+333622306,Kansas State,Big 12,home,31,receiving,REC,John Hubert,1
+333622306,Kansas State,Big 12,home,31,receiving,YDS,Tyler Lockett,116
+333622306,Kansas State,Big 12,home,31,receiving,YDS,Tramaine Thompson,56
+333622306,Kansas State,Big 12,home,31,receiving,YDS,Glenn Gronkowski,46
+333622306,Kansas State,Big 12,home,31,receiving,YDS,Curry Sexton,37
+333622306,Kansas State,Big 12,home,31,receiving,YDS,Andre McDonald,9
+333622306,Kansas State,Big 12,home,31,receiving,YDS,Torell Miller,5
+333622306,Kansas State,Big 12,home,31,receiving,YDS,John Hubert,2
+333622306,Kansas State,Big 12,home,31,receiving,AVG,Tyler Lockett,11.6
+333622306,Kansas State,Big 12,home,31,receiving,AVG,Tramaine Thompson,14.0
+333622306,Kansas State,Big 12,home,31,receiving,AVG,Glenn Gronkowski,46.0
+333622306,Kansas State,Big 12,home,31,receiving,AVG,Curry Sexton,12.3
+333622306,Kansas State,Big 12,home,31,receiving,AVG,Andre McDonald,9.0
+333622306,Kansas State,Big 12,home,31,receiving,AVG,Torell Miller,5.0
+333622306,Kansas State,Big 12,home,31,receiving,AVG,John Hubert,2.0
+333622306,Kansas State,Big 12,home,31,receiving,TD,Tyler Lockett,3
+333622306,Kansas State,Big 12,home,31,receiving,TD,Tramaine Thompson,0
+333622306,Kansas State,Big 12,home,31,receiving,TD,Glenn Gronkowski,0
+333622306,Kansas State,Big 12,home,31,receiving,TD,Curry Sexton,0
+333622306,Kansas State,Big 12,home,31,receiving,TD,Andre McDonald,0
+333622306,Kansas State,Big 12,home,31,receiving,TD,Torell Miller,0
+333622306,Kansas State,Big 12,home,31,receiving,TD,John Hubert,0
+333622306,Kansas State,Big 12,home,31,receiving,LONG,Tyler Lockett,29
+333622306,Kansas State,Big 12,home,31,receiving,LONG,Tramaine Thompson,35
+333622306,Kansas State,Big 12,home,31,receiving,LONG,Glenn Gronkowski,46
+333622306,Kansas State,Big 12,home,31,receiving,LONG,Curry Sexton,19
+333622306,Kansas State,Big 12,home,31,receiving,LONG,Andre McDonald,9
+333622306,Kansas State,Big 12,home,31,receiving,LONG,Torell Miller,5
+333622306,Kansas State,Big 12,home,31,receiving,LONG,John Hubert,2
+333622306,Kansas State,Big 12,home,31,interceptions,INT,Dante Barnett,1
+333622306,Kansas State,Big 12,home,31,interceptions,YDS,Dante Barnett,51
+333622306,Kansas State,Big 12,home,31,interceptions,TD,Dante Barnett,0
+333622306,Kansas State,Big 12,home,31,kickReturns,NO,Tyler Lockett,2
+333622306,Kansas State,Big 12,home,31,kickReturns,YDS,Tyler Lockett,74
+333622306,Kansas State,Big 12,home,31,kickReturns,AVG,Tyler Lockett,37.0
+333622306,Kansas State,Big 12,home,31,kickReturns,LONG,Tyler Lockett,40
+333622306,Kansas State,Big 12,home,31,kickReturns,TD,Tyler Lockett,0
+333622306,Kansas State,Big 12,home,31,puntReturns,NO,Tramaine Thompson,3
+333622306,Kansas State,Big 12,home,31,puntReturns,YDS,Tramaine Thompson,1
+333622306,Kansas State,Big 12,home,31,puntReturns,AVG,Tramaine Thompson,0.3
+333622306,Kansas State,Big 12,home,31,puntReturns,LONG,Tramaine Thompson,8
+333622306,Kansas State,Big 12,home,31,puntReturns,TD,Tramaine Thompson,0
+333622306,Kansas State,Big 12,home,31,kicking,FG,Ian Patterson,1/1
+333622306,Kansas State,Big 12,home,31,kicking,PCT,Ian Patterson,100.0
+333622306,Kansas State,Big 12,home,31,kicking,LONG,Ian Patterson,22
+333622306,Kansas State,Big 12,home,31,kicking,XP,Ian Patterson,4/4
+333622306,Kansas State,Big 12,home,31,kicking,PTS,Ian Patterson,7
+333622306,Kansas State,Big 12,home,31,punting,NO,Mark Krause,1
+333622306,Kansas State,Big 12,home,31,punting,YDS,Mark Krause,45
+333622306,Kansas State,Big 12,home,31,punting,AVG,Mark Krause,45.0
+333622306,Kansas State,Big 12,home,31,punting,TB,Mark Krause,0
+333622306,Kansas State,Big 12,home,31,punting,In 20,Mark Krause,0
+333622306,Kansas State,Big 12,home,31,punting,LONG,Mark Krause,45
+333622306,Michigan,Big Ten,away,14,passing,C/ATT,Shane Morris,24/38
+333622306,Michigan,Big Ten,away,14,passing,YDS,Shane Morris,196
+333622306,Michigan,Big Ten,away,14,passing,AVG,Shane Morris,5.2
+333622306,Michigan,Big Ten,away,14,passing,TD,Shane Morris,0
+333622306,Michigan,Big Ten,away,14,passing,INT,Shane Morris,1
+333622306,Michigan,Big Ten,away,14,passing,QBR,Shane Morris,46.6
+333622306,Michigan,Big Ten,away,14,rushing,CAR,Shane Morris,4
+333622306,Michigan,Big Ten,away,14,rushing,CAR,Devin Funchess,2
+333622306,Michigan,Big Ten,away,14,rushing,CAR,De'Veon Smith,4
+333622306,Michigan,Big Ten,away,14,rushing,CAR,Derrick Green,1
+333622306,Michigan,Big Ten,away,14,rushing,CAR,Fitzgerald Toussaint,2
+333622306,Michigan,Big Ten,away,14,rushing,CAR,Justice Hayes,1
+333622306,Michigan,Big Ten,away,14,rushing,CAR,Jeremy Gallon,1
+333622306,Michigan,Big Ten,away,14,rushing,YDS,Shane Morris,43
+333622306,Michigan,Big Ten,away,14,rushing,YDS,Devin Funchess,14
+333622306,Michigan,Big Ten,away,14,rushing,YDS,De'Veon Smith,7
+333622306,Michigan,Big Ten,away,14,rushing,YDS,Derrick Green,5
+333622306,Michigan,Big Ten,away,14,rushing,YDS,Fitzgerald Toussaint,2
+333622306,Michigan,Big Ten,away,14,rushing,YDS,Justice Hayes,-1
+333622306,Michigan,Big Ten,away,14,rushing,YDS,Jeremy Gallon,-5
+333622306,Michigan,Big Ten,away,14,rushing,AVG,Shane Morris,10.8
+333622306,Michigan,Big Ten,away,14,rushing,AVG,Devin Funchess,7.0
+333622306,Michigan,Big Ten,away,14,rushing,AVG,De'Veon Smith,1.8
+333622306,Michigan,Big Ten,away,14,rushing,AVG,Derrick Green,5.0
+333622306,Michigan,Big Ten,away,14,rushing,AVG,Fitzgerald Toussaint,1.0
+333622306,Michigan,Big Ten,away,14,rushing,AVG,Justice Hayes,-1.0
+333622306,Michigan,Big Ten,away,14,rushing,AVG,Jeremy Gallon,-5.0
+333622306,Michigan,Big Ten,away,14,rushing,TD,Shane Morris,0
+333622306,Michigan,Big Ten,away,14,rushing,TD,Devin Funchess,0
+333622306,Michigan,Big Ten,away,14,rushing,TD,De'Veon Smith,0
+333622306,Michigan,Big Ten,away,14,rushing,TD,Derrick Green,0
+333622306,Michigan,Big Ten,away,14,rushing,TD,Fitzgerald Toussaint,1
+333622306,Michigan,Big Ten,away,14,rushing,TD,Justice Hayes,0
+333622306,Michigan,Big Ten,away,14,rushing,TD,Jeremy Gallon,0
+333622306,Michigan,Big Ten,away,14,rushing,LONG,Shane Morris,40
+333622306,Michigan,Big Ten,away,14,rushing,LONG,Devin Funchess,14
+333622306,Michigan,Big Ten,away,14,rushing,LONG,De'Veon Smith,6
+333622306,Michigan,Big Ten,away,14,rushing,LONG,Derrick Green,5
+333622306,Michigan,Big Ten,away,14,rushing,LONG,Fitzgerald Toussaint,3
+333622306,Michigan,Big Ten,away,14,rushing,LONG,Justice Hayes,0
+333622306,Michigan,Big Ten,away,14,rushing,LONG,Jeremy Gallon,0
+333622306,Michigan,Big Ten,away,14,receiving,REC,Jeremy Gallon,9
+333622306,Michigan,Big Ten,away,14,receiving,REC,Jake Butt,3
+333622306,Michigan,Big Ten,away,14,receiving,REC,Justice Hayes,3
+333622306,Michigan,Big Ten,away,14,receiving,REC,Devin Funchess,2
+333622306,Michigan,Big Ten,away,14,receiving,REC,Dennis Norfleet,1
+333622306,Michigan,Big Ten,away,14,receiving,REC,Drew Dileo,2
+333622306,Michigan,Big Ten,away,14,receiving,REC,Jehu Chesson,2
+333622306,Michigan,Big Ten,away,14,receiving,REC,Sione Houma,1
+333622306,Michigan,Big Ten,away,14,receiving,REC,Fitzgerald Toussaint,1
+333622306,Michigan,Big Ten,away,14,receiving,YDS,Jeremy Gallon,89
+333622306,Michigan,Big Ten,away,14,receiving,YDS,Jake Butt,33
+333622306,Michigan,Big Ten,away,14,receiving,YDS,Justice Hayes,22
+333622306,Michigan,Big Ten,away,14,receiving,YDS,Devin Funchess,21
+333622306,Michigan,Big Ten,away,14,receiving,YDS,Dennis Norfleet,9
+333622306,Michigan,Big Ten,away,14,receiving,YDS,Drew Dileo,9
+333622306,Michigan,Big Ten,away,14,receiving,YDS,Jehu Chesson,8
+333622306,Michigan,Big Ten,away,14,receiving,YDS,Sione Houma,5
+333622306,Michigan,Big Ten,away,14,receiving,YDS,Fitzgerald Toussaint,0
+333622306,Michigan,Big Ten,away,14,receiving,AVG,Jeremy Gallon,9.9
+333622306,Michigan,Big Ten,away,14,receiving,AVG,Jake Butt,11.0
+333622306,Michigan,Big Ten,away,14,receiving,AVG,Justice Hayes,7.3
+333622306,Michigan,Big Ten,away,14,receiving,AVG,Devin Funchess,10.5
+333622306,Michigan,Big Ten,away,14,receiving,AVG,Dennis Norfleet,9.0
+333622306,Michigan,Big Ten,away,14,receiving,AVG,Drew Dileo,4.5
+333622306,Michigan,Big Ten,away,14,receiving,AVG,Jehu Chesson,4.0
+333622306,Michigan,Big Ten,away,14,receiving,AVG,Sione Houma,5.0
+333622306,Michigan,Big Ten,away,14,receiving,AVG,Fitzgerald Toussaint,0.0
+333622306,Michigan,Big Ten,away,14,receiving,TD,Jeremy Gallon,0
+333622306,Michigan,Big Ten,away,14,receiving,TD,Jake Butt,0
+333622306,Michigan,Big Ten,away,14,receiving,TD,Justice Hayes,0
+333622306,Michigan,Big Ten,away,14,receiving,TD,Devin Funchess,0
+333622306,Michigan,Big Ten,away,14,receiving,TD,Dennis Norfleet,0
+333622306,Michigan,Big Ten,away,14,receiving,TD,Drew Dileo,0
+333622306,Michigan,Big Ten,away,14,receiving,TD,Jehu Chesson,0
+333622306,Michigan,Big Ten,away,14,receiving,TD,Sione Houma,0
+333622306,Michigan,Big Ten,away,14,receiving,TD,Fitzgerald Toussaint,0
+333622306,Michigan,Big Ten,away,14,receiving,LONG,Jeremy Gallon,22
+333622306,Michigan,Big Ten,away,14,receiving,LONG,Jake Butt,24
+333622306,Michigan,Big Ten,away,14,receiving,LONG,Justice Hayes,13
+333622306,Michigan,Big Ten,away,14,receiving,LONG,Devin Funchess,14
+333622306,Michigan,Big Ten,away,14,receiving,LONG,Dennis Norfleet,9
+333622306,Michigan,Big Ten,away,14,receiving,LONG,Drew Dileo,8
+333622306,Michigan,Big Ten,away,14,receiving,LONG,Jehu Chesson,4
+333622306,Michigan,Big Ten,away,14,receiving,LONG,Sione Houma,5
+333622306,Michigan,Big Ten,away,14,receiving,LONG,Fitzgerald Toussaint,0
+333622306,Michigan,Big Ten,away,14,kickReturns,NO,Dennis Norfleet,4
+333622306,Michigan,Big Ten,away,14,kickReturns,NO,Jourdan Lewis,1
+333622306,Michigan,Big Ten,away,14,kickReturns,YDS,Dennis Norfleet,88
+333622306,Michigan,Big Ten,away,14,kickReturns,YDS,Jourdan Lewis,18
+333622306,Michigan,Big Ten,away,14,kickReturns,AVG,Dennis Norfleet,22.0
+333622306,Michigan,Big Ten,away,14,kickReturns,AVG,Jourdan Lewis,18.0
+333622306,Michigan,Big Ten,away,14,kickReturns,LONG,Dennis Norfleet,33
+333622306,Michigan,Big Ten,away,14,kickReturns,LONG,Jourdan Lewis,18
+333622306,Michigan,Big Ten,away,14,kickReturns,TD,Dennis Norfleet,0
+333622306,Michigan,Big Ten,away,14,kickReturns,TD,Jourdan Lewis,0
+333622306,Michigan,Big Ten,away,14,kicking,FG,Matt Wile,2/2
+333622306,Michigan,Big Ten,away,14,kicking,PCT,Matt Wile,100.0
+333622306,Michigan,Big Ten,away,14,kicking,LONG,Matt Wile,26
+333622306,Michigan,Big Ten,away,14,kicking,XP,Matt Wile,0/0
+333622306,Michigan,Big Ten,away,14,kicking,PTS,Matt Wile,6
+333622306,Michigan,Big Ten,away,14,punting,NO,Matt Wile,5
+333622306,Michigan,Big Ten,away,14,punting,YDS,Matt Wile,204
+333622306,Michigan,Big Ten,away,14,punting,AVG,Matt Wile,40.8
+333622306,Michigan,Big Ten,away,14,punting,TB,Matt Wile,0
+333622306,Michigan,Big Ten,away,14,punting,In 20,Matt Wile,0
+333622306,Michigan,Big Ten,away,14,punting,LONG,Matt Wile,55
+333640251,Texas,Big 12,home,7,passing,C/ATT,Case McCoy,8/17
+333640251,Texas,Big 12,home,7,passing,C/ATT,Tyrone Swoopes,1/6
+333640251,Texas,Big 12,home,7,passing,YDS,Case McCoy,48
+333640251,Texas,Big 12,home,7,passing,YDS,Tyrone Swoopes,8
+333640251,Texas,Big 12,home,7,passing,AVG,Case McCoy,2.8
+333640251,Texas,Big 12,home,7,passing,AVG,Tyrone Swoopes,1.3
+333640251,Texas,Big 12,home,7,passing,TD,Case McCoy,0
+333640251,Texas,Big 12,home,7,passing,TD,Tyrone Swoopes,0
+333640251,Texas,Big 12,home,7,passing,INT,Case McCoy,2
+333640251,Texas,Big 12,home,7,passing,INT,Tyrone Swoopes,0
+333640251,Texas,Big 12,home,7,passing,QBR,Case McCoy,12.3
+333640251,Texas,Big 12,home,7,passing,QBR,Tyrone Swoopes,5.4
+333640251,Texas,Big 12,home,7,rushing,CAR,Malcolm Brown,26
+333640251,Texas,Big 12,home,7,rushing,CAR,Tyrone Swoopes,8
+333640251,Texas,Big 12,home,7,rushing,CAR,Joe Bergeron,8
+333640251,Texas,Big 12,home,7,rushing,CAR,Case McCoy,2
+333640251,Texas,Big 12,home,7,rushing,YDS,Malcolm Brown,130
+333640251,Texas,Big 12,home,7,rushing,YDS,Tyrone Swoopes,38
+333640251,Texas,Big 12,home,7,rushing,YDS,Joe Bergeron,21
+333640251,Texas,Big 12,home,7,rushing,YDS,Case McCoy,-9
+333640251,Texas,Big 12,home,7,rushing,AVG,Malcolm Brown,5.0
+333640251,Texas,Big 12,home,7,rushing,AVG,Tyrone Swoopes,4.8
+333640251,Texas,Big 12,home,7,rushing,AVG,Joe Bergeron,2.6
+333640251,Texas,Big 12,home,7,rushing,AVG,Case McCoy,-4.5
+333640251,Texas,Big 12,home,7,rushing,TD,Malcolm Brown,0
+333640251,Texas,Big 12,home,7,rushing,TD,Tyrone Swoopes,0
+333640251,Texas,Big 12,home,7,rushing,TD,Joe Bergeron,0
+333640251,Texas,Big 12,home,7,rushing,TD,Case McCoy,1
+333640251,Texas,Big 12,home,7,rushing,LONG,Malcolm Brown,40
+333640251,Texas,Big 12,home,7,rushing,LONG,Tyrone Swoopes,26
+333640251,Texas,Big 12,home,7,rushing,LONG,Joe Bergeron,7
+333640251,Texas,Big 12,home,7,rushing,LONG,Case McCoy,1
+333640251,Texas,Big 12,home,7,receiving,REC,Joe Bergeron,2
+333640251,Texas,Big 12,home,7,receiving,REC,Mike Davis,2
+333640251,Texas,Big 12,home,7,receiving,REC,Kendall Sanders,2
+333640251,Texas,Big 12,home,7,receiving,REC,Greg Daniels,1
+333640251,Texas,Big 12,home,7,receiving,REC,Jaxon Shipley,1
+333640251,Texas,Big 12,home,7,receiving,REC,Geoff Swaim,1
+333640251,Texas,Big 12,home,7,receiving,YDS,Joe Bergeron,16
+333640251,Texas,Big 12,home,7,receiving,YDS,Mike Davis,12
+333640251,Texas,Big 12,home,7,receiving,YDS,Kendall Sanders,10
+333640251,Texas,Big 12,home,7,receiving,YDS,Greg Daniels,8
+333640251,Texas,Big 12,home,7,receiving,YDS,Jaxon Shipley,8
+333640251,Texas,Big 12,home,7,receiving,YDS,Geoff Swaim,2
+333640251,Texas,Big 12,home,7,receiving,AVG,Joe Bergeron,8.0
+333640251,Texas,Big 12,home,7,receiving,AVG,Mike Davis,6.0
+333640251,Texas,Big 12,home,7,receiving,AVG,Kendall Sanders,5.0
+333640251,Texas,Big 12,home,7,receiving,AVG,Greg Daniels,8.0
+333640251,Texas,Big 12,home,7,receiving,AVG,Jaxon Shipley,8.0
+333640251,Texas,Big 12,home,7,receiving,AVG,Geoff Swaim,2.0
+333640251,Texas,Big 12,home,7,receiving,TD,Joe Bergeron,0
+333640251,Texas,Big 12,home,7,receiving,TD,Mike Davis,0
+333640251,Texas,Big 12,home,7,receiving,TD,Kendall Sanders,0
+333640251,Texas,Big 12,home,7,receiving,TD,Greg Daniels,0
+333640251,Texas,Big 12,home,7,receiving,TD,Jaxon Shipley,0
+333640251,Texas,Big 12,home,7,receiving,TD,Geoff Swaim,0
+333640251,Texas,Big 12,home,7,receiving,LONG,Joe Bergeron,11
+333640251,Texas,Big 12,home,7,receiving,LONG,Mike Davis,11
+333640251,Texas,Big 12,home,7,receiving,LONG,Kendall Sanders,7
+333640251,Texas,Big 12,home,7,receiving,LONG,Greg Daniels,8
+333640251,Texas,Big 12,home,7,receiving,LONG,Jaxon Shipley,8
+333640251,Texas,Big 12,home,7,receiving,LONG,Geoff Swaim,2
+333640251,Texas,Big 12,home,7,kickReturns,NO,Marcus Johnson,2
+333640251,Texas,Big 12,home,7,kickReturns,NO,Kendall Sanders,1
+333640251,Texas,Big 12,home,7,kickReturns,NO,Duke Thomas,1
+333640251,Texas,Big 12,home,7,kickReturns,YDS,Marcus Johnson,45
+333640251,Texas,Big 12,home,7,kickReturns,YDS,Kendall Sanders,35
+333640251,Texas,Big 12,home,7,kickReturns,YDS,Duke Thomas,21
+333640251,Texas,Big 12,home,7,kickReturns,AVG,Marcus Johnson,22.5
+333640251,Texas,Big 12,home,7,kickReturns,AVG,Kendall Sanders,35.0
+333640251,Texas,Big 12,home,7,kickReturns,AVG,Duke Thomas,21.0
+333640251,Texas,Big 12,home,7,kickReturns,LONG,Marcus Johnson,26
+333640251,Texas,Big 12,home,7,kickReturns,LONG,Kendall Sanders,35
+333640251,Texas,Big 12,home,7,kickReturns,LONG,Duke Thomas,21
+333640251,Texas,Big 12,home,7,kickReturns,TD,Marcus Johnson,0
+333640251,Texas,Big 12,home,7,kickReturns,TD,Kendall Sanders,0
+333640251,Texas,Big 12,home,7,kickReturns,TD,Duke Thomas,0
+333640251,Texas,Big 12,home,7,kicking,FG,Anthony Fera,0/0
+333640251,Texas,Big 12,home,7,kicking,PCT,Anthony Fera,0.0
+333640251,Texas,Big 12,home,7,kicking,LONG,Anthony Fera,0
+333640251,Texas,Big 12,home,7,kicking,XP,Anthony Fera,1/1
+333640251,Texas,Big 12,home,7,kicking,PTS,Anthony Fera,1
+333640251,Texas,Big 12,home,7,punting,NO,Anthony Fera,7
+333640251,Texas,Big 12,home,7,punting,YDS,Anthony Fera,295
+333640251,Texas,Big 12,home,7,punting,AVG,Anthony Fera,42.1
+333640251,Texas,Big 12,home,7,punting,TB,Anthony Fera,0
+333640251,Texas,Big 12,home,7,punting,In 20,Anthony Fera,0
+333640251,Texas,Big 12,home,7,punting,LONG,Anthony Fera,51
+333640251,Oregon,Pac-12,away,30,passing,C/ATT,Marcus Mariota,18/26
+333640251,Oregon,Pac-12,away,30,passing,YDS,Marcus Mariota,253
+333640251,Oregon,Pac-12,away,30,passing,AVG,Marcus Mariota,9.7
+333640251,Oregon,Pac-12,away,30,passing,TD,Marcus Mariota,1
+333640251,Oregon,Pac-12,away,30,passing,INT,Marcus Mariota,0
+333640251,Oregon,Pac-12,away,30,passing,QBR,Marcus Mariota,81.6
+333640251,Oregon,Pac-12,away,30,rushing,CAR,Marcus Mariota,15
+333640251,Oregon,Pac-12,away,30,rushing,CAR,Byron Marshall,13
+333640251,Oregon,Pac-12,away,30,rushing,CAR,Thomas Tyner,6
+333640251,Oregon,Pac-12,away,30,rushing,CAR,De'Anthony Thomas,3
+333640251,Oregon,Pac-12,away,30,rushing,CAR,Ayele Forde,2
+333640251,Oregon,Pac-12,away,30,rushing,CAR,Kenny Bassett,1
+333640251,Oregon,Pac-12,away,30,rushing,CAR,Josh Huff,1
+333640251,Oregon,Pac-12,away,30,rushing,CAR,Jeff Lockie,1
+333640251,Oregon,Pac-12,away,30,rushing,YDS,Marcus Mariota,133
+333640251,Oregon,Pac-12,away,30,rushing,YDS,Byron Marshall,43
+333640251,Oregon,Pac-12,away,30,rushing,YDS,Thomas Tyner,22
+333640251,Oregon,Pac-12,away,30,rushing,YDS,De'Anthony Thomas,13
+333640251,Oregon,Pac-12,away,30,rushing,YDS,Ayele Forde,9
+333640251,Oregon,Pac-12,away,30,rushing,YDS,Kenny Bassett,1
+333640251,Oregon,Pac-12,away,30,rushing,YDS,Josh Huff,1
+333640251,Oregon,Pac-12,away,30,rushing,YDS,Jeff Lockie,-6
+333640251,Oregon,Pac-12,away,30,rushing,AVG,Marcus Mariota,8.9
+333640251,Oregon,Pac-12,away,30,rushing,AVG,Byron Marshall,3.3
+333640251,Oregon,Pac-12,away,30,rushing,AVG,Thomas Tyner,3.7
+333640251,Oregon,Pac-12,away,30,rushing,AVG,De'Anthony Thomas,4.3
+333640251,Oregon,Pac-12,away,30,rushing,AVG,Ayele Forde,4.5
+333640251,Oregon,Pac-12,away,30,rushing,AVG,Kenny Bassett,1.0
+333640251,Oregon,Pac-12,away,30,rushing,AVG,Josh Huff,1.0
+333640251,Oregon,Pac-12,away,30,rushing,AVG,Jeff Lockie,-6.0
+333640251,Oregon,Pac-12,away,30,rushing,TD,Marcus Mariota,0
+333640251,Oregon,Pac-12,away,30,rushing,TD,Byron Marshall,0
+333640251,Oregon,Pac-12,away,30,rushing,TD,Thomas Tyner,0
+333640251,Oregon,Pac-12,away,30,rushing,TD,De'Anthony Thomas,0
+333640251,Oregon,Pac-12,away,30,rushing,TD,Ayele Forde,0
+333640251,Oregon,Pac-12,away,30,rushing,TD,Kenny Bassett,0
+333640251,Oregon,Pac-12,away,30,rushing,TD,Josh Huff,0
+333640251,Oregon,Pac-12,away,30,rushing,TD,Jeff Lockie,0
+333640251,Oregon,Pac-12,away,30,rushing,LONG,Marcus Mariota,33
+333640251,Oregon,Pac-12,away,30,rushing,LONG,Byron Marshall,14
+333640251,Oregon,Pac-12,away,30,rushing,LONG,Thomas Tyner,9
+333640251,Oregon,Pac-12,away,30,rushing,LONG,De'Anthony Thomas,6
+333640251,Oregon,Pac-12,away,30,rushing,LONG,Ayele Forde,6
+333640251,Oregon,Pac-12,away,30,rushing,LONG,Kenny Bassett,1
+333640251,Oregon,Pac-12,away,30,rushing,LONG,Josh Huff,1
+333640251,Oregon,Pac-12,away,30,rushing,LONG,Jeff Lockie,0
+333640251,Oregon,Pac-12,away,30,receiving,REC,Josh Huff,5
+333640251,Oregon,Pac-12,away,30,receiving,REC,Bralon Addison,5
+333640251,Oregon,Pac-12,away,30,receiving,REC,Evan Baylis,1
+333640251,Oregon,Pac-12,away,30,receiving,REC,Thomas Tyner,2
+333640251,Oregon,Pac-12,away,30,receiving,REC,De'Anthony Thomas,2
+333640251,Oregon,Pac-12,away,30,receiving,REC,Johnny Mundt,1
+333640251,Oregon,Pac-12,away,30,receiving,REC,Byron Marshall,2
+333640251,Oregon,Pac-12,away,30,receiving,YDS,Josh Huff,104
+333640251,Oregon,Pac-12,away,30,receiving,YDS,Bralon Addison,48
+333640251,Oregon,Pac-12,away,30,receiving,YDS,Evan Baylis,27
+333640251,Oregon,Pac-12,away,30,receiving,YDS,Thomas Tyner,25
+333640251,Oregon,Pac-12,away,30,receiving,YDS,De'Anthony Thomas,24
+333640251,Oregon,Pac-12,away,30,receiving,YDS,Johnny Mundt,20
+333640251,Oregon,Pac-12,away,30,receiving,YDS,Byron Marshall,5
+333640251,Oregon,Pac-12,away,30,receiving,AVG,Josh Huff,20.8
+333640251,Oregon,Pac-12,away,30,receiving,AVG,Bralon Addison,9.6
+333640251,Oregon,Pac-12,away,30,receiving,AVG,Evan Baylis,27.0
+333640251,Oregon,Pac-12,away,30,receiving,AVG,Thomas Tyner,12.5
+333640251,Oregon,Pac-12,away,30,receiving,AVG,De'Anthony Thomas,12.0
+333640251,Oregon,Pac-12,away,30,receiving,AVG,Johnny Mundt,20.0
+333640251,Oregon,Pac-12,away,30,receiving,AVG,Byron Marshall,2.5
+333640251,Oregon,Pac-12,away,30,receiving,TD,Josh Huff,1
+333640251,Oregon,Pac-12,away,30,receiving,TD,Bralon Addison,0
+333640251,Oregon,Pac-12,away,30,receiving,TD,Evan Baylis,0
+333640251,Oregon,Pac-12,away,30,receiving,TD,Thomas Tyner,0
+333640251,Oregon,Pac-12,away,30,receiving,TD,De'Anthony Thomas,0
+333640251,Oregon,Pac-12,away,30,receiving,TD,Johnny Mundt,0
+333640251,Oregon,Pac-12,away,30,receiving,TD,Byron Marshall,0
+333640251,Oregon,Pac-12,away,30,receiving,LONG,Josh Huff,24
+333640251,Oregon,Pac-12,away,30,receiving,LONG,Bralon Addison,16
+333640251,Oregon,Pac-12,away,30,receiving,LONG,Evan Baylis,27
+333640251,Oregon,Pac-12,away,30,receiving,LONG,Thomas Tyner,14
+333640251,Oregon,Pac-12,away,30,receiving,LONG,De'Anthony Thomas,19
+333640251,Oregon,Pac-12,away,30,receiving,LONG,Johnny Mundt,20
+333640251,Oregon,Pac-12,away,30,receiving,LONG,Byron Marshall,3
+333640251,Oregon,Pac-12,away,30,interceptions,INT,Derrick Malone,1
+333640251,Oregon,Pac-12,away,30,interceptions,INT,Avery Patterson,1
+333640251,Oregon,Pac-12,away,30,interceptions,YDS,Derrick Malone,38
+333640251,Oregon,Pac-12,away,30,interceptions,YDS,Avery Patterson,37
+333640251,Oregon,Pac-12,away,30,interceptions,TD,Derrick Malone,1
+333640251,Oregon,Pac-12,away,30,interceptions,TD,Avery Patterson,1
+333640251,Oregon,Pac-12,away,30,kickReturns,NO,De'Anthony Thomas,1
+333640251,Oregon,Pac-12,away,30,kickReturns,NO,Keanon Lowe,1
+333640251,Oregon,Pac-12,away,30,kickReturns,YDS,De'Anthony Thomas,25
+333640251,Oregon,Pac-12,away,30,kickReturns,YDS,Keanon Lowe,11
+333640251,Oregon,Pac-12,away,30,kickReturns,AVG,De'Anthony Thomas,25.0
+333640251,Oregon,Pac-12,away,30,kickReturns,AVG,Keanon Lowe,11.0
+333640251,Oregon,Pac-12,away,30,kickReturns,LONG,De'Anthony Thomas,25
+333640251,Oregon,Pac-12,away,30,kickReturns,LONG,Keanon Lowe,11
+333640251,Oregon,Pac-12,away,30,kickReturns,TD,De'Anthony Thomas,0
+333640251,Oregon,Pac-12,away,30,kickReturns,TD,Keanon Lowe,0
+333640251,Oregon,Pac-12,away,30,puntReturns,NO,Bralon Addison,1
+333640251,Oregon,Pac-12,away,30,puntReturns,YDS,Bralon Addison,-4
+333640251,Oregon,Pac-12,away,30,puntReturns,AVG,Bralon Addison,-4.0
+333640251,Oregon,Pac-12,away,30,puntReturns,LONG,Bralon Addison,-4
+333640251,Oregon,Pac-12,away,30,puntReturns,TD,Bralon Addison,0
+333640251,Oregon,Pac-12,away,30,kicking,FG,Matt Wogan,3/4
+333640251,Oregon,Pac-12,away,30,kicking,PCT,Matt Wogan,75.0
+333640251,Oregon,Pac-12,away,30,kicking,LONG,Matt Wogan,39
+333640251,Oregon,Pac-12,away,30,kicking,XP,Matt Wogan,3/3
+333640251,Oregon,Pac-12,away,30,kicking,PTS,Matt Wogan,12
+333640251,Oregon,Pac-12,away,30,punting,NO,Alejandro Maldonado,4
+333640251,Oregon,Pac-12,away,30,punting,YDS,Alejandro Maldonado,153
+333640251,Oregon,Pac-12,away,30,punting,AVG,Alejandro Maldonado,38.3
+333640251,Oregon,Pac-12,away,30,punting,TB,Alejandro Maldonado,0
+333640251,Oregon,Pac-12,away,30,punting,In 20,Alejandro Maldonado,0
+333640251,Oregon,Pac-12,away,30,punting,LONG,Alejandro Maldonado,45
+333642641,Arizona State,Pac-12,away,23,passing,C/ATT,Taylor Kelly,16/29
+333642641,Arizona State,Pac-12,away,23,passing,YDS,Taylor Kelly,125
+333642641,Arizona State,Pac-12,away,23,passing,AVG,Taylor Kelly,4.3
+333642641,Arizona State,Pac-12,away,23,passing,TD,Taylor Kelly,0
+333642641,Arizona State,Pac-12,away,23,passing,INT,Taylor Kelly,1
+333642641,Arizona State,Pac-12,away,23,passing,QBR,Taylor Kelly,54.1
+333642641,Arizona State,Pac-12,away,23,rushing,CAR,Taylor Kelly,25
+333642641,Arizona State,Pac-12,away,23,rushing,CAR,D.J. Foster,20
+333642641,Arizona State,Pac-12,away,23,rushing,CAR,De'Marieya Nelson,1
+333642641,Arizona State,Pac-12,away,23,rushing,CAR,Richard Smith,1
+333642641,Arizona State,Pac-12,away,23,rushing,CAR,R.J. Robinson,1
+333642641,Arizona State,Pac-12,away,23,rushing,CAR,Deantre Lewis,1
+333642641,Arizona State,Pac-12,away,23,rushing,YDS,Taylor Kelly,135
+333642641,Arizona State,Pac-12,away,23,rushing,YDS,D.J. Foster,132
+333642641,Arizona State,Pac-12,away,23,rushing,YDS,De'Marieya Nelson,8
+333642641,Arizona State,Pac-12,away,23,rushing,YDS,Richard Smith,7
+333642641,Arizona State,Pac-12,away,23,rushing,YDS,R.J. Robinson,4
+333642641,Arizona State,Pac-12,away,23,rushing,YDS,Deantre Lewis,1
+333642641,Arizona State,Pac-12,away,23,rushing,AVG,Taylor Kelly,5.4
+333642641,Arizona State,Pac-12,away,23,rushing,AVG,D.J. Foster,6.6
+333642641,Arizona State,Pac-12,away,23,rushing,AVG,De'Marieya Nelson,8.0
+333642641,Arizona State,Pac-12,away,23,rushing,AVG,Richard Smith,7.0
+333642641,Arizona State,Pac-12,away,23,rushing,AVG,R.J. Robinson,4.0
+333642641,Arizona State,Pac-12,away,23,rushing,AVG,Deantre Lewis,1.0
+333642641,Arizona State,Pac-12,away,23,rushing,TD,Taylor Kelly,1
+333642641,Arizona State,Pac-12,away,23,rushing,TD,D.J. Foster,1
+333642641,Arizona State,Pac-12,away,23,rushing,TD,De'Marieya Nelson,0
+333642641,Arizona State,Pac-12,away,23,rushing,TD,Richard Smith,0
+333642641,Arizona State,Pac-12,away,23,rushing,TD,R.J. Robinson,0
+333642641,Arizona State,Pac-12,away,23,rushing,TD,Deantre Lewis,0
+333642641,Arizona State,Pac-12,away,23,rushing,LONG,Taylor Kelly,44
+333642641,Arizona State,Pac-12,away,23,rushing,LONG,D.J. Foster,20
+333642641,Arizona State,Pac-12,away,23,rushing,LONG,De'Marieya Nelson,8
+333642641,Arizona State,Pac-12,away,23,rushing,LONG,Richard Smith,7
+333642641,Arizona State,Pac-12,away,23,rushing,LONG,R.J. Robinson,4
+333642641,Arizona State,Pac-12,away,23,rushing,LONG,Deantre Lewis,1
+333642641,Arizona State,Pac-12,away,23,receiving,REC,Kevin Ozier,2
+333642641,Arizona State,Pac-12,away,23,receiving,REC,Jaelen Strong,4
+333642641,Arizona State,Pac-12,away,23,receiving,REC,Richard Smith,3
+333642641,Arizona State,Pac-12,away,23,receiving,REC,D.J. Foster,5
+333642641,Arizona State,Pac-12,away,23,receiving,REC,Chris Coyle,1
+333642641,Arizona State,Pac-12,away,23,receiving,REC,R.J. Robinson,1
+333642641,Arizona State,Pac-12,away,23,receiving,YDS,Kevin Ozier,31
+333642641,Arizona State,Pac-12,away,23,receiving,YDS,Jaelen Strong,28
+333642641,Arizona State,Pac-12,away,23,receiving,YDS,Richard Smith,26
+333642641,Arizona State,Pac-12,away,23,receiving,YDS,D.J. Foster,23
+333642641,Arizona State,Pac-12,away,23,receiving,YDS,Chris Coyle,10
+333642641,Arizona State,Pac-12,away,23,receiving,YDS,R.J. Robinson,7
+333642641,Arizona State,Pac-12,away,23,receiving,AVG,Kevin Ozier,15.5
+333642641,Arizona State,Pac-12,away,23,receiving,AVG,Jaelen Strong,7.0
+333642641,Arizona State,Pac-12,away,23,receiving,AVG,Richard Smith,8.7
+333642641,Arizona State,Pac-12,away,23,receiving,AVG,D.J. Foster,4.6
+333642641,Arizona State,Pac-12,away,23,receiving,AVG,Chris Coyle,10.0
+333642641,Arizona State,Pac-12,away,23,receiving,AVG,R.J. Robinson,7.0
+333642641,Arizona State,Pac-12,away,23,receiving,TD,Kevin Ozier,0
+333642641,Arizona State,Pac-12,away,23,receiving,TD,Jaelen Strong,0
+333642641,Arizona State,Pac-12,away,23,receiving,TD,Richard Smith,0
+333642641,Arizona State,Pac-12,away,23,receiving,TD,D.J. Foster,0
+333642641,Arizona State,Pac-12,away,23,receiving,TD,Chris Coyle,0
+333642641,Arizona State,Pac-12,away,23,receiving,TD,R.J. Robinson,0
+333642641,Arizona State,Pac-12,away,23,receiving,LONG,Kevin Ozier,21
+333642641,Arizona State,Pac-12,away,23,receiving,LONG,Jaelen Strong,15
+333642641,Arizona State,Pac-12,away,23,receiving,LONG,Richard Smith,18
+333642641,Arizona State,Pac-12,away,23,receiving,LONG,D.J. Foster,11
+333642641,Arizona State,Pac-12,away,23,receiving,LONG,Chris Coyle,10
+333642641,Arizona State,Pac-12,away,23,receiving,LONG,R.J. Robinson,7
+333642641,Arizona State,Pac-12,away,23,kickReturns,NO,Robert Chevis Nelson Jr.,6
+333642641,Arizona State,Pac-12,away,23,kickReturns,NO,Jaelen Strong,1
+333642641,Arizona State,Pac-12,away,23,kickReturns,YDS,Robert Chevis Nelson Jr.,132
+333642641,Arizona State,Pac-12,away,23,kickReturns,YDS,Jaelen Strong,16
+333642641,Arizona State,Pac-12,away,23,kickReturns,AVG,Robert Chevis Nelson Jr.,22.0
+333642641,Arizona State,Pac-12,away,23,kickReturns,AVG,Jaelen Strong,16.0
+333642641,Arizona State,Pac-12,away,23,kickReturns,LONG,Robert Chevis Nelson Jr.,33
+333642641,Arizona State,Pac-12,away,23,kickReturns,LONG,Jaelen Strong,16
+333642641,Arizona State,Pac-12,away,23,kickReturns,TD,Robert Chevis Nelson Jr.,0
+333642641,Arizona State,Pac-12,away,23,kickReturns,TD,Jaelen Strong,0
+333642641,Arizona State,Pac-12,away,23,puntReturns,NO,Robert Chevis Nelson Jr.,2
+333642641,Arizona State,Pac-12,away,23,puntReturns,YDS,Robert Chevis Nelson Jr.,7
+333642641,Arizona State,Pac-12,away,23,puntReturns,AVG,Robert Chevis Nelson Jr.,3.5
+333642641,Arizona State,Pac-12,away,23,puntReturns,LONG,Robert Chevis Nelson Jr.,7
+333642641,Arizona State,Pac-12,away,23,puntReturns,TD,Robert Chevis Nelson Jr.,0
+333642641,Arizona State,Pac-12,away,23,kicking,FG,Zane Gonzalez,3/4
+333642641,Arizona State,Pac-12,away,23,kicking,PCT,Zane Gonzalez,75.0
+333642641,Arizona State,Pac-12,away,23,kicking,LONG,Zane Gonzalez,44
+333642641,Arizona State,Pac-12,away,23,kicking,XP,Zane Gonzalez,2/2
+333642641,Arizona State,Pac-12,away,23,kicking,PTS,Zane Gonzalez,11
+333642641,Arizona State,Pac-12,away,23,punting,NO,Matt Haack,4
+333642641,Arizona State,Pac-12,away,23,punting,NO,Alex Garoutte,2
+333642641,Arizona State,Pac-12,away,23,punting,YDS,Matt Haack,148
+333642641,Arizona State,Pac-12,away,23,punting,YDS,Alex Garoutte,92
+333642641,Arizona State,Pac-12,away,23,punting,AVG,Matt Haack,37.0
+333642641,Arizona State,Pac-12,away,23,punting,AVG,Alex Garoutte,46.0
+333642641,Arizona State,Pac-12,away,23,punting,TB,Matt Haack,0
+333642641,Arizona State,Pac-12,away,23,punting,TB,Alex Garoutte,0
+333642641,Arizona State,Pac-12,away,23,punting,In 20,Matt Haack,0
+333642641,Arizona State,Pac-12,away,23,punting,In 20,Alex Garoutte,0
+333642641,Arizona State,Pac-12,away,23,punting,LONG,Matt Haack,50
+333642641,Arizona State,Pac-12,away,23,punting,LONG,Alex Garoutte,52
+333642641,Texas Tech,Big 12,home,37,punting,In 20,Ryan Erxleben,0
+333642641,Texas Tech,Big 12,home,37,punting,NO,Ryan Erxleben,5
+333642641,Texas Tech,Big 12,home,37,punting,YDS,Ryan Erxleben,161
+333642641,Texas Tech,Big 12,home,37,punting,AVG,Ryan Erxleben,32.2
+333642641,Texas Tech,Big 12,home,37,punting,TB,Ryan Erxleben,0
+333642641,Texas Tech,Big 12,home,37,punting,LONG,Ryan Erxleben,39
+333642641,Texas Tech,Big 12,home,37,passing,C/ATT,Davis Webb,28/41
+333642641,Texas Tech,Big 12,home,37,passing,YDS,Davis Webb,403
+333642641,Texas Tech,Big 12,home,37,passing,AVG,Davis Webb,9.8
+333642641,Texas Tech,Big 12,home,37,passing,TD,Davis Webb,4
+333642641,Texas Tech,Big 12,home,37,passing,INT,Davis Webb,0
+333642641,Texas Tech,Big 12,home,37,passing,QBR,Davis Webb,92.0
+333642641,Texas Tech,Big 12,home,37,rushing,CAR,DeAndre Washington,14
+333642641,Texas Tech,Big 12,home,37,rushing,CAR,Kenny Williams,8
+333642641,Texas Tech,Big 12,home,37,rushing,CAR,Michael Brewer,2
+333642641,Texas Tech,Big 12,home,37,rushing,CAR,Sadale Foster,4
+333642641,Texas Tech,Big 12,home,37,rushing,CAR,Davis Webb,3
+333642641,Texas Tech,Big 12,home,37,rushing,YDS,DeAndre Washington,51
+333642641,Texas Tech,Big 12,home,37,rushing,YDS,Kenny Williams,17
+333642641,Texas Tech,Big 12,home,37,rushing,YDS,Michael Brewer,9
+333642641,Texas Tech,Big 12,home,37,rushing,YDS,Sadale Foster,5
+333642641,Texas Tech,Big 12,home,37,rushing,YDS,Davis Webb,3
+333642641,Texas Tech,Big 12,home,37,rushing,AVG,DeAndre Washington,3.6
+333642641,Texas Tech,Big 12,home,37,rushing,AVG,Kenny Williams,2.1
+333642641,Texas Tech,Big 12,home,37,rushing,AVG,Michael Brewer,4.5
+333642641,Texas Tech,Big 12,home,37,rushing,AVG,Sadale Foster,1.3
+333642641,Texas Tech,Big 12,home,37,rushing,AVG,Davis Webb,1.0
+333642641,Texas Tech,Big 12,home,37,rushing,TD,DeAndre Washington,0
+333642641,Texas Tech,Big 12,home,37,rushing,TD,Kenny Williams,0
+333642641,Texas Tech,Big 12,home,37,rushing,TD,Michael Brewer,0
+333642641,Texas Tech,Big 12,home,37,rushing,TD,Sadale Foster,0
+333642641,Texas Tech,Big 12,home,37,rushing,TD,Davis Webb,0
+333642641,Texas Tech,Big 12,home,37,rushing,LONG,DeAndre Washington,12
+333642641,Texas Tech,Big 12,home,37,rushing,LONG,Kenny Williams,17
+333642641,Texas Tech,Big 12,home,37,rushing,LONG,Michael Brewer,11
+333642641,Texas Tech,Big 12,home,37,rushing,LONG,Sadale Foster,6
+333642641,Texas Tech,Big 12,home,37,rushing,LONG,Davis Webb,3
+333642641,Texas Tech,Big 12,home,37,receiving,REC,Jace Amaro,8
+333642641,Texas Tech,Big 12,home,37,receiving,REC,Jakeem Grant,6
+333642641,Texas Tech,Big 12,home,37,receiving,REC,Bradley Marquez,3
+333642641,Texas Tech,Big 12,home,37,receiving,REC,Eric Ward,3
+333642641,Texas Tech,Big 12,home,37,receiving,REC,Reginald Davis III,1
+333642641,Texas Tech,Big 12,home,37,receiving,REC,Kenny Williams,2
+333642641,Texas Tech,Big 12,home,37,receiving,REC,DeAndre Washington,1
+333642641,Texas Tech,Big 12,home,37,receiving,REC,Sadale Foster,1
+333642641,Texas Tech,Big 12,home,37,receiving,REC,Jordan Davis,2
+333642641,Texas Tech,Big 12,home,37,receiving,REC,Rodney Hall,1
+333642641,Texas Tech,Big 12,home,37,receiving,YDS,Jace Amaro,112
+333642641,Texas Tech,Big 12,home,37,receiving,YDS,Jakeem Grant,89
+333642641,Texas Tech,Big 12,home,37,receiving,YDS,Bradley Marquez,67
+333642641,Texas Tech,Big 12,home,37,receiving,YDS,Eric Ward,43
+333642641,Texas Tech,Big 12,home,37,receiving,YDS,Reginald Davis III,38
+333642641,Texas Tech,Big 12,home,37,receiving,YDS,Kenny Williams,26
+333642641,Texas Tech,Big 12,home,37,receiving,YDS,DeAndre Washington,15
+333642641,Texas Tech,Big 12,home,37,receiving,YDS,Sadale Foster,9
+333642641,Texas Tech,Big 12,home,37,receiving,YDS,Jordan Davis,3
+333642641,Texas Tech,Big 12,home,37,receiving,YDS,Rodney Hall,1
+333642641,Texas Tech,Big 12,home,37,receiving,AVG,Jace Amaro,14.0
+333642641,Texas Tech,Big 12,home,37,receiving,AVG,Jakeem Grant,14.8
+333642641,Texas Tech,Big 12,home,37,receiving,AVG,Bradley Marquez,22.3
+333642641,Texas Tech,Big 12,home,37,receiving,AVG,Eric Ward,14.3
+333642641,Texas Tech,Big 12,home,37,receiving,AVG,Reginald Davis III,38.0
+333642641,Texas Tech,Big 12,home,37,receiving,AVG,Kenny Williams,13.0
+333642641,Texas Tech,Big 12,home,37,receiving,AVG,DeAndre Washington,15.0
+333642641,Texas Tech,Big 12,home,37,receiving,AVG,Sadale Foster,9.0
+333642641,Texas Tech,Big 12,home,37,receiving,AVG,Jordan Davis,1.5
+333642641,Texas Tech,Big 12,home,37,receiving,AVG,Rodney Hall,1.0
+333642641,Texas Tech,Big 12,home,37,receiving,TD,Jace Amaro,0
+333642641,Texas Tech,Big 12,home,37,receiving,TD,Jakeem Grant,2
+333642641,Texas Tech,Big 12,home,37,receiving,TD,Bradley Marquez,1
+333642641,Texas Tech,Big 12,home,37,receiving,TD,Eric Ward,0
+333642641,Texas Tech,Big 12,home,37,receiving,TD,Reginald Davis III,0
+333642641,Texas Tech,Big 12,home,37,receiving,TD,Kenny Williams,0
+333642641,Texas Tech,Big 12,home,37,receiving,TD,DeAndre Washington,0
+333642641,Texas Tech,Big 12,home,37,receiving,TD,Sadale Foster,0
+333642641,Texas Tech,Big 12,home,37,receiving,TD,Jordan Davis,0
+333642641,Texas Tech,Big 12,home,37,receiving,TD,Rodney Hall,1
+333642641,Texas Tech,Big 12,home,37,receiving,LONG,Jace Amaro,23
+333642641,Texas Tech,Big 12,home,37,receiving,LONG,Jakeem Grant,23
+333642641,Texas Tech,Big 12,home,37,receiving,LONG,Bradley Marquez,43
+333642641,Texas Tech,Big 12,home,37,receiving,LONG,Eric Ward,19
+333642641,Texas Tech,Big 12,home,37,receiving,LONG,Reginald Davis III,38
+333642641,Texas Tech,Big 12,home,37,receiving,LONG,Kenny Williams,19
+333642641,Texas Tech,Big 12,home,37,receiving,LONG,DeAndre Washington,15
+333642641,Texas Tech,Big 12,home,37,receiving,LONG,Sadale Foster,9
+333642641,Texas Tech,Big 12,home,37,receiving,LONG,Jordan Davis,4
+333642641,Texas Tech,Big 12,home,37,receiving,LONG,Rodney Hall,1
+333642641,Texas Tech,Big 12,home,37,interceptions,INT,Justis Nelson,1
+333642641,Texas Tech,Big 12,home,37,interceptions,YDS,Justis Nelson,0
+333642641,Texas Tech,Big 12,home,37,interceptions,TD,Justis Nelson,0
+333642641,Texas Tech,Big 12,home,37,kickReturns,NO,Reginald Davis III,3
+333642641,Texas Tech,Big 12,home,37,kickReturns,NO,Jakeem Grant,2
+333642641,Texas Tech,Big 12,home,37,kickReturns,NO,Bradley Marquez,1
+333642641,Texas Tech,Big 12,home,37,kickReturns,YDS,Reginald Davis III,113
+333642641,Texas Tech,Big 12,home,37,kickReturns,YDS,Jakeem Grant,36
+333642641,Texas Tech,Big 12,home,37,kickReturns,YDS,Bradley Marquez,11
+333642641,Texas Tech,Big 12,home,37,kickReturns,AVG,Reginald Davis III,37.7
+333642641,Texas Tech,Big 12,home,37,kickReturns,AVG,Jakeem Grant,18.0
+333642641,Texas Tech,Big 12,home,37,kickReturns,AVG,Bradley Marquez,11.0
+333642641,Texas Tech,Big 12,home,37,kickReturns,LONG,Reginald Davis III,90
+333642641,Texas Tech,Big 12,home,37,kickReturns,LONG,Jakeem Grant,19
+333642641,Texas Tech,Big 12,home,37,kickReturns,LONG,Bradley Marquez,11
+333642641,Texas Tech,Big 12,home,37,kickReturns,TD,Reginald Davis III,1
+333642641,Texas Tech,Big 12,home,37,kickReturns,TD,Jakeem Grant,0
+333642641,Texas Tech,Big 12,home,37,kickReturns,TD,Bradley Marquez,0
+333642641,Texas Tech,Big 12,home,37,puntReturns,NO,Jordan Davis,1
+333642641,Texas Tech,Big 12,home,37,puntReturns,YDS,Jordan Davis,-14
+333642641,Texas Tech,Big 12,home,37,puntReturns,AVG,Jordan Davis,-14.0
+333642641,Texas Tech,Big 12,home,37,puntReturns,LONG,Jordan Davis,-14
+333642641,Texas Tech,Big 12,home,37,puntReturns,TD,Jordan Davis,0
+333642641,Texas Tech,Big 12,home,37,kicking,FG,Ryan Bustin,1/1
+333642641,Texas Tech,Big 12,home,37,kicking,PCT,Ryan Bustin,100.0
+333642641,Texas Tech,Big 12,home,37,kicking,LONG,Ryan Bustin,23
+333642641,Texas Tech,Big 12,home,37,kicking,XP,Ryan Bustin,4/5
+333642641,Texas Tech,Big 12,home,37,kicking,PTS,Ryan Bustin,7
+340010239,Baylor,Big 12,home,42,passing,C/ATT,Bryce Petty,30/47
+340010239,Baylor,Big 12,home,42,passing,YDS,Bryce Petty,356
+340010239,Baylor,Big 12,home,42,passing,AVG,Bryce Petty,7.6
+340010239,Baylor,Big 12,home,42,passing,TD,Bryce Petty,2
+340010239,Baylor,Big 12,home,42,passing,INT,Bryce Petty,1
+340010239,Baylor,Big 12,home,42,passing,QBR,Bryce Petty,60.0
+340010239,Baylor,Big 12,home,42,rushing,CAR,Lache Seastrunk,17
+340010239,Baylor,Big 12,home,42,rushing,CAR,Antwan Goodley,1
+340010239,Baylor,Big 12,home,42,rushing,CAR,Glasco Martin,6
+340010239,Baylor,Big 12,home,42,rushing,CAR,Shock Linwood,3
+340010239,Baylor,Big 12,home,42,rushing,CAR,Bryce Petty,11
+340010239,Baylor,Big 12,home,42,rushing,YDS,Lache Seastrunk,117
+340010239,Baylor,Big 12,home,42,rushing,YDS,Antwan Goodley,22
+340010239,Baylor,Big 12,home,42,rushing,YDS,Glasco Martin,19
+340010239,Baylor,Big 12,home,42,rushing,YDS,Shock Linwood,19
+340010239,Baylor,Big 12,home,42,rushing,YDS,Bryce Petty,17
+340010239,Baylor,Big 12,home,42,rushing,AVG,Lache Seastrunk,6.9
+340010239,Baylor,Big 12,home,42,rushing,AVG,Antwan Goodley,22.0
+340010239,Baylor,Big 12,home,42,rushing,AVG,Glasco Martin,3.2
+340010239,Baylor,Big 12,home,42,rushing,AVG,Shock Linwood,6.3
+340010239,Baylor,Big 12,home,42,rushing,AVG,Bryce Petty,1.5
+340010239,Baylor,Big 12,home,42,rushing,TD,Lache Seastrunk,0
+340010239,Baylor,Big 12,home,42,rushing,TD,Antwan Goodley,0
+340010239,Baylor,Big 12,home,42,rushing,TD,Glasco Martin,1
+340010239,Baylor,Big 12,home,42,rushing,TD,Shock Linwood,0
+340010239,Baylor,Big 12,home,42,rushing,TD,Bryce Petty,3
+340010239,Baylor,Big 12,home,42,rushing,LONG,Lache Seastrunk,29
+340010239,Baylor,Big 12,home,42,rushing,LONG,Antwan Goodley,22
+340010239,Baylor,Big 12,home,42,rushing,LONG,Glasco Martin,9
+340010239,Baylor,Big 12,home,42,rushing,LONG,Shock Linwood,13
+340010239,Baylor,Big 12,home,42,rushing,LONG,Bryce Petty,13
+340010239,Baylor,Big 12,home,42,receiving,REC,Corey Coleman,7
+340010239,Baylor,Big 12,home,42,receiving,REC,Jay Lee,5
+340010239,Baylor,Big 12,home,42,receiving,REC,Levi Norwood,4
+340010239,Baylor,Big 12,home,42,receiving,REC,Clay Fuller,3
+340010239,Baylor,Big 12,home,42,receiving,REC,Tevin Reese,5
+340010239,Baylor,Big 12,home,42,receiving,REC,Antwan Goodley,4
+340010239,Baylor,Big 12,home,42,receiving,REC,Jordan Najvar,1
+340010239,Baylor,Big 12,home,42,receiving,REC,Shock Linwood,1
+340010239,Baylor,Big 12,home,42,receiving,YDS,Corey Coleman,88
+340010239,Baylor,Big 12,home,42,receiving,YDS,Jay Lee,80
+340010239,Baylor,Big 12,home,42,receiving,YDS,Levi Norwood,63
+340010239,Baylor,Big 12,home,42,receiving,YDS,Clay Fuller,52
+340010239,Baylor,Big 12,home,42,receiving,YDS,Tevin Reese,43
+340010239,Baylor,Big 12,home,42,receiving,YDS,Antwan Goodley,20
+340010239,Baylor,Big 12,home,42,receiving,YDS,Jordan Najvar,7
+340010239,Baylor,Big 12,home,42,receiving,YDS,Shock Linwood,3
+340010239,Baylor,Big 12,home,42,receiving,AVG,Corey Coleman,12.6
+340010239,Baylor,Big 12,home,42,receiving,AVG,Jay Lee,16.0
+340010239,Baylor,Big 12,home,42,receiving,AVG,Levi Norwood,15.8
+340010239,Baylor,Big 12,home,42,receiving,AVG,Clay Fuller,17.3
+340010239,Baylor,Big 12,home,42,receiving,AVG,Tevin Reese,8.6
+340010239,Baylor,Big 12,home,42,receiving,AVG,Antwan Goodley,5.0
+340010239,Baylor,Big 12,home,42,receiving,AVG,Jordan Najvar,7.0
+340010239,Baylor,Big 12,home,42,receiving,AVG,Shock Linwood,3.0
+340010239,Baylor,Big 12,home,42,receiving,TD,Corey Coleman,0
+340010239,Baylor,Big 12,home,42,receiving,TD,Jay Lee,0
+340010239,Baylor,Big 12,home,42,receiving,TD,Levi Norwood,1
+340010239,Baylor,Big 12,home,42,receiving,TD,Clay Fuller,1
+340010239,Baylor,Big 12,home,42,receiving,TD,Tevin Reese,0
+340010239,Baylor,Big 12,home,42,receiving,TD,Antwan Goodley,0
+340010239,Baylor,Big 12,home,42,receiving,TD,Jordan Najvar,0
+340010239,Baylor,Big 12,home,42,receiving,TD,Shock Linwood,0
+340010239,Baylor,Big 12,home,42,receiving,LONG,Corey Coleman,32
+340010239,Baylor,Big 12,home,42,receiving,LONG,Jay Lee,50
+340010239,Baylor,Big 12,home,42,receiving,LONG,Levi Norwood,30
+340010239,Baylor,Big 12,home,42,receiving,LONG,Clay Fuller,28
+340010239,Baylor,Big 12,home,42,receiving,LONG,Tevin Reese,22
+340010239,Baylor,Big 12,home,42,receiving,LONG,Antwan Goodley,8
+340010239,Baylor,Big 12,home,42,receiving,LONG,Jordan Najvar,7
+340010239,Baylor,Big 12,home,42,receiving,LONG,Shock Linwood,3
+340010239,Baylor,Big 12,home,42,interceptions,INT,Eddie Lackey,1
+340010239,Baylor,Big 12,home,42,interceptions,INT,Demetri Goodson,1
+340010239,Baylor,Big 12,home,42,interceptions,YDS,Eddie Lackey,0
+340010239,Baylor,Big 12,home,42,interceptions,YDS,Demetri Goodson,-2
+340010239,Baylor,Big 12,home,42,interceptions,TD,Eddie Lackey,0
+340010239,Baylor,Big 12,home,42,interceptions,TD,Demetri Goodson,0
+340010239,Baylor,Big 12,home,42,kickReturns,NO,Corey Coleman,6
+340010239,Baylor,Big 12,home,42,kickReturns,NO,Levi Norwood,1
+340010239,Baylor,Big 12,home,42,kickReturns,NO,Clay Fuller,1
+340010239,Baylor,Big 12,home,42,kickReturns,NO,Tre'Von Armstead,1
+340010239,Baylor,Big 12,home,42,kickReturns,YDS,Corey Coleman,148
+340010239,Baylor,Big 12,home,42,kickReturns,YDS,Levi Norwood,24
+340010239,Baylor,Big 12,home,42,kickReturns,YDS,Clay Fuller,18
+340010239,Baylor,Big 12,home,42,kickReturns,YDS,Tre'Von Armstead,18
+340010239,Baylor,Big 12,home,42,kickReturns,AVG,Corey Coleman,24.7
+340010239,Baylor,Big 12,home,42,kickReturns,AVG,Levi Norwood,24.0
+340010239,Baylor,Big 12,home,42,kickReturns,AVG,Clay Fuller,18.0
+340010239,Baylor,Big 12,home,42,kickReturns,AVG,Tre'Von Armstead,18.0
+340010239,Baylor,Big 12,home,42,kickReturns,LONG,Corey Coleman,42
+340010239,Baylor,Big 12,home,42,kickReturns,LONG,Levi Norwood,24
+340010239,Baylor,Big 12,home,42,kickReturns,LONG,Clay Fuller,18
+340010239,Baylor,Big 12,home,42,kickReturns,LONG,Tre'Von Armstead,18
+340010239,Baylor,Big 12,home,42,kickReturns,TD,Corey Coleman,0
+340010239,Baylor,Big 12,home,42,kickReturns,TD,Levi Norwood,0
+340010239,Baylor,Big 12,home,42,kickReturns,TD,Clay Fuller,0
+340010239,Baylor,Big 12,home,42,kickReturns,TD,Tre'Von Armstead,0
+340010239,Baylor,Big 12,home,42,puntReturns,NO,Levi Norwood,1
+340010239,Baylor,Big 12,home,42,puntReturns,YDS,Levi Norwood,-1
+340010239,Baylor,Big 12,home,42,puntReturns,AVG,Levi Norwood,-1.0
+340010239,Baylor,Big 12,home,42,puntReturns,LONG,Levi Norwood,0
+340010239,Baylor,Big 12,home,42,puntReturns,TD,Levi Norwood,0
+340010239,Baylor,Big 12,home,42,kicking,FG,Aaron Jones,0/1
+340010239,Baylor,Big 12,home,42,kicking,PCT,Aaron Jones,0.0
+340010239,Baylor,Big 12,home,42,kicking,LONG,Aaron Jones,0
+340010239,Baylor,Big 12,home,42,kicking,XP,Aaron Jones,4/4
+340010239,Baylor,Big 12,home,42,kicking,PTS,Aaron Jones,4
+340010239,Baylor,Big 12,home,42,punting,NO,Spencer Roth,7
+340010239,Baylor,Big 12,home,42,punting,YDS,Spencer Roth,305
+340010239,Baylor,Big 12,home,42,punting,AVG,Spencer Roth,43.6
+340010239,Baylor,Big 12,home,42,punting,TB,Spencer Roth,0
+340010239,Baylor,Big 12,home,42,punting,In 20,Spencer Roth,0
+340010239,Baylor,Big 12,home,42,punting,LONG,Spencer Roth,55
+340010239,UCF,American Athletic,away,52,passing,C/ATT,Blake Bortles,20/31
+340010239,UCF,American Athletic,away,52,passing,YDS,Blake Bortles,301
+340010239,UCF,American Athletic,away,52,passing,AVG,Blake Bortles,9.7
+340010239,UCF,American Athletic,away,52,passing,TD,Blake Bortles,3
+340010239,UCF,American Athletic,away,52,passing,INT,Blake Bortles,2
+340010239,UCF,American Athletic,away,52,passing,QBR,Blake Bortles,92.4
+340010239,UCF,American Athletic,away,52,rushing,CAR,Storm Johnson,20
+340010239,UCF,American Athletic,away,52,rushing,CAR,Blake Bortles,8
+340010239,UCF,American Athletic,away,52,rushing,CAR,William Stanback,13
+340010239,UCF,American Athletic,away,52,rushing,CAR,Jeff Godfrey,1
+340010239,UCF,American Athletic,away,52,rushing,YDS,Storm Johnson,124
+340010239,UCF,American Athletic,away,52,rushing,YDS,Blake Bortles,93
+340010239,UCF,American Athletic,away,52,rushing,YDS,William Stanback,33
+340010239,UCF,American Athletic,away,52,rushing,YDS,Jeff Godfrey,7
+340010239,UCF,American Athletic,away,52,rushing,AVG,Storm Johnson,6.2
+340010239,UCF,American Athletic,away,52,rushing,AVG,Blake Bortles,11.6
+340010239,UCF,American Athletic,away,52,rushing,AVG,William Stanback,2.5
+340010239,UCF,American Athletic,away,52,rushing,AVG,Jeff Godfrey,7.0
+340010239,UCF,American Athletic,away,52,rushing,TD,Storm Johnson,3
+340010239,UCF,American Athletic,away,52,rushing,TD,Blake Bortles,1
+340010239,UCF,American Athletic,away,52,rushing,TD,William Stanback,0
+340010239,UCF,American Athletic,away,52,rushing,TD,Jeff Godfrey,0
+340010239,UCF,American Athletic,away,52,rushing,LONG,Storm Johnson,40
+340010239,UCF,American Athletic,away,52,rushing,LONG,Blake Bortles,29
+340010239,UCF,American Athletic,away,52,rushing,LONG,William Stanback,7
+340010239,UCF,American Athletic,away,52,rushing,LONG,Jeff Godfrey,7
+340010239,UCF,American Athletic,away,52,receiving,REC,Rannell Hall,4
+340010239,UCF,American Athletic,away,52,receiving,REC,Jeff Godfrey,5
+340010239,UCF,American Athletic,away,52,receiving,REC,J.J. Worton,5
+340010239,UCF,American Athletic,away,52,receiving,REC,Breshad Perriman,3
+340010239,UCF,American Athletic,away,52,receiving,REC,William Stanback,2
+340010239,UCF,American Athletic,away,52,receiving,REC,Storm Johnson,1
+340010239,UCF,American Athletic,away,52,receiving,YDS,Rannell Hall,113
+340010239,UCF,American Athletic,away,52,receiving,YDS,Jeff Godfrey,60
+340010239,UCF,American Athletic,away,52,receiving,YDS,J.J. Worton,56
+340010239,UCF,American Athletic,away,52,receiving,YDS,Breshad Perriman,48
+340010239,UCF,American Athletic,away,52,receiving,YDS,William Stanback,25
+340010239,UCF,American Athletic,away,52,receiving,YDS,Storm Johnson,-1
+340010239,UCF,American Athletic,away,52,receiving,AVG,Rannell Hall,28.3
+340010239,UCF,American Athletic,away,52,receiving,AVG,Jeff Godfrey,12.0
+340010239,UCF,American Athletic,away,52,receiving,AVG,J.J. Worton,11.2
+340010239,UCF,American Athletic,away,52,receiving,AVG,Breshad Perriman,16.0
+340010239,UCF,American Athletic,away,52,receiving,AVG,William Stanback,12.5
+340010239,UCF,American Athletic,away,52,receiving,AVG,Storm Johnson,-1.0
+340010239,UCF,American Athletic,away,52,receiving,TD,Rannell Hall,2
+340010239,UCF,American Athletic,away,52,receiving,TD,Jeff Godfrey,0
+340010239,UCF,American Athletic,away,52,receiving,TD,J.J. Worton,0
+340010239,UCF,American Athletic,away,52,receiving,TD,Breshad Perriman,1
+340010239,UCF,American Athletic,away,52,receiving,TD,William Stanback,0
+340010239,UCF,American Athletic,away,52,receiving,TD,Storm Johnson,0
+340010239,UCF,American Athletic,away,52,receiving,LONG,Rannell Hall,50
+340010239,UCF,American Athletic,away,52,receiving,LONG,Jeff Godfrey,38
+340010239,UCF,American Athletic,away,52,receiving,LONG,J.J. Worton,16
+340010239,UCF,American Athletic,away,52,receiving,LONG,Breshad Perriman,34
+340010239,UCF,American Athletic,away,52,receiving,LONG,William Stanback,17
+340010239,UCF,American Athletic,away,52,receiving,LONG,Storm Johnson,0
+340010239,UCF,American Athletic,away,52,interceptions,INT,Brandon Alexander,1
+340010239,UCF,American Athletic,away,52,interceptions,YDS,Brandon Alexander,0
+340010239,UCF,American Athletic,away,52,interceptions,TD,Brandon Alexander,0
+340010239,UCF,American Athletic,away,52,kickReturns,NO,William Stanback,3
+340010239,UCF,American Athletic,away,52,kickReturns,NO,Rannell Hall,1
+340010239,UCF,American Athletic,away,52,kickReturns,YDS,William Stanback,56
+340010239,UCF,American Athletic,away,52,kickReturns,YDS,Rannell Hall,17
+340010239,UCF,American Athletic,away,52,kickReturns,AVG,William Stanback,18.7
+340010239,UCF,American Athletic,away,52,kickReturns,AVG,Rannell Hall,17.0
+340010239,UCF,American Athletic,away,52,kickReturns,LONG,William Stanback,24
+340010239,UCF,American Athletic,away,52,kickReturns,LONG,Rannell Hall,17
+340010239,UCF,American Athletic,away,52,kickReturns,TD,William Stanback,0
+340010239,UCF,American Athletic,away,52,kickReturns,TD,Rannell Hall,0
+340010239,UCF,American Athletic,away,52,puntReturns,NO,J.J. Worton,1
+340010239,UCF,American Athletic,away,52,puntReturns,YDS,J.J. Worton,9
+340010239,UCF,American Athletic,away,52,puntReturns,AVG,J.J. Worton,9.0
+340010239,UCF,American Athletic,away,52,puntReturns,LONG,J.J. Worton,9
+340010239,UCF,American Athletic,away,52,puntReturns,TD,J.J. Worton,0
+340010239,UCF,American Athletic,away,52,kicking,FG,Shawn Moffitt,1/1
+340010239,UCF,American Athletic,away,52,kicking,PCT,Shawn Moffitt,100.0
+340010239,UCF,American Athletic,away,52,kicking,LONG,Shawn Moffitt,36
+340010239,UCF,American Athletic,away,52,kicking,XP,Shawn Moffitt,7/7
+340010239,UCF,American Athletic,away,52,kicking,PTS,Shawn Moffitt,10
+340010239,UCF,American Athletic,away,52,punting,NO,Caleb Houston,4
+340010239,UCF,American Athletic,away,52,punting,YDS,Caleb Houston,164
+340010239,UCF,American Athletic,away,52,punting,AVG,Caleb Houston,41.0
+340010239,UCF,American Athletic,away,52,punting,TB,Caleb Houston,0
+340010239,UCF,American Athletic,away,52,punting,In 20,Caleb Houston,0
+340010239,UCF,American Athletic,away,52,punting,LONG,Caleb Houston,44
+340020333,Oklahoma,Big 12,away,45,passing,C/ATT,Trevor Knight,32/44
+340020333,Oklahoma,Big 12,away,45,passing,YDS,Trevor Knight,348
+340020333,Oklahoma,Big 12,away,45,passing,AVG,Trevor Knight,7.9
+340020333,Oklahoma,Big 12,away,45,passing,TD,Trevor Knight,4
+340020333,Oklahoma,Big 12,away,45,passing,INT,Trevor Knight,1
+340020333,Oklahoma,Big 12,away,45,passing,QBR,Trevor Knight,78.6
+340020333,Oklahoma,Big 12,away,45,rushing,CAR,Brennan Clay,17
+340020333,Oklahoma,Big 12,away,45,rushing,CAR,Keith Ford,3
+340020333,Oklahoma,Big 12,away,45,rushing,CAR,Sterling Shepard,3
+340020333,Oklahoma,Big 12,away,45,rushing,CAR,Trevor Knight,5
+340020333,Oklahoma,Big 12,away,45,rushing,CAR,Jalen Saunders,1
+340020333,Oklahoma,Big 12,away,45,rushing,YDS,Brennan Clay,44
+340020333,Oklahoma,Big 12,away,45,rushing,YDS,Keith Ford,15
+340020333,Oklahoma,Big 12,away,45,rushing,YDS,Sterling Shepard,14
+340020333,Oklahoma,Big 12,away,45,rushing,YDS,Trevor Knight,7
+340020333,Oklahoma,Big 12,away,45,rushing,YDS,Jalen Saunders,4
+340020333,Oklahoma,Big 12,away,45,rushing,AVG,Brennan Clay,2.6
+340020333,Oklahoma,Big 12,away,45,rushing,AVG,Keith Ford,5.0
+340020333,Oklahoma,Big 12,away,45,rushing,AVG,Sterling Shepard,4.7
+340020333,Oklahoma,Big 12,away,45,rushing,AVG,Trevor Knight,1.4
+340020333,Oklahoma,Big 12,away,45,rushing,AVG,Jalen Saunders,4.0
+340020333,Oklahoma,Big 12,away,45,rushing,TD,Brennan Clay,0
+340020333,Oklahoma,Big 12,away,45,rushing,TD,Keith Ford,0
+340020333,Oklahoma,Big 12,away,45,rushing,TD,Sterling Shepard,1
+340020333,Oklahoma,Big 12,away,45,rushing,TD,Trevor Knight,0
+340020333,Oklahoma,Big 12,away,45,rushing,TD,Jalen Saunders,0
+340020333,Oklahoma,Big 12,away,45,rushing,LONG,Brennan Clay,12
+340020333,Oklahoma,Big 12,away,45,rushing,LONG,Keith Ford,12
+340020333,Oklahoma,Big 12,away,45,rushing,LONG,Sterling Shepard,13
+340020333,Oklahoma,Big 12,away,45,rushing,LONG,Trevor Knight,10
+340020333,Oklahoma,Big 12,away,45,rushing,LONG,Jalen Saunders,4
+340020333,Oklahoma,Big 12,away,45,receiving,REC,Lacoltan Bester,6
+340020333,Oklahoma,Big 12,away,45,receiving,REC,Jalen Saunders,5
+340020333,Oklahoma,Big 12,away,45,receiving,REC,Sterling Shepard,7
+340020333,Oklahoma,Big 12,away,45,receiving,REC,Brennan Clay,7
+340020333,Oklahoma,Big 12,away,45,receiving,REC,Derrick Woods,1
+340020333,Oklahoma,Big 12,away,45,receiving,REC,Roy Finch,2
+340020333,Oklahoma,Big 12,away,45,receiving,REC,Jaz Reynolds,2
+340020333,Oklahoma,Big 12,away,45,receiving,REC,Brannon Green,1
+340020333,Oklahoma,Big 12,away,45,receiving,REC,Taylor McNamara,1
+340020333,Oklahoma,Big 12,away,45,receiving,YDS,Lacoltan Bester,105
+340020333,Oklahoma,Big 12,away,45,receiving,YDS,Jalen Saunders,75
+340020333,Oklahoma,Big 12,away,45,receiving,YDS,Sterling Shepard,63
+340020333,Oklahoma,Big 12,away,45,receiving,YDS,Brennan Clay,36
+340020333,Oklahoma,Big 12,away,45,receiving,YDS,Derrick Woods,20
+340020333,Oklahoma,Big 12,away,45,receiving,YDS,Roy Finch,18
+340020333,Oklahoma,Big 12,away,45,receiving,YDS,Jaz Reynolds,14
+340020333,Oklahoma,Big 12,away,45,receiving,YDS,Brannon Green,13
+340020333,Oklahoma,Big 12,away,45,receiving,YDS,Taylor McNamara,4
+340020333,Oklahoma,Big 12,away,45,receiving,AVG,Lacoltan Bester,17.5
+340020333,Oklahoma,Big 12,away,45,receiving,AVG,Jalen Saunders,15.0
+340020333,Oklahoma,Big 12,away,45,receiving,AVG,Sterling Shepard,9.0
+340020333,Oklahoma,Big 12,away,45,receiving,AVG,Brennan Clay,5.1
+340020333,Oklahoma,Big 12,away,45,receiving,AVG,Derrick Woods,20.0
+340020333,Oklahoma,Big 12,away,45,receiving,AVG,Roy Finch,9.0
+340020333,Oklahoma,Big 12,away,45,receiving,AVG,Jaz Reynolds,7.0
+340020333,Oklahoma,Big 12,away,45,receiving,AVG,Brannon Green,13.0
+340020333,Oklahoma,Big 12,away,45,receiving,AVG,Taylor McNamara,4.0
+340020333,Oklahoma,Big 12,away,45,receiving,TD,Lacoltan Bester,1
+340020333,Oklahoma,Big 12,away,45,receiving,TD,Jalen Saunders,2
+340020333,Oklahoma,Big 12,away,45,receiving,TD,Sterling Shepard,1
+340020333,Oklahoma,Big 12,away,45,receiving,TD,Brennan Clay,0
+340020333,Oklahoma,Big 12,away,45,receiving,TD,Derrick Woods,0
+340020333,Oklahoma,Big 12,away,45,receiving,TD,Roy Finch,0
+340020333,Oklahoma,Big 12,away,45,receiving,TD,Jaz Reynolds,0
+340020333,Oklahoma,Big 12,away,45,receiving,TD,Brannon Green,0
+340020333,Oklahoma,Big 12,away,45,receiving,TD,Taylor McNamara,0
+340020333,Oklahoma,Big 12,away,45,receiving,LONG,Lacoltan Bester,45
+340020333,Oklahoma,Big 12,away,45,receiving,LONG,Jalen Saunders,43
+340020333,Oklahoma,Big 12,away,45,receiving,LONG,Sterling Shepard,22
+340020333,Oklahoma,Big 12,away,45,receiving,LONG,Brennan Clay,10
+340020333,Oklahoma,Big 12,away,45,receiving,LONG,Derrick Woods,20
+340020333,Oklahoma,Big 12,away,45,receiving,LONG,Roy Finch,15
+340020333,Oklahoma,Big 12,away,45,receiving,LONG,Jaz Reynolds,7
+340020333,Oklahoma,Big 12,away,45,receiving,LONG,Brannon Green,13
+340020333,Oklahoma,Big 12,away,45,receiving,LONG,Taylor McNamara,4
+340020333,Oklahoma,Big 12,away,45,interceptions,INT,Zack Sanchez,1
+340020333,Oklahoma,Big 12,away,45,interceptions,INT,Gabe Lynn,1
+340020333,Oklahoma,Big 12,away,45,interceptions,YDS,Zack Sanchez,43
+340020333,Oklahoma,Big 12,away,45,interceptions,YDS,Gabe Lynn,6
+340020333,Oklahoma,Big 12,away,45,interceptions,TD,Zack Sanchez,0
+340020333,Oklahoma,Big 12,away,45,interceptions,TD,Gabe Lynn,0
+340020333,Oklahoma,Big 12,away,45,kickReturns,NO,Roy Finch,5
+340020333,Oklahoma,Big 12,away,45,kickReturns,YDS,Roy Finch,101
+340020333,Oklahoma,Big 12,away,45,kickReturns,AVG,Roy Finch,20.2
+340020333,Oklahoma,Big 12,away,45,kickReturns,LONG,Roy Finch,30
+340020333,Oklahoma,Big 12,away,45,kickReturns,TD,Roy Finch,0
+340020333,Oklahoma,Big 12,away,45,puntReturns,NO,Jalen Saunders,2
+340020333,Oklahoma,Big 12,away,45,puntReturns,YDS,Jalen Saunders,6
+340020333,Oklahoma,Big 12,away,45,puntReturns,AVG,Jalen Saunders,3.0
+340020333,Oklahoma,Big 12,away,45,puntReturns,LONG,Jalen Saunders,6
+340020333,Oklahoma,Big 12,away,45,puntReturns,TD,Jalen Saunders,0
+340020333,Oklahoma,Big 12,away,45,kicking,FG,Michael Hunnicutt,1/1
+340020333,Oklahoma,Big 12,away,45,kicking,PCT,Michael Hunnicutt,100.0
+340020333,Oklahoma,Big 12,away,45,kicking,LONG,Michael Hunnicutt,47
+340020333,Oklahoma,Big 12,away,45,kicking,XP,Michael Hunnicutt,6/6
+340020333,Oklahoma,Big 12,away,45,kicking,PTS,Michael Hunnicutt,9
+340020333,Oklahoma,Big 12,away,45,punting,NO,Jed Barnett,6
+340020333,Oklahoma,Big 12,away,45,punting,YDS,Jed Barnett,254
+340020333,Oklahoma,Big 12,away,45,punting,AVG,Jed Barnett,42.3
+340020333,Oklahoma,Big 12,away,45,punting,TB,Jed Barnett,0
+340020333,Oklahoma,Big 12,away,45,punting,In 20,Jed Barnett,0
+340020333,Oklahoma,Big 12,away,45,punting,LONG,Jed Barnett,56
+340020333,Alabama,SEC,home,31,passing,C/ATT,AJ McCarron,19/30
+340020333,Alabama,SEC,home,31,passing,YDS,AJ McCarron,387
+340020333,Alabama,SEC,home,31,passing,AVG,AJ McCarron,12.9
+340020333,Alabama,SEC,home,31,passing,TD,AJ McCarron,2
+340020333,Alabama,SEC,home,31,passing,INT,AJ McCarron,2
+340020333,Alabama,SEC,home,31,passing,QBR,AJ McCarron,32.8
+340020333,Alabama,SEC,home,31,rushing,CAR,Derrick Henry,8
+340020333,Alabama,SEC,home,31,rushing,CAR,T.J. Yeldon,17
+340020333,Alabama,SEC,home,31,rushing,CAR,AJ McCarron,10
+340020333,Alabama,SEC,home,31,rushing,YDS,Derrick Henry,100
+340020333,Alabama,SEC,home,31,rushing,YDS,T.J. Yeldon,72
+340020333,Alabama,SEC,home,31,rushing,YDS,AJ McCarron,-43
+340020333,Alabama,SEC,home,31,rushing,AVG,Derrick Henry,12.5
+340020333,Alabama,SEC,home,31,rushing,AVG,T.J. Yeldon,4.2
+340020333,Alabama,SEC,home,31,rushing,AVG,AJ McCarron,-4.3
+340020333,Alabama,SEC,home,31,rushing,TD,Derrick Henry,1
+340020333,Alabama,SEC,home,31,rushing,TD,T.J. Yeldon,1
+340020333,Alabama,SEC,home,31,rushing,TD,AJ McCarron,0
+340020333,Alabama,SEC,home,31,rushing,LONG,Derrick Henry,43
+340020333,Alabama,SEC,home,31,rushing,LONG,T.J. Yeldon,16
+340020333,Alabama,SEC,home,31,rushing,LONG,AJ McCarron,4
+340020333,Alabama,SEC,home,31,receiving,REC,DeAndrew White,3
+340020333,Alabama,SEC,home,31,receiving,REC,Amari Cooper,9
+340020333,Alabama,SEC,home,31,receiving,REC,Derrick Henry,1
+340020333,Alabama,SEC,home,31,receiving,REC,Kevin Norwood,2
+340020333,Alabama,SEC,home,31,receiving,REC,T.J. Yeldon,2
+340020333,Alabama,SEC,home,31,receiving,REC,Kenny Bell,2
+340020333,Alabama,SEC,home,31,receiving,YDS,DeAndrew White,139
+340020333,Alabama,SEC,home,31,receiving,YDS,Amari Cooper,121
+340020333,Alabama,SEC,home,31,receiving,YDS,Derrick Henry,61
+340020333,Alabama,SEC,home,31,receiving,YDS,Kevin Norwood,30
+340020333,Alabama,SEC,home,31,receiving,YDS,T.J. Yeldon,23
+340020333,Alabama,SEC,home,31,receiving,YDS,Kenny Bell,13
+340020333,Alabama,SEC,home,31,receiving,AVG,DeAndrew White,46.3
+340020333,Alabama,SEC,home,31,receiving,AVG,Amari Cooper,13.4
+340020333,Alabama,SEC,home,31,receiving,AVG,Derrick Henry,61.0
+340020333,Alabama,SEC,home,31,receiving,AVG,Kevin Norwood,15.0
+340020333,Alabama,SEC,home,31,receiving,AVG,T.J. Yeldon,11.5
+340020333,Alabama,SEC,home,31,receiving,AVG,Kenny Bell,6.5
+340020333,Alabama,SEC,home,31,receiving,TD,DeAndrew White,1
+340020333,Alabama,SEC,home,31,receiving,TD,Amari Cooper,0
+340020333,Alabama,SEC,home,31,receiving,TD,Derrick Henry,1
+340020333,Alabama,SEC,home,31,receiving,TD,Kevin Norwood,0
+340020333,Alabama,SEC,home,31,receiving,TD,T.J. Yeldon,0
+340020333,Alabama,SEC,home,31,receiving,TD,Kenny Bell,0
+340020333,Alabama,SEC,home,31,receiving,LONG,DeAndrew White,67
+340020333,Alabama,SEC,home,31,receiving,LONG,Amari Cooper,53
+340020333,Alabama,SEC,home,31,receiving,LONG,Derrick Henry,61
+340020333,Alabama,SEC,home,31,receiving,LONG,Kevin Norwood,21
+340020333,Alabama,SEC,home,31,receiving,LONG,T.J. Yeldon,19
+340020333,Alabama,SEC,home,31,receiving,LONG,Kenny Bell,7
+340020333,Alabama,SEC,home,31,interceptions,INT,Landon Collins,1
+340020333,Alabama,SEC,home,31,interceptions,YDS,Landon Collins,0
+340020333,Alabama,SEC,home,31,interceptions,TD,Landon Collins,0
+340020333,Alabama,SEC,home,31,kickReturns,NO,Christion Jones,4
+340020333,Alabama,SEC,home,31,kickReturns,YDS,Christion Jones,104
+340020333,Alabama,SEC,home,31,kickReturns,AVG,Christion Jones,26.0
+340020333,Alabama,SEC,home,31,kickReturns,LONG,Christion Jones,35
+340020333,Alabama,SEC,home,31,kickReturns,TD,Christion Jones,0
+340020333,Alabama,SEC,home,31,puntReturns,NO,Christion Jones,2
+340020333,Alabama,SEC,home,31,puntReturns,YDS,Christion Jones,18
+340020333,Alabama,SEC,home,31,puntReturns,AVG,Christion Jones,9.0
+340020333,Alabama,SEC,home,31,puntReturns,LONG,Christion Jones,9
+340020333,Alabama,SEC,home,31,puntReturns,TD,Christion Jones,0
+340020333,Alabama,SEC,home,31,kicking,FG,Cade Foster,1/2
+340020333,Alabama,SEC,home,31,kicking,PCT,Cade Foster,50.0
+340020333,Alabama,SEC,home,31,kicking,LONG,Cade Foster,27
+340020333,Alabama,SEC,home,31,kicking,XP,Cade Foster,4/4
+340020333,Alabama,SEC,home,31,kicking,PTS,Cade Foster,7
+340020333,Alabama,SEC,home,31,punting,NO,Cody Mandell,4
+340020333,Alabama,SEC,home,31,punting,YDS,Cody Mandell,174
+340020333,Alabama,SEC,home,31,punting,AVG,Cody Mandell,43.5
+340020333,Alabama,SEC,home,31,punting,TB,Cody Mandell,0
+340020333,Alabama,SEC,home,31,punting,In 20,Cody Mandell,0
+340020333,Alabama,SEC,home,31,punting,LONG,Cody Mandell,48
+340030142,Missouri,SEC,home,41,passing,C/ATT,James Franklin,15/40
+340030142,Missouri,SEC,home,41,passing,C/ATT,Maty Mauk,2/4
+340030142,Missouri,SEC,home,41,passing,YDS,James Franklin,174
+340030142,Missouri,SEC,home,41,passing,YDS,Maty Mauk,32
+340030142,Missouri,SEC,home,41,passing,AVG,James Franklin,4.3
+340030142,Missouri,SEC,home,41,passing,AVG,Maty Mauk,8.0
+340030142,Missouri,SEC,home,41,passing,TD,James Franklin,0
+340030142,Missouri,SEC,home,41,passing,TD,Maty Mauk,1
+340030142,Missouri,SEC,home,41,passing,INT,James Franklin,1
+340030142,Missouri,SEC,home,41,passing,INT,Maty Mauk,0
+340030142,Missouri,SEC,home,41,passing,QBR,James Franklin,27.1
+340030142,Missouri,SEC,home,41,passing,QBR,Maty Mauk,99.3
+340030142,Missouri,SEC,home,41,rushing,CAR,Henry Josey,12
+340030142,Missouri,SEC,home,41,rushing,CAR,Maty Mauk,3
+340030142,Missouri,SEC,home,41,rushing,CAR,James Franklin,16
+340030142,Missouri,SEC,home,41,rushing,CAR,Marcus Murphy,7
+340030142,Missouri,SEC,home,41,rushing,CAR,Russell Hansbrough,9
+340030142,Missouri,SEC,home,41,rushing,YDS,Henry Josey,92
+340030142,Missouri,SEC,home,41,rushing,YDS,Maty Mauk,73
+340030142,Missouri,SEC,home,41,rushing,YDS,James Franklin,36
+340030142,Missouri,SEC,home,41,rushing,YDS,Marcus Murphy,30
+340030142,Missouri,SEC,home,41,rushing,YDS,Russell Hansbrough,25
+340030142,Missouri,SEC,home,41,rushing,AVG,Henry Josey,7.7
+340030142,Missouri,SEC,home,41,rushing,AVG,Maty Mauk,24.3
+340030142,Missouri,SEC,home,41,rushing,AVG,James Franklin,2.3
+340030142,Missouri,SEC,home,41,rushing,AVG,Marcus Murphy,4.3
+340030142,Missouri,SEC,home,41,rushing,AVG,Russell Hansbrough,2.8
+340030142,Missouri,SEC,home,41,rushing,TD,Henry Josey,3
+340030142,Missouri,SEC,home,41,rushing,TD,Maty Mauk,0
+340030142,Missouri,SEC,home,41,rushing,TD,James Franklin,0
+340030142,Missouri,SEC,home,41,rushing,TD,Marcus Murphy,0
+340030142,Missouri,SEC,home,41,rushing,TD,Russell Hansbrough,0
+340030142,Missouri,SEC,home,41,rushing,LONG,Henry Josey,25
+340030142,Missouri,SEC,home,41,rushing,LONG,Maty Mauk,35
+340030142,Missouri,SEC,home,41,rushing,LONG,James Franklin,19
+340030142,Missouri,SEC,home,41,rushing,LONG,Marcus Murphy,8
+340030142,Missouri,SEC,home,41,rushing,LONG,Russell Hansbrough,13
+340030142,Missouri,SEC,home,41,receiving,REC,Dorial Green-Beckham,4
+340030142,Missouri,SEC,home,41,receiving,REC,Marcus Lucas,3
+340030142,Missouri,SEC,home,41,receiving,REC,L'Damian Washington,3
+340030142,Missouri,SEC,home,41,receiving,REC,Bud Sasser,3
+340030142,Missouri,SEC,home,41,receiving,REC,Henry Josey,1
+340030142,Missouri,SEC,home,41,receiving,REC,Jimmie Hunt,1
+340030142,Missouri,SEC,home,41,receiving,REC,Marcus Murphy,1
+340030142,Missouri,SEC,home,41,receiving,REC,Russell Hansbrough,1
+340030142,Missouri,SEC,home,41,receiving,YDS,Dorial Green-Beckham,53
+340030142,Missouri,SEC,home,41,receiving,YDS,Marcus Lucas,46
+340030142,Missouri,SEC,home,41,receiving,YDS,L'Damian Washington,40
+340030142,Missouri,SEC,home,41,receiving,YDS,Bud Sasser,35
+340030142,Missouri,SEC,home,41,receiving,YDS,Henry Josey,10
+340030142,Missouri,SEC,home,41,receiving,YDS,Jimmie Hunt,8
+340030142,Missouri,SEC,home,41,receiving,YDS,Marcus Murphy,8
+340030142,Missouri,SEC,home,41,receiving,YDS,Russell Hansbrough,6
+340030142,Missouri,SEC,home,41,receiving,AVG,Dorial Green-Beckham,13.3
+340030142,Missouri,SEC,home,41,receiving,AVG,Marcus Lucas,15.3
+340030142,Missouri,SEC,home,41,receiving,AVG,L'Damian Washington,13.3
+340030142,Missouri,SEC,home,41,receiving,AVG,Bud Sasser,11.7
+340030142,Missouri,SEC,home,41,receiving,AVG,Henry Josey,10.0
+340030142,Missouri,SEC,home,41,receiving,AVG,Jimmie Hunt,8.0
+340030142,Missouri,SEC,home,41,receiving,AVG,Marcus Murphy,8.0
+340030142,Missouri,SEC,home,41,receiving,AVG,Russell Hansbrough,6.0
+340030142,Missouri,SEC,home,41,receiving,TD,Dorial Green-Beckham,0
+340030142,Missouri,SEC,home,41,receiving,TD,Marcus Lucas,1
+340030142,Missouri,SEC,home,41,receiving,TD,L'Damian Washington,0
+340030142,Missouri,SEC,home,41,receiving,TD,Bud Sasser,0
+340030142,Missouri,SEC,home,41,receiving,TD,Henry Josey,0
+340030142,Missouri,SEC,home,41,receiving,TD,Jimmie Hunt,0
+340030142,Missouri,SEC,home,41,receiving,TD,Marcus Murphy,0
+340030142,Missouri,SEC,home,41,receiving,TD,Russell Hansbrough,0
+340030142,Missouri,SEC,home,41,receiving,LONG,Dorial Green-Beckham,27
+340030142,Missouri,SEC,home,41,receiving,LONG,Marcus Lucas,24
+340030142,Missouri,SEC,home,41,receiving,LONG,L'Damian Washington,18
+340030142,Missouri,SEC,home,41,receiving,LONG,Bud Sasser,14
+340030142,Missouri,SEC,home,41,receiving,LONG,Henry Josey,10
+340030142,Missouri,SEC,home,41,receiving,LONG,Jimmie Hunt,8
+340030142,Missouri,SEC,home,41,receiving,LONG,Marcus Murphy,8
+340030142,Missouri,SEC,home,41,receiving,LONG,Russell Hansbrough,6
+340030142,Missouri,SEC,home,41,interceptions,INT,E.J. Gaines,1
+340030142,Missouri,SEC,home,41,interceptions,INT,Braylon Webb,1
+340030142,Missouri,SEC,home,41,interceptions,YDS,E.J. Gaines,2
+340030142,Missouri,SEC,home,41,interceptions,YDS,Braylon Webb,1
+340030142,Missouri,SEC,home,41,interceptions,TD,E.J. Gaines,0
+340030142,Missouri,SEC,home,41,interceptions,TD,Braylon Webb,0
+340030142,Missouri,SEC,home,41,kickReturns,NO,Marcus Murphy,4
+340030142,Missouri,SEC,home,41,kickReturns,YDS,Marcus Murphy,90
+340030142,Missouri,SEC,home,41,kickReturns,AVG,Marcus Murphy,22.5
+340030142,Missouri,SEC,home,41,kickReturns,LONG,Marcus Murphy,31
+340030142,Missouri,SEC,home,41,kickReturns,TD,Marcus Murphy,0
+340030142,Missouri,SEC,home,41,puntReturns,NO,Marcus Murphy,3
+340030142,Missouri,SEC,home,41,puntReturns,YDS,Marcus Murphy,46
+340030142,Missouri,SEC,home,41,puntReturns,AVG,Marcus Murphy,15.3
+340030142,Missouri,SEC,home,41,puntReturns,LONG,Marcus Murphy,38
+340030142,Missouri,SEC,home,41,puntReturns,TD,Marcus Murphy,0
+340030142,Missouri,SEC,home,41,kicking,FG,Andrew Baggett,2/2
+340030142,Missouri,SEC,home,41,kicking,PCT,Andrew Baggett,100.0
+340030142,Missouri,SEC,home,41,kicking,LONG,Andrew Baggett,46
+340030142,Missouri,SEC,home,41,kicking,XP,Andrew Baggett,5/5
+340030142,Missouri,SEC,home,41,kicking,PTS,Andrew Baggett,11
+340030142,Missouri,SEC,home,41,punting,NO,Christian Brinser,7
+340030142,Missouri,SEC,home,41,punting,YDS,Christian Brinser,287
+340030142,Missouri,SEC,home,41,punting,AVG,Christian Brinser,41.0
+340030142,Missouri,SEC,home,41,punting,TB,Christian Brinser,0
+340030142,Missouri,SEC,home,41,punting,In 20,Christian Brinser,0
+340030142,Missouri,SEC,home,41,punting,LONG,Christian Brinser,53
+340030142,Oklahoma State,Big 12,away,31,passing,C/ATT,Clint Chelf,33/57
+340030142,Oklahoma State,Big 12,away,31,passing,YDS,Clint Chelf,377
+340030142,Oklahoma State,Big 12,away,31,passing,AVG,Clint Chelf,6.6
+340030142,Oklahoma State,Big 12,away,31,passing,TD,Clint Chelf,2
+340030142,Oklahoma State,Big 12,away,31,passing,INT,Clint Chelf,2
+340030142,Oklahoma State,Big 12,away,31,passing,QBR,Clint Chelf,64.1
+340030142,Oklahoma State,Big 12,away,31,rushing,CAR,Desmond Roland,16
+340030142,Oklahoma State,Big 12,away,31,rushing,CAR,Clint Chelf,10
+340030142,Oklahoma State,Big 12,away,31,rushing,CAR,Jeremy Smith,7
+340030142,Oklahoma State,Big 12,away,31,rushing,CAR,Rennie Childs,3
+340030142,Oklahoma State,Big 12,away,31,rushing,CAR,Josh Stewart,2
+340030142,Oklahoma State,Big 12,away,31,rushing,YDS,Desmond Roland,66
+340030142,Oklahoma State,Big 12,away,31,rushing,YDS,Clint Chelf,52
+340030142,Oklahoma State,Big 12,away,31,rushing,YDS,Jeremy Smith,43
+340030142,Oklahoma State,Big 12,away,31,rushing,YDS,Rennie Childs,12
+340030142,Oklahoma State,Big 12,away,31,rushing,YDS,Josh Stewart,7
+340030142,Oklahoma State,Big 12,away,31,rushing,AVG,Desmond Roland,4.1
+340030142,Oklahoma State,Big 12,away,31,rushing,AVG,Clint Chelf,5.2
+340030142,Oklahoma State,Big 12,away,31,rushing,AVG,Jeremy Smith,6.1
+340030142,Oklahoma State,Big 12,away,31,rushing,AVG,Rennie Childs,4.0
+340030142,Oklahoma State,Big 12,away,31,rushing,AVG,Josh Stewart,3.5
+340030142,Oklahoma State,Big 12,away,31,rushing,TD,Desmond Roland,1
+340030142,Oklahoma State,Big 12,away,31,rushing,TD,Clint Chelf,1
+340030142,Oklahoma State,Big 12,away,31,rushing,TD,Jeremy Smith,0
+340030142,Oklahoma State,Big 12,away,31,rushing,TD,Rennie Childs,0
+340030142,Oklahoma State,Big 12,away,31,rushing,TD,Josh Stewart,0
+340030142,Oklahoma State,Big 12,away,31,rushing,LONG,Desmond Roland,9
+340030142,Oklahoma State,Big 12,away,31,rushing,LONG,Clint Chelf,23
+340030142,Oklahoma State,Big 12,away,31,rushing,LONG,Jeremy Smith,25
+340030142,Oklahoma State,Big 12,away,31,rushing,LONG,Rennie Childs,8
+340030142,Oklahoma State,Big 12,away,31,rushing,LONG,Josh Stewart,5
+340030142,Oklahoma State,Big 12,away,31,receiving,REC,Tracy Moore,7
+340030142,Oklahoma State,Big 12,away,31,receiving,REC,Josh Stewart,8
+340030142,Oklahoma State,Big 12,away,31,receiving,REC,Charlie Moore,4
+340030142,Oklahoma State,Big 12,away,31,receiving,REC,Jhajuan Seales,3
+340030142,Oklahoma State,Big 12,away,31,receiving,REC,Brandon Sheperd,3
+340030142,Oklahoma State,Big 12,away,31,receiving,REC,Marcell Ateman,4
+340030142,Oklahoma State,Big 12,away,31,receiving,REC,John Goodlett,1
+340030142,Oklahoma State,Big 12,away,31,receiving,REC,David Glidden,1
+340030142,Oklahoma State,Big 12,away,31,receiving,REC,Rennie Childs,1
+340030142,Oklahoma State,Big 12,away,31,receiving,REC,Desmond Roland,1
+340030142,Oklahoma State,Big 12,away,31,receiving,YDS,Tracy Moore,100
+340030142,Oklahoma State,Big 12,away,31,receiving,YDS,Josh Stewart,80
+340030142,Oklahoma State,Big 12,away,31,receiving,YDS,Charlie Moore,53
+340030142,Oklahoma State,Big 12,away,31,receiving,YDS,Jhajuan Seales,42
+340030142,Oklahoma State,Big 12,away,31,receiving,YDS,Brandon Sheperd,36
+340030142,Oklahoma State,Big 12,away,31,receiving,YDS,Marcell Ateman,36
+340030142,Oklahoma State,Big 12,away,31,receiving,YDS,John Goodlett,18
+340030142,Oklahoma State,Big 12,away,31,receiving,YDS,David Glidden,5
+340030142,Oklahoma State,Big 12,away,31,receiving,YDS,Rennie Childs,4
+340030142,Oklahoma State,Big 12,away,31,receiving,YDS,Desmond Roland,3
+340030142,Oklahoma State,Big 12,away,31,receiving,AVG,Tracy Moore,14.3
+340030142,Oklahoma State,Big 12,away,31,receiving,AVG,Josh Stewart,10.0
+340030142,Oklahoma State,Big 12,away,31,receiving,AVG,Charlie Moore,13.3
+340030142,Oklahoma State,Big 12,away,31,receiving,AVG,Jhajuan Seales,14.0
+340030142,Oklahoma State,Big 12,away,31,receiving,AVG,Brandon Sheperd,12.0
+340030142,Oklahoma State,Big 12,away,31,receiving,AVG,Marcell Ateman,9.0
+340030142,Oklahoma State,Big 12,away,31,receiving,AVG,John Goodlett,18.0
+340030142,Oklahoma State,Big 12,away,31,receiving,AVG,David Glidden,5.0
+340030142,Oklahoma State,Big 12,away,31,receiving,AVG,Rennie Childs,4.0
+340030142,Oklahoma State,Big 12,away,31,receiving,AVG,Desmond Roland,3.0
+340030142,Oklahoma State,Big 12,away,31,receiving,TD,Tracy Moore,0
+340030142,Oklahoma State,Big 12,away,31,receiving,TD,Josh Stewart,1
+340030142,Oklahoma State,Big 12,away,31,receiving,TD,Charlie Moore,0
+340030142,Oklahoma State,Big 12,away,31,receiving,TD,Jhajuan Seales,1
+340030142,Oklahoma State,Big 12,away,31,receiving,TD,Brandon Sheperd,0
+340030142,Oklahoma State,Big 12,away,31,receiving,TD,Marcell Ateman,0
+340030142,Oklahoma State,Big 12,away,31,receiving,TD,John Goodlett,0
+340030142,Oklahoma State,Big 12,away,31,receiving,TD,David Glidden,0
+340030142,Oklahoma State,Big 12,away,31,receiving,TD,Rennie Childs,0
+340030142,Oklahoma State,Big 12,away,31,receiving,TD,Desmond Roland,0
+340030142,Oklahoma State,Big 12,away,31,receiving,LONG,Tracy Moore,41
+340030142,Oklahoma State,Big 12,away,31,receiving,LONG,Josh Stewart,40
+340030142,Oklahoma State,Big 12,away,31,receiving,LONG,Charlie Moore,26
+340030142,Oklahoma State,Big 12,away,31,receiving,LONG,Jhajuan Seales,21
+340030142,Oklahoma State,Big 12,away,31,receiving,LONG,Brandon Sheperd,17
+340030142,Oklahoma State,Big 12,away,31,receiving,LONG,Marcell Ateman,23
+340030142,Oklahoma State,Big 12,away,31,receiving,LONG,John Goodlett,18
+340030142,Oklahoma State,Big 12,away,31,receiving,LONG,David Glidden,5
+340030142,Oklahoma State,Big 12,away,31,receiving,LONG,Rennie Childs,4
+340030142,Oklahoma State,Big 12,away,31,receiving,LONG,Desmond Roland,3
+340030142,Oklahoma State,Big 12,away,31,interceptions,INT,Justin Gilbert,1
+340030142,Oklahoma State,Big 12,away,31,interceptions,YDS,Justin Gilbert,14
+340030142,Oklahoma State,Big 12,away,31,interceptions,TD,Justin Gilbert,0
+340030142,Oklahoma State,Big 12,away,31,kickReturns,NO,Justin Gilbert,2
+340030142,Oklahoma State,Big 12,away,31,kickReturns,YDS,Justin Gilbert,28
+340030142,Oklahoma State,Big 12,away,31,kickReturns,AVG,Justin Gilbert,14.0
+340030142,Oklahoma State,Big 12,away,31,kickReturns,LONG,Justin Gilbert,18
+340030142,Oklahoma State,Big 12,away,31,kickReturns,TD,Justin Gilbert,0
+340030142,Oklahoma State,Big 12,away,31,puntReturns,NO,Charlie Moore,1
+340030142,Oklahoma State,Big 12,away,31,puntReturns,NO,Josh Stewart,2
+340030142,Oklahoma State,Big 12,away,31,puntReturns,YDS,Charlie Moore,12
+340030142,Oklahoma State,Big 12,away,31,puntReturns,YDS,Josh Stewart,4
+340030142,Oklahoma State,Big 12,away,31,puntReturns,AVG,Charlie Moore,12.0
+340030142,Oklahoma State,Big 12,away,31,puntReturns,AVG,Josh Stewart,2.0
+340030142,Oklahoma State,Big 12,away,31,puntReturns,LONG,Charlie Moore,12
+340030142,Oklahoma State,Big 12,away,31,puntReturns,LONG,Josh Stewart,3
+340030142,Oklahoma State,Big 12,away,31,puntReturns,TD,Charlie Moore,0
+340030142,Oklahoma State,Big 12,away,31,puntReturns,TD,Josh Stewart,0
+340030142,Oklahoma State,Big 12,away,31,kicking,FG,Ben Grogan,1/2
+340030142,Oklahoma State,Big 12,away,31,kicking,PCT,Ben Grogan,50.0
+340030142,Oklahoma State,Big 12,away,31,kicking,LONG,Ben Grogan,25
+340030142,Oklahoma State,Big 12,away,31,kicking,XP,Ben Grogan,4/4
+340030142,Oklahoma State,Big 12,away,31,kicking,PTS,Ben Grogan,7
+340030142,Oklahoma State,Big 12,away,31,punting,NO,Kip Smith,8
+340030142,Oklahoma State,Big 12,away,31,punting,YDS,Kip Smith,298
+340030142,Oklahoma State,Big 12,away,31,punting,AVG,Kip Smith,37.3
+340030142,Oklahoma State,Big 12,away,31,punting,TB,Kip Smith,0
+340030142,Oklahoma State,Big 12,away,31,punting,In 20,Kip Smith,0
+340030142,Oklahoma State,Big 12,away,31,punting,LONG,Kip Smith,46

@@ -1,0 +1,2824 @@
+game_id,school,conference,homeAway,points,stat_category,stat_type,athlete,stat
+400876103,TCU,Big 12,home,23,fumbles,FUM,Kyle Hicks,1
+400876103,TCU,Big 12,home,23,fumbles,FUM,Kenny Hill,1
+400876103,TCU,Big 12,home,23,fumbles,FUM,Tipa Galeai,0
+400876103,TCU,Big 12,home,23,fumbles,LOST,Tipa Galeai,0
+400876103,TCU,Big 12,home,23,fumbles,LOST,Kyle Hicks,1
+400876103,TCU,Big 12,home,23,fumbles,LOST,Kenny Hill,1
+400876103,TCU,Big 12,home,23,fumbles,REC,Tipa Galeai,1
+400876103,TCU,Big 12,home,23,fumbles,REC,Kyle Hicks,0
+400876103,TCU,Big 12,home,23,fumbles,REC,Kenny Hill,0
+400876103,TCU,Big 12,home,23,receiving,TD,Darius Anderson,0
+400876103,TCU,Big 12,home,23,receiving,TD,Isaiah Graham,0
+400876103,TCU,Big 12,home,23,receiving,TD,Jarrison Stewart,0
+400876103,TCU,Big 12,home,23,receiving,TD,Desmon White,0
+400876103,TCU,Big 12,home,23,receiving,TD,Kyle Hicks,0
+400876103,TCU,Big 12,home,23,receiving,TD,John Diarse,2
+400876103,TCU,Big 12,home,23,receiving,TD,Ty Slanina,0
+400876103,TCU,Big 12,home,23,receiving,TD,Trevorris Johnson,0
+400876103,TCU,Big 12,home,23,receiving,REC,Isaiah Graham,3
+400876103,TCU,Big 12,home,23,receiving,REC,Jarrison Stewart,3
+400876103,TCU,Big 12,home,23,receiving,REC,Desmon White,2
+400876103,TCU,Big 12,home,23,receiving,REC,Kyle Hicks,5
+400876103,TCU,Big 12,home,23,receiving,REC,John Diarse,2
+400876103,TCU,Big 12,home,23,receiving,REC,Ty Slanina,1
+400876103,TCU,Big 12,home,23,receiving,REC,Trevorris Johnson,1
+400876103,TCU,Big 12,home,23,receiving,REC,Darius Anderson,1
+400876103,TCU,Big 12,home,23,receiving,YDS,Isaiah Graham,37
+400876103,TCU,Big 12,home,23,receiving,YDS,Jarrison Stewart,29
+400876103,TCU,Big 12,home,23,receiving,YDS,Desmon White,21
+400876103,TCU,Big 12,home,23,receiving,YDS,Kyle Hicks,21
+400876103,TCU,Big 12,home,23,receiving,YDS,John Diarse,19
+400876103,TCU,Big 12,home,23,receiving,YDS,Ty Slanina,10
+400876103,TCU,Big 12,home,23,receiving,YDS,Trevorris Johnson,6
+400876103,TCU,Big 12,home,23,receiving,YDS,Darius Anderson,3
+400876103,TCU,Big 12,home,23,receiving,AVG,Isaiah Graham,12.3
+400876103,TCU,Big 12,home,23,receiving,AVG,Jarrison Stewart,9.7
+400876103,TCU,Big 12,home,23,receiving,AVG,Desmon White,10.5
+400876103,TCU,Big 12,home,23,receiving,AVG,Kyle Hicks,4.2
+400876103,TCU,Big 12,home,23,receiving,AVG,John Diarse,9.5
+400876103,TCU,Big 12,home,23,receiving,AVG,Ty Slanina,10.0
+400876103,TCU,Big 12,home,23,receiving,AVG,Trevorris Johnson,6.0
+400876103,TCU,Big 12,home,23,receiving,AVG,Darius Anderson,3.0
+400876103,TCU,Big 12,home,23,receiving,LONG,Isaiah Graham,17
+400876103,TCU,Big 12,home,23,receiving,LONG,Jarrison Stewart,15
+400876103,TCU,Big 12,home,23,receiving,LONG,Desmon White,14
+400876103,TCU,Big 12,home,23,receiving,LONG,Kyle Hicks,8
+400876103,TCU,Big 12,home,23,receiving,LONG,John Diarse,10
+400876103,TCU,Big 12,home,23,receiving,LONG,Ty Slanina,10
+400876103,TCU,Big 12,home,23,receiving,LONG,Trevorris Johnson,6
+400876103,TCU,Big 12,home,23,receiving,LONG,Darius Anderson,3
+400876103,TCU,Big 12,home,23,passing,C/ATT,Kenny Hill,18/27
+400876103,TCU,Big 12,home,23,passing,C/ATT,John Diarse,0/1
+400876103,TCU,Big 12,home,23,passing,YDS,Kenny Hill,146
+400876103,TCU,Big 12,home,23,passing,YDS,John Diarse,0
+400876103,TCU,Big 12,home,23,passing,AVG,Kenny Hill,5.4
+400876103,TCU,Big 12,home,23,passing,AVG,John Diarse,0.0
+400876103,TCU,Big 12,home,23,passing,TD,Kenny Hill,2
+400876103,TCU,Big 12,home,23,passing,TD,John Diarse,0
+400876103,TCU,Big 12,home,23,passing,INT,Kenny Hill,0
+400876103,TCU,Big 12,home,23,passing,INT,John Diarse,0
+400876103,TCU,Big 12,home,23,passing,QBR,Kenny Hill,66.1
+400876103,TCU,Big 12,home,23,passing,QBR,John Diarse,2.7
+400876103,TCU,Big 12,home,23,rushing,CAR,Kyle Hicks,15
+400876103,TCU,Big 12,home,23,rushing,CAR,Kenny Hill,17
+400876103,TCU,Big 12,home,23,rushing,CAR,Darius Anderson,4
+400876103,TCU,Big 12,home,23,rushing,CAR,KaVontae Turpin,2
+400876103,TCU,Big 12,home,23,rushing,CAR,Sewo Olonilua,1
+400876103,TCU,Big 12,home,23,rushing,YDS,Kyle Hicks,88
+400876103,TCU,Big 12,home,23,rushing,YDS,Kenny Hill,72
+400876103,TCU,Big 12,home,23,rushing,YDS,Darius Anderson,12
+400876103,TCU,Big 12,home,23,rushing,YDS,KaVontae Turpin,3
+400876103,TCU,Big 12,home,23,rushing,YDS,Sewo Olonilua,0
+400876103,TCU,Big 12,home,23,rushing,AVG,Kyle Hicks,5.9
+400876103,TCU,Big 12,home,23,rushing,AVG,Kenny Hill,4.2
+400876103,TCU,Big 12,home,23,rushing,AVG,Darius Anderson,3.0
+400876103,TCU,Big 12,home,23,rushing,AVG,KaVontae Turpin,1.5
+400876103,TCU,Big 12,home,23,rushing,AVG,Sewo Olonilua,0.0
+400876103,TCU,Big 12,home,23,rushing,TD,Kyle Hicks,0
+400876103,TCU,Big 12,home,23,rushing,TD,Kenny Hill,1
+400876103,TCU,Big 12,home,23,rushing,TD,Darius Anderson,0
+400876103,TCU,Big 12,home,23,rushing,TD,KaVontae Turpin,0
+400876103,TCU,Big 12,home,23,rushing,TD,Sewo Olonilua,0
+400876103,TCU,Big 12,home,23,rushing,LONG,Kyle Hicks,20
+400876103,TCU,Big 12,home,23,rushing,LONG,Kenny Hill,45
+400876103,TCU,Big 12,home,23,rushing,LONG,Darius Anderson,9
+400876103,TCU,Big 12,home,23,rushing,LONG,KaVontae Turpin,2
+400876103,TCU,Big 12,home,23,rushing,LONG,Sewo Olonilua,0
+400876103,TCU,Big 12,home,23,defensive,TOT,Niko Small,12
+400876103,TCU,Big 12,home,23,defensive,TOT,Ty Summers,8
+400876103,TCU,Big 12,home,23,defensive,TOT,Ranthony Texada,7
+400876103,TCU,Big 12,home,23,defensive,TOT,Sammy Douglas,7
+400876103,TCU,Big 12,home,23,defensive,TOT,James McFarland,6
+400876103,TCU,Big 12,home,23,defensive,TOT,Travin Howard,5
+400876103,TCU,Big 12,home,23,defensive,TOT,Jeff Gladney,4
+400876103,TCU,Big 12,home,23,defensive,TOT,Aaron Curry,3
+400876103,TCU,Big 12,home,23,defensive,TOT,Chris Bradley,3
+400876103,TCU,Big 12,home,23,defensive,TOT,Tipa Galeai,3
+400876103,TCU,Big 12,home,23,defensive,TOT,Ridwan Issahaku,3
+400876103,TCU,Big 12,home,23,defensive,TOT,L.J. Collier,2
+400876103,TCU,Big 12,home,23,defensive,TOT,Josh Carraway,2
+400876103,TCU,Big 12,home,23,defensive,TOT,Nick Orr,2
+400876103,TCU,Big 12,home,23,defensive,TOT,Desmon White,1
+400876103,TCU,Big 12,home,23,defensive,TOT,Julius Lewis,1
+400876103,TCU,Big 12,home,23,defensive,TOT,Mat Boesen,1
+400876103,TCU,Big 12,home,23,defensive,TOT,Michael Downing Jr.,1
+400876103,TCU,Big 12,home,23,defensive,TOT,Arico Evans,1
+400876103,TCU,Big 12,home,23,defensive,TOT,Markell Simmons,1
+400876103,TCU,Big 12,home,23,defensive,TOT,Innis Gaines,1
+400876103,TCU,Big 12,home,23,defensive,SOLO,Niko Small,8
+400876103,TCU,Big 12,home,23,defensive,SOLO,Ty Summers,3
+400876103,TCU,Big 12,home,23,defensive,SOLO,Ranthony Texada,5
+400876103,TCU,Big 12,home,23,defensive,SOLO,Sammy Douglas,4
+400876103,TCU,Big 12,home,23,defensive,SOLO,James McFarland,3
+400876103,TCU,Big 12,home,23,defensive,SOLO,Travin Howard,2
+400876103,TCU,Big 12,home,23,defensive,SOLO,Jeff Gladney,3
+400876103,TCU,Big 12,home,23,defensive,SOLO,Aaron Curry,3
+400876103,TCU,Big 12,home,23,defensive,SOLO,Chris Bradley,2
+400876103,TCU,Big 12,home,23,defensive,SOLO,Tipa Galeai,1
+400876103,TCU,Big 12,home,23,defensive,SOLO,Ridwan Issahaku,1
+400876103,TCU,Big 12,home,23,defensive,SOLO,L.J. Collier,2
+400876103,TCU,Big 12,home,23,defensive,SOLO,Josh Carraway,2
+400876103,TCU,Big 12,home,23,defensive,SOLO,Nick Orr,0
+400876103,TCU,Big 12,home,23,defensive,SOLO,Desmon White,1
+400876103,TCU,Big 12,home,23,defensive,SOLO,Julius Lewis,1
+400876103,TCU,Big 12,home,23,defensive,SOLO,Mat Boesen,0
+400876103,TCU,Big 12,home,23,defensive,SOLO,Michael Downing Jr.,0
+400876103,TCU,Big 12,home,23,defensive,SOLO,Arico Evans,0
+400876103,TCU,Big 12,home,23,defensive,SOLO,Markell Simmons,0
+400876103,TCU,Big 12,home,23,defensive,SOLO,Innis Gaines,0
+400876103,TCU,Big 12,home,23,defensive,SACKS,Niko Small,0
+400876103,TCU,Big 12,home,23,defensive,SACKS,Ty Summers,0
+400876103,TCU,Big 12,home,23,defensive,SACKS,Ranthony Texada,0
+400876103,TCU,Big 12,home,23,defensive,SACKS,Sammy Douglas,0
+400876103,TCU,Big 12,home,23,defensive,SACKS,James McFarland,0
+400876103,TCU,Big 12,home,23,defensive,SACKS,Travin Howard,0
+400876103,TCU,Big 12,home,23,defensive,SACKS,Jeff Gladney,0
+400876103,TCU,Big 12,home,23,defensive,SACKS,Aaron Curry,0
+400876103,TCU,Big 12,home,23,defensive,SACKS,Chris Bradley,1
+400876103,TCU,Big 12,home,23,defensive,SACKS,Tipa Galeai,1
+400876103,TCU,Big 12,home,23,defensive,SACKS,Ridwan Issahaku,0
+400876103,TCU,Big 12,home,23,defensive,SACKS,L.J. Collier,1
+400876103,TCU,Big 12,home,23,defensive,SACKS,Josh Carraway,0
+400876103,TCU,Big 12,home,23,defensive,SACKS,Nick Orr,0
+400876103,TCU,Big 12,home,23,defensive,SACKS,Desmon White,0
+400876103,TCU,Big 12,home,23,defensive,SACKS,Julius Lewis,0
+400876103,TCU,Big 12,home,23,defensive,SACKS,Mat Boesen,0
+400876103,TCU,Big 12,home,23,defensive,SACKS,Michael Downing Jr.,0
+400876103,TCU,Big 12,home,23,defensive,SACKS,Arico Evans,0
+400876103,TCU,Big 12,home,23,defensive,SACKS,Markell Simmons,0
+400876103,TCU,Big 12,home,23,defensive,SACKS,Innis Gaines,0
+400876103,TCU,Big 12,home,23,defensive,TFL,Niko Small,0
+400876103,TCU,Big 12,home,23,defensive,TFL,Ty Summers,0
+400876103,TCU,Big 12,home,23,defensive,TFL,Ranthony Texada,0
+400876103,TCU,Big 12,home,23,defensive,TFL,Sammy Douglas,0
+400876103,TCU,Big 12,home,23,defensive,TFL,James McFarland,0
+400876103,TCU,Big 12,home,23,defensive,TFL,Travin Howard,0
+400876103,TCU,Big 12,home,23,defensive,TFL,Jeff Gladney,0
+400876103,TCU,Big 12,home,23,defensive,TFL,Aaron Curry,1
+400876103,TCU,Big 12,home,23,defensive,TFL,Chris Bradley,1
+400876103,TCU,Big 12,home,23,defensive,TFL,Tipa Galeai,1
+400876103,TCU,Big 12,home,23,defensive,TFL,Ridwan Issahaku,0
+400876103,TCU,Big 12,home,23,defensive,TFL,L.J. Collier,1
+400876103,TCU,Big 12,home,23,defensive,TFL,Josh Carraway,0
+400876103,TCU,Big 12,home,23,defensive,TFL,Nick Orr,0
+400876103,TCU,Big 12,home,23,defensive,TFL,Desmon White,0
+400876103,TCU,Big 12,home,23,defensive,TFL,Julius Lewis,0
+400876103,TCU,Big 12,home,23,defensive,TFL,Mat Boesen,0
+400876103,TCU,Big 12,home,23,defensive,TFL,Michael Downing Jr.,0
+400876103,TCU,Big 12,home,23,defensive,TFL,Arico Evans,0
+400876103,TCU,Big 12,home,23,defensive,TFL,Markell Simmons,0
+400876103,TCU,Big 12,home,23,defensive,TFL,Innis Gaines,0
+400876103,TCU,Big 12,home,23,defensive,PD,Niko Small,0
+400876103,TCU,Big 12,home,23,defensive,PD,Ty Summers,0
+400876103,TCU,Big 12,home,23,defensive,PD,Ranthony Texada,0
+400876103,TCU,Big 12,home,23,defensive,PD,Sammy Douglas,0
+400876103,TCU,Big 12,home,23,defensive,PD,James McFarland,0
+400876103,TCU,Big 12,home,23,defensive,PD,Travin Howard,0
+400876103,TCU,Big 12,home,23,defensive,PD,Jeff Gladney,0
+400876103,TCU,Big 12,home,23,defensive,PD,Aaron Curry,0
+400876103,TCU,Big 12,home,23,defensive,PD,Chris Bradley,0
+400876103,TCU,Big 12,home,23,defensive,PD,Tipa Galeai,0
+400876103,TCU,Big 12,home,23,defensive,PD,Ridwan Issahaku,0
+400876103,TCU,Big 12,home,23,defensive,PD,L.J. Collier,0
+400876103,TCU,Big 12,home,23,defensive,PD,Josh Carraway,0
+400876103,TCU,Big 12,home,23,defensive,PD,Nick Orr,1
+400876103,TCU,Big 12,home,23,defensive,PD,Desmon White,0
+400876103,TCU,Big 12,home,23,defensive,PD,Julius Lewis,0
+400876103,TCU,Big 12,home,23,defensive,PD,Mat Boesen,0
+400876103,TCU,Big 12,home,23,defensive,PD,Michael Downing Jr.,0
+400876103,TCU,Big 12,home,23,defensive,PD,Arico Evans,0
+400876103,TCU,Big 12,home,23,defensive,PD,Markell Simmons,0
+400876103,TCU,Big 12,home,23,defensive,PD,Innis Gaines,0
+400876103,TCU,Big 12,home,23,defensive,QB HUR,Niko Small,0
+400876103,TCU,Big 12,home,23,defensive,QB HUR,Ty Summers,0
+400876103,TCU,Big 12,home,23,defensive,QB HUR,Ranthony Texada,0
+400876103,TCU,Big 12,home,23,defensive,QB HUR,Sammy Douglas,0
+400876103,TCU,Big 12,home,23,defensive,QB HUR,James McFarland,0
+400876103,TCU,Big 12,home,23,defensive,QB HUR,Travin Howard,0
+400876103,TCU,Big 12,home,23,defensive,QB HUR,Jeff Gladney,0
+400876103,TCU,Big 12,home,23,defensive,QB HUR,Aaron Curry,0
+400876103,TCU,Big 12,home,23,defensive,QB HUR,Chris Bradley,0
+400876103,TCU,Big 12,home,23,defensive,QB HUR,Tipa Galeai,0
+400876103,TCU,Big 12,home,23,defensive,QB HUR,Ridwan Issahaku,0
+400876103,TCU,Big 12,home,23,defensive,QB HUR,L.J. Collier,0
+400876103,TCU,Big 12,home,23,defensive,QB HUR,Josh Carraway,0
+400876103,TCU,Big 12,home,23,defensive,QB HUR,Nick Orr,0
+400876103,TCU,Big 12,home,23,defensive,QB HUR,Desmon White,0
+400876103,TCU,Big 12,home,23,defensive,QB HUR,Julius Lewis,0
+400876103,TCU,Big 12,home,23,defensive,QB HUR,Mat Boesen,0
+400876103,TCU,Big 12,home,23,defensive,QB HUR,Michael Downing Jr.,0
+400876103,TCU,Big 12,home,23,defensive,QB HUR,Arico Evans,0
+400876103,TCU,Big 12,home,23,defensive,QB HUR,Markell Simmons,0
+400876103,TCU,Big 12,home,23,defensive,QB HUR,Innis Gaines,0
+400876103,TCU,Big 12,home,23,defensive,TD,Niko Small,0
+400876103,TCU,Big 12,home,23,defensive,TD,Ty Summers,0
+400876103,TCU,Big 12,home,23,defensive,TD,Ranthony Texada,0
+400876103,TCU,Big 12,home,23,defensive,TD,Sammy Douglas,0
+400876103,TCU,Big 12,home,23,defensive,TD,James McFarland,0
+400876103,TCU,Big 12,home,23,defensive,TD,Travin Howard,0
+400876103,TCU,Big 12,home,23,defensive,TD,Jeff Gladney,0
+400876103,TCU,Big 12,home,23,defensive,TD,Aaron Curry,0
+400876103,TCU,Big 12,home,23,defensive,TD,Chris Bradley,0
+400876103,TCU,Big 12,home,23,defensive,TD,Tipa Galeai,0
+400876103,TCU,Big 12,home,23,defensive,TD,Ridwan Issahaku,0
+400876103,TCU,Big 12,home,23,defensive,TD,L.J. Collier,0
+400876103,TCU,Big 12,home,23,defensive,TD,Josh Carraway,0
+400876103,TCU,Big 12,home,23,defensive,TD,Nick Orr,0
+400876103,TCU,Big 12,home,23,defensive,TD,Desmon White,0
+400876103,TCU,Big 12,home,23,defensive,TD,Julius Lewis,0
+400876103,TCU,Big 12,home,23,defensive,TD,Mat Boesen,0
+400876103,TCU,Big 12,home,23,defensive,TD,Michael Downing Jr.,0
+400876103,TCU,Big 12,home,23,defensive,TD,Arico Evans,0
+400876103,TCU,Big 12,home,23,defensive,TD,Markell Simmons,0
+400876103,TCU,Big 12,home,23,defensive,TD,Innis Gaines,0
+400876103,TCU,Big 12,home,23,kickReturns,NO,KaVontae Turpin,4
+400876103,TCU,Big 12,home,23,kickReturns,NO,Deante Gray,1
+400876103,TCU,Big 12,home,23,kickReturns,YDS,KaVontae Turpin,126
+400876103,TCU,Big 12,home,23,kickReturns,YDS,Deante Gray,23
+400876103,TCU,Big 12,home,23,kickReturns,AVG,KaVontae Turpin,31.5
+400876103,TCU,Big 12,home,23,kickReturns,AVG,Deante Gray,23.0
+400876103,TCU,Big 12,home,23,kickReturns,LONG,KaVontae Turpin,50
+400876103,TCU,Big 12,home,23,kickReturns,LONG,Deante Gray,23
+400876103,TCU,Big 12,home,23,kickReturns,TD,KaVontae Turpin,0
+400876103,TCU,Big 12,home,23,kickReturns,TD,Deante Gray,0
+400876103,TCU,Big 12,home,23,kicking,FG,Brandon Hatfield,1/3
+400876103,TCU,Big 12,home,23,kicking,PCT,Brandon Hatfield,33.3
+400876103,TCU,Big 12,home,23,kicking,LONG,Brandon Hatfield,40
+400876103,TCU,Big 12,home,23,kicking,XP,Brandon Hatfield,2/3
+400876103,TCU,Big 12,home,23,kicking,PTS,Brandon Hatfield,5
+400876103,TCU,Big 12,home,23,punting,NO,Adam Nunez,3
+400876103,TCU,Big 12,home,23,punting,YDS,Adam Nunez,121
+400876103,TCU,Big 12,home,23,punting,AVG,Adam Nunez,40.3
+400876103,TCU,Big 12,home,23,punting,TB,Adam Nunez,0
+400876103,TCU,Big 12,home,23,punting,In 20,Adam Nunez,0
+400876103,TCU,Big 12,home,23,punting,LONG,Adam Nunez,47
+400876103,Georgia,SEC,away,31,passing,C/ATT,Jacob Eason,12/21
+400876103,Georgia,SEC,away,31,passing,YDS,Jacob Eason,164
+400876103,Georgia,SEC,away,31,passing,AVG,Jacob Eason,7.8
+400876103,Georgia,SEC,away,31,passing,TD,Jacob Eason,2
+400876103,Georgia,SEC,away,31,passing,INT,Jacob Eason,0
+400876103,Georgia,SEC,away,31,passing,QBR,Jacob Eason,43.8
+400876103,Georgia,SEC,away,31,rushing,CAR,Nick Chubb,17
+400876103,Georgia,SEC,away,31,rushing,CAR,Sony Michel,15
+400876103,Georgia,SEC,away,31,rushing,CAR,Brice Ramsey,1
+400876103,Georgia,SEC,away,31,rushing,CAR,Jacob Eason,6
+400876103,Georgia,SEC,away,31,rushing,CAR,Isaiah McKenzie,1
+400876103,Georgia,SEC,away,31,rushing,CAR,Brian Herrien,2
+400876103,Georgia,SEC,away,31,rushing,CAR," Team",2
+400876103,Georgia,SEC,away,31,rushing,YDS,Nick Chubb,142
+400876103,Georgia,SEC,away,31,rushing,YDS,Sony Michel,87
+400876103,Georgia,SEC,away,31,rushing,YDS,Brice Ramsey,11
+400876103,Georgia,SEC,away,31,rushing,YDS,Jacob Eason,7
+400876103,Georgia,SEC,away,31,rushing,YDS,Isaiah McKenzie,3
+400876103,Georgia,SEC,away,31,rushing,YDS,Brian Herrien,1
+400876103,Georgia,SEC,away,31,rushing,YDS," Team",-3
+400876103,Georgia,SEC,away,31,rushing,AVG,Nick Chubb,8.4
+400876103,Georgia,SEC,away,31,rushing,AVG,Sony Michel,5.8
+400876103,Georgia,SEC,away,31,rushing,AVG,Brice Ramsey,11.0
+400876103,Georgia,SEC,away,31,rushing,AVG,Jacob Eason,1.2
+400876103,Georgia,SEC,away,31,rushing,AVG,Isaiah McKenzie,3.0
+400876103,Georgia,SEC,away,31,rushing,AVG,Brian Herrien,0.5
+400876103,Georgia,SEC,away,31,rushing,AVG," Team",-1.5
+400876103,Georgia,SEC,away,31,rushing,TD,Nick Chubb,1
+400876103,Georgia,SEC,away,31,rushing,TD,Sony Michel,1
+400876103,Georgia,SEC,away,31,rushing,TD,Brice Ramsey,0
+400876103,Georgia,SEC,away,31,rushing,TD,Jacob Eason,0
+400876103,Georgia,SEC,away,31,rushing,TD,Isaiah McKenzie,0
+400876103,Georgia,SEC,away,31,rushing,TD,Brian Herrien,0
+400876103,Georgia,SEC,away,31,rushing,TD," Team",0
+400876103,Georgia,SEC,away,31,rushing,LONG,Nick Chubb,48
+400876103,Georgia,SEC,away,31,rushing,LONG,Sony Michel,20
+400876103,Georgia,SEC,away,31,rushing,LONG,Brice Ramsey,11
+400876103,Georgia,SEC,away,31,rushing,LONG,Jacob Eason,15
+400876103,Georgia,SEC,away,31,rushing,LONG,Isaiah McKenzie,3
+400876103,Georgia,SEC,away,31,rushing,LONG,Brian Herrien,1
+400876103,Georgia,SEC,away,31,rushing,LONG," Team",0
+400876103,Georgia,SEC,away,31,receiving,REC,Isaiah McKenzie,4
+400876103,Georgia,SEC,away,31,receiving,REC,Sony Michel,2
+400876103,Georgia,SEC,away,31,receiving,REC,Javon Wims,3
+400876103,Georgia,SEC,away,31,receiving,REC,Isaac Nauta,2
+400876103,Georgia,SEC,away,31,receiving,REC,Terry Godwin,1
+400876103,Georgia,SEC,away,31,receiving,YDS,Isaiah McKenzie,103
+400876103,Georgia,SEC,away,31,receiving,YDS,Sony Michel,39
+400876103,Georgia,SEC,away,31,receiving,YDS,Javon Wims,11
+400876103,Georgia,SEC,away,31,receiving,YDS,Isaac Nauta,8
+400876103,Georgia,SEC,away,31,receiving,YDS,Terry Godwin,3
+400876103,Georgia,SEC,away,31,receiving,AVG,Isaiah McKenzie,25.8
+400876103,Georgia,SEC,away,31,receiving,AVG,Sony Michel,19.5
+400876103,Georgia,SEC,away,31,receiving,AVG,Javon Wims,3.7
+400876103,Georgia,SEC,away,31,receiving,AVG,Isaac Nauta,4.0
+400876103,Georgia,SEC,away,31,receiving,AVG,Terry Godwin,3.0
+400876103,Georgia,SEC,away,31,receiving,TD,Isaiah McKenzie,0
+400876103,Georgia,SEC,away,31,receiving,TD,Sony Michel,1
+400876103,Georgia,SEC,away,31,receiving,TD,Javon Wims,1
+400876103,Georgia,SEC,away,31,receiving,TD,Isaac Nauta,0
+400876103,Georgia,SEC,away,31,receiving,TD,Terry Godwin,0
+400876103,Georgia,SEC,away,31,receiving,LONG,Isaiah McKenzie,77
+400876103,Georgia,SEC,away,31,receiving,LONG,Sony Michel,33
+400876103,Georgia,SEC,away,31,receiving,LONG,Javon Wims,5
+400876103,Georgia,SEC,away,31,receiving,LONG,Isaac Nauta,4
+400876103,Georgia,SEC,away,31,receiving,LONG,Terry Godwin,3
+400876103,Georgia,SEC,away,31,fumbles,FUM,Aaron Davis,0
+400876103,Georgia,SEC,away,31,fumbles,FUM,Dominick Sanders,0
+400876103,Georgia,SEC,away,31,fumbles,FUM,Jacob Eason,1
+400876103,Georgia,SEC,away,31,fumbles,FUM,Isaiah McKenzie,1
+400876103,Georgia,SEC,away,31,fumbles,LOST,Aaron Davis,0
+400876103,Georgia,SEC,away,31,fumbles,LOST,Dominick Sanders,0
+400876103,Georgia,SEC,away,31,fumbles,LOST,Jacob Eason,1
+400876103,Georgia,SEC,away,31,fumbles,LOST,Isaiah McKenzie,0
+400876103,Georgia,SEC,away,31,fumbles,REC,Aaron Davis,1
+400876103,Georgia,SEC,away,31,fumbles,REC,Dominick Sanders,1
+400876103,Georgia,SEC,away,31,fumbles,REC,Jacob Eason,0
+400876103,Georgia,SEC,away,31,fumbles,REC,Isaiah McKenzie,0
+400876103,Georgia,SEC,away,31,defensive,TOT,Roquan Smith,13
+400876103,Georgia,SEC,away,31,defensive,TOT,Trenton Thompson,8
+400876103,Georgia,SEC,away,31,defensive,TOT,Lorenzo Carter,7
+400876103,Georgia,SEC,away,31,defensive,TOT,Maurice Smith,6
+400876103,Georgia,SEC,away,31,defensive,TOT,Aaron Davis,6
+400876103,Georgia,SEC,away,31,defensive,TOT,Natrez Patrick,4
+400876103,Georgia,SEC,away,31,defensive,TOT,Dominick Sanders,3
+400876103,Georgia,SEC,away,31,defensive,TOT,Jonathan Ledbetter,3
+400876103,Georgia,SEC,away,31,defensive,TOT,Jarvis Wilson,3
+400876103,Georgia,SEC,away,31,defensive,TOT,Quincy Mauger,2
+400876103,Georgia,SEC,away,31,defensive,TOT,Deandre Baker,2
+400876103,Georgia,SEC,away,31,defensive,TOT,Davin Bellamy,2
+400876103,Georgia,SEC,away,31,defensive,TOT,David Marshall,2
+400876103,Georgia,SEC,away,31,defensive,TOT,Julian Rochester,2
+400876103,Georgia,SEC,away,31,defensive,TOT,Tyler Clark,1
+400876103,Georgia,SEC,away,31,defensive,TOT,John Atkins,1
+400876103,Georgia,SEC,away,31,defensive,TOT,Ryne Rankin,1
+400876103,Georgia,SEC,away,31,defensive,TOT,Rodrigo Blankenship,1
+400876103,Georgia,SEC,away,31,defensive,SOLO,Roquan Smith,9
+400876103,Georgia,SEC,away,31,defensive,SOLO,Trenton Thompson,6
+400876103,Georgia,SEC,away,31,defensive,SOLO,Lorenzo Carter,6
+400876103,Georgia,SEC,away,31,defensive,SOLO,Maurice Smith,6
+400876103,Georgia,SEC,away,31,defensive,SOLO,Aaron Davis,3
+400876103,Georgia,SEC,away,31,defensive,SOLO,Natrez Patrick,1
+400876103,Georgia,SEC,away,31,defensive,SOLO,Dominick Sanders,3
+400876103,Georgia,SEC,away,31,defensive,SOLO,Jonathan Ledbetter,1
+400876103,Georgia,SEC,away,31,defensive,SOLO,Jarvis Wilson,1
+400876103,Georgia,SEC,away,31,defensive,SOLO,Quincy Mauger,2
+400876103,Georgia,SEC,away,31,defensive,SOLO,Deandre Baker,2
+400876103,Georgia,SEC,away,31,defensive,SOLO,Davin Bellamy,1
+400876103,Georgia,SEC,away,31,defensive,SOLO,David Marshall,1
+400876103,Georgia,SEC,away,31,defensive,SOLO,Julian Rochester,0
+400876103,Georgia,SEC,away,31,defensive,SOLO,Tyler Clark,1
+400876103,Georgia,SEC,away,31,defensive,SOLO,John Atkins,0
+400876103,Georgia,SEC,away,31,defensive,SOLO,Ryne Rankin,0
+400876103,Georgia,SEC,away,31,defensive,SOLO,Rodrigo Blankenship,0
+400876103,Georgia,SEC,away,31,defensive,SACKS,Roquan Smith,0
+400876103,Georgia,SEC,away,31,defensive,SACKS,Trenton Thompson,3
+400876103,Georgia,SEC,away,31,defensive,SACKS,Lorenzo Carter,1
+400876103,Georgia,SEC,away,31,defensive,SACKS,Maurice Smith,0
+400876103,Georgia,SEC,away,31,defensive,SACKS,Aaron Davis,0
+400876103,Georgia,SEC,away,31,defensive,SACKS,Natrez Patrick,0
+400876103,Georgia,SEC,away,31,defensive,SACKS,Dominick Sanders,0
+400876103,Georgia,SEC,away,31,defensive,SACKS,Jonathan Ledbetter,0
+400876103,Georgia,SEC,away,31,defensive,SACKS,Jarvis Wilson,0
+400876103,Georgia,SEC,away,31,defensive,SACKS,Quincy Mauger,0
+400876103,Georgia,SEC,away,31,defensive,SACKS,Deandre Baker,0
+400876103,Georgia,SEC,away,31,defensive,SACKS,Davin Bellamy,1
+400876103,Georgia,SEC,away,31,defensive,SACKS,David Marshall,0
+400876103,Georgia,SEC,away,31,defensive,SACKS,Julian Rochester,0
+400876103,Georgia,SEC,away,31,defensive,SACKS,Tyler Clark,0
+400876103,Georgia,SEC,away,31,defensive,SACKS,John Atkins,0
+400876103,Georgia,SEC,away,31,defensive,SACKS,Ryne Rankin,0
+400876103,Georgia,SEC,away,31,defensive,SACKS,Rodrigo Blankenship,0
+400876103,Georgia,SEC,away,31,defensive,TFL,Roquan Smith,0
+400876103,Georgia,SEC,away,31,defensive,TFL,Trenton Thompson,3.5
+400876103,Georgia,SEC,away,31,defensive,TFL,Lorenzo Carter,1
+400876103,Georgia,SEC,away,31,defensive,TFL,Maurice Smith,0
+400876103,Georgia,SEC,away,31,defensive,TFL,Aaron Davis,0.5
+400876103,Georgia,SEC,away,31,defensive,TFL,Natrez Patrick,0
+400876103,Georgia,SEC,away,31,defensive,TFL,Dominick Sanders,0
+400876103,Georgia,SEC,away,31,defensive,TFL,Jonathan Ledbetter,0.5
+400876103,Georgia,SEC,away,31,defensive,TFL,Jarvis Wilson,0.5
+400876103,Georgia,SEC,away,31,defensive,TFL,Quincy Mauger,0
+400876103,Georgia,SEC,away,31,defensive,TFL,Deandre Baker,0
+400876103,Georgia,SEC,away,31,defensive,TFL,Davin Bellamy,1
+400876103,Georgia,SEC,away,31,defensive,TFL,David Marshall,0
+400876103,Georgia,SEC,away,31,defensive,TFL,Julian Rochester,0
+400876103,Georgia,SEC,away,31,defensive,TFL,Tyler Clark,0
+400876103,Georgia,SEC,away,31,defensive,TFL,John Atkins,0
+400876103,Georgia,SEC,away,31,defensive,TFL,Ryne Rankin,0
+400876103,Georgia,SEC,away,31,defensive,TFL,Rodrigo Blankenship,0
+400876103,Georgia,SEC,away,31,defensive,PD,Roquan Smith,0
+400876103,Georgia,SEC,away,31,defensive,PD,Trenton Thompson,0
+400876103,Georgia,SEC,away,31,defensive,PD,Lorenzo Carter,0
+400876103,Georgia,SEC,away,31,defensive,PD,Maurice Smith,0
+400876103,Georgia,SEC,away,31,defensive,PD,Aaron Davis,0
+400876103,Georgia,SEC,away,31,defensive,PD,Natrez Patrick,0
+400876103,Georgia,SEC,away,31,defensive,PD,Dominick Sanders,0
+400876103,Georgia,SEC,away,31,defensive,PD,Jonathan Ledbetter,0
+400876103,Georgia,SEC,away,31,defensive,PD,Jarvis Wilson,0
+400876103,Georgia,SEC,away,31,defensive,PD,Quincy Mauger,0
+400876103,Georgia,SEC,away,31,defensive,PD,Deandre Baker,1
+400876103,Georgia,SEC,away,31,defensive,PD,Davin Bellamy,0
+400876103,Georgia,SEC,away,31,defensive,PD,David Marshall,1
+400876103,Georgia,SEC,away,31,defensive,PD,Julian Rochester,0
+400876103,Georgia,SEC,away,31,defensive,PD,Tyler Clark,0
+400876103,Georgia,SEC,away,31,defensive,PD,John Atkins,0
+400876103,Georgia,SEC,away,31,defensive,PD,Ryne Rankin,0
+400876103,Georgia,SEC,away,31,defensive,PD,Rodrigo Blankenship,0
+400876103,Georgia,SEC,away,31,defensive,QB HUR,Roquan Smith,0
+400876103,Georgia,SEC,away,31,defensive,QB HUR,Trenton Thompson,0
+400876103,Georgia,SEC,away,31,defensive,QB HUR,Lorenzo Carter,0
+400876103,Georgia,SEC,away,31,defensive,QB HUR,Maurice Smith,1
+400876103,Georgia,SEC,away,31,defensive,QB HUR,Aaron Davis,0
+400876103,Georgia,SEC,away,31,defensive,QB HUR,Natrez Patrick,0
+400876103,Georgia,SEC,away,31,defensive,QB HUR,Dominick Sanders,0
+400876103,Georgia,SEC,away,31,defensive,QB HUR,Jonathan Ledbetter,0
+400876103,Georgia,SEC,away,31,defensive,QB HUR,Jarvis Wilson,0
+400876103,Georgia,SEC,away,31,defensive,QB HUR,Quincy Mauger,0
+400876103,Georgia,SEC,away,31,defensive,QB HUR,Deandre Baker,0
+400876103,Georgia,SEC,away,31,defensive,QB HUR,Davin Bellamy,0
+400876103,Georgia,SEC,away,31,defensive,QB HUR,David Marshall,0
+400876103,Georgia,SEC,away,31,defensive,QB HUR,Julian Rochester,0
+400876103,Georgia,SEC,away,31,defensive,QB HUR,Tyler Clark,0
+400876103,Georgia,SEC,away,31,defensive,QB HUR,John Atkins,0
+400876103,Georgia,SEC,away,31,defensive,QB HUR,Ryne Rankin,0
+400876103,Georgia,SEC,away,31,defensive,QB HUR,Rodrigo Blankenship,0
+400876103,Georgia,SEC,away,31,defensive,TD,Roquan Smith,0
+400876103,Georgia,SEC,away,31,defensive,TD,Trenton Thompson,0
+400876103,Georgia,SEC,away,31,defensive,TD,Lorenzo Carter,0
+400876103,Georgia,SEC,away,31,defensive,TD,Maurice Smith,0
+400876103,Georgia,SEC,away,31,defensive,TD,Aaron Davis,0
+400876103,Georgia,SEC,away,31,defensive,TD,Natrez Patrick,0
+400876103,Georgia,SEC,away,31,defensive,TD,Dominick Sanders,0
+400876103,Georgia,SEC,away,31,defensive,TD,Jonathan Ledbetter,0
+400876103,Georgia,SEC,away,31,defensive,TD,Jarvis Wilson,0
+400876103,Georgia,SEC,away,31,defensive,TD,Quincy Mauger,0
+400876103,Georgia,SEC,away,31,defensive,TD,Deandre Baker,0
+400876103,Georgia,SEC,away,31,defensive,TD,Davin Bellamy,0
+400876103,Georgia,SEC,away,31,defensive,TD,David Marshall,0
+400876103,Georgia,SEC,away,31,defensive,TD,Julian Rochester,0
+400876103,Georgia,SEC,away,31,defensive,TD,Tyler Clark,0
+400876103,Georgia,SEC,away,31,defensive,TD,John Atkins,0
+400876103,Georgia,SEC,away,31,defensive,TD,Ryne Rankin,0
+400876103,Georgia,SEC,away,31,defensive,TD,Rodrigo Blankenship,0
+400876103,Georgia,SEC,away,31,kickReturns,NO,Reggie Davis,5
+400876103,Georgia,SEC,away,31,kickReturns,YDS,Reggie Davis,76
+400876103,Georgia,SEC,away,31,kickReturns,AVG,Reggie Davis,15.2
+400876103,Georgia,SEC,away,31,kickReturns,LONG,Reggie Davis,22
+400876103,Georgia,SEC,away,31,kickReturns,TD,Reggie Davis,0
+400876103,Georgia,SEC,away,31,puntReturns,NO,Isaiah McKenzie,2
+400876103,Georgia,SEC,away,31,puntReturns,YDS,Isaiah McKenzie,1
+400876103,Georgia,SEC,away,31,puntReturns,AVG,Isaiah McKenzie,0.5
+400876103,Georgia,SEC,away,31,puntReturns,LONG,Isaiah McKenzie,1
+400876103,Georgia,SEC,away,31,puntReturns,TD,Isaiah McKenzie,0
+400876103,Georgia,SEC,away,31,kicking,FG,Rodrigo Blankenship,1/2
+400876103,Georgia,SEC,away,31,kicking,PCT,Rodrigo Blankenship,50.0
+400876103,Georgia,SEC,away,31,kicking,LONG,Rodrigo Blankenship,30
+400876103,Georgia,SEC,away,31,kicking,XP,Rodrigo Blankenship,4/4
+400876103,Georgia,SEC,away,31,kicking,PTS,Rodrigo Blankenship,7
+400876103,Georgia,SEC,away,31,punting,NO,Brice Ramsey,5
+400876103,Georgia,SEC,away,31,punting,YDS,Brice Ramsey,174
+400876103,Georgia,SEC,away,31,punting,AVG,Brice Ramsey,34.8
+400876103,Georgia,SEC,away,31,punting,TB,Brice Ramsey,0
+400876103,Georgia,SEC,away,31,punting,In 20,Brice Ramsey,0
+400876103,Georgia,SEC,away,31,punting,LONG,Brice Ramsey,43
+400876112,Oklahoma,Big 12,home,35,passing,C/ATT,Baker Mayfield,19/28
+400876112,Oklahoma,Big 12,home,35,passing,YDS,Baker Mayfield,296
+400876112,Oklahoma,Big 12,home,35,passing,AVG,Baker Mayfield,10.6
+400876112,Oklahoma,Big 12,home,35,passing,TD,Baker Mayfield,2
+400876112,Oklahoma,Big 12,home,35,passing,INT,Baker Mayfield,0
+400876112,Oklahoma,Big 12,home,35,passing,QBR,Baker Mayfield,95.2
+400876112,Oklahoma,Big 12,home,35,rushing,CAR,Joe Mixon,19
+400876112,Oklahoma,Big 12,home,35,rushing,CAR,Samaje Perine,17
+400876112,Oklahoma,Big 12,home,35,rushing,CAR,Baker Mayfield,4
+400876112,Oklahoma,Big 12,home,35,rushing,CAR,Dede Westbrook,3
+400876112,Oklahoma,Big 12,home,35,rushing,YDS,Joe Mixon,91
+400876112,Oklahoma,Big 12,home,35,rushing,YDS,Samaje Perine,86
+400876112,Oklahoma,Big 12,home,35,rushing,YDS,Baker Mayfield,34
+400876112,Oklahoma,Big 12,home,35,rushing,YDS,Dede Westbrook,17
+400876112,Oklahoma,Big 12,home,35,rushing,AVG,Joe Mixon,4.8
+400876112,Oklahoma,Big 12,home,35,rushing,AVG,Samaje Perine,5.1
+400876112,Oklahoma,Big 12,home,35,rushing,AVG,Baker Mayfield,8.5
+400876112,Oklahoma,Big 12,home,35,rushing,AVG,Dede Westbrook,5.7
+400876112,Oklahoma,Big 12,home,35,rushing,TD,Joe Mixon,2
+400876112,Oklahoma,Big 12,home,35,rushing,TD,Samaje Perine,1
+400876112,Oklahoma,Big 12,home,35,rushing,TD,Baker Mayfield,0
+400876112,Oklahoma,Big 12,home,35,rushing,TD,Dede Westbrook,0
+400876112,Oklahoma,Big 12,home,35,rushing,LONG,Joe Mixon,35
+400876112,Oklahoma,Big 12,home,35,rushing,LONG,Samaje Perine,16
+400876112,Oklahoma,Big 12,home,35,rushing,LONG,Baker Mayfield,13
+400876112,Oklahoma,Big 12,home,35,rushing,LONG,Dede Westbrook,8
+400876112,Oklahoma,Big 12,home,35,receiving,REC,Joe Mixon,5
+400876112,Oklahoma,Big 12,home,35,receiving,REC,Mark Andrews,3
+400876112,Oklahoma,Big 12,home,35,receiving,REC,Dede Westbrook,6
+400876112,Oklahoma,Big 12,home,35,receiving,REC,Geno Lewis,2
+400876112,Oklahoma,Big 12,home,35,receiving,REC,Jeffery Mead,2
+400876112,Oklahoma,Big 12,home,35,receiving,REC,Nick Basquine,1
+400876112,Oklahoma,Big 12,home,35,receiving,YDS,Joe Mixon,89
+400876112,Oklahoma,Big 12,home,35,receiving,YDS,Mark Andrews,68
+400876112,Oklahoma,Big 12,home,35,receiving,YDS,Dede Westbrook,59
+400876112,Oklahoma,Big 12,home,35,receiving,YDS,Geno Lewis,40
+400876112,Oklahoma,Big 12,home,35,receiving,YDS,Jeffery Mead,27
+400876112,Oklahoma,Big 12,home,35,receiving,YDS,Nick Basquine,13
+400876112,Oklahoma,Big 12,home,35,receiving,AVG,Joe Mixon,17.8
+400876112,Oklahoma,Big 12,home,35,receiving,AVG,Mark Andrews,22.7
+400876112,Oklahoma,Big 12,home,35,receiving,AVG,Dede Westbrook,9.8
+400876112,Oklahoma,Big 12,home,35,receiving,AVG,Geno Lewis,20.0
+400876112,Oklahoma,Big 12,home,35,receiving,AVG,Jeffery Mead,13.5
+400876112,Oklahoma,Big 12,home,35,receiving,AVG,Nick Basquine,13.0
+400876112,Oklahoma,Big 12,home,35,receiving,TD,Joe Mixon,0
+400876112,Oklahoma,Big 12,home,35,receiving,TD,Mark Andrews,1
+400876112,Oklahoma,Big 12,home,35,receiving,TD,Dede Westbrook,1
+400876112,Oklahoma,Big 12,home,35,receiving,TD,Geno Lewis,0
+400876112,Oklahoma,Big 12,home,35,receiving,TD,Jeffery Mead,0
+400876112,Oklahoma,Big 12,home,35,receiving,TD,Nick Basquine,0
+400876112,Oklahoma,Big 12,home,35,receiving,LONG,Joe Mixon,32
+400876112,Oklahoma,Big 12,home,35,receiving,LONG,Mark Andrews,33
+400876112,Oklahoma,Big 12,home,35,receiving,LONG,Dede Westbrook,26
+400876112,Oklahoma,Big 12,home,35,receiving,LONG,Geno Lewis,26
+400876112,Oklahoma,Big 12,home,35,receiving,LONG,Jeffery Mead,14
+400876112,Oklahoma,Big 12,home,35,receiving,LONG,Nick Basquine,13
+400876112,Oklahoma,Big 12,home,35,fumbles,FUM,Joe Mixon,1
+400876112,Oklahoma,Big 12,home,35,fumbles,FUM,Erick Wren,1
+400876112,Oklahoma,Big 12,home,35,fumbles,LOST,Joe Mixon,0
+400876112,Oklahoma,Big 12,home,35,fumbles,LOST,Erick Wren,0
+400876112,Oklahoma,Big 12,home,35,fumbles,REC,Joe Mixon,0
+400876112,Oklahoma,Big 12,home,35,fumbles,REC,Erick Wren,0
+400876112,Oklahoma,Big 12,home,35,defensive,TOT,Caleb Kelly,12
+400876112,Oklahoma,Big 12,home,35,defensive,TOT,Jordan Evans,9
+400876112,Oklahoma,Big 12,home,35,defensive,TOT,Steven Parker,8
+400876112,Oklahoma,Big 12,home,35,defensive,TOT,Ahmad Thomas,5
+400876112,Oklahoma,Big 12,home,35,defensive,TOT,Jordan Thomas,5
+400876112,Oklahoma,Big 12,home,35,defensive,TOT,Emmanuel Beal,5
+400876112,Oklahoma,Big 12,home,35,defensive,TOT,Jordan Wade,4
+400876112,Oklahoma,Big 12,home,35,defensive,TOT,Ogbonnia Okoronkwo,4
+400876112,Oklahoma,Big 12,home,35,defensive,TOT,Austin Roberts,4
+400876112,Oklahoma,Big 12,home,35,defensive,TOT,Ruben Hunter,2
+400876112,Oklahoma,Big 12,home,35,defensive,TOT,Jordan Parker,2
+400876112,Oklahoma,Big 12,home,35,defensive,TOT,Matt Romar,2
+400876112,Oklahoma,Big 12,home,35,defensive,TOT,D.J. Ward,1
+400876112,Oklahoma,Big 12,home,35,defensive,TOT,Curtis Bolton,1
+400876112,Oklahoma,Big 12,home,35,defensive,TOT,Ricky DeBerry,1
+400876112,Oklahoma,Big 12,home,35,defensive,TOT,Kahlil Haughton,1
+400876112,Oklahoma,Big 12,home,35,defensive,TOT,Will Sunderland,1
+400876112,Oklahoma,Big 12,home,35,defensive,TOT,Neville Gallimore,1
+400876112,Oklahoma,Big 12,home,35,defensive,TOT,Parnell Motley,1
+400876112,Oklahoma,Big 12,home,35,defensive,SOLO,Caleb Kelly,8
+400876112,Oklahoma,Big 12,home,35,defensive,SOLO,Jordan Evans,6
+400876112,Oklahoma,Big 12,home,35,defensive,SOLO,Steven Parker,6
+400876112,Oklahoma,Big 12,home,35,defensive,SOLO,Ahmad Thomas,4
+400876112,Oklahoma,Big 12,home,35,defensive,SOLO,Jordan Thomas,4
+400876112,Oklahoma,Big 12,home,35,defensive,SOLO,Emmanuel Beal,2
+400876112,Oklahoma,Big 12,home,35,defensive,SOLO,Jordan Wade,3
+400876112,Oklahoma,Big 12,home,35,defensive,SOLO,Ogbonnia Okoronkwo,3
+400876112,Oklahoma,Big 12,home,35,defensive,SOLO,Austin Roberts,2
+400876112,Oklahoma,Big 12,home,35,defensive,SOLO,Ruben Hunter,2
+400876112,Oklahoma,Big 12,home,35,defensive,SOLO,Jordan Parker,2
+400876112,Oklahoma,Big 12,home,35,defensive,SOLO,Matt Romar,1
+400876112,Oklahoma,Big 12,home,35,defensive,SOLO,D.J. Ward,1
+400876112,Oklahoma,Big 12,home,35,defensive,SOLO,Curtis Bolton,1
+400876112,Oklahoma,Big 12,home,35,defensive,SOLO,Ricky DeBerry,1
+400876112,Oklahoma,Big 12,home,35,defensive,SOLO,Kahlil Haughton,1
+400876112,Oklahoma,Big 12,home,35,defensive,SOLO,Will Sunderland,1
+400876112,Oklahoma,Big 12,home,35,defensive,SOLO,Neville Gallimore,1
+400876112,Oklahoma,Big 12,home,35,defensive,SOLO,Parnell Motley,0
+400876112,Oklahoma,Big 12,home,35,defensive,SACKS,Caleb Kelly,0
+400876112,Oklahoma,Big 12,home,35,defensive,SACKS,Jordan Evans,0
+400876112,Oklahoma,Big 12,home,35,defensive,SACKS,Steven Parker,0
+400876112,Oklahoma,Big 12,home,35,defensive,SACKS,Ahmad Thomas,0
+400876112,Oklahoma,Big 12,home,35,defensive,SACKS,Jordan Thomas,0
+400876112,Oklahoma,Big 12,home,35,defensive,SACKS,Emmanuel Beal,0
+400876112,Oklahoma,Big 12,home,35,defensive,SACKS,Jordan Wade,0
+400876112,Oklahoma,Big 12,home,35,defensive,SACKS,Ogbonnia Okoronkwo,0
+400876112,Oklahoma,Big 12,home,35,defensive,SACKS,Austin Roberts,0
+400876112,Oklahoma,Big 12,home,35,defensive,SACKS,Ruben Hunter,0
+400876112,Oklahoma,Big 12,home,35,defensive,SACKS,Jordan Parker,0
+400876112,Oklahoma,Big 12,home,35,defensive,SACKS,Matt Romar,0
+400876112,Oklahoma,Big 12,home,35,defensive,SACKS,D.J. Ward,0
+400876112,Oklahoma,Big 12,home,35,defensive,SACKS,Curtis Bolton,0
+400876112,Oklahoma,Big 12,home,35,defensive,SACKS,Ricky DeBerry,0
+400876112,Oklahoma,Big 12,home,35,defensive,SACKS,Kahlil Haughton,0
+400876112,Oklahoma,Big 12,home,35,defensive,SACKS,Will Sunderland,0
+400876112,Oklahoma,Big 12,home,35,defensive,SACKS,Neville Gallimore,0
+400876112,Oklahoma,Big 12,home,35,defensive,SACKS,Parnell Motley,0
+400876112,Oklahoma,Big 12,home,35,defensive,TFL,Caleb Kelly,1
+400876112,Oklahoma,Big 12,home,35,defensive,TFL,Jordan Evans,1
+400876112,Oklahoma,Big 12,home,35,defensive,TFL,Steven Parker,0
+400876112,Oklahoma,Big 12,home,35,defensive,TFL,Ahmad Thomas,0
+400876112,Oklahoma,Big 12,home,35,defensive,TFL,Jordan Thomas,0
+400876112,Oklahoma,Big 12,home,35,defensive,TFL,Emmanuel Beal,0
+400876112,Oklahoma,Big 12,home,35,defensive,TFL,Jordan Wade,0
+400876112,Oklahoma,Big 12,home,35,defensive,TFL,Ogbonnia Okoronkwo,1.5
+400876112,Oklahoma,Big 12,home,35,defensive,TFL,Austin Roberts,1.5
+400876112,Oklahoma,Big 12,home,35,defensive,TFL,Ruben Hunter,0
+400876112,Oklahoma,Big 12,home,35,defensive,TFL,Jordan Parker,0
+400876112,Oklahoma,Big 12,home,35,defensive,TFL,Matt Romar,0
+400876112,Oklahoma,Big 12,home,35,defensive,TFL,D.J. Ward,0
+400876112,Oklahoma,Big 12,home,35,defensive,TFL,Curtis Bolton,0
+400876112,Oklahoma,Big 12,home,35,defensive,TFL,Ricky DeBerry,0
+400876112,Oklahoma,Big 12,home,35,defensive,TFL,Kahlil Haughton,0
+400876112,Oklahoma,Big 12,home,35,defensive,TFL,Will Sunderland,0
+400876112,Oklahoma,Big 12,home,35,defensive,TFL,Neville Gallimore,0
+400876112,Oklahoma,Big 12,home,35,defensive,TFL,Parnell Motley,0
+400876112,Oklahoma,Big 12,home,35,defensive,PD,Caleb Kelly,0
+400876112,Oklahoma,Big 12,home,35,defensive,PD,Jordan Evans,1
+400876112,Oklahoma,Big 12,home,35,defensive,PD,Steven Parker,0
+400876112,Oklahoma,Big 12,home,35,defensive,PD,Ahmad Thomas,0
+400876112,Oklahoma,Big 12,home,35,defensive,PD,Jordan Thomas,1
+400876112,Oklahoma,Big 12,home,35,defensive,PD,Emmanuel Beal,0
+400876112,Oklahoma,Big 12,home,35,defensive,PD,Jordan Wade,0
+400876112,Oklahoma,Big 12,home,35,defensive,PD,Ogbonnia Okoronkwo,0
+400876112,Oklahoma,Big 12,home,35,defensive,PD,Austin Roberts,0
+400876112,Oklahoma,Big 12,home,35,defensive,PD,Ruben Hunter,0
+400876112,Oklahoma,Big 12,home,35,defensive,PD,Jordan Parker,0
+400876112,Oklahoma,Big 12,home,35,defensive,PD,Matt Romar,0
+400876112,Oklahoma,Big 12,home,35,defensive,PD,D.J. Ward,0
+400876112,Oklahoma,Big 12,home,35,defensive,PD,Curtis Bolton,0
+400876112,Oklahoma,Big 12,home,35,defensive,PD,Ricky DeBerry,0
+400876112,Oklahoma,Big 12,home,35,defensive,PD,Kahlil Haughton,0
+400876112,Oklahoma,Big 12,home,35,defensive,PD,Will Sunderland,0
+400876112,Oklahoma,Big 12,home,35,defensive,PD,Neville Gallimore,0
+400876112,Oklahoma,Big 12,home,35,defensive,PD,Parnell Motley,0
+400876112,Oklahoma,Big 12,home,35,defensive,QB HUR,Caleb Kelly,0
+400876112,Oklahoma,Big 12,home,35,defensive,QB HUR,Jordan Evans,0
+400876112,Oklahoma,Big 12,home,35,defensive,QB HUR,Steven Parker,0
+400876112,Oklahoma,Big 12,home,35,defensive,QB HUR,Ahmad Thomas,0
+400876112,Oklahoma,Big 12,home,35,defensive,QB HUR,Jordan Thomas,0
+400876112,Oklahoma,Big 12,home,35,defensive,QB HUR,Emmanuel Beal,0
+400876112,Oklahoma,Big 12,home,35,defensive,QB HUR,Jordan Wade,0
+400876112,Oklahoma,Big 12,home,35,defensive,QB HUR,Ogbonnia Okoronkwo,0
+400876112,Oklahoma,Big 12,home,35,defensive,QB HUR,Austin Roberts,0
+400876112,Oklahoma,Big 12,home,35,defensive,QB HUR,Ruben Hunter,0
+400876112,Oklahoma,Big 12,home,35,defensive,QB HUR,Jordan Parker,0
+400876112,Oklahoma,Big 12,home,35,defensive,QB HUR,Matt Romar,0
+400876112,Oklahoma,Big 12,home,35,defensive,QB HUR,D.J. Ward,0
+400876112,Oklahoma,Big 12,home,35,defensive,QB HUR,Curtis Bolton,0
+400876112,Oklahoma,Big 12,home,35,defensive,QB HUR,Ricky DeBerry,0
+400876112,Oklahoma,Big 12,home,35,defensive,QB HUR,Kahlil Haughton,0
+400876112,Oklahoma,Big 12,home,35,defensive,QB HUR,Will Sunderland,0
+400876112,Oklahoma,Big 12,home,35,defensive,QB HUR,Neville Gallimore,0
+400876112,Oklahoma,Big 12,home,35,defensive,QB HUR,Parnell Motley,0
+400876112,Oklahoma,Big 12,home,35,defensive,TD,Caleb Kelly,0
+400876112,Oklahoma,Big 12,home,35,defensive,TD,Jordan Evans,0
+400876112,Oklahoma,Big 12,home,35,defensive,TD,Steven Parker,0
+400876112,Oklahoma,Big 12,home,35,defensive,TD,Ahmad Thomas,0
+400876112,Oklahoma,Big 12,home,35,defensive,TD,Jordan Thomas,0
+400876112,Oklahoma,Big 12,home,35,defensive,TD,Emmanuel Beal,0
+400876112,Oklahoma,Big 12,home,35,defensive,TD,Jordan Wade,0
+400876112,Oklahoma,Big 12,home,35,defensive,TD,Ogbonnia Okoronkwo,0
+400876112,Oklahoma,Big 12,home,35,defensive,TD,Austin Roberts,0
+400876112,Oklahoma,Big 12,home,35,defensive,TD,Ruben Hunter,0
+400876112,Oklahoma,Big 12,home,35,defensive,TD,Jordan Parker,0
+400876112,Oklahoma,Big 12,home,35,defensive,TD,Matt Romar,0
+400876112,Oklahoma,Big 12,home,35,defensive,TD,D.J. Ward,0
+400876112,Oklahoma,Big 12,home,35,defensive,TD,Curtis Bolton,0
+400876112,Oklahoma,Big 12,home,35,defensive,TD,Ricky DeBerry,0
+400876112,Oklahoma,Big 12,home,35,defensive,TD,Kahlil Haughton,0
+400876112,Oklahoma,Big 12,home,35,defensive,TD,Will Sunderland,0
+400876112,Oklahoma,Big 12,home,35,defensive,TD,Neville Gallimore,0
+400876112,Oklahoma,Big 12,home,35,defensive,TD,Parnell Motley,0
+400876112,Oklahoma,Big 12,home,35,interceptions,INT,Jordan Thomas,1
+400876112,Oklahoma,Big 12,home,35,interceptions,YDS,Jordan Thomas,0
+400876112,Oklahoma,Big 12,home,35,interceptions,TD,Jordan Thomas,0
+400876112,Oklahoma,Big 12,home,35,kickReturns,NO,Dede Westbrook,1
+400876112,Oklahoma,Big 12,home,35,kickReturns,YDS,Dede Westbrook,17
+400876112,Oklahoma,Big 12,home,35,kickReturns,AVG,Dede Westbrook,17.0
+400876112,Oklahoma,Big 12,home,35,kickReturns,LONG,Dede Westbrook,17
+400876112,Oklahoma,Big 12,home,35,kickReturns,TD,Dede Westbrook,0
+400876112,Oklahoma,Big 12,home,35,puntReturns,NO,Dede Westbrook,1
+400876112,Oklahoma,Big 12,home,35,puntReturns,YDS,Dede Westbrook,2
+400876112,Oklahoma,Big 12,home,35,puntReturns,AVG,Dede Westbrook,2.0
+400876112,Oklahoma,Big 12,home,35,puntReturns,LONG,Dede Westbrook,2
+400876112,Oklahoma,Big 12,home,35,puntReturns,TD,Dede Westbrook,0
+400876112,Oklahoma,Big 12,home,35,kicking,FG,Austin Seibert,0/1
+400876112,Oklahoma,Big 12,home,35,kicking,PCT,Austin Seibert,0.0
+400876112,Oklahoma,Big 12,home,35,kicking,LONG,Austin Seibert,0
+400876112,Oklahoma,Big 12,home,35,kicking,XP,Austin Seibert,5/5
+400876112,Oklahoma,Big 12,home,35,kicking,PTS,Austin Seibert,5
+400876112,Oklahoma,Big 12,home,35,punting,NO,Austin Seibert,3
+400876112,Oklahoma,Big 12,home,35,punting,YDS,Austin Seibert,137
+400876112,Oklahoma,Big 12,home,35,punting,AVG,Austin Seibert,45.7
+400876112,Oklahoma,Big 12,home,35,punting,TB,Austin Seibert,0
+400876112,Oklahoma,Big 12,home,35,punting,In 20,Austin Seibert,0
+400876112,Oklahoma,Big 12,home,35,punting,LONG,Austin Seibert,53
+400876112,Auburn,SEC,away,19,passing,C/ATT,Jeremy Johnson,5/9
+400876112,Auburn,SEC,away,19,passing,C/ATT,Sean White,4/10
+400876112,Auburn,SEC,away,19,passing,C/ATT,John Franklin III,3/7
+400876112,Auburn,SEC,away,19,passing,C/ATT,Kerryon Johnson,1/1
+400876112,Auburn,SEC,away,19,passing,YDS,Jeremy Johnson,93
+400876112,Auburn,SEC,away,19,passing,YDS,Sean White,35
+400876112,Auburn,SEC,away,19,passing,YDS,John Franklin III,25
+400876112,Auburn,SEC,away,19,passing,YDS,Kerryon Johnson,1
+400876112,Auburn,SEC,away,19,passing,AVG,Jeremy Johnson,10.3
+400876112,Auburn,SEC,away,19,passing,AVG,Sean White,3.5
+400876112,Auburn,SEC,away,19,passing,AVG,John Franklin III,3.6
+400876112,Auburn,SEC,away,19,passing,AVG,Kerryon Johnson,1.0
+400876112,Auburn,SEC,away,19,passing,TD,Jeremy Johnson,0
+400876112,Auburn,SEC,away,19,passing,TD,Sean White,0
+400876112,Auburn,SEC,away,19,passing,TD,John Franklin III,0
+400876112,Auburn,SEC,away,19,passing,TD,Kerryon Johnson,1
+400876112,Auburn,SEC,away,19,passing,INT,Jeremy Johnson,1
+400876112,Auburn,SEC,away,19,passing,INT,Sean White,0
+400876112,Auburn,SEC,away,19,passing,INT,John Franklin III,0
+400876112,Auburn,SEC,away,19,passing,INT,Kerryon Johnson,0
+400876112,Auburn,SEC,away,19,passing,QBR,Jeremy Johnson,42.0
+400876112,Auburn,SEC,away,19,passing,QBR,Sean White,32.7
+400876112,Auburn,SEC,away,19,passing,QBR,John Franklin III,9.8
+400876112,Auburn,SEC,away,19,passing,QBR,Kerryon Johnson,100.0
+400876112,Auburn,SEC,away,19,rushing,CAR,Kamryn Pettway,24
+400876112,Auburn,SEC,away,19,rushing,CAR,Kerryon Johnson,9
+400876112,Auburn,SEC,away,19,rushing,CAR,John Franklin III,5
+400876112,Auburn,SEC,away,19,rushing,CAR,Sean White,3
+400876112,Auburn,SEC,away,19,rushing,CAR,Jeremy Johnson,1
+400876112,Auburn,SEC,away,19,rushing,CAR,Eli Stove,2
+400876112,Auburn,SEC,away,19,rushing,CAR,Chandler Cox,1
+400876112,Auburn,SEC,away,19,rushing,CAR,Ryan Davis,1
+400876112,Auburn,SEC,away,19,rushing,YDS,Kamryn Pettway,101
+400876112,Auburn,SEC,away,19,rushing,YDS,Kerryon Johnson,33
+400876112,Auburn,SEC,away,19,rushing,YDS,John Franklin III,16
+400876112,Auburn,SEC,away,19,rushing,YDS,Sean White,15
+400876112,Auburn,SEC,away,19,rushing,YDS,Jeremy Johnson,10
+400876112,Auburn,SEC,away,19,rushing,YDS,Eli Stove,8
+400876112,Auburn,SEC,away,19,rushing,YDS,Chandler Cox,3
+400876112,Auburn,SEC,away,19,rushing,YDS,Ryan Davis,-1
+400876112,Auburn,SEC,away,19,rushing,AVG,Kamryn Pettway,4.2
+400876112,Auburn,SEC,away,19,rushing,AVG,Kerryon Johnson,3.7
+400876112,Auburn,SEC,away,19,rushing,AVG,John Franklin III,3.2
+400876112,Auburn,SEC,away,19,rushing,AVG,Sean White,5.0
+400876112,Auburn,SEC,away,19,rushing,AVG,Jeremy Johnson,10.0
+400876112,Auburn,SEC,away,19,rushing,AVG,Eli Stove,4.0
+400876112,Auburn,SEC,away,19,rushing,AVG,Chandler Cox,3.0
+400876112,Auburn,SEC,away,19,rushing,AVG,Ryan Davis,-1.0
+400876112,Auburn,SEC,away,19,rushing,TD,Kamryn Pettway,0
+400876112,Auburn,SEC,away,19,rushing,TD,Kerryon Johnson,0
+400876112,Auburn,SEC,away,19,rushing,TD,John Franklin III,0
+400876112,Auburn,SEC,away,19,rushing,TD,Sean White,0
+400876112,Auburn,SEC,away,19,rushing,TD,Jeremy Johnson,0
+400876112,Auburn,SEC,away,19,rushing,TD,Eli Stove,0
+400876112,Auburn,SEC,away,19,rushing,TD,Chandler Cox,1
+400876112,Auburn,SEC,away,19,rushing,TD,Ryan Davis,0
+400876112,Auburn,SEC,away,19,rushing,LONG,Kamryn Pettway,16
+400876112,Auburn,SEC,away,19,rushing,LONG,Kerryon Johnson,16
+400876112,Auburn,SEC,away,19,rushing,LONG,John Franklin III,7
+400876112,Auburn,SEC,away,19,rushing,LONG,Sean White,12
+400876112,Auburn,SEC,away,19,rushing,LONG,Jeremy Johnson,10
+400876112,Auburn,SEC,away,19,rushing,LONG,Eli Stove,6
+400876112,Auburn,SEC,away,19,rushing,LONG,Chandler Cox,3
+400876112,Auburn,SEC,away,19,rushing,LONG,Ryan Davis,0
+400876112,Auburn,SEC,away,19,receiving,REC,Darius Slayton,1
+400876112,Auburn,SEC,away,19,receiving,REC,Eli Stove,4
+400876112,Auburn,SEC,away,19,receiving,REC,Tony Stevens,2
+400876112,Auburn,SEC,away,19,receiving,REC,Kyle Davis,1
+400876112,Auburn,SEC,away,19,receiving,REC,Nate Craig-Myers,1
+400876112,Auburn,SEC,away,19,receiving,REC,Kerryon Johnson,1
+400876112,Auburn,SEC,away,19,receiving,REC,Stanton Truitt,1
+400876112,Auburn,SEC,away,19,receiving,REC,Will Hastings,1
+400876112,Auburn,SEC,away,19,receiving,REC,Jalen Harris,1
+400876112,Auburn,SEC,away,19,receiving,YDS,Darius Slayton,56
+400876112,Auburn,SEC,away,19,receiving,YDS,Eli Stove,39
+400876112,Auburn,SEC,away,19,receiving,YDS,Tony Stevens,21
+400876112,Auburn,SEC,away,19,receiving,YDS,Kyle Davis,13
+400876112,Auburn,SEC,away,19,receiving,YDS,Nate Craig-Myers,12
+400876112,Auburn,SEC,away,19,receiving,YDS,Kerryon Johnson,5
+400876112,Auburn,SEC,away,19,receiving,YDS,Stanton Truitt,4
+400876112,Auburn,SEC,away,19,receiving,YDS,Will Hastings,3
+400876112,Auburn,SEC,away,19,receiving,YDS,Jalen Harris,1
+400876112,Auburn,SEC,away,19,receiving,AVG,Darius Slayton,56.0
+400876112,Auburn,SEC,away,19,receiving,AVG,Eli Stove,9.8
+400876112,Auburn,SEC,away,19,receiving,AVG,Tony Stevens,10.5
+400876112,Auburn,SEC,away,19,receiving,AVG,Kyle Davis,13.0
+400876112,Auburn,SEC,away,19,receiving,AVG,Nate Craig-Myers,12.0
+400876112,Auburn,SEC,away,19,receiving,AVG,Kerryon Johnson,5.0
+400876112,Auburn,SEC,away,19,receiving,AVG,Stanton Truitt,4.0
+400876112,Auburn,SEC,away,19,receiving,AVG,Will Hastings,3.0
+400876112,Auburn,SEC,away,19,receiving,AVG,Jalen Harris,1.0
+400876112,Auburn,SEC,away,19,receiving,TD,Darius Slayton,0
+400876112,Auburn,SEC,away,19,receiving,TD,Eli Stove,0
+400876112,Auburn,SEC,away,19,receiving,TD,Tony Stevens,0
+400876112,Auburn,SEC,away,19,receiving,TD,Kyle Davis,0
+400876112,Auburn,SEC,away,19,receiving,TD,Nate Craig-Myers,0
+400876112,Auburn,SEC,away,19,receiving,TD,Kerryon Johnson,0
+400876112,Auburn,SEC,away,19,receiving,TD,Stanton Truitt,0
+400876112,Auburn,SEC,away,19,receiving,TD,Will Hastings,0
+400876112,Auburn,SEC,away,19,receiving,TD,Jalen Harris,1
+400876112,Auburn,SEC,away,19,receiving,LONG,Darius Slayton,56
+400876112,Auburn,SEC,away,19,receiving,LONG,Eli Stove,12
+400876112,Auburn,SEC,away,19,receiving,LONG,Tony Stevens,13
+400876112,Auburn,SEC,away,19,receiving,LONG,Kyle Davis,13
+400876112,Auburn,SEC,away,19,receiving,LONG,Nate Craig-Myers,12
+400876112,Auburn,SEC,away,19,receiving,LONG,Kerryon Johnson,5
+400876112,Auburn,SEC,away,19,receiving,LONG,Stanton Truitt,4
+400876112,Auburn,SEC,away,19,receiving,LONG,Will Hastings,3
+400876112,Auburn,SEC,away,19,receiving,LONG,Jalen Harris,1
+400876112,Auburn,SEC,away,19,defensive,TOT,Stephen Roberts,8
+400876112,Auburn,SEC,away,19,defensive,TOT,Deshaun Davis,8
+400876112,Auburn,SEC,away,19,defensive,TOT,Javaris Davis,5
+400876112,Auburn,SEC,away,19,defensive,TOT,Joshua Holsey,5
+400876112,Auburn,SEC,away,19,defensive,TOT,Nick Ruffin,5
+400876112,Auburn,SEC,away,19,defensive,TOT,Montavious Atkinson,5
+400876112,Auburn,SEC,away,19,defensive,TOT,Montravius Adams,5
+400876112,Auburn,SEC,away,19,defensive,TOT,Tre' Williams,4
+400876112,Auburn,SEC,away,19,defensive,TOT,Carlton Davis,4
+400876112,Auburn,SEC,away,19,defensive,TOT,Dontavius Russell,4
+400876112,Auburn,SEC,away,19,defensive,TOT,Marlon Davidson,3
+400876112,Auburn,SEC,away,19,defensive,TOT,Tray Matthews,3
+400876112,Auburn,SEC,away,19,defensive,TOT,Darrell Williams,3
+400876112,Auburn,SEC,away,19,defensive,TOT,Carl Lawson,2
+400876112,Auburn,SEC,away,19,defensive,TOT,Jeff Holland,2
+400876112,Auburn,SEC,away,19,defensive,TOT,Andrew Williams,2
+400876112,Auburn,SEC,away,19,defensive,TOT,Maurice Swain,1
+400876112,Auburn,SEC,away,19,defensive,TOT,Derrick Brown,1
+400876112,Auburn,SEC,away,19,defensive,TOT,Daniel Thomas,1
+400876112,Auburn,SEC,away,19,defensive,SOLO,Stephen Roberts,6
+400876112,Auburn,SEC,away,19,defensive,SOLO,Deshaun Davis,5
+400876112,Auburn,SEC,away,19,defensive,SOLO,Javaris Davis,5
+400876112,Auburn,SEC,away,19,defensive,SOLO,Joshua Holsey,4
+400876112,Auburn,SEC,away,19,defensive,SOLO,Nick Ruffin,4
+400876112,Auburn,SEC,away,19,defensive,SOLO,Montavious Atkinson,4
+400876112,Auburn,SEC,away,19,defensive,SOLO,Montravius Adams,3
+400876112,Auburn,SEC,away,19,defensive,SOLO,Tre' Williams,2
+400876112,Auburn,SEC,away,19,defensive,SOLO,Carlton Davis,2
+400876112,Auburn,SEC,away,19,defensive,SOLO,Dontavius Russell,1
+400876112,Auburn,SEC,away,19,defensive,SOLO,Marlon Davidson,2
+400876112,Auburn,SEC,away,19,defensive,SOLO,Tray Matthews,1
+400876112,Auburn,SEC,away,19,defensive,SOLO,Darrell Williams,0
+400876112,Auburn,SEC,away,19,defensive,SOLO,Carl Lawson,1
+400876112,Auburn,SEC,away,19,defensive,SOLO,Jeff Holland,1
+400876112,Auburn,SEC,away,19,defensive,SOLO,Andrew Williams,0
+400876112,Auburn,SEC,away,19,defensive,SOLO,Maurice Swain,0
+400876112,Auburn,SEC,away,19,defensive,SOLO,Derrick Brown,0
+400876112,Auburn,SEC,away,19,defensive,SOLO,Daniel Thomas,0
+400876112,Auburn,SEC,away,19,defensive,SACKS,Stephen Roberts,0
+400876112,Auburn,SEC,away,19,defensive,SACKS,Deshaun Davis,0
+400876112,Auburn,SEC,away,19,defensive,SACKS,Javaris Davis,0
+400876112,Auburn,SEC,away,19,defensive,SACKS,Joshua Holsey,0
+400876112,Auburn,SEC,away,19,defensive,SACKS,Nick Ruffin,0
+400876112,Auburn,SEC,away,19,defensive,SACKS,Montavious Atkinson,0
+400876112,Auburn,SEC,away,19,defensive,SACKS,Montravius Adams,0
+400876112,Auburn,SEC,away,19,defensive,SACKS,Tre' Williams,0
+400876112,Auburn,SEC,away,19,defensive,SACKS,Carlton Davis,0
+400876112,Auburn,SEC,away,19,defensive,SACKS,Dontavius Russell,0
+400876112,Auburn,SEC,away,19,defensive,SACKS,Marlon Davidson,0
+400876112,Auburn,SEC,away,19,defensive,SACKS,Tray Matthews,0
+400876112,Auburn,SEC,away,19,defensive,SACKS,Darrell Williams,0
+400876112,Auburn,SEC,away,19,defensive,SACKS,Carl Lawson,0
+400876112,Auburn,SEC,away,19,defensive,SACKS,Jeff Holland,0
+400876112,Auburn,SEC,away,19,defensive,SACKS,Andrew Williams,0
+400876112,Auburn,SEC,away,19,defensive,SACKS,Maurice Swain,0
+400876112,Auburn,SEC,away,19,defensive,SACKS,Derrick Brown,0
+400876112,Auburn,SEC,away,19,defensive,SACKS,Daniel Thomas,0
+400876112,Auburn,SEC,away,19,defensive,TFL,Stephen Roberts,0
+400876112,Auburn,SEC,away,19,defensive,TFL,Deshaun Davis,0
+400876112,Auburn,SEC,away,19,defensive,TFL,Javaris Davis,0
+400876112,Auburn,SEC,away,19,defensive,TFL,Joshua Holsey,0
+400876112,Auburn,SEC,away,19,defensive,TFL,Nick Ruffin,0
+400876112,Auburn,SEC,away,19,defensive,TFL,Montavious Atkinson,0
+400876112,Auburn,SEC,away,19,defensive,TFL,Montravius Adams,0
+400876112,Auburn,SEC,away,19,defensive,TFL,Tre' Williams,0
+400876112,Auburn,SEC,away,19,defensive,TFL,Carlton Davis,0
+400876112,Auburn,SEC,away,19,defensive,TFL,Dontavius Russell,0
+400876112,Auburn,SEC,away,19,defensive,TFL,Marlon Davidson,0
+400876112,Auburn,SEC,away,19,defensive,TFL,Tray Matthews,0
+400876112,Auburn,SEC,away,19,defensive,TFL,Darrell Williams,0
+400876112,Auburn,SEC,away,19,defensive,TFL,Carl Lawson,1
+400876112,Auburn,SEC,away,19,defensive,TFL,Jeff Holland,1
+400876112,Auburn,SEC,away,19,defensive,TFL,Andrew Williams,0
+400876112,Auburn,SEC,away,19,defensive,TFL,Maurice Swain,0
+400876112,Auburn,SEC,away,19,defensive,TFL,Derrick Brown,0
+400876112,Auburn,SEC,away,19,defensive,TFL,Daniel Thomas,0
+400876112,Auburn,SEC,away,19,defensive,PD,Stephen Roberts,0
+400876112,Auburn,SEC,away,19,defensive,PD,Deshaun Davis,0
+400876112,Auburn,SEC,away,19,defensive,PD,Javaris Davis,1
+400876112,Auburn,SEC,away,19,defensive,PD,Joshua Holsey,0
+400876112,Auburn,SEC,away,19,defensive,PD,Nick Ruffin,0
+400876112,Auburn,SEC,away,19,defensive,PD,Montavious Atkinson,0
+400876112,Auburn,SEC,away,19,defensive,PD,Montravius Adams,0
+400876112,Auburn,SEC,away,19,defensive,PD,Tre' Williams,0
+400876112,Auburn,SEC,away,19,defensive,PD,Carlton Davis,0
+400876112,Auburn,SEC,away,19,defensive,PD,Dontavius Russell,0
+400876112,Auburn,SEC,away,19,defensive,PD,Marlon Davidson,1
+400876112,Auburn,SEC,away,19,defensive,PD,Tray Matthews,0
+400876112,Auburn,SEC,away,19,defensive,PD,Darrell Williams,0
+400876112,Auburn,SEC,away,19,defensive,PD,Carl Lawson,0
+400876112,Auburn,SEC,away,19,defensive,PD,Jeff Holland,0
+400876112,Auburn,SEC,away,19,defensive,PD,Andrew Williams,0
+400876112,Auburn,SEC,away,19,defensive,PD,Maurice Swain,0
+400876112,Auburn,SEC,away,19,defensive,PD,Derrick Brown,0
+400876112,Auburn,SEC,away,19,defensive,PD,Daniel Thomas,0
+400876112,Auburn,SEC,away,19,defensive,QB HUR,Stephen Roberts,0
+400876112,Auburn,SEC,away,19,defensive,QB HUR,Deshaun Davis,0
+400876112,Auburn,SEC,away,19,defensive,QB HUR,Javaris Davis,0
+400876112,Auburn,SEC,away,19,defensive,QB HUR,Joshua Holsey,0
+400876112,Auburn,SEC,away,19,defensive,QB HUR,Nick Ruffin,0
+400876112,Auburn,SEC,away,19,defensive,QB HUR,Montavious Atkinson,0
+400876112,Auburn,SEC,away,19,defensive,QB HUR,Montravius Adams,0
+400876112,Auburn,SEC,away,19,defensive,QB HUR,Tre' Williams,0
+400876112,Auburn,SEC,away,19,defensive,QB HUR,Carlton Davis,0
+400876112,Auburn,SEC,away,19,defensive,QB HUR,Dontavius Russell,0
+400876112,Auburn,SEC,away,19,defensive,QB HUR,Marlon Davidson,0
+400876112,Auburn,SEC,away,19,defensive,QB HUR,Tray Matthews,0
+400876112,Auburn,SEC,away,19,defensive,QB HUR,Darrell Williams,0
+400876112,Auburn,SEC,away,19,defensive,QB HUR,Carl Lawson,0
+400876112,Auburn,SEC,away,19,defensive,QB HUR,Jeff Holland,0
+400876112,Auburn,SEC,away,19,defensive,QB HUR,Andrew Williams,0
+400876112,Auburn,SEC,away,19,defensive,QB HUR,Maurice Swain,0
+400876112,Auburn,SEC,away,19,defensive,QB HUR,Derrick Brown,0
+400876112,Auburn,SEC,away,19,defensive,QB HUR,Daniel Thomas,0
+400876112,Auburn,SEC,away,19,defensive,TD,Stephen Roberts,0
+400876112,Auburn,SEC,away,19,defensive,TD,Deshaun Davis,0
+400876112,Auburn,SEC,away,19,defensive,TD,Javaris Davis,0
+400876112,Auburn,SEC,away,19,defensive,TD,Joshua Holsey,0
+400876112,Auburn,SEC,away,19,defensive,TD,Nick Ruffin,0
+400876112,Auburn,SEC,away,19,defensive,TD,Montavious Atkinson,0
+400876112,Auburn,SEC,away,19,defensive,TD,Montravius Adams,0
+400876112,Auburn,SEC,away,19,defensive,TD,Tre' Williams,0
+400876112,Auburn,SEC,away,19,defensive,TD,Carlton Davis,0
+400876112,Auburn,SEC,away,19,defensive,TD,Dontavius Russell,0
+400876112,Auburn,SEC,away,19,defensive,TD,Marlon Davidson,0
+400876112,Auburn,SEC,away,19,defensive,TD,Tray Matthews,0
+400876112,Auburn,SEC,away,19,defensive,TD,Darrell Williams,0
+400876112,Auburn,SEC,away,19,defensive,TD,Carl Lawson,0
+400876112,Auburn,SEC,away,19,defensive,TD,Jeff Holland,0
+400876112,Auburn,SEC,away,19,defensive,TD,Andrew Williams,0
+400876112,Auburn,SEC,away,19,defensive,TD,Maurice Swain,0
+400876112,Auburn,SEC,away,19,defensive,TD,Derrick Brown,0
+400876112,Auburn,SEC,away,19,defensive,TD,Daniel Thomas,0
+400876112,Auburn,SEC,away,19,kickReturns,NO,Kerryon Johnson,2
+400876112,Auburn,SEC,away,19,kickReturns,NO,Stanton Truitt,1
+400876112,Auburn,SEC,away,19,kickReturns,YDS,Kerryon Johnson,32
+400876112,Auburn,SEC,away,19,kickReturns,YDS,Stanton Truitt,17
+400876112,Auburn,SEC,away,19,kickReturns,AVG,Kerryon Johnson,16.0
+400876112,Auburn,SEC,away,19,kickReturns,AVG,Stanton Truitt,17.0
+400876112,Auburn,SEC,away,19,kickReturns,LONG,Kerryon Johnson,20
+400876112,Auburn,SEC,away,19,kickReturns,LONG,Stanton Truitt,17
+400876112,Auburn,SEC,away,19,kickReturns,TD,Kerryon Johnson,0
+400876112,Auburn,SEC,away,19,kickReturns,TD,Stanton Truitt,0
+400876112,Auburn,SEC,away,19,puntReturns,NO,Stephen Roberts,1
+400876112,Auburn,SEC,away,19,puntReturns,YDS,Stephen Roberts,2
+400876112,Auburn,SEC,away,19,puntReturns,AVG,Stephen Roberts,2.0
+400876112,Auburn,SEC,away,19,puntReturns,LONG,Stephen Roberts,2
+400876112,Auburn,SEC,away,19,puntReturns,TD,Stephen Roberts,0
+400876112,Auburn,SEC,away,19,kicking,FG,Daniel Carlson,2/2
+400876112,Auburn,SEC,away,19,kicking,PCT,Daniel Carlson,100.0
+400876112,Auburn,SEC,away,19,kicking,LONG,Daniel Carlson,49
+400876112,Auburn,SEC,away,19,kicking,XP,Daniel Carlson,1/1
+400876112,Auburn,SEC,away,19,kicking,PTS,Daniel Carlson,7
+400876112,Auburn,SEC,away,19,punting,NO,Kevin Phillips,5
+400876112,Auburn,SEC,away,19,punting,YDS,Kevin Phillips,246
+400876112,Auburn,SEC,away,19,punting,AVG,Kevin Phillips,49.2
+400876112,Auburn,SEC,away,19,punting,TB,Kevin Phillips,0
+400876112,Auburn,SEC,away,19,punting,In 20,Kevin Phillips,0
+400876112,Auburn,SEC,away,19,punting,LONG,Kevin Phillips,63
+400876098,West Virginia,Big 12,away,14,rushing,TD,Martell Pettaway,0
+400876098,West Virginia,Big 12,away,14,rushing,TD,Justin Crawford,0
+400876098,West Virginia,Big 12,away,14,rushing,TD,Skyler Howard,1
+400876098,West Virginia,Big 12,away,14,rushing,TD,Kennedy McKoy,1
+400876098,West Virginia,Big 12,away,14,rushing,TD,Rushel Shell,0
+400876098,West Virginia,Big 12,away,14,rushing,TD," Team",0
+400876098,West Virginia,Big 12,away,14,rushing,CAR,Skyler Howard,21
+400876098,West Virginia,Big 12,away,14,rushing,CAR,Martell Pettaway,3
+400876098,West Virginia,Big 12,away,14,rushing,CAR,Justin Crawford,6
+400876098,West Virginia,Big 12,away,14,rushing,CAR,Kennedy McKoy,1
+400876098,West Virginia,Big 12,away,14,rushing,CAR,Rushel Shell,6
+400876098,West Virginia,Big 12,away,14,rushing,CAR," Team",2
+400876098,West Virginia,Big 12,away,14,rushing,YDS,Skyler Howard,63
+400876098,West Virginia,Big 12,away,14,rushing,YDS,Martell Pettaway,16
+400876098,West Virginia,Big 12,away,14,rushing,YDS,Justin Crawford,16
+400876098,West Virginia,Big 12,away,14,rushing,YDS,Kennedy McKoy,6
+400876098,West Virginia,Big 12,away,14,rushing,YDS,Rushel Shell,0
+400876098,West Virginia,Big 12,away,14,rushing,YDS," Team",-6
+400876098,West Virginia,Big 12,away,14,rushing,AVG,Skyler Howard,3.0
+400876098,West Virginia,Big 12,away,14,rushing,AVG,Martell Pettaway,5.3
+400876098,West Virginia,Big 12,away,14,rushing,AVG,Justin Crawford,2.7
+400876098,West Virginia,Big 12,away,14,rushing,AVG,Kennedy McKoy,6.0
+400876098,West Virginia,Big 12,away,14,rushing,AVG,Rushel Shell,0.0
+400876098,West Virginia,Big 12,away,14,rushing,AVG," Team",-3.0
+400876098,West Virginia,Big 12,away,14,rushing,LONG,Skyler Howard,29
+400876098,West Virginia,Big 12,away,14,rushing,LONG,Martell Pettaway,13
+400876098,West Virginia,Big 12,away,14,rushing,LONG,Justin Crawford,9
+400876098,West Virginia,Big 12,away,14,rushing,LONG,Kennedy McKoy,6
+400876098,West Virginia,Big 12,away,14,rushing,LONG,Rushel Shell,2
+400876098,West Virginia,Big 12,away,14,rushing,LONG," Team",0
+400876098,West Virginia,Big 12,away,14,passing,C/ATT,Skyler Howard,17/26
+400876098,West Virginia,Big 12,away,14,passing,YDS,Skyler Howard,134
+400876098,West Virginia,Big 12,away,14,passing,AVG,Skyler Howard,5.2
+400876098,West Virginia,Big 12,away,14,passing,TD,Skyler Howard,0
+400876098,West Virginia,Big 12,away,14,passing,INT,Skyler Howard,0
+400876098,West Virginia,Big 12,away,14,passing,QBR,Skyler Howard,28.9
+400876098,West Virginia,Big 12,away,14,receiving,REC,Daikiel Shorts,5
+400876098,West Virginia,Big 12,away,14,receiving,REC,Shelton Gibson,3
+400876098,West Virginia,Big 12,away,14,receiving,REC,Jovon Durante,3
+400876098,West Virginia,Big 12,away,14,receiving,REC,Devonte Mathis,1
+400876098,West Virginia,Big 12,away,14,receiving,REC,Justin Crawford,2
+400876098,West Virginia,Big 12,away,14,receiving,REC,Rushel Shell,1
+400876098,West Virginia,Big 12,away,14,receiving,REC,Kennedy McKoy,1
+400876098,West Virginia,Big 12,away,14,receiving,REC,Martell Pettaway,1
+400876098,West Virginia,Big 12,away,14,receiving,YDS,Daikiel Shorts,61
+400876098,West Virginia,Big 12,away,14,receiving,YDS,Shelton Gibson,24
+400876098,West Virginia,Big 12,away,14,receiving,YDS,Jovon Durante,22
+400876098,West Virginia,Big 12,away,14,receiving,YDS,Devonte Mathis,11
+400876098,West Virginia,Big 12,away,14,receiving,YDS,Justin Crawford,9
+400876098,West Virginia,Big 12,away,14,receiving,YDS,Rushel Shell,6
+400876098,West Virginia,Big 12,away,14,receiving,YDS,Kennedy McKoy,5
+400876098,West Virginia,Big 12,away,14,receiving,YDS,Martell Pettaway,-4
+400876098,West Virginia,Big 12,away,14,receiving,AVG,Daikiel Shorts,12.2
+400876098,West Virginia,Big 12,away,14,receiving,AVG,Shelton Gibson,8.0
+400876098,West Virginia,Big 12,away,14,receiving,AVG,Jovon Durante,7.3
+400876098,West Virginia,Big 12,away,14,receiving,AVG,Devonte Mathis,11.0
+400876098,West Virginia,Big 12,away,14,receiving,AVG,Justin Crawford,4.5
+400876098,West Virginia,Big 12,away,14,receiving,AVG,Rushel Shell,6.0
+400876098,West Virginia,Big 12,away,14,receiving,AVG,Kennedy McKoy,5.0
+400876098,West Virginia,Big 12,away,14,receiving,AVG,Martell Pettaway,-4.0
+400876098,West Virginia,Big 12,away,14,receiving,TD,Daikiel Shorts,0
+400876098,West Virginia,Big 12,away,14,receiving,TD,Shelton Gibson,0
+400876098,West Virginia,Big 12,away,14,receiving,TD,Jovon Durante,0
+400876098,West Virginia,Big 12,away,14,receiving,TD,Devonte Mathis,0
+400876098,West Virginia,Big 12,away,14,receiving,TD,Justin Crawford,0
+400876098,West Virginia,Big 12,away,14,receiving,TD,Rushel Shell,0
+400876098,West Virginia,Big 12,away,14,receiving,TD,Kennedy McKoy,0
+400876098,West Virginia,Big 12,away,14,receiving,TD,Martell Pettaway,0
+400876098,West Virginia,Big 12,away,14,receiving,LONG,Daikiel Shorts,26
+400876098,West Virginia,Big 12,away,14,receiving,LONG,Shelton Gibson,15
+400876098,West Virginia,Big 12,away,14,receiving,LONG,Jovon Durante,13
+400876098,West Virginia,Big 12,away,14,receiving,LONG,Devonte Mathis,11
+400876098,West Virginia,Big 12,away,14,receiving,LONG,Justin Crawford,7
+400876098,West Virginia,Big 12,away,14,receiving,LONG,Rushel Shell,6
+400876098,West Virginia,Big 12,away,14,receiving,LONG,Kennedy McKoy,5
+400876098,West Virginia,Big 12,away,14,receiving,LONG,Martell Pettaway,0
+400876098,West Virginia,Big 12,away,14,fumbles,FUM,Skyler Howard,1
+400876098,West Virginia,Big 12,away,14,fumbles,FUM," Team",1
+400876098,West Virginia,Big 12,away,14,fumbles,LOST,Skyler Howard,1
+400876098,West Virginia,Big 12,away,14,fumbles,LOST," Team",0
+400876098,West Virginia,Big 12,away,14,fumbles,REC,Skyler Howard,0
+400876098,West Virginia,Big 12,away,14,fumbles,REC," Team",0
+400876098,West Virginia,Big 12,away,14,defensive,TOT,David Long Jr.,11
+400876098,West Virginia,Big 12,away,14,defensive,TOT,Al-Rasheed Benton,10
+400876098,West Virginia,Big 12,away,14,defensive,TOT,Rasul Douglas,8
+400876098,West Virginia,Big 12,away,14,defensive,TOT,Darrien Howard,7
+400876098,West Virginia,Big 12,away,14,defensive,TOT,Kyzir White,6
+400876098,West Virginia,Big 12,away,14,defensive,TOT,Noble Nwachukwu,6
+400876098,West Virginia,Big 12,away,14,defensive,TOT,Jarrod Harper,5
+400876098,West Virginia,Big 12,away,14,defensive,TOT,Toyous Avery,5
+400876098,West Virginia,Big 12,away,14,defensive,TOT,Antonio Crawford,4
+400876098,West Virginia,Big 12,away,14,defensive,TOT,Justin Arndt,4
+400876098,West Virginia,Big 12,away,14,defensive,TOT,Adam Shuler II,3
+400876098,West Virginia,Big 12,away,14,defensive,TOT,Christian Brown,2
+400876098,West Virginia,Big 12,away,14,defensive,TOT,Maurice Fleming,2
+400876098,West Virginia,Big 12,away,14,defensive,TOT,Khairi Sharif,2
+400876098,West Virginia,Big 12,away,14,defensive,TOT,Sean Walters,1
+400876098,West Virginia,Big 12,away,14,defensive,TOT,Jeremy Tyler,1
+400876098,West Virginia,Big 12,away,14,defensive,TOT,Xavier Preston,1
+400876098,West Virginia,Big 12,away,14,defensive,SOLO,David Long Jr.,3
+400876098,West Virginia,Big 12,away,14,defensive,SOLO,Al-Rasheed Benton,2
+400876098,West Virginia,Big 12,away,14,defensive,SOLO,Rasul Douglas,4
+400876098,West Virginia,Big 12,away,14,defensive,SOLO,Darrien Howard,1
+400876098,West Virginia,Big 12,away,14,defensive,SOLO,Kyzir White,3
+400876098,West Virginia,Big 12,away,14,defensive,SOLO,Noble Nwachukwu,0
+400876098,West Virginia,Big 12,away,14,defensive,SOLO,Jarrod Harper,5
+400876098,West Virginia,Big 12,away,14,defensive,SOLO,Toyous Avery,3
+400876098,West Virginia,Big 12,away,14,defensive,SOLO,Antonio Crawford,3
+400876098,West Virginia,Big 12,away,14,defensive,SOLO,Justin Arndt,1
+400876098,West Virginia,Big 12,away,14,defensive,SOLO,Adam Shuler II,2
+400876098,West Virginia,Big 12,away,14,defensive,SOLO,Christian Brown,1
+400876098,West Virginia,Big 12,away,14,defensive,SOLO,Maurice Fleming,1
+400876098,West Virginia,Big 12,away,14,defensive,SOLO,Khairi Sharif,1
+400876098,West Virginia,Big 12,away,14,defensive,SOLO,Sean Walters,0
+400876098,West Virginia,Big 12,away,14,defensive,SOLO,Jeremy Tyler,0
+400876098,West Virginia,Big 12,away,14,defensive,SOLO,Xavier Preston,0
+400876098,West Virginia,Big 12,away,14,defensive,SACKS,David Long Jr.,0
+400876098,West Virginia,Big 12,away,14,defensive,SACKS,Al-Rasheed Benton,0
+400876098,West Virginia,Big 12,away,14,defensive,SACKS,Rasul Douglas,0
+400876098,West Virginia,Big 12,away,14,defensive,SACKS,Darrien Howard,0
+400876098,West Virginia,Big 12,away,14,defensive,SACKS,Kyzir White,0
+400876098,West Virginia,Big 12,away,14,defensive,SACKS,Noble Nwachukwu,0
+400876098,West Virginia,Big 12,away,14,defensive,SACKS,Jarrod Harper,0
+400876098,West Virginia,Big 12,away,14,defensive,SACKS,Toyous Avery,0
+400876098,West Virginia,Big 12,away,14,defensive,SACKS,Antonio Crawford,0
+400876098,West Virginia,Big 12,away,14,defensive,SACKS,Justin Arndt,0
+400876098,West Virginia,Big 12,away,14,defensive,SACKS,Adam Shuler II,0
+400876098,West Virginia,Big 12,away,14,defensive,SACKS,Christian Brown,1
+400876098,West Virginia,Big 12,away,14,defensive,SACKS,Maurice Fleming,0
+400876098,West Virginia,Big 12,away,14,defensive,SACKS,Khairi Sharif,0
+400876098,West Virginia,Big 12,away,14,defensive,SACKS,Sean Walters,0
+400876098,West Virginia,Big 12,away,14,defensive,SACKS,Jeremy Tyler,0
+400876098,West Virginia,Big 12,away,14,defensive,SACKS,Xavier Preston,0
+400876098,West Virginia,Big 12,away,14,defensive,TFL,David Long Jr.,1
+400876098,West Virginia,Big 12,away,14,defensive,TFL,Al-Rasheed Benton,1
+400876098,West Virginia,Big 12,away,14,defensive,TFL,Rasul Douglas,0.5
+400876098,West Virginia,Big 12,away,14,defensive,TFL,Darrien Howard,1
+400876098,West Virginia,Big 12,away,14,defensive,TFL,Kyzir White,1
+400876098,West Virginia,Big 12,away,14,defensive,TFL,Noble Nwachukwu,0
+400876098,West Virginia,Big 12,away,14,defensive,TFL,Jarrod Harper,1
+400876098,West Virginia,Big 12,away,14,defensive,TFL,Toyous Avery,0
+400876098,West Virginia,Big 12,away,14,defensive,TFL,Antonio Crawford,0
+400876098,West Virginia,Big 12,away,14,defensive,TFL,Justin Arndt,0.5
+400876098,West Virginia,Big 12,away,14,defensive,TFL,Adam Shuler II,1
+400876098,West Virginia,Big 12,away,14,defensive,TFL,Christian Brown,1
+400876098,West Virginia,Big 12,away,14,defensive,TFL,Maurice Fleming,1
+400876098,West Virginia,Big 12,away,14,defensive,TFL,Khairi Sharif,0
+400876098,West Virginia,Big 12,away,14,defensive,TFL,Sean Walters,0
+400876098,West Virginia,Big 12,away,14,defensive,TFL,Jeremy Tyler,0
+400876098,West Virginia,Big 12,away,14,defensive,TFL,Xavier Preston,0
+400876098,West Virginia,Big 12,away,14,defensive,PD,David Long Jr.,0
+400876098,West Virginia,Big 12,away,14,defensive,PD,Al-Rasheed Benton,0
+400876098,West Virginia,Big 12,away,14,defensive,PD,Rasul Douglas,1
+400876098,West Virginia,Big 12,away,14,defensive,PD,Darrien Howard,0
+400876098,West Virginia,Big 12,away,14,defensive,PD,Kyzir White,1
+400876098,West Virginia,Big 12,away,14,defensive,PD,Noble Nwachukwu,0
+400876098,West Virginia,Big 12,away,14,defensive,PD,Jarrod Harper,0
+400876098,West Virginia,Big 12,away,14,defensive,PD,Toyous Avery,1
+400876098,West Virginia,Big 12,away,14,defensive,PD,Antonio Crawford,0
+400876098,West Virginia,Big 12,away,14,defensive,PD,Justin Arndt,0
+400876098,West Virginia,Big 12,away,14,defensive,PD,Adam Shuler II,0
+400876098,West Virginia,Big 12,away,14,defensive,PD,Christian Brown,0
+400876098,West Virginia,Big 12,away,14,defensive,PD,Maurice Fleming,0
+400876098,West Virginia,Big 12,away,14,defensive,PD,Khairi Sharif,0
+400876098,West Virginia,Big 12,away,14,defensive,PD,Sean Walters,0
+400876098,West Virginia,Big 12,away,14,defensive,PD,Jeremy Tyler,0
+400876098,West Virginia,Big 12,away,14,defensive,PD,Xavier Preston,0
+400876098,West Virginia,Big 12,away,14,defensive,QB HUR,David Long Jr.,0
+400876098,West Virginia,Big 12,away,14,defensive,QB HUR,Al-Rasheed Benton,0
+400876098,West Virginia,Big 12,away,14,defensive,QB HUR,Rasul Douglas,0
+400876098,West Virginia,Big 12,away,14,defensive,QB HUR,Darrien Howard,0
+400876098,West Virginia,Big 12,away,14,defensive,QB HUR,Kyzir White,0
+400876098,West Virginia,Big 12,away,14,defensive,QB HUR,Noble Nwachukwu,2
+400876098,West Virginia,Big 12,away,14,defensive,QB HUR,Jarrod Harper,0
+400876098,West Virginia,Big 12,away,14,defensive,QB HUR,Toyous Avery,0
+400876098,West Virginia,Big 12,away,14,defensive,QB HUR,Antonio Crawford,0
+400876098,West Virginia,Big 12,away,14,defensive,QB HUR,Justin Arndt,0
+400876098,West Virginia,Big 12,away,14,defensive,QB HUR,Adam Shuler II,0
+400876098,West Virginia,Big 12,away,14,defensive,QB HUR,Christian Brown,0
+400876098,West Virginia,Big 12,away,14,defensive,QB HUR,Maurice Fleming,0
+400876098,West Virginia,Big 12,away,14,defensive,QB HUR,Khairi Sharif,0
+400876098,West Virginia,Big 12,away,14,defensive,QB HUR,Sean Walters,1
+400876098,West Virginia,Big 12,away,14,defensive,QB HUR,Jeremy Tyler,0
+400876098,West Virginia,Big 12,away,14,defensive,QB HUR,Xavier Preston,0
+400876098,West Virginia,Big 12,away,14,defensive,TD,David Long Jr.,0
+400876098,West Virginia,Big 12,away,14,defensive,TD,Al-Rasheed Benton,0
+400876098,West Virginia,Big 12,away,14,defensive,TD,Rasul Douglas,0
+400876098,West Virginia,Big 12,away,14,defensive,TD,Darrien Howard,0
+400876098,West Virginia,Big 12,away,14,defensive,TD,Kyzir White,0
+400876098,West Virginia,Big 12,away,14,defensive,TD,Noble Nwachukwu,0
+400876098,West Virginia,Big 12,away,14,defensive,TD,Jarrod Harper,0
+400876098,West Virginia,Big 12,away,14,defensive,TD,Toyous Avery,0
+400876098,West Virginia,Big 12,away,14,defensive,TD,Antonio Crawford,0
+400876098,West Virginia,Big 12,away,14,defensive,TD,Justin Arndt,0
+400876098,West Virginia,Big 12,away,14,defensive,TD,Adam Shuler II,0
+400876098,West Virginia,Big 12,away,14,defensive,TD,Christian Brown,0
+400876098,West Virginia,Big 12,away,14,defensive,TD,Maurice Fleming,0
+400876098,West Virginia,Big 12,away,14,defensive,TD,Khairi Sharif,0
+400876098,West Virginia,Big 12,away,14,defensive,TD,Sean Walters,0
+400876098,West Virginia,Big 12,away,14,defensive,TD,Jeremy Tyler,0
+400876098,West Virginia,Big 12,away,14,defensive,TD,Xavier Preston,0
+400876098,West Virginia,Big 12,away,14,kickReturns,NO,Shelton Gibson,2
+400876098,West Virginia,Big 12,away,14,kickReturns,YDS,Shelton Gibson,27
+400876098,West Virginia,Big 12,away,14,kickReturns,AVG,Shelton Gibson,13.5
+400876098,West Virginia,Big 12,away,14,kickReturns,LONG,Shelton Gibson,21
+400876098,West Virginia,Big 12,away,14,kickReturns,TD,Shelton Gibson,0
+400876098,West Virginia,Big 12,away,14,kicking,FG,Mike Molina,0/0
+400876098,West Virginia,Big 12,away,14,kicking,PCT,Mike Molina,0.0
+400876098,West Virginia,Big 12,away,14,kicking,LONG,Mike Molina,0
+400876098,West Virginia,Big 12,away,14,kicking,XP,Mike Molina,2/2
+400876098,West Virginia,Big 12,away,14,kicking,PTS,Mike Molina,2
+400876098,West Virginia,Big 12,away,14,punting,NO,Billy Kinney,8
+400876098,West Virginia,Big 12,away,14,punting,YDS,Billy Kinney,353
+400876098,West Virginia,Big 12,away,14,punting,AVG,Billy Kinney,44.1
+400876098,West Virginia,Big 12,away,14,punting,TB,Billy Kinney,0
+400876098,West Virginia,Big 12,away,14,punting,In 20,Billy Kinney,0
+400876098,West Virginia,Big 12,away,14,punting,LONG,Billy Kinney,63
+400876098,Miami,ACC,home,31,passing,C/ATT,Brad Kaaya,24/34
+400876098,Miami,ACC,home,31,passing,YDS,Brad Kaaya,282
+400876098,Miami,ACC,home,31,passing,AVG,Brad Kaaya,8.3
+400876098,Miami,ACC,home,31,passing,TD,Brad Kaaya,4
+400876098,Miami,ACC,home,31,passing,INT,Brad Kaaya,0
+400876098,Miami,ACC,home,31,passing,QBR,Brad Kaaya,80.5
+400876098,Miami,ACC,home,31,rushing,CAR,Mark Walton,17
+400876098,Miami,ACC,home,31,rushing,CAR,Gus Edwards,10
+400876098,Miami,ACC,home,31,rushing,CAR,Joseph Yearby,3
+400876098,Miami,ACC,home,31,rushing,CAR," Team",2
+400876098,Miami,ACC,home,31,rushing,CAR,Brad Kaaya,2
+400876098,Miami,ACC,home,31,rushing,YDS,Mark Walton,52
+400876098,Miami,ACC,home,31,rushing,YDS,Gus Edwards,19
+400876098,Miami,ACC,home,31,rushing,YDS,Joseph Yearby,16
+400876098,Miami,ACC,home,31,rushing,YDS," Team",-3
+400876098,Miami,ACC,home,31,rushing,YDS,Brad Kaaya,-3
+400876098,Miami,ACC,home,31,rushing,AVG,Mark Walton,3.1
+400876098,Miami,ACC,home,31,rushing,AVG,Gus Edwards,1.9
+400876098,Miami,ACC,home,31,rushing,AVG,Joseph Yearby,5.3
+400876098,Miami,ACC,home,31,rushing,AVG," Team",-1.5
+400876098,Miami,ACC,home,31,rushing,AVG,Brad Kaaya,-1.5
+400876098,Miami,ACC,home,31,rushing,TD,Mark Walton,0
+400876098,Miami,ACC,home,31,rushing,TD,Gus Edwards,0
+400876098,Miami,ACC,home,31,rushing,TD,Joseph Yearby,0
+400876098,Miami,ACC,home,31,rushing,TD," Team",0
+400876098,Miami,ACC,home,31,rushing,TD,Brad Kaaya,0
+400876098,Miami,ACC,home,31,rushing,LONG,Mark Walton,16
+400876098,Miami,ACC,home,31,rushing,LONG,Gus Edwards,8
+400876098,Miami,ACC,home,31,rushing,LONG,Joseph Yearby,10
+400876098,Miami,ACC,home,31,rushing,LONG," Team",0
+400876098,Miami,ACC,home,31,rushing,LONG,Brad Kaaya,5
+400876098,Miami,ACC,home,31,receiving,REC,Ahmmon Richards,3
+400876098,Miami,ACC,home,31,receiving,REC,Braxton Berrios,4
+400876098,Miami,ACC,home,31,receiving,REC,Stacy Coley,5
+400876098,Miami,ACC,home,31,receiving,REC,David Njoku,5
+400876098,Miami,ACC,home,31,receiving,REC,Christopher Herndon IV,3
+400876098,Miami,ACC,home,31,receiving,REC,Malcolm Lewis,3
+400876098,Miami,ACC,home,31,receiving,REC,Mark Walton,1
+400876098,Miami,ACC,home,31,receiving,YDS,Ahmmon Richards,68
+400876098,Miami,ACC,home,31,receiving,YDS,Braxton Berrios,64
+400876098,Miami,ACC,home,31,receiving,YDS,Stacy Coley,51
+400876098,Miami,ACC,home,31,receiving,YDS,David Njoku,44
+400876098,Miami,ACC,home,31,receiving,YDS,Christopher Herndon IV,38
+400876098,Miami,ACC,home,31,receiving,YDS,Malcolm Lewis,19
+400876098,Miami,ACC,home,31,receiving,YDS,Mark Walton,-2
+400876098,Miami,ACC,home,31,receiving,AVG,Ahmmon Richards,22.7
+400876098,Miami,ACC,home,31,receiving,AVG,Braxton Berrios,16.0
+400876098,Miami,ACC,home,31,receiving,AVG,Stacy Coley,10.2
+400876098,Miami,ACC,home,31,receiving,AVG,David Njoku,8.8
+400876098,Miami,ACC,home,31,receiving,AVG,Christopher Herndon IV,12.7
+400876098,Miami,ACC,home,31,receiving,AVG,Malcolm Lewis,6.3
+400876098,Miami,ACC,home,31,receiving,AVG,Mark Walton,-2.0
+400876098,Miami,ACC,home,31,receiving,TD,Ahmmon Richards,1
+400876098,Miami,ACC,home,31,receiving,TD,Braxton Berrios,1
+400876098,Miami,ACC,home,31,receiving,TD,Stacy Coley,0
+400876098,Miami,ACC,home,31,receiving,TD,David Njoku,1
+400876098,Miami,ACC,home,31,receiving,TD,Christopher Herndon IV,0
+400876098,Miami,ACC,home,31,receiving,TD,Malcolm Lewis,1
+400876098,Miami,ACC,home,31,receiving,TD,Mark Walton,0
+400876098,Miami,ACC,home,31,receiving,LONG,Ahmmon Richards,51
+400876098,Miami,ACC,home,31,receiving,LONG,Braxton Berrios,26
+400876098,Miami,ACC,home,31,receiving,LONG,Stacy Coley,30
+400876098,Miami,ACC,home,31,receiving,LONG,David Njoku,23
+400876098,Miami,ACC,home,31,receiving,LONG,Christopher Herndon IV,15
+400876098,Miami,ACC,home,31,receiving,LONG,Malcolm Lewis,12
+400876098,Miami,ACC,home,31,receiving,LONG,Mark Walton,0
+400876098,Miami,ACC,home,31,fumbles,FUM,Kendrick Norton,0
+400876098,Miami,ACC,home,31,fumbles,FUM,Brad Kaaya,1
+400876098,Miami,ACC,home,31,fumbles,LOST,Kendrick Norton,0
+400876098,Miami,ACC,home,31,fumbles,LOST,Brad Kaaya,0
+400876098,Miami,ACC,home,31,fumbles,REC,Kendrick Norton,1
+400876098,Miami,ACC,home,31,fumbles,REC,Brad Kaaya,0
+400876098,Miami,ACC,home,31,defensive,TOT,Corn Elder,7
+400876098,Miami,ACC,home,31,defensive,TOT,Jamal Carter,6
+400876098,Miami,ACC,home,31,defensive,TOT,Rayshawn Jenkins,6
+400876098,Miami,ACC,home,31,defensive,TOT,Zach McCloud,6
+400876098,Miami,ACC,home,31,defensive,TOT,Shaquille Quarterman,5
+400876098,Miami,ACC,home,31,defensive,TOT,RJ McIntosh,5
+400876098,Miami,ACC,home,31,defensive,TOT,Chad Thomas,4
+400876098,Miami,ACC,home,31,defensive,TOT,Michael Pinckney,4
+400876098,Miami,ACC,home,31,defensive,TOT,Joe Jackson,4
+400876098,Miami,ACC,home,31,defensive,TOT,Adrian Colbert,4
+400876098,Miami,ACC,home,31,defensive,TOT,Jaquan Johnson,3
+400876098,Miami,ACC,home,31,defensive,TOT,Courtel Jenkins,2
+400876098,Miami,ACC,home,31,defensive,TOT,Trent Harris,2
+400876098,Miami,ACC,home,31,defensive,TOT,Demetrius Jackson,2
+400876098,Miami,ACC,home,31,defensive,TOT,Mark Walton,2
+400876098,Miami,ACC,home,31,defensive,TOT,Kendrick Norton,2
+400876098,Miami,ACC,home,31,defensive,TOT,Darrion Owens,2
+400876098,Miami,ACC,home,31,defensive,TOT,Anthony Moten,2
+400876098,Miami,ACC,home,31,defensive,TOT,Michael Jackson,1
+400876098,Miami,ACC,home,31,defensive,SOLO,Corn Elder,6
+400876098,Miami,ACC,home,31,defensive,SOLO,Jamal Carter,5
+400876098,Miami,ACC,home,31,defensive,SOLO,Rayshawn Jenkins,4
+400876098,Miami,ACC,home,31,defensive,SOLO,Zach McCloud,1
+400876098,Miami,ACC,home,31,defensive,SOLO,Shaquille Quarterman,3
+400876098,Miami,ACC,home,31,defensive,SOLO,RJ McIntosh,0
+400876098,Miami,ACC,home,31,defensive,SOLO,Chad Thomas,3
+400876098,Miami,ACC,home,31,defensive,SOLO,Michael Pinckney,3
+400876098,Miami,ACC,home,31,defensive,SOLO,Joe Jackson,2
+400876098,Miami,ACC,home,31,defensive,SOLO,Adrian Colbert,2
+400876098,Miami,ACC,home,31,defensive,SOLO,Jaquan Johnson,1
+400876098,Miami,ACC,home,31,defensive,SOLO,Courtel Jenkins,2
+400876098,Miami,ACC,home,31,defensive,SOLO,Trent Harris,2
+400876098,Miami,ACC,home,31,defensive,SOLO,Demetrius Jackson,1
+400876098,Miami,ACC,home,31,defensive,SOLO,Mark Walton,1
+400876098,Miami,ACC,home,31,defensive,SOLO,Kendrick Norton,1
+400876098,Miami,ACC,home,31,defensive,SOLO,Darrion Owens,0
+400876098,Miami,ACC,home,31,defensive,SOLO,Anthony Moten,0
+400876098,Miami,ACC,home,31,defensive,SOLO,Michael Jackson,0
+400876098,Miami,ACC,home,31,defensive,SACKS,Corn Elder,0
+400876098,Miami,ACC,home,31,defensive,SACKS,Jamal Carter,0
+400876098,Miami,ACC,home,31,defensive,SACKS,Rayshawn Jenkins,0
+400876098,Miami,ACC,home,31,defensive,SACKS,Zach McCloud,0
+400876098,Miami,ACC,home,31,defensive,SACKS,Shaquille Quarterman,1
+400876098,Miami,ACC,home,31,defensive,SACKS,RJ McIntosh,0.5
+400876098,Miami,ACC,home,31,defensive,SACKS,Chad Thomas,0
+400876098,Miami,ACC,home,31,defensive,SACKS,Michael Pinckney,0
+400876098,Miami,ACC,home,31,defensive,SACKS,Joe Jackson,1
+400876098,Miami,ACC,home,31,defensive,SACKS,Adrian Colbert,0
+400876098,Miami,ACC,home,31,defensive,SACKS,Jaquan Johnson,0
+400876098,Miami,ACC,home,31,defensive,SACKS,Courtel Jenkins,1
+400876098,Miami,ACC,home,31,defensive,SACKS,Trent Harris,0
+400876098,Miami,ACC,home,31,defensive,SACKS,Demetrius Jackson,0
+400876098,Miami,ACC,home,31,defensive,SACKS,Mark Walton,0
+400876098,Miami,ACC,home,31,defensive,SACKS,Kendrick Norton,0
+400876098,Miami,ACC,home,31,defensive,SACKS,Darrion Owens,0.5
+400876098,Miami,ACC,home,31,defensive,SACKS,Anthony Moten,0
+400876098,Miami,ACC,home,31,defensive,SACKS,Michael Jackson,0
+400876098,Miami,ACC,home,31,defensive,TFL,Corn Elder,0
+400876098,Miami,ACC,home,31,defensive,TFL,Jamal Carter,0
+400876098,Miami,ACC,home,31,defensive,TFL,Rayshawn Jenkins,1
+400876098,Miami,ACC,home,31,defensive,TFL,Zach McCloud,1
+400876098,Miami,ACC,home,31,defensive,TFL,Shaquille Quarterman,1
+400876098,Miami,ACC,home,31,defensive,TFL,RJ McIntosh,1
+400876098,Miami,ACC,home,31,defensive,TFL,Chad Thomas,0.5
+400876098,Miami,ACC,home,31,defensive,TFL,Michael Pinckney,1
+400876098,Miami,ACC,home,31,defensive,TFL,Joe Jackson,1
+400876098,Miami,ACC,home,31,defensive,TFL,Adrian Colbert,1
+400876098,Miami,ACC,home,31,defensive,TFL,Jaquan Johnson,0
+400876098,Miami,ACC,home,31,defensive,TFL,Courtel Jenkins,1
+400876098,Miami,ACC,home,31,defensive,TFL,Trent Harris,0
+400876098,Miami,ACC,home,31,defensive,TFL,Demetrius Jackson,0
+400876098,Miami,ACC,home,31,defensive,TFL,Mark Walton,0
+400876098,Miami,ACC,home,31,defensive,TFL,Kendrick Norton,0
+400876098,Miami,ACC,home,31,defensive,TFL,Darrion Owens,0.5
+400876098,Miami,ACC,home,31,defensive,TFL,Anthony Moten,0
+400876098,Miami,ACC,home,31,defensive,TFL,Michael Jackson,0
+400876098,Miami,ACC,home,31,defensive,PD,Corn Elder,0
+400876098,Miami,ACC,home,31,defensive,PD,Jamal Carter,0
+400876098,Miami,ACC,home,31,defensive,PD,Rayshawn Jenkins,0
+400876098,Miami,ACC,home,31,defensive,PD,Zach McCloud,1
+400876098,Miami,ACC,home,31,defensive,PD,Shaquille Quarterman,0
+400876098,Miami,ACC,home,31,defensive,PD,RJ McIntosh,0
+400876098,Miami,ACC,home,31,defensive,PD,Chad Thomas,1
+400876098,Miami,ACC,home,31,defensive,PD,Michael Pinckney,0
+400876098,Miami,ACC,home,31,defensive,PD,Joe Jackson,0
+400876098,Miami,ACC,home,31,defensive,PD,Adrian Colbert,0
+400876098,Miami,ACC,home,31,defensive,PD,Jaquan Johnson,0
+400876098,Miami,ACC,home,31,defensive,PD,Courtel Jenkins,0
+400876098,Miami,ACC,home,31,defensive,PD,Trent Harris,0
+400876098,Miami,ACC,home,31,defensive,PD,Demetrius Jackson,0
+400876098,Miami,ACC,home,31,defensive,PD,Mark Walton,0
+400876098,Miami,ACC,home,31,defensive,PD,Kendrick Norton,0
+400876098,Miami,ACC,home,31,defensive,PD,Darrion Owens,0
+400876098,Miami,ACC,home,31,defensive,PD,Anthony Moten,0
+400876098,Miami,ACC,home,31,defensive,PD,Michael Jackson,0
+400876098,Miami,ACC,home,31,defensive,QB HUR,Corn Elder,0
+400876098,Miami,ACC,home,31,defensive,QB HUR,Jamal Carter,0
+400876098,Miami,ACC,home,31,defensive,QB HUR,Rayshawn Jenkins,0
+400876098,Miami,ACC,home,31,defensive,QB HUR,Zach McCloud,0
+400876098,Miami,ACC,home,31,defensive,QB HUR,Shaquille Quarterman,0
+400876098,Miami,ACC,home,31,defensive,QB HUR,RJ McIntosh,0
+400876098,Miami,ACC,home,31,defensive,QB HUR,Chad Thomas,0
+400876098,Miami,ACC,home,31,defensive,QB HUR,Michael Pinckney,0
+400876098,Miami,ACC,home,31,defensive,QB HUR,Joe Jackson,0
+400876098,Miami,ACC,home,31,defensive,QB HUR,Adrian Colbert,0
+400876098,Miami,ACC,home,31,defensive,QB HUR,Jaquan Johnson,0
+400876098,Miami,ACC,home,31,defensive,QB HUR,Courtel Jenkins,0
+400876098,Miami,ACC,home,31,defensive,QB HUR,Trent Harris,1
+400876098,Miami,ACC,home,31,defensive,QB HUR,Demetrius Jackson,1
+400876098,Miami,ACC,home,31,defensive,QB HUR,Mark Walton,0
+400876098,Miami,ACC,home,31,defensive,QB HUR,Kendrick Norton,0
+400876098,Miami,ACC,home,31,defensive,QB HUR,Darrion Owens,0
+400876098,Miami,ACC,home,31,defensive,QB HUR,Anthony Moten,0
+400876098,Miami,ACC,home,31,defensive,QB HUR,Michael Jackson,0
+400876098,Miami,ACC,home,31,defensive,TD,Corn Elder,0
+400876098,Miami,ACC,home,31,defensive,TD,Jamal Carter,0
+400876098,Miami,ACC,home,31,defensive,TD,Rayshawn Jenkins,0
+400876098,Miami,ACC,home,31,defensive,TD,Zach McCloud,0
+400876098,Miami,ACC,home,31,defensive,TD,Shaquille Quarterman,0
+400876098,Miami,ACC,home,31,defensive,TD,RJ McIntosh,0
+400876098,Miami,ACC,home,31,defensive,TD,Chad Thomas,0
+400876098,Miami,ACC,home,31,defensive,TD,Michael Pinckney,0
+400876098,Miami,ACC,home,31,defensive,TD,Joe Jackson,0
+400876098,Miami,ACC,home,31,defensive,TD,Adrian Colbert,0
+400876098,Miami,ACC,home,31,defensive,TD,Jaquan Johnson,0
+400876098,Miami,ACC,home,31,defensive,TD,Courtel Jenkins,0
+400876098,Miami,ACC,home,31,defensive,TD,Trent Harris,0
+400876098,Miami,ACC,home,31,defensive,TD,Demetrius Jackson,0
+400876098,Miami,ACC,home,31,defensive,TD,Mark Walton,0
+400876098,Miami,ACC,home,31,defensive,TD,Kendrick Norton,0
+400876098,Miami,ACC,home,31,defensive,TD,Darrion Owens,0
+400876098,Miami,ACC,home,31,defensive,TD,Anthony Moten,0
+400876098,Miami,ACC,home,31,defensive,TD,Michael Jackson,0
+400876098,Miami,ACC,home,31,kickReturns,NO,Malcolm Lewis,1
+400876098,Miami,ACC,home,31,kickReturns,YDS,Malcolm Lewis,20
+400876098,Miami,ACC,home,31,kickReturns,AVG,Malcolm Lewis,20.0
+400876098,Miami,ACC,home,31,kickReturns,LONG,Malcolm Lewis,20
+400876098,Miami,ACC,home,31,kickReturns,TD,Malcolm Lewis,0
+400876098,Miami,ACC,home,31,puntReturns,NO,Braxton Berrios,3
+400876098,Miami,ACC,home,31,puntReturns,YDS,Braxton Berrios,11
+400876098,Miami,ACC,home,31,puntReturns,AVG,Braxton Berrios,3.7
+400876098,Miami,ACC,home,31,puntReturns,LONG,Braxton Berrios,11
+400876098,Miami,ACC,home,31,puntReturns,TD,Braxton Berrios,0
+400876098,Miami,ACC,home,31,kicking,FG,Michael Badgley,1/1
+400876098,Miami,ACC,home,31,kicking,PCT,Michael Badgley,100.0
+400876098,Miami,ACC,home,31,kicking,LONG,Michael Badgley,30
+400876098,Miami,ACC,home,31,kicking,XP,Michael Badgley,4/4
+400876098,Miami,ACC,home,31,kicking,PTS,Michael Badgley,7
+400876098,Miami,ACC,home,31,punting,NO,Justin Vogel,7
+400876098,Miami,ACC,home,31,punting,YDS,Justin Vogel,281
+400876098,Miami,ACC,home,31,punting,AVG,Justin Vogel,40.1
+400876098,Miami,ACC,home,31,punting,TB,Justin Vogel,0
+400876098,Miami,ACC,home,31,punting,In 20,Justin Vogel,0
+400876098,Miami,ACC,home,31,punting,LONG,Justin Vogel,48
+400876102,Colorado,Pac-12,home,8,passing,C/ATT,Sefo Liufau,18/29
+400876102,Colorado,Pac-12,home,8,passing,C/ATT,Steven Montez,4/9
+400876102,Colorado,Pac-12,home,8,passing,YDS,Sefo Liufau,195
+400876102,Colorado,Pac-12,home,8,passing,YDS,Steven Montez,61
+400876102,Colorado,Pac-12,home,8,passing,AVG,Sefo Liufau,6.7
+400876102,Colorado,Pac-12,home,8,passing,AVG,Steven Montez,6.8
+400876102,Colorado,Pac-12,home,8,passing,TD,Sefo Liufau,0
+400876102,Colorado,Pac-12,home,8,passing,TD,Steven Montez,0
+400876102,Colorado,Pac-12,home,8,passing,INT,Sefo Liufau,0
+400876102,Colorado,Pac-12,home,8,passing,INT,Steven Montez,1
+400876102,Colorado,Pac-12,home,8,passing,QBR,Sefo Liufau,27.0
+400876102,Colorado,Pac-12,home,8,passing,QBR,Steven Montez,7.9
+400876102,Colorado,Pac-12,home,8,rushing,CAR,Phillip Lindsay,14
+400876102,Colorado,Pac-12,home,8,rushing,CAR,Jay MacIntyre,1
+400876102,Colorado,Pac-12,home,8,rushing,CAR,Steven Montez,1
+400876102,Colorado,Pac-12,home,8,rushing,CAR,Sefo Liufau,13
+400876102,Colorado,Pac-12,home,8,rushing,YDS,Phillip Lindsay,63
+400876102,Colorado,Pac-12,home,8,rushing,YDS,Jay MacIntyre,1
+400876102,Colorado,Pac-12,home,8,rushing,YDS,Steven Montez,0
+400876102,Colorado,Pac-12,home,8,rushing,YDS,Sefo Liufau,-2
+400876102,Colorado,Pac-12,home,8,rushing,AVG,Phillip Lindsay,4.5
+400876102,Colorado,Pac-12,home,8,rushing,AVG,Jay MacIntyre,1.0
+400876102,Colorado,Pac-12,home,8,rushing,AVG,Steven Montez,0.0
+400876102,Colorado,Pac-12,home,8,rushing,AVG,Sefo Liufau,-0.2
+400876102,Colorado,Pac-12,home,8,rushing,TD,Phillip Lindsay,0
+400876102,Colorado,Pac-12,home,8,rushing,TD,Jay MacIntyre,0
+400876102,Colorado,Pac-12,home,8,rushing,TD,Steven Montez,0
+400876102,Colorado,Pac-12,home,8,rushing,TD,Sefo Liufau,1
+400876102,Colorado,Pac-12,home,8,rushing,LONG,Phillip Lindsay,16
+400876102,Colorado,Pac-12,home,8,rushing,LONG,Jay MacIntyre,1
+400876102,Colorado,Pac-12,home,8,rushing,LONG,Steven Montez,0
+400876102,Colorado,Pac-12,home,8,rushing,LONG,Sefo Liufau,6
+400876102,Colorado,Pac-12,home,8,receiving,REC,Phillip Lindsay,6
+400876102,Colorado,Pac-12,home,8,receiving,REC,Shay Fields,4
+400876102,Colorado,Pac-12,home,8,receiving,REC,Bryce Bobo,3
+400876102,Colorado,Pac-12,home,8,receiving,REC,Lee Walker,2
+400876102,Colorado,Pac-12,home,8,receiving,REC,Jay MacIntyre,2
+400876102,Colorado,Pac-12,home,8,receiving,REC,Devin Ross,3
+400876102,Colorado,Pac-12,home,8,receiving,REC,Sean Irwin,1
+400876102,Colorado,Pac-12,home,8,receiving,REC,Donovan Lee,1
+400876102,Colorado,Pac-12,home,8,receiving,YDS,Phillip Lindsay,103
+400876102,Colorado,Pac-12,home,8,receiving,YDS,Shay Fields,38
+400876102,Colorado,Pac-12,home,8,receiving,YDS,Bryce Bobo,25
+400876102,Colorado,Pac-12,home,8,receiving,YDS,Lee Walker,23
+400876102,Colorado,Pac-12,home,8,receiving,YDS,Jay MacIntyre,22
+400876102,Colorado,Pac-12,home,8,receiving,YDS,Devin Ross,22
+400876102,Colorado,Pac-12,home,8,receiving,YDS,Sean Irwin,15
+400876102,Colorado,Pac-12,home,8,receiving,YDS,Donovan Lee,8
+400876102,Colorado,Pac-12,home,8,receiving,AVG,Phillip Lindsay,17.2
+400876102,Colorado,Pac-12,home,8,receiving,AVG,Shay Fields,9.5
+400876102,Colorado,Pac-12,home,8,receiving,AVG,Bryce Bobo,8.3
+400876102,Colorado,Pac-12,home,8,receiving,AVG,Lee Walker,11.5
+400876102,Colorado,Pac-12,home,8,receiving,AVG,Jay MacIntyre,11.0
+400876102,Colorado,Pac-12,home,8,receiving,AVG,Devin Ross,7.3
+400876102,Colorado,Pac-12,home,8,receiving,AVG,Sean Irwin,15.0
+400876102,Colorado,Pac-12,home,8,receiving,AVG,Donovan Lee,8.0
+400876102,Colorado,Pac-12,home,8,receiving,TD,Phillip Lindsay,0
+400876102,Colorado,Pac-12,home,8,receiving,TD,Shay Fields,0
+400876102,Colorado,Pac-12,home,8,receiving,TD,Bryce Bobo,0
+400876102,Colorado,Pac-12,home,8,receiving,TD,Lee Walker,0
+400876102,Colorado,Pac-12,home,8,receiving,TD,Jay MacIntyre,0
+400876102,Colorado,Pac-12,home,8,receiving,TD,Devin Ross,0
+400876102,Colorado,Pac-12,home,8,receiving,TD,Sean Irwin,0
+400876102,Colorado,Pac-12,home,8,receiving,TD,Donovan Lee,0
+400876102,Colorado,Pac-12,home,8,receiving,LONG,Phillip Lindsay,42
+400876102,Colorado,Pac-12,home,8,receiving,LONG,Shay Fields,14
+400876102,Colorado,Pac-12,home,8,receiving,LONG,Bryce Bobo,12
+400876102,Colorado,Pac-12,home,8,receiving,LONG,Lee Walker,12
+400876102,Colorado,Pac-12,home,8,receiving,LONG,Jay MacIntyre,17
+400876102,Colorado,Pac-12,home,8,receiving,LONG,Devin Ross,13
+400876102,Colorado,Pac-12,home,8,receiving,LONG,Sean Irwin,15
+400876102,Colorado,Pac-12,home,8,receiving,LONG,Donovan Lee,8
+400876102,Colorado,Pac-12,home,8,fumbles,FUM,Phillip Lindsay,1
+400876102,Colorado,Pac-12,home,8,fumbles,FUM,Isaiah Oliver,1
+400876102,Colorado,Pac-12,home,8,fumbles,FUM,Anthony Julmisse,1
+400876102,Colorado,Pac-12,home,8,fumbles,LOST,Phillip Lindsay,0
+400876102,Colorado,Pac-12,home,8,fumbles,LOST,Isaiah Oliver,0
+400876102,Colorado,Pac-12,home,8,fumbles,LOST,Anthony Julmisse,0
+400876102,Colorado,Pac-12,home,8,fumbles,REC,Phillip Lindsay,0
+400876102,Colorado,Pac-12,home,8,fumbles,REC,Isaiah Oliver,0
+400876102,Colorado,Pac-12,home,8,fumbles,REC,Anthony Julmisse,0
+400876102,Colorado,Pac-12,home,8,defensive,TOT,Rick Gamboa,11
+400876102,Colorado,Pac-12,home,8,defensive,TOT,Kenneth Olugbode,10
+400876102,Colorado,Pac-12,home,8,defensive,TOT,Samson Kafovalu,9
+400876102,Colorado,Pac-12,home,8,defensive,TOT,Ryan Moeller,8
+400876102,Colorado,Pac-12,home,8,defensive,TOT,Isaiah Oliver,6
+400876102,Colorado,Pac-12,home,8,defensive,TOT,Jimmie Gilbert,5
+400876102,Colorado,Pac-12,home,8,defensive,TOT,Tedric Thompson,5
+400876102,Colorado,Pac-12,home,8,defensive,TOT,Chidobe Awuzie,4
+400876102,Colorado,Pac-12,home,8,defensive,TOT,Addison Gillam,3
+400876102,Colorado,Pac-12,home,8,defensive,TOT,Jordan Carrell,3
+400876102,Colorado,Pac-12,home,8,defensive,TOT,Afolabi Laguda,3
+400876102,Colorado,Pac-12,home,8,defensive,TOT,Jase Franke,2
+400876102,Colorado,Pac-12,home,8,defensive,TOT,Josh Tupou,2
+400876102,Colorado,Pac-12,home,8,defensive,TOT,Ahkello Witherspoon,1
+400876102,Colorado,Pac-12,home,8,defensive,TOT,Beau Bisharat,1
+400876102,Colorado,Pac-12,home,8,defensive,TOT,Timothy Coleman,1
+400876102,Colorado,Pac-12,home,8,defensive,TOT,Leo Jackson III,1
+400876102,Colorado,Pac-12,home,8,defensive,TOT,N.J. Falo,1
+400876102,Colorado,Pac-12,home,8,defensive,SOLO,Rick Gamboa,4
+400876102,Colorado,Pac-12,home,8,defensive,SOLO,Kenneth Olugbode,3
+400876102,Colorado,Pac-12,home,8,defensive,SOLO,Samson Kafovalu,4
+400876102,Colorado,Pac-12,home,8,defensive,SOLO,Ryan Moeller,4
+400876102,Colorado,Pac-12,home,8,defensive,SOLO,Isaiah Oliver,4
+400876102,Colorado,Pac-12,home,8,defensive,SOLO,Jimmie Gilbert,2
+400876102,Colorado,Pac-12,home,8,defensive,SOLO,Tedric Thompson,2
+400876102,Colorado,Pac-12,home,8,defensive,SOLO,Chidobe Awuzie,3
+400876102,Colorado,Pac-12,home,8,defensive,SOLO,Addison Gillam,2
+400876102,Colorado,Pac-12,home,8,defensive,SOLO,Jordan Carrell,1
+400876102,Colorado,Pac-12,home,8,defensive,SOLO,Afolabi Laguda,0
+400876102,Colorado,Pac-12,home,8,defensive,SOLO,Jase Franke,1
+400876102,Colorado,Pac-12,home,8,defensive,SOLO,Josh Tupou,0
+400876102,Colorado,Pac-12,home,8,defensive,SOLO,Ahkello Witherspoon,1
+400876102,Colorado,Pac-12,home,8,defensive,SOLO,Beau Bisharat,1
+400876102,Colorado,Pac-12,home,8,defensive,SOLO,Timothy Coleman,0
+400876102,Colorado,Pac-12,home,8,defensive,SOLO,Leo Jackson III,0
+400876102,Colorado,Pac-12,home,8,defensive,SOLO,N.J. Falo,0
+400876102,Colorado,Pac-12,home,8,defensive,SACKS,Rick Gamboa,0
+400876102,Colorado,Pac-12,home,8,defensive,SACKS,Kenneth Olugbode,0
+400876102,Colorado,Pac-12,home,8,defensive,SACKS,Samson Kafovalu,0
+400876102,Colorado,Pac-12,home,8,defensive,SACKS,Ryan Moeller,0
+400876102,Colorado,Pac-12,home,8,defensive,SACKS,Isaiah Oliver,0
+400876102,Colorado,Pac-12,home,8,defensive,SACKS,Jimmie Gilbert,0.5
+400876102,Colorado,Pac-12,home,8,defensive,SACKS,Tedric Thompson,0
+400876102,Colorado,Pac-12,home,8,defensive,SACKS,Chidobe Awuzie,0
+400876102,Colorado,Pac-12,home,8,defensive,SACKS,Addison Gillam,0
+400876102,Colorado,Pac-12,home,8,defensive,SACKS,Jordan Carrell,0
+400876102,Colorado,Pac-12,home,8,defensive,SACKS,Afolabi Laguda,0
+400876102,Colorado,Pac-12,home,8,defensive,SACKS,Jase Franke,0
+400876102,Colorado,Pac-12,home,8,defensive,SACKS,Josh Tupou,0
+400876102,Colorado,Pac-12,home,8,defensive,SACKS,Ahkello Witherspoon,0
+400876102,Colorado,Pac-12,home,8,defensive,SACKS,Beau Bisharat,0
+400876102,Colorado,Pac-12,home,8,defensive,SACKS,Timothy Coleman,0
+400876102,Colorado,Pac-12,home,8,defensive,SACKS,Leo Jackson III,0.5
+400876102,Colorado,Pac-12,home,8,defensive,SACKS,N.J. Falo,0
+400876102,Colorado,Pac-12,home,8,defensive,TFL,Rick Gamboa,0
+400876102,Colorado,Pac-12,home,8,defensive,TFL,Kenneth Olugbode,0
+400876102,Colorado,Pac-12,home,8,defensive,TFL,Samson Kafovalu,2
+400876102,Colorado,Pac-12,home,8,defensive,TFL,Ryan Moeller,0
+400876102,Colorado,Pac-12,home,8,defensive,TFL,Isaiah Oliver,0
+400876102,Colorado,Pac-12,home,8,defensive,TFL,Jimmie Gilbert,1.5
+400876102,Colorado,Pac-12,home,8,defensive,TFL,Tedric Thompson,0
+400876102,Colorado,Pac-12,home,8,defensive,TFL,Chidobe Awuzie,0
+400876102,Colorado,Pac-12,home,8,defensive,TFL,Addison Gillam,0
+400876102,Colorado,Pac-12,home,8,defensive,TFL,Jordan Carrell,0
+400876102,Colorado,Pac-12,home,8,defensive,TFL,Afolabi Laguda,0
+400876102,Colorado,Pac-12,home,8,defensive,TFL,Jase Franke,0
+400876102,Colorado,Pac-12,home,8,defensive,TFL,Josh Tupou,0
+400876102,Colorado,Pac-12,home,8,defensive,TFL,Ahkello Witherspoon,0
+400876102,Colorado,Pac-12,home,8,defensive,TFL,Beau Bisharat,0
+400876102,Colorado,Pac-12,home,8,defensive,TFL,Timothy Coleman,0
+400876102,Colorado,Pac-12,home,8,defensive,TFL,Leo Jackson III,0.5
+400876102,Colorado,Pac-12,home,8,defensive,TFL,N.J. Falo,0
+400876102,Colorado,Pac-12,home,8,defensive,PD,Rick Gamboa,0
+400876102,Colorado,Pac-12,home,8,defensive,PD,Kenneth Olugbode,0
+400876102,Colorado,Pac-12,home,8,defensive,PD,Samson Kafovalu,0
+400876102,Colorado,Pac-12,home,8,defensive,PD,Ryan Moeller,0
+400876102,Colorado,Pac-12,home,8,defensive,PD,Isaiah Oliver,1
+400876102,Colorado,Pac-12,home,8,defensive,PD,Jimmie Gilbert,0
+400876102,Colorado,Pac-12,home,8,defensive,PD,Tedric Thompson,1
+400876102,Colorado,Pac-12,home,8,defensive,PD,Chidobe Awuzie,1
+400876102,Colorado,Pac-12,home,8,defensive,PD,Addison Gillam,0
+400876102,Colorado,Pac-12,home,8,defensive,PD,Jordan Carrell,0
+400876102,Colorado,Pac-12,home,8,defensive,PD,Afolabi Laguda,0
+400876102,Colorado,Pac-12,home,8,defensive,PD,Jase Franke,0
+400876102,Colorado,Pac-12,home,8,defensive,PD,Josh Tupou,0
+400876102,Colorado,Pac-12,home,8,defensive,PD,Ahkello Witherspoon,1
+400876102,Colorado,Pac-12,home,8,defensive,PD,Beau Bisharat,0
+400876102,Colorado,Pac-12,home,8,defensive,PD,Timothy Coleman,0
+400876102,Colorado,Pac-12,home,8,defensive,PD,Leo Jackson III,0
+400876102,Colorado,Pac-12,home,8,defensive,PD,N.J. Falo,0
+400876102,Colorado,Pac-12,home,8,defensive,QB HUR,Rick Gamboa,0
+400876102,Colorado,Pac-12,home,8,defensive,QB HUR,Kenneth Olugbode,1
+400876102,Colorado,Pac-12,home,8,defensive,QB HUR,Samson Kafovalu,0
+400876102,Colorado,Pac-12,home,8,defensive,QB HUR,Ryan Moeller,0
+400876102,Colorado,Pac-12,home,8,defensive,QB HUR,Isaiah Oliver,0
+400876102,Colorado,Pac-12,home,8,defensive,QB HUR,Jimmie Gilbert,1
+400876102,Colorado,Pac-12,home,8,defensive,QB HUR,Tedric Thompson,0
+400876102,Colorado,Pac-12,home,8,defensive,QB HUR,Chidobe Awuzie,0
+400876102,Colorado,Pac-12,home,8,defensive,QB HUR,Addison Gillam,0
+400876102,Colorado,Pac-12,home,8,defensive,QB HUR,Jordan Carrell,0
+400876102,Colorado,Pac-12,home,8,defensive,QB HUR,Afolabi Laguda,0
+400876102,Colorado,Pac-12,home,8,defensive,QB HUR,Jase Franke,0
+400876102,Colorado,Pac-12,home,8,defensive,QB HUR,Josh Tupou,0
+400876102,Colorado,Pac-12,home,8,defensive,QB HUR,Ahkello Witherspoon,0
+400876102,Colorado,Pac-12,home,8,defensive,QB HUR,Beau Bisharat,0
+400876102,Colorado,Pac-12,home,8,defensive,QB HUR,Timothy Coleman,0
+400876102,Colorado,Pac-12,home,8,defensive,QB HUR,Leo Jackson III,0
+400876102,Colorado,Pac-12,home,8,defensive,QB HUR,N.J. Falo,0
+400876102,Colorado,Pac-12,home,8,defensive,TD,Rick Gamboa,0
+400876102,Colorado,Pac-12,home,8,defensive,TD,Kenneth Olugbode,0
+400876102,Colorado,Pac-12,home,8,defensive,TD,Samson Kafovalu,0
+400876102,Colorado,Pac-12,home,8,defensive,TD,Ryan Moeller,0
+400876102,Colorado,Pac-12,home,8,defensive,TD,Isaiah Oliver,0
+400876102,Colorado,Pac-12,home,8,defensive,TD,Jimmie Gilbert,0
+400876102,Colorado,Pac-12,home,8,defensive,TD,Tedric Thompson,0
+400876102,Colorado,Pac-12,home,8,defensive,TD,Chidobe Awuzie,0
+400876102,Colorado,Pac-12,home,8,defensive,TD,Addison Gillam,0
+400876102,Colorado,Pac-12,home,8,defensive,TD,Jordan Carrell,0
+400876102,Colorado,Pac-12,home,8,defensive,TD,Afolabi Laguda,0
+400876102,Colorado,Pac-12,home,8,defensive,TD,Jase Franke,0
+400876102,Colorado,Pac-12,home,8,defensive,TD,Josh Tupou,0
+400876102,Colorado,Pac-12,home,8,defensive,TD,Ahkello Witherspoon,0
+400876102,Colorado,Pac-12,home,8,defensive,TD,Beau Bisharat,0
+400876102,Colorado,Pac-12,home,8,defensive,TD,Timothy Coleman,0
+400876102,Colorado,Pac-12,home,8,defensive,TD,Leo Jackson III,0
+400876102,Colorado,Pac-12,home,8,defensive,TD,N.J. Falo,0
+400876102,Colorado,Pac-12,home,8,kickReturns,NO,Kyle Evans,2
+400876102,Colorado,Pac-12,home,8,kickReturns,NO,Anthony Julmisse,2
+400876102,Colorado,Pac-12,home,8,kickReturns,YDS,Kyle Evans,44
+400876102,Colorado,Pac-12,home,8,kickReturns,YDS,Anthony Julmisse,20
+400876102,Colorado,Pac-12,home,8,kickReturns,AVG,Kyle Evans,22.0
+400876102,Colorado,Pac-12,home,8,kickReturns,AVG,Anthony Julmisse,10.0
+400876102,Colorado,Pac-12,home,8,kickReturns,LONG,Kyle Evans,28
+400876102,Colorado,Pac-12,home,8,kickReturns,LONG,Anthony Julmisse,16
+400876102,Colorado,Pac-12,home,8,kickReturns,TD,Kyle Evans,0
+400876102,Colorado,Pac-12,home,8,kickReturns,TD,Anthony Julmisse,0
+400876102,Colorado,Pac-12,home,8,puntReturns,NO,Isaiah Oliver,1
+400876102,Colorado,Pac-12,home,8,puntReturns,YDS,Isaiah Oliver,-6
+400876102,Colorado,Pac-12,home,8,puntReturns,AVG,Isaiah Oliver,-6.0
+400876102,Colorado,Pac-12,home,8,puntReturns,LONG,Isaiah Oliver,-6
+400876102,Colorado,Pac-12,home,8,puntReturns,TD,Isaiah Oliver,0
+400876102,Colorado,Pac-12,home,8,kicking,FG,Chris Graham,0/1
+400876102,Colorado,Pac-12,home,8,kicking,PCT,Chris Graham,0.0
+400876102,Colorado,Pac-12,home,8,kicking,LONG,Chris Graham,0
+400876102,Colorado,Pac-12,home,8,kicking,XP,Chris Graham,0/0
+400876102,Colorado,Pac-12,home,8,kicking,PTS,Chris Graham,0
+400876102,Colorado,Pac-12,home,8,punting,NO,Alex Kinney,6
+400876102,Colorado,Pac-12,home,8,punting,YDS,Alex Kinney,248
+400876102,Colorado,Pac-12,home,8,punting,AVG,Alex Kinney,41.3
+400876102,Colorado,Pac-12,home,8,punting,TB,Alex Kinney,0
+400876102,Colorado,Pac-12,home,8,punting,In 20,Alex Kinney,0
+400876102,Colorado,Pac-12,home,8,punting,LONG,Alex Kinney,52
+400876102,Oklahoma State,Big 12,away,38,passing,C/ATT,Mason Rudolph,22/32
+400876102,Oklahoma State,Big 12,away,38,passing,C/ATT,Chris Carson,1/1
+400876102,Oklahoma State,Big 12,away,38,passing,YDS,Mason Rudolph,314
+400876102,Oklahoma State,Big 12,away,38,passing,YDS,Chris Carson,24
+400876102,Oklahoma State,Big 12,away,38,passing,AVG,Mason Rudolph,9.8
+400876102,Oklahoma State,Big 12,away,38,passing,AVG,Chris Carson,24.0
+400876102,Oklahoma State,Big 12,away,38,passing,TD,Mason Rudolph,3
+400876102,Oklahoma State,Big 12,away,38,passing,TD,Chris Carson,0
+400876102,Oklahoma State,Big 12,away,38,passing,INT,Mason Rudolph,0
+400876102,Oklahoma State,Big 12,away,38,passing,INT,Chris Carson,0
+400876102,Oklahoma State,Big 12,away,38,passing,QBR,Mason Rudolph,87.8
+400876102,Oklahoma State,Big 12,away,38,passing,QBR,Chris Carson,98.1
+400876102,Oklahoma State,Big 12,away,38,rushing,CAR,Justice Hill,19
+400876102,Oklahoma State,Big 12,away,38,rushing,CAR,Chris Carson,11
+400876102,Oklahoma State,Big 12,away,38,rushing,CAR,Barry Sanders,2
+400876102,Oklahoma State,Big 12,away,38,rushing,CAR,Rennie Childs,4
+400876102,Oklahoma State,Big 12,away,38,rushing,CAR,Mason Rudolph,4
+400876102,Oklahoma State,Big 12,away,38,rushing,CAR,Jhajuan Seales,1
+400876102,Oklahoma State,Big 12,away,38,rushing,YDS,Justice Hill,100
+400876102,Oklahoma State,Big 12,away,38,rushing,YDS,Chris Carson,61
+400876102,Oklahoma State,Big 12,away,38,rushing,YDS,Barry Sanders,11
+400876102,Oklahoma State,Big 12,away,38,rushing,YDS,Rennie Childs,7
+400876102,Oklahoma State,Big 12,away,38,rushing,YDS,Mason Rudolph,7
+400876102,Oklahoma State,Big 12,away,38,rushing,YDS,Jhajuan Seales,3
+400876102,Oklahoma State,Big 12,away,38,rushing,AVG,Justice Hill,5.3
+400876102,Oklahoma State,Big 12,away,38,rushing,AVG,Chris Carson,5.5
+400876102,Oklahoma State,Big 12,away,38,rushing,AVG,Barry Sanders,5.5
+400876102,Oklahoma State,Big 12,away,38,rushing,AVG,Rennie Childs,1.8
+400876102,Oklahoma State,Big 12,away,38,rushing,AVG,Mason Rudolph,1.8
+400876102,Oklahoma State,Big 12,away,38,rushing,AVG,Jhajuan Seales,3.0
+400876102,Oklahoma State,Big 12,away,38,rushing,TD,Justice Hill,1
+400876102,Oklahoma State,Big 12,away,38,rushing,TD,Chris Carson,1
+400876102,Oklahoma State,Big 12,away,38,rushing,TD,Barry Sanders,0
+400876102,Oklahoma State,Big 12,away,38,rushing,TD,Rennie Childs,0
+400876102,Oklahoma State,Big 12,away,38,rushing,TD,Mason Rudolph,0
+400876102,Oklahoma State,Big 12,away,38,rushing,TD,Jhajuan Seales,0
+400876102,Oklahoma State,Big 12,away,38,rushing,LONG,Justice Hill,37
+400876102,Oklahoma State,Big 12,away,38,rushing,LONG,Chris Carson,15
+400876102,Oklahoma State,Big 12,away,38,rushing,LONG,Barry Sanders,9
+400876102,Oklahoma State,Big 12,away,38,rushing,LONG,Rennie Childs,5
+400876102,Oklahoma State,Big 12,away,38,rushing,LONG,Mason Rudolph,4
+400876102,Oklahoma State,Big 12,away,38,rushing,LONG,Jhajuan Seales,3
+400876102,Oklahoma State,Big 12,away,38,receiving,REC,James Washington,9
+400876102,Oklahoma State,Big 12,away,38,receiving,REC,Jalen McCleskey,4
+400876102,Oklahoma State,Big 12,away,38,receiving,REC,Jhajuan Seales,3
+400876102,Oklahoma State,Big 12,away,38,receiving,REC,Mason Rudolph,1
+400876102,Oklahoma State,Big 12,away,38,receiving,REC,Blake Jarwin,2
+400876102,Oklahoma State,Big 12,away,38,receiving,REC,Austin Hays,3
+400876102,Oklahoma State,Big 12,away,38,receiving,REC,Chris Lacy,1
+400876102,Oklahoma State,Big 12,away,38,receiving,YDS,James Washington,171
+400876102,Oklahoma State,Big 12,away,38,receiving,YDS,Jalen McCleskey,50
+400876102,Oklahoma State,Big 12,away,38,receiving,YDS,Jhajuan Seales,43
+400876102,Oklahoma State,Big 12,away,38,receiving,YDS,Mason Rudolph,24
+400876102,Oklahoma State,Big 12,away,38,receiving,YDS,Blake Jarwin,20
+400876102,Oklahoma State,Big 12,away,38,receiving,YDS,Austin Hays,19
+400876102,Oklahoma State,Big 12,away,38,receiving,YDS,Chris Lacy,11
+400876102,Oklahoma State,Big 12,away,38,receiving,AVG,James Washington,19.0
+400876102,Oklahoma State,Big 12,away,38,receiving,AVG,Jalen McCleskey,12.5
+400876102,Oklahoma State,Big 12,away,38,receiving,AVG,Jhajuan Seales,14.3
+400876102,Oklahoma State,Big 12,away,38,receiving,AVG,Mason Rudolph,24.0
+400876102,Oklahoma State,Big 12,away,38,receiving,AVG,Blake Jarwin,10.0
+400876102,Oklahoma State,Big 12,away,38,receiving,AVG,Austin Hays,6.3
+400876102,Oklahoma State,Big 12,away,38,receiving,AVG,Chris Lacy,11.0
+400876102,Oklahoma State,Big 12,away,38,receiving,TD,James Washington,1
+400876102,Oklahoma State,Big 12,away,38,receiving,TD,Jalen McCleskey,0
+400876102,Oklahoma State,Big 12,away,38,receiving,TD,Jhajuan Seales,1
+400876102,Oklahoma State,Big 12,away,38,receiving,TD,Mason Rudolph,0
+400876102,Oklahoma State,Big 12,away,38,receiving,TD,Blake Jarwin,1
+400876102,Oklahoma State,Big 12,away,38,receiving,TD,Austin Hays,0
+400876102,Oklahoma State,Big 12,away,38,receiving,TD,Chris Lacy,0
+400876102,Oklahoma State,Big 12,away,38,receiving,LONG,James Washington,46
+400876102,Oklahoma State,Big 12,away,38,receiving,LONG,Jalen McCleskey,18
+400876102,Oklahoma State,Big 12,away,38,receiving,LONG,Jhajuan Seales,23
+400876102,Oklahoma State,Big 12,away,38,receiving,LONG,Mason Rudolph,24
+400876102,Oklahoma State,Big 12,away,38,receiving,LONG,Blake Jarwin,14
+400876102,Oklahoma State,Big 12,away,38,receiving,LONG,Austin Hays,13
+400876102,Oklahoma State,Big 12,away,38,receiving,LONG,Chris Lacy,11
+400876102,Oklahoma State,Big 12,away,38,defensive,TOT,Vincent Taylor,7
+400876102,Oklahoma State,Big 12,away,38,defensive,TOT,Devante Averette,6
+400876102,Oklahoma State,Big 12,away,38,defensive,TOT,Tre Flowers,5
+400876102,Oklahoma State,Big 12,away,38,defensive,TOT,Jordan Sterns,5
+400876102,Oklahoma State,Big 12,away,38,defensive,TOT,Jarrell Owens,4
+400876102,Oklahoma State,Big 12,away,38,defensive,TOT,Kenneth Edison-McGruder,4
+400876102,Oklahoma State,Big 12,away,38,defensive,TOT,Lenzy Pipkins,4
+400876102,Oklahoma State,Big 12,away,38,defensive,TOT,Ramon Richards,4
+400876102,Oklahoma State,Big 12,away,38,defensive,TOT,Madre Harper,3
+400876102,Oklahoma State,Big 12,away,38,defensive,TOT,Justin Phillips,3
+400876102,Oklahoma State,Big 12,away,38,defensive,TOT,Chad Whitener,3
+400876102,Oklahoma State,Big 12,away,38,defensive,TOT,Trey Carter,2
+400876102,Oklahoma State,Big 12,away,38,defensive,TOT,Motekiai Maile,2
+400876102,Oklahoma State,Big 12,away,38,defensive,TOT,A.J. Green,2
+400876102,Oklahoma State,Big 12,away,38,defensive,TOT,DeQuinton Osborne,2
+400876102,Oklahoma State,Big 12,away,38,defensive,TOT,Jordan Burton,2
+400876102,Oklahoma State,Big 12,away,38,defensive,TOT,Derrick Moncrief,2
+400876102,Oklahoma State,Big 12,away,38,defensive,TOT,Tralund Webber,1
+400876102,Oklahoma State,Big 12,away,38,defensive,TOT,Ashton Lampkin,1
+400876102,Oklahoma State,Big 12,away,38,defensive,TOT,Cole Walterscheid,1
+400876102,Oklahoma State,Big 12,away,38,defensive,TOT,Kevin Henry,1
+400876102,Oklahoma State,Big 12,away,38,defensive,TOT,Gyasi Akem,1
+400876102,Oklahoma State,Big 12,away,38,defensive,TOT,James Washington,1
+400876102,Oklahoma State,Big 12,away,38,defensive,TOT,Darrion Daniels,1
+400876102,Oklahoma State,Big 12,away,38,defensive,TOT,Taaj Bakari,1
+400876102,Oklahoma State,Big 12,away,38,defensive,SOLO,Vincent Taylor,1
+400876102,Oklahoma State,Big 12,away,38,defensive,SOLO,Devante Averette,2
+400876102,Oklahoma State,Big 12,away,38,defensive,SOLO,Tre Flowers,4
+400876102,Oklahoma State,Big 12,away,38,defensive,SOLO,Jordan Sterns,1
+400876102,Oklahoma State,Big 12,away,38,defensive,SOLO,Jarrell Owens,3
+400876102,Oklahoma State,Big 12,away,38,defensive,SOLO,Kenneth Edison-McGruder,3
+400876102,Oklahoma State,Big 12,away,38,defensive,SOLO,Lenzy Pipkins,2
+400876102,Oklahoma State,Big 12,away,38,defensive,SOLO,Ramon Richards,2
+400876102,Oklahoma State,Big 12,away,38,defensive,SOLO,Madre Harper,3
+400876102,Oklahoma State,Big 12,away,38,defensive,SOLO,Justin Phillips,2
+400876102,Oklahoma State,Big 12,away,38,defensive,SOLO,Chad Whitener,1
+400876102,Oklahoma State,Big 12,away,38,defensive,SOLO,Trey Carter,1
+400876102,Oklahoma State,Big 12,away,38,defensive,SOLO,Motekiai Maile,1
+400876102,Oklahoma State,Big 12,away,38,defensive,SOLO,A.J. Green,1
+400876102,Oklahoma State,Big 12,away,38,defensive,SOLO,DeQuinton Osborne,1
+400876102,Oklahoma State,Big 12,away,38,defensive,SOLO,Jordan Burton,0
+400876102,Oklahoma State,Big 12,away,38,defensive,SOLO,Derrick Moncrief,0
+400876102,Oklahoma State,Big 12,away,38,defensive,SOLO,Tralund Webber,1
+400876102,Oklahoma State,Big 12,away,38,defensive,SOLO,Ashton Lampkin,1
+400876102,Oklahoma State,Big 12,away,38,defensive,SOLO,Cole Walterscheid,1
+400876102,Oklahoma State,Big 12,away,38,defensive,SOLO,Kevin Henry,1
+400876102,Oklahoma State,Big 12,away,38,defensive,SOLO,Gyasi Akem,0
+400876102,Oklahoma State,Big 12,away,38,defensive,SOLO,James Washington,0
+400876102,Oklahoma State,Big 12,away,38,defensive,SOLO,Darrion Daniels,0
+400876102,Oklahoma State,Big 12,away,38,defensive,SOLO,Taaj Bakari,0
+400876102,Oklahoma State,Big 12,away,38,defensive,SACKS,Vincent Taylor,1
+400876102,Oklahoma State,Big 12,away,38,defensive,SACKS,Devante Averette,0
+400876102,Oklahoma State,Big 12,away,38,defensive,SACKS,Tre Flowers,0
+400876102,Oklahoma State,Big 12,away,38,defensive,SACKS,Jordan Sterns,0
+400876102,Oklahoma State,Big 12,away,38,defensive,SACKS,Jarrell Owens,0
+400876102,Oklahoma State,Big 12,away,38,defensive,SACKS,Kenneth Edison-McGruder,0
+400876102,Oklahoma State,Big 12,away,38,defensive,SACKS,Lenzy Pipkins,0
+400876102,Oklahoma State,Big 12,away,38,defensive,SACKS,Ramon Richards,0
+400876102,Oklahoma State,Big 12,away,38,defensive,SACKS,Madre Harper,0
+400876102,Oklahoma State,Big 12,away,38,defensive,SACKS,Justin Phillips,0
+400876102,Oklahoma State,Big 12,away,38,defensive,SACKS,Chad Whitener,0
+400876102,Oklahoma State,Big 12,away,38,defensive,SACKS,Trey Carter,1
+400876102,Oklahoma State,Big 12,away,38,defensive,SACKS,Motekiai Maile,0
+400876102,Oklahoma State,Big 12,away,38,defensive,SACKS,A.J. Green,0
+400876102,Oklahoma State,Big 12,away,38,defensive,SACKS,DeQuinton Osborne,0
+400876102,Oklahoma State,Big 12,away,38,defensive,SACKS,Jordan Burton,0
+400876102,Oklahoma State,Big 12,away,38,defensive,SACKS,Derrick Moncrief,0
+400876102,Oklahoma State,Big 12,away,38,defensive,SACKS,Tralund Webber,1
+400876102,Oklahoma State,Big 12,away,38,defensive,SACKS,Ashton Lampkin,0
+400876102,Oklahoma State,Big 12,away,38,defensive,SACKS,Cole Walterscheid,0
+400876102,Oklahoma State,Big 12,away,38,defensive,SACKS,Kevin Henry,0
+400876102,Oklahoma State,Big 12,away,38,defensive,SACKS,Gyasi Akem,0
+400876102,Oklahoma State,Big 12,away,38,defensive,SACKS,James Washington,0
+400876102,Oklahoma State,Big 12,away,38,defensive,SACKS,Darrion Daniels,0
+400876102,Oklahoma State,Big 12,away,38,defensive,SACKS,Taaj Bakari,0
+400876102,Oklahoma State,Big 12,away,38,defensive,TFL,Vincent Taylor,1
+400876102,Oklahoma State,Big 12,away,38,defensive,TFL,Devante Averette,1
+400876102,Oklahoma State,Big 12,away,38,defensive,TFL,Tre Flowers,0
+400876102,Oklahoma State,Big 12,away,38,defensive,TFL,Jordan Sterns,0.5
+400876102,Oklahoma State,Big 12,away,38,defensive,TFL,Jarrell Owens,1
+400876102,Oklahoma State,Big 12,away,38,defensive,TFL,Kenneth Edison-McGruder,0
+400876102,Oklahoma State,Big 12,away,38,defensive,TFL,Lenzy Pipkins,0
+400876102,Oklahoma State,Big 12,away,38,defensive,TFL,Ramon Richards,0.5
+400876102,Oklahoma State,Big 12,away,38,defensive,TFL,Madre Harper,0
+400876102,Oklahoma State,Big 12,away,38,defensive,TFL,Justin Phillips,0
+400876102,Oklahoma State,Big 12,away,38,defensive,TFL,Chad Whitener,1.5
+400876102,Oklahoma State,Big 12,away,38,defensive,TFL,Trey Carter,1.5
+400876102,Oklahoma State,Big 12,away,38,defensive,TFL,Motekiai Maile,0
+400876102,Oklahoma State,Big 12,away,38,defensive,TFL,A.J. Green,0
+400876102,Oklahoma State,Big 12,away,38,defensive,TFL,DeQuinton Osborne,0
+400876102,Oklahoma State,Big 12,away,38,defensive,TFL,Jordan Burton,0
+400876102,Oklahoma State,Big 12,away,38,defensive,TFL,Derrick Moncrief,0
+400876102,Oklahoma State,Big 12,away,38,defensive,TFL,Tralund Webber,1
+400876102,Oklahoma State,Big 12,away,38,defensive,TFL,Ashton Lampkin,0
+400876102,Oklahoma State,Big 12,away,38,defensive,TFL,Cole Walterscheid,0
+400876102,Oklahoma State,Big 12,away,38,defensive,TFL,Kevin Henry,0
+400876102,Oklahoma State,Big 12,away,38,defensive,TFL,Gyasi Akem,0
+400876102,Oklahoma State,Big 12,away,38,defensive,TFL,James Washington,0.5
+400876102,Oklahoma State,Big 12,away,38,defensive,TFL,Darrion Daniels,0
+400876102,Oklahoma State,Big 12,away,38,defensive,TFL,Taaj Bakari,0.5
+400876102,Oklahoma State,Big 12,away,38,defensive,PD,Vincent Taylor,0
+400876102,Oklahoma State,Big 12,away,38,defensive,PD,Devante Averette,0
+400876102,Oklahoma State,Big 12,away,38,defensive,PD,Tre Flowers,1
+400876102,Oklahoma State,Big 12,away,38,defensive,PD,Jordan Sterns,0
+400876102,Oklahoma State,Big 12,away,38,defensive,PD,Jarrell Owens,0
+400876102,Oklahoma State,Big 12,away,38,defensive,PD,Kenneth Edison-McGruder,0
+400876102,Oklahoma State,Big 12,away,38,defensive,PD,Lenzy Pipkins,1
+400876102,Oklahoma State,Big 12,away,38,defensive,PD,Ramon Richards,1
+400876102,Oklahoma State,Big 12,away,38,defensive,PD,Madre Harper,0
+400876102,Oklahoma State,Big 12,away,38,defensive,PD,Justin Phillips,0
+400876102,Oklahoma State,Big 12,away,38,defensive,PD,Chad Whitener,0
+400876102,Oklahoma State,Big 12,away,38,defensive,PD,Trey Carter,0
+400876102,Oklahoma State,Big 12,away,38,defensive,PD,Motekiai Maile,0
+400876102,Oklahoma State,Big 12,away,38,defensive,PD,A.J. Green,0
+400876102,Oklahoma State,Big 12,away,38,defensive,PD,DeQuinton Osborne,0
+400876102,Oklahoma State,Big 12,away,38,defensive,PD,Jordan Burton,0
+400876102,Oklahoma State,Big 12,away,38,defensive,PD,Derrick Moncrief,0
+400876102,Oklahoma State,Big 12,away,38,defensive,PD,Tralund Webber,0
+400876102,Oklahoma State,Big 12,away,38,defensive,PD,Ashton Lampkin,0
+400876102,Oklahoma State,Big 12,away,38,defensive,PD,Cole Walterscheid,0
+400876102,Oklahoma State,Big 12,away,38,defensive,PD,Kevin Henry,0
+400876102,Oklahoma State,Big 12,away,38,defensive,PD,Gyasi Akem,0
+400876102,Oklahoma State,Big 12,away,38,defensive,PD,James Washington,0
+400876102,Oklahoma State,Big 12,away,38,defensive,PD,Darrion Daniels,0
+400876102,Oklahoma State,Big 12,away,38,defensive,PD,Taaj Bakari,0
+400876102,Oklahoma State,Big 12,away,38,defensive,QB HUR,Vincent Taylor,0
+400876102,Oklahoma State,Big 12,away,38,defensive,QB HUR,Devante Averette,1
+400876102,Oklahoma State,Big 12,away,38,defensive,QB HUR,Tre Flowers,0
+400876102,Oklahoma State,Big 12,away,38,defensive,QB HUR,Jordan Sterns,0
+400876102,Oklahoma State,Big 12,away,38,defensive,QB HUR,Jarrell Owens,2
+400876102,Oklahoma State,Big 12,away,38,defensive,QB HUR,Kenneth Edison-McGruder,0
+400876102,Oklahoma State,Big 12,away,38,defensive,QB HUR,Lenzy Pipkins,0
+400876102,Oklahoma State,Big 12,away,38,defensive,QB HUR,Ramon Richards,0
+400876102,Oklahoma State,Big 12,away,38,defensive,QB HUR,Madre Harper,0
+400876102,Oklahoma State,Big 12,away,38,defensive,QB HUR,Justin Phillips,0
+400876102,Oklahoma State,Big 12,away,38,defensive,QB HUR,Chad Whitener,0
+400876102,Oklahoma State,Big 12,away,38,defensive,QB HUR,Trey Carter,0
+400876102,Oklahoma State,Big 12,away,38,defensive,QB HUR,Motekiai Maile,0
+400876102,Oklahoma State,Big 12,away,38,defensive,QB HUR,A.J. Green,0
+400876102,Oklahoma State,Big 12,away,38,defensive,QB HUR,DeQuinton Osborne,1
+400876102,Oklahoma State,Big 12,away,38,defensive,QB HUR,Jordan Burton,0
+400876102,Oklahoma State,Big 12,away,38,defensive,QB HUR,Derrick Moncrief,0
+400876102,Oklahoma State,Big 12,away,38,defensive,QB HUR,Tralund Webber,0
+400876102,Oklahoma State,Big 12,away,38,defensive,QB HUR,Ashton Lampkin,0
+400876102,Oklahoma State,Big 12,away,38,defensive,QB HUR,Cole Walterscheid,2
+400876102,Oklahoma State,Big 12,away,38,defensive,QB HUR,Kevin Henry,0
+400876102,Oklahoma State,Big 12,away,38,defensive,QB HUR,Gyasi Akem,0
+400876102,Oklahoma State,Big 12,away,38,defensive,QB HUR,James Washington,0
+400876102,Oklahoma State,Big 12,away,38,defensive,QB HUR,Darrion Daniels,0
+400876102,Oklahoma State,Big 12,away,38,defensive,QB HUR,Taaj Bakari,0
+400876102,Oklahoma State,Big 12,away,38,defensive,TD,Vincent Taylor,0
+400876102,Oklahoma State,Big 12,away,38,defensive,TD,Devante Averette,0
+400876102,Oklahoma State,Big 12,away,38,defensive,TD,Tre Flowers,0
+400876102,Oklahoma State,Big 12,away,38,defensive,TD,Jordan Sterns,0
+400876102,Oklahoma State,Big 12,away,38,defensive,TD,Jarrell Owens,0
+400876102,Oklahoma State,Big 12,away,38,defensive,TD,Kenneth Edison-McGruder,0
+400876102,Oklahoma State,Big 12,away,38,defensive,TD,Lenzy Pipkins,0
+400876102,Oklahoma State,Big 12,away,38,defensive,TD,Ramon Richards,0
+400876102,Oklahoma State,Big 12,away,38,defensive,TD,Madre Harper,0
+400876102,Oklahoma State,Big 12,away,38,defensive,TD,Justin Phillips,0
+400876102,Oklahoma State,Big 12,away,38,defensive,TD,Chad Whitener,0
+400876102,Oklahoma State,Big 12,away,38,defensive,TD,Trey Carter,0
+400876102,Oklahoma State,Big 12,away,38,defensive,TD,Motekiai Maile,0
+400876102,Oklahoma State,Big 12,away,38,defensive,TD,A.J. Green,0
+400876102,Oklahoma State,Big 12,away,38,defensive,TD,DeQuinton Osborne,0
+400876102,Oklahoma State,Big 12,away,38,defensive,TD,Jordan Burton,0
+400876102,Oklahoma State,Big 12,away,38,defensive,TD,Derrick Moncrief,0
+400876102,Oklahoma State,Big 12,away,38,defensive,TD,Tralund Webber,0
+400876102,Oklahoma State,Big 12,away,38,defensive,TD,Ashton Lampkin,0
+400876102,Oklahoma State,Big 12,away,38,defensive,TD,Cole Walterscheid,0
+400876102,Oklahoma State,Big 12,away,38,defensive,TD,Kevin Henry,0
+400876102,Oklahoma State,Big 12,away,38,defensive,TD,Gyasi Akem,0
+400876102,Oklahoma State,Big 12,away,38,defensive,TD,James Washington,0
+400876102,Oklahoma State,Big 12,away,38,defensive,TD,Darrion Daniels,0
+400876102,Oklahoma State,Big 12,away,38,defensive,TD,Taaj Bakari,0
+400876102,Oklahoma State,Big 12,away,38,interceptions,INT,Ashton Lampkin,1
+400876102,Oklahoma State,Big 12,away,38,interceptions,YDS,Ashton Lampkin,1
+400876102,Oklahoma State,Big 12,away,38,interceptions,TD,Ashton Lampkin,0
+400876102,Oklahoma State,Big 12,away,38,kickReturns,NO,Jhajuan Seales,1
+400876102,Oklahoma State,Big 12,away,38,kickReturns,YDS,Jhajuan Seales,6
+400876102,Oklahoma State,Big 12,away,38,kickReturns,AVG,Jhajuan Seales,6.0
+400876102,Oklahoma State,Big 12,away,38,kickReturns,LONG,Jhajuan Seales,6
+400876102,Oklahoma State,Big 12,away,38,kickReturns,TD,Jhajuan Seales,0
+400876102,Oklahoma State,Big 12,away,38,kicking,FG,Ben Grogan,1/2
+400876102,Oklahoma State,Big 12,away,38,kicking,PCT,Ben Grogan,50.0
+400876102,Oklahoma State,Big 12,away,38,kicking,LONG,Ben Grogan,28
+400876102,Oklahoma State,Big 12,away,38,kicking,XP,Ben Grogan,5/5
+400876102,Oklahoma State,Big 12,away,38,kicking,PTS,Ben Grogan,8
+400876102,Oklahoma State,Big 12,away,38,punting,NO,Zach Sinor,4
+400876102,Oklahoma State,Big 12,away,38,punting,YDS,Zach Sinor,191
+400876102,Oklahoma State,Big 12,away,38,punting,AVG,Zach Sinor,47.8
+400876102,Oklahoma State,Big 12,away,38,punting,TB,Zach Sinor,0
+400876102,Oklahoma State,Big 12,away,38,punting,In 20,Zach Sinor,0
+400876102,Oklahoma State,Big 12,away,38,punting,LONG,Zach Sinor,54
+400876099,Texas A&M,SEC,away,28,rushing,TD,Trayveon Williams,0
+400876099,Texas A&M,SEC,away,28,rushing,TD,Trevor Knight,0
+400876099,Texas A&M,SEC,away,28,rushing,TD,Keith Ford,1
+400876099,Texas A&M,SEC,away,28,rushing,TD,Christian Kirk,0
+400876099,Texas A&M,SEC,away,28,rushing,CAR,Keith Ford,10
+400876099,Texas A&M,SEC,away,28,rushing,CAR,Trayveon Williams,9
+400876099,Texas A&M,SEC,away,28,rushing,CAR,Trevor Knight,8
+400876099,Texas A&M,SEC,away,28,rushing,CAR,Christian Kirk,1
+400876099,Texas A&M,SEC,away,28,rushing,YDS,Keith Ford,86
+400876099,Texas A&M,SEC,away,28,rushing,YDS,Trayveon Williams,33
+400876099,Texas A&M,SEC,away,28,rushing,YDS,Trevor Knight,20
+400876099,Texas A&M,SEC,away,28,rushing,YDS,Christian Kirk,5
+400876099,Texas A&M,SEC,away,28,rushing,AVG,Keith Ford,8.6
+400876099,Texas A&M,SEC,away,28,rushing,AVG,Trayveon Williams,3.7
+400876099,Texas A&M,SEC,away,28,rushing,AVG,Trevor Knight,2.5
+400876099,Texas A&M,SEC,away,28,rushing,AVG,Christian Kirk,5.0
+400876099,Texas A&M,SEC,away,28,rushing,LONG,Keith Ford,25
+400876099,Texas A&M,SEC,away,28,rushing,LONG,Trayveon Williams,13
+400876099,Texas A&M,SEC,away,28,rushing,LONG,Trevor Knight,8
+400876099,Texas A&M,SEC,away,28,rushing,LONG,Christian Kirk,5
+400876099,Texas A&M,SEC,away,28,passing,C/ATT,Trevor Knight,30/48
+400876099,Texas A&M,SEC,away,28,passing,YDS,Trevor Knight,310
+400876099,Texas A&M,SEC,away,28,passing,AVG,Trevor Knight,6.5
+400876099,Texas A&M,SEC,away,28,passing,TD,Trevor Knight,3
+400876099,Texas A&M,SEC,away,28,passing,INT,Trevor Knight,1
+400876099,Texas A&M,SEC,away,28,passing,QBR,Trevor Knight,69.9
+400876099,Texas A&M,SEC,away,28,receiving,REC,Josh Reynolds,12
+400876099,Texas A&M,SEC,away,28,receiving,REC,Christian Kirk,6
+400876099,Texas A&M,SEC,away,28,receiving,REC,Ricky Seals-Jones,6
+400876099,Texas A&M,SEC,away,28,receiving,REC,Jeremy Tabuyo,2
+400876099,Texas A&M,SEC,away,28,receiving,REC,Trayveon Williams,1
+400876099,Texas A&M,SEC,away,28,receiving,REC,Damion Ratley,1
+400876099,Texas A&M,SEC,away,28,receiving,REC,Keith Ford,2
+400876099,Texas A&M,SEC,away,28,receiving,YDS,Josh Reynolds,154
+400876099,Texas A&M,SEC,away,28,receiving,YDS,Christian Kirk,86
+400876099,Texas A&M,SEC,away,28,receiving,YDS,Ricky Seals-Jones,34
+400876099,Texas A&M,SEC,away,28,receiving,YDS,Jeremy Tabuyo,14
+400876099,Texas A&M,SEC,away,28,receiving,YDS,Trayveon Williams,10
+400876099,Texas A&M,SEC,away,28,receiving,YDS,Damion Ratley,6
+400876099,Texas A&M,SEC,away,28,receiving,YDS,Keith Ford,6
+400876099,Texas A&M,SEC,away,28,receiving,AVG,Josh Reynolds,12.8
+400876099,Texas A&M,SEC,away,28,receiving,AVG,Christian Kirk,14.3
+400876099,Texas A&M,SEC,away,28,receiving,AVG,Ricky Seals-Jones,5.7
+400876099,Texas A&M,SEC,away,28,receiving,AVG,Jeremy Tabuyo,7.0
+400876099,Texas A&M,SEC,away,28,receiving,AVG,Trayveon Williams,10.0
+400876099,Texas A&M,SEC,away,28,receiving,AVG,Damion Ratley,6.0
+400876099,Texas A&M,SEC,away,28,receiving,AVG,Keith Ford,3.0
+400876099,Texas A&M,SEC,away,28,receiving,TD,Josh Reynolds,2
+400876099,Texas A&M,SEC,away,28,receiving,TD,Christian Kirk,0
+400876099,Texas A&M,SEC,away,28,receiving,TD,Ricky Seals-Jones,1
+400876099,Texas A&M,SEC,away,28,receiving,TD,Jeremy Tabuyo,0
+400876099,Texas A&M,SEC,away,28,receiving,TD,Trayveon Williams,0
+400876099,Texas A&M,SEC,away,28,receiving,TD,Damion Ratley,0
+400876099,Texas A&M,SEC,away,28,receiving,TD,Keith Ford,0
+400876099,Texas A&M,SEC,away,28,receiving,LONG,Josh Reynolds,37
+400876099,Texas A&M,SEC,away,28,receiving,LONG,Christian Kirk,40
+400876099,Texas A&M,SEC,away,28,receiving,LONG,Ricky Seals-Jones,11
+400876099,Texas A&M,SEC,away,28,receiving,LONG,Jeremy Tabuyo,10
+400876099,Texas A&M,SEC,away,28,receiving,LONG,Trayveon Williams,10
+400876099,Texas A&M,SEC,away,28,receiving,LONG,Damion Ratley,6
+400876099,Texas A&M,SEC,away,28,receiving,LONG,Keith Ford,4
+400876099,Texas A&M,SEC,away,28,fumbles,FUM,Trevor Knight,1
+400876099,Texas A&M,SEC,away,28,fumbles,LOST,Trevor Knight,1
+400876099,Texas A&M,SEC,away,28,fumbles,REC,Trevor Knight,0
+400876099,Texas A&M,SEC,away,28,defensive,TOT,Shaan Washington,11
+400876099,Texas A&M,SEC,away,28,defensive,TOT,Otaro Alaka,9
+400876099,Texas A&M,SEC,away,28,defensive,TOT,Larry Pryor,8
+400876099,Texas A&M,SEC,away,28,defensive,TOT,Kingsley Keke,6
+400876099,Texas A&M,SEC,away,28,defensive,TOT,Reggie Chevis,5
+400876099,Texas A&M,SEC,away,28,defensive,TOT,Charles Oliver,4
+400876099,Texas A&M,SEC,away,28,defensive,TOT,Daeshon Hall,4
+400876099,Texas A&M,SEC,away,28,defensive,TOT,Donovan Wilson,4
+400876099,Texas A&M,SEC,away,28,defensive,TOT,Daylon Mack,3
+400876099,Texas A&M,SEC,away,28,defensive,TOT,Nick Harvey,2
+400876099,Texas A&M,SEC,away,28,defensive,TOT,Zaycoven Henderson,2
+400876099,Texas A&M,SEC,away,28,defensive,TOT,Justin Evans,2
+400876099,Texas A&M,SEC,away,28,defensive,TOT,Tyrel Dodson,2
+400876099,Texas A&M,SEC,away,28,defensive,TOT,Dwaine Thomas,1
+400876099,Texas A&M,SEC,away,28,defensive,TOT,Deshawn Capers-Smith,1
+400876099,Texas A&M,SEC,away,28,defensive,TOT,Riley Garner,1
+400876099,Texas A&M,SEC,away,28,defensive,TOT,Braden Mann,1
+400876099,Texas A&M,SEC,away,28,defensive,TOT,Qualen Cunningham,1
+400876099,Texas A&M,SEC,away,28,defensive,TOT,Myles Garrett,1
+400876099,Texas A&M,SEC,away,28,defensive,SOLO,Shaan Washington,6
+400876099,Texas A&M,SEC,away,28,defensive,SOLO,Otaro Alaka,6
+400876099,Texas A&M,SEC,away,28,defensive,SOLO,Larry Pryor,4
+400876099,Texas A&M,SEC,away,28,defensive,SOLO,Kingsley Keke,0
+400876099,Texas A&M,SEC,away,28,defensive,SOLO,Reggie Chevis,4
+400876099,Texas A&M,SEC,away,28,defensive,SOLO,Charles Oliver,3
+400876099,Texas A&M,SEC,away,28,defensive,SOLO,Daeshon Hall,2
+400876099,Texas A&M,SEC,away,28,defensive,SOLO,Donovan Wilson,2
+400876099,Texas A&M,SEC,away,28,defensive,SOLO,Daylon Mack,2
+400876099,Texas A&M,SEC,away,28,defensive,SOLO,Nick Harvey,1
+400876099,Texas A&M,SEC,away,28,defensive,SOLO,Zaycoven Henderson,0
+400876099,Texas A&M,SEC,away,28,defensive,SOLO,Justin Evans,0
+400876099,Texas A&M,SEC,away,28,defensive,SOLO,Tyrel Dodson,0
+400876099,Texas A&M,SEC,away,28,defensive,SOLO,Dwaine Thomas,1
+400876099,Texas A&M,SEC,away,28,defensive,SOLO,Deshawn Capers-Smith,1
+400876099,Texas A&M,SEC,away,28,defensive,SOLO,Riley Garner,1
+400876099,Texas A&M,SEC,away,28,defensive,SOLO,Braden Mann,1
+400876099,Texas A&M,SEC,away,28,defensive,SOLO,Qualen Cunningham,0
+400876099,Texas A&M,SEC,away,28,defensive,SOLO,Myles Garrett,0
+400876099,Texas A&M,SEC,away,28,defensive,SACKS,Shaan Washington,0.5
+400876099,Texas A&M,SEC,away,28,defensive,SACKS,Otaro Alaka,1
+400876099,Texas A&M,SEC,away,28,defensive,SACKS,Larry Pryor,0
+400876099,Texas A&M,SEC,away,28,defensive,SACKS,Kingsley Keke,0
+400876099,Texas A&M,SEC,away,28,defensive,SACKS,Reggie Chevis,1
+400876099,Texas A&M,SEC,away,28,defensive,SACKS,Charles Oliver,0
+400876099,Texas A&M,SEC,away,28,defensive,SACKS,Daeshon Hall,0
+400876099,Texas A&M,SEC,away,28,defensive,SACKS,Donovan Wilson,0
+400876099,Texas A&M,SEC,away,28,defensive,SACKS,Daylon Mack,0
+400876099,Texas A&M,SEC,away,28,defensive,SACKS,Nick Harvey,0
+400876099,Texas A&M,SEC,away,28,defensive,SACKS,Zaycoven Henderson,0.5
+400876099,Texas A&M,SEC,away,28,defensive,SACKS,Justin Evans,0
+400876099,Texas A&M,SEC,away,28,defensive,SACKS,Tyrel Dodson,0
+400876099,Texas A&M,SEC,away,28,defensive,SACKS,Dwaine Thomas,0
+400876099,Texas A&M,SEC,away,28,defensive,SACKS,Deshawn Capers-Smith,0
+400876099,Texas A&M,SEC,away,28,defensive,SACKS,Riley Garner,0
+400876099,Texas A&M,SEC,away,28,defensive,SACKS,Braden Mann,0
+400876099,Texas A&M,SEC,away,28,defensive,SACKS,Qualen Cunningham,0
+400876099,Texas A&M,SEC,away,28,defensive,SACKS,Myles Garrett,0
+400876099,Texas A&M,SEC,away,28,defensive,TFL,Shaan Washington,0.5
+400876099,Texas A&M,SEC,away,28,defensive,TFL,Otaro Alaka,2
+400876099,Texas A&M,SEC,away,28,defensive,TFL,Larry Pryor,0
+400876099,Texas A&M,SEC,away,28,defensive,TFL,Kingsley Keke,0
+400876099,Texas A&M,SEC,away,28,defensive,TFL,Reggie Chevis,1
+400876099,Texas A&M,SEC,away,28,defensive,TFL,Charles Oliver,1
+400876099,Texas A&M,SEC,away,28,defensive,TFL,Daeshon Hall,2.5
+400876099,Texas A&M,SEC,away,28,defensive,TFL,Donovan Wilson,0
+400876099,Texas A&M,SEC,away,28,defensive,TFL,Daylon Mack,0
+400876099,Texas A&M,SEC,away,28,defensive,TFL,Nick Harvey,0
+400876099,Texas A&M,SEC,away,28,defensive,TFL,Zaycoven Henderson,1
+400876099,Texas A&M,SEC,away,28,defensive,TFL,Justin Evans,0
+400876099,Texas A&M,SEC,away,28,defensive,TFL,Tyrel Dodson,0
+400876099,Texas A&M,SEC,away,28,defensive,TFL,Dwaine Thomas,0
+400876099,Texas A&M,SEC,away,28,defensive,TFL,Deshawn Capers-Smith,0
+400876099,Texas A&M,SEC,away,28,defensive,TFL,Riley Garner,0
+400876099,Texas A&M,SEC,away,28,defensive,TFL,Braden Mann,0
+400876099,Texas A&M,SEC,away,28,defensive,TFL,Qualen Cunningham,0
+400876099,Texas A&M,SEC,away,28,defensive,TFL,Myles Garrett,0
+400876099,Texas A&M,SEC,away,28,defensive,PD,Shaan Washington,0
+400876099,Texas A&M,SEC,away,28,defensive,PD,Otaro Alaka,0
+400876099,Texas A&M,SEC,away,28,defensive,PD,Larry Pryor,0
+400876099,Texas A&M,SEC,away,28,defensive,PD,Kingsley Keke,0
+400876099,Texas A&M,SEC,away,28,defensive,PD,Reggie Chevis,0
+400876099,Texas A&M,SEC,away,28,defensive,PD,Charles Oliver,1
+400876099,Texas A&M,SEC,away,28,defensive,PD,Daeshon Hall,0
+400876099,Texas A&M,SEC,away,28,defensive,PD,Donovan Wilson,0
+400876099,Texas A&M,SEC,away,28,defensive,PD,Daylon Mack,0
+400876099,Texas A&M,SEC,away,28,defensive,PD,Nick Harvey,0
+400876099,Texas A&M,SEC,away,28,defensive,PD,Zaycoven Henderson,0
+400876099,Texas A&M,SEC,away,28,defensive,PD,Justin Evans,2
+400876099,Texas A&M,SEC,away,28,defensive,PD,Tyrel Dodson,0
+400876099,Texas A&M,SEC,away,28,defensive,PD,Dwaine Thomas,0
+400876099,Texas A&M,SEC,away,28,defensive,PD,Deshawn Capers-Smith,0
+400876099,Texas A&M,SEC,away,28,defensive,PD,Riley Garner,0
+400876099,Texas A&M,SEC,away,28,defensive,PD,Braden Mann,0
+400876099,Texas A&M,SEC,away,28,defensive,PD,Qualen Cunningham,0
+400876099,Texas A&M,SEC,away,28,defensive,PD,Myles Garrett,0
+400876099,Texas A&M,SEC,away,28,defensive,QB HUR,Shaan Washington,0
+400876099,Texas A&M,SEC,away,28,defensive,QB HUR,Otaro Alaka,0
+400876099,Texas A&M,SEC,away,28,defensive,QB HUR,Larry Pryor,0
+400876099,Texas A&M,SEC,away,28,defensive,QB HUR,Kingsley Keke,0
+400876099,Texas A&M,SEC,away,28,defensive,QB HUR,Reggie Chevis,0
+400876099,Texas A&M,SEC,away,28,defensive,QB HUR,Charles Oliver,0
+400876099,Texas A&M,SEC,away,28,defensive,QB HUR,Daeshon Hall,0
+400876099,Texas A&M,SEC,away,28,defensive,QB HUR,Donovan Wilson,0
+400876099,Texas A&M,SEC,away,28,defensive,QB HUR,Daylon Mack,0
+400876099,Texas A&M,SEC,away,28,defensive,QB HUR,Nick Harvey,0
+400876099,Texas A&M,SEC,away,28,defensive,QB HUR,Zaycoven Henderson,0
+400876099,Texas A&M,SEC,away,28,defensive,QB HUR,Justin Evans,0
+400876099,Texas A&M,SEC,away,28,defensive,QB HUR,Tyrel Dodson,0
+400876099,Texas A&M,SEC,away,28,defensive,QB HUR,Dwaine Thomas,0
+400876099,Texas A&M,SEC,away,28,defensive,QB HUR,Deshawn Capers-Smith,0
+400876099,Texas A&M,SEC,away,28,defensive,QB HUR,Riley Garner,0
+400876099,Texas A&M,SEC,away,28,defensive,QB HUR,Braden Mann,0
+400876099,Texas A&M,SEC,away,28,defensive,QB HUR,Qualen Cunningham,0
+400876099,Texas A&M,SEC,away,28,defensive,QB HUR,Myles Garrett,0
+400876099,Texas A&M,SEC,away,28,defensive,TD,Shaan Washington,0
+400876099,Texas A&M,SEC,away,28,defensive,TD,Otaro Alaka,0
+400876099,Texas A&M,SEC,away,28,defensive,TD,Larry Pryor,0
+400876099,Texas A&M,SEC,away,28,defensive,TD,Kingsley Keke,0
+400876099,Texas A&M,SEC,away,28,defensive,TD,Reggie Chevis,0
+400876099,Texas A&M,SEC,away,28,defensive,TD,Charles Oliver,0
+400876099,Texas A&M,SEC,away,28,defensive,TD,Daeshon Hall,0
+400876099,Texas A&M,SEC,away,28,defensive,TD,Donovan Wilson,0
+400876099,Texas A&M,SEC,away,28,defensive,TD,Daylon Mack,0
+400876099,Texas A&M,SEC,away,28,defensive,TD,Nick Harvey,0
+400876099,Texas A&M,SEC,away,28,defensive,TD,Zaycoven Henderson,0
+400876099,Texas A&M,SEC,away,28,defensive,TD,Justin Evans,0
+400876099,Texas A&M,SEC,away,28,defensive,TD,Tyrel Dodson,0
+400876099,Texas A&M,SEC,away,28,defensive,TD,Dwaine Thomas,0
+400876099,Texas A&M,SEC,away,28,defensive,TD,Deshawn Capers-Smith,0
+400876099,Texas A&M,SEC,away,28,defensive,TD,Riley Garner,0
+400876099,Texas A&M,SEC,away,28,defensive,TD,Braden Mann,0
+400876099,Texas A&M,SEC,away,28,defensive,TD,Qualen Cunningham,0
+400876099,Texas A&M,SEC,away,28,defensive,TD,Myles Garrett,0
+400876099,Texas A&M,SEC,away,28,kickReturns,NO,Justin Evans,1
+400876099,Texas A&M,SEC,away,28,kickReturns,NO,Ricky Seals-Jones,1
+400876099,Texas A&M,SEC,away,28,kickReturns,YDS,Justin Evans,23
+400876099,Texas A&M,SEC,away,28,kickReturns,YDS,Ricky Seals-Jones,10
+400876099,Texas A&M,SEC,away,28,kickReturns,AVG,Justin Evans,23.0
+400876099,Texas A&M,SEC,away,28,kickReturns,AVG,Ricky Seals-Jones,10.0
+400876099,Texas A&M,SEC,away,28,kickReturns,LONG,Justin Evans,23
+400876099,Texas A&M,SEC,away,28,kickReturns,LONG,Ricky Seals-Jones,10
+400876099,Texas A&M,SEC,away,28,kickReturns,TD,Justin Evans,0
+400876099,Texas A&M,SEC,away,28,kickReturns,TD,Ricky Seals-Jones,0
+400876099,Texas A&M,SEC,away,28,puntReturns,NO,Christian Kirk,2
+400876099,Texas A&M,SEC,away,28,puntReturns,YDS,Christian Kirk,12
+400876099,Texas A&M,SEC,away,28,puntReturns,AVG,Christian Kirk,6.0
+400876099,Texas A&M,SEC,away,28,puntReturns,LONG,Christian Kirk,11
+400876099,Texas A&M,SEC,away,28,puntReturns,TD,Christian Kirk,0
+400876099,Texas A&M,SEC,away,28,kicking,FG,Daniel LaCamera,0/1
+400876099,Texas A&M,SEC,away,28,kicking,PCT,Daniel LaCamera,0.0
+400876099,Texas A&M,SEC,away,28,kicking,LONG,Daniel LaCamera,0
+400876099,Texas A&M,SEC,away,28,kicking,XP,Daniel LaCamera,4/4
+400876099,Texas A&M,SEC,away,28,kicking,PTS,Daniel LaCamera,4
+400876099,Texas A&M,SEC,away,28,punting,NO,Shane Tripucka,3
+400876099,Texas A&M,SEC,away,28,punting,YDS,Shane Tripucka,108
+400876099,Texas A&M,SEC,away,28,punting,AVG,Shane Tripucka,36.0
+400876099,Texas A&M,SEC,away,28,punting,TB,Shane Tripucka,0
+400876099,Texas A&M,SEC,away,28,punting,In 20,Shane Tripucka,0
+400876099,Texas A&M,SEC,away,28,punting,LONG,Shane Tripucka,44
+400876099,Kansas State,Big 12,home,33,passing,C/ATT,Jesse Ertz,14/20
+400876099,Kansas State,Big 12,home,33,passing,YDS,Jesse Ertz,195
+400876099,Kansas State,Big 12,home,33,passing,AVG,Jesse Ertz,9.8
+400876099,Kansas State,Big 12,home,33,passing,TD,Jesse Ertz,1
+400876099,Kansas State,Big 12,home,33,passing,INT,Jesse Ertz,0
+400876099,Kansas State,Big 12,home,33,passing,QBR,Jesse Ertz,66.1
+400876099,Kansas State,Big 12,home,33,rushing,CAR,Justin Silmon,10
+400876099,Kansas State,Big 12,home,33,rushing,CAR,Jesse Ertz,24
+400876099,Kansas State,Big 12,home,33,rushing,CAR,Dominique Heath,1
+400876099,Kansas State,Big 12,home,33,rushing,CAR,Charles Jones,5
+400876099,Kansas State,Big 12,home,33,rushing,CAR,Dalvin Warmack,1
+400876099,Kansas State,Big 12,home,33,rushing,YDS,Justin Silmon,77
+400876099,Kansas State,Big 12,home,33,rushing,YDS,Jesse Ertz,67
+400876099,Kansas State,Big 12,home,33,rushing,YDS,Dominique Heath,52
+400876099,Kansas State,Big 12,home,33,rushing,YDS,Charles Jones,19
+400876099,Kansas State,Big 12,home,33,rushing,YDS,Dalvin Warmack,3
+400876099,Kansas State,Big 12,home,33,rushing,AVG,Justin Silmon,7.7
+400876099,Kansas State,Big 12,home,33,rushing,AVG,Jesse Ertz,2.8
+400876099,Kansas State,Big 12,home,33,rushing,AVG,Dominique Heath,52.0
+400876099,Kansas State,Big 12,home,33,rushing,AVG,Charles Jones,3.8
+400876099,Kansas State,Big 12,home,33,rushing,AVG,Dalvin Warmack,3.0
+400876099,Kansas State,Big 12,home,33,rushing,TD,Justin Silmon,0
+400876099,Kansas State,Big 12,home,33,rushing,TD,Jesse Ertz,2
+400876099,Kansas State,Big 12,home,33,rushing,TD,Dominique Heath,1
+400876099,Kansas State,Big 12,home,33,rushing,TD,Charles Jones,0
+400876099,Kansas State,Big 12,home,33,rushing,TD,Dalvin Warmack,0
+400876099,Kansas State,Big 12,home,33,rushing,LONG,Justin Silmon,36
+400876099,Kansas State,Big 12,home,33,rushing,LONG,Jesse Ertz,20
+400876099,Kansas State,Big 12,home,33,rushing,LONG,Dominique Heath,52
+400876099,Kansas State,Big 12,home,33,rushing,LONG,Charles Jones,11
+400876099,Kansas State,Big 12,home,33,rushing,LONG,Dalvin Warmack,3
+400876099,Kansas State,Big 12,home,33,receiving,REC,Byron Pringle,3
+400876099,Kansas State,Big 12,home,33,receiving,REC,Winston Dimel,1
+400876099,Kansas State,Big 12,home,33,receiving,REC,Deante Burton,3
+400876099,Kansas State,Big 12,home,33,receiving,REC,Dominique Heath,4
+400876099,Kansas State,Big 12,home,33,receiving,REC,Isaiah Zuber,3
+400876099,Kansas State,Big 12,home,33,receiving,YDS,Byron Pringle,107
+400876099,Kansas State,Big 12,home,33,receiving,YDS,Winston Dimel,26
+400876099,Kansas State,Big 12,home,33,receiving,YDS,Deante Burton,25
+400876099,Kansas State,Big 12,home,33,receiving,YDS,Dominique Heath,25
+400876099,Kansas State,Big 12,home,33,receiving,YDS,Isaiah Zuber,12
+400876099,Kansas State,Big 12,home,33,receiving,AVG,Byron Pringle,35.7
+400876099,Kansas State,Big 12,home,33,receiving,AVG,Winston Dimel,26.0
+400876099,Kansas State,Big 12,home,33,receiving,AVG,Deante Burton,8.3
+400876099,Kansas State,Big 12,home,33,receiving,AVG,Dominique Heath,6.3
+400876099,Kansas State,Big 12,home,33,receiving,AVG,Isaiah Zuber,4.0
+400876099,Kansas State,Big 12,home,33,receiving,TD,Byron Pringle,1
+400876099,Kansas State,Big 12,home,33,receiving,TD,Winston Dimel,0
+400876099,Kansas State,Big 12,home,33,receiving,TD,Deante Burton,0
+400876099,Kansas State,Big 12,home,33,receiving,TD,Dominique Heath,0
+400876099,Kansas State,Big 12,home,33,receiving,TD,Isaiah Zuber,0
+400876099,Kansas State,Big 12,home,33,receiving,LONG,Byron Pringle,79
+400876099,Kansas State,Big 12,home,33,receiving,LONG,Winston Dimel,26
+400876099,Kansas State,Big 12,home,33,receiving,LONG,Deante Burton,11
+400876099,Kansas State,Big 12,home,33,receiving,LONG,Dominique Heath,12
+400876099,Kansas State,Big 12,home,33,receiving,LONG,Isaiah Zuber,5
+400876099,Kansas State,Big 12,home,33,defensive,TOT,Elijah Lee,12
+400876099,Kansas State,Big 12,home,33,defensive,TOT,D.J. Reed,9
+400876099,Kansas State,Big 12,home,33,defensive,TOT,Donnie Starks,8
+400876099,Kansas State,Big 12,home,33,defensive,TOT,Kendall Adams,7
+400876099,Kansas State,Big 12,home,33,defensive,TOT,Dante Barnett,6
+400876099,Kansas State,Big 12,home,33,defensive,TOT,Charmeachealle Moore,6
+400876099,Kansas State,Big 12,home,33,defensive,TOT,Reggie Walker,5
+400876099,Kansas State,Big 12,home,33,defensive,TOT,Jordan Willis,4
+400876099,Kansas State,Big 12,home,33,defensive,TOT,Cre Ahmani Moore,4
+400876099,Kansas State,Big 12,home,33,defensive,TOT,Tanner Joe Wood,3
+400876099,Kansas State,Big 12,home,33,defensive,TOT,Trey Dishon,2
+400876099,Kansas State,Big 12,home,33,defensive,TOT,Will Geary,1
+400876099,Kansas State,Big 12,home,33,defensive,TOT,Denzel Goolsby,1
+400876099,Kansas State,Big 12,home,33,defensive,TOT,Jayd Kirby,1
+400876099,Kansas State,Big 12,home,33,defensive,TOT,Craig Steven Settles Jr.,1
+400876099,Kansas State,Big 12,home,33,defensive,TOT,Duke Shelley,0
+400876099,Kansas State,Big 12,home,33,defensive,SOLO,Elijah Lee,5
+400876099,Kansas State,Big 12,home,33,defensive,SOLO,D.J. Reed,6
+400876099,Kansas State,Big 12,home,33,defensive,SOLO,Donnie Starks,6
+400876099,Kansas State,Big 12,home,33,defensive,SOLO,Kendall Adams,5
+400876099,Kansas State,Big 12,home,33,defensive,SOLO,Dante Barnett,2
+400876099,Kansas State,Big 12,home,33,defensive,SOLO,Charmeachealle Moore,2
+400876099,Kansas State,Big 12,home,33,defensive,SOLO,Reggie Walker,2
+400876099,Kansas State,Big 12,home,33,defensive,SOLO,Jordan Willis,2
+400876099,Kansas State,Big 12,home,33,defensive,SOLO,Cre Ahmani Moore,1
+400876099,Kansas State,Big 12,home,33,defensive,SOLO,Tanner Joe Wood,2
+400876099,Kansas State,Big 12,home,33,defensive,SOLO,Trey Dishon,0
+400876099,Kansas State,Big 12,home,33,defensive,SOLO,Will Geary,1
+400876099,Kansas State,Big 12,home,33,defensive,SOLO,Denzel Goolsby,1
+400876099,Kansas State,Big 12,home,33,defensive,SOLO,Jayd Kirby,1
+400876099,Kansas State,Big 12,home,33,defensive,SOLO,Craig Steven Settles Jr.,0
+400876099,Kansas State,Big 12,home,33,defensive,SOLO,Duke Shelley,0
+400876099,Kansas State,Big 12,home,33,defensive,SACKS,Elijah Lee,0
+400876099,Kansas State,Big 12,home,33,defensive,SACKS,D.J. Reed,0
+400876099,Kansas State,Big 12,home,33,defensive,SACKS,Donnie Starks,0
+400876099,Kansas State,Big 12,home,33,defensive,SACKS,Kendall Adams,0
+400876099,Kansas State,Big 12,home,33,defensive,SACKS,Dante Barnett,0
+400876099,Kansas State,Big 12,home,33,defensive,SACKS,Charmeachealle Moore,0
+400876099,Kansas State,Big 12,home,33,defensive,SACKS,Reggie Walker,0
+400876099,Kansas State,Big 12,home,33,defensive,SACKS,Jordan Willis,0
+400876099,Kansas State,Big 12,home,33,defensive,SACKS,Cre Ahmani Moore,0
+400876099,Kansas State,Big 12,home,33,defensive,SACKS,Tanner Joe Wood,0
+400876099,Kansas State,Big 12,home,33,defensive,SACKS,Trey Dishon,0
+400876099,Kansas State,Big 12,home,33,defensive,SACKS,Will Geary,0
+400876099,Kansas State,Big 12,home,33,defensive,SACKS,Denzel Goolsby,0
+400876099,Kansas State,Big 12,home,33,defensive,SACKS,Jayd Kirby,0
+400876099,Kansas State,Big 12,home,33,defensive,SACKS,Craig Steven Settles Jr.,0
+400876099,Kansas State,Big 12,home,33,defensive,SACKS,Duke Shelley,0
+400876099,Kansas State,Big 12,home,33,defensive,TFL,Elijah Lee,1
+400876099,Kansas State,Big 12,home,33,defensive,TFL,D.J. Reed,0
+400876099,Kansas State,Big 12,home,33,defensive,TFL,Donnie Starks,0
+400876099,Kansas State,Big 12,home,33,defensive,TFL,Kendall Adams,0
+400876099,Kansas State,Big 12,home,33,defensive,TFL,Dante Barnett,0
+400876099,Kansas State,Big 12,home,33,defensive,TFL,Charmeachealle Moore,0
+400876099,Kansas State,Big 12,home,33,defensive,TFL,Reggie Walker,0.5
+400876099,Kansas State,Big 12,home,33,defensive,TFL,Jordan Willis,1
+400876099,Kansas State,Big 12,home,33,defensive,TFL,Cre Ahmani Moore,0
+400876099,Kansas State,Big 12,home,33,defensive,TFL,Tanner Joe Wood,0
+400876099,Kansas State,Big 12,home,33,defensive,TFL,Trey Dishon,0
+400876099,Kansas State,Big 12,home,33,defensive,TFL,Will Geary,0
+400876099,Kansas State,Big 12,home,33,defensive,TFL,Denzel Goolsby,0
+400876099,Kansas State,Big 12,home,33,defensive,TFL,Jayd Kirby,0
+400876099,Kansas State,Big 12,home,33,defensive,TFL,Craig Steven Settles Jr.,0.5
+400876099,Kansas State,Big 12,home,33,defensive,TFL,Duke Shelley,0
+400876099,Kansas State,Big 12,home,33,defensive,PD,Elijah Lee,0
+400876099,Kansas State,Big 12,home,33,defensive,PD,D.J. Reed,1
+400876099,Kansas State,Big 12,home,33,defensive,PD,Donnie Starks,0
+400876099,Kansas State,Big 12,home,33,defensive,PD,Kendall Adams,0
+400876099,Kansas State,Big 12,home,33,defensive,PD,Dante Barnett,1
+400876099,Kansas State,Big 12,home,33,defensive,PD,Charmeachealle Moore,0
+400876099,Kansas State,Big 12,home,33,defensive,PD,Reggie Walker,0
+400876099,Kansas State,Big 12,home,33,defensive,PD,Jordan Willis,0
+400876099,Kansas State,Big 12,home,33,defensive,PD,Cre Ahmani Moore,1
+400876099,Kansas State,Big 12,home,33,defensive,PD,Tanner Joe Wood,0
+400876099,Kansas State,Big 12,home,33,defensive,PD,Trey Dishon,0
+400876099,Kansas State,Big 12,home,33,defensive,PD,Will Geary,0
+400876099,Kansas State,Big 12,home,33,defensive,PD,Denzel Goolsby,0
+400876099,Kansas State,Big 12,home,33,defensive,PD,Jayd Kirby,0
+400876099,Kansas State,Big 12,home,33,defensive,PD,Craig Steven Settles Jr.,0
+400876099,Kansas State,Big 12,home,33,defensive,PD,Duke Shelley,1
+400876099,Kansas State,Big 12,home,33,defensive,QB HUR,Elijah Lee,0
+400876099,Kansas State,Big 12,home,33,defensive,QB HUR,D.J. Reed,0
+400876099,Kansas State,Big 12,home,33,defensive,QB HUR,Donnie Starks,0
+400876099,Kansas State,Big 12,home,33,defensive,QB HUR,Kendall Adams,0
+400876099,Kansas State,Big 12,home,33,defensive,QB HUR,Dante Barnett,0
+400876099,Kansas State,Big 12,home,33,defensive,QB HUR,Charmeachealle Moore,0
+400876099,Kansas State,Big 12,home,33,defensive,QB HUR,Reggie Walker,1
+400876099,Kansas State,Big 12,home,33,defensive,QB HUR,Jordan Willis,1
+400876099,Kansas State,Big 12,home,33,defensive,QB HUR,Cre Ahmani Moore,1
+400876099,Kansas State,Big 12,home,33,defensive,QB HUR,Tanner Joe Wood,1
+400876099,Kansas State,Big 12,home,33,defensive,QB HUR,Trey Dishon,0
+400876099,Kansas State,Big 12,home,33,defensive,QB HUR,Will Geary,0
+400876099,Kansas State,Big 12,home,33,defensive,QB HUR,Denzel Goolsby,0
+400876099,Kansas State,Big 12,home,33,defensive,QB HUR,Jayd Kirby,0
+400876099,Kansas State,Big 12,home,33,defensive,QB HUR,Craig Steven Settles Jr.,0
+400876099,Kansas State,Big 12,home,33,defensive,QB HUR,Duke Shelley,0
+400876099,Kansas State,Big 12,home,33,defensive,TD,Elijah Lee,0
+400876099,Kansas State,Big 12,home,33,defensive,TD,D.J. Reed,0
+400876099,Kansas State,Big 12,home,33,defensive,TD,Donnie Starks,0
+400876099,Kansas State,Big 12,home,33,defensive,TD,Kendall Adams,0
+400876099,Kansas State,Big 12,home,33,defensive,TD,Dante Barnett,0
+400876099,Kansas State,Big 12,home,33,defensive,TD,Charmeachealle Moore,0
+400876099,Kansas State,Big 12,home,33,defensive,TD,Reggie Walker,0
+400876099,Kansas State,Big 12,home,33,defensive,TD,Jordan Willis,0
+400876099,Kansas State,Big 12,home,33,defensive,TD,Cre Ahmani Moore,0
+400876099,Kansas State,Big 12,home,33,defensive,TD,Tanner Joe Wood,0
+400876099,Kansas State,Big 12,home,33,defensive,TD,Trey Dishon,0
+400876099,Kansas State,Big 12,home,33,defensive,TD,Will Geary,0
+400876099,Kansas State,Big 12,home,33,defensive,TD,Denzel Goolsby,0
+400876099,Kansas State,Big 12,home,33,defensive,TD,Jayd Kirby,0
+400876099,Kansas State,Big 12,home,33,defensive,TD,Craig Steven Settles Jr.,0
+400876099,Kansas State,Big 12,home,33,defensive,TD,Duke Shelley,0
+400876099,Kansas State,Big 12,home,33,interceptions,INT,Kendall Adams,1
+400876099,Kansas State,Big 12,home,33,interceptions,YDS,Kendall Adams,0
+400876099,Kansas State,Big 12,home,33,interceptions,TD,Kendall Adams,0
+400876099,Kansas State,Big 12,home,33,kickReturns,NO,D.J. Reed,3
+400876099,Kansas State,Big 12,home,33,kickReturns,YDS,D.J. Reed,80
+400876099,Kansas State,Big 12,home,33,kickReturns,AVG,D.J. Reed,26.7
+400876099,Kansas State,Big 12,home,33,kickReturns,LONG,D.J. Reed,31
+400876099,Kansas State,Big 12,home,33,kickReturns,TD,D.J. Reed,0
+400876099,Kansas State,Big 12,home,33,kicking,FG,Ian Patterson,2/2
+400876099,Kansas State,Big 12,home,33,kicking,PCT,Ian Patterson,100.0
+400876099,Kansas State,Big 12,home,33,kicking,LONG,Ian Patterson,40
+400876099,Kansas State,Big 12,home,33,kicking,XP,Ian Patterson,3/4
+400876099,Kansas State,Big 12,home,33,kicking,PTS,Ian Patterson,9
+400876099,Kansas State,Big 12,home,33,punting,NO,Nick Walsh,4
+400876099,Kansas State,Big 12,home,33,punting,YDS,Nick Walsh,170
+400876099,Kansas State,Big 12,home,33,punting,AVG,Nick Walsh,42.5
+400876099,Kansas State,Big 12,home,33,punting,TB,Nick Walsh,0
+400876099,Kansas State,Big 12,home,33,punting,In 20,Nick Walsh,0
+400876099,Kansas State,Big 12,home,33,punting,LONG,Nick Walsh,49
+400876096,Boise State,Mountain West,away,12,passing,C/ATT,Brett Rypien,32/51
+400876096,Boise State,Mountain West,away,12,passing,YDS,Brett Rypien,305
+400876096,Boise State,Mountain West,away,12,passing,AVG,Brett Rypien,6.0
+400876096,Boise State,Mountain West,away,12,passing,TD,Brett Rypien,1
+400876096,Boise State,Mountain West,away,12,passing,INT,Brett Rypien,2
+400876096,Boise State,Mountain West,away,12,passing,QBR,Brett Rypien,40.3
+400876096,Boise State,Mountain West,away,12,rushing,CAR,Jeremy McNichols,19
+400876096,Boise State,Mountain West,away,12,rushing,CAR,Alexander Mattison,8
+400876096,Boise State,Mountain West,away,12,rushing,CAR,Thomas Sperbeck,1
+400876096,Boise State,Mountain West,away,12,rushing,CAR,Cedrick Wilson,1
+400876096,Boise State,Mountain West,away,12,rushing,CAR,Brett Rypien,9
+400876096,Boise State,Mountain West,away,12,rushing,YDS,Jeremy McNichols,46
+400876096,Boise State,Mountain West,away,12,rushing,YDS,Alexander Mattison,21
+400876096,Boise State,Mountain West,away,12,rushing,YDS,Thomas Sperbeck,10
+400876096,Boise State,Mountain West,away,12,rushing,YDS,Cedrick Wilson,6
+400876096,Boise State,Mountain West,away,12,rushing,YDS,Brett Rypien,0
+400876096,Boise State,Mountain West,away,12,rushing,AVG,Jeremy McNichols,2.4
+400876096,Boise State,Mountain West,away,12,rushing,AVG,Alexander Mattison,2.6
+400876096,Boise State,Mountain West,away,12,rushing,AVG,Thomas Sperbeck,10.0
+400876096,Boise State,Mountain West,away,12,rushing,AVG,Cedrick Wilson,6.0
+400876096,Boise State,Mountain West,away,12,rushing,AVG,Brett Rypien,0.0
+400876096,Boise State,Mountain West,away,12,rushing,TD,Jeremy McNichols,0
+400876096,Boise State,Mountain West,away,12,rushing,TD,Alexander Mattison,0
+400876096,Boise State,Mountain West,away,12,rushing,TD,Thomas Sperbeck,0
+400876096,Boise State,Mountain West,away,12,rushing,TD,Cedrick Wilson,0
+400876096,Boise State,Mountain West,away,12,rushing,TD,Brett Rypien,0
+400876096,Boise State,Mountain West,away,12,rushing,LONG,Jeremy McNichols,9
+400876096,Boise State,Mountain West,away,12,rushing,LONG,Alexander Mattison,6
+400876096,Boise State,Mountain West,away,12,rushing,LONG,Thomas Sperbeck,10
+400876096,Boise State,Mountain West,away,12,rushing,LONG,Cedrick Wilson,6
+400876096,Boise State,Mountain West,away,12,rushing,LONG,Brett Rypien,7
+400876096,Boise State,Mountain West,away,12,receiving,REC,Cedrick Wilson,6
+400876096,Boise State,Mountain West,away,12,receiving,REC,Thomas Sperbeck,8
+400876096,Boise State,Mountain West,away,12,receiving,REC,Jake Roh,6
+400876096,Boise State,Mountain West,away,12,receiving,REC,Chaz Anderson,3
+400876096,Boise State,Mountain West,away,12,receiving,REC,Jeremy McNichols,5
+400876096,Boise State,Mountain West,away,12,receiving,REC,Sean Modster,1
+400876096,Boise State,Mountain West,away,12,receiving,REC,Alec Dhaenens,1
+400876096,Boise State,Mountain West,away,12,receiving,REC,Alexander Mattison,1
+400876096,Boise State,Mountain West,away,12,receiving,REC,Chase Blakley,1
+400876096,Boise State,Mountain West,away,12,receiving,YDS,Cedrick Wilson,88
+400876096,Boise State,Mountain West,away,12,receiving,YDS,Thomas Sperbeck,79
+400876096,Boise State,Mountain West,away,12,receiving,YDS,Jake Roh,54
+400876096,Boise State,Mountain West,away,12,receiving,YDS,Chaz Anderson,30
+400876096,Boise State,Mountain West,away,12,receiving,YDS,Jeremy McNichols,24
+400876096,Boise State,Mountain West,away,12,receiving,YDS,Sean Modster,15
+400876096,Boise State,Mountain West,away,12,receiving,YDS,Alec Dhaenens,7
+400876096,Boise State,Mountain West,away,12,receiving,YDS,Alexander Mattison,5
+400876096,Boise State,Mountain West,away,12,receiving,YDS,Chase Blakley,3
+400876096,Boise State,Mountain West,away,12,receiving,AVG,Cedrick Wilson,14.7
+400876096,Boise State,Mountain West,away,12,receiving,AVG,Thomas Sperbeck,9.9
+400876096,Boise State,Mountain West,away,12,receiving,AVG,Jake Roh,9.0
+400876096,Boise State,Mountain West,away,12,receiving,AVG,Chaz Anderson,10.0
+400876096,Boise State,Mountain West,away,12,receiving,AVG,Jeremy McNichols,4.8
+400876096,Boise State,Mountain West,away,12,receiving,AVG,Sean Modster,15.0
+400876096,Boise State,Mountain West,away,12,receiving,AVG,Alec Dhaenens,7.0
+400876096,Boise State,Mountain West,away,12,receiving,AVG,Alexander Mattison,5.0
+400876096,Boise State,Mountain West,away,12,receiving,AVG,Chase Blakley,3.0
+400876096,Boise State,Mountain West,away,12,receiving,TD,Cedrick Wilson,1
+400876096,Boise State,Mountain West,away,12,receiving,TD,Thomas Sperbeck,0
+400876096,Boise State,Mountain West,away,12,receiving,TD,Jake Roh,0
+400876096,Boise State,Mountain West,away,12,receiving,TD,Chaz Anderson,0
+400876096,Boise State,Mountain West,away,12,receiving,TD,Jeremy McNichols,0
+400876096,Boise State,Mountain West,away,12,receiving,TD,Sean Modster,0
+400876096,Boise State,Mountain West,away,12,receiving,TD,Alec Dhaenens,0
+400876096,Boise State,Mountain West,away,12,receiving,TD,Alexander Mattison,0
+400876096,Boise State,Mountain West,away,12,receiving,TD,Chase Blakley,0
+400876096,Boise State,Mountain West,away,12,receiving,LONG,Cedrick Wilson,28
+400876096,Boise State,Mountain West,away,12,receiving,LONG,Thomas Sperbeck,24
+400876096,Boise State,Mountain West,away,12,receiving,LONG,Jake Roh,16
+400876096,Boise State,Mountain West,away,12,receiving,LONG,Chaz Anderson,13
+400876096,Boise State,Mountain West,away,12,receiving,LONG,Jeremy McNichols,13
+400876096,Boise State,Mountain West,away,12,receiving,LONG,Sean Modster,15
+400876096,Boise State,Mountain West,away,12,receiving,LONG,Alec Dhaenens,7
+400876096,Boise State,Mountain West,away,12,receiving,LONG,Alexander Mattison,5
+400876096,Boise State,Mountain West,away,12,receiving,LONG,Chase Blakley,3
+400876096,Boise State,Mountain West,away,12,fumbles,FUM,Brett Rypien,1
+400876096,Boise State,Mountain West,away,12,fumbles,FUM,Cedrick Wilson,1
+400876096,Boise State,Mountain West,away,12,fumbles,LOST,Brett Rypien,1
+400876096,Boise State,Mountain West,away,12,fumbles,LOST,Cedrick Wilson,0
+400876096,Boise State,Mountain West,away,12,fumbles,REC,Brett Rypien,0
+400876096,Boise State,Mountain West,away,12,fumbles,REC,Cedrick Wilson,0
+400876096,Boise State,Mountain West,away,12,defensive,TOT,Ben Weaver,9
+400876096,Boise State,Mountain West,away,12,defensive,TOT,Raymond Ford,7
+400876096,Boise State,Mountain West,away,12,defensive,TOT,Darren Lee,7
+400876096,Boise State,Mountain West,away,12,defensive,TOT,Chanceller James,7
+400876096,Boise State,Mountain West,away,12,defensive,TOT,Leighton Vander Esch,6
+400876096,Boise State,Mountain West,away,12,defensive,TOT,Tyson Maeva,6
+400876096,Boise State,Mountain West,away,12,defensive,TOT,Kekoa Nawahine,5
+400876096,Boise State,Mountain West,away,12,defensive,TOT,Tyler Horton,5
+400876096,Boise State,Mountain West,away,12,defensive,TOT,Blake Whitlock,5
+400876096,Boise State,Mountain West,away,12,defensive,TOT,David Moa,3
+400876096,Boise State,Mountain West,away,12,defensive,TOT,Durrant Miles,3
+400876096,Boise State,Mountain West,away,12,defensive,TOT,Sam McCaskill,2
+400876096,Boise State,Mountain West,away,12,defensive,TOT,Jeremy McNichols,2
+400876096,Boise State,Mountain West,away,12,defensive,TOT,Daniel Auelua,2
+400876096,Boise State,Mountain West,away,12,defensive,TOT,Elliot Hoyte,1
+400876096,Boise State,Mountain West,away,12,defensive,TOT,Thomas Sperbeck,1
+400876096,Boise State,Mountain West,away,12,defensive,TOT,Alec Dhaenens,1
+400876096,Boise State,Mountain West,away,12,defensive,TOT,Cameron Hartsfield,1
+400876096,Boise State,Mountain West,away,12,defensive,TOT,Jonathan Moxey,1
+400876096,Boise State,Mountain West,away,12,defensive,TOT,Jake Knight,1
+400876096,Boise State,Mountain West,away,12,defensive,TOT,Bubba Ogbebor,1
+400876096,Boise State,Mountain West,away,12,defensive,TOT,DeAndre Pierce,1
+400876096,Boise State,Mountain West,away,12,defensive,SOLO,Ben Weaver,6
+400876096,Boise State,Mountain West,away,12,defensive,SOLO,Raymond Ford,7
+400876096,Boise State,Mountain West,away,12,defensive,SOLO,Darren Lee,6
+400876096,Boise State,Mountain West,away,12,defensive,SOLO,Chanceller James,6
+400876096,Boise State,Mountain West,away,12,defensive,SOLO,Leighton Vander Esch,6
+400876096,Boise State,Mountain West,away,12,defensive,SOLO,Tyson Maeva,6
+400876096,Boise State,Mountain West,away,12,defensive,SOLO,Kekoa Nawahine,4
+400876096,Boise State,Mountain West,away,12,defensive,SOLO,Tyler Horton,4
+400876096,Boise State,Mountain West,away,12,defensive,SOLO,Blake Whitlock,3
+400876096,Boise State,Mountain West,away,12,defensive,SOLO,David Moa,3
+400876096,Boise State,Mountain West,away,12,defensive,SOLO,Durrant Miles,3
+400876096,Boise State,Mountain West,away,12,defensive,SOLO,Sam McCaskill,2
+400876096,Boise State,Mountain West,away,12,defensive,SOLO,Jeremy McNichols,2
+400876096,Boise State,Mountain West,away,12,defensive,SOLO,Daniel Auelua,2
+400876096,Boise State,Mountain West,away,12,defensive,SOLO,Elliot Hoyte,1
+400876096,Boise State,Mountain West,away,12,defensive,SOLO,Thomas Sperbeck,1
+400876096,Boise State,Mountain West,away,12,defensive,SOLO,Alec Dhaenens,1
+400876096,Boise State,Mountain West,away,12,defensive,SOLO,Cameron Hartsfield,1
+400876096,Boise State,Mountain West,away,12,defensive,SOLO,Jonathan Moxey,1
+400876096,Boise State,Mountain West,away,12,defensive,SOLO,Jake Knight,1
+400876096,Boise State,Mountain West,away,12,defensive,SOLO,Bubba Ogbebor,1
+400876096,Boise State,Mountain West,away,12,defensive,SOLO,DeAndre Pierce,0
+400876096,Boise State,Mountain West,away,12,defensive,SACKS,Ben Weaver,0
+400876096,Boise State,Mountain West,away,12,defensive,SACKS,Raymond Ford,0
+400876096,Boise State,Mountain West,away,12,defensive,SACKS,Darren Lee,0
+400876096,Boise State,Mountain West,away,12,defensive,SACKS,Chanceller James,0
+400876096,Boise State,Mountain West,away,12,defensive,SACKS,Leighton Vander Esch,0
+400876096,Boise State,Mountain West,away,12,defensive,SACKS,Tyson Maeva,0
+400876096,Boise State,Mountain West,away,12,defensive,SACKS,Kekoa Nawahine,0
+400876096,Boise State,Mountain West,away,12,defensive,SACKS,Tyler Horton,0
+400876096,Boise State,Mountain West,away,12,defensive,SACKS,Blake Whitlock,0
+400876096,Boise State,Mountain West,away,12,defensive,SACKS,David Moa,1
+400876096,Boise State,Mountain West,away,12,defensive,SACKS,Durrant Miles,0
+400876096,Boise State,Mountain West,away,12,defensive,SACKS,Sam McCaskill,1
+400876096,Boise State,Mountain West,away,12,defensive,SACKS,Jeremy McNichols,0
+400876096,Boise State,Mountain West,away,12,defensive,SACKS,Daniel Auelua,0
+400876096,Boise State,Mountain West,away,12,defensive,SACKS,Elliot Hoyte,0
+400876096,Boise State,Mountain West,away,12,defensive,SACKS,Thomas Sperbeck,0
+400876096,Boise State,Mountain West,away,12,defensive,SACKS,Alec Dhaenens,0
+400876096,Boise State,Mountain West,away,12,defensive,SACKS,Cameron Hartsfield,0
+400876096,Boise State,Mountain West,away,12,defensive,SACKS,Jonathan Moxey,0
+400876096,Boise State,Mountain West,away,12,defensive,SACKS,Jake Knight,0
+400876096,Boise State,Mountain West,away,12,defensive,SACKS,Bubba Ogbebor,0
+400876096,Boise State,Mountain West,away,12,defensive,SACKS,DeAndre Pierce,0
+400876096,Boise State,Mountain West,away,12,defensive,TFL,Ben Weaver,0
+400876096,Boise State,Mountain West,away,12,defensive,TFL,Raymond Ford,0
+400876096,Boise State,Mountain West,away,12,defensive,TFL,Darren Lee,0
+400876096,Boise State,Mountain West,away,12,defensive,TFL,Chanceller James,0
+400876096,Boise State,Mountain West,away,12,defensive,TFL,Leighton Vander Esch,0
+400876096,Boise State,Mountain West,away,12,defensive,TFL,Tyson Maeva,0
+400876096,Boise State,Mountain West,away,12,defensive,TFL,Kekoa Nawahine,0
+400876096,Boise State,Mountain West,away,12,defensive,TFL,Tyler Horton,0
+400876096,Boise State,Mountain West,away,12,defensive,TFL,Blake Whitlock,0
+400876096,Boise State,Mountain West,away,12,defensive,TFL,David Moa,2
+400876096,Boise State,Mountain West,away,12,defensive,TFL,Durrant Miles,1
+400876096,Boise State,Mountain West,away,12,defensive,TFL,Sam McCaskill,1
+400876096,Boise State,Mountain West,away,12,defensive,TFL,Jeremy McNichols,0
+400876096,Boise State,Mountain West,away,12,defensive,TFL,Daniel Auelua,0
+400876096,Boise State,Mountain West,away,12,defensive,TFL,Elliot Hoyte,0
+400876096,Boise State,Mountain West,away,12,defensive,TFL,Thomas Sperbeck,0
+400876096,Boise State,Mountain West,away,12,defensive,TFL,Alec Dhaenens,0
+400876096,Boise State,Mountain West,away,12,defensive,TFL,Cameron Hartsfield,0
+400876096,Boise State,Mountain West,away,12,defensive,TFL,Jonathan Moxey,0
+400876096,Boise State,Mountain West,away,12,defensive,TFL,Jake Knight,0
+400876096,Boise State,Mountain West,away,12,defensive,TFL,Bubba Ogbebor,0
+400876096,Boise State,Mountain West,away,12,defensive,TFL,DeAndre Pierce,0
+400876096,Boise State,Mountain West,away,12,defensive,PD,Ben Weaver,0
+400876096,Boise State,Mountain West,away,12,defensive,PD,Raymond Ford,1
+400876096,Boise State,Mountain West,away,12,defensive,PD,Darren Lee,0
+400876096,Boise State,Mountain West,away,12,defensive,PD,Chanceller James,0
+400876096,Boise State,Mountain West,away,12,defensive,PD,Leighton Vander Esch,0
+400876096,Boise State,Mountain West,away,12,defensive,PD,Tyson Maeva,0
+400876096,Boise State,Mountain West,away,12,defensive,PD,Kekoa Nawahine,1
+400876096,Boise State,Mountain West,away,12,defensive,PD,Tyler Horton,2
+400876096,Boise State,Mountain West,away,12,defensive,PD,Blake Whitlock,1
+400876096,Boise State,Mountain West,away,12,defensive,PD,David Moa,0
+400876096,Boise State,Mountain West,away,12,defensive,PD,Durrant Miles,0
+400876096,Boise State,Mountain West,away,12,defensive,PD,Sam McCaskill,0
+400876096,Boise State,Mountain West,away,12,defensive,PD,Jeremy McNichols,0
+400876096,Boise State,Mountain West,away,12,defensive,PD,Daniel Auelua,0
+400876096,Boise State,Mountain West,away,12,defensive,PD,Elliot Hoyte,0
+400876096,Boise State,Mountain West,away,12,defensive,PD,Thomas Sperbeck,0
+400876096,Boise State,Mountain West,away,12,defensive,PD,Alec Dhaenens,0
+400876096,Boise State,Mountain West,away,12,defensive,PD,Cameron Hartsfield,0
+400876096,Boise State,Mountain West,away,12,defensive,PD,Jonathan Moxey,0
+400876096,Boise State,Mountain West,away,12,defensive,PD,Jake Knight,0
+400876096,Boise State,Mountain West,away,12,defensive,PD,Bubba Ogbebor,0
+400876096,Boise State,Mountain West,away,12,defensive,PD,DeAndre Pierce,0
+400876096,Boise State,Mountain West,away,12,defensive,QB HUR,Ben Weaver,0
+400876096,Boise State,Mountain West,away,12,defensive,QB HUR,Raymond Ford,0
+400876096,Boise State,Mountain West,away,12,defensive,QB HUR,Darren Lee,0
+400876096,Boise State,Mountain West,away,12,defensive,QB HUR,Chanceller James,0
+400876096,Boise State,Mountain West,away,12,defensive,QB HUR,Leighton Vander Esch,0
+400876096,Boise State,Mountain West,away,12,defensive,QB HUR,Tyson Maeva,0
+400876096,Boise State,Mountain West,away,12,defensive,QB HUR,Kekoa Nawahine,0
+400876096,Boise State,Mountain West,away,12,defensive,QB HUR,Tyler Horton,0
+400876096,Boise State,Mountain West,away,12,defensive,QB HUR,Blake Whitlock,0
+400876096,Boise State,Mountain West,away,12,defensive,QB HUR,David Moa,0
+400876096,Boise State,Mountain West,away,12,defensive,QB HUR,Durrant Miles,0
+400876096,Boise State,Mountain West,away,12,defensive,QB HUR,Sam McCaskill,0
+400876096,Boise State,Mountain West,away,12,defensive,QB HUR,Jeremy McNichols,0
+400876096,Boise State,Mountain West,away,12,defensive,QB HUR,Daniel Auelua,0
+400876096,Boise State,Mountain West,away,12,defensive,QB HUR,Elliot Hoyte,0
+400876096,Boise State,Mountain West,away,12,defensive,QB HUR,Thomas Sperbeck,0
+400876096,Boise State,Mountain West,away,12,defensive,QB HUR,Alec Dhaenens,0
+400876096,Boise State,Mountain West,away,12,defensive,QB HUR,Cameron Hartsfield,0
+400876096,Boise State,Mountain West,away,12,defensive,QB HUR,Jonathan Moxey,0
+400876096,Boise State,Mountain West,away,12,defensive,QB HUR,Jake Knight,0
+400876096,Boise State,Mountain West,away,12,defensive,QB HUR,Bubba Ogbebor,0
+400876096,Boise State,Mountain West,away,12,defensive,QB HUR,DeAndre Pierce,0
+400876096,Boise State,Mountain West,away,12,defensive,TD,Ben Weaver,0
+400876096,Boise State,Mountain West,away,12,defensive,TD,Raymond Ford,0
+400876096,Boise State,Mountain West,away,12,defensive,TD,Darren Lee,0
+400876096,Boise State,Mountain West,away,12,defensive,TD,Chanceller James,0
+400876096,Boise State,Mountain West,away,12,defensive,TD,Leighton Vander Esch,0
+400876096,Boise State,Mountain West,away,12,defensive,TD,Tyson Maeva,0
+400876096,Boise State,Mountain West,away,12,defensive,TD,Kekoa Nawahine,0
+400876096,Boise State,Mountain West,away,12,defensive,TD,Tyler Horton,0
+400876096,Boise State,Mountain West,away,12,defensive,TD,Blake Whitlock,0
+400876096,Boise State,Mountain West,away,12,defensive,TD,David Moa,0
+400876096,Boise State,Mountain West,away,12,defensive,TD,Durrant Miles,0
+400876096,Boise State,Mountain West,away,12,defensive,TD,Sam McCaskill,0
+400876096,Boise State,Mountain West,away,12,defensive,TD,Jeremy McNichols,0
+400876096,Boise State,Mountain West,away,12,defensive,TD,Daniel Auelua,0
+400876096,Boise State,Mountain West,away,12,defensive,TD,Elliot Hoyte,0
+400876096,Boise State,Mountain West,away,12,defensive,TD,Thomas Sperbeck,0
+400876096,Boise State,Mountain West,away,12,defensive,TD,Alec Dhaenens,0
+400876096,Boise State,Mountain West,away,12,defensive,TD,Cameron Hartsfield,0
+400876096,Boise State,Mountain West,away,12,defensive,TD,Jonathan Moxey,0
+400876096,Boise State,Mountain West,away,12,defensive,TD,Jake Knight,0
+400876096,Boise State,Mountain West,away,12,defensive,TD,Bubba Ogbebor,0
+400876096,Boise State,Mountain West,away,12,defensive,TD,DeAndre Pierce,0
+400876096,Boise State,Mountain West,away,12,interceptions,INT,Chanceller James,1
+400876096,Boise State,Mountain West,away,12,interceptions,YDS,Chanceller James,0
+400876096,Boise State,Mountain West,away,12,interceptions,TD,Chanceller James,0
+400876096,Boise State,Mountain West,away,12,kickReturns,NO,Cedrick Wilson,4
+400876096,Boise State,Mountain West,away,12,kickReturns,YDS,Cedrick Wilson,70
+400876096,Boise State,Mountain West,away,12,kickReturns,AVG,Cedrick Wilson,17.5
+400876096,Boise State,Mountain West,away,12,kickReturns,LONG,Cedrick Wilson,23
+400876096,Boise State,Mountain West,away,12,kickReturns,TD,Cedrick Wilson,0
+400876096,Boise State,Mountain West,away,12,puntReturns,NO,Cedrick Wilson,2
+400876096,Boise State,Mountain West,away,12,puntReturns,YDS,Cedrick Wilson,6
+400876096,Boise State,Mountain West,away,12,puntReturns,AVG,Cedrick Wilson,3.0
+400876096,Boise State,Mountain West,away,12,puntReturns,LONG,Cedrick Wilson,6
+400876096,Boise State,Mountain West,away,12,puntReturns,TD,Cedrick Wilson,0
+400876096,Boise State,Mountain West,away,12,kicking,FG,Tyler Rausa,2/2
+400876096,Boise State,Mountain West,away,12,kicking,PCT,Tyler Rausa,100.0
+400876096,Boise State,Mountain West,away,12,kicking,LONG,Tyler Rausa,26
+400876096,Boise State,Mountain West,away,12,kicking,XP,Tyler Rausa,0/0
+400876096,Boise State,Mountain West,away,12,kicking,PTS,Tyler Rausa,6
+400876096,Boise State,Mountain West,away,12,punting,NO,Sean Wale,3
+400876096,Boise State,Mountain West,away,12,punting,YDS,Sean Wale,124
+400876096,Boise State,Mountain West,away,12,punting,AVG,Sean Wale,41.3
+400876096,Boise State,Mountain West,away,12,punting,TB,Sean Wale,0
+400876096,Boise State,Mountain West,away,12,punting,In 20,Sean Wale,0
+400876096,Boise State,Mountain West,away,12,punting,LONG,Sean Wale,45
+400876096,Baylor,Big 12,home,31,passing,C/ATT,Zach Smith,28/39
+400876096,Baylor,Big 12,home,31,passing,C/ATT,Terence Williams,1/1
+400876096,Baylor,Big 12,home,31,passing,YDS,Zach Smith,375
+400876096,Baylor,Big 12,home,31,passing,YDS,Terence Williams,0
+400876096,Baylor,Big 12,home,31,passing,AVG,Zach Smith,9.6
+400876096,Baylor,Big 12,home,31,passing,AVG,Terence Williams,0.0
+400876096,Baylor,Big 12,home,31,passing,TD,Zach Smith,3
+400876096,Baylor,Big 12,home,31,passing,TD,Terence Williams,0
+400876096,Baylor,Big 12,home,31,passing,INT,Zach Smith,1
+400876096,Baylor,Big 12,home,31,passing,INT,Terence Williams,0
+400876096,Baylor,Big 12,home,31,passing,QBR,Zach Smith,76.9
+400876096,Baylor,Big 12,home,31,passing,QBR,Terence Williams,9.5
+400876096,Baylor,Big 12,home,31,rushing,CAR,Terence Williams,25
+400876096,Baylor,Big 12,home,31,rushing,CAR,JaMycal Hasty,7
+400876096,Baylor,Big 12,home,31,rushing,CAR,Wyatt Schrepfer,2
+400876096,Baylor,Big 12,home,31,rushing,CAR,Zach Smith,7
+400876096,Baylor,Big 12,home,31,rushing,CAR,Jared Atkinson,1
+400876096,Baylor,Big 12,home,31,rushing,CAR,Lynx Hawthorne,1
+400876096,Baylor,Big 12,home,31,rushing,YDS,Terence Williams,103
+400876096,Baylor,Big 12,home,31,rushing,YDS,JaMycal Hasty,32
+400876096,Baylor,Big 12,home,31,rushing,YDS,Wyatt Schrepfer,3
+400876096,Baylor,Big 12,home,31,rushing,YDS,Zach Smith,2
+400876096,Baylor,Big 12,home,31,rushing,YDS,Jared Atkinson,1
+400876096,Baylor,Big 12,home,31,rushing,YDS,Lynx Hawthorne,-1
+400876096,Baylor,Big 12,home,31,rushing,AVG,Terence Williams,4.1
+400876096,Baylor,Big 12,home,31,rushing,AVG,JaMycal Hasty,4.6
+400876096,Baylor,Big 12,home,31,rushing,AVG,Wyatt Schrepfer,1.5
+400876096,Baylor,Big 12,home,31,rushing,AVG,Zach Smith,0.3
+400876096,Baylor,Big 12,home,31,rushing,AVG,Jared Atkinson,1.0
+400876096,Baylor,Big 12,home,31,rushing,AVG,Lynx Hawthorne,-1.0
+400876096,Baylor,Big 12,home,31,rushing,TD,Terence Williams,0
+400876096,Baylor,Big 12,home,31,rushing,TD,JaMycal Hasty,1
+400876096,Baylor,Big 12,home,31,rushing,TD,Wyatt Schrepfer,0
+400876096,Baylor,Big 12,home,31,rushing,TD,Zach Smith,0
+400876096,Baylor,Big 12,home,31,rushing,TD,Jared Atkinson,0
+400876096,Baylor,Big 12,home,31,rushing,TD,Lynx Hawthorne,0
+400876096,Baylor,Big 12,home,31,rushing,LONG,Terence Williams,14
+400876096,Baylor,Big 12,home,31,rushing,LONG,JaMycal Hasty,13
+400876096,Baylor,Big 12,home,31,rushing,LONG,Wyatt Schrepfer,3
+400876096,Baylor,Big 12,home,31,rushing,LONG,Zach Smith,3
+400876096,Baylor,Big 12,home,31,rushing,LONG,Jared Atkinson,1
+400876096,Baylor,Big 12,home,31,rushing,LONG,Lynx Hawthorne,0
+400876096,Baylor,Big 12,home,31,receiving,REC,KD Cannon,14
+400876096,Baylor,Big 12,home,31,receiving,REC,Chris Platt,6
+400876096,Baylor,Big 12,home,31,receiving,REC,Pooh Stricklin,2
+400876096,Baylor,Big 12,home,31,receiving,REC,Ishmael Zamora,5
+400876096,Baylor,Big 12,home,31,receiving,REC,Jared Atkinson,1
+400876096,Baylor,Big 12,home,31,receiving,REC,Zach Smith,1
+400876096,Baylor,Big 12,home,31,receiving,YDS,KD Cannon,226
+400876096,Baylor,Big 12,home,31,receiving,YDS,Chris Platt,82
+400876096,Baylor,Big 12,home,31,receiving,YDS,Pooh Stricklin,31
+400876096,Baylor,Big 12,home,31,receiving,YDS,Ishmael Zamora,23
+400876096,Baylor,Big 12,home,31,receiving,YDS,Jared Atkinson,10
+400876096,Baylor,Big 12,home,31,receiving,YDS,Zach Smith,3
+400876096,Baylor,Big 12,home,31,receiving,AVG,KD Cannon,16.1
+400876096,Baylor,Big 12,home,31,receiving,AVG,Chris Platt,13.7
+400876096,Baylor,Big 12,home,31,receiving,AVG,Pooh Stricklin,15.5
+400876096,Baylor,Big 12,home,31,receiving,AVG,Ishmael Zamora,4.6
+400876096,Baylor,Big 12,home,31,receiving,AVG,Jared Atkinson,10.0
+400876096,Baylor,Big 12,home,31,receiving,AVG,Zach Smith,3.0
+400876096,Baylor,Big 12,home,31,receiving,TD,KD Cannon,2
+400876096,Baylor,Big 12,home,31,receiving,TD,Chris Platt,0
+400876096,Baylor,Big 12,home,31,receiving,TD,Pooh Stricklin,0
+400876096,Baylor,Big 12,home,31,receiving,TD,Ishmael Zamora,1
+400876096,Baylor,Big 12,home,31,receiving,TD,Jared Atkinson,0
+400876096,Baylor,Big 12,home,31,receiving,TD,Zach Smith,0
+400876096,Baylor,Big 12,home,31,receiving,LONG,KD Cannon,68
+400876096,Baylor,Big 12,home,31,receiving,LONG,Chris Platt,30
+400876096,Baylor,Big 12,home,31,receiving,LONG,Pooh Stricklin,22
+400876096,Baylor,Big 12,home,31,receiving,LONG,Ishmael Zamora,14
+400876096,Baylor,Big 12,home,31,receiving,LONG,Jared Atkinson,10
+400876096,Baylor,Big 12,home,31,receiving,LONG,Zach Smith,3
+400876096,Baylor,Big 12,home,31,fumbles,FUM,Orion Stewart,0
+400876096,Baylor,Big 12,home,31,fumbles,LOST,Orion Stewart,0
+400876096,Baylor,Big 12,home,31,fumbles,REC,Orion Stewart,1
+400876096,Baylor,Big 12,home,31,defensive,TOT,Taylor Young,17
+400876096,Baylor,Big 12,home,31,defensive,TOT,Aiavion Edwards,11
+400876096,Baylor,Big 12,home,31,defensive,TOT,Grayland Arnold,9
+400876096,Baylor,Big 12,home,31,defensive,TOT,Orion Stewart,5
+400876096,Baylor,Big 12,home,31,defensive,TOT,Tyrone Hunt,5
+400876096,Baylor,Big 12,home,31,defensive,TOT,K.J. Smith,4
+400876096,Baylor,Big 12,home,31,defensive,TOT,Clay Johnston,4
+400876096,Baylor,Big 12,home,31,defensive,TOT,Travon Blanchard,3
+400876096,Baylor,Big 12,home,31,defensive,TOT,Chance Waz,3
+400876096,Baylor,Big 12,home,31,defensive,TOT,Greg Roberts,3
+400876096,Baylor,Big 12,home,31,defensive,TOT,Patrick Levels,2
+400876096,Baylor,Big 12,home,31,defensive,TOT,Ryan Reid,2
+400876096,Baylor,Big 12,home,31,defensive,TOT,Tion Wright,2
+400876096,Baylor,Big 12,home,31,defensive,TOT,Jamie Jacobs,2
+400876096,Baylor,Big 12,home,31,defensive,TOT,Ira Lewis,2
+400876096,Baylor,Big 12,home,31,defensive,TOT,Davion Hall,1
+400876096,Baylor,Big 12,home,31,defensive,TOT,Tyler Jaynes,1
+400876096,Baylor,Big 12,home,31,defensive,TOT,Jameson Houston,1
+400876096,Baylor,Big 12,home,31,defensive,TOT,Lenoy Jones Jr.,1
+400876096,Baylor,Big 12,home,31,defensive,SOLO,Taylor Young,12
+400876096,Baylor,Big 12,home,31,defensive,SOLO,Aiavion Edwards,10
+400876096,Baylor,Big 12,home,31,defensive,SOLO,Grayland Arnold,8
+400876096,Baylor,Big 12,home,31,defensive,SOLO,Orion Stewart,5
+400876096,Baylor,Big 12,home,31,defensive,SOLO,Tyrone Hunt,4
+400876096,Baylor,Big 12,home,31,defensive,SOLO,K.J. Smith,2
+400876096,Baylor,Big 12,home,31,defensive,SOLO,Clay Johnston,1
+400876096,Baylor,Big 12,home,31,defensive,SOLO,Travon Blanchard,3
+400876096,Baylor,Big 12,home,31,defensive,SOLO,Chance Waz,3
+400876096,Baylor,Big 12,home,31,defensive,SOLO,Greg Roberts,2
+400876096,Baylor,Big 12,home,31,defensive,SOLO,Patrick Levels,2
+400876096,Baylor,Big 12,home,31,defensive,SOLO,Ryan Reid,2
+400876096,Baylor,Big 12,home,31,defensive,SOLO,Tion Wright,2
+400876096,Baylor,Big 12,home,31,defensive,SOLO,Jamie Jacobs,2
+400876096,Baylor,Big 12,home,31,defensive,SOLO,Ira Lewis,2
+400876096,Baylor,Big 12,home,31,defensive,SOLO,Davion Hall,1
+400876096,Baylor,Big 12,home,31,defensive,SOLO,Tyler Jaynes,1
+400876096,Baylor,Big 12,home,31,defensive,SOLO,Jameson Houston,1
+400876096,Baylor,Big 12,home,31,defensive,SOLO,Lenoy Jones Jr.,1
+400876096,Baylor,Big 12,home,31,defensive,SACKS,Taylor Young,0
+400876096,Baylor,Big 12,home,31,defensive,SACKS,Aiavion Edwards,0
+400876096,Baylor,Big 12,home,31,defensive,SACKS,Grayland Arnold,0
+400876096,Baylor,Big 12,home,31,defensive,SACKS,Orion Stewart,1
+400876096,Baylor,Big 12,home,31,defensive,SACKS,Tyrone Hunt,2
+400876096,Baylor,Big 12,home,31,defensive,SACKS,K.J. Smith,1
+400876096,Baylor,Big 12,home,31,defensive,SACKS,Clay Johnston,0
+400876096,Baylor,Big 12,home,31,defensive,SACKS,Travon Blanchard,0
+400876096,Baylor,Big 12,home,31,defensive,SACKS,Chance Waz,0
+400876096,Baylor,Big 12,home,31,defensive,SACKS,Greg Roberts,0
+400876096,Baylor,Big 12,home,31,defensive,SACKS,Patrick Levels,0
+400876096,Baylor,Big 12,home,31,defensive,SACKS,Ryan Reid,0
+400876096,Baylor,Big 12,home,31,defensive,SACKS,Tion Wright,0
+400876096,Baylor,Big 12,home,31,defensive,SACKS,Jamie Jacobs,0
+400876096,Baylor,Big 12,home,31,defensive,SACKS,Ira Lewis,0
+400876096,Baylor,Big 12,home,31,defensive,SACKS,Davion Hall,0
+400876096,Baylor,Big 12,home,31,defensive,SACKS,Tyler Jaynes,0
+400876096,Baylor,Big 12,home,31,defensive,SACKS,Jameson Houston,0
+400876096,Baylor,Big 12,home,31,defensive,SACKS,Lenoy Jones Jr.,0
+400876096,Baylor,Big 12,home,31,defensive,TFL,Taylor Young,0
+400876096,Baylor,Big 12,home,31,defensive,TFL,Aiavion Edwards,0
+400876096,Baylor,Big 12,home,31,defensive,TFL,Grayland Arnold,2
+400876096,Baylor,Big 12,home,31,defensive,TFL,Orion Stewart,2
+400876096,Baylor,Big 12,home,31,defensive,TFL,Tyrone Hunt,2
+400876096,Baylor,Big 12,home,31,defensive,TFL,K.J. Smith,1.5
+400876096,Baylor,Big 12,home,31,defensive,TFL,Clay Johnston,0.5
+400876096,Baylor,Big 12,home,31,defensive,TFL,Travon Blanchard,0
+400876096,Baylor,Big 12,home,31,defensive,TFL,Chance Waz,0
+400876096,Baylor,Big 12,home,31,defensive,TFL,Greg Roberts,1
+400876096,Baylor,Big 12,home,31,defensive,TFL,Patrick Levels,0
+400876096,Baylor,Big 12,home,31,defensive,TFL,Ryan Reid,0
+400876096,Baylor,Big 12,home,31,defensive,TFL,Tion Wright,0
+400876096,Baylor,Big 12,home,31,defensive,TFL,Jamie Jacobs,0
+400876096,Baylor,Big 12,home,31,defensive,TFL,Ira Lewis,0
+400876096,Baylor,Big 12,home,31,defensive,TFL,Davion Hall,0
+400876096,Baylor,Big 12,home,31,defensive,TFL,Tyler Jaynes,0
+400876096,Baylor,Big 12,home,31,defensive,TFL,Jameson Houston,0
+400876096,Baylor,Big 12,home,31,defensive,TFL,Lenoy Jones Jr.,0
+400876096,Baylor,Big 12,home,31,defensive,PD,Taylor Young,0
+400876096,Baylor,Big 12,home,31,defensive,PD,Aiavion Edwards,0
+400876096,Baylor,Big 12,home,31,defensive,PD,Grayland Arnold,0
+400876096,Baylor,Big 12,home,31,defensive,PD,Orion Stewart,1
+400876096,Baylor,Big 12,home,31,defensive,PD,Tyrone Hunt,0
+400876096,Baylor,Big 12,home,31,defensive,PD,K.J. Smith,0
+400876096,Baylor,Big 12,home,31,defensive,PD,Clay Johnston,0
+400876096,Baylor,Big 12,home,31,defensive,PD,Travon Blanchard,0
+400876096,Baylor,Big 12,home,31,defensive,PD,Chance Waz,0
+400876096,Baylor,Big 12,home,31,defensive,PD,Greg Roberts,1
+400876096,Baylor,Big 12,home,31,defensive,PD,Patrick Levels,0
+400876096,Baylor,Big 12,home,31,defensive,PD,Ryan Reid,1
+400876096,Baylor,Big 12,home,31,defensive,PD,Tion Wright,0
+400876096,Baylor,Big 12,home,31,defensive,PD,Jamie Jacobs,0
+400876096,Baylor,Big 12,home,31,defensive,PD,Ira Lewis,0
+400876096,Baylor,Big 12,home,31,defensive,PD,Davion Hall,0
+400876096,Baylor,Big 12,home,31,defensive,PD,Tyler Jaynes,0
+400876096,Baylor,Big 12,home,31,defensive,PD,Jameson Houston,0
+400876096,Baylor,Big 12,home,31,defensive,PD,Lenoy Jones Jr.,0
+400876096,Baylor,Big 12,home,31,defensive,QB HUR,Taylor Young,0
+400876096,Baylor,Big 12,home,31,defensive,QB HUR,Aiavion Edwards,0
+400876096,Baylor,Big 12,home,31,defensive,QB HUR,Grayland Arnold,0
+400876096,Baylor,Big 12,home,31,defensive,QB HUR,Orion Stewart,0
+400876096,Baylor,Big 12,home,31,defensive,QB HUR,Tyrone Hunt,0
+400876096,Baylor,Big 12,home,31,defensive,QB HUR,K.J. Smith,0
+400876096,Baylor,Big 12,home,31,defensive,QB HUR,Clay Johnston,0
+400876096,Baylor,Big 12,home,31,defensive,QB HUR,Travon Blanchard,0
+400876096,Baylor,Big 12,home,31,defensive,QB HUR,Chance Waz,0
+400876096,Baylor,Big 12,home,31,defensive,QB HUR,Greg Roberts,0
+400876096,Baylor,Big 12,home,31,defensive,QB HUR,Patrick Levels,0
+400876096,Baylor,Big 12,home,31,defensive,QB HUR,Ryan Reid,0
+400876096,Baylor,Big 12,home,31,defensive,QB HUR,Tion Wright,0
+400876096,Baylor,Big 12,home,31,defensive,QB HUR,Jamie Jacobs,0
+400876096,Baylor,Big 12,home,31,defensive,QB HUR,Ira Lewis,0
+400876096,Baylor,Big 12,home,31,defensive,QB HUR,Davion Hall,0
+400876096,Baylor,Big 12,home,31,defensive,QB HUR,Tyler Jaynes,0
+400876096,Baylor,Big 12,home,31,defensive,QB HUR,Jameson Houston,0
+400876096,Baylor,Big 12,home,31,defensive,QB HUR,Lenoy Jones Jr.,0
+400876096,Baylor,Big 12,home,31,defensive,TD,Taylor Young,0
+400876096,Baylor,Big 12,home,31,defensive,TD,Aiavion Edwards,0
+400876096,Baylor,Big 12,home,31,defensive,TD,Grayland Arnold,0
+400876096,Baylor,Big 12,home,31,defensive,TD,Orion Stewart,0
+400876096,Baylor,Big 12,home,31,defensive,TD,Tyrone Hunt,0
+400876096,Baylor,Big 12,home,31,defensive,TD,K.J. Smith,0
+400876096,Baylor,Big 12,home,31,defensive,TD,Clay Johnston,0
+400876096,Baylor,Big 12,home,31,defensive,TD,Travon Blanchard,0
+400876096,Baylor,Big 12,home,31,defensive,TD,Chance Waz,0
+400876096,Baylor,Big 12,home,31,defensive,TD,Greg Roberts,0
+400876096,Baylor,Big 12,home,31,defensive,TD,Patrick Levels,0
+400876096,Baylor,Big 12,home,31,defensive,TD,Ryan Reid,0
+400876096,Baylor,Big 12,home,31,defensive,TD,Tion Wright,0
+400876096,Baylor,Big 12,home,31,defensive,TD,Jamie Jacobs,0
+400876096,Baylor,Big 12,home,31,defensive,TD,Ira Lewis,0
+400876096,Baylor,Big 12,home,31,defensive,TD,Davion Hall,0
+400876096,Baylor,Big 12,home,31,defensive,TD,Tyler Jaynes,0
+400876096,Baylor,Big 12,home,31,defensive,TD,Jameson Houston,0
+400876096,Baylor,Big 12,home,31,defensive,TD,Lenoy Jones Jr.,0
+400876096,Baylor,Big 12,home,31,interceptions,INT,Travon Blanchard,1
+400876096,Baylor,Big 12,home,31,interceptions,INT,Orion Stewart,1
+400876096,Baylor,Big 12,home,31,interceptions,YDS,Travon Blanchard,14
+400876096,Baylor,Big 12,home,31,interceptions,YDS,Orion Stewart,1
+400876096,Baylor,Big 12,home,31,interceptions,TD,Travon Blanchard,0
+400876096,Baylor,Big 12,home,31,interceptions,TD,Orion Stewart,0
+400876096,Baylor,Big 12,home,31,kickReturns,NO,Tony Nicholson,1
+400876096,Baylor,Big 12,home,31,kickReturns,NO,Denzel Mims,1
+400876096,Baylor,Big 12,home,31,kickReturns,YDS,Tony Nicholson,22
+400876096,Baylor,Big 12,home,31,kickReturns,YDS,Denzel Mims,18
+400876096,Baylor,Big 12,home,31,kickReturns,AVG,Tony Nicholson,22.0
+400876096,Baylor,Big 12,home,31,kickReturns,AVG,Denzel Mims,18.0
+400876096,Baylor,Big 12,home,31,kickReturns,LONG,Tony Nicholson,22
+400876096,Baylor,Big 12,home,31,kickReturns,LONG,Denzel Mims,18
+400876096,Baylor,Big 12,home,31,kickReturns,TD,Tony Nicholson,0
+400876096,Baylor,Big 12,home,31,kickReturns,TD,Denzel Mims,0
+400876096,Baylor,Big 12,home,31,puntReturns,NO,Tony Nicholson,1
+400876096,Baylor,Big 12,home,31,puntReturns,YDS,Tony Nicholson,14
+400876096,Baylor,Big 12,home,31,puntReturns,AVG,Tony Nicholson,14.0
+400876096,Baylor,Big 12,home,31,puntReturns,LONG,Tony Nicholson,14
+400876096,Baylor,Big 12,home,31,puntReturns,TD,Tony Nicholson,0
+400876096,Baylor,Big 12,home,31,kicking,FG,Chris Callahan,1/1
+400876096,Baylor,Big 12,home,31,kicking,PCT,Chris Callahan,100.0
+400876096,Baylor,Big 12,home,31,kicking,LONG,Chris Callahan,34
+400876096,Baylor,Big 12,home,31,kicking,XP,Chris Callahan,4/4
+400876096,Baylor,Big 12,home,31,kicking,PTS,Chris Callahan,7
+400876096,Baylor,Big 12,home,31,punting,NO,Drew Galitz,2
+400876096,Baylor,Big 12,home,31,punting,YDS,Drew Galitz,96
+400876096,Baylor,Big 12,home,31,punting,AVG,Drew Galitz,48.0
+400876096,Baylor,Big 12,home,31,punting,TB,Drew Galitz,0
+400876096,Baylor,Big 12,home,31,punting,In 20,Drew Galitz,0
+400876096,Baylor,Big 12,home,31,punting,LONG,Drew Galitz,62
