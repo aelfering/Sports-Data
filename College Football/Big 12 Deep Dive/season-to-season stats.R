@@ -338,4 +338,144 @@ offensive_drive <- offensiveLine_stats %>%
          pct_sacks = sacks_allowed/attempts)
 
 
-####
+####  Who leads the Big 12 in rushing stats in a single season? ####
+head(player_stats_with_dates)
+
+player_stats_with_dates %>%
+  filter(conference == 'Big 12',
+         stat_category == 'rushing') %>%
+  distinct(stat_category, 
+           stat_type)
+
+player_stats_with_dates %>%
+  filter(conference == 'Big 12',
+         stat_category == 'rushing',
+         stat_type == 'YDS') %>%
+  mutate(stat = as.character(stat),
+         stat = as.integer(stat)) %>%
+  group_by(season,
+           school,
+           athlete) %>%
+  summarise(YDS = sum(stat)) %>%
+  ungroup() %>%
+  arrange(season,
+          desc(YDS))
+
+player_stats_with_dates %>%
+  filter(conference == 'Big 12',
+         stat_category == 'rushing',
+         stat_type == 'TD') %>%
+  mutate(stat = as.character(stat),
+         stat = as.integer(stat)) %>%
+  group_by(season,
+           school,
+           athlete) %>%
+  summarise(TDS = sum(stat)) %>%
+  ungroup() %>%
+  arrange(season,
+          desc(TDS))
+
+player_stats_with_dates %>%
+  filter(conference == 'Big 12',
+         stat_category == 'rushing',
+         stat_type == 'CAR') %>%
+  mutate(stat = as.character(stat),
+         stat = as.integer(stat)) %>%
+  group_by(season,
+           school,
+           athlete) %>%
+  summarise(CAR = sum(stat)) %>%
+  ungroup() %>%
+  arrange(season,
+          desc(CAR))
+
+####  Who leads the Big 12 in touchdown passes in a single season?  ####
+head(player_stats_with_dates)
+
+# Which players lead in passing TDs and for the most recent season?
+player_passingTDs <- player_stats_with_dates %>%
+  filter(stat_category == 'passing',
+         stat_type == 'TD',
+         conference == 'Big 12') %>%
+  mutate(stat = as.character(stat),
+         stat = as.integer(stat)) %>%
+  group_by(season, 
+           school,
+           athlete) %>%
+  summarise(PassingTDs = sum(stat)) %>%
+  ungroup() %>%
+  arrange(desc(PassingTDs))
+
+top_season_TD_players <- player_passingTDs %>%
+  filter(season == max(season)) %>%
+  mutate(rank = dense_rank(desc(PassingTDs))) %>%
+  filter(rank <= 10)
+
+top_season_TD <- max(top_season_TD_players$season)
+top_players_TD <- as.character(top_season_TD_players$athlete)
+
+# Which players lead in passing TDs and for the most recent season?
+player_passingINT <- player_stats_with_dates %>%
+  filter(stat_category == 'passing',
+         stat_type == 'INT',
+         conference == 'Big 12') %>%
+  mutate(stat = as.character(stat),
+         stat = as.integer(stat)) %>%
+  group_by(season, 
+           school, 
+           athlete) %>%
+  summarise(INT = sum(stat)) %>%
+  ungroup() %>%
+  arrange(desc(INT))
+
+top_season_INT_players <- player_passingINT %>%
+  filter(season == max(season)) %>%
+  mutate(rank = dense_rank(desc(INT))) %>%
+  filter(rank <= 10)
+
+# How many passing completions and attempts did each player have?
+str(player_stats_with_dates)
+
+player_cmpAtt <- dplyr::filter(player_stats_with_dates, conference == 'Big 12', stat_type == 'C/ATT') 
+player_cmpAtt_sep <- separate(player_cmpAtt, stat, into = c('completions', 'attempts'), sep = "\\/")
+
+str(player_cmpAtt_sep)
+
+player_cmpAtt_sum <- player_cmpAtt_sep %>%
+  mutate(completions = as.integer(completions),
+         attempts = as.integer(attempts)) %>%
+  group_by(season,
+           school,
+           athlete) %>%
+  summarise(completions = sum(completions),
+            attempts = sum(attempts)) %>%
+  ungroup()
+
+# How many yards did each player go for?
+player_passing_yds <- player_stats_with_dates %>%
+  filter(stat_category == 'passing',
+         stat_type == 'YDS',
+         conference == 'Big 12') %>%
+  mutate(stat = as.character(stat),
+         stat = as.integer(stat)) %>%
+  group_by(season,
+           school,
+           athlete) %>%
+  summarise(YDS = sum(stat)) %>%
+  ungroup() %>%
+  arrange(season, 
+          desc(YDS))
+
+# What is the touchdown-interception ratio for these players?
+
+player_td_int <- inner_join(player_passingTDs, player_passingINT, by = c('season' = 'season', 'school' = 'school', 'athlete' = 'athlete'))
+player_td_int_passes <- inner_join(player_td_int, player_cmpAtt_sum, by = c('season' = 'season', 'school' = 'school', 'athlete' = 'athlete'))
+player_td_int_passes_yds <- inner_join(player_td_int_passes, player_passing_yds, by = c('season' = 'season', 'school' = 'school', 'athlete' = 'athlete')) 
+
+player_td_int_ratio <- player_td_int_passes_yds %>%
+  mutate(ratio = PassingTDs/INT,
+         percent_TDs = PassingTDs/attempts,
+         percent_INT = INT/attempts,
+         yds_attempt = YDS/attempts) %>%
+  arrange(season,
+          desc(PassingTDs))
