@@ -339,6 +339,8 @@ offensive_drive <- offensiveLine_stats %>%
 
 
 ####  Who leads the Big 12 in rushing stats in a single season? ####
+# Finding yards, touchdowns, and carries
+
 head(player_stats_with_dates)
 
 player_stats_with_dates %>%
@@ -347,7 +349,7 @@ player_stats_with_dates %>%
   distinct(stat_category, 
            stat_type)
 
-player_stats_with_dates %>%
+player_rushing_yds <- player_stats_with_dates %>%
   filter(conference == 'Big 12',
          stat_category == 'rushing',
          stat_type == 'YDS') %>%
@@ -361,7 +363,7 @@ player_stats_with_dates %>%
   arrange(season,
           desc(YDS))
 
-player_stats_with_dates %>%
+player_rushing_tds <- player_stats_with_dates %>%
   filter(conference == 'Big 12',
          stat_category == 'rushing',
          stat_type == 'TD') %>%
@@ -375,7 +377,7 @@ player_stats_with_dates %>%
   arrange(season,
           desc(TDS))
 
-player_stats_with_dates %>%
+player_rushing_carries <- player_stats_with_dates %>%
   filter(conference == 'Big 12',
          stat_category == 'rushing',
          stat_type == 'CAR') %>%
@@ -388,6 +390,19 @@ player_stats_with_dates %>%
   ungroup() %>%
   arrange(season,
           desc(CAR))
+
+player_rushing_yds_tds <- inner_join(player_rushing_yds, player_rushing_tds, by = c('season' = 'season', 'athlete' = 'athlete', 'school' = 'school'))
+player_rushing_yds_tds_cars <- inner_join(player_rushing_yds_tds, player_rushing_carries, by = c('season' = 'season', 'athlete' = 'athlete', 'school' = 'school'))
+
+player_rushing_stats <- player_rushing_yds_tds_cars %>%
+  select(season,
+         school,
+         athlete,
+         rushing_yds = YDS,
+         rushing_tds = TDS,
+         rushing_att = CAR) %>%
+  mutate(yds_att = rushing_yds/rushing_att,
+         rushing_td_att = rushing_tds/rushing_att)
 
 ####  Who leads the Big 12 in touchdown passes in a single season?  ####
 head(player_stats_with_dates)
@@ -477,5 +492,25 @@ player_td_int_ratio <- player_td_int_passes_yds %>%
          percent_TDs = PassingTDs/attempts,
          percent_INT = INT/attempts,
          yds_attempt = YDS/attempts) %>%
+  filter(attempts >= 100) %>%
   arrange(season,
-          desc(PassingTDs))
+          desc(PassingTDs)) %>%
+  select(season,
+         school,
+         athlete,
+         passing_td = PassingTDs,
+         passing_int = INT,
+         passing_cmp = completions,
+         passing_att = attempts,
+         passing_yds = YDS,
+         passing_ratio = ratio,
+         passing_pct_touchdowns = percent_TDs,
+         passing_pct_int = percent_INT,
+         passing_yds_attempt = yds_attempt)
+         
+         
+         
+
+
+
+
