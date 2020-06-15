@@ -13,9 +13,11 @@ setwd("~/Documents/GitHub/Sports-Data/College Football/Big 12 Deep Dive")
 # List the schedule and team statistics files
 schedules <- list.files("~/Documents/GitHub/Sports-Data/College Football/Big 12 Deep Dive/Schedules", pattern = "*.csv", full.names = TRUE)
 team_stats <- list.files("~/Documents/GitHub/Sports-Data/College Football/Big 12 Deep Dive/Team Stats", pattern = "*.csv", full.names = TRUE)
+player_stats <- list.files("~/Documents/GitHub/Sports-Data/College Football/Big 12 Deep Dive/Player Stats", pattern = "*.csv", full.names = TRUE)
 
 schedules_df <- as.data.frame(rbindlist(lapply(schedules, fread)))
 team_stats_df <- as.data.frame(rbindlist(lapply(team_stats, fread)))
+player_stats_df <- as.data.frame(rbindlist(lapply(player_stats, fread))) 
 
 # Clean the schedule data.frame
 head(schedules_df)
@@ -32,6 +34,7 @@ schedule_dates <- schedules_df %>%
 
 # join the schedules data frame with stats
 team_stats_with_dates <- inner_join(schedule_dates, team_stats_df, by = c('game_id' = 'game_id'))
+player_stats_with_dates <- inner_join(schedule_dates, player_stats_df, by = c('game_id' = 'game_id'))
 
 ####  Recreate wins and losses to validate the data  ####
 team_points <- team_stats_with_dates %>%
@@ -160,12 +163,12 @@ ggplot(ratio_calc,
 
 ####  What is the conversion rate on the third and fourth down by team each season? ####
 downs <- team_stats_with_dates %>%
-  filter(stat_category %in% c('thirdDownEff', 'fourthDownEff'),
-         conference == 'Big 12') %>%
+  filter(stat_category %in% c('thirdDownEff')) %>%
   select(game_id,
          season,
          date,
          school,
+         conference,
          stat_category,
          stat)
 
@@ -190,6 +193,49 @@ ggplot(downs_sum,
   geom_bar(stat = 'identity',
            position = 'identity') +
   facet_wrap(~school)
+
+# What was the third and fourth down conversion by game?
+big_12_downs <- downs_sep %>%
+  filter(conference == 'Big 12') %>%
+  mutate(conversions = as.character(conversions),
+         conversions = as.integer(conversions),
+         attempts = as.character(attempts),
+         attempts = as.integer(attempts)) %>%
+  group_by(season,
+           school,
+           game_id,
+           date) %>%
+  summarise(conversions = sum(conversions),
+            attempts = sum(attempts)) %>%
+  ungroup() %>%
+  mutate(pct_conversion = conversions/attempts)
+
+opp_downs <- downs_sep %>%
+  mutate(conversions = as.character(conversions),
+         conversions = as.integer(conversions),
+         attempts = as.character(attempts),
+         attempts = as.integer(attempts)) %>%
+  group_by(season,
+           school,
+           game_id,
+           date) %>%
+  summarise(conversions = sum(conversions),
+            attempts = sum(attempts)) %>%
+  ungroup() %>%
+  mutate(pct_conversion = conversions/attempts)
+
+school_opp_downs <- inner_join(big_12_downs, opp_downs, by = c('game_id' = 'game_id', 'date' = 'date'))
+
+big_12_downs_compare <- school_opp_downs %>%
+  filter(school.x != school.y) %>%
+  select(school = school.x,
+         opponent = school.y,
+         game_id,
+         date,
+         school_conversions = pct_conversion.x,
+         opp_conversions = pct_conversion.y) %>%
+  mutate(diff = school_conversions-opp_conversions)
+
 ####  What is the completion rate of passes? How does that relate to ratio of interceptions and sacks per attempt?  ####
 head(team_stats_with_dates)
 
