@@ -109,39 +109,68 @@ total_first_downs <- full_big_12_stats_dates %>%
 # Tom Osborne talked about 45% conversion rate for success
 
 downs <- full_big_12_stats_dates %>%
-  filter(conference == 'Big 12') %>%
+  #filter(conference == 'Big 12') %>%
   filter(stat_category %in% c('fourthDownEff', 'thirdDownEff'))
 
-downs_sep <- separate(data = mark1, col = stat, into = c("conversions", "attempts"), sep = "\\-")
+downs_sep <- separate(data = downs, col = stat, into = c("conversions", "attempts"), sep = "\\-")
 
-downs_conversion_games <- downs_sep %>%
+# summary of conversions on third and fourth downs
+downs_conversion_pct <- downs_sep %>%
+  filter(conference == 'Big 12') %>%
   mutate(conversions = as.character(conversions),
          conversions = as.integer(conversions),
          attempts = as.character(attempts),
          attempts = as.integer(attempts)) %>%
   group_by(school,
+           stat_category) %>%
+  summarise(conversions = sum(conversions),
+            attempts = sum(attempts)) %>%
+  ungroup() %>%
+  mutate(pct_conversion = conversions/attempts) %>%
+  arrange(desc(stat_category),
+          desc(pct_conversion))
+
+# conversions by game
+big_12_downs <- downs_sep %>%
+  filter(conference == 'Big 12') %>%
+  mutate(conversions = as.character(conversions),
+         conversions = as.integer(conversions),
+         attempts = as.character(attempts),
+         attempts = as.integer(attempts)) %>%
+  group_by(school,
+           game_id,
            date,
            stat_category) %>%
   summarise(conversions = sum(conversions),
             attempts = sum(attempts)) %>%
   ungroup() %>%
-  mutate(pct_conversion = conversions/attempts) %>%
-  arrange(desc(stat_category),
-          desc(pct_conversion))
+  mutate(pct_conversion = conversions/attempts)
 
-downs_conversion_pct <- downs_sep %>%
+opp_downs <- downs_sep %>%
   mutate(conversions = as.character(conversions),
          conversions = as.integer(conversions),
          attempts = as.character(attempts),
          attempts = as.integer(attempts)) %>%
   group_by(school,
+           game_id,
+           date,
            stat_category) %>%
   summarise(conversions = sum(conversions),
             attempts = sum(attempts)) %>%
   ungroup() %>%
-  mutate(pct_conversion = conversions/attempts) %>%
-  arrange(desc(stat_category),
-          desc(pct_conversion))
+  mutate(pct_conversion = conversions/attempts)
+
+school_opp_downs <- inner_join(big_12_downs, opp_downs, by = c('game_id' = 'game_id', 'date' = 'date', "stat_category" = "stat_category"))
+
+big_12_downs_compare <- school_opp_downs %>%
+  filter(school.x != school.y) %>%
+  select(school = school.x,
+         opponent = school.y,
+         game_id,
+         date,
+         stat_category,
+         school_conversions = pct_conversion.x,
+         opp_conversions = pct_conversion.y)
 
 # How many completions did each team make for every attempt?
 completionAttempts <- full_big_12_stats %>%
