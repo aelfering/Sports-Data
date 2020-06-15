@@ -1,4 +1,5 @@
 # More complex Big 12 Deep Dive
+# Since the Big 12 expanded to include Texas Christian and West Virginia
 
 library(ggplot2)
 library(dplyr)
@@ -336,3 +337,5 @@ offensive_drive <- offensiveLine_stats %>%
          pct_touchdowns = passingTDs/attempts,
          pct_sacks = sacks_allowed/attempts)
 
+
+####
