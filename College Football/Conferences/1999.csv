@@ -1,0 +1,115 @@
+year,team,conference,division,total.games,total.wins,total.losses,total.ties,conferenceGames.games,conferenceGames.wins,conferenceGames.losses,conferenceGames.ties,homeGames.games,homeGames.wins,homeGames.losses,homeGames.ties,awayGames.games,awayGames.wins,awayGames.losses,awayGames.ties
+1999,Air Force,Mountain West,,11,6,5,0,7,2,5,0,5,3,2,0,6,3,3,0
+1999,Akron,Mid-American,East,11,7,4,0,8,5,3,0,5,4,1,0,6,3,3,0
+1999,Alabama,SEC,West,13,10,3,0,9,8,1,0,7,5,2,0,4,4,0,0
+1999,Arizona,Pac-10,,12,6,6,0,8,3,5,0,6,3,3,0,6,3,3,0
+1999,Arizona State,Pac-10,,12,6,6,0,8,5,3,0,6,4,2,0,5,2,3,0
+1999,Arkansas,SEC,West,12,8,4,0,8,4,4,0,6,6,0,0,5,1,4,0
+1999,Arkansas State,Big West,,11,4,7,0,5,2,3,0,5,3,2,0,6,1,5,0
+1999,Army,Conference USA,,11,3,8,0,6,1,5,0,6,3,3,0,5,0,5,0
+1999,Auburn,SEC,West,11,5,6,0,8,2,6,0,7,3,4,0,4,2,2,0
+1999,Ball State,Mid-American,West,11,0,11,0,8,0,8,0,4,0,4,0,7,0,7,0
+1999,Baylor,Big 12,South,11,1,10,0,8,0,8,0,6,1,5,0,5,0,5,0
+1999,Boise State,Big West,,13,10,3,0,6,5,1,0,7,7,0,0,5,2,3,0
+1999,Boston College,Big East,,12,8,4,0,7,4,3,0,5,4,1,0,6,4,2,0
+1999,Bowling Green,Mid-American,East,11,5,6,0,8,3,5,0,5,4,1,0,6,1,5,0
+1999,Buffalo,Mid-American,East,11,0,11,0,8,0,8,0,5,0,5,0,6,0,6,0
+1999,BYU,Mountain West,,12,8,4,0,7,5,2,0,6,4,2,0,5,4,1,0
+1999,California,Pac-10,,11,4,7,0,8,3,5,0,5,3,2,0,6,1,5,0
+1999,Central Michigan,Mid-American,West,11,4,7,0,8,3,5,0,5,2,3,0,6,2,4,0
+1999,Cincinnati,Conference USA,,11,3,8,0,6,0,6,0,6,2,4,0,5,1,4,0
+1999,Clemson,ACC,,12,6,6,0,8,5,3,0,5,3,2,0,6,3,3,0
+1999,Colorado,Big 12,North,12,7,5,0,8,5,3,0,5,4,1,0,6,2,4,0
+1999,Colorado State,Mountain West,,12,8,4,0,7,5,2,0,6,5,1,0,5,3,2,0
+1999,Duke,ACC,,11,3,8,0,8,3,5,0,5,1,4,0,6,2,4,0
+1999,East Carolina,Conference USA,,12,9,3,0,6,4,2,0,7,6,1,0,4,3,1,0
+1999,Eastern Michigan,Mid-American,West,11,4,7,0,8,4,4,0,4,3,1,0,7,1,6,0
+1999,Florida,SEC,East,13,9,4,0,9,7,2,0,7,5,2,0,4,4,0,0
+1999,Florida State,ACC,,12,12,0,0,8,8,0,0,7,7,0,0,4,4,0,0
+1999,Fresno State,Western Athletic,,13,8,5,0,7,5,2,0,6,6,0,0,6,2,4,0
+1999,Georgia,SEC,East,12,8,4,0,8,5,3,0,6,5,1,0,5,2,3,0
+1999,Georgia Tech,ACC,,12,8,4,0,8,5,3,0,6,6,0,0,5,2,3,0
+1999,Hawai'i,Western Athletic,,13,9,4,0,7,5,2,0,9,5,4,0,3,3,0,0
+1999,Houston,Conference USA,,11,7,4,0,6,3,3,0,5,4,1,0,6,3,3,0
+1999,Idaho,Big West,,11,7,4,0,6,4,2,0,5,4,1,0,6,3,3,0
+1999,Illinois,Big Ten,,12,8,4,0,8,4,4,0,6,3,3,0,5,4,1,0
+1999,Indiana,Big Ten,,11,4,7,0,8,3,5,0,7,3,4,0,4,1,3,0
+1999,Iowa,Big Ten,,11,1,10,0,8,0,8,0,6,1,5,0,5,0,5,0
+1999,Iowa State,Big 12,North,11,4,7,0,8,1,7,0,6,2,4,0,5,2,3,0
+1999,Kansas,Big 12,North,12,5,7,0,8,3,5,0,7,5,2,0,5,0,5,0
+1999,Kansas State,Big 12,North,12,11,1,0,8,7,1,0,7,7,0,0,4,3,1,0
+1999,Kent State,Mid-American,East,11,2,9,0,8,2,6,0,5,2,3,0,6,0,6,0
+1999,Kentucky,SEC,East,12,6,6,0,8,4,4,0,6,3,3,0,5,3,2,0
+1999,Louisiana,FBS Independents,,11,2,9,0,3,1,2,0,5,2,3,0,6,0,6,0
+1999,Louisiana Monroe,FBS Independents,,11,5,6,0,3,2,1,0,4,3,1,0,7,2,5,0
+1999,Louisiana Tech,FBS Independents,,11,8,3,0,4,4,0,0,4,3,1,0,7,5,2,0
+1999,Louisville,Conference USA,,12,7,5,0,6,4,2,0,7,4,3,0,4,3,1,0
+1999,LSU,SEC,West,11,3,8,0,8,1,7,0,7,3,4,0,4,0,4,0
+1999,Marshall,Mid-American,East,13,13,0,0,9,9,0,0,6,6,0,0,5,5,0,0
+1999,Maryland,ACC,,11,5,6,0,8,2,6,0,6,3,3,0,5,2,3,0
+1999,Memphis,Conference USA,,11,5,6,0,6,4,2,0,6,2,4,0,5,3,2,0
+1999,Miami,Big East,,13,9,4,0,7,6,1,0,7,6,1,0,5,2,3,0
+1999,Miami (OH),Mid-American,East,11,7,4,0,8,6,2,0,5,3,2,0,6,4,2,0
+1999,Michigan,Big Ten,,12,10,2,0,8,6,2,0,6,5,1,0,5,4,1,0
+1999,Michigan State,Big Ten,,12,10,2,0,8,6,2,0,6,6,0,0,5,3,2,0
+1999,Middle Tennessee,FBS Independents,,11,3,8,0,4,0,4,0,5,3,2,0,6,0,6,0
+1999,Minnesota,Big Ten,,12,8,4,0,8,5,3,0,7,4,3,0,4,4,0,0
+1999,Mississippi State,SEC,West,12,10,2,0,8,6,2,0,7,7,0,0,4,2,2,0
+1999,Missouri,Big 12,North,11,4,7,0,8,1,7,0,6,3,3,0,5,1,4,0
+1999,Navy,FBS Independents,,12,5,7,0,1,0,1,0,6,2,4,0,6,3,3,0
+1999,NC State,ACC,,12,6,6,0,8,3,5,0,5,4,1,0,7,2,5,0
+1999,Nebraska,Big 12,North,13,12,1,0,9,8,1,0,6,6,0,0,5,4,1,0
+1999,Nevada,Big West,,11,3,8,0,6,2,4,0,6,2,4,0,5,1,4,0
+1999,New Mexico,Mountain West,,11,4,7,0,7,3,4,0,6,3,3,0,5,1,4,0
+1999,New Mexico State,Big West,,11,6,5,0,5,3,2,0,4,3,1,0,7,3,4,0
+1999,North Carolina,ACC,,11,3,8,0,8,2,6,0,7,2,5,0,4,1,3,0
+1999,Northern Illinois,Mid-American,West,11,5,6,0,8,5,3,0,5,3,2,0,6,2,4,0
+1999,North Texas,Big West,,11,2,9,0,6,1,5,0,4,1,3,0,7,1,6,0
+1999,Northwestern,Big Ten,,11,3,8,0,8,1,7,0,6,2,4,0,5,1,4,0
+1999,Notre Dame,FBS Independents,,12,5,7,0,1,1,0,0,7,5,2,0,5,0,5,0
+1999,Ohio,Mid-American,East,11,5,6,0,8,5,3,0,5,4,1,0,6,1,5,0
+1999,Ohio State,Big Ten,,12,6,6,0,8,3,5,0,7,5,2,0,5,1,4,0
+1999,Oklahoma,Big 12,South,12,7,5,0,8,5,3,0,5,5,0,0,6,2,4,0
+1999,Oklahoma State,Big 12,South,11,5,6,0,8,3,5,0,6,4,2,0,5,1,4,0
+1999,Ole Miss,SEC,West,12,8,4,0,8,4,4,0,6,3,3,0,5,4,1,0
+1999,Oregon,Pac-10,,12,9,3,0,8,6,2,0,6,6,0,0,5,2,3,0
+1999,Oregon State,Pac-10,,12,7,5,0,8,4,4,0,6,5,1,0,5,2,3,0
+1999,Penn State,Big Ten,,13,10,3,0,8,5,3,0,7,5,2,0,5,4,1,0
+1999,Pittsburgh,Big East,,11,5,6,0,7,2,5,0,8,4,4,0,3,1,2,0
+1999,Purdue,Big Ten,,12,7,5,0,8,4,4,0,6,4,2,0,5,3,2,0
+1999,Rice,Western Athletic,,11,5,6,0,7,4,3,0,4,3,1,0,7,2,5,0
+1999,Rutgers,Big East,,11,1,10,0,7,1,6,0,6,1,5,0,5,0,5,0
+1999,San Diego State,Mountain West,,11,5,6,0,7,3,4,0,5,2,3,0,6,3,3,0
+1999,San José State,Western Athletic,,10,3,7,0,6,1,5,0,3,2,1,0,7,1,6,0
+1999,SMU,Western Athletic,,10,4,6,0,6,3,3,0,5,3,2,0,5,1,4,0
+1999,South Carolina,SEC,East,11,0,11,0,8,0,8,0,6,0,6,0,5,0,5,0
+1999,Southern Mississippi,Conference USA,,12,9,3,0,6,6,0,0,5,5,0,0,6,3,3,0
+1999,Stanford,Pac-10,,12,8,4,0,8,7,1,0,6,5,1,0,5,3,2,0
+1999,Syracuse,Big East,,12,7,5,0,7,3,4,0,6,4,2,0,5,2,3,0
+1999,TCU,Western Athletic,,12,8,4,0,7,5,2,0,6,5,1,0,5,2,3,0
+1999,Temple,Big East,,11,2,9,0,7,2,5,0,4,2,2,0,7,0,7,0
+1999,Tennessee,SEC,East,12,9,3,0,8,6,2,0,7,7,0,0,4,2,2,0
+1999,Texas,Big 12,South,14,9,5,0,9,6,3,0,7,5,2,0,5,4,1,0
+1999,Texas A&M,Big 12,South,12,8,4,0,8,5,3,0,6,6,0,0,5,2,3,0
+1999,Texas Tech,Big 12,South,11,6,5,0,8,5,3,0,5,4,1,0,6,2,4,0
+1999,Toledo,Mid-American,West,11,6,5,0,8,5,3,0,7,4,3,0,4,2,2,0
+1999,Tulane,Conference USA,,11,3,8,0,6,1,5,0,5,3,2,0,6,0,6,0
+1999,Tulsa,Western Athletic,,11,2,9,0,7,1,6,0,6,1,5,0,5,1,4,0
+1999,UAB,Conference USA,,11,5,6,0,6,4,2,0,5,3,2,0,6,2,4,0
+1999,UCF,FBS Independents,,11,4,7,0,2,1,1,0,6,3,3,0,5,1,4,0
+1999,UCLA,Pac-10,,11,4,7,0,8,2,6,0,6,4,2,0,5,0,5,0
+1999,UNLV,Mountain West,,11,3,8,0,7,1,6,0,5,0,5,0,6,3,3,0
+1999,USC,Pac-10,,12,6,6,0,8,3,5,0,6,4,2,0,6,2,4,0
+1999,Utah,Mountain West,,12,9,3,0,7,5,2,0,5,4,1,0,6,4,2,0
+1999,Utah State,Big West,,11,4,7,0,6,3,3,0,5,2,3,0,6,2,4,0
+1999,UTEP,Western Athletic,,12,5,7,0,7,3,4,0,5,4,1,0,7,1,6,0
+1999,Vanderbilt,SEC,East,11,5,6,0,8,2,6,0,6,2,4,0,5,3,2,0
+1999,Virginia,ACC,,12,7,5,0,8,5,3,0,6,3,3,0,5,4,1,0
+1999,Virginia Tech,Big East,,12,11,1,0,7,7,0,0,6,6,0,0,5,5,0,0
+1999,Wake Forest,ACC,,12,7,5,0,8,3,5,0,6,4,2,0,5,2,3,0
+1999,Washington,Pac-10,,12,7,5,0,8,6,2,0,6,4,2,0,5,3,2,0
+1999,Washington State,Pac-10,,12,3,9,0,8,1,7,0,6,2,4,0,6,1,5,0
+1999,Western Michigan,Mid-American,West,12,7,5,0,9,6,3,0,5,4,1,0,6,3,3,0
+1999,West Virginia,Big East,,11,4,7,0,7,3,4,0,5,3,2,0,6,1,5,0
+1999,Wisconsin,Big Ten,,12,10,2,0,8,7,1,0,6,5,1,0,5,4,1,0
+1999,Wyoming,Mountain West,,11,7,4,0,7,4,3,0,6,4,2,0,5,3,2,0

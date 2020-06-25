@@ -1,0 +1,109 @@
+year,team,conference,division,total.games,total.wins,total.losses,total.ties,conferenceGames.games,conferenceGames.wins,conferenceGames.losses,conferenceGames.ties,homeGames.games,homeGames.wins,homeGames.losses,homeGames.ties,awayGames.games,awayGames.wins,awayGames.losses,awayGames.ties
+1995,Air Force,Western Athletic,,13,8,5,0,8,6,2,0,6,4,2,0,6,4,2,0
+1995,Akron,Mid-American,,11,2,9,0,8,2,6,0,5,2,3,0,6,0,6,0
+1995,Alabama,SEC,West,11,8,3,0,8,5,3,0,7,5,2,0,4,3,1,0
+1995,Arizona,Pac-10,,11,6,5,0,8,4,4,0,6,3,3,0,5,3,2,0
+1995,Arizona State,Pac-10,,11,6,5,0,8,4,4,0,6,4,2,0,5,2,3,0
+1995,Arkansas,SEC,West,13,8,5,0,9,6,3,0,7,6,1,0,4,2,2,0
+1995,Arkansas State,Big West,,11,6,5,0,6,3,3,0,6,5,1,0,5,1,4,0
+1995,Army,FBS Independents,,11,5,6,0,3,1,2,0,7,4,3,0,4,1,3,0
+1995,Auburn,SEC,West,12,8,4,0,8,5,3,0,7,6,1,0,4,2,2,0
+1995,Ball State,Mid-American,,11,7,4,0,8,6,2,0,5,4,1,0,6,3,3,0
+1995,Baylor,Southwest,,11,7,4,0,7,5,2,0,5,3,2,0,6,4,2,0
+1995,Boston College,Big East,,12,4,8,0,7,4,3,0,5,1,4,0,7,3,4,0
+1995,Bowling Green,Mid-American,,11,5,6,0,8,3,5,0,5,2,3,0,6,3,3,0
+1995,BYU,Western Athletic,,11,7,4,0,8,6,2,0,6,4,2,0,5,3,2,0
+1995,California,Pac-10,,11,3,8,0,8,2,6,0,6,2,4,0,5,1,4,0
+1995,Central Michigan,Mid-American,,11,4,7,0,8,2,6,0,5,3,2,0,6,1,5,0
+1995,Cincinnati,FBS Independents,,11,6,5,0,4,4,0,0,5,3,2,0,6,3,3,0
+1995,Clemson,ACC,,12,8,4,0,8,6,2,0,6,3,3,0,5,5,0,0
+1995,Colorado,Big 8,,12,10,2,0,7,5,2,0,6,4,2,0,5,5,0,0
+1995,Colorado State,Western Athletic,,12,8,4,0,8,6,2,0,5,3,2,0,6,5,1,0
+1995,Duke,ACC,,11,3,8,0,8,1,7,0,5,2,3,0,6,1,5,0
+1995,East Carolina,FBS Independents,,12,9,3,0,5,4,1,0,5,5,0,0,6,3,3,0
+1995,Eastern Michigan,Mid-American,,11,6,5,0,8,5,3,0,4,3,1,0,7,3,4,0
+1995,Florida,SEC,East,13,12,1,0,9,9,0,0,6,6,0,0,5,5,0,0
+1995,Florida State,ACC,,12,10,2,0,8,7,1,0,7,7,0,0,4,2,2,0
+1995,Fresno State,Western Athletic,,12,5,7,0,8,2,6,0,6,4,2,0,6,1,5,0
+1995,Georgia,SEC,East,12,6,6,0,8,3,5,0,6,3,3,0,5,3,2,0
+1995,Georgia Tech,ACC,,11,6,5,0,8,5,3,0,6,4,2,0,5,2,3,0
+1995,Hawai'i,Western Athletic,,12,4,8,0,8,2,6,0,7,3,4,0,5,1,4,0
+1995,Houston,Southwest,,11,2,9,0,7,2,5,0,5,1,4,0,6,1,5,0
+1995,Illinois,Big Ten,,11,6,5,0,8,4,4,0,7,4,3,0,4,2,2,0
+1995,Indiana,Big Ten,,11,2,9,0,8,0,8,0,7,2,5,0,4,0,4,0
+1995,Iowa,Big Ten,,12,8,4,0,8,4,4,0,6,4,2,0,5,3,2,0
+1995,Iowa State,Big 8,,11,3,8,0,7,1,6,0,7,3,4,0,4,0,4,0
+1995,Kansas,Big 8,,12,10,2,0,7,5,2,0,6,5,1,0,5,4,1,0
+1995,Kansas State,Big 8,,12,10,2,0,7,5,2,0,7,6,1,0,4,3,1,0
+1995,Kent State,Mid-American,,11,2,9,0,8,1,7,0,7,2,5,0,4,0,4,0
+1995,Kentucky,SEC,East,11,4,7,0,8,2,6,0,6,2,4,0,5,2,3,0
+1995,Louisiana,Big West,,11,6,5,0,6,4,2,0,5,4,1,0,6,2,4,0
+1995,Louisiana Monroe,FBS Independents,,11,2,9,0,1,0,1,0,4,1,3,0,7,1,6,0
+1995,Louisiana Tech,Big West,,11,5,6,0,6,2,4,0,4,3,1,0,7,2,5,0
+1995,Louisville,FBS Independents,,11,7,4,0,5,4,1,0,6,4,2,0,5,3,2,0
+1995,LSU,SEC,West,12,8,4,0,8,5,3,0,7,6,1,0,4,1,3,0
+1995,Maryland,ACC,,11,6,5,0,8,4,4,0,5,3,2,0,6,3,3,0
+1995,Memphis,FBS Independents,,11,3,8,0,6,2,4,0,5,2,3,0,6,1,5,0
+1995,Miami,Big East,,11,8,3,0,7,6,1,0,6,6,0,0,5,2,3,0
+1995,Miami (OH),Mid-American,,11,8,3,0,8,6,2,0,4,3,1,0,7,5,2,0
+1995,Michigan,Big Ten,,13,9,4,0,8,5,3,0,7,6,1,0,5,3,2,0
+1995,Michigan State,Big Ten,,12,7,5,0,8,5,3,0,7,4,3,0,4,3,1,0
+1995,Minnesota,Big Ten,,11,3,8,0,8,1,7,0,6,3,3,0,5,0,5,0
+1995,Mississippi State,SEC,West,11,3,8,0,8,1,7,0,6,2,4,0,5,1,4,0
+1995,Missouri,Big 8,,11,3,8,0,7,1,6,0,6,3,3,0,5,0,5,0
+1995,Navy,FBS Independents,,11,5,6,0,3,1,2,0,6,3,3,0,5,2,3,0
+1995,NC State,ACC,,11,3,8,0,8,2,6,0,6,1,5,0,5,2,3,0
+1995,Nebraska,Big 8,,12,12,0,0,7,7,0,0,7,7,0,0,4,4,0,0
+1995,Nevada,Big West,,12,9,3,0,7,7,0,0,6,5,1,0,5,4,1,0
+1995,New Mexico,Western Athletic,,11,4,7,0,8,2,6,0,7,3,4,0,4,1,3,0
+1995,New Mexico State,Big West,,11,4,7,0,7,3,4,0,5,2,3,0,6,2,4,0
+1995,North Carolina,ACC,,12,7,5,0,8,4,4,0,6,4,2,0,5,2,3,0
+1995,Northern Illinois,Big West,,11,3,8,0,6,3,3,0,5,2,3,0,6,1,5,0
+1995,North Texas,FBS Independents,,11,2,9,0,1,0,1,0,4,2,2,0,7,0,7,0
+1995,Northwestern,Big Ten,,12,10,2,0,8,8,0,0,6,5,1,0,5,5,0,0
+1995,Notre Dame,FBS Independents,,12,9,3,0,2,2,0,0,6,5,1,0,5,4,1,0
+1995,Ohio,Mid-American,,11,2,9,0,8,1,7,0,4,1,3,0,7,1,6,0
+1995,Ohio State,Big Ten,,13,11,2,0,8,7,1,0,7,7,0,0,5,4,1,0
+1995,Oklahoma,Big 8,,11,5,6,0,7,2,5,0,6,3,3,0,5,2,3,0
+1995,Oklahoma State,Big 8,,12,4,8,0,7,2,5,0,5,1,4,0,7,3,4,0
+1995,Ole Miss,SEC,West,11,6,5,0,8,3,5,0,5,4,1,0,6,2,4,0
+1995,Oregon,Pac-10,,12,9,3,0,8,6,2,0,6,4,2,0,5,5,0,0
+1995,Oregon State,Pac-10,,11,1,10,0,8,0,8,0,5,1,4,0,6,0,6,0
+1995,Pacific,Big West,,11,3,8,0,6,2,4,0,4,2,2,0,7,1,6,0
+1995,Penn State,Big Ten,,12,9,3,0,8,5,3,0,6,4,2,0,5,4,1,0
+1995,Pittsburgh,Big East,,11,2,9,0,7,0,7,0,6,2,4,0,5,0,5,0
+1995,Purdue,Big Ten,,11,4,7,0,8,2,6,0,5,2,3,0,6,2,4,0
+1995,Rice,Southwest,,11,3,8,0,7,1,6,0,6,2,4,0,5,1,4,0
+1995,Rutgers,Big East,,11,4,7,0,7,2,5,0,6,2,4,0,5,2,3,0
+1995,San Diego State,Western Athletic,,12,8,4,0,8,5,3,0,7,5,2,0,5,3,2,0
+1995,San José State,Big West,,11,3,8,0,7,3,4,0,5,2,3,0,6,1,5,0
+1995,SMU,Southwest,,11,1,10,0,7,0,7,0,6,1,5,0,5,0,5,0
+1995,South Carolina,SEC,East,11,4,7,0,8,2,6,0,6,3,3,0,5,1,4,0
+1995,Southern Mississippi,FBS Independents,,11,6,5,0,5,3,2,0,4,3,1,0,7,3,4,0
+1995,Stanford,Pac-10,,12,7,5,0,8,5,3,0,4,2,2,0,7,5,2,0
+1995,Syracuse,Big East,,12,9,3,0,7,5,2,0,6,5,1,0,5,3,2,0
+1995,TCU,Southwest,,11,6,5,0,7,3,4,0,5,4,1,0,6,2,4,0
+1995,Temple,Big East,,11,1,10,0,7,1,6,0,4,1,3,0,7,0,7,0
+1995,Tennessee,SEC,East,12,11,1,0,8,7,1,0,7,7,0,0,4,3,1,0
+1995,Texas,Southwest,,13,11,2,0,7,7,0,0,7,7,0,0,5,4,1,0
+1995,Texas A&M,Southwest,,12,9,3,0,7,5,2,0,6,5,1,0,5,3,2,0
+1995,Texas Tech,Southwest,,12,9,3,0,7,5,2,0,5,5,0,0,6,3,3,0
+1995,Toledo,Mid-American,,12,12,0,0,8,8,0,0,6,6,0,0,5,5,0,0
+1995,Tulane,FBS Independents,,11,2,9,0,4,0,4,0,5,1,4,0,6,1,5,0
+1995,Tulsa,FBS Independents,,11,4,7,0,3,0,3,0,5,3,2,0,6,1,5,0
+1995,UCLA,Pac-10,,12,7,5,0,8,4,4,0,6,4,2,0,5,3,2,0
+1995,UNLV,Big West,,11,2,9,0,6,1,5,0,5,2,3,0,6,0,6,0
+1995,USC,Pac-10,,12,10,2,0,8,7,1,0,7,6,1,0,4,3,1,0
+1995,Utah,Western Athletic,,11,7,4,0,8,6,2,0,7,3,4,0,4,4,0,0
+1995,Utah State,Big West,,11,4,7,0,7,4,3,0,6,2,4,0,5,2,3,0
+1995,UTEP,Western Athletic,,12,2,10,0,8,1,7,0,6,2,4,0,6,0,6,0
+1995,Vanderbilt,SEC,East,11,2,9,0,8,1,7,0,6,2,4,0,5,0,5,0
+1995,Virginia,ACC,,13,9,4,0,8,7,1,0,6,5,1,0,6,3,3,0
+1995,Virginia Tech,Big East,,12,10,2,0,7,6,1,0,6,4,2,0,5,5,0,0
+1995,Wake Forest,ACC,,11,1,10,0,8,0,8,0,5,0,5,0,6,1,5,0
+1995,Washington,Pac-10,,12,7,5,0,8,6,2,0,5,3,2,0,6,4,2,0
+1995,Washington State,Pac-10,,11,3,8,0,8,2,6,0,5,3,2,0,6,0,6,0
+1995,Western Michigan,Mid-American,,11,7,4,0,8,6,2,0,5,4,1,0,6,3,3,0
+1995,West Virginia,Big East,,11,5,6,0,7,4,3,0,6,4,2,0,5,1,4,0
+1995,Wisconsin,Big Ten,,11,5,6,0,8,3,5,0,6,3,3,0,5,2,3,0
+1995,Wyoming,Western Athletic,,11,6,5,0,8,4,4,0,6,4,2,0,5,2,3,0

@@ -34,8 +34,12 @@ schedule_dates <- schedules_df %>%
            date)
 
 # join the schedules data frame with stats
-team_stats_with_dates <- inner_join(schedule_dates, team_stats_df, by = c('game_id' = 'game_id'))
-player_stats_with_dates <- inner_join(schedule_dates, player_stats_df, by = c('game_id' = 'game_id'))
+team_stats_with_dates <- inner_join(schedule_dates, 
+                                    team_stats_df, 
+                                    by = c('game_id' = 'game_id'))
+player_stats_with_dates <- inner_join(schedule_dates, 
+                                      player_stats_df, 
+                                      by = c('game_id' = 'game_id'))
 
 ####  Recreate wins and losses to validate the data  ####
 team_points <- team_stats_with_dates %>%
@@ -46,8 +50,13 @@ team_points <- team_stats_with_dates %>%
            game_id,
            points)
 
-big_12_points <- subset(team_points, conference == 'Big 12')
-points_join <- inner_join(big_12_points, team_points, by = c('date' = 'date', 'game_id' = "game_id", 'season' = 'season'))
+big_12_points <- subset(team_points, 
+                        conference == 'Big 12')
+points_join <- inner_join(big_12_points, 
+                          team_points, 
+                          by = c('date' = 'date', 
+                                 'game_id' = "game_id", 
+                                 'season' = 'season'))
 
 # Clean up the data frame to remove redundancy
 clean_points <- points_join %>%
@@ -173,7 +182,10 @@ downs <- team_stats_with_dates %>%
          stat_category,
          stat)
 
-downs_sep <- separate(downs, stat, into = c('conversions', 'attempts'), sep = "\\-")
+downs_sep <- separate(downs, 
+                      stat, 
+                      into = c('conversions', 'attempts'), 
+                      sep = "\\-")
 
 downs_sum <- downs_sep %>%
   mutate(conversions = as.character(conversions),
@@ -225,7 +237,10 @@ opp_downs <- downs_sep %>%
   ungroup() %>%
   mutate(pct_conversion = conversions/attempts)
 
-school_opp_downs <- inner_join(big_12_downs, opp_downs, by = c('game_id' = 'game_id', 'date' = 'date'))
+school_opp_downs <- inner_join(big_12_downs, 
+                               opp_downs, 
+                               by = c('game_id' = 'game_id', 
+                                      'date' = 'date'))
 
 big_12_downs_compare <- school_opp_downs %>%
   filter(school.x != school.y) %>%
@@ -391,7 +406,11 @@ player_rushing_carries <- player_stats_with_dates %>%
   arrange(season,
           desc(CAR))
 
-player_rushing_yds_tds <- inner_join(player_rushing_yds, player_rushing_tds, by = c('season' = 'season', 'athlete' = 'athlete', 'school' = 'school'))
+player_rushing_yds_tds <- inner_join(player_rushing_yds, 
+                                     player_rushing_tds, 
+                                     by = c('season' = 'season', 
+                                            'athlete' = 'athlete', 
+                                            'school' = 'school'))
 player_rushing_yds_tds_cars <- inner_join(player_rushing_yds_tds, player_rushing_carries, by = c('season' = 'season', 'athlete' = 'athlete', 'school' = 'school'))
 
 player_rushing_stats <- player_rushing_yds_tds_cars %>%
@@ -492,7 +511,7 @@ player_td_int_ratio <- player_td_int_passes_yds %>%
          percent_TDs = PassingTDs/attempts,
          percent_INT = INT/attempts,
          yds_attempt = YDS/attempts) %>%
-  filter(attempts >= 100) %>%
+  filter(attempts >= 300) %>%
   arrange(season,
           desc(PassingTDs)) %>%
   select(season,
@@ -509,7 +528,11 @@ player_td_int_ratio <- player_td_int_passes_yds %>%
          passing_yds_attempt = yds_attempt)
          
          
-         
+# Joining passing and rushing statistics         
+
+
+
+
 
 
 

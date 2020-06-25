@@ -1,0 +1,1147 @@
+game_id,school,conference,homeAway,points,stat_category,stat_type,athlete,stat
+293530164,Rutgers,Big East,home,45,kicking,LONG,San San Te,43
+293530164,Rutgers,Big East,home,45,kicking,FG,San San Te,1/2
+293530164,Rutgers,Big East,home,45,kicking,PCT,San San Te,50.0
+293530164,Rutgers,Big East,home,45,kicking,XP,San San Te,6/6
+293530164,Rutgers,Big East,home,45,kicking,PTS,San San Te,9
+293530164,Rutgers,Big East,home,45,passing,C/ATT,Tom Savage,14/27
+293530164,Rutgers,Big East,home,45,passing,C/ATT,Mohamed Sanu,0/1
+293530164,Rutgers,Big East,home,45,passing,YDS,Tom Savage,294
+293530164,Rutgers,Big East,home,45,passing,YDS,Mohamed Sanu,0
+293530164,Rutgers,Big East,home,45,passing,AVG,Tom Savage,10.9
+293530164,Rutgers,Big East,home,45,passing,AVG,Mohamed Sanu,0.0
+293530164,Rutgers,Big East,home,45,passing,TD,Tom Savage,2
+293530164,Rutgers,Big East,home,45,passing,TD,Mohamed Sanu,0
+293530164,Rutgers,Big East,home,45,passing,INT,Tom Savage,1
+293530164,Rutgers,Big East,home,45,passing,INT,Mohamed Sanu,0
+293530164,Rutgers,Big East,home,45,passing,QBR,Tom Savage,87.8
+293530164,Rutgers,Big East,home,45,passing,QBR,Mohamed Sanu,6.9
+293530164,Rutgers,Big East,home,45,rushing,CAR,Joe Martinek,14
+293530164,Rutgers,Big East,home,45,rushing,CAR,Mohamed Sanu,13
+293530164,Rutgers,Big East,home,45,rushing,CAR,Jourdan Brooks,1
+293530164,Rutgers,Big East,home,45,rushing,CAR,Tom Savage,3
+293530164,Rutgers,Big East,home,45,rushing,YDS,Joe Martinek,44
+293530164,Rutgers,Big East,home,45,rushing,YDS,Mohamed Sanu,41
+293530164,Rutgers,Big East,home,45,rushing,YDS,Jourdan Brooks,4
+293530164,Rutgers,Big East,home,45,rushing,YDS,Tom Savage,-2
+293530164,Rutgers,Big East,home,45,rushing,AVG,Joe Martinek,3.1
+293530164,Rutgers,Big East,home,45,rushing,AVG,Mohamed Sanu,3.2
+293530164,Rutgers,Big East,home,45,rushing,AVG,Jourdan Brooks,4.0
+293530164,Rutgers,Big East,home,45,rushing,AVG,Tom Savage,-0.7
+293530164,Rutgers,Big East,home,45,rushing,TD,Joe Martinek,0
+293530164,Rutgers,Big East,home,45,rushing,TD,Mohamed Sanu,2
+293530164,Rutgers,Big East,home,45,rushing,TD,Jourdan Brooks,0
+293530164,Rutgers,Big East,home,45,rushing,TD,Tom Savage,0
+293530164,Rutgers,Big East,home,45,rushing,LONG,Joe Martinek,15
+293530164,Rutgers,Big East,home,45,rushing,LONG,Mohamed Sanu,15
+293530164,Rutgers,Big East,home,45,rushing,LONG,Jourdan Brooks,4
+293530164,Rutgers,Big East,home,45,rushing,LONG,Tom Savage,4
+293530164,Rutgers,Big East,home,45,receiving,REC,Tim Brown,4
+293530164,Rutgers,Big East,home,45,receiving,REC,Mohamed Sanu,4
+293530164,Rutgers,Big East,home,45,receiving,REC,Joe Martinek,3
+293530164,Rutgers,Big East,home,45,receiving,REC,Shamar Graves,1
+293530164,Rutgers,Big East,home,45,receiving,REC,Mark Harrison,2
+293530164,Rutgers,Big East,home,45,receiving,YDS,Tim Brown,99
+293530164,Rutgers,Big East,home,45,receiving,YDS,Mohamed Sanu,97
+293530164,Rutgers,Big East,home,45,receiving,YDS,Joe Martinek,66
+293530164,Rutgers,Big East,home,45,receiving,YDS,Shamar Graves,17
+293530164,Rutgers,Big East,home,45,receiving,YDS,Mark Harrison,15
+293530164,Rutgers,Big East,home,45,receiving,AVG,Tim Brown,24.8
+293530164,Rutgers,Big East,home,45,receiving,AVG,Mohamed Sanu,24.3
+293530164,Rutgers,Big East,home,45,receiving,AVG,Joe Martinek,22.0
+293530164,Rutgers,Big East,home,45,receiving,AVG,Shamar Graves,17.0
+293530164,Rutgers,Big East,home,45,receiving,AVG,Mark Harrison,7.5
+293530164,Rutgers,Big East,home,45,receiving,TD,Tim Brown,1
+293530164,Rutgers,Big East,home,45,receiving,TD,Mohamed Sanu,1
+293530164,Rutgers,Big East,home,45,receiving,TD,Joe Martinek,0
+293530164,Rutgers,Big East,home,45,receiving,TD,Shamar Graves,0
+293530164,Rutgers,Big East,home,45,receiving,TD,Mark Harrison,0
+293530164,Rutgers,Big East,home,45,receiving,LONG,Tim Brown,65
+293530164,Rutgers,Big East,home,45,receiving,LONG,Mohamed Sanu,61
+293530164,Rutgers,Big East,home,45,receiving,LONG,Joe Martinek,27
+293530164,Rutgers,Big East,home,45,receiving,LONG,Shamar Graves,17
+293530164,Rutgers,Big East,home,45,receiving,LONG,Mark Harrison,10
+293530164,Rutgers,Big East,home,45,interceptions,INT,Billy Anderson,1
+293530164,Rutgers,Big East,home,45,interceptions,INT,Damaso Munoz,1
+293530164,Rutgers,Big East,home,45,interceptions,YDS,Billy Anderson,19
+293530164,Rutgers,Big East,home,45,interceptions,YDS,Damaso Munoz,26
+293530164,Rutgers,Big East,home,45,interceptions,TD,Billy Anderson,1
+293530164,Rutgers,Big East,home,45,interceptions,TD,Damaso Munoz,0
+293530164,Rutgers,Big East,home,45,kickReturns,NO,Tim Brown,2
+293530164,Rutgers,Big East,home,45,kickReturns,NO,Damaso Munoz,1
+293530164,Rutgers,Big East,home,45,kickReturns,NO,Brandon Jones,1
+293530164,Rutgers,Big East,home,45,kickReturns,YDS,Tim Brown,44
+293530164,Rutgers,Big East,home,45,kickReturns,YDS,Damaso Munoz,35
+293530164,Rutgers,Big East,home,45,kickReturns,YDS,Brandon Jones,22
+293530164,Rutgers,Big East,home,45,kickReturns,AVG,Tim Brown,22.0
+293530164,Rutgers,Big East,home,45,kickReturns,AVG,Damaso Munoz,35.0
+293530164,Rutgers,Big East,home,45,kickReturns,AVG,Brandon Jones,22.0
+293530164,Rutgers,Big East,home,45,kickReturns,LONG,Tim Brown,24
+293530164,Rutgers,Big East,home,45,kickReturns,LONG,Damaso Munoz,35
+293530164,Rutgers,Big East,home,45,kickReturns,LONG,Brandon Jones,22
+293530164,Rutgers,Big East,home,45,kickReturns,TD,Tim Brown,0
+293530164,Rutgers,Big East,home,45,kickReturns,TD,Damaso Munoz,1
+293530164,Rutgers,Big East,home,45,kickReturns,TD,Brandon Jones,0
+293530164,Rutgers,Big East,home,45,puntReturns,NO,Joe Young,1
+293530164,Rutgers,Big East,home,45,puntReturns,NO,Mohamed Sanu,4
+293530164,Rutgers,Big East,home,45,puntReturns,YDS,Joe Young,0
+293530164,Rutgers,Big East,home,45,puntReturns,YDS,Mohamed Sanu,-5
+293530164,Rutgers,Big East,home,45,puntReturns,AVG,Joe Young,0.0
+293530164,Rutgers,Big East,home,45,puntReturns,AVG,Mohamed Sanu,-1.3
+293530164,Rutgers,Big East,home,45,puntReturns,LONG,Joe Young,0
+293530164,Rutgers,Big East,home,45,puntReturns,LONG,Mohamed Sanu,0
+293530164,Rutgers,Big East,home,45,puntReturns,TD,Joe Young,0
+293530164,Rutgers,Big East,home,45,puntReturns,TD,Mohamed Sanu,0
+293530164,Rutgers,Big East,home,45,punting,NO,Teddy Dellaganna,4
+293530164,Rutgers,Big East,home,45,punting,YDS,Teddy Dellaganna,158
+293530164,Rutgers,Big East,home,45,punting,AVG,Teddy Dellaganna,39.5
+293530164,Rutgers,Big East,home,45,punting,TB,Teddy Dellaganna,0
+293530164,Rutgers,Big East,home,45,punting,In 20,Teddy Dellaganna,0
+293530164,Rutgers,Big East,home,45,punting,LONG,Teddy Dellaganna,50
+293530164,UCF,Conference USA,away,24,passing,C/ATT,Brett Hodges,13/28
+293530164,UCF,Conference USA,away,24,passing,C/ATT,Rob Calabrese,5/7
+293530164,UCF,Conference USA,away,24,passing,YDS,Brett Hodges,175
+293530164,UCF,Conference USA,away,24,passing,YDS,Rob Calabrese,45
+293530164,UCF,Conference USA,away,24,passing,AVG,Brett Hodges,6.3
+293530164,UCF,Conference USA,away,24,passing,AVG,Rob Calabrese,6.4
+293530164,UCF,Conference USA,away,24,passing,TD,Brett Hodges,2
+293530164,UCF,Conference USA,away,24,passing,TD,Rob Calabrese,0
+293530164,UCF,Conference USA,away,24,passing,INT,Brett Hodges,2
+293530164,UCF,Conference USA,away,24,passing,INT,Rob Calabrese,0
+293530164,UCF,Conference USA,away,24,passing,QBR,Brett Hodges,16.6
+293530164,UCF,Conference USA,away,24,passing,QBR,Rob Calabrese,93.3
+293530164,UCF,Conference USA,away,24,rushing,CAR,Brynn Harvey,13
+293530164,UCF,Conference USA,away,24,rushing,CAR,Rob Calabrese,4
+293530164,UCF,Conference USA,away,24,rushing,CAR,Brendan Kelly,1
+293530164,UCF,Conference USA,away,24,rushing,CAR,Jonathan Davis,7
+293530164,UCF,Conference USA,away,24,rushing,CAR,Brett Hodges,5
+293530164,UCF,Conference USA,away,24,rushing,YDS,Brynn Harvey,32
+293530164,UCF,Conference USA,away,24,rushing,YDS,Rob Calabrese,26
+293530164,UCF,Conference USA,away,24,rushing,YDS,Brendan Kelly,4
+293530164,UCF,Conference USA,away,24,rushing,YDS,Jonathan Davis,1
+293530164,UCF,Conference USA,away,24,rushing,YDS,Brett Hodges,-28
+293530164,UCF,Conference USA,away,24,rushing,AVG,Brynn Harvey,2.5
+293530164,UCF,Conference USA,away,24,rushing,AVG,Rob Calabrese,6.5
+293530164,UCF,Conference USA,away,24,rushing,AVG,Brendan Kelly,4.0
+293530164,UCF,Conference USA,away,24,rushing,AVG,Jonathan Davis,0.1
+293530164,UCF,Conference USA,away,24,rushing,AVG,Brett Hodges,-5.6
+293530164,UCF,Conference USA,away,24,rushing,TD,Brynn Harvey,0
+293530164,UCF,Conference USA,away,24,rushing,TD,Rob Calabrese,0
+293530164,UCF,Conference USA,away,24,rushing,TD,Brendan Kelly,0
+293530164,UCF,Conference USA,away,24,rushing,TD,Jonathan Davis,1
+293530164,UCF,Conference USA,away,24,rushing,TD,Brett Hodges,0
+293530164,UCF,Conference USA,away,24,rushing,LONG,Brynn Harvey,9
+293530164,UCF,Conference USA,away,24,rushing,LONG,Rob Calabrese,29
+293530164,UCF,Conference USA,away,24,rushing,LONG,Brendan Kelly,4
+293530164,UCF,Conference USA,away,24,rushing,LONG,Jonathan Davis,3
+293530164,UCF,Conference USA,away,24,rushing,LONG,Brett Hodges,1
+293530164,UCF,Conference USA,away,24,receiving,REC,Kamar Aiken,4
+293530164,UCF,Conference USA,away,24,receiving,REC,Rocky Ross,4
+293530164,UCF,Conference USA,away,24,receiving,REC,Jonathan Davis,3
+293530164,UCF,Conference USA,away,24,receiving,REC,Quincy McDuffie,1
+293530164,UCF,Conference USA,away,24,receiving,REC,Adam Nissley,1
+293530164,UCF,Conference USA,away,24,receiving,REC,A.J. Guyton,2
+293530164,UCF,Conference USA,away,24,receiving,REC,Ricky Kay,1
+293530164,UCF,Conference USA,away,24,receiving,REC,Brynn Harvey,1
+293530164,UCF,Conference USA,away,24,receiving,REC,Jamar Newsome,1
+293530164,UCF,Conference USA,away,24,receiving,YDS,Kamar Aiken,65
+293530164,UCF,Conference USA,away,24,receiving,YDS,Rocky Ross,49
+293530164,UCF,Conference USA,away,24,receiving,YDS,Jonathan Davis,29
+293530164,UCF,Conference USA,away,24,receiving,YDS,Quincy McDuffie,22
+293530164,UCF,Conference USA,away,24,receiving,YDS,Adam Nissley,18
+293530164,UCF,Conference USA,away,24,receiving,YDS,A.J. Guyton,13
+293530164,UCF,Conference USA,away,24,receiving,YDS,Ricky Kay,12
+293530164,UCF,Conference USA,away,24,receiving,YDS,Brynn Harvey,7
+293530164,UCF,Conference USA,away,24,receiving,YDS,Jamar Newsome,5
+293530164,UCF,Conference USA,away,24,receiving,AVG,Kamar Aiken,16.3
+293530164,UCF,Conference USA,away,24,receiving,AVG,Rocky Ross,12.3
+293530164,UCF,Conference USA,away,24,receiving,AVG,Jonathan Davis,9.7
+293530164,UCF,Conference USA,away,24,receiving,AVG,Quincy McDuffie,22.0
+293530164,UCF,Conference USA,away,24,receiving,AVG,Adam Nissley,18.0
+293530164,UCF,Conference USA,away,24,receiving,AVG,A.J. Guyton,6.5
+293530164,UCF,Conference USA,away,24,receiving,AVG,Ricky Kay,12.0
+293530164,UCF,Conference USA,away,24,receiving,AVG,Brynn Harvey,7.0
+293530164,UCF,Conference USA,away,24,receiving,AVG,Jamar Newsome,5.0
+293530164,UCF,Conference USA,away,24,receiving,TD,Kamar Aiken,2
+293530164,UCF,Conference USA,away,24,receiving,TD,Rocky Ross,0
+293530164,UCF,Conference USA,away,24,receiving,TD,Jonathan Davis,0
+293530164,UCF,Conference USA,away,24,receiving,TD,Quincy McDuffie,0
+293530164,UCF,Conference USA,away,24,receiving,TD,Adam Nissley,0
+293530164,UCF,Conference USA,away,24,receiving,TD,A.J. Guyton,0
+293530164,UCF,Conference USA,away,24,receiving,TD,Ricky Kay,0
+293530164,UCF,Conference USA,away,24,receiving,TD,Brynn Harvey,0
+293530164,UCF,Conference USA,away,24,receiving,TD,Jamar Newsome,0
+293530164,UCF,Conference USA,away,24,receiving,LONG,Kamar Aiken,34
+293530164,UCF,Conference USA,away,24,receiving,LONG,Rocky Ross,19
+293530164,UCF,Conference USA,away,24,receiving,LONG,Jonathan Davis,14
+293530164,UCF,Conference USA,away,24,receiving,LONG,Quincy McDuffie,22
+293530164,UCF,Conference USA,away,24,receiving,LONG,Adam Nissley,18
+293530164,UCF,Conference USA,away,24,receiving,LONG,A.J. Guyton,7
+293530164,UCF,Conference USA,away,24,receiving,LONG,Ricky Kay,12
+293530164,UCF,Conference USA,away,24,receiving,LONG,Brynn Harvey,7
+293530164,UCF,Conference USA,away,24,receiving,LONG,Jamar Newsome,5
+293530164,UCF,Conference USA,away,24,interceptions,INT,Kemal Ishmael,1
+293530164,UCF,Conference USA,away,24,interceptions,YDS,Kemal Ishmael,0
+293530164,UCF,Conference USA,away,24,interceptions,TD,Kemal Ishmael,0
+293530164,UCF,Conference USA,away,24,kickReturns,NO,Quincy McDuffie,6
+293530164,UCF,Conference USA,away,24,kickReturns,NO,Jonathan Davis,2
+293530164,UCF,Conference USA,away,24,kickReturns,YDS,Quincy McDuffie,171
+293530164,UCF,Conference USA,away,24,kickReturns,YDS,Jonathan Davis,37
+293530164,UCF,Conference USA,away,24,kickReturns,AVG,Quincy McDuffie,28.5
+293530164,UCF,Conference USA,away,24,kickReturns,AVG,Jonathan Davis,18.5
+293530164,UCF,Conference USA,away,24,kickReturns,LONG,Quincy McDuffie,65
+293530164,UCF,Conference USA,away,24,kickReturns,LONG,Jonathan Davis,21
+293530164,UCF,Conference USA,away,24,kickReturns,TD,Quincy McDuffie,0
+293530164,UCF,Conference USA,away,24,kickReturns,TD,Jonathan Davis,0
+293530164,UCF,Conference USA,away,24,puntReturns,NO,Rocky Ross,1
+293530164,UCF,Conference USA,away,24,puntReturns,NO,A.J. Guyton,1
+293530164,UCF,Conference USA,away,24,puntReturns,YDS,Rocky Ross,11
+293530164,UCF,Conference USA,away,24,puntReturns,YDS,A.J. Guyton,0
+293530164,UCF,Conference USA,away,24,puntReturns,AVG,Rocky Ross,11.0
+293530164,UCF,Conference USA,away,24,puntReturns,AVG,A.J. Guyton,0.0
+293530164,UCF,Conference USA,away,24,puntReturns,LONG,Rocky Ross,11
+293530164,UCF,Conference USA,away,24,puntReturns,LONG,A.J. Guyton,0
+293530164,UCF,Conference USA,away,24,puntReturns,TD,Rocky Ross,0
+293530164,UCF,Conference USA,away,24,puntReturns,TD,A.J. Guyton,0
+293530164,UCF,Conference USA,away,24,kicking,FG,Nick Cattoi,1/1
+293530164,UCF,Conference USA,away,24,kicking,PCT,Nick Cattoi,100.0
+293530164,UCF,Conference USA,away,24,kicking,LONG,Nick Cattoi,25
+293530164,UCF,Conference USA,away,24,kicking,XP,Nick Cattoi,3/3
+293530164,UCF,Conference USA,away,24,kicking,PTS,Nick Cattoi,6
+293530164,UCF,Conference USA,away,24,punting,NO,Blake Clingan,8
+293530164,UCF,Conference USA,away,24,punting,YDS,Blake Clingan,314
+293530164,UCF,Conference USA,away,24,punting,AVG,Blake Clingan,39.3
+293530164,UCF,Conference USA,away,24,punting,TB,Blake Clingan,0
+293530164,UCF,Conference USA,away,24,punting,In 20,Blake Clingan,0
+293530164,UCF,Conference USA,away,24,punting,LONG,Blake Clingan,51
+293600153,North Carolina,ACC,home,17,passing,C/ATT,T.J. Yates,19/32
+293600153,North Carolina,ACC,home,17,passing,YDS,T.J. Yates,183
+293600153,North Carolina,ACC,home,17,passing,AVG,T.J. Yates,5.7
+293600153,North Carolina,ACC,home,17,passing,TD,T.J. Yates,2
+293600153,North Carolina,ACC,home,17,passing,INT,T.J. Yates,1
+293600153,North Carolina,ACC,home,17,passing,QBR,T.J. Yates,39.4
+293600153,North Carolina,ACC,home,17,rushing,CAR,Ryan Houston,24
+293600153,North Carolina,ACC,home,17,rushing,CAR,Greg Little,1
+293600153,North Carolina,ACC,home,17,rushing,CAR,Jheranie Boyd,1
+293600153,North Carolina,ACC,home,17,rushing,CAR,T.J. Yates,3
+293600153,North Carolina,ACC,home,17,rushing,YDS,Ryan Houston,83
+293600153,North Carolina,ACC,home,17,rushing,YDS,Greg Little,31
+293600153,North Carolina,ACC,home,17,rushing,YDS,Jheranie Boyd,-11
+293600153,North Carolina,ACC,home,17,rushing,YDS,T.J. Yates,-22
+293600153,North Carolina,ACC,home,17,rushing,AVG,Ryan Houston,3.5
+293600153,North Carolina,ACC,home,17,rushing,AVG,Greg Little,31.0
+293600153,North Carolina,ACC,home,17,rushing,AVG,Jheranie Boyd,-11.0
+293600153,North Carolina,ACC,home,17,rushing,AVG,T.J. Yates,-7.3
+293600153,North Carolina,ACC,home,17,rushing,TD,Ryan Houston,0
+293600153,North Carolina,ACC,home,17,rushing,TD,Greg Little,0
+293600153,North Carolina,ACC,home,17,rushing,TD,Jheranie Boyd,0
+293600153,North Carolina,ACC,home,17,rushing,TD,T.J. Yates,0
+293600153,North Carolina,ACC,home,17,rushing,LONG,Ryan Houston,15
+293600153,North Carolina,ACC,home,17,rushing,LONG,Greg Little,31
+293600153,North Carolina,ACC,home,17,rushing,LONG,Jheranie Boyd,0
+293600153,North Carolina,ACC,home,17,rushing,LONG,T.J. Yates,0
+293600153,North Carolina,ACC,home,17,receiving,REC,Greg Little,7
+293600153,North Carolina,ACC,home,17,receiving,REC,Erik Highsmith,3
+293600153,North Carolina,ACC,home,17,receiving,REC,Zach Pianalto,2
+293600153,North Carolina,ACC,home,17,receiving,REC,Johnny White,2
+293600153,North Carolina,ACC,home,17,receiving,REC,Ryan Houston,2
+293600153,North Carolina,ACC,home,17,receiving,REC,Ed Barham,1
+293600153,North Carolina,ACC,home,17,receiving,REC,Jheranie Boyd,1
+293600153,North Carolina,ACC,home,17,receiving,REC,Dwight Jones,1
+293600153,North Carolina,ACC,home,17,receiving,YDS,Greg Little,87
+293600153,North Carolina,ACC,home,17,receiving,YDS,Erik Highsmith,38
+293600153,North Carolina,ACC,home,17,receiving,YDS,Zach Pianalto,26
+293600153,North Carolina,ACC,home,17,receiving,YDS,Johnny White,17
+293600153,North Carolina,ACC,home,17,receiving,YDS,Ryan Houston,8
+293600153,North Carolina,ACC,home,17,receiving,YDS,Ed Barham,4
+293600153,North Carolina,ACC,home,17,receiving,YDS,Jheranie Boyd,4
+293600153,North Carolina,ACC,home,17,receiving,YDS,Dwight Jones,-1
+293600153,North Carolina,ACC,home,17,receiving,AVG,Greg Little,12.4
+293600153,North Carolina,ACC,home,17,receiving,AVG,Erik Highsmith,12.7
+293600153,North Carolina,ACC,home,17,receiving,AVG,Zach Pianalto,13.0
+293600153,North Carolina,ACC,home,17,receiving,AVG,Johnny White,8.5
+293600153,North Carolina,ACC,home,17,receiving,AVG,Ryan Houston,4.0
+293600153,North Carolina,ACC,home,17,receiving,AVG,Ed Barham,4.0
+293600153,North Carolina,ACC,home,17,receiving,AVG,Jheranie Boyd,4.0
+293600153,North Carolina,ACC,home,17,receiving,AVG,Dwight Jones,-1.0
+293600153,North Carolina,ACC,home,17,receiving,TD,Greg Little,2
+293600153,North Carolina,ACC,home,17,receiving,TD,Erik Highsmith,0
+293600153,North Carolina,ACC,home,17,receiving,TD,Zach Pianalto,0
+293600153,North Carolina,ACC,home,17,receiving,TD,Johnny White,0
+293600153,North Carolina,ACC,home,17,receiving,TD,Ryan Houston,0
+293600153,North Carolina,ACC,home,17,receiving,TD,Ed Barham,0
+293600153,North Carolina,ACC,home,17,receiving,TD,Jheranie Boyd,0
+293600153,North Carolina,ACC,home,17,receiving,TD,Dwight Jones,0
+293600153,North Carolina,ACC,home,17,receiving,LONG,Greg Little,18
+293600153,North Carolina,ACC,home,17,receiving,LONG,Erik Highsmith,20
+293600153,North Carolina,ACC,home,17,receiving,LONG,Zach Pianalto,18
+293600153,North Carolina,ACC,home,17,receiving,LONG,Johnny White,14
+293600153,North Carolina,ACC,home,17,receiving,LONG,Ryan Houston,5
+293600153,North Carolina,ACC,home,17,receiving,LONG,Ed Barham,4
+293600153,North Carolina,ACC,home,17,receiving,LONG,Jheranie Boyd,4
+293600153,North Carolina,ACC,home,17,receiving,LONG,Dwight Jones,-1
+293600153,North Carolina,ACC,home,17,kickReturns,NO,Da'Norris Searcy,4
+293600153,North Carolina,ACC,home,17,kickReturns,NO,Johnny White,1
+293600153,North Carolina,ACC,home,17,kickReturns,YDS,Da'Norris Searcy,93
+293600153,North Carolina,ACC,home,17,kickReturns,YDS,Johnny White,24
+293600153,North Carolina,ACC,home,17,kickReturns,AVG,Da'Norris Searcy,23.3
+293600153,North Carolina,ACC,home,17,kickReturns,AVG,Johnny White,24.0
+293600153,North Carolina,ACC,home,17,kickReturns,LONG,Da'Norris Searcy,27
+293600153,North Carolina,ACC,home,17,kickReturns,LONG,Johnny White,24
+293600153,North Carolina,ACC,home,17,kickReturns,TD,Da'Norris Searcy,0
+293600153,North Carolina,ACC,home,17,kickReturns,TD,Johnny White,0
+293600153,North Carolina,ACC,home,17,puntReturns,NO,Da'Norris Searcy,2
+293600153,North Carolina,ACC,home,17,puntReturns,YDS,Da'Norris Searcy,28
+293600153,North Carolina,ACC,home,17,puntReturns,AVG,Da'Norris Searcy,14.0
+293600153,North Carolina,ACC,home,17,puntReturns,LONG,Da'Norris Searcy,17
+293600153,North Carolina,ACC,home,17,puntReturns,TD,Da'Norris Searcy,0
+293600153,North Carolina,ACC,home,17,kicking,FG,Casey Barth,1/1
+293600153,North Carolina,ACC,home,17,kicking,PCT,Casey Barth,100.0
+293600153,North Carolina,ACC,home,17,kicking,LONG,Casey Barth,37
+293600153,North Carolina,ACC,home,17,kicking,XP,Casey Barth,2/2
+293600153,North Carolina,ACC,home,17,kicking,PTS,Casey Barth,5
+293600153,North Carolina,ACC,home,17,punting,NO,Grant Schallock,3
+293600153,North Carolina,ACC,home,17,punting,YDS,Grant Schallock,124
+293600153,North Carolina,ACC,home,17,punting,AVG,Grant Schallock,41.3
+293600153,North Carolina,ACC,home,17,punting,TB,Grant Schallock,0
+293600153,North Carolina,ACC,home,17,punting,In 20,Grant Schallock,0
+293600153,North Carolina,ACC,home,17,punting,LONG,Grant Schallock,49
+293600153,Pittsburgh,Big East,away,19,passing,C/ATT,Bill Stull,17/24
+293600153,Pittsburgh,Big East,away,19,passing,YDS,Bill Stull,163
+293600153,Pittsburgh,Big East,away,19,passing,AVG,Bill Stull,6.8
+293600153,Pittsburgh,Big East,away,19,passing,TD,Bill Stull,0
+293600153,Pittsburgh,Big East,away,19,passing,INT,Bill Stull,0
+293600153,Pittsburgh,Big East,away,19,passing,QBR,Bill Stull,78.2
+293600153,Pittsburgh,Big East,away,19,rushing,CAR,Dion Lewis,28
+293600153,Pittsburgh,Big East,away,19,rushing,CAR,Ray Graham,2
+293600153,Pittsburgh,Big East,away,19,rushing,CAR,Bill Stull,4
+293600153,Pittsburgh,Big East,away,19,rushing,YDS,Dion Lewis,159
+293600153,Pittsburgh,Big East,away,19,rushing,YDS,Ray Graham,0
+293600153,Pittsburgh,Big East,away,19,rushing,YDS,Bill Stull,-13
+293600153,Pittsburgh,Big East,away,19,rushing,AVG,Dion Lewis,5.7
+293600153,Pittsburgh,Big East,away,19,rushing,AVG,Ray Graham,0.0
+293600153,Pittsburgh,Big East,away,19,rushing,AVG,Bill Stull,-3.3
+293600153,Pittsburgh,Big East,away,19,rushing,TD,Dion Lewis,1
+293600153,Pittsburgh,Big East,away,19,rushing,TD,Ray Graham,0
+293600153,Pittsburgh,Big East,away,19,rushing,TD,Bill Stull,0
+293600153,Pittsburgh,Big East,away,19,rushing,LONG,Dion Lewis,26
+293600153,Pittsburgh,Big East,away,19,rushing,LONG,Ray Graham,1
+293600153,Pittsburgh,Big East,away,19,rushing,LONG,Bill Stull,3
+293600153,Pittsburgh,Big East,away,19,receiving,REC,Mike Shanahan,5
+293600153,Pittsburgh,Big East,away,19,receiving,REC,Jonathan Baldwin,3
+293600153,Pittsburgh,Big East,away,19,receiving,REC,Dorin Dickerson,4
+293600153,Pittsburgh,Big East,away,19,receiving,REC,Henry Hynoski,3
+293600153,Pittsburgh,Big East,away,19,receiving,REC,Nate Arthur Byham,1
+293600153,Pittsburgh,Big East,away,19,receiving,REC,Dion Lewis,1
+293600153,Pittsburgh,Big East,away,19,receiving,YDS,Mike Shanahan,83
+293600153,Pittsburgh,Big East,away,19,receiving,YDS,Jonathan Baldwin,31
+293600153,Pittsburgh,Big East,away,19,receiving,YDS,Dorin Dickerson,21
+293600153,Pittsburgh,Big East,away,19,receiving,YDS,Henry Hynoski,20
+293600153,Pittsburgh,Big East,away,19,receiving,YDS,Nate Arthur Byham,9
+293600153,Pittsburgh,Big East,away,19,receiving,YDS,Dion Lewis,-1
+293600153,Pittsburgh,Big East,away,19,receiving,AVG,Mike Shanahan,16.6
+293600153,Pittsburgh,Big East,away,19,receiving,AVG,Jonathan Baldwin,10.3
+293600153,Pittsburgh,Big East,away,19,receiving,AVG,Dorin Dickerson,5.3
+293600153,Pittsburgh,Big East,away,19,receiving,AVG,Henry Hynoski,6.7
+293600153,Pittsburgh,Big East,away,19,receiving,AVG,Nate Arthur Byham,9.0
+293600153,Pittsburgh,Big East,away,19,receiving,AVG,Dion Lewis,-1.0
+293600153,Pittsburgh,Big East,away,19,receiving,TD,Mike Shanahan,0
+293600153,Pittsburgh,Big East,away,19,receiving,TD,Jonathan Baldwin,0
+293600153,Pittsburgh,Big East,away,19,receiving,TD,Dorin Dickerson,0
+293600153,Pittsburgh,Big East,away,19,receiving,TD,Henry Hynoski,0
+293600153,Pittsburgh,Big East,away,19,receiving,TD,Nate Arthur Byham,0
+293600153,Pittsburgh,Big East,away,19,receiving,TD,Dion Lewis,0
+293600153,Pittsburgh,Big East,away,19,receiving,LONG,Mike Shanahan,22
+293600153,Pittsburgh,Big East,away,19,receiving,LONG,Jonathan Baldwin,16
+293600153,Pittsburgh,Big East,away,19,receiving,LONG,Dorin Dickerson,8
+293600153,Pittsburgh,Big East,away,19,receiving,LONG,Henry Hynoski,9
+293600153,Pittsburgh,Big East,away,19,receiving,LONG,Nate Arthur Byham,9
+293600153,Pittsburgh,Big East,away,19,receiving,LONG,Dion Lewis,0
+293600153,Pittsburgh,Big East,away,19,interceptions,INT,Dan Mason,1
+293600153,Pittsburgh,Big East,away,19,interceptions,YDS,Dan Mason,2
+293600153,Pittsburgh,Big East,away,19,interceptions,TD,Dan Mason,0
+293600153,Pittsburgh,Big East,away,19,kickReturns,NO,Cameron Saddler,2
+293600153,Pittsburgh,Big East,away,19,kickReturns,NO,Ray Graham,1
+293600153,Pittsburgh,Big East,away,19,kickReturns,YDS,Cameron Saddler,42
+293600153,Pittsburgh,Big East,away,19,kickReturns,YDS,Ray Graham,25
+293600153,Pittsburgh,Big East,away,19,kickReturns,AVG,Cameron Saddler,21.0
+293600153,Pittsburgh,Big East,away,19,kickReturns,AVG,Ray Graham,25.0
+293600153,Pittsburgh,Big East,away,19,kickReturns,LONG,Cameron Saddler,23
+293600153,Pittsburgh,Big East,away,19,kickReturns,LONG,Ray Graham,25
+293600153,Pittsburgh,Big East,away,19,kickReturns,TD,Cameron Saddler,0
+293600153,Pittsburgh,Big East,away,19,kickReturns,TD,Ray Graham,0
+293600153,Pittsburgh,Big East,away,19,puntReturns,NO,Cameron Saddler,1
+293600153,Pittsburgh,Big East,away,19,puntReturns,YDS,Cameron Saddler,21
+293600153,Pittsburgh,Big East,away,19,puntReturns,AVG,Cameron Saddler,21.0
+293600153,Pittsburgh,Big East,away,19,puntReturns,LONG,Cameron Saddler,21
+293600153,Pittsburgh,Big East,away,19,puntReturns,TD,Cameron Saddler,0
+293600153,Pittsburgh,Big East,away,19,kicking,FG,Dan Hutchins,4/5
+293600153,Pittsburgh,Big East,away,19,kicking,PCT,Dan Hutchins,80.0
+293600153,Pittsburgh,Big East,away,19,kicking,LONG,Dan Hutchins,42
+293600153,Pittsburgh,Big East,away,19,kicking,XP,Dan Hutchins,1/1
+293600153,Pittsburgh,Big East,away,19,kicking,PTS,Dan Hutchins,13
+293600153,Pittsburgh,Big East,away,19,punting,NO,Dan Hutchins,2
+293600153,Pittsburgh,Big East,away,19,punting,YDS,Dan Hutchins,90
+293600153,Pittsburgh,Big East,away,19,punting,AVG,Dan Hutchins,45.0
+293600153,Pittsburgh,Big East,away,19,punting,TB,Dan Hutchins,0
+293600153,Pittsburgh,Big East,away,19,punting,In 20,Dan Hutchins,0
+293600153,Pittsburgh,Big East,away,19,punting,LONG,Dan Hutchins,51
+300010057,Florida,SEC,home,51,passing,C/ATT,Tim Tebow,31/35
+300010057,Florida,SEC,home,51,passing,YDS,Tim Tebow,482
+300010057,Florida,SEC,home,51,passing,AVG,Tim Tebow,13.8
+300010057,Florida,SEC,home,51,passing,TD,Tim Tebow,3
+300010057,Florida,SEC,home,51,passing,INT,Tim Tebow,0
+300010057,Florida,SEC,home,51,passing,QBR,Tim Tebow,95.2
+300010057,Florida,SEC,home,51,rushing,CAR,Mike Gillislee,5
+300010057,Florida,SEC,home,51,rushing,CAR,Tim Tebow,14
+300010057,Florida,SEC,home,51,rushing,CAR,Chris Rainey,4
+300010057,Florida,SEC,home,51,rushing,CAR,Emmanuel Moody,8
+300010057,Florida,SEC,home,51,rushing,CAR,Jeff Demps,3
+300010057,Florida,SEC,home,51,rushing,YDS,Mike Gillislee,78
+300010057,Florida,SEC,home,51,rushing,YDS,Tim Tebow,51
+300010057,Florida,SEC,home,51,rushing,YDS,Chris Rainey,27
+300010057,Florida,SEC,home,51,rushing,YDS,Emmanuel Moody,14
+300010057,Florida,SEC,home,51,rushing,YDS,Jeff Demps,7
+300010057,Florida,SEC,home,51,rushing,AVG,Mike Gillislee,15.6
+300010057,Florida,SEC,home,51,rushing,AVG,Tim Tebow,3.6
+300010057,Florida,SEC,home,51,rushing,AVG,Chris Rainey,6.8
+300010057,Florida,SEC,home,51,rushing,AVG,Emmanuel Moody,1.8
+300010057,Florida,SEC,home,51,rushing,AVG,Jeff Demps,2.3
+300010057,Florida,SEC,home,51,rushing,TD,Mike Gillislee,0
+300010057,Florida,SEC,home,51,rushing,TD,Tim Tebow,1
+300010057,Florida,SEC,home,51,rushing,TD,Chris Rainey,1
+300010057,Florida,SEC,home,51,rushing,TD,Emmanuel Moody,2
+300010057,Florida,SEC,home,51,rushing,TD,Jeff Demps,0
+300010057,Florida,SEC,home,51,rushing,LONG,Mike Gillislee,52
+300010057,Florida,SEC,home,51,rushing,LONG,Tim Tebow,17
+300010057,Florida,SEC,home,51,rushing,LONG,Chris Rainey,13
+300010057,Florida,SEC,home,51,rushing,LONG,Emmanuel Moody,9
+300010057,Florida,SEC,home,51,rushing,LONG,Jeff Demps,6
+300010057,Florida,SEC,home,51,receiving,REC,Riley Cooper,7
+300010057,Florida,SEC,home,51,receiving,REC,Aaron Hernandez,9
+300010057,Florida,SEC,home,51,receiving,REC,Chris Rainey,4
+300010057,Florida,SEC,home,51,receiving,REC,Deonte Thompson,5
+300010057,Florida,SEC,home,51,receiving,REC,David Nelson,2
+300010057,Florida,SEC,home,51,receiving,REC,Emmanuel Moody,4
+300010057,Florida,SEC,home,51,receiving,YDS,Riley Cooper,181
+300010057,Florida,SEC,home,51,receiving,YDS,Aaron Hernandez,111
+300010057,Florida,SEC,home,51,receiving,YDS,Chris Rainey,71
+300010057,Florida,SEC,home,51,receiving,YDS,Deonte Thompson,63
+300010057,Florida,SEC,home,51,receiving,YDS,David Nelson,37
+300010057,Florida,SEC,home,51,receiving,YDS,Emmanuel Moody,19
+300010057,Florida,SEC,home,51,receiving,AVG,Riley Cooper,25.9
+300010057,Florida,SEC,home,51,receiving,AVG,Aaron Hernandez,12.3
+300010057,Florida,SEC,home,51,receiving,AVG,Chris Rainey,17.8
+300010057,Florida,SEC,home,51,receiving,AVG,Deonte Thompson,12.6
+300010057,Florida,SEC,home,51,receiving,AVG,David Nelson,18.5
+300010057,Florida,SEC,home,51,receiving,AVG,Emmanuel Moody,4.8
+300010057,Florida,SEC,home,51,receiving,TD,Riley Cooper,1
+300010057,Florida,SEC,home,51,receiving,TD,Aaron Hernandez,1
+300010057,Florida,SEC,home,51,receiving,TD,Chris Rainey,0
+300010057,Florida,SEC,home,51,receiving,TD,Deonte Thompson,1
+300010057,Florida,SEC,home,51,receiving,TD,David Nelson,0
+300010057,Florida,SEC,home,51,receiving,TD,Emmanuel Moody,0
+300010057,Florida,SEC,home,51,receiving,LONG,Riley Cooper,80
+300010057,Florida,SEC,home,51,receiving,LONG,Aaron Hernandez,23
+300010057,Florida,SEC,home,51,receiving,LONG,Chris Rainey,33
+300010057,Florida,SEC,home,51,receiving,LONG,Deonte Thompson,24
+300010057,Florida,SEC,home,51,receiving,LONG,David Nelson,30
+300010057,Florida,SEC,home,51,receiving,LONG,Emmanuel Moody,8
+300010057,Florida,SEC,home,51,kickReturns,NO,Chris Rainey,4
+300010057,Florida,SEC,home,51,kickReturns,YDS,Chris Rainey,116
+300010057,Florida,SEC,home,51,kickReturns,AVG,Chris Rainey,29.0
+300010057,Florida,SEC,home,51,kickReturns,LONG,Chris Rainey,51
+300010057,Florida,SEC,home,51,kickReturns,TD,Chris Rainey,0
+300010057,Florida,SEC,home,51,puntReturns,NO,Chris Rainey,2
+300010057,Florida,SEC,home,51,puntReturns,YDS,Chris Rainey,10
+300010057,Florida,SEC,home,51,puntReturns,AVG,Chris Rainey,5.0
+300010057,Florida,SEC,home,51,puntReturns,LONG,Chris Rainey,10
+300010057,Florida,SEC,home,51,puntReturns,TD,Chris Rainey,0
+300010057,Florida,SEC,home,51,kicking,FG,Caleb Sturgis,1/2
+300010057,Florida,SEC,home,51,kicking,PCT,Caleb Sturgis,50.0
+300010057,Florida,SEC,home,51,kicking,LONG,Caleb Sturgis,40
+300010057,Florida,SEC,home,51,kicking,XP,Caleb Sturgis,6/7
+300010057,Florida,SEC,home,51,kicking,PTS,Caleb Sturgis,9
+300010057,Florida,SEC,home,51,punting,NO,Chas Henry,1
+300010057,Florida,SEC,home,51,punting,YDS,Chas Henry,44
+300010057,Florida,SEC,home,51,punting,AVG,Chas Henry,44.0
+300010057,Florida,SEC,home,51,punting,TB,Chas Henry,0
+300010057,Florida,SEC,home,51,punting,In 20,Chas Henry,0
+300010057,Florida,SEC,home,51,punting,LONG,Chas Henry,44
+300010057,Cincinnati,Big East,away,24,passing,C/ATT,Tony Pike,27/45
+300010057,Cincinnati,Big East,away,24,passing,YDS,Tony Pike,170
+300010057,Cincinnati,Big East,away,24,passing,AVG,Tony Pike,3.8
+300010057,Cincinnati,Big East,away,24,passing,TD,Tony Pike,3
+300010057,Cincinnati,Big East,away,24,passing,INT,Tony Pike,0
+300010057,Cincinnati,Big East,away,24,passing,QBR,Tony Pike,20.0
+300010057,Cincinnati,Big East,away,24,rushing,CAR,Isaiah Pead,7
+300010057,Cincinnati,Big East,away,24,rushing,CAR,Travis Kelce,1
+300010057,Cincinnati,Big East,away,24,rushing,CAR,Jacob Ramsey,6
+300010057,Cincinnati,Big East,away,24,rushing,CAR,John Goebel,1
+300010057,Cincinnati,Big East,away,24,rushing,CAR,Darrin Williams,1
+300010057,Cincinnati,Big East,away,24,rushing,CAR,Tony Pike,7
+300010057,Cincinnati,Big East,away,24,rushing,YDS,Isaiah Pead,48
+300010057,Cincinnati,Big East,away,24,rushing,YDS,Travis Kelce,19
+300010057,Cincinnati,Big East,away,24,rushing,YDS,Jacob Ramsey,18
+300010057,Cincinnati,Big East,away,24,rushing,YDS,John Goebel,8
+300010057,Cincinnati,Big East,away,24,rushing,YDS,Darrin Williams,-5
+300010057,Cincinnati,Big East,away,24,rushing,YDS,Tony Pike,-12
+300010057,Cincinnati,Big East,away,24,rushing,AVG,Isaiah Pead,6.9
+300010057,Cincinnati,Big East,away,24,rushing,AVG,Travis Kelce,19.0
+300010057,Cincinnati,Big East,away,24,rushing,AVG,Jacob Ramsey,3.0
+300010057,Cincinnati,Big East,away,24,rushing,AVG,John Goebel,8.0
+300010057,Cincinnati,Big East,away,24,rushing,AVG,Darrin Williams,-5.0
+300010057,Cincinnati,Big East,away,24,rushing,AVG,Tony Pike,-1.7
+300010057,Cincinnati,Big East,away,24,rushing,TD,Isaiah Pead,0
+300010057,Cincinnati,Big East,away,24,rushing,TD,Travis Kelce,0
+300010057,Cincinnati,Big East,away,24,rushing,TD,Jacob Ramsey,0
+300010057,Cincinnati,Big East,away,24,rushing,TD,John Goebel,0
+300010057,Cincinnati,Big East,away,24,rushing,TD,Darrin Williams,0
+300010057,Cincinnati,Big East,away,24,rushing,TD,Tony Pike,0
+300010057,Cincinnati,Big East,away,24,rushing,LONG,Isaiah Pead,12
+300010057,Cincinnati,Big East,away,24,rushing,LONG,Travis Kelce,19
+300010057,Cincinnati,Big East,away,24,rushing,LONG,Jacob Ramsey,9
+300010057,Cincinnati,Big East,away,24,rushing,LONG,John Goebel,8
+300010057,Cincinnati,Big East,away,24,rushing,LONG,Darrin Williams,0
+300010057,Cincinnati,Big East,away,24,rushing,LONG,Tony Pike,8
+300010057,Cincinnati,Big East,away,24,receiving,REC,D.J. Woods,4
+300010057,Cincinnati,Big East,away,24,receiving,REC,Mardy Gilyard,7
+300010057,Cincinnati,Big East,away,24,receiving,REC,Armon Binns,5
+300010057,Cincinnati,Big East,away,24,receiving,REC,Ben Guidugli,5
+300010057,Cincinnati,Big East,away,24,receiving,REC,Jacob Ramsey,2
+300010057,Cincinnati,Big East,away,24,receiving,REC,Isaiah Pead,1
+300010057,Cincinnati,Big East,away,24,receiving,REC,Kazeem Alli,1
+300010057,Cincinnati,Big East,away,24,receiving,REC,Marcus Waugh,1
+300010057,Cincinnati,Big East,away,24,receiving,REC,John Goebel,1
+300010057,Cincinnati,Big East,away,24,receiving,YDS,D.J. Woods,46
+300010057,Cincinnati,Big East,away,24,receiving,YDS,Mardy Gilyard,41
+300010057,Cincinnati,Big East,away,24,receiving,YDS,Armon Binns,29
+300010057,Cincinnati,Big East,away,24,receiving,YDS,Ben Guidugli,22
+300010057,Cincinnati,Big East,away,24,receiving,YDS,Jacob Ramsey,16
+300010057,Cincinnati,Big East,away,24,receiving,YDS,Isaiah Pead,7
+300010057,Cincinnati,Big East,away,24,receiving,YDS,Kazeem Alli,6
+300010057,Cincinnati,Big East,away,24,receiving,YDS,Marcus Waugh,2
+300010057,Cincinnati,Big East,away,24,receiving,YDS,John Goebel,1
+300010057,Cincinnati,Big East,away,24,receiving,AVG,D.J. Woods,11.5
+300010057,Cincinnati,Big East,away,24,receiving,AVG,Mardy Gilyard,5.9
+300010057,Cincinnati,Big East,away,24,receiving,AVG,Armon Binns,5.8
+300010057,Cincinnati,Big East,away,24,receiving,AVG,Ben Guidugli,4.4
+300010057,Cincinnati,Big East,away,24,receiving,AVG,Jacob Ramsey,8.0
+300010057,Cincinnati,Big East,away,24,receiving,AVG,Isaiah Pead,7.0
+300010057,Cincinnati,Big East,away,24,receiving,AVG,Kazeem Alli,6.0
+300010057,Cincinnati,Big East,away,24,receiving,AVG,Marcus Waugh,2.0
+300010057,Cincinnati,Big East,away,24,receiving,AVG,John Goebel,1.0
+300010057,Cincinnati,Big East,away,24,receiving,TD,D.J. Woods,0
+300010057,Cincinnati,Big East,away,24,receiving,TD,Mardy Gilyard,0
+300010057,Cincinnati,Big East,away,24,receiving,TD,Armon Binns,1
+300010057,Cincinnati,Big East,away,24,receiving,TD,Ben Guidugli,0
+300010057,Cincinnati,Big East,away,24,receiving,TD,Jacob Ramsey,0
+300010057,Cincinnati,Big East,away,24,receiving,TD,Isaiah Pead,0
+300010057,Cincinnati,Big East,away,24,receiving,TD,Kazeem Alli,1
+300010057,Cincinnati,Big East,away,24,receiving,TD,Marcus Waugh,1
+300010057,Cincinnati,Big East,away,24,receiving,TD,John Goebel,0
+300010057,Cincinnati,Big East,away,24,receiving,LONG,D.J. Woods,22
+300010057,Cincinnati,Big East,away,24,receiving,LONG,Mardy Gilyard,12
+300010057,Cincinnati,Big East,away,24,receiving,LONG,Armon Binns,9
+300010057,Cincinnati,Big East,away,24,receiving,LONG,Ben Guidugli,10
+300010057,Cincinnati,Big East,away,24,receiving,LONG,Jacob Ramsey,11
+300010057,Cincinnati,Big East,away,24,receiving,LONG,Isaiah Pead,7
+300010057,Cincinnati,Big East,away,24,receiving,LONG,Kazeem Alli,6
+300010057,Cincinnati,Big East,away,24,receiving,LONG,Marcus Waugh,2
+300010057,Cincinnati,Big East,away,24,receiving,LONG,John Goebel,1
+300010057,Cincinnati,Big East,away,24,kickReturns,NO,Mardy Gilyard,8
+300010057,Cincinnati,Big East,away,24,kickReturns,NO,Darrin Williams,1
+300010057,Cincinnati,Big East,away,24,kickReturns,YDS,Mardy Gilyard,207
+300010057,Cincinnati,Big East,away,24,kickReturns,YDS,Darrin Williams,19
+300010057,Cincinnati,Big East,away,24,kickReturns,AVG,Mardy Gilyard,25.9
+300010057,Cincinnati,Big East,away,24,kickReturns,AVG,Darrin Williams,19.0
+300010057,Cincinnati,Big East,away,24,kickReturns,LONG,Mardy Gilyard,40
+300010057,Cincinnati,Big East,away,24,kickReturns,LONG,Darrin Williams,19
+300010057,Cincinnati,Big East,away,24,kickReturns,TD,Mardy Gilyard,0
+300010057,Cincinnati,Big East,away,24,kickReturns,TD,Darrin Williams,0
+300010057,Cincinnati,Big East,away,24,puntReturns,NO,Mardy Gilyard,1
+300010057,Cincinnati,Big East,away,24,puntReturns,YDS,Mardy Gilyard,0
+300010057,Cincinnati,Big East,away,24,puntReturns,AVG,Mardy Gilyard,0.0
+300010057,Cincinnati,Big East,away,24,puntReturns,LONG,Mardy Gilyard,0
+300010057,Cincinnati,Big East,away,24,puntReturns,TD,Mardy Gilyard,0
+300010057,Cincinnati,Big East,away,24,kicking,FG,Jake Rogers,1/1
+300010057,Cincinnati,Big East,away,24,kicking,PCT,Jake Rogers,100.0
+300010057,Cincinnati,Big East,away,24,kicking,LONG,Jake Rogers,47
+300010057,Cincinnati,Big East,away,24,kicking,XP,Jake Rogers,3/3
+300010057,Cincinnati,Big East,away,24,kicking,PTS,Jake Rogers,6
+300010057,Cincinnati,Big East,away,24,punting,NO,Jake Rogers,6
+300010057,Cincinnati,Big East,away,24,punting,YDS,Jake Rogers,253
+300010057,Cincinnati,Big East,away,24,punting,AVG,Jake Rogers,42.2
+300010057,Cincinnati,Big East,away,24,punting,TB,Jake Rogers,0
+300010057,Cincinnati,Big East,away,24,punting,In 20,Jake Rogers,0
+300010057,Cincinnati,Big East,away,24,punting,LONG,Jake Rogers,54
+300010052,Florida State,ACC,home,33,rushing,YDS,Lonnie Pryor,2
+300010052,Florida State,ACC,home,33,rushing,YDS,Jermaine Thomas,121
+300010052,Florida State,ACC,home,33,rushing,YDS,EJ Manuel,69
+300010052,Florida State,ACC,home,33,rushing,YDS,Chris Thompson,20
+300010052,Florida State,ACC,home,33,rushing,YDS,Bert Reed,9
+300010052,Florida State,ACC,home,33,rushing,YDS,Louis Givens,4
+300010052,Florida State,ACC,home,33,rushing,CAR,Jermaine Thomas,25
+300010052,Florida State,ACC,home,33,rushing,CAR,EJ Manuel,14
+300010052,Florida State,ACC,home,33,rushing,CAR,Chris Thompson,2
+300010052,Florida State,ACC,home,33,rushing,CAR,Bert Reed,3
+300010052,Florida State,ACC,home,33,rushing,CAR,Louis Givens,1
+300010052,Florida State,ACC,home,33,rushing,CAR,Lonnie Pryor,1
+300010052,Florida State,ACC,home,33,rushing,AVG,Jermaine Thomas,4.8
+300010052,Florida State,ACC,home,33,rushing,AVG,EJ Manuel,4.9
+300010052,Florida State,ACC,home,33,rushing,AVG,Chris Thompson,10.0
+300010052,Florida State,ACC,home,33,rushing,AVG,Bert Reed,3.0
+300010052,Florida State,ACC,home,33,rushing,AVG,Louis Givens,4.0
+300010052,Florida State,ACC,home,33,rushing,AVG,Lonnie Pryor,2.0
+300010052,Florida State,ACC,home,33,rushing,TD,Jermaine Thomas,2
+300010052,Florida State,ACC,home,33,rushing,TD,EJ Manuel,1
+300010052,Florida State,ACC,home,33,rushing,TD,Chris Thompson,0
+300010052,Florida State,ACC,home,33,rushing,TD,Bert Reed,0
+300010052,Florida State,ACC,home,33,rushing,TD,Louis Givens,0
+300010052,Florida State,ACC,home,33,rushing,TD,Lonnie Pryor,0
+300010052,Florida State,ACC,home,33,rushing,LONG,Jermaine Thomas,19
+300010052,Florida State,ACC,home,33,rushing,LONG,EJ Manuel,15
+300010052,Florida State,ACC,home,33,rushing,LONG,Chris Thompson,20
+300010052,Florida State,ACC,home,33,rushing,LONG,Bert Reed,8
+300010052,Florida State,ACC,home,33,rushing,LONG,Louis Givens,4
+300010052,Florida State,ACC,home,33,rushing,LONG,Lonnie Pryor,2
+300010052,Florida State,ACC,home,33,passing,C/ATT,EJ Manuel,17/24
+300010052,Florida State,ACC,home,33,passing,YDS,EJ Manuel,189
+300010052,Florida State,ACC,home,33,passing,AVG,EJ Manuel,7.9
+300010052,Florida State,ACC,home,33,passing,TD,EJ Manuel,0
+300010052,Florida State,ACC,home,33,passing,INT,EJ Manuel,0
+300010052,Florida State,ACC,home,33,passing,QBR,EJ Manuel,67.4
+300010052,Florida State,ACC,home,33,receiving,REC,Jarmon Fortson,4
+300010052,Florida State,ACC,home,33,receiving,REC,Rod Owens,3
+300010052,Florida State,ACC,home,33,receiving,REC,Taiwan Easterling,3
+300010052,Florida State,ACC,home,33,receiving,REC,Lonnie Pryor,2
+300010052,Florida State,ACC,home,33,receiving,REC,Jermaine Thomas,1
+300010052,Florida State,ACC,home,33,receiving,REC,Chris Thompson,1
+300010052,Florida State,ACC,home,33,receiving,REC,Beau Reliford,1
+300010052,Florida State,ACC,home,33,receiving,REC,Bert Reed,2
+300010052,Florida State,ACC,home,33,receiving,YDS,Jarmon Fortson,73
+300010052,Florida State,ACC,home,33,receiving,YDS,Rod Owens,37
+300010052,Florida State,ACC,home,33,receiving,YDS,Taiwan Easterling,33
+300010052,Florida State,ACC,home,33,receiving,YDS,Lonnie Pryor,22
+300010052,Florida State,ACC,home,33,receiving,YDS,Jermaine Thomas,9
+300010052,Florida State,ACC,home,33,receiving,YDS,Chris Thompson,9
+300010052,Florida State,ACC,home,33,receiving,YDS,Beau Reliford,6
+300010052,Florida State,ACC,home,33,receiving,YDS,Bert Reed,0
+300010052,Florida State,ACC,home,33,receiving,AVG,Jarmon Fortson,18.3
+300010052,Florida State,ACC,home,33,receiving,AVG,Rod Owens,12.3
+300010052,Florida State,ACC,home,33,receiving,AVG,Taiwan Easterling,11.0
+300010052,Florida State,ACC,home,33,receiving,AVG,Lonnie Pryor,11.0
+300010052,Florida State,ACC,home,33,receiving,AVG,Jermaine Thomas,9.0
+300010052,Florida State,ACC,home,33,receiving,AVG,Chris Thompson,9.0
+300010052,Florida State,ACC,home,33,receiving,AVG,Beau Reliford,6.0
+300010052,Florida State,ACC,home,33,receiving,AVG,Bert Reed,0.0
+300010052,Florida State,ACC,home,33,receiving,TD,Jarmon Fortson,0
+300010052,Florida State,ACC,home,33,receiving,TD,Rod Owens,0
+300010052,Florida State,ACC,home,33,receiving,TD,Taiwan Easterling,0
+300010052,Florida State,ACC,home,33,receiving,TD,Lonnie Pryor,0
+300010052,Florida State,ACC,home,33,receiving,TD,Jermaine Thomas,0
+300010052,Florida State,ACC,home,33,receiving,TD,Chris Thompson,0
+300010052,Florida State,ACC,home,33,receiving,TD,Beau Reliford,0
+300010052,Florida State,ACC,home,33,receiving,TD,Bert Reed,0
+300010052,Florida State,ACC,home,33,receiving,LONG,Jarmon Fortson,29
+300010052,Florida State,ACC,home,33,receiving,LONG,Rod Owens,14
+300010052,Florida State,ACC,home,33,receiving,LONG,Taiwan Easterling,18
+300010052,Florida State,ACC,home,33,receiving,LONG,Lonnie Pryor,13
+300010052,Florida State,ACC,home,33,receiving,LONG,Jermaine Thomas,9
+300010052,Florida State,ACC,home,33,receiving,LONG,Chris Thompson,9
+300010052,Florida State,ACC,home,33,receiving,LONG,Beau Reliford,6
+300010052,Florida State,ACC,home,33,receiving,LONG,Bert Reed,1
+300010052,Florida State,ACC,home,33,interceptions,INT,Jamie Robinson,1
+300010052,Florida State,ACC,home,33,interceptions,YDS,Jamie Robinson,0
+300010052,Florida State,ACC,home,33,interceptions,TD,Jamie Robinson,0
+300010052,Florida State,ACC,home,33,kickReturns,NO,Greg Reid,1
+300010052,Florida State,ACC,home,33,kickReturns,NO,Patrick Robinson,2
+300010052,Florida State,ACC,home,33,kickReturns,NO,Vincent Zann,1
+300010052,Florida State,ACC,home,33,kickReturns,YDS,Greg Reid,69
+300010052,Florida State,ACC,home,33,kickReturns,YDS,Patrick Robinson,19
+300010052,Florida State,ACC,home,33,kickReturns,YDS,Vincent Zann,13
+300010052,Florida State,ACC,home,33,kickReturns,AVG,Greg Reid,69.0
+300010052,Florida State,ACC,home,33,kickReturns,AVG,Patrick Robinson,9.5
+300010052,Florida State,ACC,home,33,kickReturns,AVG,Vincent Zann,13.0
+300010052,Florida State,ACC,home,33,kickReturns,LONG,Greg Reid,69
+300010052,Florida State,ACC,home,33,kickReturns,LONG,Patrick Robinson,14
+300010052,Florida State,ACC,home,33,kickReturns,LONG,Vincent Zann,13
+300010052,Florida State,ACC,home,33,kickReturns,TD,Greg Reid,0
+300010052,Florida State,ACC,home,33,kickReturns,TD,Patrick Robinson,0
+300010052,Florida State,ACC,home,33,kickReturns,TD,Vincent Zann,0
+300010052,Florida State,ACC,home,33,puntReturns,NO,Greg Reid,2
+300010052,Florida State,ACC,home,33,puntReturns,YDS,Greg Reid,37
+300010052,Florida State,ACC,home,33,puntReturns,AVG,Greg Reid,18.5
+300010052,Florida State,ACC,home,33,puntReturns,LONG,Greg Reid,20
+300010052,Florida State,ACC,home,33,puntReturns,TD,Greg Reid,0
+300010052,Florida State,ACC,home,33,kicking,FG,Dustin Hopkins,4/5
+300010052,Florida State,ACC,home,33,kicking,PCT,Dustin Hopkins,80.0
+300010052,Florida State,ACC,home,33,kicking,LONG,Dustin Hopkins,42
+300010052,Florida State,ACC,home,33,kicking,XP,Dustin Hopkins,3/3
+300010052,Florida State,ACC,home,33,kicking,PTS,Dustin Hopkins,15
+300010052,Florida State,ACC,home,33,punting,NO,Shawn Powell,2
+300010052,Florida State,ACC,home,33,punting,YDS,Shawn Powell,75
+300010052,Florida State,ACC,home,33,punting,AVG,Shawn Powell,37.5
+300010052,Florida State,ACC,home,33,punting,TB,Shawn Powell,0
+300010052,Florida State,ACC,home,33,punting,In 20,Shawn Powell,0
+300010052,Florida State,ACC,home,33,punting,LONG,Shawn Powell,38
+300010052,West Virginia,Big East,away,21,passing,C/ATT,Geno Smith,8/15
+300010052,West Virginia,Big East,away,21,passing,C/ATT,Jarrett Brown,1/4
+300010052,West Virginia,Big East,away,21,passing,YDS,Geno Smith,92
+300010052,West Virginia,Big East,away,21,passing,YDS,Jarrett Brown,15
+300010052,West Virginia,Big East,away,21,passing,AVG,Geno Smith,6.1
+300010052,West Virginia,Big East,away,21,passing,AVG,Jarrett Brown,3.8
+300010052,West Virginia,Big East,away,21,passing,TD,Geno Smith,0
+300010052,West Virginia,Big East,away,21,passing,TD,Jarrett Brown,0
+300010052,West Virginia,Big East,away,21,passing,INT,Geno Smith,0
+300010052,West Virginia,Big East,away,21,passing,INT,Jarrett Brown,1
+300010052,West Virginia,Big East,away,21,passing,QBR,Geno Smith,3.5
+300010052,West Virginia,Big East,away,21,passing,QBR,Jarrett Brown,34.9
+300010052,West Virginia,Big East,away,21,rushing,CAR,Noel Devine,16
+300010052,West Virginia,Big East,away,21,rushing,CAR,Jarrett Brown,7
+300010052,West Virginia,Big East,away,21,rushing,CAR,Ryan Clarke,3
+300010052,West Virginia,Big East,away,21,rushing,CAR,Jock Sanders,1
+300010052,West Virginia,Big East,away,21,rushing,CAR,Geno Smith,10
+300010052,West Virginia,Big East,away,21,rushing,YDS,Noel Devine,168
+300010052,West Virginia,Big East,away,21,rushing,YDS,Jarrett Brown,29
+300010052,West Virginia,Big East,away,21,rushing,YDS,Ryan Clarke,12
+300010052,West Virginia,Big East,away,21,rushing,YDS,Jock Sanders,7
+300010052,West Virginia,Big East,away,21,rushing,YDS,Geno Smith,-8
+300010052,West Virginia,Big East,away,21,rushing,AVG,Noel Devine,10.5
+300010052,West Virginia,Big East,away,21,rushing,AVG,Jarrett Brown,4.1
+300010052,West Virginia,Big East,away,21,rushing,AVG,Ryan Clarke,4.0
+300010052,West Virginia,Big East,away,21,rushing,AVG,Jock Sanders,7.0
+300010052,West Virginia,Big East,away,21,rushing,AVG,Geno Smith,-0.8
+300010052,West Virginia,Big East,away,21,rushing,TD,Noel Devine,1
+300010052,West Virginia,Big East,away,21,rushing,TD,Jarrett Brown,1
+300010052,West Virginia,Big East,away,21,rushing,TD,Ryan Clarke,1
+300010052,West Virginia,Big East,away,21,rushing,TD,Jock Sanders,0
+300010052,West Virginia,Big East,away,21,rushing,TD,Geno Smith,0
+300010052,West Virginia,Big East,away,21,rushing,LONG,Noel Devine,70
+300010052,West Virginia,Big East,away,21,rushing,LONG,Jarrett Brown,32
+300010052,West Virginia,Big East,away,21,rushing,LONG,Ryan Clarke,5
+300010052,West Virginia,Big East,away,21,rushing,LONG,Jock Sanders,7
+300010052,West Virginia,Big East,away,21,rushing,LONG,Geno Smith,7
+300010052,West Virginia,Big East,away,21,receiving,REC,Brad Starks,3
+300010052,West Virginia,Big East,away,21,receiving,REC,Noel Devine,2
+300010052,West Virginia,Big East,away,21,receiving,REC,Tavon Austin,1
+300010052,West Virginia,Big East,away,21,receiving,REC,Alric Arnett,1
+300010052,West Virginia,Big East,away,21,receiving,REC,Jock Sanders,2
+300010052,West Virginia,Big East,away,21,receiving,YDS,Brad Starks,30
+300010052,West Virginia,Big East,away,21,receiving,YDS,Noel Devine,28
+300010052,West Virginia,Big East,away,21,receiving,YDS,Tavon Austin,19
+300010052,West Virginia,Big East,away,21,receiving,YDS,Alric Arnett,16
+300010052,West Virginia,Big East,away,21,receiving,YDS,Jock Sanders,14
+300010052,West Virginia,Big East,away,21,receiving,AVG,Brad Starks,10.0
+300010052,West Virginia,Big East,away,21,receiving,AVG,Noel Devine,14.0
+300010052,West Virginia,Big East,away,21,receiving,AVG,Tavon Austin,19.0
+300010052,West Virginia,Big East,away,21,receiving,AVG,Alric Arnett,16.0
+300010052,West Virginia,Big East,away,21,receiving,AVG,Jock Sanders,7.0
+300010052,West Virginia,Big East,away,21,receiving,TD,Brad Starks,0
+300010052,West Virginia,Big East,away,21,receiving,TD,Noel Devine,0
+300010052,West Virginia,Big East,away,21,receiving,TD,Tavon Austin,0
+300010052,West Virginia,Big East,away,21,receiving,TD,Alric Arnett,0
+300010052,West Virginia,Big East,away,21,receiving,TD,Jock Sanders,0
+300010052,West Virginia,Big East,away,21,receiving,LONG,Brad Starks,14
+300010052,West Virginia,Big East,away,21,receiving,LONG,Noel Devine,15
+300010052,West Virginia,Big East,away,21,receiving,LONG,Tavon Austin,19
+300010052,West Virginia,Big East,away,21,receiving,LONG,Alric Arnett,16
+300010052,West Virginia,Big East,away,21,receiving,LONG,Jock Sanders,10
+300010052,West Virginia,Big East,away,21,kickReturns,NO,Mark Rodgers,3
+300010052,West Virginia,Big East,away,21,kickReturns,NO,Noel Devine,1
+300010052,West Virginia,Big East,away,21,kickReturns,NO,Tavon Austin,1
+300010052,West Virginia,Big East,away,21,kickReturns,NO,Ricky Kovatch,1
+300010052,West Virginia,Big East,away,21,kickReturns,NO,Tyler Urban,1
+300010052,West Virginia,Big East,away,21,kickReturns,YDS,Mark Rodgers,84
+300010052,West Virginia,Big East,away,21,kickReturns,YDS,Noel Devine,26
+300010052,West Virginia,Big East,away,21,kickReturns,YDS,Tavon Austin,16
+300010052,West Virginia,Big East,away,21,kickReturns,YDS,Ricky Kovatch,12
+300010052,West Virginia,Big East,away,21,kickReturns,YDS,Tyler Urban,8
+300010052,West Virginia,Big East,away,21,kickReturns,AVG,Mark Rodgers,28.0
+300010052,West Virginia,Big East,away,21,kickReturns,AVG,Noel Devine,26.0
+300010052,West Virginia,Big East,away,21,kickReturns,AVG,Tavon Austin,16.0
+300010052,West Virginia,Big East,away,21,kickReturns,AVG,Ricky Kovatch,12.0
+300010052,West Virginia,Big East,away,21,kickReturns,AVG,Tyler Urban,8.0
+300010052,West Virginia,Big East,away,21,kickReturns,LONG,Mark Rodgers,51
+300010052,West Virginia,Big East,away,21,kickReturns,LONG,Noel Devine,26
+300010052,West Virginia,Big East,away,21,kickReturns,LONG,Tavon Austin,16
+300010052,West Virginia,Big East,away,21,kickReturns,LONG,Ricky Kovatch,12
+300010052,West Virginia,Big East,away,21,kickReturns,LONG,Tyler Urban,8
+300010052,West Virginia,Big East,away,21,kickReturns,TD,Mark Rodgers,0
+300010052,West Virginia,Big East,away,21,kickReturns,TD,Noel Devine,0
+300010052,West Virginia,Big East,away,21,kickReturns,TD,Tavon Austin,0
+300010052,West Virginia,Big East,away,21,kickReturns,TD,Ricky Kovatch,0
+300010052,West Virginia,Big East,away,21,kickReturns,TD,Tyler Urban,0
+300010052,West Virginia,Big East,away,21,kicking,FG,Tyler Bitancurt,0/1
+300010052,West Virginia,Big East,away,21,kicking,PCT,Tyler Bitancurt,0.0
+300010052,West Virginia,Big East,away,21,kicking,LONG,Tyler Bitancurt,0
+300010052,West Virginia,Big East,away,21,kicking,XP,Tyler Bitancurt,3/3
+300010052,West Virginia,Big East,away,21,kicking,PTS,Tyler Bitancurt,3
+300010052,West Virginia,Big East,away,21,punting,NO,Scott Kozlowski,3
+300010052,West Virginia,Big East,away,21,punting,YDS,Scott Kozlowski,111
+300010052,West Virginia,Big East,away,21,punting,AVG,Scott Kozlowski,37.0
+300010052,West Virginia,Big East,away,21,punting,TB,Scott Kozlowski,0
+300010052,West Virginia,Big East,away,21,punting,In 20,Scott Kozlowski,0
+300010052,West Virginia,Big East,away,21,punting,LONG,Scott Kozlowski,47
+300022459,Northern Illinois,Mid-American,home,3,passing,C/ATT,Chandler Harnish,12/25
+300022459,Northern Illinois,Mid-American,home,3,passing,C/ATT,DeMarcus Grady,0/1
+300022459,Northern Illinois,Mid-American,home,3,passing,YDS,Chandler Harnish,130
+300022459,Northern Illinois,Mid-American,home,3,passing,YDS,DeMarcus Grady,0
+300022459,Northern Illinois,Mid-American,home,3,passing,AVG,Chandler Harnish,5.2
+300022459,Northern Illinois,Mid-American,home,3,passing,AVG,DeMarcus Grady,0.0
+300022459,Northern Illinois,Mid-American,home,3,passing,TD,Chandler Harnish,0
+300022459,Northern Illinois,Mid-American,home,3,passing,TD,DeMarcus Grady,0
+300022459,Northern Illinois,Mid-American,home,3,passing,INT,Chandler Harnish,1
+300022459,Northern Illinois,Mid-American,home,3,passing,INT,DeMarcus Grady,0
+300022459,Northern Illinois,Mid-American,home,3,passing,QBR,Chandler Harnish,20.7
+300022459,Northern Illinois,Mid-American,home,3,passing,QBR,DeMarcus Grady,1.1
+300022459,Northern Illinois,Mid-American,home,3,rushing,CAR,Chad Spann,20
+300022459,Northern Illinois,Mid-American,home,3,rushing,CAR,Justin Anderson,2
+300022459,Northern Illinois,Mid-American,home,3,rushing,CAR,Nathan Palmer,2
+300022459,Northern Illinois,Mid-American,home,3,rushing,CAR,DeMarcus Grady,2
+300022459,Northern Illinois,Mid-American,home,3,rushing,CAR,Chandler Harnish,5
+300022459,Northern Illinois,Mid-American,home,3,rushing,YDS,Chad Spann,93
+300022459,Northern Illinois,Mid-American,home,3,rushing,YDS,Justin Anderson,14
+300022459,Northern Illinois,Mid-American,home,3,rushing,YDS,Nathan Palmer,4
+300022459,Northern Illinois,Mid-American,home,3,rushing,YDS,DeMarcus Grady,0
+300022459,Northern Illinois,Mid-American,home,3,rushing,YDS,Chandler Harnish,-3
+300022459,Northern Illinois,Mid-American,home,3,rushing,AVG,Chad Spann,4.7
+300022459,Northern Illinois,Mid-American,home,3,rushing,AVG,Justin Anderson,7.0
+300022459,Northern Illinois,Mid-American,home,3,rushing,AVG,Nathan Palmer,2.0
+300022459,Northern Illinois,Mid-American,home,3,rushing,AVG,DeMarcus Grady,0.0
+300022459,Northern Illinois,Mid-American,home,3,rushing,AVG,Chandler Harnish,-0.6
+300022459,Northern Illinois,Mid-American,home,3,rushing,TD,Chad Spann,0
+300022459,Northern Illinois,Mid-American,home,3,rushing,TD,Justin Anderson,0
+300022459,Northern Illinois,Mid-American,home,3,rushing,TD,Nathan Palmer,0
+300022459,Northern Illinois,Mid-American,home,3,rushing,TD,DeMarcus Grady,0
+300022459,Northern Illinois,Mid-American,home,3,rushing,TD,Chandler Harnish,0
+300022459,Northern Illinois,Mid-American,home,3,rushing,LONG,Chad Spann,37
+300022459,Northern Illinois,Mid-American,home,3,rushing,LONG,Justin Anderson,14
+300022459,Northern Illinois,Mid-American,home,3,rushing,LONG,Nathan Palmer,2
+300022459,Northern Illinois,Mid-American,home,3,rushing,LONG,DeMarcus Grady,6
+300022459,Northern Illinois,Mid-American,home,3,rushing,LONG,Chandler Harnish,6
+300022459,Northern Illinois,Mid-American,home,3,receiving,REC,Marcus Lewis,4
+300022459,Northern Illinois,Mid-American,home,3,receiving,REC,Chad Spann,3
+300022459,Northern Illinois,Mid-American,home,3,receiving,REC,Reed Cunningham,2
+300022459,Northern Illinois,Mid-American,home,3,receiving,REC,Martel Moore,1
+300022459,Northern Illinois,Mid-American,home,3,receiving,REC,Nathan Palmer,1
+300022459,Northern Illinois,Mid-American,home,3,receiving,REC,Landon Cox,1
+300022459,Northern Illinois,Mid-American,home,3,receiving,YDS,Marcus Lewis,38
+300022459,Northern Illinois,Mid-American,home,3,receiving,YDS,Chad Spann,30
+300022459,Northern Illinois,Mid-American,home,3,receiving,YDS,Reed Cunningham,25
+300022459,Northern Illinois,Mid-American,home,3,receiving,YDS,Martel Moore,18
+300022459,Northern Illinois,Mid-American,home,3,receiving,YDS,Nathan Palmer,12
+300022459,Northern Illinois,Mid-American,home,3,receiving,YDS,Landon Cox,7
+300022459,Northern Illinois,Mid-American,home,3,receiving,AVG,Marcus Lewis,9.5
+300022459,Northern Illinois,Mid-American,home,3,receiving,AVG,Chad Spann,10.0
+300022459,Northern Illinois,Mid-American,home,3,receiving,AVG,Reed Cunningham,12.5
+300022459,Northern Illinois,Mid-American,home,3,receiving,AVG,Martel Moore,18.0
+300022459,Northern Illinois,Mid-American,home,3,receiving,AVG,Nathan Palmer,12.0
+300022459,Northern Illinois,Mid-American,home,3,receiving,AVG,Landon Cox,7.0
+300022459,Northern Illinois,Mid-American,home,3,receiving,TD,Marcus Lewis,0
+300022459,Northern Illinois,Mid-American,home,3,receiving,TD,Chad Spann,0
+300022459,Northern Illinois,Mid-American,home,3,receiving,TD,Reed Cunningham,0
+300022459,Northern Illinois,Mid-American,home,3,receiving,TD,Martel Moore,0
+300022459,Northern Illinois,Mid-American,home,3,receiving,TD,Nathan Palmer,0
+300022459,Northern Illinois,Mid-American,home,3,receiving,TD,Landon Cox,0
+300022459,Northern Illinois,Mid-American,home,3,receiving,LONG,Marcus Lewis,12
+300022459,Northern Illinois,Mid-American,home,3,receiving,LONG,Chad Spann,14
+300022459,Northern Illinois,Mid-American,home,3,receiving,LONG,Reed Cunningham,19
+300022459,Northern Illinois,Mid-American,home,3,receiving,LONG,Martel Moore,18
+300022459,Northern Illinois,Mid-American,home,3,receiving,LONG,Nathan Palmer,12
+300022459,Northern Illinois,Mid-American,home,3,receiving,LONG,Landon Cox,7
+300022459,Northern Illinois,Mid-American,home,3,kickReturns,NO,Tommy Davis,5
+300022459,Northern Illinois,Mid-American,home,3,kickReturns,NO,Ricky Crider,1
+300022459,Northern Illinois,Mid-American,home,3,kickReturns,YDS,Tommy Davis,126
+300022459,Northern Illinois,Mid-American,home,3,kickReturns,YDS,Ricky Crider,14
+300022459,Northern Illinois,Mid-American,home,3,kickReturns,AVG,Tommy Davis,25.2
+300022459,Northern Illinois,Mid-American,home,3,kickReturns,AVG,Ricky Crider,14.0
+300022459,Northern Illinois,Mid-American,home,3,kickReturns,LONG,Tommy Davis,28
+300022459,Northern Illinois,Mid-American,home,3,kickReturns,LONG,Ricky Crider,14
+300022459,Northern Illinois,Mid-American,home,3,kickReturns,TD,Tommy Davis,0
+300022459,Northern Illinois,Mid-American,home,3,kickReturns,TD,Ricky Crider,0
+300022459,Northern Illinois,Mid-American,home,3,puntReturns,NO,Kiaree Daniels,1
+300022459,Northern Illinois,Mid-American,home,3,puntReturns,NO,Tommy Davis,2
+300022459,Northern Illinois,Mid-American,home,3,puntReturns,YDS,Kiaree Daniels,0
+300022459,Northern Illinois,Mid-American,home,3,puntReturns,YDS,Tommy Davis,0
+300022459,Northern Illinois,Mid-American,home,3,puntReturns,AVG,Kiaree Daniels,0.0
+300022459,Northern Illinois,Mid-American,home,3,puntReturns,AVG,Tommy Davis,0.0
+300022459,Northern Illinois,Mid-American,home,3,puntReturns,LONG,Kiaree Daniels,0
+300022459,Northern Illinois,Mid-American,home,3,puntReturns,LONG,Tommy Davis,0
+300022459,Northern Illinois,Mid-American,home,3,puntReturns,TD,Kiaree Daniels,0
+300022459,Northern Illinois,Mid-American,home,3,puntReturns,TD,Tommy Davis,0
+300022459,Northern Illinois,Mid-American,home,3,kicking,FG,Mike Salerno,1/2
+300022459,Northern Illinois,Mid-American,home,3,kicking,PCT,Mike Salerno,50.0
+300022459,Northern Illinois,Mid-American,home,3,kicking,LONG,Mike Salerno,21
+300022459,Northern Illinois,Mid-American,home,3,kicking,XP,Mike Salerno,0/0
+300022459,Northern Illinois,Mid-American,home,3,kicking,PTS,Mike Salerno,3
+300022459,Northern Illinois,Mid-American,home,3,punting,NO,Mike Salerno,4
+300022459,Northern Illinois,Mid-American,home,3,punting,NO,Josh Wilber,2
+300022459,Northern Illinois,Mid-American,home,3,punting,YDS,Mike Salerno,165
+300022459,Northern Illinois,Mid-American,home,3,punting,YDS,Josh Wilber,68
+300022459,Northern Illinois,Mid-American,home,3,punting,AVG,Mike Salerno,41.3
+300022459,Northern Illinois,Mid-American,home,3,punting,AVG,Josh Wilber,34.0
+300022459,Northern Illinois,Mid-American,home,3,punting,TB,Mike Salerno,0
+300022459,Northern Illinois,Mid-American,home,3,punting,TB,Josh Wilber,0
+300022459,Northern Illinois,Mid-American,home,3,punting,In 20,Mike Salerno,0
+300022459,Northern Illinois,Mid-American,home,3,punting,In 20,Josh Wilber,0
+300022459,Northern Illinois,Mid-American,home,3,punting,LONG,Mike Salerno,45
+300022459,Northern Illinois,Mid-American,home,3,punting,LONG,Josh Wilber,35
+300022459,South Florida,Big East,away,27,passing,C/ATT,B.J. Daniels,14/22
+300022459,South Florida,Big East,away,27,passing,YDS,B.J. Daniels,217
+300022459,South Florida,Big East,away,27,passing,AVG,B.J. Daniels,9.9
+300022459,South Florida,Big East,away,27,passing,TD,B.J. Daniels,2
+300022459,South Florida,Big East,away,27,passing,INT,B.J. Daniels,0
+300022459,South Florida,Big East,away,27,passing,QBR,B.J. Daniels,54.4
+300022459,South Florida,Big East,away,27,rushing,CAR,Mike Ford,20
+300022459,South Florida,Big East,away,27,rushing,CAR,Moise Plancher,5
+300022459,South Florida,Big East,away,27,rushing,CAR,Richard Kelly,1
+300022459,South Florida,Big East,away,27,rushing,CAR,Lindsey Lamar,3
+300022459,South Florida,Big East,away,27,rushing,CAR,B.J. Daniels,11
+300022459,South Florida,Big East,away,27,rushing,YDS,Mike Ford,207
+300022459,South Florida,Big East,away,27,rushing,YDS,Moise Plancher,11
+300022459,South Florida,Big East,away,27,rushing,YDS,Richard Kelly,0
+300022459,South Florida,Big East,away,27,rushing,YDS,Lindsey Lamar,-3
+300022459,South Florida,Big East,away,27,rushing,YDS,B.J. Daniels,-26
+300022459,South Florida,Big East,away,27,rushing,AVG,Mike Ford,10.4
+300022459,South Florida,Big East,away,27,rushing,AVG,Moise Plancher,2.2
+300022459,South Florida,Big East,away,27,rushing,AVG,Richard Kelly,0.0
+300022459,South Florida,Big East,away,27,rushing,AVG,Lindsey Lamar,-1.0
+300022459,South Florida,Big East,away,27,rushing,AVG,B.J. Daniels,-2.4
+300022459,South Florida,Big East,away,27,rushing,TD,Mike Ford,1
+300022459,South Florida,Big East,away,27,rushing,TD,Moise Plancher,0
+300022459,South Florida,Big East,away,27,rushing,TD,Richard Kelly,0
+300022459,South Florida,Big East,away,27,rushing,TD,Lindsey Lamar,0
+300022459,South Florida,Big East,away,27,rushing,TD,B.J. Daniels,0
+300022459,South Florida,Big East,away,27,rushing,LONG,Mike Ford,36
+300022459,South Florida,Big East,away,27,rushing,LONG,Moise Plancher,12
+300022459,South Florida,Big East,away,27,rushing,LONG,Richard Kelly,0
+300022459,South Florida,Big East,away,27,rushing,LONG,Lindsey Lamar,1
+300022459,South Florida,Big East,away,27,rushing,LONG,B.J. Daniels,13
+300022459,South Florida,Big East,away,27,receiving,REC,Carlton Mitchell,6
+300022459,South Florida,Big East,away,27,receiving,REC,A.J. Love,3
+300022459,South Florida,Big East,away,27,receiving,REC,Jessie Hester,2
+300022459,South Florida,Big East,away,27,receiving,REC,Sterling Griffin,1
+300022459,South Florida,Big East,away,27,receiving,REC,Theo Wilson,1
+300022459,South Florida,Big East,away,27,receiving,REC,Evan Landi,1
+300022459,South Florida,Big East,away,27,receiving,YDS,Carlton Mitchell,94
+300022459,South Florida,Big East,away,27,receiving,YDS,A.J. Love,56
+300022459,South Florida,Big East,away,27,receiving,YDS,Jessie Hester,30
+300022459,South Florida,Big East,away,27,receiving,YDS,Sterling Griffin,15
+300022459,South Florida,Big East,away,27,receiving,YDS,Theo Wilson,13
+300022459,South Florida,Big East,away,27,receiving,YDS,Evan Landi,9
+300022459,South Florida,Big East,away,27,receiving,AVG,Carlton Mitchell,15.7
+300022459,South Florida,Big East,away,27,receiving,AVG,A.J. Love,18.7
+300022459,South Florida,Big East,away,27,receiving,AVG,Jessie Hester,15.0
+300022459,South Florida,Big East,away,27,receiving,AVG,Sterling Griffin,15.0
+300022459,South Florida,Big East,away,27,receiving,AVG,Theo Wilson,13.0
+300022459,South Florida,Big East,away,27,receiving,AVG,Evan Landi,9.0
+300022459,South Florida,Big East,away,27,receiving,TD,Carlton Mitchell,0
+300022459,South Florida,Big East,away,27,receiving,TD,A.J. Love,2
+300022459,South Florida,Big East,away,27,receiving,TD,Jessie Hester,0
+300022459,South Florida,Big East,away,27,receiving,TD,Sterling Griffin,0
+300022459,South Florida,Big East,away,27,receiving,TD,Theo Wilson,0
+300022459,South Florida,Big East,away,27,receiving,TD,Evan Landi,0
+300022459,South Florida,Big East,away,27,receiving,LONG,Carlton Mitchell,31
+300022459,South Florida,Big East,away,27,receiving,LONG,A.J. Love,46
+300022459,South Florida,Big East,away,27,receiving,LONG,Jessie Hester,15
+300022459,South Florida,Big East,away,27,receiving,LONG,Sterling Griffin,15
+300022459,South Florida,Big East,away,27,receiving,LONG,Theo Wilson,13
+300022459,South Florida,Big East,away,27,receiving,LONG,Evan Landi,9
+300022459,South Florida,Big East,away,27,interceptions,INT,Jerome Murphy,1
+300022459,South Florida,Big East,away,27,interceptions,YDS,Jerome Murphy,23
+300022459,South Florida,Big East,away,27,interceptions,TD,Jerome Murphy,0
+300022459,South Florida,Big East,away,27,kickReturns,NO,Dontavia Bogan,1
+300022459,South Florida,Big East,away,27,kickReturns,NO,Jerome Murphy,1
+300022459,South Florida,Big East,away,27,kickReturns,YDS,Dontavia Bogan,24
+300022459,South Florida,Big East,away,27,kickReturns,YDS,Jerome Murphy,21
+300022459,South Florida,Big East,away,27,kickReturns,AVG,Dontavia Bogan,24.0
+300022459,South Florida,Big East,away,27,kickReturns,AVG,Jerome Murphy,21.0
+300022459,South Florida,Big East,away,27,kickReturns,LONG,Dontavia Bogan,24
+300022459,South Florida,Big East,away,27,kickReturns,LONG,Jerome Murphy,21
+300022459,South Florida,Big East,away,27,kickReturns,TD,Dontavia Bogan,0
+300022459,South Florida,Big East,away,27,kickReturns,TD,Jerome Murphy,0
+300022459,South Florida,Big East,away,27,puntReturns,NO,Faron Hornes,2
+300022459,South Florida,Big East,away,27,puntReturns,YDS,Faron Hornes,-3
+300022459,South Florida,Big East,away,27,puntReturns,AVG,Faron Hornes,-1.5
+300022459,South Florida,Big East,away,27,puntReturns,LONG,Faron Hornes,0
+300022459,South Florida,Big East,away,27,puntReturns,TD,Faron Hornes,0
+300022459,South Florida,Big East,away,27,kicking,FG,Eric Schwartz,2/2
+300022459,South Florida,Big East,away,27,kicking,PCT,Eric Schwartz,100.0
+300022459,South Florida,Big East,away,27,kicking,LONG,Eric Schwartz,39
+300022459,South Florida,Big East,away,27,kicking,XP,Eric Schwartz,3/3
+300022459,South Florida,Big East,away,27,kicking,PTS,Eric Schwartz,9
+300022459,South Florida,Big East,away,27,punting,NO,Delbert Alvarado,5
+300022459,South Florida,Big East,away,27,punting,YDS,Delbert Alvarado,185
+300022459,South Florida,Big East,away,27,punting,AVG,Delbert Alvarado,37.0
+300022459,South Florida,Big East,away,27,punting,TB,Delbert Alvarado,0
+300022459,South Florida,Big East,away,27,punting,In 20,Delbert Alvarado,0
+300022459,South Florida,Big East,away,27,punting,LONG,Delbert Alvarado,44
+300020041,Connecticut,Big East,home,20,passing,C/ATT,Zach Frazer,9/21
+300020041,Connecticut,Big East,home,20,passing,C/ATT,Jordan Todman,0/1
+300020041,Connecticut,Big East,home,20,passing,YDS,Zach Frazer,107
+300020041,Connecticut,Big East,home,20,passing,YDS,Jordan Todman,0
+300020041,Connecticut,Big East,home,20,passing,AVG,Zach Frazer,5.1
+300020041,Connecticut,Big East,home,20,passing,AVG,Jordan Todman,0.0
+300020041,Connecticut,Big East,home,20,passing,TD,Zach Frazer,1
+300020041,Connecticut,Big East,home,20,passing,TD,Jordan Todman,0
+300020041,Connecticut,Big East,home,20,passing,INT,Zach Frazer,0
+300020041,Connecticut,Big East,home,20,passing,INT,Jordan Todman,0
+300020041,Connecticut,Big East,home,20,passing,QBR,Zach Frazer,24.9
+300020041,Connecticut,Big East,home,20,passing,QBR,Jordan Todman,2.6
+300020041,Connecticut,Big East,home,20,rushing,CAR,Andre Dixon,33
+300020041,Connecticut,Big East,home,20,rushing,CAR,Jordan Todman,9
+300020041,Connecticut,Big East,home,20,rushing,CAR,Kashif Moore,1
+300020041,Connecticut,Big East,home,20,rushing,CAR,Zach Frazer,2
+300020041,Connecticut,Big East,home,20,rushing,YDS,Andre Dixon,126
+300020041,Connecticut,Big East,home,20,rushing,YDS,Jordan Todman,36
+300020041,Connecticut,Big East,home,20,rushing,YDS,Kashif Moore,1
+300020041,Connecticut,Big East,home,20,rushing,YDS,Zach Frazer,-13
+300020041,Connecticut,Big East,home,20,rushing,AVG,Andre Dixon,3.8
+300020041,Connecticut,Big East,home,20,rushing,AVG,Jordan Todman,4.0
+300020041,Connecticut,Big East,home,20,rushing,AVG,Kashif Moore,1.0
+300020041,Connecticut,Big East,home,20,rushing,AVG,Zach Frazer,-6.5
+300020041,Connecticut,Big East,home,20,rushing,TD,Andre Dixon,1
+300020041,Connecticut,Big East,home,20,rushing,TD,Jordan Todman,0
+300020041,Connecticut,Big East,home,20,rushing,TD,Kashif Moore,0
+300020041,Connecticut,Big East,home,20,rushing,TD,Zach Frazer,0
+300020041,Connecticut,Big East,home,20,rushing,LONG,Andre Dixon,15
+300020041,Connecticut,Big East,home,20,rushing,LONG,Jordan Todman,16
+300020041,Connecticut,Big East,home,20,rushing,LONG,Kashif Moore,1
+300020041,Connecticut,Big East,home,20,rushing,LONG,Zach Frazer,0
+300020041,Connecticut,Big East,home,20,receiving,REC,Kashif Moore,2
+300020041,Connecticut,Big East,home,20,receiving,REC,Marcus Easley,4
+300020041,Connecticut,Big East,home,20,receiving,REC,Isiah Moore,2
+300020041,Connecticut,Big East,home,20,receiving,REC,Jordan Todman,1
+300020041,Connecticut,Big East,home,20,receiving,YDS,Kashif Moore,40
+300020041,Connecticut,Big East,home,20,receiving,YDS,Marcus Easley,40
+300020041,Connecticut,Big East,home,20,receiving,YDS,Isiah Moore,26
+300020041,Connecticut,Big East,home,20,receiving,YDS,Jordan Todman,1
+300020041,Connecticut,Big East,home,20,receiving,AVG,Kashif Moore,20.0
+300020041,Connecticut,Big East,home,20,receiving,AVG,Marcus Easley,10.0
+300020041,Connecticut,Big East,home,20,receiving,AVG,Isiah Moore,13.0
+300020041,Connecticut,Big East,home,20,receiving,AVG,Jordan Todman,1.0
+300020041,Connecticut,Big East,home,20,receiving,TD,Kashif Moore,1
+300020041,Connecticut,Big East,home,20,receiving,TD,Marcus Easley,0
+300020041,Connecticut,Big East,home,20,receiving,TD,Isiah Moore,0
+300020041,Connecticut,Big East,home,20,receiving,TD,Jordan Todman,0
+300020041,Connecticut,Big East,home,20,receiving,LONG,Kashif Moore,37
+300020041,Connecticut,Big East,home,20,receiving,LONG,Marcus Easley,13
+300020041,Connecticut,Big East,home,20,receiving,LONG,Isiah Moore,23
+300020041,Connecticut,Big East,home,20,receiving,LONG,Jordan Todman,1
+300020041,Connecticut,Big East,home,20,interceptions,INT,Robert Vaughn,1
+300020041,Connecticut,Big East,home,20,interceptions,YDS,Robert Vaughn,0
+300020041,Connecticut,Big East,home,20,interceptions,TD,Robert Vaughn,0
+300020041,Connecticut,Big East,home,20,kickReturns,NO,Jordan Todman,1
+300020041,Connecticut,Big East,home,20,kickReturns,NO,Alex Molina,1
+300020041,Connecticut,Big East,home,20,kickReturns,YDS,Jordan Todman,30
+300020041,Connecticut,Big East,home,20,kickReturns,YDS,Alex Molina,9
+300020041,Connecticut,Big East,home,20,kickReturns,AVG,Jordan Todman,30.0
+300020041,Connecticut,Big East,home,20,kickReturns,AVG,Alex Molina,9.0
+300020041,Connecticut,Big East,home,20,kickReturns,LONG,Jordan Todman,30
+300020041,Connecticut,Big East,home,20,kickReturns,LONG,Alex Molina,9
+300020041,Connecticut,Big East,home,20,kickReturns,TD,Jordan Todman,0
+300020041,Connecticut,Big East,home,20,kickReturns,TD,Alex Molina,0
+300020041,Connecticut,Big East,home,20,puntReturns,NO,Robert McClain,6
+300020041,Connecticut,Big East,home,20,puntReturns,YDS,Robert McClain,43
+300020041,Connecticut,Big East,home,20,puntReturns,AVG,Robert McClain,7.2
+300020041,Connecticut,Big East,home,20,puntReturns,LONG,Robert McClain,14
+300020041,Connecticut,Big East,home,20,puntReturns,TD,Robert McClain,0
+300020041,Connecticut,Big East,home,20,kicking,FG,Dave Teggart,2/2
+300020041,Connecticut,Big East,home,20,kicking,PCT,Dave Teggart,100.0
+300020041,Connecticut,Big East,home,20,kicking,LONG,Dave Teggart,44
+300020041,Connecticut,Big East,home,20,kicking,XP,Dave Teggart,2/2
+300020041,Connecticut,Big East,home,20,kicking,PTS,Dave Teggart,8
+300020041,Connecticut,Big East,home,20,punting,NO,Desi Cullen,5
+300020041,Connecticut,Big East,home,20,punting,YDS,Desi Cullen,196
+300020041,Connecticut,Big East,home,20,punting,AVG,Desi Cullen,39.2
+300020041,Connecticut,Big East,home,20,punting,TB,Desi Cullen,0
+300020041,Connecticut,Big East,home,20,punting,In 20,Desi Cullen,0
+300020041,Connecticut,Big East,home,20,punting,LONG,Desi Cullen,53
+300020041,South Carolina,SEC,away,7,passing,C/ATT,Stephen Garcia,16/38
+300020041,South Carolina,SEC,away,7,passing,YDS,Stephen Garcia,129
+300020041,South Carolina,SEC,away,7,passing,AVG,Stephen Garcia,3.4
+300020041,South Carolina,SEC,away,7,passing,TD,Stephen Garcia,0
+300020041,South Carolina,SEC,away,7,passing,INT,Stephen Garcia,1
+300020041,South Carolina,SEC,away,7,passing,QBR,Stephen Garcia,18.0
+300020041,South Carolina,SEC,away,7,rushing,CAR,Stephen Garcia,15
+300020041,South Carolina,SEC,away,7,rushing,CAR,Kenny Miles,6
+300020041,South Carolina,SEC,away,7,rushing,CAR,Bryce Sherman,2
+300020041,South Carolina,SEC,away,7,rushing,CAR,Brian Maddox,2
+300020041,South Carolina,SEC,away,7,rushing,CAR,Stephen Flint,1
+300020041,South Carolina,SEC,away,7,rushing,YDS,Stephen Garcia,56
+300020041,South Carolina,SEC,away,7,rushing,YDS,Kenny Miles,24
+300020041,South Carolina,SEC,away,7,rushing,YDS,Bryce Sherman,3
+300020041,South Carolina,SEC,away,7,rushing,YDS,Brian Maddox,2
+300020041,South Carolina,SEC,away,7,rushing,YDS,Stephen Flint,-9
+300020041,South Carolina,SEC,away,7,rushing,AVG,Stephen Garcia,3.7
+300020041,South Carolina,SEC,away,7,rushing,AVG,Kenny Miles,4.0
+300020041,South Carolina,SEC,away,7,rushing,AVG,Bryce Sherman,1.5
+300020041,South Carolina,SEC,away,7,rushing,AVG,Brian Maddox,1.0
+300020041,South Carolina,SEC,away,7,rushing,AVG,Stephen Flint,-9.0
+300020041,South Carolina,SEC,away,7,rushing,TD,Stephen Garcia,0
+300020041,South Carolina,SEC,away,7,rushing,TD,Kenny Miles,0
+300020041,South Carolina,SEC,away,7,rushing,TD,Bryce Sherman,0
+300020041,South Carolina,SEC,away,7,rushing,TD,Brian Maddox,1
+300020041,South Carolina,SEC,away,7,rushing,TD,Stephen Flint,0
+300020041,South Carolina,SEC,away,7,rushing,LONG,Stephen Garcia,16
+300020041,South Carolina,SEC,away,7,rushing,LONG,Kenny Miles,11
+300020041,South Carolina,SEC,away,7,rushing,LONG,Bryce Sherman,4
+300020041,South Carolina,SEC,away,7,rushing,LONG,Brian Maddox,2
+300020041,South Carolina,SEC,away,7,rushing,LONG,Stephen Flint,0
+300020041,South Carolina,SEC,away,7,receiving,REC,D.L. Moore,1
+300020041,South Carolina,SEC,away,7,receiving,REC,Alshon Jeffery,3
+300020041,South Carolina,SEC,away,7,receiving,REC,Kenny Miles,4
+300020041,South Carolina,SEC,away,7,receiving,REC,Jason Barnes,2
+300020041,South Carolina,SEC,away,7,receiving,REC,Tori Gurley,3
+300020041,South Carolina,SEC,away,7,receiving,REC,Moe Brown,1
+300020041,South Carolina,SEC,away,7,receiving,REC,Weslye Saunders,2
+300020041,South Carolina,SEC,away,7,receiving,YDS,D.L. Moore,38
+300020041,South Carolina,SEC,away,7,receiving,YDS,Alshon Jeffery,28
+300020041,South Carolina,SEC,away,7,receiving,YDS,Kenny Miles,23
+300020041,South Carolina,SEC,away,7,receiving,YDS,Jason Barnes,21
+300020041,South Carolina,SEC,away,7,receiving,YDS,Tori Gurley,14
+300020041,South Carolina,SEC,away,7,receiving,YDS,Moe Brown,12
+300020041,South Carolina,SEC,away,7,receiving,YDS,Weslye Saunders,-7
+300020041,South Carolina,SEC,away,7,receiving,AVG,D.L. Moore,38.0
+300020041,South Carolina,SEC,away,7,receiving,AVG,Alshon Jeffery,9.3
+300020041,South Carolina,SEC,away,7,receiving,AVG,Kenny Miles,5.8
+300020041,South Carolina,SEC,away,7,receiving,AVG,Jason Barnes,10.5
+300020041,South Carolina,SEC,away,7,receiving,AVG,Tori Gurley,4.7
+300020041,South Carolina,SEC,away,7,receiving,AVG,Moe Brown,12.0
+300020041,South Carolina,SEC,away,7,receiving,AVG,Weslye Saunders,-3.5
+300020041,South Carolina,SEC,away,7,receiving,TD,D.L. Moore,0
+300020041,South Carolina,SEC,away,7,receiving,TD,Alshon Jeffery,0
+300020041,South Carolina,SEC,away,7,receiving,TD,Kenny Miles,0
+300020041,South Carolina,SEC,away,7,receiving,TD,Jason Barnes,0
+300020041,South Carolina,SEC,away,7,receiving,TD,Tori Gurley,0
+300020041,South Carolina,SEC,away,7,receiving,TD,Moe Brown,0
+300020041,South Carolina,SEC,away,7,receiving,TD,Weslye Saunders,0
+300020041,South Carolina,SEC,away,7,receiving,LONG,D.L. Moore,38
+300020041,South Carolina,SEC,away,7,receiving,LONG,Alshon Jeffery,19
+300020041,South Carolina,SEC,away,7,receiving,LONG,Kenny Miles,8
+300020041,South Carolina,SEC,away,7,receiving,LONG,Jason Barnes,15
+300020041,South Carolina,SEC,away,7,receiving,LONG,Tori Gurley,9
+300020041,South Carolina,SEC,away,7,receiving,LONG,Moe Brown,12
+300020041,South Carolina,SEC,away,7,receiving,LONG,Weslye Saunders,1
+300020041,South Carolina,SEC,away,7,kickReturns,NO,Bryce Sherman,5
+300020041,South Carolina,SEC,away,7,kickReturns,YDS,Bryce Sherman,93
+300020041,South Carolina,SEC,away,7,kickReturns,AVG,Bryce Sherman,18.6
+300020041,South Carolina,SEC,away,7,kickReturns,LONG,Bryce Sherman,26
+300020041,South Carolina,SEC,away,7,kickReturns,TD,Bryce Sherman,0
+300020041,South Carolina,SEC,away,7,puntReturns,NO,Stephon Gilmore,3
+300020041,South Carolina,SEC,away,7,puntReturns,YDS,Stephon Gilmore,4
+300020041,South Carolina,SEC,away,7,puntReturns,AVG,Stephon Gilmore,1.3
+300020041,South Carolina,SEC,away,7,puntReturns,LONG,Stephon Gilmore,3
+300020041,South Carolina,SEC,away,7,puntReturns,TD,Stephon Gilmore,0
+300020041,South Carolina,SEC,away,7,kicking,FG,Spencer Lanning,0/0
+300020041,South Carolina,SEC,away,7,kicking,PCT,Spencer Lanning,0.0
+300020041,South Carolina,SEC,away,7,kicking,LONG,Spencer Lanning,0
+300020041,South Carolina,SEC,away,7,kicking,XP,Spencer Lanning,1/1
+300020041,South Carolina,SEC,away,7,kicking,PTS,Spencer Lanning,1
+300020041,South Carolina,SEC,away,7,punting,NO,Spencer Lanning,7
+300020041,South Carolina,SEC,away,7,punting,YDS,Spencer Lanning,296
+300020041,South Carolina,SEC,away,7,punting,AVG,Spencer Lanning,42.3
+300020041,South Carolina,SEC,away,7,punting,TB,Spencer Lanning,0
+300020041,South Carolina,SEC,away,7,punting,In 20,Spencer Lanning,0
+300020041,South Carolina,SEC,away,7,punting,LONG,Spencer Lanning,48

@@ -1,0 +1,107 @@
+year,team,conference,division,total.games,total.wins,total.losses,total.ties,conferenceGames.games,conferenceGames.wins,conferenceGames.losses,conferenceGames.ties,homeGames.games,homeGames.wins,homeGames.losses,homeGames.ties,awayGames.games,awayGames.wins,awayGames.losses,awayGames.ties
+1989,Air Force,Western Athletic,,13,9,4,0,7,6,1,0,6,5,1,0,6,4,2,0
+1989,Akron,FBS Independents,,11,7,4,0,3,2,1,0,5,5,0,0,6,2,4,0
+1989,Alabama,SEC,,12,10,2,0,7,6,1,0,6,6,0,0,5,4,1,0
+1989,Arizona,Pac-10,,12,8,4,0,8,5,3,0,6,5,1,0,5,2,3,0
+1989,Arizona State,Pac-10,,11,7,4,0,7,4,3,0,9,6,3,0,2,1,1,0
+1989,Arkansas,Southwest,,12,10,2,0,8,7,1,0,6,5,1,0,5,5,0,0
+1989,Army,FBS Independents,,11,6,5,0,4,1,3,0,8,6,2,0,3,0,3,0
+1989,Auburn,SEC,,12,10,2,0,7,6,1,0,7,7,0,0,4,2,2,0
+1989,Ball State,Mid-American,,12,8,4,0,8,6,2,0,5,5,0,0,6,3,3,0
+1989,Baylor,Southwest,,11,5,6,0,8,4,4,0,5,3,2,0,6,2,4,0
+1989,Boston College,FBS Independents,,11,2,9,0,9,2,7,0,5,1,4,0,6,1,5,0
+1989,Bowling Green,Mid-American,,11,5,6,0,8,5,3,0,5,3,2,0,6,2,4,0
+1989,BYU,Western Athletic,,13,10,3,0,8,7,1,0,6,5,1,0,6,5,1,0
+1989,California,Pac-10,,11,4,7,0,8,2,6,0,7,4,3,0,4,0,4,0
+1989,Cal State Fullerton,Big West,,11,7,4,0,7,5,2,0,5,5,0,0,6,2,4,0
+1989,Central Michigan,Mid-American,,11,6,5,0,8,6,2,0,6,4,2,0,5,2,3,0
+1989,Cincinnati,FBS Independents,,11,1,10,0,8,0,8,0,4,0,4,0,7,1,6,0
+1989,Clemson,ACC,,12,10,2,0,7,5,2,0,6,5,1,0,5,4,1,0
+1989,Colorado,Big 8,,12,11,1,0,7,7,0,0,6,6,0,0,5,5,0,0
+1989,Colorado State,Western Athletic,,11,5,6,0,7,4,3,0,4,2,2,0,7,3,4,0
+1989,Duke,ACC,,12,8,4,0,7,6,1,0,5,5,0,0,6,3,3,0
+1989,East Carolina,FBS Independents,,11,5,6,0,9,3,6,0,4,4,0,0,7,1,6,0
+1989,Eastern Michigan,Mid-American,,11,8,3,0,8,6,2,0,7,6,1,0,4,2,2,0
+1989,Florida,SEC,,12,7,5,0,7,4,3,0,7,5,2,0,4,2,2,0
+1989,Florida State,FBS Independents,,12,10,2,0,7,6,1,0,6,5,1,0,5,4,1,0
+1989,Fresno State,Big West,,12,11,1,0,7,7,0,0,7,7,0,0,4,3,1,0
+1989,Georgia,SEC,,12,6,6,0,7,4,3,0,7,5,2,0,4,1,3,0
+1989,Georgia Tech,ACC,,11,7,4,0,7,4,3,0,7,6,1,0,4,1,3,0
+1989,Hawai'i,Western Athletic,,13,9,4,0,8,5,3,0,9,9,0,0,3,0,3,0
+1989,Houston,Southwest,,11,9,2,0,8,6,2,0,5,5,0,0,6,4,2,0
+1989,Illinois,Big Ten,,12,10,2,0,8,7,1,0,5,4,1,0,6,5,1,0
+1989,Indiana,Big Ten,,11,5,6,0,8,3,5,0,6,4,2,0,5,1,4,0
+1989,Iowa,Big Ten,,11,5,6,0,8,3,5,0,6,1,5,0,5,4,1,0
+1989,Iowa State,Big 8,,11,6,5,0,7,4,3,0,6,2,4,0,5,4,1,0
+1989,Kansas,Big 8,,11,4,7,0,7,2,5,0,6,2,4,0,5,2,3,0
+1989,Kansas State,Big 8,,11,1,10,0,7,0,7,0,6,1,5,0,5,0,5,0
+1989,Kent State,Mid-American,,11,0,11,0,8,0,8,0,4,0,4,0,7,0,7,0
+1989,Kentucky,SEC,,11,6,5,0,7,2,5,0,7,5,2,0,4,1,3,0
+1989,Long Beach State,Big West,,12,4,8,0,7,2,5,0,4,3,1,0,8,1,7,0
+1989,Louisiana,FBS Independents,,11,7,4,0,5,2,3,0,5,4,1,0,6,3,3,0
+1989,Louisiana Tech,FBS Independents,,10,6,4,0,5,4,1,0,4,4,0,0,6,2,4,0
+1989,Louisville,FBS Independents,,11,6,5,0,7,3,4,0,4,2,2,0,7,4,3,0
+1989,LSU,SEC,,11,4,7,0,7,2,5,0,6,2,4,0,5,2,3,0
+1989,Maryland,ACC,,11,3,8,0,7,2,5,0,5,2,3,0,6,1,5,0
+1989,Memphis,FBS Independents,,11,2,9,0,5,1,4,0,6,1,5,0,5,1,4,0
+1989,Miami,FBS Independents,,12,11,1,0,5,4,1,0,6,6,0,0,5,4,1,0
+1989,Miami (OH),Mid-American,,11,2,9,0,8,2,6,0,4,1,3,0,7,1,6,0
+1989,Michigan,Big Ten,,12,10,2,0,8,8,0,0,6,5,1,0,5,5,0,0
+1989,Michigan State,Big Ten,,12,8,4,0,8,6,2,0,6,3,3,0,5,4,1,0
+1989,Minnesota,Big Ten,,11,6,5,0,8,4,4,0,6,3,3,0,5,3,2,0
+1989,Mississippi State,SEC,,11,5,6,0,7,1,6,0,4,4,0,0,7,1,6,0
+1989,Missouri,Big 8,,11,2,9,0,7,1,6,0,6,1,5,0,5,1,4,0
+1989,Navy,FBS Independents,,11,3,8,0,5,2,3,0,5,0,5,0,6,3,3,0
+1989,NC State,ACC,,12,7,5,0,7,4,3,0,7,5,2,0,4,2,2,0
+1989,Nebraska,Big 8,,12,10,2,0,7,6,1,0,7,7,0,0,4,3,1,0
+1989,New Mexico,Western Athletic,,12,2,10,0,7,0,7,0,5,2,3,0,7,0,7,0
+1989,New Mexico State,Big West,,11,0,11,0,7,0,7,0,4,0,4,0,7,0,7,0
+1989,North Carolina,ACC,,11,1,10,0,7,0,7,0,6,1,5,0,5,0,5,0
+1989,Northern Illinois,FBS Independents,,11,9,2,0,4,3,1,0,6,6,0,0,5,3,2,0
+1989,Northwestern,Big Ten,,11,0,11,0,8,0,8,0,6,0,6,0,5,0,5,0
+1989,Notre Dame,FBS Independents,,13,12,1,0,4,3,1,0,6,6,0,0,6,5,1,0
+1989,Ohio,Mid-American,,11,2,9,0,8,2,6,0,5,2,3,0,6,0,6,0
+1989,Ohio State,Big Ten,,12,8,4,0,8,6,2,0,6,6,0,0,5,2,3,0
+1989,Oklahoma,Big 8,,11,7,4,0,7,5,2,0,6,5,1,0,5,2,3,0
+1989,Oklahoma State,Big 8,,11,4,7,0,7,3,4,0,6,2,4,0,5,2,3,0
+1989,Ole Miss,SEC,,12,8,4,0,7,4,3,0,7,4,3,0,4,3,1,0
+1989,Oregon,Pac-10,,12,8,4,0,8,5,3,0,5,4,1,0,6,3,3,0
+1989,Oregon State,Pac-10,,12,4,8,0,8,3,5,0,3,2,1,0,9,2,7,0
+1989,Pacific,Big West,,12,2,10,0,7,2,5,0,4,1,3,0,8,1,7,0
+1989,Penn State,FBS Independents,,12,9,3,0,7,6,1,0,7,4,3,0,4,4,0,0
+1989,Pittsburgh,FBS Independents,,12,9,3,0,10,7,3,0,8,6,2,0,3,2,1,0
+1989,Purdue,Big Ten,,11,3,8,0,8,2,6,0,6,2,4,0,5,1,4,0
+1989,Rice,Southwest,,11,3,8,0,8,2,6,0,6,1,5,0,5,2,3,0
+1989,Rutgers,FBS Independents,,11,3,8,0,8,2,6,0,4,2,2,0,7,1,6,0
+1989,San Diego State,Western Athletic,,12,6,6,0,7,4,3,0,6,4,2,0,6,2,4,0
+1989,San José State,Big West,,11,6,5,0,7,5,2,0,4,3,1,0,7,3,4,0
+1989,SMU,Southwest,,11,2,9,0,8,0,8,0,6,2,4,0,5,0,5,0
+1989,South Carolina,FBS Independents,,11,6,5,0,4,1,3,0,6,4,2,0,5,2,3,0
+1989,Southern Mississippi,FBS Independents,,11,5,6,0,6,5,1,0,5,3,2,0,6,2,4,0
+1989,Stanford,Pac-10,,11,3,8,0,8,3,5,0,6,3,3,0,5,0,5,0
+1989,Syracuse,FBS Independents,,12,8,4,0,11,7,4,0,7,4,3,0,4,3,1,0
+1989,TCU,Southwest,,11,4,7,0,8,2,6,0,6,3,3,0,5,1,4,0
+1989,Temple,FBS Independents,,11,1,10,0,8,1,7,0,4,1,3,0,7,0,7,0
+1989,Tennessee,SEC,,12,11,1,0,7,6,1,0,7,7,0,0,4,3,1,0
+1989,Texas,Southwest,,11,5,6,0,8,4,4,0,6,3,3,0,5,2,3,0
+1989,Texas A&M,Southwest,,12,8,4,0,8,6,2,0,6,5,1,0,5,3,2,0
+1989,Texas Tech,Southwest,,12,9,3,0,8,5,3,0,6,5,1,0,5,3,2,0
+1989,Toledo,Mid-American,,11,6,5,0,8,6,2,0,5,5,0,0,6,1,5,0
+1989,Tulane,FBS Independents,,12,4,8,0,5,2,3,0,6,3,3,0,6,1,5,0
+1989,Tulsa,FBS Independents,,12,6,6,0,3,1,2,0,5,5,0,0,6,1,5,0
+1989,UCLA,Pac-10,,11,4,7,0,8,3,5,0,7,3,4,0,4,1,3,0
+1989,UNLV,Big West,,11,4,7,0,7,3,4,0,6,4,2,0,5,0,5,0
+1989,USC,Pac-10,,12,9,3,0,7,6,1,0,6,5,1,0,5,3,2,0
+1989,Utah,Western Athletic,,12,4,8,0,8,2,6,0,5,2,3,0,7,2,5,0
+1989,Utah State,Big West,,11,4,7,0,7,4,3,0,4,1,3,0,7,3,4,0
+1989,UTEP,Western Athletic,,12,2,10,0,8,1,7,0,6,1,5,0,6,1,5,0
+1989,Vanderbilt,SEC,,11,1,10,0,7,0,7,0,5,1,4,0,6,0,6,0
+1989,Virginia,ACC,,13,10,3,0,7,6,1,0,6,6,0,0,6,4,2,0
+1989,Virginia Tech,FBS Independents,,11,7,4,0,7,5,2,0,7,5,2,0,4,2,2,0
+1989,Wake Forest,ACC,,11,2,9,0,7,1,6,0,5,1,4,0,6,1,5,0
+1989,Washington,Pac-10,,12,8,4,0,8,5,3,0,6,4,2,0,5,3,2,0
+1989,Washington State,Pac-10,,11,6,5,0,8,3,5,0,5,3,2,0,6,3,3,0
+1989,Western Michigan,Mid-American,,11,5,6,0,8,3,5,0,6,3,3,0,5,2,3,0
+1989,West Virginia,FBS Independents,,12,8,4,0,9,6,3,0,5,4,1,0,6,4,2,0
+1989,Wisconsin,Big Ten,,11,2,9,0,8,1,7,0,6,2,4,0,5,0,5,0
+1989,Wyoming,Western Athletic,,11,5,6,0,8,5,3,0,6,4,2,0,5,1,4,0

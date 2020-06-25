@@ -1,0 +1,126 @@
+year,team,conference,division,total.games,total.wins,total.losses,total.ties,conferenceGames.games,conferenceGames.wins,conferenceGames.losses,conferenceGames.ties,homeGames.games,homeGames.wins,homeGames.losses,homeGames.ties,awayGames.games,awayGames.wins,awayGames.losses,awayGames.ties
+2013,Air Force,Mountain West,Mountain,12,2,10,0,8,0,8,0,7,2,5,0,5,0,5,0
+2013,Akron,Mid-American,East,12,5,7,0,8,4,4,0,6,3,3,0,6,2,4,0
+2013,Alabama,SEC,West,13,11,2,0,8,7,1,0,7,7,0,0,4,3,1,0
+2013,Arizona,Pac-12,South,13,8,5,0,9,4,5,0,6,4,2,0,6,3,3,0
+2013,Arizona State,Pac-12,South,14,10,4,0,10,8,2,0,8,7,1,0,4,3,1,0
+2013,Arkansas,SEC,West,12,3,9,0,8,0,8,0,7,3,4,0,5,0,5,0
+2013,Arkansas State,Sun Belt,,13,8,5,0,7,5,2,0,6,5,1,0,6,2,4,0
+2013,Army,FBS Independents,,12,3,9,0,0,0,0,0,5,2,3,0,5,0,5,0
+2013,Auburn,SEC,West,14,12,2,0,9,8,1,0,8,8,0,0,4,3,1,0
+2013,Ball State,Mid-American,West,13,10,3,0,8,7,1,0,6,6,0,0,6,4,2,0
+2013,Baylor,Big 12,,13,11,2,0,9,8,1,0,7,7,0,0,4,3,1,0
+2013,Boise State,Mountain West,Mountain,13,8,5,0,8,6,2,0,6,6,0,0,6,2,4,0
+2013,Boston College,ACC,Atlantic,13,7,6,0,8,4,4,0,6,5,1,0,6,2,4,0
+2013,Bowling Green,Mid-American,East,14,10,4,0,9,8,1,0,6,5,1,0,6,4,2,0
+2013,Buffalo,Mid-American,East,13,8,5,0,8,6,2,0,6,5,1,0,6,3,3,0
+2013,BYU,FBS Independents,,13,8,5,0,0,0,0,0,6,5,1,0,6,3,3,0
+2013,California,Pac-12,North,12,1,11,0,9,0,9,0,7,1,6,0,5,0,5,0
+2013,Central Michigan,Mid-American,West,12,6,6,0,8,5,3,0,5,3,2,0,7,3,4,0
+2013,Cincinnati,American Athletic,,13,9,4,0,8,6,2,0,6,5,1,0,6,4,2,0
+2013,Clemson,ACC,Atlantic,13,11,2,0,8,7,1,0,7,6,1,0,5,4,1,0
+2013,Colorado,Pac-12,South,13,4,9,0,9,1,8,0,6,3,3,0,5,0,5,0
+2013,Colorado State,Mountain West,Mountain,14,8,6,0,8,5,3,0,6,4,2,0,6,3,3,0
+2013,Connecticut,American Athletic,,12,3,9,0,8,3,5,0,7,2,5,0,5,1,4,0
+2013,Duke,ACC,Coastal,14,10,4,0,9,6,3,0,7,5,2,0,5,5,0,0
+2013,East Carolina,Conference USA,East,13,10,3,0,8,6,2,0,6,5,1,0,6,4,2,0
+2013,Eastern Michigan,Mid-American,West,12,2,10,0,8,1,7,0,5,2,3,0,7,0,7,0
+2013,Florida,SEC,East,12,4,8,0,8,3,5,0,6,3,3,0,5,1,4,0
+2013,Florida Atlantic,Conference USA,East,12,6,6,0,8,4,4,0,5,3,2,0,7,3,4,0
+2013,Florida International,Conference USA,East,12,1,11,0,8,1,7,0,6,0,6,0,6,1,5,0
+2013,Florida State,ACC,Atlantic,14,14,0,0,9,9,0,0,7,7,0,0,5,5,0,0
+2013,Fresno State,Mountain West,West,14,12,2,0,9,8,1,0,7,7,0,0,5,4,1,0
+2013,Georgia,SEC,East,13,8,5,0,8,5,3,0,6,5,1,0,5,2,3,0
+2013,Georgia State,Sun Belt,,12,0,12,0,7,0,7,0,7,0,7,0,5,0,5,0
+2013,Georgia Tech,ACC,Coastal,13,7,6,0,8,5,3,0,7,5,2,0,5,2,3,0
+2013,Hawai'i,Mountain West,West,12,1,11,0,8,0,8,0,6,1,5,0,6,0,6,0
+2013,Houston,American Athletic,,13,8,5,0,8,5,3,0,6,4,2,0,5,3,2,0
+2013,Idaho,FBS Independents,,12,1,11,0,0,0,0,0,5,1,4,0,7,0,7,0
+2013,Illinois,Big Ten,Leaders,12,4,8,0,8,1,7,0,8,3,5,0,4,1,3,0
+2013,Indiana,Big Ten,Leaders,12,5,7,0,8,3,5,0,8,5,3,0,4,0,4,0
+2013,Iowa,Big Ten,Legends,13,8,5,0,8,5,3,0,7,4,3,0,5,4,1,0
+2013,Iowa State,Big 12,,12,3,9,0,9,2,7,0,6,1,5,0,6,2,4,0
+2013,Kansas,Big 12,,12,3,9,0,9,1,8,0,7,3,4,0,5,0,5,0
+2013,Kansas State,Big 12,,13,8,5,0,9,5,4,0,8,5,3,0,4,2,2,0
+2013,Kent State,Mid-American,East,12,4,8,0,8,3,5,0,5,2,3,0,7,2,5,0
+2013,Kentucky,SEC,East,12,2,10,0,8,0,8,0,7,2,5,0,4,0,4,0
+2013,Louisiana,Sun Belt,,13,9,4,0,7,5,2,0,5,4,1,0,7,4,3,0
+2013,Louisiana Monroe,Sun Belt,,12,6,6,0,7,4,3,0,5,2,3,0,7,4,3,0
+2013,Louisiana Tech,Conference USA,West,12,4,8,0,8,3,5,0,5,2,3,0,6,2,4,0
+2013,Louisville,American Athletic,,13,12,1,0,8,7,1,0,7,6,1,0,5,5,0,0
+2013,LSU,SEC,West,13,10,3,0,8,5,3,0,7,7,0,0,4,1,3,0
+2013,Marshall,Conference USA,East,14,10,4,0,9,7,2,0,6,6,0,0,7,3,4,0
+2013,Maryland,ACC,Atlantic,13,7,6,0,8,3,5,0,7,4,3,0,5,3,2,0
+2013,Memphis,American Athletic,,12,3,9,0,8,1,7,0,7,2,5,0,5,1,4,0
+2013,Miami,ACC,Coastal,13,9,4,0,8,5,3,0,7,6,1,0,5,3,2,0
+2013,Miami (OH),Mid-American,East,12,0,12,0,8,0,8,0,5,0,5,0,7,0,7,0
+2013,Michigan,Big Ten,Legends,13,7,6,0,8,3,5,0,7,5,2,0,5,2,3,0
+2013,Michigan State,Big Ten,Legends,14,13,1,0,9,9,0,0,7,7,0,0,5,4,1,0
+2013,Middle Tennessee,Conference USA,East,13,8,5,0,8,6,2,0,6,5,1,0,6,3,3,0
+2013,Minnesota,Big Ten,Legends,13,8,5,0,8,4,4,0,7,5,2,0,5,3,2,0
+2013,Mississippi State,SEC,West,13,7,6,0,8,3,5,0,7,5,2,0,4,1,3,0
+2013,Missouri,SEC,East,14,12,2,0,9,7,2,0,7,6,1,0,5,5,0,0
+2013,Navy,FBS Independents,,13,9,4,0,0,0,0,0,5,5,0,0,6,2,4,0
+2013,NC State,ACC,Atlantic,12,3,9,0,8,0,8,0,8,3,5,0,4,0,4,0
+2013,Nebraska,Big Ten,Legends,13,9,4,0,8,5,3,0,8,5,3,0,4,3,1,0
+2013,Nevada,Mountain West,West,12,4,8,0,8,3,5,0,6,4,2,0,6,0,6,0
+2013,New Mexico,Mountain West,Mountain,12,3,9,0,8,1,7,0,6,2,4,0,6,1,5,0
+2013,New Mexico State,FBS Independents,,12,2,10,0,0,0,0,0,7,2,5,0,5,0,5,0
+2013,North Carolina,ACC,Coastal,13,7,6,0,8,4,4,0,7,4,3,0,5,2,3,0
+2013,Northern Illinois,Mid-American,West,14,12,2,0,9,8,1,0,5,5,0,0,7,7,0,0
+2013,North Texas,Conference USA,West,13,9,4,0,8,6,2,0,6,5,1,0,6,3,3,0
+2013,Northwestern,Big Ten,Legends,12,5,7,0,8,1,7,0,7,3,4,0,5,2,3,0
+2013,Notre Dame,FBS Independents,,13,9,4,0,0,0,0,0,6,5,1,0,5,2,3,0
+2013,Ohio,Mid-American,East,13,7,6,0,8,4,4,0,7,5,2,0,5,2,3,0
+2013,Ohio State,Big Ten,Leaders,14,12,2,0,9,8,1,0,7,7,0,0,5,5,0,0
+2013,Oklahoma,Big 12,,13,11,2,0,9,7,2,0,6,6,0,0,5,4,1,0
+2013,Oklahoma State,Big 12,,13,10,3,0,9,7,2,0,6,5,1,0,5,4,1,0
+2013,Ole Miss,SEC,West,13,8,5,0,8,3,5,0,7,5,2,0,5,2,3,0
+2013,Oregon,Pac-12,North,13,11,2,0,9,7,2,0,7,7,0,0,5,3,2,0
+2013,Oregon State,Pac-12,North,13,7,6,0,9,4,5,0,6,2,4,0,6,4,2,0
+2013,Penn State,Big Ten,Leaders,12,7,5,0,8,4,4,0,7,5,2,0,4,1,3,0
+2013,Pittsburgh,ACC,Coastal,13,7,6,0,8,3,5,0,7,4,3,0,5,2,3,0
+2013,Purdue,Big Ten,Leaders,12,1,11,0,8,0,8,0,7,1,6,0,5,0,5,0
+2013,Rice,Conference USA,West,14,10,4,0,9,8,1,0,6,6,0,0,6,4,2,0
+2013,Rutgers,American Athletic,,13,6,7,0,8,3,5,0,7,5,2,0,5,1,4,0
+2013,San Diego State,Mountain West,West,13,8,5,0,8,6,2,0,6,3,3,0,6,4,2,0
+2013,San José State,Mountain West,West,12,6,6,0,8,5,3,0,6,3,3,0,6,3,3,0
+2013,SMU,American Athletic,,12,5,7,0,8,4,4,0,6,3,3,0,6,2,4,0
+2013,South Alabama,Sun Belt,,12,6,6,0,7,4,3,0,6,4,2,0,6,2,4,0
+2013,South Carolina,SEC,East,13,11,2,0,8,6,2,0,7,7,0,0,5,3,2,0
+2013,Southern Mississippi,Conference USA,East,12,1,11,0,8,1,7,0,5,0,5,0,7,1,6,0
+2013,South Florida,American Athletic,,12,2,10,0,8,2,6,0,7,1,6,0,5,1,4,0
+2013,Stanford,Pac-12,North,14,11,3,0,10,8,2,0,7,7,0,0,6,4,2,0
+2013,Syracuse,ACC,Atlantic,13,7,6,0,8,4,4,0,6,4,2,0,5,2,3,0
+2013,TCU,Big 12,,12,4,8,0,9,2,7,0,6,3,3,0,5,1,4,0
+2013,Temple,American Athletic,,12,2,10,0,8,1,7,0,6,1,5,0,6,1,5,0
+2013,Tennessee,SEC,East,12,5,7,0,8,2,6,0,7,4,3,0,5,1,4,0
+2013,Texas,Big 12,,13,8,5,0,9,7,2,0,6,4,2,0,5,3,2,0
+2013,Texas A&M,SEC,West,13,9,4,0,8,4,4,0,8,6,2,0,4,2,2,0
+2013,Texas State,Sun Belt,,12,6,6,0,7,2,5,0,6,4,2,0,6,2,4,0
+2013,Texas Tech,Big 12,,13,8,5,0,9,4,5,0,6,4,2,0,5,3,2,0
+2013,Toledo,Mid-American,West,12,7,5,0,8,5,3,0,6,5,1,0,6,2,4,0
+2013,Troy,Sun Belt,,12,6,6,0,7,4,3,0,5,4,1,0,7,2,5,0
+2013,Tulane,Conference USA,West,13,7,6,0,8,5,3,0,6,5,1,0,6,2,4,0
+2013,Tulsa,Conference USA,West,12,3,9,0,8,2,6,0,6,1,5,0,6,2,4,0
+2013,UAB,Conference USA,East,12,2,10,0,8,1,7,0,5,1,4,0,7,1,6,0
+2013,UCF,American Athletic,,13,12,1,0,8,8,0,0,6,5,1,0,6,6,0,0
+2013,UCLA,Pac-12,South,13,10,3,0,9,6,3,0,6,5,1,0,6,4,2,0
+2013,UMass,Mid-American,East,12,1,11,0,8,1,7,0,6,1,5,0,6,0,6,0
+2013,UNLV,Mountain West,West,13,7,6,0,8,5,3,0,7,4,3,0,5,3,2,0
+2013,USC,Pac-12,South,14,10,4,0,9,6,3,0,7,5,2,0,6,4,2,0
+2013,Utah,Pac-12,South,12,5,7,0,9,2,7,0,7,4,3,0,5,1,4,0
+2013,Utah State,Mountain West,Mountain,14,9,5,0,9,7,2,0,6,4,2,0,7,4,3,0
+2013,UTEP,Conference USA,West,12,2,10,0,8,1,7,0,5,1,4,0,7,1,6,0
+2013,UT San Antonio,Conference USA,West,12,7,5,0,8,6,2,0,6,3,3,0,6,4,2,0
+2013,Vanderbilt,SEC,East,13,9,4,0,8,4,4,0,7,5,2,0,5,3,2,0
+2013,Virginia,ACC,Coastal,12,2,10,0,8,0,8,0,8,2,6,0,4,0,4,0
+2013,Virginia Tech,ACC,Coastal,13,8,5,0,8,5,3,0,6,4,2,0,5,4,1,0
+2013,Wake Forest,ACC,Atlantic,12,4,8,0,8,2,6,0,6,3,3,0,6,1,5,0
+2013,Washington,Pac-12,North,13,9,4,0,9,5,4,0,7,6,1,0,5,2,3,0
+2013,Washington State,Pac-12,North,13,6,7,0,9,4,5,0,6,3,3,0,6,3,3,0
+2013,Western Kentucky,Sun Belt,,12,8,4,0,7,4,3,0,5,3,2,0,6,4,2,0
+2013,Western Michigan,Mid-American,West,12,1,11,0,8,1,7,0,5,0,5,0,7,1,6,0
+2013,West Virginia,Big 12,,12,4,8,0,9,2,7,0,6,3,3,0,6,1,5,0
+2013,Wisconsin,Big Ten,Leaders,13,9,4,0,8,6,2,0,7,6,1,0,5,3,2,0
+2013,Wyoming,Mountain West,Mountain,12,5,7,0,8,3,5,0,6,4,2,0,6,1,5,0

@@ -1,0 +1,113 @@
+year,team,conference,division,total.games,total.wins,total.losses,total.ties,conferenceGames.games,conferenceGames.wins,conferenceGames.losses,conferenceGames.ties,homeGames.games,homeGames.wins,homeGames.losses,homeGames.ties,awayGames.games,awayGames.wins,awayGames.losses,awayGames.ties
+1997,Air Force,Western Athletic,Pacific,13,10,3,0,8,6,2,0,7,6,1,0,5,4,1,0
+1997,Akron,Mid-American,East,11,2,9,0,9,2,7,0,4,2,2,0,7,0,7,0
+1997,Alabama,SEC,West,11,4,7,0,8,2,6,0,7,2,5,0,4,2,2,0
+1997,Arizona,Pac-10,,12,7,5,0,8,4,4,0,6,5,1,0,5,1,4,0
+1997,Arizona State,Pac-10,,12,9,3,0,8,6,2,0,6,4,2,0,5,4,1,0
+1997,Arkansas,SEC,West,11,4,7,0,8,2,6,0,6,3,3,0,5,1,4,0
+1997,Arkansas State,FBS Independents,,11,2,9,0,3,0,3,0,5,2,3,0,6,0,6,0
+1997,Army,FBS Independents,,11,4,7,0,1,0,1,0,7,4,3,0,4,0,4,0
+1997,Auburn,SEC,West,13,10,3,0,9,6,3,0,6,4,2,0,5,5,0,0
+1997,Ball State,Mid-American,West,11,5,6,0,8,4,4,0,5,4,1,0,6,1,5,0
+1997,Baylor,Big 12,South,11,2,9,0,8,1,7,0,5,1,4,0,6,1,5,0
+1997,Boise State,Big West,,11,4,7,0,5,3,2,0,5,2,3,0,6,2,4,0
+1997,Boston College,Big East,,11,4,7,0,7,3,4,0,6,3,3,0,5,1,4,0
+1997,Bowling Green,Mid-American,East,11,3,8,0,8,3,5,0,4,2,2,0,7,1,6,0
+1997,BYU,Western Athletic,Mountain,11,6,5,0,8,4,4,0,6,4,2,0,5,2,3,0
+1997,California,Pac-10,,11,3,8,0,8,1,7,0,5,2,3,0,6,1,5,0
+1997,Central Michigan,Mid-American,West,11,2,9,0,8,1,7,0,5,2,3,0,6,0,6,0
+1997,Cincinnati,Conference USA,,12,8,4,0,6,2,4,0,6,5,1,0,5,2,3,0
+1997,Clemson,ACC,,12,7,5,0,8,4,4,0,6,3,3,0,5,4,1,0
+1997,Colorado,Big 12,North,11,5,6,0,8,3,5,0,6,3,3,0,5,2,3,0
+1997,Colorado State,Western Athletic,Pacific,13,11,2,0,9,8,1,0,5,4,1,0,6,5,1,0
+1997,Duke,ACC,,11,2,9,0,8,0,8,0,6,2,4,0,5,0,5,0
+1997,East Carolina,Conference USA,,11,5,6,0,6,4,2,0,5,3,2,0,6,2,4,0
+1997,Eastern Michigan,Mid-American,West,11,4,7,0,9,4,5,0,5,2,3,0,6,2,4,0
+1997,Florida,SEC,East,12,10,2,0,8,6,2,0,6,6,0,0,5,3,2,0
+1997,Florida State,ACC,,12,11,1,0,8,8,0,0,5,5,0,0,6,5,1,0
+1997,Fresno State,Western Athletic,Pacific,12,6,6,0,8,5,3,0,6,4,2,0,6,2,4,0
+1997,Georgia,SEC,East,12,10,2,0,8,6,2,0,7,6,1,0,4,3,1,0
+1997,Georgia Tech,ACC,,12,7,5,0,8,5,3,0,5,3,2,0,6,3,3,0
+1997,Hawai'i,Western Athletic,Pacific,12,3,9,0,8,1,7,0,8,3,5,0,4,0,4,0
+1997,Houston,Conference USA,,11,3,8,0,6,2,4,0,5,1,4,0,6,2,4,0
+1997,Idaho,Big West,,11,5,6,0,5,2,3,0,5,3,2,0,6,2,4,0
+1997,Illinois,Big Ten,,11,0,11,0,8,0,8,0,6,0,6,0,5,0,5,0
+1997,Indiana,Big Ten,,11,2,9,0,8,1,7,0,6,2,4,0,5,0,5,0
+1997,Iowa,Big Ten,,12,7,5,0,8,4,4,0,6,6,0,0,5,1,4,0
+1997,Iowa State,Big 12,North,11,1,10,0,8,1,7,0,5,1,4,0,6,0,6,0
+1997,Kansas,Big 12,North,11,5,6,0,8,3,5,0,6,5,1,0,5,0,5,0
+1997,Kansas State,Big 12,North,12,11,1,0,8,7,1,0,6,6,0,0,5,4,1,0
+1997,Kent State,Mid-American,East,11,3,8,0,8,3,5,0,5,2,3,0,6,1,5,0
+1997,Kentucky,SEC,East,11,5,6,0,8,2,6,0,6,3,3,0,5,2,3,0
+1997,Louisiana,FBS Independents,,11,1,10,0,4,1,3,0,6,0,6,0,5,1,4,0
+1997,Louisiana Monroe,FBS Independents,,12,5,7,0,3,2,1,0,4,3,1,0,8,2,6,0
+1997,Louisiana Tech,FBS Independents,,11,9,2,0,4,4,0,0,5,5,0,0,6,4,2,0
+1997,Louisville,Conference USA,,11,1,10,0,6,0,6,0,6,1,5,0,5,0,5,0
+1997,LSU,SEC,West,12,9,3,0,8,6,2,0,7,4,3,0,4,4,0,0
+1997,Marshall,Mid-American,East,13,10,3,0,9,8,1,0,5,5,0,0,6,4,2,0
+1997,Maryland,ACC,,11,2,9,0,8,1,7,0,6,1,5,0,5,1,4,0
+1997,Memphis,Conference USA,,11,4,7,0,6,2,4,0,6,4,2,0,5,0,5,0
+1997,Miami,Big East,,11,5,6,0,7,3,4,0,6,3,3,0,5,2,3,0
+1997,Miami (OH),Mid-American,East,11,8,3,0,8,6,2,0,5,4,1,0,6,4,2,0
+1997,Michigan,Big Ten,,12,12,0,0,8,8,0,0,7,7,0,0,4,4,0,0
+1997,Michigan State,Big Ten,,12,7,5,0,8,4,4,0,6,4,2,0,5,3,2,0
+1997,Minnesota,Big Ten,,12,3,9,0,8,1,7,0,6,2,4,0,6,1,5,0
+1997,Mississippi State,SEC,West,11,7,4,0,8,4,4,0,7,5,2,0,4,2,2,0
+1997,Missouri,Big 12,North,12,7,5,0,8,5,3,0,6,4,2,0,5,3,2,0
+1997,Navy,FBS Independents,,11,7,4,0,2,1,1,0,6,5,1,0,5,2,3,0
+1997,NC State,ACC,,11,6,5,0,8,3,5,0,6,4,2,0,5,2,3,0
+1997,Nebraska,Big 12,North,13,13,0,0,9,9,0,0,6,6,0,0,5,5,0,0
+1997,Nevada,Big West,,11,5,6,0,5,4,1,0,6,3,3,0,5,2,3,0
+1997,New Mexico,Western Athletic,Mountain,13,9,4,0,9,6,3,0,6,5,1,0,5,4,1,0
+1997,New Mexico State,Big West,,11,2,9,0,5,0,5,0,6,2,4,0,5,0,5,0
+1997,North Carolina,ACC,,12,11,1,0,8,7,1,0,6,5,1,0,5,5,0,0
+1997,Northern Illinois,Mid-American,West,11,0,11,0,8,0,8,0,6,0,6,0,5,0,5,0
+1997,North Texas,Big West,,11,4,7,0,5,2,3,0,4,2,2,0,7,2,5,0
+1997,Northwestern,Big Ten,,12,5,7,0,8,3,5,0,7,4,3,0,5,1,4,0
+1997,Notre Dame,FBS Independents,,13,7,6,0,1,1,0,0,6,4,2,0,6,3,3,0
+1997,Ohio,Mid-American,East,11,8,3,0,8,6,2,0,5,4,1,0,6,4,2,0
+1997,Ohio State,Big Ten,,13,10,3,0,8,6,2,0,7,7,0,0,5,3,2,0
+1997,Oklahoma,Big 12,South,12,4,8,0,8,2,6,0,6,3,3,0,6,1,5,0
+1997,Oklahoma State,Big 12,South,12,8,4,0,8,5,3,0,6,4,2,0,5,4,1,0
+1997,Ole Miss,SEC,West,12,8,4,0,8,4,4,0,6,4,2,0,5,3,2,0
+1997,Oregon,Pac-10,,12,7,5,0,8,3,5,0,6,4,2,0,5,2,3,0
+1997,Oregon State,Pac-10,,11,3,8,0,8,0,8,0,7,3,4,0,4,0,4,0
+1997,Penn State,Big Ten,,12,9,3,0,8,6,2,0,6,5,1,0,5,4,1,0
+1997,Pittsburgh,Big East,,12,6,6,0,7,4,3,0,5,3,2,0,6,3,3,0
+1997,Purdue,Big Ten,,12,9,3,0,8,6,2,0,6,5,1,0,5,3,2,0
+1997,Rice,Western Athletic,Mountain,11,7,4,0,8,5,3,0,5,3,2,0,6,4,2,0
+1997,Rutgers,Big East,,11,0,11,0,7,0,7,0,5,0,5,0,6,0,6,0
+1997,San Diego State,Western Athletic,Pacific,12,5,7,0,8,4,4,0,5,3,2,0,7,2,5,0
+1997,San José State,Western Athletic,Pacific,11,4,7,0,8,4,4,0,5,2,3,0,6,2,4,0
+1997,SMU,Western Athletic,Mountain,11,6,5,0,8,5,3,0,6,4,2,0,5,2,3,0
+1997,South Carolina,SEC,East,11,5,6,0,8,3,5,0,6,3,3,0,5,2,3,0
+1997,Southern Mississippi,Conference USA,,12,9,3,0,6,6,0,0,4,4,0,0,7,4,3,0
+1997,Stanford,Pac-10,,11,5,6,0,8,3,5,0,6,4,2,0,5,1,4,0
+1997,Syracuse,Big East,,13,9,4,0,7,6,1,0,7,6,1,0,5,3,2,0
+1997,TCU,Western Athletic,Mountain,11,1,10,0,8,1,7,0,5,1,4,0,6,0,6,0
+1997,Temple,Big East,,11,3,8,0,7,3,4,0,5,3,2,0,6,0,6,0
+1997,Tennessee,SEC,East,13,11,2,0,9,8,1,0,6,6,0,0,5,4,1,0
+1997,Texas,Big 12,South,11,4,7,0,8,2,6,0,6,3,3,0,5,1,4,0
+1997,Texas A&M,Big 12,South,13,9,4,0,9,6,3,0,6,6,0,0,5,3,2,0
+1997,Texas Tech,Big 12,South,11,6,5,0,8,5,3,0,6,3,3,0,5,3,2,0
+1997,Toledo,Mid-American,West,12,9,3,0,9,7,2,0,6,6,0,0,5,3,2,0
+1997,Tulane,Conference USA,,11,7,4,0,6,5,1,0,6,4,2,0,5,3,2,0
+1997,Tulsa,Western Athletic,Mountain,11,2,9,0,8,2,6,0,5,1,4,0,6,1,5,0
+1997,UAB,FBS Independents,,11,5,6,0,3,2,1,0,4,3,1,0,7,2,5,0
+1997,UCF,FBS Independents,,11,5,6,0,1,0,1,0,4,4,0,0,7,1,6,0
+1997,UCLA,Pac-10,,12,10,2,0,8,7,1,0,6,5,1,0,5,4,1,0
+1997,UNLV,Western Athletic,Pacific,11,3,8,0,8,2,6,0,5,3,2,0,6,0,6,0
+1997,USC,Pac-10,,11,6,5,0,8,4,4,0,6,3,3,0,5,3,2,0
+1997,Utah,Western Athletic,Mountain,11,6,5,0,8,5,3,0,5,3,2,0,6,3,3,0
+1997,Utah State,Big West,,12,6,6,0,5,4,1,0,5,3,2,0,6,3,3,0
+1997,UTEP,Western Athletic,Mountain,11,4,7,0,8,3,5,0,5,3,2,0,6,1,5,0
+1997,Vanderbilt,SEC,East,11,3,8,0,8,0,8,0,6,2,4,0,5,1,4,0
+1997,Virginia,ACC,,11,7,4,0,8,5,3,0,7,5,2,0,4,2,2,0
+1997,Virginia Tech,Big East,,12,7,5,0,7,5,2,0,6,5,1,0,5,2,3,0
+1997,Wake Forest,ACC,,11,5,6,0,8,3,5,0,5,3,2,0,6,2,4,0
+1997,Washington,Pac-10,,12,8,4,0,8,5,3,0,6,3,3,0,5,4,1,0
+1997,Washington State,Pac-10,,12,10,2,0,8,7,1,0,6,6,0,0,5,4,1,0
+1997,Western Michigan,Mid-American,West,11,8,3,0,8,6,2,0,5,4,1,0,6,4,2,0
+1997,West Virginia,Big East,,12,7,5,0,7,4,3,0,6,5,1,0,5,2,3,0
+1997,Wisconsin,Big Ten,,13,8,5,0,8,5,3,0,6,5,1,0,6,3,3,0
+1997,Wyoming,Western Athletic,Pacific,13,7,6,0,8,4,4,0,6,5,1,0,7,2,5,0

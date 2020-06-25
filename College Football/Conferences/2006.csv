@@ -1,0 +1,120 @@
+year,team,conference,division,total.games,total.wins,total.losses,total.ties,conferenceGames.games,conferenceGames.wins,conferenceGames.losses,conferenceGames.ties,homeGames.games,homeGames.wins,homeGames.losses,homeGames.ties,awayGames.games,awayGames.wins,awayGames.losses,awayGames.ties
+2006,Air Force,Mountain West,,12,4,8,0,8,3,5,0,6,2,4,0,6,2,4,0
+2006,Akron,Mid-American,East,12,5,7,0,8,3,5,0,5,4,1,0,7,1,6,0
+2006,Alabama,SEC,West,13,6,7,0,8,2,6,0,9,6,3,0,4,0,4,0
+2006,Arizona,Pac-10,,12,6,6,0,10,5,5,0,7,3,4,0,5,3,2,0
+2006,Arizona State,Pac-10,,13,7,6,0,9,4,5,0,6,4,2,0,7,3,4,0
+2006,Arkansas,SEC,West,14,10,4,0,9,7,2,0,7,5,2,0,7,5,2,0
+2006,Arkansas State,Sun Belt,,12,6,6,0,7,4,3,0,5,3,2,0,7,3,4,0
+2006,Army,FBS Independents,,12,3,9,0,0,0,0,0,5,2,3,0,7,1,6,0
+2006,Auburn,SEC,West,13,11,2,0,8,6,2,0,8,6,2,0,5,5,0,0
+2006,Ball State,Mid-American,West,12,5,7,0,8,5,3,0,6,2,4,0,6,3,3,0
+2006,Baylor,Big 12,South,12,4,8,0,8,3,5,0,7,3,4,0,5,1,4,0
+2006,Boise State,Western Athletic,,13,13,0,0,8,8,0,0,6,6,0,0,7,7,0,0
+2006,Boston College,ACC,Atlantic,13,10,3,0,8,5,3,0,8,8,0,0,5,2,3,0
+2006,Bowling Green,Mid-American,East,12,4,8,0,8,3,5,0,5,2,3,0,7,2,5,0
+2006,Buffalo,Mid-American,East,12,2,10,0,8,1,7,0,5,2,3,0,7,0,7,0
+2006,BYU,Mountain West,,13,11,2,0,10,9,1,0,6,6,0,0,7,5,2,0
+2006,California,Pac-10,,13,10,3,0,10,8,2,0,8,8,0,0,5,2,3,0
+2006,Central Michigan,Mid-American,West,14,10,4,0,9,8,1,0,6,5,1,0,8,5,3,0
+2006,Cincinnati,Big East,,13,8,5,0,7,4,3,0,8,7,1,0,5,1,4,0
+2006,Clemson,ACC,Atlantic,13,8,5,0,8,5,3,0,7,5,2,0,6,3,3,0
+2006,Colorado,Big 12,North,12,2,10,0,8,2,6,0,6,2,4,0,6,0,6,0
+2006,Colorado State,Mountain West,,12,4,8,0,8,1,7,0,6,3,3,0,6,1,5,0
+2006,Connecticut,Big East,,12,4,8,0,7,1,6,0,7,3,4,0,5,1,4,0
+2006,Duke,ACC,Coastal,12,0,12,0,8,0,8,0,7,0,7,0,5,0,5,0
+2006,East Carolina,Conference USA,East,13,7,6,0,8,5,3,0,7,4,3,0,6,3,3,0
+2006,Eastern Michigan,Mid-American,West,12,1,11,0,8,1,7,0,5,1,4,0,7,0,7,0
+2006,Florida,SEC,East,14,13,1,0,9,8,1,0,8,8,0,0,6,5,1,0
+2006,Florida Atlantic,Sun Belt,,12,5,7,0,7,4,3,0,5,3,2,0,7,2,5,0
+2006,Florida International,Sun Belt,,12,0,12,0,7,0,7,0,5,0,5,0,7,0,7,0
+2006,Florida State,ACC,Atlantic,13,7,6,0,8,3,5,0,8,4,4,0,5,3,2,0
+2006,Fresno State,Western Athletic,,12,4,8,0,8,4,4,0,6,3,3,0,6,1,5,0
+2006,Georgia,SEC,East,13,9,4,0,8,4,4,0,8,5,3,0,5,4,1,0
+2006,Georgia Tech,ACC,Coastal,14,9,5,0,9,7,2,0,8,6,2,0,6,3,3,0
+2006,Hawai'i,Western Athletic,,14,11,3,0,8,7,1,0,9,8,1,0,5,3,2,0
+2006,Houston,Conference USA,West,14,10,4,0,9,8,1,0,8,7,1,0,6,3,3,0
+2006,Idaho,Western Athletic,,12,4,8,0,8,3,5,0,5,2,3,0,7,2,5,0
+2006,Illinois,Big Ten,,12,2,10,0,8,1,7,0,7,1,6,0,5,1,4,0
+2006,Indiana,Big Ten,,12,5,7,0,8,3,5,0,7,3,4,0,5,2,3,0
+2006,Iowa,Big Ten,,13,6,7,0,8,2,6,0,8,4,4,0,5,2,3,0
+2006,Iowa State,Big 12,North,12,4,8,0,8,1,7,0,7,4,3,0,5,0,5,0
+2006,Kansas,Big 12,North,12,6,6,0,8,3,5,0,7,5,2,0,5,1,4,0
+2006,Kansas State,Big 12,North,13,7,6,0,8,4,4,0,9,6,3,0,4,1,3,0
+2006,Kent State,Mid-American,East,12,6,6,0,8,5,3,0,5,3,2,0,7,3,4,0
+2006,Kentucky,SEC,East,13,8,5,0,8,4,4,0,8,7,1,0,5,1,4,0
+2006,Louisiana,Sun Belt,,12,6,6,0,7,3,4,0,6,3,3,0,6,3,3,0
+2006,Louisiana Monroe,Sun Belt,,12,4,8,0,7,3,4,0,5,2,3,0,7,2,5,0
+2006,Louisiana Tech,Western Athletic,,13,3,10,0,8,1,7,0,5,2,3,0,8,1,7,0
+2006,Louisville,Big East,,13,12,1,0,7,6,1,0,6,6,0,0,7,6,1,0
+2006,LSU,SEC,West,13,11,2,0,8,6,2,0,9,9,0,0,4,2,2,0
+2006,Marshall,Conference USA,East,12,5,7,0,8,4,4,0,5,4,1,0,7,1,6,0
+2006,Maryland,ACC,Atlantic,13,9,4,0,8,5,3,0,8,7,1,0,5,2,3,0
+2006,Memphis,Conference USA,East,12,2,10,0,8,1,7,0,7,1,6,0,5,1,4,0
+2006,Miami,ACC,Coastal,13,7,6,0,8,3,5,0,7,5,2,0,6,2,4,0
+2006,Miami (OH),Mid-American,East,12,2,10,0,8,2,6,0,5,0,5,0,7,2,5,0
+2006,Michigan,Big Ten,,13,11,2,0,9,7,2,0,8,7,1,0,5,4,1,0
+2006,Michigan State,Big Ten,,12,4,8,0,8,1,7,0,7,2,5,0,5,2,3,0
+2006,Middle Tennessee,Sun Belt,,13,7,6,0,7,6,1,0,5,3,2,0,8,4,4,0
+2006,Minnesota,Big Ten,,13,6,7,0,9,3,6,0,7,4,3,0,6,2,4,0
+2006,Mississippi State,SEC,West,12,3,9,0,8,1,7,0,7,1,6,0,5,2,3,0
+2006,Missouri,Big 12,North,13,8,5,0,8,4,4,0,8,6,2,0,5,2,3,0
+2006,Navy,FBS Independents,,13,9,4,0,0,0,0,0,7,4,3,0,6,5,1,0
+2006,NC State,ACC,Atlantic,12,3,9,0,8,2,6,0,7,3,4,0,5,0,5,0
+2006,Nebraska,Big 12,North,14,9,5,0,9,6,3,0,8,6,2,0,6,3,3,0
+2006,Nevada,Western Athletic,,13,8,5,0,8,5,3,0,7,5,2,0,6,3,3,0
+2006,New Mexico,Mountain West,,13,6,7,0,8,4,4,0,7,3,4,0,6,3,3,0
+2006,New Mexico State,Western Athletic,,12,4,8,0,8,2,6,0,7,3,4,0,5,1,4,0
+2006,North Carolina,ACC,Coastal,12,3,9,0,8,2,6,0,7,2,5,0,5,1,4,0
+2006,Northern Illinois,Mid-American,West,13,7,6,0,8,5,3,0,6,4,2,0,7,3,4,0
+2006,North Texas,Sun Belt,,12,3,9,0,7,2,5,0,5,2,3,0,7,1,6,0
+2006,Northwestern,Big Ten,,12,4,8,0,8,2,6,0,6,2,4,0,6,2,4,0
+2006,Notre Dame,FBS Independents,,13,10,3,0,0,0,0,0,7,6,1,0,6,4,2,0
+2006,Ohio,Mid-American,East,14,9,5,0,9,7,2,0,6,4,2,0,8,5,3,0
+2006,Ohio State,Big Ten,,13,12,1,0,8,8,0,0,8,7,1,0,5,5,0,0
+2006,Oklahoma,Big 12,South,14,11,3,0,9,8,1,0,9,7,2,0,5,4,1,0
+2006,Oklahoma State,Big 12,South,13,7,6,0,8,3,5,0,6,4,2,0,7,3,4,0
+2006,Ole Miss,SEC,West,12,4,8,0,8,2,6,0,7,4,3,0,5,0,5,0
+2006,Oregon,Pac-10,,13,7,6,0,10,4,6,0,7,5,2,0,6,2,4,0
+2006,Oregon State,Pac-10,,14,10,4,0,9,6,3,0,7,5,2,0,7,5,2,0
+2006,Penn State,Big Ten,,13,9,4,0,8,5,3,0,8,7,1,0,5,2,3,0
+2006,Pittsburgh,Big East,,12,6,6,0,7,2,5,0,7,3,4,0,5,3,2,0
+2006,Purdue,Big Ten,,14,8,6,0,8,5,3,0,7,5,2,0,7,3,4,0
+2006,Rice,Conference USA,West,13,7,6,0,8,6,2,0,5,3,2,0,8,4,4,0
+2006,Rutgers,Big East,,13,11,2,0,7,5,2,0,6,6,0,0,7,5,2,0
+2006,San Diego State,Mountain West,,12,3,9,0,9,3,6,0,6,3,3,0,6,0,6,0
+2006,San José State,Western Athletic,,13,9,4,0,8,5,3,0,8,7,1,0,5,2,3,0
+2006,SMU,Conference USA,West,12,6,6,0,8,4,4,0,6,5,1,0,6,1,5,0
+2006,South Carolina,SEC,East,13,8,5,0,8,3,5,0,8,4,4,0,5,4,1,0
+2006,Southern Mississippi,Conference USA,East,14,9,5,0,9,6,3,0,7,6,1,0,7,3,4,0
+2006,South Florida,Big East,,13,9,4,0,7,4,3,0,6,5,1,0,7,4,3,0
+2006,Stanford,Pac-10,,12,1,11,0,9,1,8,0,5,0,5,0,7,1,6,0
+2006,Syracuse,Big East,,12,4,8,0,7,1,6,0,6,3,3,0,6,1,5,0
+2006,TCU,Mountain West,,13,11,2,0,8,6,2,0,7,6,1,0,6,5,1,0
+2006,Temple,FBS Independents,,12,1,11,0,0,0,0,0,5,1,4,0,7,0,7,0
+2006,Tennessee,SEC,East,13,9,4,0,8,5,3,0,7,5,2,0,6,4,2,0
+2006,Texas,Big 12,South,13,10,3,0,8,6,2,0,7,5,2,0,6,5,1,0
+2006,Texas A&M,Big 12,South,13,9,4,0,8,5,3,0,8,5,3,0,5,4,1,0
+2006,Texas Tech,Big 12,South,13,8,5,0,8,4,4,0,6,4,2,0,7,4,3,0
+2006,Toledo,Mid-American,West,12,5,7,0,8,3,5,0,6,4,2,0,6,1,5,0
+2006,Troy,Sun Belt,,13,8,5,0,7,6,1,0,6,5,1,0,7,3,4,0
+2006,Tulane,Conference USA,West,12,4,8,0,8,2,6,0,5,3,2,0,7,1,6,0
+2006,Tulsa,Conference USA,West,13,8,5,0,8,5,3,0,6,5,1,0,7,3,4,0
+2006,UAB,Conference USA,East,12,3,9,0,8,2,6,0,6,3,3,0,6,0,6,0
+2006,UCF,Conference USA,East,12,4,8,0,8,3,5,0,7,2,5,0,5,2,3,0
+2006,UCLA,Pac-10,,13,7,6,0,10,6,4,0,8,6,2,0,5,1,4,0
+2006,UNLV,Mountain West,,12,2,10,0,8,1,7,0,6,2,4,0,6,0,6,0
+2006,USC,Pac-10,,13,11,2,0,10,8,2,0,6,6,0,0,7,5,2,0
+2006,Utah,Mountain West,,13,8,5,0,9,5,4,0,7,5,2,0,6,3,3,0
+2006,Utah State,Western Athletic,,12,1,11,0,8,1,7,0,5,1,4,0,7,0,7,0
+2006,UTEP,Conference USA,West,12,5,7,0,8,3,5,0,6,3,3,0,6,2,4,0
+2006,Vanderbilt,SEC,East,12,4,8,0,8,1,7,0,6,2,4,0,6,2,4,0
+2006,Virginia,ACC,Coastal,12,5,7,0,8,4,4,0,6,4,2,0,6,1,5,0
+2006,Virginia Tech,ACC,Coastal,13,10,3,0,8,6,2,0,9,7,2,0,4,3,1,0
+2006,Wake Forest,ACC,Atlantic,14,11,3,0,9,7,2,0,7,4,3,0,7,7,0,0
+2006,Washington,Pac-10,,12,5,7,0,9,3,6,0,6,3,3,0,6,2,4,0
+2006,Washington State,Pac-10,,12,6,6,0,9,4,5,0,7,3,4,0,5,3,2,0
+2006,Western Michigan,Mid-American,West,13,8,5,0,8,6,2,0,5,5,0,0,8,3,5,0
+2006,West Virginia,Big East,,13,11,2,0,7,5,2,0,8,7,1,0,5,4,1,0
+2006,Wisconsin,Big Ten,,13,12,1,0,9,8,1,0,8,8,0,0,5,4,1,0
+2006,Wyoming,Mountain West,,12,6,6,0,8,5,3,0,6,4,2,0,6,2,4,0

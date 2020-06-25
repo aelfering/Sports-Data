@@ -1,0 +1,108 @@
+year,team,conference,division,total.games,total.wins,total.losses,total.ties,conferenceGames.games,conferenceGames.wins,conferenceGames.losses,conferenceGames.ties,homeGames.games,homeGames.wins,homeGames.losses,homeGames.ties,awayGames.games,awayGames.wins,awayGames.losses,awayGames.ties
+1990,Air Force,Western Athletic,,12,7,5,0,7,3,4,0,6,4,2,0,5,2,3,0
+1990,Akron,FBS Independents,,11,3,8,0,4,0,4,0,4,2,2,0,7,1,6,0
+1990,Alabama,SEC,,12,7,5,0,7,5,2,0,7,4,3,0,4,3,1,0
+1990,Arizona,Pac-10,,12,7,5,0,9,5,4,0,6,4,2,0,5,3,2,0
+1990,Arizona State,Pac-10,,11,4,7,0,7,2,5,0,6,3,3,0,5,1,4,0
+1990,Arkansas,Southwest,,11,3,8,0,8,1,7,0,7,2,5,0,4,1,3,0
+1990,Arkansas State,FBS Independents,,11,4,7,0,4,1,3,0,4,3,1,0,7,1,6,0
+1990,Army,FBS Independents,,11,6,5,0,4,2,2,0,8,5,3,0,3,1,2,0
+1990,Auburn,SEC,,12,8,4,0,7,4,3,0,6,5,1,0,5,2,3,0
+1990,Ball State,Mid-American,,11,7,4,0,8,5,3,0,5,4,1,0,6,3,3,0
+1990,Baylor,Southwest,,11,7,4,0,8,6,2,0,6,4,2,0,5,3,2,0
+1990,Boston College,FBS Independents,,11,4,7,0,10,4,6,0,6,2,4,0,5,2,3,0
+1990,Bowling Green,Mid-American,,10,3,7,0,8,2,6,0,2,1,1,0,8,2,6,0
+1990,BYU,Western Athletic,,13,10,3,0,8,7,1,0,6,6,0,0,6,4,2,0
+1990,California,Pac-10,,12,8,4,0,8,5,3,0,6,4,2,0,5,3,2,0
+1990,Cal State Fullerton,Big West,,12,1,11,0,7,0,7,0,5,1,4,0,7,0,7,0
+1990,Central Michigan,Mid-American,,12,9,3,0,8,7,1,0,7,6,1,0,4,3,1,0
+1990,Cincinnati,FBS Independents,,11,1,10,0,5,0,5,0,3,0,3,0,8,1,7,0
+1990,Clemson,ACC,,12,10,2,0,7,5,2,0,6,6,0,0,5,3,2,0
+1990,Colorado,Big 8,,13,11,2,0,7,7,0,0,6,6,0,0,6,4,2,0
+1990,Colorado State,Western Athletic,,13,9,4,0,7,6,1,0,6,6,0,0,6,2,4,0
+1990,Duke,ACC,,11,4,7,0,7,1,6,0,5,2,3,0,6,2,4,0
+1990,East Carolina,FBS Independents,,11,5,6,0,10,5,5,0,5,3,2,0,6,2,4,0
+1990,Eastern Michigan,Mid-American,,11,2,9,0,8,2,6,0,4,2,2,0,7,0,7,0
+1990,Florida,SEC,,11,9,2,0,7,6,1,0,7,7,0,0,4,2,2,0
+1990,Florida State,FBS Independents,,12,10,2,0,8,7,1,0,7,7,0,0,4,2,2,0
+1990,Fresno State,Big West,,11,8,3,0,7,5,2,0,5,5,0,0,6,3,3,0
+1990,Georgia,SEC,,11,4,7,0,7,2,5,0,6,4,2,0,5,0,5,0
+1990,Georgia Tech,ACC,,12,12,0,0,7,7,0,0,7,7,0,0,4,4,0,0
+1990,Hawai'i,Western Athletic,,12,7,5,0,8,4,4,0,8,6,2,0,4,1,3,0
+1990,Houston,Southwest,,11,10,1,0,8,7,1,0,7,7,0,0,4,3,1,0
+1990,Illinois,Big Ten,,12,8,4,0,8,6,2,0,6,5,1,0,5,3,2,0
+1990,Indiana,Big Ten,,12,6,6,0,8,3,5,0,5,3,2,0,6,3,3,0
+1990,Iowa,Big Ten,,12,8,4,0,8,6,2,0,6,5,1,0,5,3,2,0
+1990,Iowa State,Big 8,,11,4,7,0,7,2,5,0,5,3,2,0,6,1,5,0
+1990,Kansas,Big 8,,11,4,7,0,7,3,4,0,7,3,4,0,4,1,3,0
+1990,Kansas State,Big 8,,11,5,6,0,7,2,5,0,6,5,1,0,5,0,5,0
+1990,Kent State,Mid-American,,11,2,9,0,8,2,6,0,6,2,4,0,5,0,5,0
+1990,Kentucky,SEC,,11,4,7,0,7,3,4,0,6,4,2,0,5,0,5,0
+1990,Long Beach State,Big West,,11,6,5,0,7,4,3,0,6,6,0,0,5,0,5,0
+1990,Louisiana,FBS Independents,,11,5,6,0,8,4,4,0,5,2,3,0,6,3,3,0
+1990,Louisiana Tech,FBS Independents,,12,8,4,0,5,4,1,0,5,5,0,0,6,3,3,0
+1990,Louisville,FBS Independents,,12,11,1,0,7,6,1,0,7,7,0,0,4,3,1,0
+1990,LSU,SEC,,11,5,6,0,7,2,5,0,6,5,1,0,5,0,5,0
+1990,Maryland,ACC,,12,7,5,0,7,4,3,0,5,3,2,0,6,3,3,0
+1990,Memphis,FBS Independents,,11,4,7,0,8,3,5,0,5,3,2,0,6,1,5,0
+1990,Miami,FBS Independents,,12,10,2,0,5,4,1,0,6,6,0,0,5,3,2,0
+1990,Miami (OH),Mid-American,,11,6,5,0,8,5,3,0,5,4,1,0,6,2,4,0
+1990,Michigan,Big Ten,,12,9,3,0,8,6,2,0,6,4,2,0,5,4,1,0
+1990,Michigan State,Big Ten,,12,9,3,0,8,6,2,0,6,4,2,0,5,4,1,0
+1990,Minnesota,Big Ten,,11,6,5,0,8,5,3,0,6,4,2,0,5,2,3,0
+1990,Mississippi State,SEC,,11,5,6,0,7,1,6,0,6,3,3,0,5,2,3,0
+1990,Missouri,Big 8,,11,4,7,0,7,2,5,0,6,3,3,0,5,1,4,0
+1990,Navy,FBS Independents,,11,5,6,0,4,1,3,0,6,4,2,0,5,1,4,0
+1990,NC State,ACC,,12,7,5,0,7,3,4,0,6,5,1,0,5,1,4,0
+1990,Nebraska,Big 8,,12,9,3,0,7,5,2,0,7,6,1,0,4,3,1,0
+1990,New Mexico,Western Athletic,,12,2,10,0,7,1,6,0,5,1,4,0,7,1,6,0
+1990,New Mexico State,Big West,,11,1,10,0,7,1,6,0,5,1,4,0,6,0,6,0
+1990,North Carolina,ACC,,11,6,5,0,7,3,4,0,6,4,2,0,5,2,3,0
+1990,Northern Illinois,FBS Independents,,11,6,5,0,4,2,2,0,5,5,0,0,6,1,5,0
+1990,Northwestern,Big Ten,,11,2,9,0,8,1,7,0,6,2,4,0,5,0,5,0
+1990,Notre Dame,FBS Independents,,12,9,3,0,4,3,1,0,7,5,2,0,4,4,0,0
+1990,Ohio,Mid-American,,11,2,9,0,8,1,7,0,6,2,4,0,5,0,5,0
+1990,Ohio State,Big Ten,,12,8,4,0,8,6,2,0,7,4,3,0,4,4,0,0
+1990,Oklahoma,Big 8,,11,8,3,0,7,5,2,0,6,5,1,0,5,3,2,0
+1990,Oklahoma State,Big 8,,11,4,7,0,7,2,5,0,5,3,2,0,6,1,5,0
+1990,Ole Miss,SEC,,12,9,3,0,7,5,2,0,6,5,1,0,5,4,1,0
+1990,Oregon,Pac-10,,12,8,4,0,7,4,3,0,7,7,0,0,4,1,3,0
+1990,Oregon State,Pac-10,,11,1,10,0,7,1,6,0,6,1,5,0,5,0,5,0
+1990,Pacific,Big West,,11,4,7,0,7,2,5,0,5,3,2,0,6,1,5,0
+1990,Penn State,FBS Independents,,12,9,3,0,8,7,1,0,6,5,1,0,5,4,1,0
+1990,Pittsburgh,FBS Independents,,11,4,7,0,9,3,6,0,8,4,4,0,3,0,3,0
+1990,Purdue,Big Ten,,11,2,9,0,8,1,7,0,6,1,5,0,5,1,4,0
+1990,Rice,Southwest,,11,5,6,0,8,3,5,0,7,4,3,0,4,1,3,0
+1990,Rutgers,FBS Independents,,11,3,8,0,8,1,7,0,5,3,2,0,6,0,6,0
+1990,San Diego State,Western Athletic,,11,6,5,0,7,5,2,0,6,5,1,0,5,1,4,0
+1990,San José State,Big West,,12,9,3,0,7,7,0,0,3,3,0,0,8,5,3,0
+1990,SMU,Southwest,,11,1,10,0,8,0,8,0,5,1,4,0,6,0,6,0
+1990,South Carolina,FBS Independents,,11,6,5,0,4,3,1,0,7,5,2,0,4,1,3,0
+1990,Southern Mississippi,FBS Independents,,12,8,4,0,6,5,1,0,3,3,0,0,8,5,3,0
+1990,Stanford,Pac-10,,11,5,6,0,8,4,4,0,5,2,3,0,6,3,3,0
+1990,Syracuse,FBS Independents,,13,7,6,0,9,5,4,0,3,2,1,0,9,4,5,0
+1990,TCU,Southwest,,11,5,6,0,8,3,5,0,6,2,4,0,5,3,2,0
+1990,Temple,FBS Independents,,11,7,4,0,7,5,2,0,4,4,0,0,7,3,4,0
+1990,Tennessee,SEC,,13,11,2,0,7,6,1,0,10,8,2,0,2,2,0,0
+1990,Texas,Southwest,,12,10,2,0,8,8,0,0,6,5,1,0,5,5,0,0
+1990,Texas A&M,Southwest,,13,9,4,0,8,5,3,0,5,5,0,0,7,3,4,0
+1990,Texas Tech,Southwest,,11,4,7,0,8,3,5,0,5,1,4,0,6,3,3,0
+1990,Toledo,Mid-American,,11,9,2,0,8,7,1,0,6,5,1,0,5,4,1,0
+1990,Tulane,FBS Independents,,11,4,7,0,6,2,4,0,6,2,4,0,5,2,3,0
+1990,Tulsa,FBS Independents,,11,3,8,0,4,0,4,0,5,2,3,0,6,1,5,0
+1990,UCLA,Pac-10,,11,5,6,0,8,4,4,0,6,3,3,0,5,2,3,0
+1990,UNLV,Big West,,11,4,7,0,7,3,4,0,5,1,4,0,6,3,3,0
+1990,USC,Pac-10,,13,8,5,0,8,5,3,0,5,3,2,0,7,5,2,0
+1990,Utah,Western Athletic,,11,4,7,0,8,2,6,0,5,1,4,0,6,3,3,0
+1990,Utah State,Big West,,11,6,5,0,7,6,1,0,6,5,1,0,5,1,4,0
+1990,UTEP,Western Athletic,,11,3,8,0,8,1,7,0,6,3,3,0,5,0,5,0
+1990,Vanderbilt,SEC,,11,1,10,0,7,1,6,0,6,1,5,0,5,0,5,0
+1990,Virginia,ACC,,12,8,4,0,7,5,2,0,6,4,2,0,5,4,1,0
+1990,Virginia Tech,FBS Independents,,11,6,5,0,6,3,3,0,6,5,1,0,5,1,4,0
+1990,Wake Forest,ACC,,11,3,8,0,7,0,7,0,6,2,4,0,5,1,4,0
+1990,Washington,Pac-10,,12,10,2,0,8,7,1,0,6,5,1,0,5,4,1,0
+1990,Washington State,Pac-10,,11,3,8,0,8,2,6,0,5,1,4,0,6,2,4,0
+1990,Western Michigan,Mid-American,,11,7,4,0,8,5,3,0,5,4,1,0,6,3,3,0
+1990,West Virginia,FBS Independents,,11,4,7,0,9,3,6,0,7,2,5,0,4,2,2,0
+1990,Wisconsin,Big Ten,,11,1,10,0,8,0,8,0,7,1,6,0,4,0,4,0
+1990,Wyoming,Western Athletic,,13,9,4,0,8,5,3,0,7,6,1,0,5,3,2,0

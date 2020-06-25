@@ -1,0 +1,112 @@
+year,team,conference,division,total.games,total.wins,total.losses,total.ties,conferenceGames.games,conferenceGames.wins,conferenceGames.losses,conferenceGames.ties,homeGames.games,homeGames.wins,homeGames.losses,homeGames.ties,awayGames.games,awayGames.wins,awayGames.losses,awayGames.ties
+1996,Air Force,Western Athletic,Pacific,11,6,5,0,8,5,3,0,5,3,2,0,6,3,3,0
+1996,Akron,Mid-American,,11,4,7,0,8,3,5,0,5,3,2,0,6,1,5,0
+1996,Alabama,SEC,West,13,10,3,0,9,6,3,0,6,6,0,0,5,3,2,0
+1996,Arizona,Pac-10,,11,5,6,0,8,3,5,0,6,5,1,0,5,0,5,0
+1996,Arizona State,Pac-10,,12,11,1,0,8,8,0,0,7,7,0,0,4,4,0,0
+1996,Arkansas,SEC,West,11,4,7,0,8,2,6,0,7,3,4,0,4,1,3,0
+1996,Arkansas State,FBS Independents,,11,4,7,0,5,1,4,0,5,4,1,0,6,0,6,0
+1996,Army,FBS Independents,,12,10,2,0,1,1,0,0,8,8,0,0,3,2,1,0
+1996,Auburn,SEC,West,12,8,4,0,8,4,4,0,7,5,2,0,4,2,2,0
+1996,Ball State,Mid-American,,12,8,4,0,8,7,1,0,5,4,1,0,6,4,2,0
+1996,Baylor,Big 12,South,11,4,7,0,8,1,7,0,5,2,3,0,6,2,4,0
+1996,Boise State,Big West,,12,2,10,0,5,1,4,0,7,1,6,0,5,1,4,0
+1996,Boston College,Big East,,12,5,7,0,7,2,5,0,6,3,3,0,6,2,4,0
+1996,Bowling Green,Mid-American,,11,4,7,0,8,3,5,0,5,3,2,0,6,1,5,0
+1996,BYU,Western Athletic,Mountain,15,14,1,0,10,10,0,0,7,7,0,0,6,5,1,0
+1996,California,Pac-10,,12,6,6,0,8,3,5,0,6,4,2,0,5,2,3,0
+1996,Central Michigan,Mid-American,,11,5,6,0,8,4,4,0,5,3,2,0,6,2,4,0
+1996,Cincinnati,Conference USA,,11,6,5,0,5,2,3,0,6,4,2,0,5,2,3,0
+1996,Clemson,ACC,,12,7,5,0,8,6,2,0,6,5,1,0,5,2,3,0
+1996,Colorado,Big 12,North,12,10,2,0,8,7,1,0,6,5,1,0,5,4,1,0
+1996,Colorado State,Western Athletic,Pacific,12,7,5,0,8,6,2,0,6,4,2,0,6,3,3,0
+1996,Duke,ACC,,11,0,11,0,8,0,8,0,5,0,5,0,6,0,6,0
+1996,East Carolina,FBS Independents,,11,8,3,0,2,2,0,0,6,5,1,0,5,3,2,0
+1996,Eastern Michigan,Mid-American,,11,3,8,0,8,3,5,0,6,2,4,0,5,1,4,0
+1996,Florida,SEC,East,13,12,1,0,9,9,0,0,7,7,0,0,4,3,1,0
+1996,Florida State,ACC,,12,11,1,0,8,8,0,0,8,8,0,0,3,3,0,0
+1996,Fresno State,Western Athletic,Pacific,11,4,7,0,8,3,5,0,6,3,3,0,5,1,4,0
+1996,Georgia,SEC,East,11,5,6,0,8,3,5,0,6,3,3,0,5,2,3,0
+1996,Georgia Tech,ACC,,11,5,6,0,8,4,4,0,6,4,2,0,5,1,4,0
+1996,Hawai'i,Western Athletic,Pacific,12,2,10,0,8,1,7,0,8,2,6,0,4,0,4,0
+1996,Houston,Conference USA,,12,7,5,0,5,4,1,0,6,4,2,0,5,3,2,0
+1996,Idaho,Big West,,11,6,5,0,5,3,2,0,5,5,0,0,6,1,5,0
+1996,Illinois,Big Ten,,11,2,9,0,8,1,7,0,6,2,4,0,5,0,5,0
+1996,Indiana,Big Ten,,11,3,8,0,8,1,7,0,5,1,4,0,6,2,4,0
+1996,Iowa,Big Ten,,12,9,3,0,8,6,2,0,6,4,2,0,5,4,1,0
+1996,Iowa State,Big 12,North,11,2,9,0,8,1,7,0,6,2,4,0,5,0,5,0
+1996,Kansas,Big 12,North,11,4,7,0,8,2,6,0,5,1,4,0,6,3,3,0
+1996,Kansas State,Big 12,North,12,9,3,0,8,6,2,0,6,5,1,0,5,4,1,0
+1996,Kent State,Mid-American,,11,2,9,0,8,1,7,0,4,2,2,0,7,0,7,0
+1996,Kentucky,SEC,East,11,4,7,0,8,3,5,0,6,4,2,0,5,0,5,0
+1996,Louisiana,FBS Independents,,11,5,6,0,4,3,1,0,5,4,1,0,6,1,5,0
+1996,Louisiana Monroe,FBS Independents,,11,5,6,0,1,1,0,0,5,4,1,0,6,1,5,0
+1996,Louisiana Tech,FBS Independents,,11,6,5,0,4,2,2,0,5,3,2,0,6,3,3,0
+1996,Louisville,Conference USA,,11,5,6,0,5,2,3,0,5,2,3,0,6,3,3,0
+1996,LSU,SEC,West,12,10,2,0,8,6,2,0,7,6,1,0,4,3,1,0
+1996,Maryland,ACC,,11,5,6,0,8,3,5,0,5,4,1,0,6,1,5,0
+1996,Memphis,Conference USA,,11,4,7,0,5,2,3,0,6,3,3,0,5,1,4,0
+1996,Miami,Big East,,12,9,3,0,7,6,1,0,6,3,3,0,5,5,0,0
+1996,Miami (OH),Mid-American,,11,6,5,0,8,6,2,0,5,3,2,0,6,3,3,0
+1996,Michigan,Big Ten,,12,8,4,0,8,5,3,0,6,5,1,0,5,3,2,0
+1996,Michigan State,Big Ten,,12,6,6,0,8,5,3,0,6,5,1,0,5,1,4,0
+1996,Minnesota,Big Ten,,11,4,7,0,8,1,7,0,6,3,3,0,5,1,4,0
+1996,Mississippi State,SEC,West,11,5,6,0,8,3,5,0,6,2,4,0,5,3,2,0
+1996,Missouri,Big 12,North,11,5,6,0,8,3,5,0,6,3,3,0,5,2,3,0
+1996,Navy,FBS Independents,,12,9,3,0,2,0,2,0,4,4,0,0,7,4,3,0
+1996,NC State,ACC,,11,3,8,0,8,3,5,0,5,2,3,0,6,1,5,0
+1996,Nebraska,Big 12,North,13,11,2,0,9,8,1,0,6,6,0,0,5,4,1,0
+1996,Nevada,Big West,,12,9,3,0,5,4,1,0,5,5,0,0,6,3,3,0
+1996,New Mexico,Western Athletic,Mountain,11,6,5,0,8,3,5,0,6,4,2,0,5,2,3,0
+1996,New Mexico State,Big West,,11,1,10,0,5,0,5,0,5,1,4,0,6,0,6,0
+1996,North Carolina,ACC,,12,10,2,0,8,6,2,0,5,5,0,0,6,4,2,0
+1996,Northern Illinois,FBS Independents,,11,1,10,0,3,1,2,0,5,0,5,0,6,1,5,0
+1996,North Texas,Big West,,11,5,6,0,5,3,2,0,6,3,3,0,5,2,3,0
+1996,Northwestern,Big Ten,,12,9,3,0,8,7,1,0,5,5,0,0,6,4,2,0
+1996,Notre Dame,FBS Independents,,11,8,3,0,1,1,0,0,7,5,2,0,4,3,1,0
+1996,Ohio,Mid-American,,12,6,6,0,8,5,3,0,4,3,1,0,8,3,5,0
+1996,Ohio State,Big Ten,,12,11,1,0,8,7,1,0,6,5,1,0,5,5,0,0
+1996,Oklahoma,Big 12,South,11,3,8,0,8,3,5,0,6,1,5,0,5,2,3,0
+1996,Oklahoma State,Big 12,South,11,5,6,0,8,2,6,0,7,5,2,0,4,0,4,0
+1996,Ole Miss,SEC,West,11,5,6,0,8,2,6,0,6,3,3,0,5,2,3,0
+1996,Oregon,Pac-10,,11,6,5,0,8,3,5,0,6,4,2,0,5,2,3,0
+1996,Oregon State,Pac-10,,11,2,9,0,8,1,7,0,6,2,4,0,5,0,5,0
+1996,Penn State,Big Ten,,13,11,2,0,8,6,2,0,8,7,1,0,4,3,1,0
+1996,Pittsburgh,Big East,,11,4,7,0,7,3,4,0,6,4,2,0,5,0,5,0
+1996,Purdue,Big Ten,,11,3,8,0,8,2,6,0,6,3,3,0,5,0,5,0
+1996,Rice,Western Athletic,Mountain,11,7,4,0,8,6,2,0,5,4,1,0,6,3,3,0
+1996,Rutgers,Big East,,11,2,9,0,7,1,6,0,5,2,3,0,6,0,6,0
+1996,San Diego State,Western Athletic,Pacific,11,8,3,0,8,6,2,0,6,6,0,0,5,2,3,0
+1996,San José State,Western Athletic,Pacific,12,3,9,0,8,3,5,0,5,2,3,0,7,1,6,0
+1996,SMU,Western Athletic,Mountain,11,5,6,0,8,4,4,0,5,3,2,0,6,2,4,0
+1996,South Carolina,SEC,East,11,6,5,0,8,4,4,0,6,3,3,0,5,3,2,0
+1996,Southern Mississippi,Conference USA,,11,8,3,0,5,4,1,0,4,4,0,0,7,4,3,0
+1996,Stanford,Pac-10,,12,7,5,0,8,5,3,0,6,4,2,0,5,2,3,0
+1996,Syracuse,Big East,,12,9,3,0,7,6,1,0,6,4,2,0,5,4,1,0
+1996,TCU,Western Athletic,Mountain,11,4,7,0,8,3,5,0,5,2,3,0,6,2,4,0
+1996,Temple,Big East,,11,1,10,0,7,0,7,0,4,0,4,0,7,1,6,0
+1996,Tennessee,SEC,East,12,10,2,0,8,7,1,0,7,6,1,0,4,3,1,0
+1996,Texas,Big 12,South,13,8,5,0,9,7,2,0,6,5,1,0,5,2,3,0
+1996,Texas A&M,Big 12,South,12,6,6,0,8,4,4,0,6,3,3,0,6,3,3,0
+1996,Texas Tech,Big 12,South,12,7,5,0,8,5,3,0,6,4,2,0,5,3,2,0
+1996,Toledo,Mid-American,,11,7,4,0,8,6,2,0,6,4,2,0,5,3,2,0
+1996,Tulane,Conference USA,,11,2,9,0,5,1,4,0,6,1,5,0,5,1,4,0
+1996,Tulsa,Western Athletic,Mountain,11,4,7,0,8,2,6,0,5,2,3,0,6,2,4,0
+1996,UAB,FBS Independents,,11,5,6,0,4,2,2,0,7,5,2,0,4,0,4,0
+1996,UCF,FBS Independents,,11,5,6,0,3,1,2,0,5,4,1,0,6,1,5,0
+1996,UCLA,Pac-10,,11,5,6,0,8,4,4,0,5,3,2,0,6,2,4,0
+1996,UNLV,Western Athletic,Pacific,12,1,11,0,9,1,8,0,6,1,5,0,6,0,6,0
+1996,USC,Pac-10,,12,6,6,0,8,3,5,0,5,3,2,0,7,3,4,0
+1996,Utah,Western Athletic,Mountain,12,8,4,0,8,6,2,0,5,4,1,0,6,4,2,0
+1996,Utah State,Big West,,11,6,5,0,5,4,1,0,6,4,2,0,5,2,3,0
+1996,UTEP,Western Athletic,Mountain,11,2,9,0,8,0,8,0,5,1,4,0,6,1,5,0
+1996,Vanderbilt,SEC,East,11,2,9,0,8,0,8,0,6,1,5,0,5,1,4,0
+1996,Virginia,ACC,,12,7,5,0,8,5,3,0,6,5,1,0,5,2,3,0
+1996,Virginia Tech,Big East,,12,10,2,0,7,6,1,0,7,7,0,0,4,3,1,0
+1996,Wake Forest,ACC,,11,3,8,0,8,1,7,0,6,3,3,0,5,0,5,0
+1996,Washington,Pac-10,,12,9,3,0,8,7,1,0,6,6,0,0,5,3,2,0
+1996,Washington State,Pac-10,,11,5,6,0,8,3,5,0,5,3,2,0,6,2,4,0
+1996,Western Michigan,Mid-American,,11,2,9,0,8,2,6,0,5,1,4,0,6,1,5,0
+1996,West Virginia,Big East,,12,8,4,0,7,4,3,0,6,4,2,0,5,4,1,0
+1996,Wisconsin,Big Ten,,13,8,5,0,8,3,5,0,6,4,2,0,6,3,3,0
+1996,Wyoming,Western Athletic,Pacific,12,10,2,0,9,7,2,0,6,6,0,0,5,4,1,0

@@ -1,0 +1,120 @@
+year,team,conference,division,total.games,total.wins,total.losses,total.ties,conferenceGames.games,conferenceGames.wins,conferenceGames.losses,conferenceGames.ties,homeGames.games,homeGames.wins,homeGames.losses,homeGames.ties,awayGames.games,awayGames.wins,awayGames.losses,awayGames.ties
+2005,Air Force,Mountain West,,11,4,7,0,9,4,5,0,6,3,3,0,5,1,4,0
+2005,Akron,Mid-American,East,13,7,6,0,9,6,3,0,6,3,3,0,7,4,3,0
+2005,Alabama,SEC,West,12,10,2,0,8,6,2,0,8,7,1,0,4,3,1,0
+2005,Arizona,Pac-10,,11,3,8,0,10,2,8,0,6,2,4,0,5,1,4,0
+2005,Arizona State,Pac-10,,12,7,5,0,9,5,4,0,7,4,3,0,5,3,2,0
+2005,Arkansas,SEC,West,11,4,7,0,8,2,6,0,6,3,3,0,5,1,4,0
+2005,Arkansas State,Sun Belt,,12,6,6,0,7,5,2,0,7,5,2,0,5,1,4,0
+2005,Army,FBS Independents,,11,4,7,0,0,0,0,0,7,2,5,0,4,2,2,0
+2005,Auburn,SEC,West,12,9,3,0,8,7,1,0,8,6,2,0,4,3,1,0
+2005,Ball State,Mid-American,West,11,4,7,0,8,4,4,0,4,1,3,0,7,3,4,0
+2005,Baylor,Big 12,South,11,5,6,0,8,2,6,0,5,2,3,0,6,3,3,0
+2005,Boise State,Western Athletic,,13,9,4,0,8,7,1,0,6,6,0,0,7,3,4,0
+2005,Boston College,ACC,Atlantic,12,9,3,0,8,5,3,0,7,6,1,0,5,3,2,0
+2005,Bowling Green,Mid-American,East,11,6,5,0,8,5,3,0,5,2,3,0,6,4,2,0
+2005,Buffalo,Mid-American,East,11,1,10,0,8,1,7,0,5,0,5,0,6,1,5,0
+2005,BYU,Mountain West,,12,6,6,0,9,5,4,0,6,3,3,0,6,3,3,0
+2005,California,Pac-10,,12,8,4,0,10,6,4,0,7,5,2,0,5,3,2,0
+2005,Central Michigan,Mid-American,West,11,6,5,0,8,5,3,0,5,2,3,0,6,4,2,0
+2005,Cincinnati,Big East,,11,4,7,0,7,2,5,0,5,3,2,0,6,1,5,0
+2005,Clemson,ACC,Atlantic,12,8,4,0,8,4,4,0,6,4,2,0,6,4,2,0
+2005,Colorado,Big 12,North,13,7,6,0,9,5,4,0,8,5,3,0,5,2,3,0
+2005,Colorado State,Mountain West,,12,6,6,0,9,5,4,0,5,4,1,0,7,2,5,0
+2005,Connecticut,Big East,,11,5,6,0,7,2,5,0,6,4,2,0,5,1,4,0
+2005,Duke,ACC,Coastal,11,1,10,0,8,0,8,0,6,1,5,0,5,0,5,0
+2005,East Carolina,Conference USA,East,11,5,6,0,8,4,4,0,5,3,2,0,6,2,4,0
+2005,Eastern Michigan,Mid-American,West,11,4,7,0,8,3,5,0,5,2,3,0,6,2,4,0
+2005,Florida,SEC,East,12,9,3,0,8,5,3,0,8,8,0,0,4,1,3,0
+2005,Florida Atlantic,Sun Belt,,11,2,9,0,7,2,5,0,5,1,4,0,6,1,5,0
+2005,Florida International,Sun Belt,,11,5,6,0,7,3,4,0,4,3,1,0,7,2,5,0
+2005,Florida State,ACC,Atlantic,13,8,5,0,9,6,3,0,8,6,2,0,5,2,3,0
+2005,Fresno State,Western Athletic,,13,8,5,0,8,6,2,0,6,5,1,0,7,3,4,0
+2005,Georgia,SEC,East,13,10,3,0,9,7,2,0,7,5,2,0,6,5,1,0
+2005,Georgia Tech,ACC,Coastal,12,7,5,0,8,5,3,0,6,4,2,0,6,3,3,0
+2005,Hawai'i,Western Athletic,,12,5,7,0,8,4,4,0,7,3,4,0,5,2,3,0
+2005,Houston,Conference USA,West,12,6,6,0,8,4,4,0,7,3,4,0,5,3,2,0
+2005,Idaho,Western Athletic,,11,2,9,0,8,2,6,0,4,1,3,0,7,1,6,0
+2005,Illinois,Big Ten,,11,2,9,0,9,0,9,0,6,2,4,0,5,0,5,0
+2005,Indiana,Big Ten,,11,4,7,0,8,1,7,0,6,3,3,0,5,1,4,0
+2005,Iowa,Big Ten,,12,7,5,0,8,5,3,0,6,5,1,0,6,2,4,0
+2005,Iowa State,Big 12,North,12,7,5,0,8,4,4,0,7,5,2,0,5,2,3,0
+2005,Kansas,Big 12,North,12,7,5,0,8,3,5,0,7,6,1,0,5,1,4,0
+2005,Kansas State,Big 12,North,11,5,6,0,8,2,6,0,6,4,2,0,5,1,4,0
+2005,Kent State,Mid-American,East,11,1,10,0,8,0,8,0,5,1,4,0,6,0,6,0
+2005,Kentucky,SEC,East,11,3,8,0,8,2,6,0,6,2,4,0,5,1,4,0
+2005,Louisiana,Sun Belt,,11,6,5,0,7,5,2,0,5,3,2,0,6,3,3,0
+2005,Louisiana Monroe,Sun Belt,,11,5,6,0,7,5,2,0,5,2,3,0,6,3,3,0
+2005,Louisiana Tech,Western Athletic,,11,7,4,0,8,6,2,0,5,4,1,0,6,3,3,0
+2005,Louisville,Big East,,12,9,3,0,7,5,2,0,6,6,0,0,6,3,3,0
+2005,LSU,SEC,West,13,11,2,0,9,7,2,0,8,6,2,0,5,5,0,0
+2005,Marshall,Conference USA,East,11,4,7,0,8,3,5,0,6,3,3,0,5,1,4,0
+2005,Maryland,ACC,Atlantic,11,5,6,0,8,3,5,0,5,1,4,0,6,4,2,0
+2005,Memphis,Conference USA,East,12,7,5,0,8,5,3,0,6,4,2,0,6,3,3,0
+2005,Miami,ACC,Coastal,12,9,3,0,8,6,2,0,6,5,1,0,6,4,2,0
+2005,Miami (OH),Mid-American,East,11,7,4,0,8,5,3,0,5,3,2,0,6,4,2,0
+2005,Michigan,Big Ten,,12,7,5,0,8,5,3,0,7,4,3,0,5,3,2,0
+2005,Michigan State,Big Ten,,11,5,6,0,8,2,6,0,6,3,3,0,5,2,3,0
+2005,Middle Tennessee,Sun Belt,,11,4,7,0,7,3,4,0,5,1,4,0,6,3,3,0
+2005,Minnesota,Big Ten,,12,7,5,0,9,5,4,0,7,4,3,0,5,3,2,0
+2005,Mississippi State,SEC,West,11,3,8,0,8,1,7,0,6,2,4,0,5,1,4,0
+2005,Missouri,Big 12,North,12,7,5,0,8,4,4,0,7,5,2,0,5,2,3,0
+2005,Navy,FBS Independents,,12,8,4,0,0,0,0,0,7,5,2,0,5,3,2,0
+2005,NC State,ACC,Atlantic,12,7,5,0,8,3,5,0,8,5,3,0,4,2,2,0
+2005,Nebraska,Big 12,North,12,8,4,0,8,4,4,0,8,6,2,0,4,2,2,0
+2005,Nevada,Western Athletic,,12,9,3,0,8,7,1,0,6,5,1,0,6,4,2,0
+2005,New Mexico,Mountain West,,11,6,5,0,8,4,4,0,5,2,3,0,6,4,2,0
+2005,New Mexico State,Western Athletic,,12,0,12,0,8,0,8,0,6,0,6,0,6,0,6,0
+2005,North Carolina,ACC,Coastal,11,5,6,0,8,4,4,0,6,4,2,0,5,1,4,0
+2005,Northern Illinois,Mid-American,West,12,7,5,0,9,6,3,0,6,4,2,0,6,3,3,0
+2005,North Texas,Sun Belt,,11,2,9,0,7,2,5,0,5,0,5,0,6,2,4,0
+2005,Northwestern,Big Ten,,12,7,5,0,10,5,5,0,6,4,2,0,6,3,3,0
+2005,Notre Dame,FBS Independents,,12,9,3,0,0,0,0,0,6,4,2,0,6,5,1,0
+2005,Ohio,Mid-American,East,11,4,7,0,8,3,5,0,5,3,2,0,6,1,5,0
+2005,Ohio State,Big Ten,,12,10,2,0,9,8,1,0,8,7,1,0,4,3,1,0
+2005,Oklahoma,Big 12,South,12,8,4,0,8,6,2,0,7,6,1,0,5,2,3,0
+2005,Oklahoma State,Big 12,South,11,4,7,0,8,1,7,0,6,3,3,0,5,1,4,0
+2005,Ole Miss,SEC,West,11,3,8,0,8,1,7,0,6,2,4,0,5,1,4,0
+2005,Oregon,Pac-10,,12,10,2,0,8,7,1,0,6,5,1,0,6,5,1,0
+2005,Oregon State,Pac-10,,11,5,6,0,8,3,5,0,6,3,3,0,5,2,3,0
+2005,Penn State,Big Ten,,12,11,1,0,8,7,1,0,7,7,0,0,5,4,1,0
+2005,Pittsburgh,Big East,,11,5,6,0,7,4,3,0,6,5,1,0,5,0,5,0
+2005,Purdue,Big Ten,,11,5,6,0,9,4,5,0,6,3,3,0,5,2,3,0
+2005,Rice,Conference USA,West,11,1,10,0,8,1,7,0,5,1,4,0,6,0,6,0
+2005,Rutgers,Big East,,12,7,5,0,7,4,3,0,7,4,3,0,5,3,2,0
+2005,San Diego State,Mountain West,,12,5,7,0,10,4,6,0,6,3,3,0,6,2,4,0
+2005,San José State,Western Athletic,,11,3,8,0,8,2,6,0,5,3,2,0,6,0,6,0
+2005,SMU,Conference USA,West,11,5,6,0,8,4,4,0,6,3,3,0,5,2,3,0
+2005,South Carolina,SEC,East,12,7,5,0,8,5,3,0,7,5,2,0,5,2,3,0
+2005,Southern Mississippi,Conference USA,East,12,7,5,0,8,5,3,0,5,3,2,0,7,4,3,0
+2005,South Florida,Big East,,12,6,6,0,7,4,3,0,5,4,1,0,7,2,5,0
+2005,Stanford,Pac-10,,11,5,6,0,8,4,4,0,6,1,5,0,5,4,1,0
+2005,Syracuse,Big East,,11,1,10,0,7,0,7,0,6,1,5,0,5,0,5,0
+2005,TCU,Mountain West,,12,11,1,0,8,8,0,0,5,5,0,0,7,6,1,0
+2005,Temple,FBS Independents,,11,0,11,0,0,0,0,0,5,0,5,0,6,0,6,0
+2005,Tennessee,SEC,East,11,5,6,0,8,3,5,0,6,3,3,0,5,2,3,0
+2005,Texas,Big 12,South,13,13,0,0,9,9,0,0,7,7,0,0,6,6,0,0
+2005,Texas A&M,Big 12,South,11,5,6,0,8,3,5,0,6,4,2,0,5,1,4,0
+2005,Texas Tech,Big 12,South,12,9,3,0,8,6,2,0,7,7,0,0,5,2,3,0
+2005,Toledo,Mid-American,West,12,9,3,0,8,6,2,0,5,4,1,0,7,5,2,0
+2005,Troy,Sun Belt,,11,4,7,0,7,3,4,0,5,3,2,0,6,1,5,0
+2005,Tulane,Conference USA,West,11,2,9,0,8,1,7,0,6,1,5,0,5,1,4,0
+2005,Tulsa,Conference USA,West,13,9,4,0,9,7,2,0,6,4,2,0,7,5,2,0
+2005,UAB,Conference USA,East,11,5,6,0,8,3,5,0,5,2,3,0,6,3,3,0
+2005,UCF,Conference USA,East,13,8,5,0,9,7,2,0,6,4,2,0,7,4,3,0
+2005,UCLA,Pac-10,,12,10,2,0,10,8,2,0,7,7,0,0,5,3,2,0
+2005,UNLV,Mountain West,,11,2,9,0,8,1,7,0,5,2,3,0,6,0,6,0
+2005,USC,Pac-10,,13,12,1,0,8,8,0,0,6,6,0,0,7,6,1,0
+2005,Utah,Mountain West,,12,7,5,0,9,5,4,0,7,5,2,0,5,2,3,0
+2005,Utah State,Western Athletic,,11,3,8,0,8,2,6,0,5,2,3,0,6,1,5,0
+2005,UTEP,Conference USA,West,12,8,4,0,8,5,3,0,7,5,2,0,5,3,2,0
+2005,Vanderbilt,SEC,East,11,5,6,0,8,3,5,0,6,2,4,0,5,3,2,0
+2005,Virginia,ACC,Coastal,12,7,5,0,8,3,5,0,6,5,1,0,6,2,4,0
+2005,Virginia Tech,ACC,Coastal,13,11,2,0,9,7,2,0,7,6,1,0,6,5,1,0
+2005,Wake Forest,ACC,Atlantic,11,4,7,0,8,3,5,0,6,3,3,0,5,1,4,0
+2005,Washington,Pac-10,,11,2,9,0,9,1,8,0,6,1,5,0,5,1,4,0
+2005,Washington State,Pac-10,,11,4,7,0,8,1,7,0,6,2,4,0,5,2,3,0
+2005,Western Michigan,Mid-American,West,11,7,4,0,8,5,3,0,5,4,1,0,6,3,3,0
+2005,West Virginia,Big East,,12,11,1,0,7,7,0,0,6,5,1,0,6,6,0,0
+2005,Wisconsin,Big Ten,,13,10,3,0,8,5,3,0,6,5,1,0,7,5,2,0
+2005,Wyoming,Mountain West,,11,4,7,0,8,2,6,0,5,2,3,0,6,2,4,0

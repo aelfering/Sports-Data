@@ -1,0 +1,118 @@
+year,team,conference,division,total.games,total.wins,total.losses,total.ties,conferenceGames.games,conferenceGames.wins,conferenceGames.losses,conferenceGames.ties,homeGames.games,homeGames.wins,homeGames.losses,homeGames.ties,awayGames.games,awayGames.wins,awayGames.losses,awayGames.ties
+2003,Air Force,Mountain West,,12,7,5,0,9,5,4,0,6,5,1,0,6,2,4,0
+2003,Akron,Mid-American,East,12,7,5,0,8,5,3,0,6,5,1,0,6,2,4,0
+2003,Alabama,SEC,West,13,4,9,0,8,2,6,0,8,3,5,0,5,1,4,0
+2003,Arizona,Pac-10,,12,2,10,0,10,1,9,0,7,2,5,0,5,0,5,0
+2003,Arizona State,Pac-10,,12,5,7,0,10,3,7,0,6,4,2,0,6,1,5,0
+2003,Arkansas,SEC,West,13,9,4,0,8,4,4,0,8,6,2,0,5,3,2,0
+2003,Arkansas State,Sun Belt,,12,5,7,0,6,3,3,0,5,4,1,0,7,1,6,0
+2003,Army,Conference USA,,13,0,13,0,9,0,9,0,6,0,6,0,7,0,7,0
+2003,Auburn,SEC,West,13,8,5,0,8,5,3,0,8,6,2,0,5,2,3,0
+2003,Ball State,Mid-American,West,12,4,8,0,8,3,5,0,6,3,3,0,6,1,5,0
+2003,Baylor,Big 12,South,12,3,9,0,8,1,7,0,7,3,4,0,5,0,5,0
+2003,Boise State,Western Athletic,,14,13,1,0,8,8,0,0,7,7,0,0,7,6,1,0
+2003,Boston College,Big East,,13,8,5,0,7,3,4,0,6,2,4,0,7,6,1,0
+2003,Bowling Green,Mid-American,West,14,11,3,0,9,7,2,0,8,7,1,0,6,4,2,0
+2003,Buffalo,Mid-American,East,12,1,11,0,8,1,7,0,6,1,5,0,6,0,6,0
+2003,BYU,Mountain West,,12,4,8,0,10,4,6,0,6,1,5,0,6,3,3,0
+2003,California,Pac-10,,14,8,6,0,12,7,5,0,7,5,2,0,7,3,4,0
+2003,Central Michigan,Mid-American,West,12,3,9,0,8,1,7,0,6,3,3,0,6,0,6,0
+2003,Cincinnati,Conference USA,,12,5,7,0,9,3,6,0,6,4,2,0,6,1,5,0
+2003,Clemson,ACC,,13,9,4,0,8,5,3,0,8,7,1,0,5,2,3,0
+2003,Colorado,Big 12,North,12,5,7,0,8,3,5,0,6,3,3,0,6,2,4,0
+2003,Colorado State,Mountain West,,13,7,6,0,8,5,3,0,8,4,4,0,5,3,2,0
+2003,Connecticut,FBS Independents,,12,9,3,0,0,0,0,0,6,5,1,0,6,4,2,0
+2003,Duke,ACC,,12,4,8,0,9,2,7,0,7,3,4,0,5,1,4,0
+2003,East Carolina,Conference USA,,12,1,11,0,10,1,9,0,6,0,6,0,6,1,5,0
+2003,Eastern Michigan,Mid-American,West,12,3,9,0,8,2,6,0,7,3,4,0,5,0,5,0
+2003,Florida,SEC,East,13,8,5,0,8,6,2,0,8,4,4,0,5,4,1,0
+2003,Florida State,ACC,,13,10,3,0,8,7,1,0,7,5,2,0,6,5,1,0
+2003,Fresno State,Western Athletic,,14,9,5,0,8,6,2,0,7,6,1,0,7,3,4,0
+2003,Georgia,SEC,East,14,11,3,0,9,6,3,0,7,6,1,0,7,5,2,0
+2003,Georgia Tech,ACC,,13,7,6,0,9,4,5,0,6,4,2,0,7,3,4,0
+2003,Hawai'i,Western Athletic,,14,9,5,0,8,5,3,0,8,7,1,0,6,2,4,0
+2003,Houston,Conference USA,,13,7,6,0,9,4,5,0,6,3,3,0,7,4,3,0
+2003,Idaho,Sun Belt,,12,3,9,0,7,3,4,0,6,1,5,0,6,2,4,0
+2003,Illinois,Big Ten,,12,1,11,0,10,0,10,0,6,1,5,0,6,0,6,0
+2003,Indiana,Big Ten,,12,2,10,0,9,1,8,0,6,2,4,0,6,0,6,0
+2003,Iowa,Big Ten,,13,10,3,0,9,6,3,0,7,7,0,0,6,3,3,0
+2003,Iowa State,Big 12,North,12,2,10,0,8,0,8,0,7,2,5,0,5,0,5,0
+2003,Kansas,Big 12,North,13,6,7,0,8,3,5,0,8,5,3,0,5,1,4,0
+2003,Kansas State,Big 12,North,15,11,4,0,9,7,2,0,9,8,1,0,6,3,3,0
+2003,Kent State,Mid-American,East,12,5,7,0,8,4,4,0,6,3,3,0,6,2,4,0
+2003,Kentucky,SEC,East,12,4,8,0,8,1,7,0,7,3,4,0,5,1,4,0
+2003,Louisiana,Sun Belt,,12,4,8,0,5,3,2,0,6,3,3,0,6,1,5,0
+2003,Louisiana Monroe,Sun Belt,,12,1,11,0,6,1,5,0,5,0,5,0,7,1,6,0
+2003,Louisiana Tech,Western Athletic,,12,5,7,0,8,3,5,0,5,1,4,0,7,4,3,0
+2003,Louisville,Conference USA,,13,9,4,0,8,5,3,0,7,5,2,0,6,4,2,0
+2003,LSU,SEC,West,14,13,1,0,9,8,1,0,8,7,1,0,6,6,0,0
+2003,Marshall,Mid-American,East,12,8,4,0,8,6,2,0,5,4,1,0,7,4,3,0
+2003,Maryland,ACC,,13,10,3,0,8,6,2,0,6,6,0,0,7,4,3,0
+2003,Memphis,Conference USA,,13,9,4,0,8,5,3,0,7,5,2,0,6,4,2,0
+2003,Miami,Big East,,13,11,2,0,7,6,1,0,7,6,1,0,6,5,1,0
+2003,Miami (OH),Mid-American,East,14,13,1,0,9,9,0,0,5,5,0,0,9,8,1,0
+2003,Michigan,Big Ten,,13,10,3,0,11,8,3,0,7,7,0,0,6,3,3,0
+2003,Michigan State,Big Ten,,13,8,5,0,8,5,3,0,7,5,2,0,6,3,3,0
+2003,Middle Tennessee,Sun Belt,,12,4,8,0,6,3,3,0,6,2,4,0,6,2,4,0
+2003,Minnesota,Big Ten,,13,10,3,0,9,6,3,0,8,6,2,0,5,4,1,0
+2003,Mississippi State,SEC,West,12,2,10,0,8,1,7,0,6,2,4,0,6,0,6,0
+2003,Missouri,Big 12,North,13,8,5,0,8,4,4,0,7,7,0,0,6,1,5,0
+2003,Navy,FBS Independents,,13,8,5,0,0,0,0,0,7,6,1,0,6,2,4,0
+2003,NC State,ACC,,13,8,5,0,9,4,5,0,7,6,1,0,6,2,4,0
+2003,Nebraska,Big 12,North,13,10,3,0,8,5,3,0,8,7,1,0,5,3,2,0
+2003,Nevada,Western Athletic,,12,6,6,0,8,4,4,0,6,3,3,0,6,3,3,0
+2003,New Mexico,Mountain West,,13,8,5,0,9,5,4,0,8,5,3,0,5,3,2,0
+2003,New Mexico State,Sun Belt,,12,3,9,0,7,2,5,0,5,2,3,0,7,1,6,0
+2003,North Carolina,ACC,,12,2,10,0,11,2,9,0,6,1,5,0,6,1,5,0
+2003,Northern Illinois,Mid-American,West,12,10,2,0,8,6,2,0,7,7,0,0,5,3,2,0
+2003,North Texas,Sun Belt,,13,9,4,0,7,7,0,0,6,5,1,0,7,4,3,0
+2003,Northwestern,Big Ten,,13,6,7,0,10,5,5,0,6,2,4,0,7,4,3,0
+2003,Notre Dame,FBS Independents,,12,5,7,0,0,0,0,0,6,3,3,0,6,2,4,0
+2003,Ohio,Mid-American,East,12,2,10,0,8,1,7,0,6,2,4,0,6,0,6,0
+2003,Ohio State,Big Ten,,13,11,2,0,11,9,2,0,9,9,0,0,4,2,2,0
+2003,Oklahoma,Big 12,South,14,12,2,0,9,8,1,0,8,7,1,0,6,5,1,0
+2003,Oklahoma State,Big 12,South,13,9,4,0,8,5,3,0,7,6,1,0,6,3,3,0
+2003,Ole Miss,SEC,West,13,10,3,0,8,7,1,0,8,6,2,0,5,4,1,0
+2003,Oregon,Pac-10,,13,8,5,0,11,6,5,0,6,5,1,0,7,3,4,0
+2003,Oregon State,Pac-10,,13,8,5,0,9,5,4,0,7,6,1,0,6,2,4,0
+2003,Penn State,Big Ten,,12,3,9,0,8,1,7,0,7,3,4,0,5,0,5,0
+2003,Pittsburgh,Big East,,13,8,5,0,7,5,2,0,6,4,2,0,7,4,3,0
+2003,Purdue,Big Ten,,13,9,4,0,10,8,2,0,8,6,2,0,5,3,2,0
+2003,Rice,Western Athletic,,12,5,7,0,8,5,3,0,6,3,3,0,6,2,4,0
+2003,Rutgers,Big East,,12,5,7,0,7,2,5,0,6,3,3,0,6,2,4,0
+2003,San Diego State,Mountain West,,12,6,6,0,9,3,6,0,6,4,2,0,6,2,4,0
+2003,San José State,Western Athletic,,11,3,8,0,8,2,6,0,5,2,3,0,6,1,5,0
+2003,SMU,Western Athletic,,12,0,12,0,8,0,8,0,6,0,6,0,6,0,6,0
+2003,South Carolina,SEC,East,12,5,7,0,8,2,6,0,8,5,3,0,4,0,4,0
+2003,Southern Mississippi,Conference USA,,13,9,4,0,10,8,2,0,7,5,2,0,6,4,2,0
+2003,South Florida,Conference USA,,11,7,4,0,8,5,3,0,6,4,2,0,5,3,2,0
+2003,Stanford,Pac-10,,11,4,7,0,9,3,6,0,6,3,3,0,5,1,4,0
+2003,Syracuse,Big East,,12,6,6,0,7,2,5,0,7,5,2,0,5,1,4,0
+2003,TCU,Conference USA,,13,11,2,0,9,8,1,0,6,6,0,0,7,5,2,0
+2003,Temple,Big East,,12,1,11,0,7,0,7,0,5,0,5,0,7,1,6,0
+2003,Tennessee,SEC,East,13,10,3,0,8,6,2,0,7,6,1,0,6,4,2,0
+2003,Texas,Big 12,South,13,10,3,0,8,7,1,0,7,5,2,0,6,5,1,0
+2003,Texas A&M,Big 12,South,12,4,8,0,8,2,6,0,7,4,3,0,5,0,5,0
+2003,Texas Tech,Big 12,South,13,8,5,0,8,4,4,0,7,6,1,0,6,2,4,0
+2003,Toledo,Mid-American,West,12,8,4,0,8,6,2,0,6,6,0,0,6,2,4,0
+2003,Troy,FBS Independents,,12,6,6,0,0,0,0,0,4,4,0,0,8,2,6,0
+2003,Tulane,Conference USA,,12,5,7,0,8,3,5,0,6,3,3,0,6,2,4,0
+2003,Tulsa,Western Athletic,,13,8,5,0,8,6,2,0,7,5,2,0,6,3,3,0
+2003,UAB,Conference USA,,12,5,7,0,8,4,4,0,5,2,3,0,7,3,4,0
+2003,UCF,Mid-American,East,12,3,9,0,8,2,6,0,5,3,2,0,7,0,7,0
+2003,UCLA,Pac-10,,13,6,7,0,10,6,4,0,6,5,1,0,7,1,6,0
+2003,UNLV,Mountain West,,12,6,6,0,8,3,5,0,6,2,4,0,6,4,2,0
+2003,USC,Pac-10,,13,12,1,0,10,9,1,0,7,7,0,0,6,5,1,0
+2003,Utah,Mountain West,,12,10,2,0,10,9,1,0,6,5,1,0,6,5,1,0
+2003,Utah State,Sun Belt,,12,3,9,0,6,3,3,0,5,3,2,0,7,0,7,0
+2003,UTEP,Western Athletic,,13,2,11,0,8,1,7,0,7,1,6,0,6,1,5,0
+2003,Vanderbilt,SEC,East,12,2,10,0,8,1,7,0,7,2,5,0,5,0,5,0
+2003,Virginia,ACC,,13,8,5,0,8,4,4,0,7,6,1,0,6,2,4,0
+2003,Virginia Tech,Big East,,13,8,5,0,7,4,3,0,7,6,1,0,6,2,4,0
+2003,Wake Forest,ACC,,12,5,7,0,10,4,6,0,7,3,4,0,5,2,3,0
+2003,Washington,Pac-10,,12,6,6,0,10,5,5,0,7,5,2,0,5,1,4,0
+2003,Washington State,Pac-10,,13,10,3,0,9,7,2,0,6,6,0,0,7,4,3,0
+2003,Western Michigan,Mid-American,West,12,5,7,0,8,4,4,0,6,3,3,0,6,2,4,0
+2003,West Virginia,Big East,,13,8,5,0,7,6,1,0,8,5,3,0,5,3,2,0
+2003,Wisconsin,Big Ten,,13,7,6,0,10,5,5,0,7,4,3,0,6,3,3,0
+2003,Wyoming,Mountain West,,12,4,8,0,7,2,5,0,6,3,3,0,6,1,5,0
