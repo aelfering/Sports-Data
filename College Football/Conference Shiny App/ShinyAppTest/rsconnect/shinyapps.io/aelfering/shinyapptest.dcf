@@ -1,0 +1,10 @@
+name: shinyapptest
+title:
+username:
+account: aelfering
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 2581420
+bundleId: 3402258
+url: https://aelfering.shinyapps.io/shinyapptest/
+when: 1594950416.91565

@@ -1,0 +1,123 @@
+year,team,conference,division,total.games,total.wins,total.losses,total.ties,conferenceGames.games,conferenceGames.wins,conferenceGames.losses,conferenceGames.ties,homeGames.games,homeGames.wins,homeGames.losses,homeGames.ties,awayGames.games,awayGames.wins,awayGames.losses,awayGames.ties
+1969,Air Force,FBS Independents,,10,6,4,0,3,2,1,0,4,3,1,0,6,3,3,0
+1969,Alabama,SEC,,11,6,5,0,6,2,4,0,4,3,1,0,6,3,3,0
+1969,Arizona,Western Athletic,,10,3,7,0,6,3,3,0,5,3,2,0,5,0,5,0
+1969,Arizona State,Western Athletic,,10,8,2,0,7,6,1,0,6,5,1,0,4,3,1,0
+1969,Arkansas,Southwest,,11,9,2,0,7,6,1,0,7,6,1,0,3,3,0,0
+1969,Army,FBS Independents,,10,5,5,0,6,2,4,0,9,4,5,0,1,1,0,0
+1969,Auburn,SEC,,11,8,3,0,7,5,2,0,6,6,0,0,4,2,2,0
+1969,Baylor,Southwest,,10,0,10,0,7,0,7,0,4,0,4,0,6,0,6,0
+1969,Boston College,FBS Independents,,9,5,4,0,7,3,4,0,6,4,2,0,3,1,2,0
+1969,Bowling Green,Mid-American,,10,6,4,0,6,4,2,0,5,3,2,0,5,3,2,0
+1969,Brown,Ivy,,9,2,7,0,7,1,6,0,6,2,4,0,3,0,3,0
+1969,Buffalo,FBS Independents,,9,6,3,0,5,4,1,0,5,3,2,0,4,3,1,0
+1969,BYU,Western Athletic,,10,6,4,0,7,4,3,0,5,4,1,0,5,2,3,0
+1969,California,Pac-8,,10,5,5,0,6,2,4,0,6,3,3,0,4,2,2,0
+1969,California-Santa Barbara,PCAA,,10,6,4,0,4,1,3,0,7,4,3,0,3,2,1,0
+1969,Cal State Los Angeles,PCAA,,9,0,9,0,4,0,4,0,4,0,4,0,5,0,5,0
+1969,Cincinnati,Missouri Valley,,10,4,6,0,5,2,3,0,6,3,3,0,4,1,3,0
+1969,Clemson,ACC,,10,4,6,0,6,3,3,0,4,2,2,0,6,2,4,0
+1969,Colgate,FBS Independents,,9,6,3,0,1,0,1,0,3,2,1,0,6,4,2,0
+1969,Colorado,Big 8,,11,8,3,0,7,5,2,0,5,5,0,0,5,2,3,0
+1969,Colorado State,Western Athletic,,10,4,6,0,4,0,4,0,4,3,1,0,6,1,5,0
+1969,Columbia,Ivy,,9,1,8,0,7,1,6,0,5,0,5,0,4,1,3,0
+1969,Cornell,Ivy,,9,4,5,0,7,4,3,0,5,3,2,0,4,1,3,0
+1969,Dartmouth,Ivy,,9,8,1,0,7,6,1,0,3,3,0,0,6,5,1,0
+1969,Davidson,Southern,,11,7,4,0,6,5,1,0,3,2,1,0,7,5,2,0
+1969,Dayton,FBS Independents,,10,3,7,0,4,3,1,0,5,2,3,0,5,1,4,0
+1969,Duke,ACC,,10,4,6,0,7,4,3,0,4,3,1,0,6,1,5,0
+1969,East Carolina,Southern,,9,2,7,0,4,1,3,0,5,1,4,0,4,1,3,0
+1969,Florida,SEC,,11,9,2,0,6,4,2,0,6,6,0,0,4,2,2,0
+1969,Florida State,FBS Independents,,10,7,3,0,3,2,1,0,6,5,1,0,4,2,2,0
+1969,Fresno State,PCAA,,10,6,4,0,4,1,3,0,4,3,1,0,6,3,3,0
+1969,Furman,Southern,,10,1,9,0,4,0,4,0,3,0,3,0,7,1,6,0
+1969,Georgia,SEC,,11,6,5,0,6,3,3,0,6,4,2,0,4,2,2,0
+1969,Georgia Tech,FBS Independents,,10,4,6,0,2,0,2,0,7,4,3,0,3,0,3,0
+1969,Harvard,Ivy,,9,3,6,0,7,2,5,0,5,2,3,0,4,1,3,0
+1969,Houston,FBS Independents,,11,9,2,0,2,2,0,0,5,5,0,0,5,3,2,0
+1969,Idaho,FBS Independents,,10,2,8,0,3,1,2,0,2,1,1,0,8,1,7,0
+1969,Illinois,Big Ten,,10,0,10,0,7,0,7,0,6,0,6,0,4,0,4,0
+1969,Indiana,Big Ten,,10,4,6,0,7,3,4,0,5,2,3,0,5,2,3,0
+1969,Iowa,Big Ten,,10,5,5,0,7,3,4,0,6,3,3,0,4,2,2,0
+1969,Iowa State,Big 8,,10,3,7,0,7,1,6,0,5,2,3,0,5,1,4,0
+1969,Kansas,Big 8,,10,1,9,0,7,0,7,0,5,1,4,0,5,0,5,0
+1969,Kansas State,Big 8,,10,5,5,0,7,3,4,0,4,2,2,0,6,3,3,0
+1969,Kent State,Mid-American,,10,5,5,0,6,1,5,0,5,3,2,0,5,2,3,0
+1969,Kentucky,SEC,,10,2,8,0,7,1,6,0,5,1,4,0,5,1,4,0
+1969,Long Beach State,PCAA,,11,8,3,0,4,3,1,0,6,5,1,0,5,3,2,0
+1969,Louisville,Missouri Valley,,10,6,4,0,5,2,3,0,6,5,1,0,4,1,3,0
+1969,LSU,SEC,,10,9,1,0,5,4,1,0,6,6,0,0,4,3,1,0
+1969,Marshall,Mid-American,,10,3,7,0,6,2,4,0,5,2,3,0,5,1,4,0
+1969,Maryland,ACC,,10,3,7,0,6,3,3,0,5,2,3,0,5,1,4,0
+1969,Memphis,Missouri Valley,,10,8,2,0,4,4,0,0,6,5,1,0,4,3,1,0
+1969,Miami,FBS Independents,,10,4,6,0,3,1,2,0,7,4,3,0,3,0,3,0
+1969,Miami (OH),Mid-American,,10,7,3,0,6,3,3,0,3,2,1,0,7,5,2,0
+1969,Michigan,Big Ten,,11,8,3,0,7,6,1,0,6,5,1,0,4,3,1,0
+1969,Michigan State,Big Ten,,10,4,6,0,7,2,5,0,5,3,2,0,5,1,4,0
+1969,Minnesota,Big Ten,,10,4,6,0,7,4,3,0,5,2,3,0,5,2,3,0
+1969,Mississippi State,SEC,,10,3,7,0,5,0,5,0,5,2,3,0,5,1,4,0
+1969,Missouri,Big 8,,11,9,2,0,7,6,1,0,6,6,0,0,4,3,1,0
+1969,Navy,FBS Independents,,10,1,9,0,8,0,8,0,3,1,2,0,7,0,7,0
+1969,NC State,ACC,,10,3,7,0,6,3,3,0,4,1,3,0,6,2,4,0
+1969,Nebraska,Big 8,,11,9,2,0,7,6,1,0,6,5,1,0,4,3,1,0
+1969,New Mexico,Western Athletic,,10,4,6,0,6,1,5,0,5,2,3,0,5,2,3,0
+1969,New Mexico State,FBS Independents,,10,5,5,0,1,0,1,0,4,2,2,0,6,3,3,0
+1969,North Carolina,ACC,,10,5,5,0,6,3,3,0,5,4,1,0,5,1,4,0
+1969,Northern Illinois,FBS Independents,,10,3,7,0,3,1,2,0,5,2,3,0,5,1,4,0
+1969,North Texas,Missouri Valley,,10,7,3,0,5,4,1,0,5,5,0,0,5,2,3,0
+1969,Northwestern,Big Ten,,10,3,7,0,7,3,4,0,5,2,3,0,5,1,4,0
+1969,Notre Dame,FBS Independents,,11,8,3,0,6,6,0,0,4,4,0,0,6,4,2,0
+1969,Ohio,Mid-American,,10,6,4,0,6,3,3,0,7,5,2,0,3,1,2,0
+1969,Ohio State,Big Ten,,9,8,1,0,7,6,1,0,5,5,0,0,4,3,1,0
+1969,Oklahoma,Big 8,,10,6,4,0,7,4,3,0,5,4,1,0,5,2,3,0
+1969,Oklahoma State,Big 8,,10,5,5,0,7,3,4,0,4,3,1,0,6,2,4,0
+1969,Ole Miss,SEC,,11,8,3,0,6,4,2,0,6,6,0,0,4,1,3,0
+1969,Oregon,Pac-8,,11,5,6,0,5,2,3,0,5,2,3,0,6,3,3,0
+1969,Oregon State,Pac-8,,10,6,4,0,7,4,3,0,4,1,3,0,6,5,1,0
+1969,Pacific,PCAA,,10,7,3,0,4,2,2,0,4,4,0,0,6,3,3,0
+1969,Penn State,FBS Independents,,11,11,0,0,5,5,0,0,5,5,0,0,5,5,0,0
+1969,Pennsylvania,Ivy,,9,4,5,0,7,2,5,0,5,3,2,0,4,1,3,0
+1969,Pittsburgh,FBS Independents,,10,4,6,0,7,3,4,0,5,2,3,0,5,2,3,0
+1969,Princeton,Ivy,,9,6,3,0,7,6,1,0,5,3,2,0,4,3,1,0
+1969,Purdue,Big Ten,,10,8,2,0,7,5,2,0,5,5,0,0,5,3,2,0
+1969,Rice,Southwest,,10,3,7,0,7,2,5,0,6,3,3,0,4,0,4,0
+1969,Richmond,Southern,,10,6,4,0,6,5,1,0,4,4,0,0,6,2,4,0
+1969,Rutgers,FBS Independents,,9,6,3,0,2,2,0,0,6,5,1,0,3,1,2,0
+1969,San Diego State,PCAA,,11,11,0,0,6,6,0,0,4,4,0,0,6,6,0,0
+1969,San José State,PCAA,,10,2,8,0,2,1,1,0,4,1,3,0,6,1,5,0
+1969,SMU,Southwest,,10,3,7,0,7,3,4,0,5,1,4,0,5,2,3,0
+1969,South Carolina,ACC,,11,7,4,0,6,6,0,0,5,5,0,0,5,2,3,0
+1969,Southern Mississippi,FBS Independents,,10,5,5,0,2,1,1,0,4,3,1,0,6,2,4,0
+1969,Stanford,Pac-8,,10,7,3,0,7,5,2,0,5,5,0,0,5,2,3,0
+1969,Syracuse,FBS Independents,,10,5,5,0,5,1,4,0,5,2,3,0,5,3,2,0
+1969,TCU,Southwest,,10,4,6,0,7,4,3,0,4,3,1,0,6,1,5,0
+1969,Tennessee,SEC,,11,9,2,0,7,5,2,0,5,5,0,0,5,4,1,0
+1969,Texas,Southwest,,11,11,0,0,7,7,0,0,6,6,0,0,4,4,0,0
+1969,Texas A&M,Southwest,,10,3,7,0,7,2,5,0,3,2,1,0,7,1,6,0
+1969,Texas Tech,Southwest,,10,5,5,0,7,4,3,0,5,4,1,0,5,1,4,0
+1969,The Citadel,Southern,,10,7,3,0,6,4,2,0,6,4,2,0,4,3,1,0
+1969,Toledo,Mid-American,,11,11,0,0,6,6,0,0,5,5,0,0,5,5,0,0
+1969,Tulane,FBS Independents,,10,3,7,0,5,2,3,0,5,2,3,0,5,1,4,0
+1969,Tulsa,Missouri Valley,,10,1,9,0,5,1,4,0,4,1,3,0,6,0,6,0
+1969,UCLA,Pac-8,,10,9,1,0,7,6,1,0,5,5,0,0,5,4,1,0
+1969,USC,Pac-8,,11,11,0,0,6,6,0,0,6,6,0,0,4,4,0,0
+1969,Utah,Western Athletic,,10,8,2,0,6,5,1,0,5,4,1,0,5,4,1,0
+1969,Utah State,FBS Independents,,10,3,7,0,3,2,1,0,4,0,4,0,6,3,3,0
+1969,UTEP,Western Athletic,,10,4,6,0,7,2,5,0,6,2,4,0,4,2,2,0
+1969,Vanderbilt,SEC,,10,4,6,0,5,2,3,0,5,3,2,0,5,1,4,0
+1969,Villanova,FBS Independents,,9,6,3,0,4,2,2,0,5,3,2,0,4,3,1,0
+1969,Virginia,ACC,,10,3,7,0,6,1,5,0,6,2,4,0,4,1,3,0
+1969,Virginia Tech,FBS Independents,,10,4,6,0,2,1,1,0,6,3,3,0,4,1,3,0
+1969,VMI,Southern,,10,0,10,0,4,0,4,0,2,0,2,0,8,0,8,0
+1969,Wake Forest,ACC,,10,3,7,0,7,2,5,0,4,1,3,0,6,2,4,0
+1969,Washington,Pac-8,,10,1,9,0,7,1,6,0,5,1,4,0,5,0,5,0
+1969,Washington State,Pac-8,,10,1,9,0,7,0,7,0,4,0,4,0,6,1,5,0
+1969,Western Michigan,Mid-American,,10,4,6,0,6,2,4,0,5,3,2,0,5,1,4,0
+1969,West Texas A&M,FBS Independents,,10,6,4,0,3,2,1,0,5,3,2,0,5,3,2,0
+1969,West Virginia,FBS Independents,,11,10,1,0,4,3,1,0,5,5,0,0,5,4,1,0
+1969,Wichita State,Missouri Valley,,10,2,8,0,4,1,3,0,4,2,2,0,6,0,6,0
+1969,William & Mary,Southern,,10,3,7,0,4,2,2,0,5,1,4,0,5,2,3,0
+1969,Wisconsin,Big Ten,,10,3,7,0,7,3,4,0,6,3,3,0,4,0,4,0
+1969,Wyoming,Western Athletic,,10,6,4,0,7,4,3,0,5,5,0,0,5,1,4,0
+1969,Xavier,FBS Independents,,10,1,9,0,3,0,3,0,4,1,3,0,6,0,6,0
+1969,Yale,Ivy,,9,7,2,0,7,6,1,0,6,4,2,0,3,3,0,0

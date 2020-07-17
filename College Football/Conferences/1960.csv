@@ -1,0 +1,114 @@
+year,team,conference,division,total.games,total.wins,total.losses,total.ties,conferenceGames.games,conferenceGames.wins,conferenceGames.losses,conferenceGames.ties,homeGames.games,homeGames.wins,homeGames.losses,homeGames.ties,awayGames.games,awayGames.wins,awayGames.losses,awayGames.ties
+1960,Air Force,FBS Independents,,10,4,6,0,2,0,2,0,5,3,2,0,5,1,4,0
+1960,Alabama,SEC,,11,9,2,0,7,6,1,0,7,7,0,0,3,2,1,0
+1960,Arizona,Border,,10,7,3,0,3,3,0,0,7,5,2,0,3,2,1,0
+1960,Arizona State,Border,,10,7,3,0,5,3,2,0,6,4,2,0,4,3,1,0
+1960,Arkansas,Southwest,,11,8,3,0,7,6,1,0,6,4,2,0,4,4,0,0
+1960,Army,FBS Independents,,10,7,3,0,6,4,2,0,7,6,1,0,3,1,2,0
+1960,Auburn,SEC,,10,8,2,0,7,5,2,0,7,6,1,0,3,2,1,0
+1960,Baylor,Southwest,,11,8,3,0,7,5,2,0,5,4,1,0,5,4,1,0
+1960,Boston College,FBS Independents,,10,3,7,0,8,2,6,0,5,2,3,0,5,1,4,0
+1960,Boston University,FBS Independents,,10,4,6,0,4,1,3,0,4,3,1,0,6,1,5,0
+1960,Brown,Ivy,,9,3,6,0,7,1,6,0,4,3,1,0,5,0,5,0
+1960,BYU,Skyline,,11,3,8,0,7,2,5,0,4,1,3,0,7,2,5,0
+1960,California,AAWU,,10,2,8,0,4,1,3,0,5,1,4,0,5,1,4,0
+1960,Cincinnati,Missouri Valley,,10,4,6,0,3,1,2,0,6,2,4,0,4,2,2,0
+1960,Clemson,ACC,,10,6,4,0,6,4,2,0,5,5,0,0,5,1,4,0
+1960,Colgate,FBS Independents,,9,2,7,0,2,0,2,0,2,0,2,0,7,2,5,0
+1960,Colorado,Big 8,,10,6,4,0,7,5,2,0,5,4,1,0,5,2,3,0
+1960,Colorado State,Skyline,,10,2,8,0,7,1,6,0,5,2,3,0,5,0,5,0
+1960,Columbia,Ivy,,9,3,6,0,7,3,4,0,5,2,3,0,4,1,3,0
+1960,Cornell,Ivy,,9,2,7,0,7,1,6,0,5,2,3,0,4,0,4,0
+1960,Dartmouth,Ivy,,9,5,4,0,7,4,3,0,4,3,1,0,5,2,3,0
+1960,Davidson,Southern,,8,3,5,0,4,1,3,0,4,1,3,0,4,2,2,0
+1960,Dayton,FBS Independents,,10,1,9,0,4,1,3,0,4,1,3,0,6,0,6,0
+1960,Denver,Skyline,,10,3,7,0,7,1,6,0,5,2,3,0,5,1,4,0
+1960,Detroit Mercy,FBS Independents,,9,7,2,0,5,5,0,0,5,4,1,0,4,3,1,0
+1960,Duke,ACC,,11,8,3,0,6,5,1,0,4,4,0,0,6,3,3,0
+1960,Florida,SEC,,11,9,2,0,6,5,1,0,8,6,2,0,2,2,0,0
+1960,Florida State,FBS Independents,,10,4,6,0,2,0,2,0,6,4,2,0,4,0,4,0
+1960,Furman,Southern,,10,6,4,0,4,2,2,0,7,5,2,0,3,1,2,0
+1960,George Washington,Southern,,9,6,3,0,6,4,2,0,5,4,1,0,4,2,2,0
+1960,Georgia,SEC,,10,6,4,0,7,4,3,0,4,4,0,0,6,2,4,0
+1960,Georgia Tech,SEC,,10,5,5,0,8,4,4,0,5,4,1,0,5,1,4,0
+1960,Hardin-Simmons,Border,,10,0,10,0,4,0,4,0,3,0,3,0,7,0,7,0
+1960,Harvard,Ivy,,9,5,4,0,7,4,3,0,6,4,2,0,3,1,2,0
+1960,Holy Cross,FBS Independents,,10,6,4,0,6,3,3,0,5,3,2,0,5,3,2,0
+1960,Houston,FBS Independents,,10,6,4,0,2,1,1,0,5,3,2,0,5,3,2,0
+1960,Idaho,FBS Independents,,10,1,9,0,5,0,5,0,3,0,3,0,7,1,6,0
+1960,Illinois,Big Ten,,9,5,4,0,7,3,4,0,5,4,1,0,4,1,3,0
+1960,Indiana,Big Ten,,9,1,8,0,7,0,7,0,4,1,3,0,5,0,5,0
+1960,Iowa,Big Ten,,9,8,1,0,6,5,1,0,5,5,0,0,4,3,1,0
+1960,Iowa State,Big 8,,10,7,3,0,7,4,3,0,4,2,2,0,6,5,1,0
+1960,Kansas,Big 8,,10,7,3,0,7,6,1,0,4,3,1,0,6,4,2,0
+1960,Kansas State,Big 8,,10,1,9,0,7,0,7,0,5,1,4,0,5,0,5,0
+1960,Kentucky,SEC,,10,6,4,0,7,3,4,0,7,5,2,0,3,1,2,0
+1960,LSU,SEC,,10,6,4,0,6,3,3,0,7,5,2,0,3,1,2,0
+1960,Marquette,FBS Independents,,9,3,6,0,5,3,2,0,4,2,2,0,5,1,4,0
+1960,Maryland,ACC,,10,6,4,0,7,5,2,0,4,2,2,0,6,4,2,0
+1960,Memphis,FBS Independents,,10,8,2,0,0,0,0,0,7,6,1,0,3,2,1,0
+1960,Miami,FBS Independents,,10,6,4,0,6,4,2,0,8,6,2,0,2,0,2,0
+1960,Michigan,Big Ten,,9,5,4,0,7,3,4,0,6,5,1,0,3,0,3,0
+1960,Michigan State,Big Ten,,9,7,2,0,6,4,2,0,5,3,2,0,4,4,0,0
+1960,Minnesota,Big Ten,,10,8,2,0,7,6,1,0,6,5,1,0,3,3,0,0
+1960,Mississippi State,SEC,,9,2,7,0,6,0,6,0,4,2,2,0,5,0,5,0
+1960,Missouri,Big 8,,11,10,1,0,7,6,1,0,5,4,1,0,5,5,0,0
+1960,Montana,Skyline,,10,5,5,0,7,2,5,0,5,3,2,0,5,2,3,0
+1960,Navy,FBS Independents,,11,9,2,0,5,5,0,0,6,6,0,0,4,3,1,0
+1960,NC State,ACC,,10,7,3,0,6,5,1,0,4,4,0,0,6,3,3,0
+1960,Nebraska,Big 8,,10,4,6,0,7,2,5,0,6,2,4,0,4,2,2,0
+1960,New Mexico,Skyline,,10,5,5,0,6,4,2,0,6,3,3,0,4,2,2,0
+1960,New Mexico State,Border,,11,11,0,0,4,4,0,0,5,5,0,0,5,5,0,0
+1960,North Carolina,ACC,,10,3,7,0,7,2,5,0,5,2,3,0,5,1,4,0
+1960,North Texas,Missouri Valley,,9,2,7,0,3,0,3,0,5,2,3,0,4,0,4,0
+1960,Northwestern,Big Ten,,9,5,4,0,7,3,4,0,4,2,2,0,5,3,2,0
+1960,Notre Dame,FBS Independents,,10,2,8,0,3,0,3,0,5,1,4,0,5,1,4,0
+1960,Ohio State,Big Ten,,9,7,2,0,7,5,2,0,5,5,0,0,4,2,2,0
+1960,Oklahoma,Big 8,,10,4,6,0,7,3,4,0,6,3,3,0,4,1,3,0
+1960,Oklahoma State,Big 8,,10,3,7,0,7,2,5,0,4,0,4,0,6,3,3,0
+1960,Ole Miss,SEC,,11,10,1,0,6,5,1,0,3,3,0,0,7,6,1,0
+1960,Oregon,FBS Independents,,11,8,3,0,5,4,1,0,6,6,0,0,4,2,2,0
+1960,Oregon State,FBS Independents,,10,6,4,0,4,3,1,0,3,1,2,0,7,5,2,0
+1960,Pacific,FBS Independents,,10,4,6,0,5,3,2,0,6,3,3,0,4,1,3,0
+1960,Penn State,FBS Independents,,10,7,3,0,6,5,1,0,4,3,1,0,5,3,2,0
+1960,Pennsylvania,Ivy,,9,3,6,0,7,2,5,0,6,3,3,0,3,0,3,0
+1960,Pittsburgh,FBS Independents,,10,5,5,0,5,3,2,0,4,3,1,0,6,2,4,0
+1960,Princeton,Ivy,,9,7,2,0,7,6,1,0,6,5,1,0,3,2,1,0
+1960,Purdue,Big Ten,,9,4,5,0,7,3,4,0,4,2,2,0,5,2,3,0
+1960,Rice,Southwest,,11,7,4,0,7,5,2,0,6,5,1,0,4,2,2,0
+1960,Richmond,Southern,,10,4,6,0,8,4,4,0,4,2,2,0,6,2,4,0
+1960,Rutgers,FBS Independents,,9,8,1,0,2,1,1,0,4,3,1,0,5,5,0,0
+1960,San José State,FBS Independents,,9,5,4,0,4,1,3,0,4,2,2,0,5,3,2,0
+1960,SMU,Southwest,,10,0,10,0,7,0,7,0,3,0,3,0,7,0,7,0
+1960,South Carolina,ACC,,10,3,7,0,7,3,4,0,4,3,1,0,6,0,6,0
+1960,Stanford,AAWU,,10,0,10,0,4,0,4,0,5,0,5,0,5,0,5,0
+1960,Syracuse,FBS Independents,,9,7,2,0,7,5,2,0,4,3,1,0,5,4,1,0
+1960,TCU,Southwest,,10,5,5,0,7,4,3,0,5,3,2,0,5,2,3,0
+1960,Tennessee,SEC,,10,7,3,0,7,4,3,0,6,5,1,0,4,2,2,0
+1960,Texas,Southwest,,11,8,3,0,7,5,2,0,6,4,2,0,4,3,1,0
+1960,Texas A&M,Southwest,,10,2,8,0,7,1,6,0,2,1,1,0,8,1,7,0
+1960,Texas Tech,Southwest,,10,4,6,0,7,2,5,0,7,4,3,0,3,0,3,0
+1960,The Citadel,Southern,,11,8,3,0,6,4,2,0,4,3,1,0,6,4,2,0
+1960,Tulane,SEC,,10,3,7,0,6,1,5,0,3,1,2,0,7,2,5,0
+1960,Tulsa,Missouri Valley,,10,5,5,0,3,2,1,0,5,2,3,0,5,3,2,0
+1960,UCLA,AAWU,,10,8,2,0,4,2,2,0,7,6,1,0,3,2,1,0
+1960,USC,AAWU,,10,4,6,0,4,3,1,0,6,2,4,0,4,2,2,0
+1960,Utah,Skyline,,10,7,3,0,6,5,1,0,7,5,2,0,3,2,1,0
+1960,Utah State,Skyline,,11,9,2,0,7,6,1,0,4,4,0,0,6,5,1,0
+1960,UTEP,Border,,10,5,5,0,5,2,3,0,7,4,3,0,3,1,2,0
+1960,Vanderbilt,SEC,,10,3,7,0,7,0,7,0,6,2,4,0,4,1,3,0
+1960,Villanova,FBS Independents,,10,2,8,0,9,2,7,0,5,1,4,0,5,1,4,0
+1960,Virginia,ACC,,10,0,10,0,6,0,6,0,4,0,4,0,6,0,6,0
+1960,Virginia Tech,Southern,,10,6,4,0,6,4,2,0,5,4,1,0,5,2,3,0
+1960,VMI,Southern,,10,8,2,0,5,4,1,0,3,3,0,0,7,5,2,0
+1960,Wake Forest,ACC,,10,2,8,0,7,2,5,0,4,0,4,0,6,2,4,0
+1960,Washington,AAWU,,11,10,1,0,4,4,0,0,6,5,1,0,4,4,0,0
+1960,Washington State,FBS Independents,,10,5,5,0,5,3,2,0,5,3,2,0,5,2,3,0
+1960,West Texas A&M,Border,,10,3,7,0,5,1,4,0,6,3,3,0,4,0,4,0
+1960,West Virginia,Southern,,10,0,10,0,3,0,3,0,3,0,3,0,7,0,7,0
+1960,Wichita State,Missouri Valley,,10,8,2,0,3,3,0,0,5,4,1,0,5,4,1,0
+1960,William & Mary,Southern,,10,2,8,0,6,1,5,0,4,2,2,0,6,0,6,0
+1960,Wisconsin,Big Ten,,9,4,5,0,7,2,5,0,5,3,2,0,4,1,3,0
+1960,Wyoming,Skyline,,10,8,2,0,7,6,1,0,5,5,0,0,5,3,2,0
+1960,Xavier,FBS Independents,,10,5,5,0,3,1,2,0,5,3,2,0,5,2,3,0
+1960,Yale,Ivy,,9,9,0,0,7,7,0,0,8,8,0,0,1,1,0,0

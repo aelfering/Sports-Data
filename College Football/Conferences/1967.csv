@@ -1,0 +1,119 @@
+year,team,conference,division,total.games,total.wins,total.losses,total.ties,conferenceGames.games,conferenceGames.wins,conferenceGames.losses,conferenceGames.ties,homeGames.games,homeGames.wins,homeGames.losses,homeGames.ties,awayGames.games,awayGames.wins,awayGames.losses,awayGames.ties
+1967,Air Force,FBS Independents,,10,3,7,0,3,1,2,0,5,2,3,0,5,1,4,0
+1967,Alabama,SEC,,11,8,3,0,6,5,1,0,6,5,1,0,4,3,1,0
+1967,Arizona,Western Athletic,,10,3,7,0,5,1,4,0,5,2,3,0,5,1,4,0
+1967,Arizona State,Western Athletic,,10,8,2,0,5,4,1,0,6,4,2,0,4,4,0,0
+1967,Arkansas,Southwest,,10,5,5,0,7,4,3,0,8,3,5,0,2,2,0,0
+1967,Army,FBS Independents,,10,8,2,0,5,4,1,0,5,4,1,0,5,4,1,0
+1967,Auburn,SEC,,10,6,4,0,6,3,3,0,5,5,0,0,5,1,4,0
+1967,Baylor,Southwest,,10,1,9,0,7,0,7,0,3,1,2,0,7,0,7,0
+1967,Boston College,FBS Independents,,10,4,6,0,6,2,4,0,7,2,5,0,3,2,1,0
+1967,Bowling Green,Mid-American,,10,6,4,0,6,2,4,0,5,2,3,0,5,4,1,0
+1967,Brown,Ivy,,9,3,6,0,7,2,5,0,7,3,4,0,2,0,2,0
+1967,Buffalo,FBS Independents,,10,6,4,0,4,2,2,0,4,4,0,0,6,2,4,0
+1967,BYU,Western Athletic,,10,6,4,0,5,3,2,0,5,5,0,0,5,1,4,0
+1967,California,AAWU,,10,5,5,0,5,2,3,0,6,4,2,0,4,1,3,0
+1967,Cincinnati,Missouri Valley,,9,3,6,0,4,2,2,0,6,2,4,0,3,1,2,0
+1967,Clemson,ACC,,10,6,4,0,6,6,0,0,5,3,2,0,5,3,2,0
+1967,Colgate,FBS Independents,,10,2,8,0,3,0,3,0,3,1,2,0,7,1,6,0
+1967,Colorado,Big 8,,11,9,2,0,7,5,2,0,5,4,1,0,5,4,1,0
+1967,Colorado State,FBS Independents,,10,5,5,0,5,3,2,0,5,4,1,0,5,1,4,0
+1967,Columbia,Ivy,,9,2,7,0,7,0,7,0,5,2,3,0,4,0,4,0
+1967,Cornell,Ivy,,9,6,3,0,7,4,3,0,4,3,1,0,5,3,2,0
+1967,Dartmouth,Ivy,,9,7,2,0,7,5,2,0,3,2,1,0,6,5,1,0
+1967,Davidson,Southern,,9,4,5,0,6,1,5,0,3,2,1,0,6,2,4,0
+1967,Dayton,FBS Independents,,10,7,3,0,1,1,0,0,6,5,1,0,4,2,2,0
+1967,Duke,ACC,,10,4,6,0,6,2,4,0,5,2,3,0,5,2,3,0
+1967,East Carolina,Southern,,10,8,2,0,5,4,1,0,6,4,2,0,4,4,0,0
+1967,Florida,SEC,,10,6,4,0,6,4,2,0,6,4,2,0,4,2,2,0
+1967,Florida State,FBS Independents,,11,8,3,0,4,2,2,0,6,5,1,0,4,3,1,0
+1967,Furman,Southern,,10,5,5,0,4,1,3,0,5,3,2,0,5,2,3,0
+1967,Georgia,SEC,,11,7,4,0,5,3,2,0,4,4,0,0,6,3,3,0
+1967,Georgia Tech,FBS Independents,,10,4,6,0,3,0,3,0,6,3,3,0,4,1,3,0
+1967,Harvard,Ivy,,9,6,3,0,7,4,3,0,5,3,2,0,4,3,1,0
+1967,Holy Cross,FBS Independents,,10,5,5,0,6,3,3,0,5,3,2,0,5,2,3,0
+1967,Houston,FBS Independents,,10,7,3,0,3,3,0,0,6,5,1,0,4,2,2,0
+1967,Idaho,FBS Independents,,10,4,6,0,2,0,2,0,3,2,1,0,7,2,5,0
+1967,Illinois,Big Ten,,10,4,6,0,7,3,4,0,6,1,5,0,4,3,1,0
+1967,Indiana,Big Ten,,11,9,2,0,7,6,1,0,5,5,0,0,5,4,1,0
+1967,Iowa,Big Ten,,10,2,8,0,7,1,6,0,6,2,4,0,4,0,4,0
+1967,Iowa State,Big 8,,10,2,8,0,7,1,6,0,5,2,3,0,5,0,5,0
+1967,Kansas,Big 8,,10,5,5,0,7,5,2,0,5,4,1,0,5,1,4,0
+1967,Kansas State,Big 8,,10,1,9,0,7,0,7,0,4,0,4,0,6,1,5,0
+1967,Kent State,Mid-American,,10,5,5,0,6,2,4,0,5,3,2,0,5,2,3,0
+1967,Kentucky,SEC,,10,2,8,0,7,1,6,0,5,1,4,0,5,1,4,0
+1967,Louisville,Missouri Valley,,10,5,5,0,4,1,3,0,5,4,1,0,5,1,4,0
+1967,LSU,SEC,,11,8,3,0,6,4,2,0,8,6,2,0,2,1,1,0
+1967,Marshall,Mid-American,,10,0,10,0,6,0,6,0,5,0,5,0,5,0,5,0
+1967,Maryland,ACC,,9,0,9,0,6,0,6,0,4,0,4,0,5,0,5,0
+1967,Memphis,FBS Independents,,9,6,3,0,4,1,3,0,6,5,1,0,3,1,2,0
+1967,Miami,FBS Independents,,11,7,4,0,6,4,2,0,6,4,2,0,4,3,1,0
+1967,Miami (OH),Mid-American,,10,6,4,0,6,4,2,0,4,2,2,0,6,4,2,0
+1967,Michigan,Big Ten,,10,4,6,0,7,3,4,0,6,2,4,0,4,2,2,0
+1967,Michigan State,Big Ten,,10,3,7,0,7,3,4,0,6,2,4,0,4,1,3,0
+1967,Minnesota,Big Ten,,10,8,2,0,7,6,1,0,6,6,0,0,4,2,2,0
+1967,Mississippi State,SEC,,10,1,9,0,6,0,6,0,4,0,4,0,6,1,5,0
+1967,Missouri,Big 8,,10,7,3,0,7,4,3,0,5,4,1,0,5,3,2,0
+1967,Navy,FBS Independents,,10,5,5,0,5,4,1,0,4,3,1,0,6,2,4,0
+1967,NC State,ACC,,11,9,2,0,6,5,1,0,4,4,0,0,6,4,2,0
+1967,Nebraska,Big 8,,10,6,4,0,7,3,4,0,5,3,2,0,5,3,2,0
+1967,New Mexico,Western Athletic,,10,1,9,0,5,0,5,0,6,1,5,0,4,0,4,0
+1967,New Mexico State,FBS Independents,,10,7,3,0,3,2,1,0,5,5,0,0,5,2,3,0
+1967,North Carolina,ACC,,10,2,8,0,7,2,5,0,5,1,4,0,5,1,4,0
+1967,North Texas,Missouri Valley,,9,8,1,0,4,4,0,0,6,6,0,0,3,2,1,0
+1967,Northwestern,Big Ten,,10,3,7,0,7,2,5,0,5,2,3,0,5,1,4,0
+1967,Notre Dame,FBS Independents,,10,8,2,0,4,4,0,0,5,4,1,0,5,4,1,0
+1967,Ohio,Mid-American,,10,5,5,0,6,4,2,0,4,2,2,0,6,3,3,0
+1967,Ohio State,Big Ten,,9,6,3,0,7,5,2,0,5,2,3,0,4,4,0,0
+1967,Oklahoma,Big 8,,11,10,1,0,7,7,0,0,5,5,0,0,5,4,1,0
+1967,Oklahoma State,Big 8,,10,4,6,0,7,3,4,0,3,1,2,0,7,3,4,0
+1967,Ole Miss,SEC,,11,6,5,0,7,4,3,0,3,3,0,0,7,3,4,0
+1967,Oregon,AAWU,,10,2,8,0,6,1,5,0,5,1,4,0,5,1,4,0
+1967,Oregon State,AAWU,,10,8,2,0,6,5,1,0,5,4,1,0,5,4,1,0
+1967,Pacific,FBS Independents,,9,4,5,0,5,2,3,0,5,3,2,0,4,1,3,0
+1967,Penn State,FBS Independents,,11,9,2,0,6,5,1,0,5,4,1,0,5,4,1,0
+1967,Pennsylvania,Ivy,,9,3,6,0,7,2,5,0,6,3,3,0,3,0,3,0
+1967,Pittsburgh,FBS Independents,,10,1,9,0,6,0,6,0,6,0,6,0,4,1,3,0
+1967,Princeton,Ivy,,9,6,3,0,7,4,3,0,6,4,2,0,3,2,1,0
+1967,Purdue,Big Ten,,10,8,2,0,7,6,1,0,5,4,1,0,5,4,1,0
+1967,Rice,Southwest,,10,4,6,0,7,2,5,0,6,4,2,0,4,0,4,0
+1967,Richmond,Southern,,10,5,5,0,7,5,2,0,4,1,3,0,6,4,2,0
+1967,Rutgers,FBS Independents,,9,4,5,0,3,1,2,0,4,3,1,0,5,1,4,0
+1967,San José State,FBS Independents,,9,2,7,0,2,0,2,0,3,1,2,0,6,1,5,0
+1967,SMU,Southwest,,10,3,7,0,7,3,4,0,5,1,4,0,5,2,3,0
+1967,South Carolina,ACC,,10,5,5,0,6,4,2,0,5,4,1,0,5,1,4,0
+1967,Southern Mississippi,FBS Independents,,9,6,3,0,2,1,1,0,4,3,1,0,5,3,2,0
+1967,Stanford,AAWU,,10,5,5,0,7,3,4,0,6,4,2,0,4,1,3,0
+1967,Syracuse,FBS Independents,,10,8,2,0,5,3,2,0,5,4,1,0,5,4,1,0
+1967,Tampa,FBS Independents,,9,2,7,0,2,0,2,0,6,2,4,0,3,0,3,0
+1967,TCU,Southwest,,10,4,6,0,7,4,3,0,4,2,2,0,6,2,4,0
+1967,Tennessee,SEC,,11,9,2,0,6,6,0,0,6,6,0,0,4,3,1,0
+1967,Texas,Southwest,,10,6,4,0,7,4,3,0,6,4,2,0,4,2,2,0
+1967,Texas A&M,Southwest,,11,7,4,0,7,6,1,0,5,2,3,0,5,4,1,0
+1967,Texas Tech,Southwest,,10,6,4,0,7,5,2,0,5,3,2,0,5,3,2,0
+1967,The Citadel,Southern,,10,5,5,0,6,2,4,0,5,2,3,0,5,3,2,0
+1967,Toledo,Mid-American,,10,9,1,0,6,5,1,0,6,5,1,0,4,4,0,0
+1967,Tulane,FBS Independents,,10,3,7,0,3,1,2,0,6,2,4,0,4,1,3,0
+1967,Tulsa,Missouri Valley,,10,7,3,0,4,3,1,0,6,5,1,0,4,2,2,0
+1967,UCLA,AAWU,,10,7,3,0,6,4,2,0,4,3,1,0,6,4,2,0
+1967,USC,AAWU,,11,10,1,0,7,6,1,0,5,5,0,0,5,4,1,0
+1967,Utah,Western Athletic,,11,4,7,0,5,2,3,0,5,1,4,0,6,3,3,0
+1967,Utah State,FBS Independents,,10,8,2,0,5,3,2,0,5,5,0,0,5,3,2,0
+1967,UTEP,FBS Independents,,10,8,2,0,2,2,0,0,6,5,1,0,3,2,1,0
+1967,Vanderbilt,SEC,,10,3,7,0,5,0,5,0,6,2,4,0,4,1,3,0
+1967,Villanova,FBS Independents,,10,4,6,0,5,2,3,0,3,2,1,0,7,2,5,0
+1967,Virginia,ACC,,10,5,5,0,6,3,3,0,5,2,3,0,5,3,2,0
+1967,Virginia Tech,FBS Independents,,10,7,3,0,4,2,2,0,4,3,1,0,6,4,2,0
+1967,VMI,Southern,,10,6,4,0,5,2,3,0,5,4,1,0,5,2,3,0
+1967,Wake Forest,ACC,,10,4,6,0,7,3,4,0,3,2,1,0,7,2,5,0
+1967,Washington,AAWU,,10,5,5,0,7,3,4,0,6,2,4,0,4,3,1,0
+1967,Washington State,AAWU,,10,2,8,0,6,1,5,0,4,1,3,0,6,1,5,0
+1967,Western Michigan,Mid-American,,9,5,4,0,6,4,2,0,5,4,1,0,4,1,3,0
+1967,West Texas A&M,FBS Independents,,11,8,3,0,5,3,2,0,6,5,1,0,4,2,2,0
+1967,West Virginia,Southern,,10,6,4,0,4,4,0,0,6,5,1,0,4,1,3,0
+1967,Wichita State,Missouri Valley,,10,2,8,0,4,0,4,0,4,2,2,0,6,0,6,0
+1967,William & Mary,Southern,,10,5,5,0,5,2,3,0,4,2,2,0,6,3,3,0
+1967,Wisconsin,Big Ten,,10,0,10,0,7,0,7,0,4,0,4,0,6,0,6,0
+1967,Wyoming,Western Athletic,,11,10,1,0,5,5,0,0,4,4,0,0,6,6,0,0
+1967,Xavier,FBS Independents,,10,6,4,0,2,1,1,0,4,2,2,0,6,4,2,0
+1967,Yale,Ivy,,9,8,1,0,7,7,0,0,6,5,1,0,3,3,0,0

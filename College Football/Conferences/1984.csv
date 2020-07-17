@@ -1,0 +1,111 @@
+year,team,conference,division,total.games,total.wins,total.losses,total.ties,conferenceGames.games,conferenceGames.wins,conferenceGames.losses,conferenceGames.ties,homeGames.games,homeGames.wins,homeGames.losses,homeGames.ties,awayGames.games,awayGames.wins,awayGames.losses,awayGames.ties
+1984,Air Force,Western Athletic,,12,8,4,0,7,4,3,0,5,4,1,0,6,3,3,0
+1984,Alabama,SEC,,11,5,6,0,6,2,4,0,7,3,4,0,4,2,2,0
+1984,Arizona,Pac-10,,11,7,4,0,7,5,2,0,7,6,1,0,4,1,3,0
+1984,Arizona State,Pac-10,,11,5,6,0,7,3,4,0,8,3,5,0,3,2,1,0
+1984,Arkansas,Southwest,,12,7,5,0,8,5,3,0,6,5,1,0,5,2,3,0
+1984,Army,FBS Independents,,12,9,3,0,4,1,3,0,8,8,0,0,3,0,3,0
+1984,Auburn,SEC,,13,9,4,0,6,4,2,0,5,5,0,0,7,3,4,0
+1984,Ball State,Mid-American,,11,3,8,0,8,3,5,0,5,1,4,0,6,2,4,0
+1984,Baylor,Southwest,,11,5,6,0,8,4,4,0,5,2,3,0,6,3,3,0
+1984,Boston College,FBS Independents,,12,10,2,0,7,5,2,0,6,6,0,0,5,3,2,0
+1984,Bowling Green,Mid-American,,11,8,3,0,9,7,2,0,5,5,0,0,6,3,3,0
+1984,BYU,Western Athletic,,13,13,0,0,8,8,0,0,6,6,0,0,6,6,0,0
+1984,California,Pac-10,,11,2,9,0,9,1,8,0,6,1,5,0,5,1,4,0
+1984,Cal State Fullerton,PCAA,,12,11,1,0,7,6,1,0,4,4,0,0,8,7,1,0
+1984,Central Michigan,Mid-American,,11,9,2,0,9,7,2,0,8,7,1,0,3,2,1,0
+1984,Cincinnati,FBS Independents,,11,2,9,0,5,1,4,0,6,2,4,0,5,0,5,0
+1984,Clemson,ACC,,11,7,4,0,7,5,2,0,6,5,1,0,5,2,3,0
+1984,Colorado,Big 8,,11,1,10,0,7,1,6,0,6,1,5,0,5,0,5,0
+1984,Colorado State,Western Athletic,,11,3,8,0,8,3,5,0,5,2,3,0,6,1,5,0
+1984,Drake,Missouri Valley,,11,4,7,0,5,2,3,0,6,3,3,0,5,1,4,0
+1984,Duke,ACC,,11,2,9,0,7,1,6,0,5,1,4,0,6,1,5,0
+1984,East Carolina,FBS Independents,,11,2,9,0,6,0,6,0,4,2,2,0,7,0,7,0
+1984,Eastern Michigan,Mid-American,,11,3,8,0,9,3,6,0,5,3,2,0,6,0,6,0
+1984,Florida,SEC,,11,9,2,0,6,5,1,0,6,6,0,0,5,3,2,0
+1984,Florida State,FBS Independents,,12,8,4,0,6,5,1,0,7,5,2,0,4,3,1,0
+1984,Fresno State,PCAA,,12,6,6,0,7,3,4,0,7,4,3,0,5,2,3,0
+1984,Georgia,SEC,,12,8,4,0,6,4,2,0,6,5,1,0,5,2,3,0
+1984,Georgia Tech,ACC,,11,7,4,0,6,4,2,0,7,5,2,0,4,2,2,0
+1984,Hawai'i,Western Athletic,,11,7,4,0,7,5,2,0,9,6,3,0,2,1,1,0
+1984,Houston,Southwest,,12,7,5,0,8,6,2,0,6,3,3,0,5,4,1,0
+1984,Illinois,Big Ten,,11,7,4,0,9,6,3,0,6,6,0,0,5,1,4,0
+1984,Illinois State,Missouri Valley,,11,5,6,0,5,3,2,0,5,3,2,0,6,2,4,0
+1984,Indiana,Big Ten,,11,0,11,0,9,0,9,0,5,0,5,0,6,0,6,0
+1984,Indiana State,Missouri Valley,,12,9,3,0,4,3,1,0,9,7,2,0,3,2,1,0
+1984,Iowa,Big Ten,,13,8,5,0,9,5,4,0,5,3,2,0,7,4,3,0
+1984,Iowa State,Big 8,,11,3,8,0,7,1,6,0,5,3,2,0,6,0,6,0
+1984,Kansas,Big 8,,11,5,6,0,7,4,3,0,5,3,2,0,6,2,4,0
+1984,Kansas State,Big 8,,11,4,7,0,7,3,4,0,6,4,2,0,5,0,5,0
+1984,Kent State,Mid-American,,11,4,7,0,9,3,6,0,5,2,3,0,6,2,4,0
+1984,Kentucky,SEC,,12,9,3,0,6,3,3,0,7,4,3,0,4,4,0,0
+1984,Long Beach State,PCAA,,11,4,7,0,7,3,4,0,2,1,1,0,9,3,6,0
+1984,Louisiana,FBS Independents,,11,6,5,0,3,2,1,0,3,2,1,0,8,4,4,0
+1984,Louisville,FBS Independents,,11,2,9,0,5,0,5,0,6,1,5,0,5,1,4,0
+1984,LSU,SEC,,12,9,3,0,6,5,1,0,7,6,1,0,4,3,1,0
+1984,Maryland,ACC,,12,9,3,0,6,6,0,0,5,3,2,0,6,5,1,0
+1984,Memphis,FBS Independents,,11,5,6,0,5,3,2,0,6,5,1,0,5,0,5,0
+1984,Miami,FBS Independents,,13,8,5,0,6,4,2,0,7,4,3,0,5,4,1,0
+1984,Miami (OH),Mid-American,,11,4,7,0,8,3,5,0,4,1,3,0,7,3,4,0
+1984,Michigan,Big Ten,,12,6,6,0,9,5,4,0,7,5,2,0,4,1,3,0
+1984,Michigan State,Big Ten,,12,6,6,0,9,5,4,0,6,2,4,0,5,4,1,0
+1984,Minnesota,Big Ten,,11,4,7,0,9,3,6,0,6,3,3,0,5,1,4,0
+1984,Mississippi State,SEC,,11,4,7,0,6,1,5,0,6,3,3,0,5,1,4,0
+1984,Missouri,Big 8,,11,3,8,0,7,2,5,0,5,2,3,0,6,1,5,0
+1984,Navy,FBS Independents,,11,5,6,0,5,2,3,0,5,4,1,0,6,1,5,0
+1984,NC State,ACC,,11,3,8,0,7,1,6,0,7,2,5,0,4,1,3,0
+1984,Nebraska,Big 8,,12,10,2,0,7,6,1,0,6,5,1,0,5,4,1,0
+1984,New Mexico,Western Athletic,,12,4,8,0,8,1,7,0,6,3,3,0,6,1,5,0
+1984,New Mexico State,PCAA,,11,2,9,0,6,0,6,0,5,1,4,0,6,1,5,0
+1984,North Carolina,ACC,,11,5,6,0,7,3,4,0,5,3,2,0,6,2,4,0
+1984,Northern Illinois,Mid-American,,11,4,7,0,9,3,6,0,5,3,2,0,6,1,5,0
+1984,Northwestern,Big Ten,,11,2,9,0,9,2,7,0,5,1,4,0,6,1,5,0
+1984,Notre Dame,FBS Independents,,12,7,5,0,4,2,2,0,6,3,3,0,5,4,1,0
+1984,Ohio,Mid-American,,11,4,7,0,9,4,5,0,3,2,1,0,8,2,6,0
+1984,Ohio State,Big Ten,,12,9,3,0,9,7,2,0,6,6,0,0,5,3,2,0
+1984,Oklahoma,Big 8,,12,9,3,0,7,6,1,0,5,5,0,0,6,4,2,0
+1984,Oklahoma State,Big 8,,12,10,2,0,7,5,2,0,6,6,0,0,5,3,2,0
+1984,Ole Miss,SEC,,11,5,6,0,6,1,5,0,7,5,2,0,4,0,4,0
+1984,Oregon,Pac-10,,11,6,5,0,8,3,5,0,6,3,3,0,5,3,2,0
+1984,Oregon State,Pac-10,,11,2,9,0,8,1,7,0,6,2,4,0,5,0,5,0
+1984,Pacific,PCAA,,11,4,7,0,7,2,5,0,5,2,3,0,6,2,4,0
+1984,Penn State,FBS Independents,,11,6,5,0,6,3,3,0,6,5,1,0,5,1,4,0
+1984,Pittsburgh,FBS Independents,,11,3,8,0,9,3,6,0,5,2,3,0,6,1,5,0
+1984,Purdue,Big Ten,,12,7,5,0,9,6,3,0,7,5,2,0,4,2,2,0
+1984,Rice,Southwest,,11,1,10,0,8,0,8,0,5,1,4,0,6,0,6,0
+1984,Rutgers,FBS Independents,,10,7,3,0,8,6,2,0,6,6,0,0,4,1,3,0
+1984,San Diego State,Western Athletic,,12,4,8,0,8,4,4,0,6,3,3,0,6,1,5,0
+1984,San José State,PCAA,,11,6,5,0,7,5,2,0,5,4,1,0,6,2,4,0
+1984,SMU,Southwest,,12,10,2,0,8,6,2,0,5,4,1,0,6,5,1,0
+1984,South Carolina,FBS Independents,,12,10,2,0,5,4,1,0,7,7,0,0,4,3,1,0
+1984,Southern Illinois,Missouri Valley,,11,3,8,0,5,0,5,0,6,1,5,0,5,2,3,0
+1984,Southern Mississippi,FBS Independents,,11,4,7,0,5,2,3,0,4,3,1,0,7,1,6,0
+1984,Stanford,Pac-10,,11,5,6,0,8,3,5,0,6,2,4,0,5,3,2,0
+1984,Syracuse,FBS Independents,,11,6,5,0,7,3,4,0,5,4,1,0,6,2,4,0
+1984,TCU,Southwest,,12,8,4,0,8,5,3,0,6,5,1,0,5,3,2,0
+1984,Temple,FBS Independents,,11,6,5,0,8,4,4,0,7,5,2,0,4,1,3,0
+1984,Tennessee,SEC,,12,7,5,0,6,3,3,0,6,4,2,0,5,3,2,0
+1984,Texas,Southwest,,12,8,4,0,8,5,3,0,7,5,2,0,4,3,1,0
+1984,Texas A&M,Southwest,,11,6,5,0,8,3,5,0,7,5,2,0,4,1,3,0
+1984,Texas Tech,Southwest,,11,4,7,0,8,2,6,0,6,2,4,0,5,2,3,0
+1984,Toledo,Mid-American,,12,9,3,0,9,8,1,0,6,6,0,0,5,3,2,0
+1984,Tulane,FBS Independents,,11,3,8,0,5,2,3,0,4,2,2,0,7,1,6,0
+1984,Tulsa,Missouri Valley,,11,6,5,0,5,5,0,0,5,3,2,0,6,3,3,0
+1984,UCLA,Pac-10,,12,9,3,0,7,5,2,0,7,4,3,0,4,4,0,0
+1984,UNLV,PCAA,,13,11,2,0,7,7,0,0,6,5,1,0,6,5,1,0
+1984,USC,Pac-10,,12,9,3,0,8,7,1,0,6,4,2,0,5,4,1,0
+1984,Utah,Western Athletic,,12,7,5,0,8,5,3,0,7,6,1,0,5,1,4,0
+1984,Utah State,PCAA,,11,1,10,0,6,1,5,0,5,1,4,0,6,0,6,0
+1984,UTEP,Western Athletic,,11,2,9,0,8,1,7,0,5,2,3,0,6,0,6,0
+1984,Vanderbilt,SEC,,11,5,6,0,6,2,4,0,6,3,3,0,5,2,3,0
+1984,Virginia,ACC,,12,9,3,0,7,4,3,0,6,4,2,0,5,4,1,0
+1984,Virginia Tech,FBS Independents,,12,8,4,0,3,2,1,0,7,5,2,0,4,3,1,0
+1984,Wake Forest,ACC,,11,6,5,0,7,3,4,0,5,3,2,0,6,3,3,0
+1984,Washington,Pac-10,,12,11,1,0,7,6,1,0,6,6,0,0,5,4,1,0
+1984,Washington State,Pac-10,,11,6,5,0,7,4,3,0,5,3,2,0,6,3,3,0
+1984,Western Michigan,Mid-American,,11,5,6,0,9,3,6,0,6,5,1,0,5,0,5,0
+1984,West Texas A&M,Missouri Valley,,11,3,8,0,4,1,3,0,4,1,3,0,7,2,5,0
+1984,West Virginia,FBS Independents,,12,8,4,0,8,6,2,0,7,5,2,0,4,2,2,0
+1984,Wichita State,Missouri Valley,,11,2,9,0,4,2,2,0,5,1,4,0,6,1,5,0
+1984,Wisconsin,Big Ten,,12,8,4,0,9,6,3,0,6,5,1,0,5,3,2,0
+1984,Wyoming,Western Athletic,,12,6,6,0,8,4,4,0,6,5,1,0,6,1,5,0

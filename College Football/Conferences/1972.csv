@@ -1,0 +1,128 @@
+year,team,conference,division,total.games,total.wins,total.losses,total.ties,conferenceGames.games,conferenceGames.wins,conferenceGames.losses,conferenceGames.ties,homeGames.games,homeGames.wins,homeGames.losses,homeGames.ties,awayGames.games,awayGames.wins,awayGames.losses,awayGames.ties
+1972,Air Force,FBS Independents,,10,6,4,0,5,2,3,0,6,3,3,0,4,3,1,0
+1972,Alabama,SEC,,12,10,2,0,8,7,1,0,8,8,0,0,3,2,1,0
+1972,Appalachian State,Southern,,11,5,6,0,4,0,4,0,5,2,3,0,6,3,3,0
+1972,Arizona,Western Athletic,,11,4,7,0,7,4,3,0,6,3,3,0,5,1,4,0
+1972,Arizona State,Western Athletic,,12,10,2,0,6,5,1,0,6,5,1,0,5,4,1,0
+1972,Arkansas,Southwest,,11,6,5,0,7,3,4,0,7,4,3,0,4,2,2,0
+1972,Army,FBS Independents,,10,6,4,0,7,4,3,0,7,4,3,0,3,2,1,0
+1972,Auburn,SEC,,11,10,1,0,7,6,1,0,6,6,0,0,4,3,1,0
+1972,Baylor,Southwest,,11,5,6,0,7,3,4,0,5,3,2,0,6,2,4,0
+1972,Boston College,FBS Independents,,11,4,7,0,10,4,6,0,6,3,3,0,5,1,4,0
+1972,Bowling Green,Mid-American,,10,7,3,0,5,4,1,0,5,4,1,0,5,3,2,0
+1972,Brown,Ivy,,9,1,8,0,7,1,6,0,5,1,4,0,4,0,4,0
+1972,BYU,Western Athletic,,11,7,4,0,7,5,2,0,5,3,2,0,6,4,2,0
+1972,California,Pac-8,,11,3,8,0,7,3,4,0,6,3,3,0,5,0,5,0
+1972,Chattanooga,FBS Independents,,11,2,9,0,1,1,0,0,5,1,4,0,6,1,5,0
+1972,Cincinnati,FBS Independents,,11,2,9,0,3,1,2,0,5,1,4,0,6,1,5,0
+1972,Clemson,ACC,,11,4,7,0,6,2,4,0,5,3,2,0,6,1,5,0
+1972,Colgate,FBS Independents,,10,5,5,0,2,0,2,0,2,2,0,0,8,3,5,0
+1972,Colorado,Big 8,,12,8,4,0,7,4,3,0,6,5,1,0,5,3,2,0
+1972,Colorado State,Western Athletic,,11,1,10,0,5,1,4,0,5,1,4,0,6,0,6,0
+1972,Columbia,Ivy,,9,4,5,0,7,3,4,0,5,3,2,0,4,1,3,0
+1972,Cornell,Ivy,,9,6,3,0,7,4,3,0,5,4,1,0,4,2,2,0
+1972,Dartmouth,Ivy,,9,8,1,0,7,6,1,0,5,5,0,0,4,3,1,0
+1972,Davidson,Southern,,11,4,7,0,6,3,3,0,4,3,1,0,7,1,6,0
+1972,Dayton,FBS Independents,,11,5,6,0,3,3,0,0,7,5,2,0,4,0,4,0
+1972,Drake,Missouri Valley,,12,7,5,0,5,4,1,0,4,4,0,0,8,3,5,0
+1972,Duke,ACC,,11,5,6,0,6,3,3,0,6,4,2,0,5,1,4,0
+1972,East Carolina,Southern,,11,9,2,0,6,6,0,0,5,5,0,0,6,4,2,0
+1972,Florida,SEC,,11,5,6,0,7,3,4,0,6,3,3,0,5,2,3,0
+1972,Florida State,FBS Independents,,11,7,4,0,5,3,2,0,5,3,2,0,6,4,2,0
+1972,Fresno State,PCAA,,11,6,5,0,4,1,3,0,6,3,3,0,5,3,2,0
+1972,Furman,Southern,,11,2,9,0,7,1,6,0,5,1,4,0,6,1,5,0
+1972,Georgia,SEC,,11,7,4,0,7,4,3,0,7,5,2,0,4,2,2,0
+1972,Georgia Tech,FBS Independents,,12,7,5,0,4,4,0,0,6,5,1,0,5,1,4,0
+1972,Harvard,Ivy,,9,4,5,0,7,3,4,0,6,3,3,0,3,1,2,0
+1972,Holy Cross,FBS Independents,,10,6,4,0,6,3,3,0,6,5,1,0,4,1,3,0
+1972,Houston,FBS Independents,,11,7,4,0,4,3,1,0,6,5,1,0,5,2,3,0
+1972,Idaho,FBS Independents,,11,4,7,0,2,1,1,0,4,3,1,0,7,1,6,0
+1972,Illinois,Big Ten,,11,3,8,0,8,3,5,0,6,2,4,0,5,1,4,0
+1972,Indiana,Big Ten,,11,5,6,0,8,3,5,0,5,3,2,0,6,2,4,0
+1972,Iowa,Big Ten,,11,3,8,0,9,2,7,0,4,2,2,0,7,1,6,0
+1972,Iowa State,Big 8,,12,5,7,0,7,2,5,0,4,3,1,0,7,2,5,0
+1972,Kansas,Big 8,,11,4,7,0,7,2,5,0,6,1,5,0,5,3,2,0
+1972,Kansas State,Big 8,,11,3,8,0,7,1,6,0,6,3,3,0,5,0,5,0
+1972,Kent State,Mid-American,,12,7,5,0,5,4,1,0,6,4,2,0,5,3,2,0
+1972,Kentucky,SEC,,11,3,8,0,7,2,5,0,5,3,2,0,6,0,6,0
+1972,Long Beach State,PCAA,,11,5,6,0,4,1,3,0,5,2,3,0,6,3,3,0
+1972,Louisville,Missouri Valley,,10,9,1,0,5,4,1,0,5,4,1,0,5,5,0,0
+1972,LSU,SEC,,12,10,2,0,7,5,2,0,8,8,0,0,3,2,1,0
+1972,Marshall,FBS Independents,,10,2,8,0,3,0,3,0,5,1,4,0,5,1,4,0
+1972,Maryland,ACC,,11,6,5,0,6,4,2,0,6,5,1,0,5,1,4,0
+1972,Memphis,Missouri Valley,,11,6,5,0,5,3,2,0,8,5,3,0,3,1,2,0
+1972,Miami,FBS Independents,,11,5,6,0,6,3,3,0,5,4,1,0,6,1,5,0
+1972,Miami (OH),Mid-American,,10,7,3,0,5,2,3,0,6,4,2,0,4,3,1,0
+1972,Michigan,Big Ten,,11,10,1,0,8,7,1,0,6,6,0,0,5,4,1,0
+1972,Michigan State,Big Ten,,11,6,5,0,8,6,2,0,7,5,2,0,4,1,3,0
+1972,Minnesota,Big Ten,,11,4,7,0,8,4,4,0,6,3,3,0,5,1,4,0
+1972,Mississippi State,SEC,,11,4,7,0,7,1,6,0,5,3,2,0,6,1,5,0
+1972,Missouri,Big 8,,12,6,6,0,7,3,4,0,6,4,2,0,5,2,3,0
+1972,Navy,FBS Independents,,11,4,7,0,8,3,5,0,3,3,0,0,8,1,7,0
+1972,NC State,ACC,,12,8,4,0,6,4,2,0,5,5,0,0,6,2,4,0
+1972,Nebraska,Big 8,,12,10,2,0,7,6,1,0,7,6,1,0,4,3,1,0
+1972,New Mexico,Western Athletic,,11,3,8,0,6,2,4,0,5,1,4,0,6,2,4,0
+1972,New Mexico State,Missouri Valley,,11,2,9,0,4,1,3,0,5,0,5,0,6,2,4,0
+1972,North Carolina,ACC,,12,11,1,0,6,6,0,0,6,6,0,0,5,4,1,0
+1972,Northern Illinois,FBS Independents,,11,7,4,0,3,2,1,0,6,4,2,0,5,3,2,0
+1972,North Texas,Missouri Valley,,11,1,10,0,7,0,7,0,5,1,4,0,6,0,6,0
+1972,Northwestern,Big Ten,,11,2,9,0,9,1,8,0,5,1,4,0,6,1,5,0
+1972,Notre Dame,FBS Independents,,11,8,3,0,4,4,0,0,6,5,1,0,4,3,1,0
+1972,Ohio,Mid-American,,11,3,8,0,5,1,4,0,4,2,2,0,7,1,6,0
+1972,Ohio State,Big Ten,,11,9,2,0,8,7,1,0,6,6,0,0,4,3,1,0
+1972,Oklahoma,Big 8,,12,11,1,0,7,6,1,0,7,7,0,0,4,3,1,0
+1972,Oklahoma State,Big 8,,11,6,5,0,7,4,3,0,6,5,1,0,5,1,4,0
+1972,Ole Miss,SEC,,10,5,5,0,7,2,5,0,5,2,3,0,5,3,2,0
+1972,Oregon,Pac-8,,11,4,7,0,7,2,5,0,5,3,2,0,6,1,5,0
+1972,Oregon State,Pac-8,,11,2,9,0,7,1,6,0,5,2,3,0,6,0,6,0
+1972,Pacific,PCAA,,11,8,3,0,4,3,1,0,5,5,0,0,6,3,3,0
+1972,Penn State,FBS Independents,,12,10,2,0,6,6,0,0,6,6,0,0,5,4,1,0
+1972,Pennsylvania,Ivy,,9,6,3,0,7,4,3,0,5,4,1,0,4,2,2,0
+1972,Pittsburgh,FBS Independents,,11,1,10,0,9,1,8,0,5,1,4,0,6,0,6,0
+1972,Princeton,Ivy,,9,3,6,0,7,2,5,0,4,2,2,0,5,1,4,0
+1972,Purdue,Big Ten,,11,6,5,0,8,6,2,0,6,4,2,0,5,2,3,0
+1972,Rice,Southwest,,11,6,5,0,7,3,4,0,7,4,3,0,4,2,2,0
+1972,Richmond,Southern,,10,6,4,0,6,5,1,0,6,4,2,0,4,2,2,0
+1972,Rutgers,FBS Independents,,11,7,4,0,3,1,2,0,6,5,1,0,5,2,3,0
+1972,San Diego State,PCAA,,11,10,1,0,4,4,0,0,7,7,0,0,4,3,1,0
+1972,San José State,PCAA,,11,4,7,0,4,1,3,0,3,2,1,0,8,2,6,0
+1972,SMU,Southwest,,11,7,4,0,7,4,3,0,6,4,2,0,5,3,2,0
+1972,South Carolina,FBS Independents,,11,4,7,0,3,1,2,0,7,4,3,0,4,0,4,0
+1972,Southern Illinois,FBS Independents,,10,1,9,0,2,0,2,0,4,1,3,0,6,0,6,0
+1972,Southern Mississippi,FBS Independents,,11,3,8,0,4,1,3,0,4,2,2,0,7,1,6,0
+1972,Stanford,Pac-8,,11,6,5,0,7,2,5,0,5,4,1,0,6,2,4,0
+1972,Syracuse,FBS Independents,,11,5,6,0,7,4,3,0,6,5,1,0,5,0,5,0
+1972,Tampa,FBS Independents,,12,10,2,0,2,2,0,0,8,7,1,0,3,2,1,0
+1972,TCU,Southwest,,11,5,6,0,7,2,5,0,5,1,4,0,6,4,2,0
+1972,Temple,FBS Independents,,9,5,4,0,6,4,2,0,4,3,1,0,5,2,3,0
+1972,Tennessee,SEC,,12,10,2,0,7,5,2,0,6,5,1,0,5,4,1,0
+1972,Texas,Southwest,,11,10,1,0,7,7,0,0,5,5,0,0,5,4,1,0
+1972,Texas A&M,Southwest,,11,3,8,0,7,2,5,0,5,1,4,0,6,2,4,0
+1972,Texas-Arlington,FBS Independents,,11,5,6,0,1,0,1,0,6,4,2,0,5,1,4,0
+1972,Texas Tech,Southwest,,12,8,4,0,7,4,3,0,6,3,3,0,5,5,0,0
+1972,The Citadel,Southern,,11,5,6,0,7,4,3,0,5,2,3,0,6,3,3,0
+1972,Toledo,Mid-American,,11,6,5,0,5,2,3,0,5,3,2,0,6,3,3,0
+1972,Tulane,FBS Independents,,11,6,5,0,5,2,3,0,5,4,1,0,6,2,4,0
+1972,Tulsa,Missouri Valley,,11,4,7,0,4,3,1,0,5,3,2,0,6,1,5,0
+1972,UCLA,Pac-8,,11,8,3,0,7,5,2,0,7,5,2,0,4,3,1,0
+1972,USC,Pac-8,,12,12,0,0,7,7,0,0,5,5,0,0,6,6,0,0
+1972,Utah,Western Athletic,,11,6,5,0,7,5,2,0,5,4,1,0,6,2,4,0
+1972,Utah State,FBS Independents,,11,8,3,0,2,2,0,0,5,5,0,0,6,3,3,0
+1972,UTEP,Western Athletic,,10,2,8,0,7,1,6,0,6,2,4,0,4,0,4,0
+1972,Vanderbilt,SEC,,11,3,8,0,6,0,6,0,6,2,4,0,5,1,4,0
+1972,Villanova,FBS Independents,,11,2,9,0,6,1,5,0,6,2,4,0,5,0,5,0
+1972,Virginia,ACC,,11,4,7,0,6,1,5,0,5,2,3,0,6,2,4,0
+1972,Virginia Tech,FBS Independents,,11,6,5,0,4,2,2,0,4,4,0,0,7,2,5,0
+1972,VMI,Southern,,11,2,9,0,6,1,5,0,4,1,3,0,7,1,6,0
+1972,Wake Forest,ACC,,11,2,9,0,6,1,5,0,6,1,5,0,5,1,4,0
+1972,Washington,Pac-8,,11,8,3,0,7,4,3,0,6,6,0,0,5,2,3,0
+1972,Washington State,Pac-8,,11,7,4,0,7,4,3,0,6,4,2,0,5,3,2,0
+1972,Western Michigan,Mid-American,,11,7,4,0,5,2,3,0,5,4,1,0,6,3,3,0
+1972,West Texas A&M,Missouri Valley,,10,5,5,0,4,3,1,0,4,4,0,0,6,1,5,0
+1972,West Virginia,FBS Independents,,12,8,4,0,6,4,2,0,7,6,1,0,4,2,2,0
+1972,Wichita State,Missouri Valley,,11,6,5,0,6,2,4,0,6,4,2,0,5,2,3,0
+1972,William & Mary,Southern,,11,5,6,0,6,4,2,0,5,3,2,0,6,2,4,0
+1972,Wisconsin,Big Ten,,11,4,7,0,8,2,6,0,6,4,2,0,5,0,5,0
+1972,Wyoming,Western Athletic,,11,4,7,0,7,3,4,0,5,2,3,0,6,2,4,0
+1972,Xavier,FBS Independents,,10,2,8,0,6,2,4,0,3,1,2,0,7,1,6,0
+1972,Yale,Ivy,,9,7,2,0,7,5,2,0,6,6,0,0,3,1,2,0

@@ -1,0 +1,138 @@
+year,team,conference,division,total.games,total.wins,total.losses,total.ties,conferenceGames.games,conferenceGames.wins,conferenceGames.losses,conferenceGames.ties,homeGames.games,homeGames.wins,homeGames.losses,homeGames.ties,awayGames.games,awayGames.wins,awayGames.losses,awayGames.ties
+1975,Air Force,FBS Independents,,11,2,9,0,4,2,2,0,4,1,3,0,7,1,6,0
+1975,Akron,FBS Independents,,11,7,4,0,4,3,1,0,6,5,1,0,5,2,3,0
+1975,Alabama,SEC,,12,11,1,0,6,6,0,0,8,7,1,0,3,3,0,0
+1975,Appalachian State,Southern,,11,8,3,0,4,2,2,0,5,4,1,0,6,4,2,0
+1975,Arizona,Western Athletic,,11,9,2,0,7,5,2,0,5,4,1,0,6,5,1,0
+1975,Arizona State,Western Athletic,,12,12,0,0,7,7,0,0,7,7,0,0,4,4,0,0
+1975,Arkansas,Southwest,,12,10,2,0,7,6,1,0,7,6,1,0,4,3,1,0
+1975,Arkansas State,Southland,,11,11,0,0,5,5,0,0,6,6,0,0,5,5,0,0
+1975,Army,FBS Independents,,11,2,9,0,7,1,6,0,6,2,4,0,5,0,5,0
+1975,Auburn,SEC,,11,4,7,0,6,1,5,0,4,1,3,0,7,3,4,0
+1975,Ball State,Mid-American,,11,9,2,0,6,4,2,0,5,5,0,0,6,4,2,0
+1975,Baylor,Southwest,,11,4,7,0,7,2,5,0,5,3,2,0,6,1,5,0
+1975,Boston College,FBS Independents,,11,7,4,0,10,6,4,0,6,4,2,0,5,3,2,0
+1975,Bowling Green,Mid-American,,11,8,3,0,6,4,2,0,6,4,2,0,5,4,1,0
+1975,Brown,Ivy,,9,7,2,0,7,6,1,0,5,4,1,0,4,3,1,0
+1975,BYU,Western Athletic,,11,6,5,0,7,4,3,0,5,3,2,0,6,3,3,0
+1975,California,Pac-8,,11,8,3,0,7,6,1,0,5,4,1,0,6,4,2,0
+1975,Cal State Fullerton,PCAA,,11,2,9,0,5,0,5,0,4,2,2,0,7,0,7,0
+1975,Central Michigan,Mid-American,,11,8,3,0,6,4,2,0,5,4,1,0,6,4,2,0
+1975,Chattanooga,FBS Independents,,11,5,6,0,1,0,1,0,4,4,0,0,7,1,6,0
+1975,Cincinnati,FBS Independents,,11,6,5,0,4,3,1,0,6,4,2,0,5,2,3,0
+1975,Clemson,ACC,,11,2,9,0,5,2,3,0,5,1,4,0,6,1,5,0
+1975,Colgate,FBS Independents,,10,6,4,0,2,1,1,0,3,2,1,0,7,4,3,0
+1975,Colorado,Big 8,,12,9,3,0,7,5,2,0,6,6,0,0,5,3,2,0
+1975,Colorado State,Western Athletic,,11,6,5,0,6,4,2,0,5,2,3,0,6,4,2,0
+1975,Columbia,Ivy,,9,2,7,0,7,2,5,0,4,1,3,0,5,1,4,0
+1975,Cornell,Ivy,,9,1,8,0,7,0,7,0,5,0,5,0,4,1,3,0
+1975,Dartmouth,Ivy,,9,5,4,0,7,4,3,0,3,3,0,0,6,2,4,0
+1975,Dayton,FBS Independents,,11,5,6,0,5,3,2,0,4,2,2,0,7,3,4,0
+1975,Drake,Missouri Valley,,11,3,8,0,4,1,3,0,5,2,3,0,6,1,5,0
+1975,Duke,ACC,,11,4,7,0,5,3,2,0,3,2,1,0,8,2,6,0
+1975,East Carolina,Southern,,11,8,3,0,6,4,2,0,5,4,1,0,6,4,2,0
+1975,Eastern Michigan,FBS Independents,,10,4,6,0,3,3,0,0,5,3,2,0,5,1,4,0
+1975,Florida,SEC,,12,9,3,0,6,5,1,0,5,5,0,0,6,4,2,0
+1975,Florida State,FBS Independents,,11,3,8,0,6,2,4,0,5,1,4,0,6,2,4,0
+1975,Fresno State,PCAA,,11,3,8,0,5,1,4,0,4,1,3,0,7,2,5,0
+1975,Furman,Southern,,11,6,5,0,6,2,4,0,6,4,2,0,5,2,3,0
+1975,Georgia,SEC,,12,9,3,0,6,5,1,0,7,6,1,0,4,3,1,0
+1975,Georgia Tech,FBS Independents,,11,7,4,0,6,4,2,0,8,6,2,0,3,1,2,0
+1975,Harvard,Ivy,,9,7,2,0,7,6,1,0,5,3,2,0,4,4,0,0
+1975,Hawai'i,FBS Independents,,11,6,5,0,1,0,1,0,9,6,3,0,2,0,2,0
+1975,Holy Cross,FBS Independents,,11,1,10,0,4,0,4,0,5,1,4,0,6,0,6,0
+1975,Houston,FBS Independents,,10,2,8,0,6,0,6,0,6,2,4,0,4,0,4,0
+1975,Illinois,Big Ten,,11,5,6,0,8,4,4,0,6,2,4,0,5,3,2,0
+1975,Illinois State,FBS Independents,,10,2,8,0,4,0,4,0,3,1,2,0,7,1,6,0
+1975,Indiana,Big Ten,,11,3,8,0,8,2,6,0,6,3,3,0,5,0,5,0
+1975,Indiana State,FBS Independents,,10,5,5,0,5,3,2,0,4,4,0,0,6,1,5,0
+1975,Iowa,Big Ten,,11,3,8,0,8,3,5,0,6,1,5,0,5,2,3,0
+1975,Iowa State,Big 8,,11,4,7,0,7,1,6,0,5,1,4,0,6,3,3,0
+1975,Kansas,Big 8,,12,7,5,0,7,4,3,0,6,3,3,0,5,4,1,0
+1975,Kansas State,Big 8,,11,3,8,0,7,0,7,0,5,1,4,0,6,2,4,0
+1975,Kent State,Mid-American,,11,4,7,0,7,1,6,0,4,2,2,0,7,2,5,0
+1975,Kentucky,SEC,,11,2,9,0,6,0,6,0,5,2,3,0,6,0,6,0
+1975,Lamar,Southland,,11,1,10,0,5,0,5,0,5,1,4,0,6,0,6,0
+1975,Long Beach State,PCAA,,11,9,2,0,5,4,1,0,5,4,1,0,6,5,1,0
+1975,Louisiana,Southland,,11,6,5,0,5,2,3,0,7,5,2,0,4,1,3,0
+1975,Louisiana Monroe,FBS Independents,,11,4,7,0,2,1,1,0,6,3,3,0,5,1,4,0
+1975,Louisiana Tech,Southland,,10,8,2,0,5,4,1,0,7,5,2,0,3,3,0,0
+1975,Louisville,FBS Independents,,11,1,10,0,5,1,4,0,5,1,4,0,6,0,6,0
+1975,LSU,SEC,,11,4,7,0,6,1,5,0,7,3,4,0,4,1,3,0
+1975,Marshall,FBS Independents,,11,2,9,0,4,1,3,0,5,2,3,0,6,0,6,0
+1975,Maryland,ACC,,12,10,2,0,5,5,0,0,6,5,1,0,5,4,1,0
+1975,McNeese,Southland,,11,7,4,0,5,3,2,0,6,3,3,0,5,4,1,0
+1975,Memphis,FBS Independents,,11,7,4,0,6,4,2,0,6,3,3,0,5,4,1,0
+1975,Miami,FBS Independents,,10,2,8,0,6,2,4,0,6,1,5,0,4,1,3,0
+1975,Miami (OH),Mid-American,,12,11,1,0,6,6,0,0,6,6,0,0,5,4,1,0
+1975,Michigan,Big Ten,,12,8,4,0,8,7,1,0,5,4,1,0,6,4,2,0
+1975,Michigan State,Big Ten,,11,7,4,0,8,4,4,0,6,3,3,0,5,4,1,0
+1975,Minnesota,Big Ten,,11,6,5,0,8,3,5,0,7,5,2,0,4,1,3,0
+1975,Mississippi State,SEC,,11,7,4,0,6,2,4,0,5,3,2,0,6,4,2,0
+1975,Missouri,Big 8,,11,6,5,0,7,3,4,0,5,3,2,0,6,3,3,0
+1975,Navy,FBS Independents,,11,7,4,0,8,5,3,0,4,4,0,0,7,3,4,0
+1975,NC State,ACC,,12,8,4,0,5,3,2,0,7,6,1,0,4,2,2,0
+1975,Nebraska,Big 8,,12,10,2,0,7,6,1,0,7,7,0,0,4,3,1,0
+1975,New Mexico,Western Athletic,,11,6,5,0,7,4,3,0,6,4,2,0,5,2,3,0
+1975,New Mexico State,Missouri Valley,,11,5,6,0,4,2,2,0,5,2,3,0,6,3,3,0
+1975,North Carolina,ACC,,11,4,7,0,6,2,4,0,7,2,5,0,4,2,2,0
+1975,Northern Illinois,Mid-American,,11,3,8,0,5,2,3,0,5,2,3,0,6,1,5,0
+1975,North Texas,FBS Independents,,11,7,4,0,2,1,1,0,4,4,0,0,7,3,4,0
+1975,Northwestern,Big Ten,,11,3,8,0,8,2,6,0,5,3,2,0,6,0,6,0
+1975,Notre Dame,FBS Independents,,11,8,3,0,6,5,1,0,5,3,2,0,6,5,1,0
+1975,Ohio,Mid-American,,11,6,5,0,7,4,3,0,6,4,2,0,5,2,3,0
+1975,Ohio State,Big Ten,,12,11,1,0,8,8,0,0,6,6,0,0,5,5,0,0
+1975,Oklahoma,Big 8,,12,11,1,0,7,6,1,0,7,6,1,0,4,4,0,0
+1975,Oklahoma State,Big 8,,11,7,4,0,7,3,4,0,7,5,2,0,4,2,2,0
+1975,Ole Miss,SEC,,11,6,5,0,6,5,1,0,7,6,1,0,4,0,4,0
+1975,Oregon,Pac-8,,11,3,8,0,7,2,5,0,6,2,4,0,5,1,4,0
+1975,Oregon State,Pac-8,,11,1,10,0,7,1,6,0,5,1,4,0,6,0,6,0
+1975,Pacific,PCAA,,12,6,6,0,5,2,3,0,6,5,1,0,6,1,5,0
+1975,Penn State,FBS Independents,,12,9,3,0,5,5,0,0,5,4,1,0,6,5,1,0
+1975,Pennsylvania,Ivy,,9,3,6,0,7,2,5,0,4,2,2,0,5,1,4,0
+1975,Pittsburgh,FBS Independents,,12,8,4,0,7,4,3,0,5,3,2,0,6,4,2,0
+1975,Princeton,Ivy,,9,4,5,0,7,3,4,0,6,1,5,0,3,3,0,0
+1975,Purdue,Big Ten,,11,4,7,0,8,4,4,0,6,2,4,0,5,2,3,0
+1975,Rice,Southwest,,11,2,9,0,7,1,6,0,6,1,5,0,5,1,4,0
+1975,Richmond,Southern,,11,5,6,0,6,5,1,0,5,3,2,0,6,2,4,0
+1975,Rutgers,FBS Independents,,11,9,2,0,3,3,0,0,7,7,0,0,4,2,2,0
+1975,San Diego State,PCAA,,11,8,3,0,5,3,2,0,6,4,2,0,5,4,1,0
+1975,San José State,PCAA,,11,9,2,0,5,5,0,0,5,5,0,0,6,4,2,0
+1975,SMU,Southwest,,11,4,7,0,7,2,5,0,4,1,3,0,7,3,4,0
+1975,South Carolina,FBS Independents,,12,7,5,0,1,1,0,0,7,5,2,0,4,2,2,0
+1975,Southern Illinois,FBS Independents,,11,2,9,0,2,1,1,0,7,2,5,0,4,0,4,0
+1975,Southern Mississippi,FBS Independents,,11,7,4,0,1,1,0,0,3,3,0,0,8,4,4,0
+1975,Stanford,Pac-8,,11,7,4,0,7,5,2,0,7,4,3,0,4,3,1,0
+1975,Syracuse,FBS Independents,,11,6,5,0,8,4,4,0,6,4,2,0,5,2,3,0
+1975,TCU,Southwest,,11,1,10,0,7,1,6,0,5,1,4,0,6,0,6,0
+1975,Temple,FBS Independents,,11,6,5,0,8,3,5,0,9,5,4,0,2,1,1,0
+1975,Tennessee,SEC,,12,7,5,0,6,3,3,0,7,5,2,0,5,2,3,0
+1975,Texas,Southwest,,12,10,2,0,7,6,1,0,6,6,0,0,5,3,2,0
+1975,Texas A&M,Southwest,,12,10,2,0,7,6,1,0,5,5,0,0,6,5,1,0
+1975,Texas-Arlington,Southland,,11,4,7,0,5,1,4,0,4,2,2,0,7,2,5,0
+1975,Texas Tech,Southwest,,11,6,5,0,7,4,3,0,6,5,1,0,5,1,4,0
+1975,The Citadel,Southern,,11,6,5,0,6,3,3,0,6,4,2,0,5,2,3,0
+1975,Toledo,Mid-American,,11,5,6,0,8,4,4,0,6,4,2,0,5,1,4,0
+1975,Tulane,FBS Independents,,11,4,7,0,5,2,3,0,7,1,6,0,4,3,1,0
+1975,Tulsa,Missouri Valley,,11,7,4,0,4,4,0,0,6,4,2,0,5,3,2,0
+1975,UCLA,Pac-8,,12,10,2,0,7,6,1,0,7,5,2,0,4,4,0,0
+1975,USC,Pac-8,,12,8,4,0,7,3,4,0,7,5,2,0,4,2,2,0
+1975,Utah,Western Athletic,,11,1,10,0,5,1,4,0,5,1,4,0,6,0,6,0
+1975,Utah State,FBS Independents,,11,6,5,0,1,0,1,0,4,2,2,0,7,4,3,0
+1975,UTEP,Western Athletic,,11,1,10,0,6,0,6,0,5,1,4,0,6,0,6,0
+1975,Vanderbilt,SEC,,11,7,4,0,6,2,4,0,6,4,2,0,5,3,2,0
+1975,Villanova,FBS Independents,,11,4,7,0,6,3,3,0,4,2,2,0,7,2,5,0
+1975,Virginia,ACC,,11,1,10,0,4,0,4,0,6,1,5,0,5,0,5,0
+1975,Virginia Tech,FBS Independents,,11,8,3,0,3,2,1,0,6,6,0,0,5,2,3,0
+1975,VMI,Southern,,11,3,8,0,5,1,4,0,4,1,3,0,7,2,5,0
+1975,Wake Forest,ACC,,11,3,8,0,6,3,3,0,5,0,5,0,6,3,3,0
+1975,Washington,Pac-8,,11,6,5,0,7,5,2,0,6,4,2,0,5,2,3,0
+1975,Washington State,Pac-8,,11,3,8,0,7,0,7,0,4,1,3,0,7,2,5,0
+1975,Western Michigan,Mid-American,,11,1,10,0,7,0,7,0,5,1,4,0,6,0,6,0
+1975,West Texas A&M,Missouri Valley,,11,5,6,0,4,2,2,0,5,3,2,0,6,2,4,0
+1975,West Virginia,FBS Independents,,12,9,3,0,7,4,3,0,6,5,1,0,5,3,2,0
+1975,Wichita State,Missouri Valley,,11,3,8,0,4,1,3,0,6,3,3,0,5,0,5,0
+1975,William & Mary,Southern,,11,2,9,0,5,2,3,0,4,1,3,0,7,1,6,0
+1975,Wisconsin,Big Ten,,11,4,7,0,8,3,5,0,5,3,2,0,6,1,5,0
+1975,Wyoming,Western Athletic,,11,2,9,0,7,1,6,0,5,1,4,0,6,1,5,0
+1975,Yale,Ivy,,9,7,2,0,7,5,2,0,6,5,1,0,3,2,1,0

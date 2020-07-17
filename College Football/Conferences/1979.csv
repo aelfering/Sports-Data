@@ -1,0 +1,141 @@
+year,team,conference,division,total.games,total.wins,total.losses,total.ties,conferenceGames.games,conferenceGames.wins,conferenceGames.losses,conferenceGames.ties,homeGames.games,homeGames.wins,homeGames.losses,homeGames.ties,awayGames.games,awayGames.wins,awayGames.losses,awayGames.ties
+1979,Air Force,FBS Independents,,11,2,9,0,4,1,3,0,6,2,4,0,5,0,5,0
+1979,Alabama,SEC,,12,12,0,0,6,6,0,0,7,7,0,0,4,4,0,0
+1979,Appalachian State,Southern,,11,3,8,0,7,3,4,0,4,1,3,0,7,2,5,0
+1979,Arizona,Pac-10,,12,6,6,0,7,4,3,0,6,4,2,0,5,2,3,0
+1979,Arizona State,Pac-10,,12,6,6,0,7,3,4,0,7,5,2,0,5,1,4,0
+1979,Arkansas,Southwest,,12,10,2,0,8,7,1,0,7,6,1,0,4,4,0,0
+1979,Arkansas State,Southland,,11,4,7,0,5,1,4,0,5,2,3,0,6,2,4,0
+1979,Army,FBS Independents,,11,2,9,0,7,1,6,0,5,1,4,0,6,1,5,0
+1979,Auburn,SEC,,11,8,3,0,6,4,2,0,6,6,0,0,5,2,3,0
+1979,Ball State,Mid-American,,11,6,5,0,8,4,4,0,6,5,1,0,5,1,4,0
+1979,Baylor,Southwest,,12,8,4,0,8,5,3,0,5,5,0,0,6,2,4,0
+1979,Boston College,FBS Independents,,11,5,6,0,8,4,4,0,5,2,3,0,6,3,3,0
+1979,Bowling Green,Mid-American,,11,4,7,0,8,3,5,0,5,2,3,0,6,2,4,0
+1979,Brown,Ivy,,9,6,3,0,7,5,2,0,5,5,0,0,4,1,3,0
+1979,BYU,Western Athletic,,12,11,1,0,7,7,0,0,5,5,0,0,6,6,0,0
+1979,California,Pac-10,,12,6,6,0,9,5,4,0,5,2,3,0,6,4,2,0
+1979,Cal State Fullerton,PCAA,,11,3,8,0,5,1,4,0,4,1,3,0,7,2,5,0
+1979,Central Michigan,Mid-American,,11,11,0,0,9,9,0,0,6,6,0,0,5,5,0,0
+1979,Chattanooga,Southern,,11,9,2,0,6,5,1,0,6,5,1,0,5,4,1,0
+1979,Cincinnati,FBS Independents,,11,2,9,0,8,2,6,0,4,2,2,0,7,0,7,0
+1979,Clemson,ACC,,12,8,4,0,6,4,2,0,6,4,2,0,5,4,1,0
+1979,Colgate,FBS Independents,,10,6,4,0,2,1,1,0,4,3,1,0,6,3,3,0
+1979,Colorado,Big 8,,11,3,8,0,7,2,5,0,6,1,5,0,5,2,3,0
+1979,Colorado State,Western Athletic,,12,5,7,0,7,3,4,0,6,3,3,0,6,2,4,0
+1979,Columbia,Ivy,,9,1,8,0,7,1,6,0,5,1,4,0,4,0,4,0
+1979,Connecticut,FBS Independents,,11,4,7,0,4,0,4,0,4,2,2,0,7,2,5,0
+1979,Cornell,Ivy,,9,5,4,0,7,4,3,0,5,3,2,0,4,2,2,0
+1979,Dartmouth,Ivy,,9,5,4,0,7,4,3,0,5,2,3,0,4,3,1,0
+1979,Drake,Missouri Valley,,11,3,8,0,5,1,4,0,6,2,4,0,5,1,4,0
+1979,Duke,ACC,,11,3,8,0,6,0,6,0,6,2,4,0,5,1,4,0
+1979,East Carolina,FBS Independents,,11,8,3,0,3,3,0,0,7,7,0,0,4,1,3,0
+1979,Eastern Michigan,Mid-American,,11,2,9,0,8,1,7,0,5,2,3,0,6,0,6,0
+1979,East Tennessee State,Southern,,11,7,4,0,5,2,3,0,6,5,1,0,5,2,3,0
+1979,Florida,SEC,,11,0,11,0,6,0,6,0,4,0,4,0,7,0,7,0
+1979,Florida State,FBS Independents,,12,11,1,0,7,7,0,0,6,6,0,0,5,5,0,0
+1979,Fresno State,PCAA,,11,4,7,0,5,2,3,0,5,1,4,0,6,3,3,0
+1979,Furman,Southern,,11,5,6,0,7,4,3,0,6,3,3,0,5,2,3,0
+1979,Georgia,SEC,,11,6,5,0,6,5,1,0,7,3,4,0,4,3,1,0
+1979,Georgia Tech,FBS Independents,,11,5,6,0,5,3,2,0,8,5,3,0,3,0,3,0
+1979,Harvard,Ivy,,9,3,6,0,7,3,4,0,5,1,4,0,4,2,2,0
+1979,Hawai'i,Western Athletic,,11,6,5,0,6,3,3,0,9,5,4,0,2,1,1,0
+1979,Holy Cross,FBS Independents,,11,5,6,0,5,1,4,0,5,2,3,0,6,3,3,0
+1979,Houston,Southwest,,12,11,1,0,8,7,1,0,6,5,1,0,5,5,0,0
+1979,Illinois,Big Ten,,11,3,8,0,8,2,6,0,7,1,6,0,4,2,2,0
+1979,Illinois State,FBS Independents,,11,3,8,0,0,0,0,0,6,3,3,0,5,0,5,0
+1979,Indiana,Big Ten,,12,8,4,0,8,5,3,0,6,4,2,0,5,3,2,0
+1979,Indiana State,Missouri Valley,,11,8,3,0,5,3,2,0,5,4,1,0,6,4,2,0
+1979,Iowa,Big Ten,,11,5,6,0,8,4,4,0,6,2,4,0,5,3,2,0
+1979,Iowa State,Big 8,,11,3,8,0,7,2,5,0,6,2,4,0,5,1,4,0
+1979,Kansas,Big 8,,11,3,8,0,7,2,5,0,6,2,4,0,5,1,4,0
+1979,Kansas State,Big 8,,11,3,8,0,7,1,6,0,5,1,4,0,6,2,4,0
+1979,Kent State,Mid-American,,11,1,10,0,9,1,8,0,5,0,5,0,6,1,5,0
+1979,Kentucky,SEC,,11,5,6,0,6,3,3,0,5,3,2,0,6,2,4,0
+1979,Lamar,Southland,,11,7,4,0,5,3,2,0,5,4,1,0,6,3,3,0
+1979,Long Beach State,PCAA,,11,7,4,0,5,3,2,0,5,4,1,0,6,3,3,0
+1979,Louisiana,Southland,,11,4,7,0,5,1,4,0,6,3,3,0,5,1,4,0
+1979,Louisiana Monroe,FBS Independents,,11,3,8,0,2,1,1,0,4,2,2,0,7,1,6,0
+1979,Louisiana Tech,Southland,,11,2,9,0,5,1,4,0,6,2,4,0,5,0,5,0
+1979,Louisville,FBS Independents,,11,4,7,0,7,1,6,0,5,2,3,0,6,2,4,0
+1979,LSU,SEC,,12,7,5,0,6,4,2,0,7,4,3,0,4,2,2,0
+1979,Marshall,Southern,,11,1,10,0,6,0,6,0,6,1,5,0,5,0,5,0
+1979,Maryland,ACC,,11,7,4,0,6,4,2,0,6,5,1,0,5,2,3,0
+1979,McNeese,Southland,,12,11,1,0,5,5,0,0,6,6,0,0,5,5,0,0
+1979,Memphis,FBS Independents,,11,5,6,0,6,3,3,0,6,3,3,0,5,2,3,0
+1979,Miami,FBS Independents,,11,5,6,0,6,3,3,0,4,4,0,0,7,1,6,0
+1979,Miami (OH),Mid-American,,11,6,5,0,7,3,4,0,4,2,2,0,7,4,3,0
+1979,Michigan,Big Ten,,12,8,4,0,8,6,2,0,7,5,2,0,4,3,1,0
+1979,Michigan State,Big Ten,,11,5,6,0,8,3,5,0,6,4,2,0,5,1,4,0
+1979,Minnesota,Big Ten,,11,4,7,0,9,3,6,0,5,3,2,0,6,1,5,0
+1979,Mississippi State,SEC,,11,3,8,0,6,2,4,0,5,3,2,0,6,0,6,0
+1979,Missouri,Big 8,,12,7,5,0,7,3,4,0,6,1,5,0,5,5,0,0
+1979,Navy,FBS Independents,,11,7,4,0,8,4,4,0,6,5,1,0,5,2,3,0
+1979,NC State,ACC,,11,7,4,0,6,5,1,0,6,4,2,0,5,3,2,0
+1979,Nebraska,Big 8,,12,10,2,0,7,6,1,0,6,6,0,0,5,4,1,0
+1979,New Mexico,Western Athletic,,12,6,6,0,7,3,4,0,6,4,2,0,6,2,4,0
+1979,New Mexico State,Missouri Valley,,11,2,9,0,6,1,5,0,5,1,4,0,6,1,5,0
+1979,North Carolina,ACC,,12,8,4,0,6,3,3,0,5,3,2,0,6,4,2,0
+1979,Northern Illinois,Mid-American,,11,6,5,0,7,4,3,0,7,5,2,0,4,1,3,0
+1979,North Texas,FBS Independents,,11,5,6,0,3,0,3,0,4,4,0,0,7,1,6,0
+1979,Northwestern,Big Ten,,11,1,10,0,9,0,9,0,5,1,4,0,6,0,6,0
+1979,Northwestern State,FBS Independents,,9,3,6,0,1,1,0,0,5,1,4,0,4,2,2,0
+1979,Notre Dame,FBS Independents,,11,7,4,0,5,5,0,0,7,5,2,0,4,2,2,0
+1979,Ohio,Mid-American,,11,6,5,0,8,4,4,0,5,4,1,0,6,2,4,0
+1979,Ohio State,Big Ten,,12,11,1,0,8,8,0,0,7,7,0,0,4,4,0,0
+1979,Oklahoma,Big 8,,12,11,1,0,7,7,0,0,6,6,0,0,5,4,1,0
+1979,Oklahoma State,Big 8,,11,7,4,0,7,5,2,0,5,3,2,0,6,4,2,0
+1979,Ole Miss,SEC,,11,4,7,0,6,3,3,0,6,3,3,0,5,1,4,0
+1979,Oregon,Pac-10,,11,6,5,0,7,4,3,0,5,3,2,0,6,3,3,0
+1979,Oregon State,Pac-10,,11,1,10,0,8,1,7,0,5,1,4,0,6,0,6,0
+1979,Pacific,PCAA,,10,3,7,0,5,0,5,0,4,1,3,0,6,2,4,0
+1979,Penn State,FBS Independents,,12,8,4,0,8,6,2,0,8,5,3,0,3,2,1,0
+1979,Pennsylvania,Ivy,,9,0,9,0,7,0,7,0,5,0,5,0,4,0,4,0
+1979,Pittsburgh,FBS Independents,,12,11,1,0,8,8,0,0,5,5,0,0,6,5,1,0
+1979,Princeton,Ivy,,9,5,4,0,7,5,2,0,5,2,3,0,4,3,1,0
+1979,Purdue,Big Ten,,12,10,2,0,8,7,1,0,6,6,0,0,5,3,2,0
+1979,Rice,Southwest,,11,1,10,0,8,0,8,0,6,1,5,0,5,0,5,0
+1979,Richmond,FBS Independents,,11,0,11,0,6,0,6,0,4,0,4,0,7,0,7,0
+1979,Rutgers,FBS Independents,,11,8,3,0,8,5,3,0,5,3,2,0,6,5,1,0
+1979,San Diego State,Western Athletic,,11,8,3,0,6,4,2,0,6,5,1,0,5,3,2,0
+1979,San José State,PCAA,,11,6,5,0,5,4,1,0,5,4,1,0,6,2,4,0
+1979,SMU,Southwest,,11,5,6,0,8,3,5,0,5,3,2,0,6,2,4,0
+1979,South Carolina,FBS Independents,,12,8,4,0,2,0,2,0,7,7,0,0,4,1,3,0
+1979,Southern Illinois,Missouri Valley,,11,8,3,0,5,4,1,0,6,5,1,0,5,3,2,0
+1979,Southern Mississippi,FBS Independents,,11,7,4,0,6,4,2,0,7,6,1,0,4,1,3,0
+1979,Stanford,Pac-10,,11,6,5,0,7,4,3,0,8,5,3,0,3,1,2,0
+1979,Syracuse,FBS Independents,,12,7,5,0,7,3,4,0,4,3,1,0,7,3,4,0
+1979,TCU,Southwest,,11,3,8,0,8,2,6,0,7,1,6,0,4,2,2,0
+1979,Temple,FBS Independents,,12,10,2,0,7,5,2,0,5,4,1,0,6,5,1,0
+1979,Tennessee,SEC,,12,7,5,0,6,3,3,0,6,5,1,0,5,2,3,0
+1979,Texas,Southwest,,12,9,3,0,8,6,2,0,6,6,0,0,5,3,2,0
+1979,Texas A&M,Southwest,,11,6,5,0,8,4,4,0,5,2,3,0,6,4,2,0
+1979,Texas-Arlington,Southland,,11,9,2,0,5,4,1,0,3,2,1,0,8,7,1,0
+1979,Texas Tech,Southwest,,11,4,7,0,8,2,6,0,6,4,2,0,5,0,5,0
+1979,The Citadel,Southern,,11,6,5,0,6,4,2,0,5,3,2,0,6,3,3,0
+1979,Toledo,Mid-American,,11,7,4,0,9,7,2,0,4,4,0,0,7,3,4,0
+1979,Tulane,FBS Independents,,12,9,3,0,5,3,2,0,6,6,0,0,5,3,2,0
+1979,Tulsa,Missouri Valley,,11,6,5,0,2,2,0,0,5,3,2,0,6,3,3,0
+1979,UCLA,Pac-10,,11,5,6,0,7,3,4,0,6,3,3,0,5,2,3,0
+1979,UNLV,FBS Independents,,12,9,3,0,0,0,0,0,3,3,0,0,9,6,3,0
+1979,USC,Pac-10,,12,11,1,0,7,6,1,0,4,4,0,0,7,6,1,0
+1979,Utah,Western Athletic,,12,6,6,0,7,5,2,0,5,3,2,0,7,3,4,0
+1979,Utah State,PCAA,,11,8,3,0,5,5,0,0,5,4,1,0,6,4,2,0
+1979,UTEP,Western Athletic,,11,2,9,0,7,0,7,0,5,2,3,0,6,0,6,0
+1979,Vanderbilt,SEC,,11,1,10,0,6,0,6,0,5,1,4,0,6,0,6,0
+1979,Villanova,FBS Independents,,11,5,6,0,6,3,3,0,5,2,3,0,6,3,3,0
+1979,Virginia,ACC,,11,6,5,0,5,1,4,0,6,5,1,0,5,1,4,0
+1979,Virginia Tech,FBS Independents,,11,5,6,0,5,3,2,0,7,4,3,0,4,1,3,0
+1979,VMI,Southern,,11,6,5,0,5,4,1,0,5,4,1,0,6,2,4,0
+1979,Wake Forest,ACC,,12,8,4,0,5,3,2,0,5,5,0,0,6,3,3,0
+1979,Washington,Pac-10,,12,9,3,0,7,5,2,0,7,5,2,0,4,3,1,0
+1979,Washington State,Pac-10,,11,3,8,0,8,2,6,0,5,2,3,0,6,1,5,0
+1979,Western Carolina,Southern,,11,6,5,0,6,2,4,0,5,3,2,0,6,3,3,0
+1979,Western Michigan,Mid-American,,11,6,5,0,9,5,4,0,6,4,2,0,5,2,3,0
+1979,West Texas A&M,Missouri Valley,,11,6,5,0,5,5,0,0,5,4,1,0,6,2,4,0
+1979,West Virginia,FBS Independents,,11,5,6,0,8,4,4,0,6,3,3,0,5,2,3,0
+1979,Wichita State,Missouri Valley,,11,1,10,0,6,1,5,0,6,1,5,0,5,0,5,0
+1979,William & Mary,FBS Independents,,11,4,7,0,7,2,5,0,6,3,3,0,5,1,4,0
+1979,Wisconsin,Big Ten,,11,4,7,0,8,3,5,0,6,3,3,0,5,1,4,0
+1979,Wyoming,Western Athletic,,12,4,8,0,7,2,5,0,6,3,3,0,6,1,5,0
+1979,Yale,Ivy,,9,8,1,0,7,6,1,0,6,5,1,0,3,3,0,0

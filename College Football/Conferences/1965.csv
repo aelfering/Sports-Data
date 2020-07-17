@@ -1,0 +1,121 @@
+year,team,conference,division,total.games,total.wins,total.losses,total.ties,conferenceGames.games,conferenceGames.wins,conferenceGames.losses,conferenceGames.ties,homeGames.games,homeGames.wins,homeGames.losses,homeGames.ties,awayGames.games,awayGames.wins,awayGames.losses,awayGames.ties
+1965,Air Force,FBS Independents,,10,4,6,0,2,2,0,0,7,2,5,0,3,2,1,0
+1965,Alabama,SEC,,11,9,2,0,8,6,2,0,5,5,0,0,5,3,2,0
+1965,Arizona,Western Athletic,,10,3,7,0,5,1,4,0,5,1,4,0,5,2,3,0
+1965,Arizona State,Western Athletic,,10,6,4,0,4,3,1,0,7,5,2,0,3,1,2,0
+1965,Arkansas,Southwest,,11,10,1,0,7,7,0,0,7,7,0,0,3,3,0,0
+1965,Army,FBS Independents,,10,4,6,0,6,2,4,0,6,4,2,0,4,0,4,0
+1965,Auburn,SEC,,11,6,5,0,7,5,2,0,7,5,2,0,3,1,2,0
+1965,Baylor,Southwest,,10,5,5,0,7,3,4,0,4,2,2,0,6,3,3,0
+1965,Boston College,FBS Independents,,10,6,4,0,7,3,4,0,6,5,1,0,4,1,3,0
+1965,Bowling Green,Mid-American,,9,7,2,0,6,5,1,0,4,3,1,0,5,4,1,0
+1965,Brown,Ivy,,9,2,7,0,7,1,6,0,5,1,4,0,4,1,3,0
+1965,Buffalo,FBS Independents,,10,5,5,0,5,2,3,0,3,2,1,0,7,3,4,0
+1965,BYU,Western Athletic,,10,6,4,0,5,4,1,0,4,3,1,0,6,3,3,0
+1965,California,AAWU,,10,5,5,0,5,2,3,0,5,3,2,0,5,2,3,0
+1965,Cincinnati,Missouri Valley,,10,5,5,0,3,1,2,0,6,3,3,0,4,2,2,0
+1965,Clemson,ACC,,10,5,5,0,7,4,3,0,4,3,1,0,6,2,4,0
+1965,Colgate,FBS Independents,,10,7,3,0,4,3,1,0,4,4,0,0,6,3,3,0
+1965,Colorado,Big 8,,10,7,3,0,7,4,3,0,5,4,1,0,5,3,2,0
+1965,Colorado State,FBS Independents,,10,4,6,0,3,0,3,0,5,3,2,0,5,1,4,0
+1965,Columbia,Ivy,,9,2,7,0,7,1,6,0,5,1,4,0,4,1,3,0
+1965,Cornell,Ivy,,9,4,5,0,7,3,4,0,3,2,1,0,6,2,4,0
+1965,Dartmouth,Ivy,,9,9,0,0,7,7,0,0,3,3,0,0,6,6,0,0
+1965,Davidson,Southern,,10,6,4,0,5,2,3,0,6,3,3,0,4,3,1,0
+1965,Dayton,FBS Independents,,10,2,8,0,3,1,2,0,5,2,3,0,5,0,5,0
+1965,Duke,ACC,,10,6,4,0,6,4,2,0,4,3,1,0,6,3,3,0
+1965,East Carolina,Southern,,10,9,1,0,4,3,1,0,5,5,0,0,4,3,1,0
+1965,Florida,SEC,,11,7,4,0,6,4,2,0,6,5,1,0,4,2,2,0
+1965,Florida State,FBS Independents,,10,4,6,0,2,1,1,0,4,4,0,0,6,0,6,0
+1965,Furman,Southern,,10,5,5,0,5,2,3,0,5,3,2,0,5,2,3,0
+1965,George Washington,Southern,,10,5,5,0,7,4,3,0,5,3,2,0,5,2,3,0
+1965,Georgia,SEC,,10,6,4,0,5,2,3,0,4,3,1,0,6,3,3,0
+1965,Georgia Tech,FBS Independents,,11,8,3,0,1,1,0,0,8,6,2,0,2,1,1,0
+1965,Harvard,Ivy,,9,7,2,0,7,5,2,0,7,5,2,0,2,2,0,0
+1965,Holy Cross,FBS Independents,,10,2,8,0,5,1,4,0,3,1,2,0,7,1,6,0
+1965,Houston,FBS Independents,,10,5,5,0,2,1,1,0,7,5,2,0,3,0,3,0
+1965,Idaho,FBS Independents,,10,5,5,0,2,1,1,0,4,3,1,0,6,2,4,0
+1965,Illinois,Big Ten,,10,6,4,0,7,4,3,0,6,4,2,0,4,2,2,0
+1965,Indiana,Big Ten,,10,2,8,0,7,1,6,0,5,2,3,0,5,0,5,0
+1965,Iowa,Big Ten,,10,1,9,0,7,0,7,0,5,0,5,0,5,1,4,0
+1965,Iowa State,Big 8,,10,6,4,0,7,4,3,0,6,5,1,0,4,1,3,0
+1965,Kansas,Big 8,,10,2,8,0,7,2,5,0,5,2,3,0,5,0,5,0
+1965,Kansas State,Big 8,,10,0,10,0,7,0,7,0,4,0,4,0,6,0,6,0
+1965,Kent State,Mid-American,,10,6,4,0,6,4,2,0,6,5,1,0,4,1,3,0
+1965,Kentucky,SEC,,10,6,4,0,6,3,3,0,5,4,1,0,5,2,3,0
+1965,Lehigh,FBS Independents,,9,1,8,0,1,0,1,0,5,1,4,0,4,0,4,0
+1965,Louisville,Missouri Valley,,10,6,4,0,3,2,1,0,5,4,1,0,5,2,3,0
+1965,LSU,SEC,,11,8,3,0,6,3,3,0,7,6,1,0,3,1,2,0
+1965,Marshall,Mid-American,,10,5,5,0,6,2,4,0,5,4,1,0,5,1,4,0
+1965,Maryland,ACC,,10,4,6,0,6,3,3,0,5,1,4,0,5,3,2,0
+1965,Memphis,FBS Independents,,10,5,5,0,4,2,2,0,6,4,2,0,4,1,3,0
+1965,Miami,FBS Independents,,10,5,5,0,5,3,2,0,5,3,2,0,5,2,3,0
+1965,Miami (OH),Mid-American,,10,7,3,0,6,5,1,0,4,3,1,0,6,4,2,0
+1965,Michigan,Big Ten,,10,4,6,0,7,2,5,0,6,2,4,0,4,2,2,0
+1965,Michigan State,Big Ten,,11,10,1,0,7,7,0,0,5,5,0,0,5,5,0,0
+1965,Minnesota,Big Ten,,10,6,4,0,7,5,2,0,7,5,2,0,3,1,2,0
+1965,Mississippi State,SEC,,10,4,6,0,6,1,5,0,4,2,2,0,6,2,4,0
+1965,Missouri,Big 8,,11,8,3,0,7,6,1,0,4,2,2,0,6,5,1,0
+1965,Navy,FBS Independents,,10,6,4,0,6,2,4,0,6,5,1,0,4,1,3,0
+1965,NC State,ACC,,10,6,4,0,7,4,3,0,4,3,1,0,6,3,3,0
+1965,Nebraska,Big 8,,11,10,1,0,7,7,0,0,6,6,0,0,4,4,0,0
+1965,New Mexico,Western Athletic,,10,3,7,0,5,2,3,0,6,2,4,0,4,1,3,0
+1965,New Mexico State,FBS Independents,,10,8,2,0,3,2,1,0,4,4,0,0,6,4,2,0
+1965,North Carolina,ACC,,10,4,6,0,6,3,3,0,5,2,3,0,5,2,3,0
+1965,North Texas,Missouri Valley,,10,3,7,0,4,2,2,0,5,2,3,0,5,1,4,0
+1965,Northwestern,Big Ten,,10,4,6,0,7,3,4,0,6,3,3,0,4,1,3,0
+1965,Notre Dame,FBS Independents,,10,8,2,0,4,4,0,0,6,5,1,0,4,3,1,0
+1965,Ohio,Mid-American,,10,0,10,0,6,0,6,0,5,0,5,0,5,0,5,0
+1965,Ohio State,Big Ten,,9,7,2,0,7,6,1,0,5,4,1,0,4,3,1,0
+1965,Oklahoma,Big 8,,10,3,7,0,7,3,4,0,5,2,3,0,5,1,4,0
+1965,Oklahoma State,Big 8,,10,3,7,0,7,2,5,0,4,2,2,0,6,1,5,0
+1965,Ole Miss,SEC,,11,7,4,0,9,6,3,0,5,4,1,0,5,2,3,0
+1965,Oregon,AAWU,,10,4,6,0,5,0,5,0,5,2,3,0,5,2,3,0
+1965,Oregon State,AAWU,,10,5,5,0,4,1,3,0,3,1,2,0,7,4,3,0
+1965,Pacific,FBS Independents,,9,1,8,0,3,0,3,0,5,1,4,0,4,0,4,0
+1965,Penn State,FBS Independents,,10,5,5,0,4,2,2,0,5,3,2,0,5,2,3,0
+1965,Pennsylvania,Ivy,,9,4,5,0,7,2,5,0,5,4,1,0,4,0,4,0
+1965,Pittsburgh,FBS Independents,,10,3,7,0,5,2,3,0,5,3,2,0,5,0,5,0
+1965,Princeton,Ivy,,9,8,1,0,7,6,1,0,6,5,1,0,3,3,0,0
+1965,Purdue,Big Ten,,10,8,2,0,7,5,2,0,6,5,1,0,4,3,1,0
+1965,Quantico Marines,FBS Independents,,10,6,4,0,4,3,1,0,3,2,1,0,7,4,3,0
+1965,Rice,Southwest,,10,2,8,0,7,1,6,0,6,1,5,0,4,1,3,0
+1965,Richmond,Southern,,10,0,10,0,6,0,6,0,3,0,3,0,7,0,7,0
+1965,Rutgers,FBS Independents,,9,3,6,0,4,2,2,0,4,2,2,0,5,1,4,0
+1965,San José State,FBS Independents,,10,5,5,0,3,1,2,0,4,3,1,0,6,2,4,0
+1965,SMU,Southwest,,10,4,6,0,7,3,4,0,4,1,3,0,6,3,3,0
+1965,South Carolina,ACC,,10,5,5,0,6,4,2,0,5,3,2,0,5,2,3,0
+1965,Southern Mississippi,FBS Independents,,9,7,2,0,1,1,0,0,4,4,0,0,5,3,2,0
+1965,Stanford,AAWU,,10,6,4,0,5,2,3,0,5,4,1,0,5,2,3,0
+1965,Syracuse,FBS Independents,,10,7,3,0,6,5,1,0,6,4,2,0,4,3,1,0
+1965,TCU,Southwest,,11,6,5,0,7,5,2,0,3,3,0,0,7,3,4,0
+1965,Tennessee,SEC,,11,9,2,0,5,3,2,0,7,7,0,0,3,1,2,0
+1965,Texas,Southwest,,10,6,4,0,7,3,4,0,7,5,2,0,3,1,2,0
+1965,Texas A&M,Southwest,,10,3,7,0,7,1,6,0,4,1,3,0,6,2,4,0
+1965,Texas Tech,Southwest,,11,8,3,0,7,5,2,0,7,7,0,0,3,1,2,0
+1965,The Citadel,Southern,,10,2,8,0,8,2,6,0,6,1,5,0,4,1,3,0
+1965,Toledo,Mid-American,,10,5,5,0,6,2,4,0,5,4,1,0,5,1,4,0
+1965,Tulane,SEC,,10,2,8,0,6,1,5,0,5,2,3,0,5,0,5,0
+1965,Tulsa,Missouri Valley,,11,8,3,0,4,4,0,0,4,4,0,0,6,4,2,0
+1965,UCLA,AAWU,,11,9,2,0,4,4,0,0,4,4,0,0,6,4,2,0
+1965,USC,AAWU,,10,7,3,0,5,4,1,0,5,4,1,0,5,3,2,0
+1965,Utah,Western Athletic,,10,3,7,0,4,1,3,0,7,3,4,0,3,0,3,0
+1965,Utah State,FBS Independents,,10,8,2,0,4,3,1,0,4,4,0,0,6,4,2,0
+1965,UTEP,FBS Independents,,11,8,3,0,4,4,0,0,6,5,1,0,4,2,2,0
+1965,Vanderbilt,SEC,,10,2,8,0,6,1,5,0,4,1,3,0,6,1,5,0
+1965,Villanova,FBS Independents,,9,1,8,0,5,0,5,0,4,1,3,0,5,0,5,0
+1965,Virginia,ACC,,10,4,6,0,6,2,4,0,6,2,4,0,4,2,2,0
+1965,Virginia Tech,FBS Independents,,10,7,3,0,2,1,1,0,5,5,0,0,5,2,3,0
+1965,VMI,Southern,,10,3,7,0,5,3,2,0,2,2,0,0,8,1,7,0
+1965,Wake Forest,ACC,,10,3,7,0,6,1,5,0,3,2,1,0,7,1,6,0
+1965,Washington,AAWU,,10,5,5,0,7,4,3,0,6,4,2,0,4,1,3,0
+1965,Washington State,AAWU,,10,7,3,0,3,2,1,0,4,3,1,0,6,4,2,0
+1965,Western Michigan,Mid-American,,9,6,3,0,6,3,3,0,4,3,1,0,5,3,2,0
+1965,West Texas A&M,FBS Independents,,10,6,4,0,4,1,3,0,6,5,1,0,4,1,3,0
+1965,West Virginia,Southern,,10,6,4,0,4,4,0,0,5,4,1,0,5,2,3,0
+1965,Wichita State,Missouri Valley,,9,2,7,0,4,0,4,0,4,2,2,0,5,0,5,0
+1965,William & Mary,Southern,,10,6,4,0,6,5,1,0,5,4,1,0,5,2,3,0
+1965,Wisconsin,Big Ten,,10,2,8,0,7,2,5,0,4,1,3,0,6,1,5,0
+1965,Wyoming,Western Athletic,,10,6,4,0,5,3,2,0,4,4,0,0,6,2,4,0
+1965,Xavier,FBS Independents,,10,8,2,0,4,3,1,0,4,4,0,0,6,4,2,0
+1965,Yale,Ivy,,9,3,6,0,7,3,4,0,6,2,4,0,3,1,2,0

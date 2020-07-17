@@ -1,0 +1,121 @@
+year,team,conference,division,total.games,total.wins,total.losses,total.ties,conferenceGames.games,conferenceGames.wins,conferenceGames.losses,conferenceGames.ties,homeGames.games,homeGames.wins,homeGames.losses,homeGames.ties,awayGames.games,awayGames.wins,awayGames.losses,awayGames.ties
+1964,Air Force,FBS Independents,,10,4,6,0,3,1,2,0,4,2,2,0,6,2,4,0
+1964,Alabama,SEC,,11,10,1,0,8,8,0,0,7,7,0,0,3,3,0,0
+1964,Arizona,Western Athletic,,10,6,4,0,4,3,1,0,5,5,0,0,5,1,4,0
+1964,Arizona State,Western Athletic,,10,8,2,0,2,0,2,0,7,7,0,0,3,1,2,0
+1964,Arkansas,Southwest,,11,11,0,0,7,7,0,0,6,6,0,0,4,4,0,0
+1964,Army,FBS Independents,,10,4,6,0,5,2,3,0,8,4,4,0,2,0,2,0
+1964,Auburn,SEC,,10,6,4,0,6,3,3,0,7,6,1,0,3,0,3,0
+1964,Baylor,Southwest,,10,5,5,0,7,4,3,0,5,3,2,0,5,2,3,0
+1964,Boston College,FBS Independents,,9,6,3,0,7,5,2,0,5,5,0,0,4,1,3,0
+1964,Boston University,FBS Independents,,9,2,7,0,3,0,3,0,5,2,3,0,4,0,4,0
+1964,Bowling Green,Mid-American,,10,9,1,0,6,5,1,0,5,4,1,0,5,5,0,0
+1964,Brown,Ivy,,9,5,4,0,7,3,4,0,6,5,1,0,3,0,3,0
+1964,Buffalo,FBS Independents,,9,5,4,0,3,1,2,0,7,4,3,0,2,1,1,0
+1964,BYU,Western Athletic,,10,4,6,0,4,0,4,0,6,4,2,0,4,0,4,0
+1964,California,AAWU,,10,3,7,0,4,0,4,0,7,2,5,0,3,1,2,0
+1964,Cincinnati,Missouri Valley,,10,8,2,0,3,3,0,0,5,4,1,0,5,4,1,0
+1964,Clemson,ACC,,10,3,7,0,6,2,4,0,4,2,2,0,6,1,5,0
+1964,Colgate,FBS Independents,,9,7,2,0,4,4,0,0,2,2,0,0,7,5,2,0
+1964,Colorado,Big 8,,10,2,8,0,7,1,6,0,5,1,4,0,5,1,4,0
+1964,Colorado State,FBS Independents,,11,5,6,0,5,3,2,0,4,3,1,0,7,2,5,0
+1964,Columbia,Ivy,,9,3,6,0,7,2,5,0,6,3,3,0,3,0,3,0
+1964,Cornell,Ivy,,9,3,6,0,7,3,4,0,3,2,1,0,6,1,5,0
+1964,Dartmouth,Ivy,,9,6,3,0,7,4,3,0,4,3,1,0,5,3,2,0
+1964,Davidson,Southern,,9,3,6,0,4,1,3,0,4,3,1,0,5,0,5,0
+1964,Dayton,FBS Independents,,10,3,7,0,2,0,2,0,5,3,2,0,5,0,5,0
+1964,Detroit Mercy,FBS Independents,,10,3,7,0,5,1,4,0,5,3,2,0,5,0,5,0
+1964,Duke,ACC,,10,5,5,0,6,4,2,0,5,4,1,0,5,1,4,0
+1964,Florida,SEC,,10,7,3,0,6,4,2,0,5,5,0,0,5,2,3,0
+1964,Florida State,FBS Independents,,11,10,1,0,4,4,0,0,6,6,0,0,4,3,1,0
+1964,Furman,Southern,,10,3,7,0,5,1,4,0,5,2,3,0,5,1,4,0
+1964,George Washington,Southern,,9,5,4,0,5,3,2,0,5,3,2,0,4,2,2,0
+1964,Georgia,SEC,,11,8,3,0,5,3,2,0,7,6,1,0,3,1,2,0
+1964,Georgia Tech,FBS Independents,,10,7,3,0,2,2,0,0,7,5,2,0,3,2,1,0
+1964,Harvard,Ivy,,9,6,3,0,7,5,2,0,7,5,2,0,2,1,1,0
+1964,Holy Cross,FBS Independents,,10,5,5,0,6,2,4,0,7,3,4,0,3,2,1,0
+1964,Houston,FBS Independents,,9,2,7,0,2,0,2,0,5,2,3,0,4,0,4,0
+1964,Idaho,FBS Independents,,10,4,6,0,3,3,0,0,3,2,1,0,7,2,5,0
+1964,Illinois,Big Ten,,9,6,3,0,7,4,3,0,4,3,1,0,5,3,2,0
+1964,Indiana,Big Ten,,9,2,7,0,6,1,5,0,5,1,4,0,4,1,3,0
+1964,Iowa,Big Ten,,9,3,6,0,6,1,5,0,5,2,3,0,4,1,3,0
+1964,Iowa State,Big 8,,10,2,8,0,7,0,7,0,5,2,3,0,5,0,5,0
+1964,Kansas,Big 8,,10,6,4,0,7,5,2,0,5,3,2,0,5,3,2,0
+1964,Kansas State,Big 8,,10,3,7,0,7,3,4,0,4,2,2,0,6,1,5,0
+1964,Kent State,Mid-American,,9,3,6,0,6,1,5,0,4,2,2,0,5,1,4,0
+1964,Kentucky,SEC,,10,5,5,0,6,4,2,0,5,3,2,0,5,2,3,0
+1964,Lehigh,FBS Independents,,9,2,7,0,2,0,2,0,5,2,3,0,4,0,4,0
+1964,Louisville,Missouri Valley,,10,1,9,0,3,0,3,0,5,0,5,0,5,1,4,0
+1964,LSU,SEC,,11,8,3,0,7,4,3,0,5,4,1,0,5,3,2,0
+1964,Marshall,Mid-American,,10,7,3,0,6,4,2,0,6,5,1,0,4,2,2,0
+1964,Maryland,ACC,,10,5,5,0,7,4,3,0,6,4,2,0,4,1,3,0
+1964,Memphis,FBS Independents,,9,5,4,0,3,1,2,0,5,4,1,0,4,1,3,0
+1964,Miami,FBS Independents,,10,4,6,0,5,2,3,0,6,3,3,0,4,1,3,0
+1964,Miami (OH),Mid-American,,10,7,3,0,6,4,2,0,4,3,1,0,6,4,2,0
+1964,Michigan,Big Ten,,10,9,1,0,7,6,1,0,6,5,1,0,3,3,0,0
+1964,Michigan State,Big Ten,,9,4,5,0,6,3,3,0,4,3,1,0,5,1,4,0
+1964,Minnesota,Big Ten,,9,5,4,0,7,4,3,0,5,3,2,0,4,2,2,0
+1964,Mississippi State,SEC,,10,4,6,0,7,2,5,0,5,3,2,0,5,1,4,0
+1964,Missouri,Big 8,,10,7,3,0,7,5,2,0,6,5,1,0,4,2,2,0
+1964,Navy,FBS Independents,,10,4,6,0,5,2,3,0,3,3,0,0,7,1,6,0
+1964,NC State,ACC,,10,5,5,0,7,5,2,0,3,3,0,0,7,2,5,0
+1964,Nebraska,Big 8,,11,9,2,0,7,6,1,0,5,5,0,0,5,4,1,0
+1964,New Mexico,Western Athletic,,11,9,2,0,4,3,1,0,6,5,1,0,5,4,1,0
+1964,New Mexico State,FBS Independents,,10,6,4,0,4,2,2,0,4,4,0,0,6,2,4,0
+1964,North Carolina,ACC,,10,5,5,0,7,4,3,0,5,4,1,0,5,1,4,0
+1964,North Texas,Missouri Valley,,10,2,8,0,4,1,3,0,4,0,4,0,6,2,4,0
+1964,Northwestern,Big Ten,,9,3,6,0,7,2,5,0,4,2,2,0,5,1,4,0
+1964,Notre Dame,FBS Independents,,10,9,1,0,3,3,0,0,6,6,0,0,4,3,1,0
+1964,Ohio,Mid-American,,10,6,4,0,6,4,2,0,6,4,2,0,4,2,2,0
+1964,Ohio State,Big Ten,,9,7,2,0,6,5,1,0,7,5,2,0,2,2,0,0
+1964,Oklahoma,Big 8,,11,6,5,0,7,5,2,0,4,3,1,0,6,3,3,0
+1964,Oklahoma State,Big 8,,10,4,6,0,7,3,4,0,5,3,2,0,5,1,4,0
+1964,Ole Miss,SEC,,11,6,5,0,7,3,4,0,6,4,2,0,4,2,2,0
+1964,Oregon,AAWU,,10,7,3,0,4,1,3,0,4,3,1,0,6,4,2,0
+1964,Oregon State,AAWU,,11,8,3,0,4,3,1,0,5,5,0,0,5,3,2,0
+1964,Pacific,FBS Independents,,10,1,9,0,3,0,3,0,5,1,4,0,5,0,5,0
+1964,Penn State,FBS Independents,,10,6,4,0,5,3,2,0,5,2,3,0,5,4,1,0
+1964,Pennsylvania,Ivy,,9,1,8,0,7,0,7,0,5,1,4,0,4,0,4,0
+1964,Pittsburgh,FBS Independents,,10,4,6,0,6,2,4,0,5,3,2,0,5,1,4,0
+1964,Princeton,Ivy,,9,9,0,0,7,7,0,0,5,5,0,0,4,4,0,0
+1964,Purdue,Big Ten,,9,6,3,0,7,5,2,0,4,4,0,0,5,2,3,0
+1964,Rice,Southwest,,10,4,6,0,7,3,4,0,5,3,2,0,5,1,4,0
+1964,Richmond,Southern,,10,3,7,0,6,2,4,0,4,1,3,0,6,2,4,0
+1964,Rutgers,FBS Independents,,9,6,3,0,3,2,1,0,4,3,1,0,5,3,2,0
+1964,San José State,FBS Independents,,10,4,6,0,4,1,3,0,4,2,2,0,6,2,4,0
+1964,SMU,Southwest,,10,1,9,0,7,0,7,0,5,1,4,0,5,0,5,0
+1964,South Carolina,ACC,,10,3,7,0,6,2,4,0,2,2,0,0,8,1,7,0
+1964,Southern Mississippi,FBS Independents,,9,6,3,0,3,2,1,0,5,5,0,0,4,1,3,0
+1964,Stanford,AAWU,,10,5,5,0,7,3,4,0,5,3,2,0,5,2,3,0
+1964,Syracuse,FBS Independents,,11,7,4,0,5,4,1,0,4,4,0,0,6,3,3,0
+1964,TCU,Southwest,,10,4,6,0,7,3,4,0,6,2,4,0,4,2,2,0
+1964,Tennessee,SEC,,10,5,5,0,7,2,5,0,7,4,3,0,3,1,2,0
+1964,Texas,Southwest,,11,10,1,0,7,6,1,0,6,5,1,0,4,4,0,0
+1964,Texas A&M,Southwest,,10,1,9,0,7,1,6,0,3,0,3,0,7,1,6,0
+1964,Texas Tech,Southwest,,11,7,4,0,7,4,3,0,7,5,2,0,3,2,1,0
+1964,The Citadel,Southern,,10,4,6,0,7,4,3,0,5,3,2,0,5,1,4,0
+1964,Toledo,Mid-American,,10,2,8,0,6,1,5,0,5,0,5,0,5,2,3,0
+1964,Tulane,SEC,,10,3,7,0,5,1,4,0,4,2,2,0,6,1,5,0
+1964,Tulsa,Missouri Valley,,11,9,2,0,4,3,1,0,5,5,0,0,5,3,2,0
+1964,UCLA,AAWU,,10,4,6,0,4,2,2,0,4,2,2,0,6,2,4,0
+1964,USC,AAWU,,10,7,3,0,4,3,1,0,5,4,1,0,5,3,2,0
+1964,Utah,Western Athletic,,11,9,2,0,4,3,1,0,5,5,0,0,5,3,2,0
+1964,Utah State,FBS Independents,,10,5,5,0,3,2,1,0,3,3,0,0,7,2,5,0
+1964,UTEP,FBS Independents,,10,1,9,0,3,0,3,0,5,1,4,0,5,0,5,0
+1964,Vanderbilt,SEC,,10,3,7,0,6,1,5,0,4,2,2,0,6,1,5,0
+1964,Villanova,FBS Independents,,8,6,2,0,4,3,1,0,5,4,1,0,3,2,1,0
+1964,Virginia,ACC,,10,5,5,0,6,1,5,0,7,4,3,0,3,1,2,0
+1964,Virginia Tech,Southern,,10,6,4,0,4,3,1,0,6,4,2,0,4,2,2,0
+1964,VMI,Southern,,10,1,9,0,5,1,4,0,2,1,1,0,8,0,8,0
+1964,Wake Forest,ACC,,10,5,5,0,7,4,3,0,3,2,1,0,7,3,4,0
+1964,Washington,AAWU,,10,6,4,0,7,5,2,0,5,3,2,0,5,3,2,0
+1964,Washington State,AAWU,,10,4,6,0,4,2,2,0,6,3,3,0,4,1,3,0
+1964,Western Michigan,Mid-American,,9,3,6,0,6,2,4,0,4,1,3,0,5,2,3,0
+1964,West Texas A&M,FBS Independents,,10,4,6,0,4,2,2,0,6,3,3,0,4,1,3,0
+1964,West Virginia,Southern,,11,7,4,0,5,5,0,0,5,4,1,0,5,3,2,0
+1964,Wichita State,Missouri Valley,,10,4,6,0,4,2,2,0,5,4,1,0,5,0,5,0
+1964,William & Mary,Southern,,10,4,6,0,7,4,3,0,4,2,2,0,6,2,4,0
+1964,Wisconsin,Big Ten,,9,3,6,0,7,2,5,0,5,3,2,0,4,0,4,0
+1964,Wyoming,Western Athletic,,10,8,2,0,4,2,2,0,6,5,1,0,4,3,1,0
+1964,Xavier,FBS Independents,,10,4,6,0,3,2,1,0,4,2,2,0,6,2,4,0
+1964,Yale,Ivy,,9,6,3,0,7,4,3,0,5,4,1,0,4,2,2,0

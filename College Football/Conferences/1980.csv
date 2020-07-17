@@ -1,0 +1,139 @@
+year,team,conference,division,total.games,total.wins,total.losses,total.ties,conferenceGames.games,conferenceGames.wins,conferenceGames.losses,conferenceGames.ties,homeGames.games,homeGames.wins,homeGames.losses,homeGames.ties,awayGames.games,awayGames.wins,awayGames.losses,awayGames.ties
+1980,Air Force,Western Athletic,,12,3,9,0,4,1,3,0,5,3,2,0,7,0,7,0
+1980,Alabama,SEC,,12,10,2,0,7,6,1,0,7,6,1,0,4,3,1,0
+1980,Appalachian State,Southern,,11,7,4,0,7,5,2,0,5,4,1,0,6,3,3,0
+1980,Arizona,Pac-10,,11,5,6,0,7,3,4,0,7,2,5,0,4,3,1,0
+1980,Arizona State,Pac-10,,11,7,4,0,8,5,3,0,7,6,1,0,4,1,3,0
+1980,Arkansas,Southwest,,12,7,5,0,8,3,5,0,7,6,1,0,4,0,4,0
+1980,Arkansas State,Southland,,11,2,9,0,5,0,5,0,5,2,3,0,6,0,6,0
+1980,Army,FBS Independents,,11,3,8,0,6,1,5,0,6,3,3,0,5,0,5,0
+1980,Auburn,SEC,,11,5,6,0,6,0,6,0,6,4,2,0,5,1,4,0
+1980,Ball State,Mid-American,,11,6,5,0,9,5,4,0,6,4,2,0,5,2,3,0
+1980,Baylor,Southwest,,12,10,2,0,8,8,0,0,6,5,1,0,5,5,0,0
+1980,Boston College,FBS Independents,,11,7,4,0,7,3,4,0,5,5,0,0,6,2,4,0
+1980,Bowling Green,Mid-American,,11,4,7,0,8,4,4,0,5,2,3,0,6,2,4,0
+1980,Brown,Ivy,,10,6,4,0,7,4,3,0,6,3,3,0,4,3,1,0
+1980,BYU,Western Athletic,,13,12,1,0,7,6,1,0,6,6,0,0,6,5,1,0
+1980,California,Pac-10,,11,3,8,0,8,3,5,0,6,3,3,0,5,0,5,0
+1980,Cal State Fullerton,PCAA,,11,4,7,0,5,1,4,0,4,2,2,0,7,2,5,0
+1980,Central Michigan,Mid-American,,11,9,2,0,9,7,2,0,6,6,0,0,5,3,2,0
+1980,Chattanooga,Southern,,11,8,3,0,7,5,2,0,5,4,1,0,6,4,2,0
+1980,Cincinnati,FBS Independents,,11,2,9,0,8,1,7,0,3,2,1,0,8,0,8,0
+1980,Clemson,ACC,,11,6,5,0,6,2,4,0,6,4,2,0,5,2,3,0
+1980,Colgate,FBS Independents,,10,6,4,0,3,1,2,0,5,5,0,0,5,1,4,0
+1980,Colorado,Big 8,,11,1,10,0,7,1,6,0,6,1,5,0,5,0,5,0
+1980,Colorado State,Western Athletic,,11,7,4,0,7,6,1,0,6,4,2,0,5,3,2,0
+1980,Columbia,Ivy,,10,1,9,0,7,0,7,0,5,1,4,0,5,0,5,0
+1980,Cornell,Ivy,,10,5,5,0,7,5,2,0,5,3,2,0,5,2,3,0
+1980,Dartmouth,Ivy,,10,4,6,0,7,4,3,0,5,3,2,0,5,1,4,0
+1980,Drake,Missouri Valley,,11,8,3,0,5,3,2,0,6,4,2,0,5,4,1,0
+1980,Duke,ACC,,11,2,9,0,6,1,5,0,5,1,4,0,6,1,5,0
+1980,East Carolina,FBS Independents,,11,4,7,0,5,2,3,0,4,1,3,0,7,3,4,0
+1980,Eastern Michigan,Mid-American,,10,1,9,0,8,1,7,0,3,0,3,0,7,1,6,0
+1980,East Tennessee State,Southern,,11,2,9,0,5,1,4,0,5,1,4,0,6,1,5,0
+1980,Florida,SEC,,12,8,4,0,6,4,2,0,6,4,2,0,5,3,2,0
+1980,Florida State,FBS Independents,,12,10,2,0,7,6,1,0,7,7,0,0,4,3,1,0
+1980,Fresno State,PCAA,,11,5,6,0,5,1,4,0,7,4,3,0,4,1,3,0
+1980,Furman,Southern,,11,9,2,0,7,7,0,0,4,4,0,0,7,5,2,0
+1980,Georgia,SEC,,12,12,0,0,6,6,0,0,8,8,0,0,3,3,0,0
+1980,Georgia Tech,FBS Independents,,11,1,10,0,4,1,3,0,5,1,4,0,6,0,6,0
+1980,Harvard,Ivy,,10,7,3,0,7,4,3,0,6,5,1,0,4,2,2,0
+1980,Hawai'i,Western Athletic,,11,8,3,0,6,3,3,0,8,6,2,0,3,2,1,0
+1980,Holy Cross,FBS Independents,,11,3,8,0,4,0,4,0,5,2,3,0,6,1,5,0
+1980,Houston,Southwest,,12,7,5,0,8,5,3,0,6,4,2,0,5,2,3,0
+1980,Illinois,Big Ten,,11,3,8,0,8,3,5,0,5,2,3,0,6,1,5,0
+1980,Illinois State,FBS Independents,,11,4,7,0,0,0,0,0,5,2,3,0,6,2,4,0
+1980,Indiana,Big Ten,,11,6,5,0,8,3,5,0,5,3,2,0,6,3,3,0
+1980,Indiana State,Missouri Valley,,11,6,5,0,6,4,2,0,5,5,0,0,6,1,5,0
+1980,Iowa,Big Ten,,11,4,7,0,8,4,4,0,6,2,4,0,5,2,3,0
+1980,Iowa State,Big 8,,11,6,5,0,7,2,5,0,6,4,2,0,5,2,3,0
+1980,Kansas,Big 8,,11,6,5,0,7,4,3,0,7,3,4,0,4,3,1,0
+1980,Kansas State,Big 8,,11,3,8,0,7,1,6,0,6,3,3,0,5,0,5,0
+1980,Kent State,Mid-American,,11,3,8,0,9,3,6,0,5,3,2,0,6,0,6,0
+1980,Kentucky,SEC,,11,3,8,0,6,1,5,0,7,3,4,0,4,0,4,0
+1980,Lamar,Southland,,11,3,8,0,5,1,4,0,5,1,4,0,6,2,4,0
+1980,Long Beach State,PCAA,,11,8,3,0,5,5,0,0,4,2,2,0,7,6,1,0
+1980,Louisiana,Southland,,11,7,4,0,5,4,1,0,6,5,1,0,5,2,3,0
+1980,Louisiana Monroe,FBS Independents,,11,7,4,0,1,0,1,0,5,3,2,0,6,4,2,0
+1980,Louisiana Tech,Southland,,11,5,6,0,5,2,3,0,3,2,1,0,8,3,5,0
+1980,Louisville,FBS Independents,,11,5,6,0,7,3,4,0,6,3,3,0,5,2,3,0
+1980,LSU,SEC,,11,7,4,0,6,4,2,0,6,5,1,0,5,2,3,0
+1980,Marshall,Southern,,11,3,8,0,6,1,5,0,6,2,4,0,5,1,4,0
+1980,Maryland,ACC,,12,8,4,0,6,5,1,0,6,5,1,0,5,3,2,0
+1980,McNeese,Southland,,12,10,2,0,5,5,0,0,6,5,1,0,5,5,0,0
+1980,Memphis,FBS Independents,,11,2,9,0,6,0,6,0,6,2,4,0,5,0,5,0
+1980,Miami,FBS Independents,,12,9,3,0,7,5,2,0,5,4,1,0,6,4,2,0
+1980,Miami (OH),Mid-American,,11,5,6,0,7,4,3,0,5,4,1,0,6,1,5,0
+1980,Michigan,Big Ten,,12,10,2,0,8,8,0,0,6,5,1,0,5,4,1,0
+1980,Michigan State,Big Ten,,11,3,8,0,8,2,6,0,6,2,4,0,5,1,4,0
+1980,Minnesota,Big Ten,,11,5,6,0,9,4,5,0,6,3,3,0,5,2,3,0
+1980,Mississippi State,SEC,,12,9,3,0,6,5,1,0,6,5,1,0,5,4,1,0
+1980,Missouri,Big 8,,12,8,4,0,7,5,2,0,6,5,1,0,5,3,2,0
+1980,Navy,FBS Independents,,12,8,4,0,7,6,1,0,5,5,0,0,6,3,3,0
+1980,NC State,ACC,,11,6,5,0,6,3,3,0,6,5,1,0,5,1,4,0
+1980,Nebraska,Big 8,,12,10,2,0,7,6,1,0,7,5,2,0,4,4,0,0
+1980,New Mexico,Western Athletic,,11,4,7,0,7,3,4,0,5,2,3,0,6,2,4,0
+1980,New Mexico State,Missouri Valley,,11,4,7,0,6,2,4,0,6,3,3,0,5,1,4,0
+1980,North Carolina,ACC,,12,11,1,0,6,6,0,0,7,7,0,0,4,3,1,0
+1980,Northern Illinois,Mid-American,,11,7,4,0,7,4,3,0,5,2,3,0,6,5,1,0
+1980,North Texas,FBS Independents,,11,6,5,0,3,2,1,0,2,2,0,0,9,4,5,0
+1980,Northwestern,Big Ten,,11,0,11,0,9,0,9,0,5,0,5,0,6,0,6,0
+1980,Notre Dame,FBS Independents,,12,10,2,0,4,4,0,0,7,7,0,0,4,3,1,0
+1980,Ohio,Mid-American,,11,6,5,0,9,5,4,0,6,5,1,0,5,1,4,0
+1980,Ohio State,Big Ten,,12,9,3,0,8,7,1,0,7,5,2,0,4,4,0,0
+1980,Oklahoma,Big 8,,12,10,2,0,7,7,0,0,6,5,1,0,5,4,1,0
+1980,Oklahoma State,Big 8,,11,3,8,0,7,2,5,0,6,2,4,0,5,1,4,0
+1980,Ole Miss,SEC,,11,3,8,0,7,2,5,0,6,2,4,0,5,1,4,0
+1980,Oregon,Pac-10,,11,6,5,0,8,4,4,0,4,3,1,0,7,3,4,0
+1980,Oregon State,Pac-10,,11,0,11,0,8,0,8,0,4,0,4,0,7,0,7,0
+1980,Pacific,PCAA,,12,4,8,0,5,1,4,0,5,3,2,0,7,1,6,0
+1980,Penn State,FBS Independents,,12,10,2,0,6,5,1,0,6,4,2,0,5,5,0,0
+1980,Pennsylvania,Ivy,,10,1,9,0,7,1,6,0,5,1,4,0,5,0,5,0
+1980,Pittsburgh,FBS Independents,,12,11,1,0,9,8,1,0,5,5,0,0,6,5,1,0
+1980,Princeton,Ivy,,10,6,4,0,7,4,3,0,6,5,1,0,4,1,3,0
+1980,Purdue,Big Ten,,12,9,3,0,8,7,1,0,6,5,1,0,5,3,2,0
+1980,Rice,Southwest,,11,5,6,0,8,4,4,0,5,1,4,0,6,4,2,0
+1980,Richmond,FBS Independents,,11,5,6,0,7,4,3,0,6,4,2,0,5,1,4,0
+1980,Rutgers,FBS Independents,,11,7,4,0,7,4,3,0,6,3,3,0,5,4,1,0
+1980,San Diego State,Western Athletic,,12,4,8,0,8,4,4,0,5,2,3,0,7,2,5,0
+1980,San José State,PCAA,,11,7,4,0,5,3,2,0,6,4,2,0,5,3,2,0
+1980,SMU,Southwest,,12,8,4,0,8,5,3,0,6,5,1,0,5,3,2,0
+1980,South Carolina,FBS Independents,,12,8,4,0,2,1,1,0,7,7,0,0,4,1,3,0
+1980,Southern Illinois,Missouri Valley,,11,3,8,0,6,1,5,0,5,1,4,0,6,2,4,0
+1980,Southern Mississippi,FBS Independents,,12,9,3,0,4,3,1,0,6,5,1,0,5,3,2,0
+1980,Stanford,Pac-10,,11,6,5,0,7,3,4,0,5,3,2,0,6,3,3,0
+1980,Syracuse,FBS Independents,,11,5,6,0,7,3,4,0,7,4,3,0,4,1,3,0
+1980,TCU,Southwest,,11,1,10,0,8,1,7,0,6,1,5,0,5,0,5,0
+1980,Temple,FBS Independents,,11,4,7,0,8,2,6,0,7,3,4,0,4,1,3,0
+1980,Tennessee,SEC,,11,5,6,0,6,3,3,0,7,2,5,0,4,3,1,0
+1980,Texas,Southwest,,12,7,5,0,8,4,4,0,7,5,2,0,4,2,2,0
+1980,Texas A&M,Southwest,,11,4,7,0,8,3,5,0,5,2,3,0,6,2,4,0
+1980,Texas-Arlington,Southland,,11,3,8,0,5,3,2,0,8,2,6,0,3,1,2,0
+1980,Texas Tech,Southwest,,11,5,6,0,8,3,5,0,7,4,3,0,4,1,3,0
+1980,The Citadel,Southern,,11,7,4,0,5,3,2,0,6,6,0,0,5,1,4,0
+1980,Toledo,Mid-American,,11,4,7,0,9,3,6,0,5,3,2,0,6,1,5,0
+1980,Tulane,FBS Independents,,12,7,5,0,3,2,1,0,6,4,2,0,5,3,2,0
+1980,Tulsa,Missouri Valley,,11,8,3,0,5,4,1,0,5,5,0,0,6,3,3,0
+1980,UCLA,Pac-10,,11,9,2,0,7,5,2,0,6,5,1,0,5,4,1,0
+1980,UNLV,FBS Independents,,11,7,4,0,0,0,0,0,6,4,2,0,5,3,2,0
+1980,USC,Pac-10,,11,9,2,0,7,5,2,0,6,5,1,0,5,4,1,0
+1980,Utah,Western Athletic,,11,5,6,0,6,2,4,0,5,3,2,0,6,2,4,0
+1980,Utah State,PCAA,,11,6,5,0,5,4,1,0,4,2,2,0,7,4,3,0
+1980,UTEP,Western Athletic,,12,1,11,0,7,1,6,0,5,0,5,0,7,1,6,0
+1980,Vanderbilt,SEC,,11,2,9,0,6,0,6,0,6,1,5,0,5,1,4,0
+1980,Villanova,FBS Independents,,11,6,5,0,6,4,2,0,4,3,1,0,7,3,4,0
+1980,Virginia,ACC,,11,4,7,0,6,2,4,0,5,1,4,0,6,3,3,0
+1980,Virginia Tech,FBS Independents,,12,8,4,0,5,2,3,0,7,7,0,0,4,1,3,0
+1980,VMI,Southern,,11,3,8,0,6,1,5,0,3,1,2,0,8,2,6,0
+1980,Wake Forest,ACC,,11,5,6,0,6,2,4,0,6,2,4,0,5,3,2,0
+1980,Washington,Pac-10,,12,9,3,0,7,6,1,0,6,4,2,0,5,5,0,0
+1980,Washington State,Pac-10,,11,4,7,0,7,3,4,0,6,2,4,0,5,2,3,0
+1980,Western Carolina,Southern,,11,3,8,0,7,2,5,0,5,1,4,0,6,2,4,0
+1980,Western Michigan,Mid-American,,11,7,4,0,9,6,3,0,5,3,2,0,6,4,2,0
+1980,West Texas A&M,Missouri Valley,,11,5,6,0,6,2,4,0,4,2,2,0,7,3,4,0
+1980,West Virginia,FBS Independents,,12,6,6,0,8,4,4,0,6,3,3,0,6,3,3,0
+1980,Wichita State,Missouri Valley,,11,5,6,0,6,4,2,0,4,3,1,0,7,2,5,0
+1980,William & Mary,FBS Independents,,11,2,9,0,5,1,4,0,4,1,3,0,7,1,6,0
+1980,Wisconsin,Big Ten,,11,4,7,0,8,3,5,0,6,2,4,0,5,2,3,0
+1980,Wyoming,Western Athletic,,11,6,5,0,8,4,4,0,6,5,1,0,5,1,4,0
+1980,Yale,Ivy,,10,8,2,0,7,6,1,0,5,4,1,0,5,4,1,0

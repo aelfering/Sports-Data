@@ -1,0 +1,138 @@
+year,team,conference,division,total.games,total.wins,total.losses,total.ties,conferenceGames.games,conferenceGames.wins,conferenceGames.losses,conferenceGames.ties,homeGames.games,homeGames.wins,homeGames.losses,homeGames.ties,awayGames.games,awayGames.wins,awayGames.losses,awayGames.ties
+1976,Air Force,FBS Independents,,11,4,7,0,2,1,1,0,6,3,3,0,5,1,4,0
+1976,Alabama,SEC,,12,9,3,0,7,5,2,0,7,7,0,0,4,1,3,0
+1976,Appalachian State,Southern,,11,6,5,0,5,2,3,0,4,4,0,0,7,2,5,0
+1976,Arizona,Western Athletic,,11,5,6,0,7,3,4,0,6,3,3,0,5,2,3,0
+1976,Arizona State,Western Athletic,,11,4,7,0,7,4,3,0,7,2,5,0,4,2,2,0
+1976,Arkansas,Southwest,,11,6,5,0,8,4,4,0,8,5,3,0,3,1,2,0
+1976,Arkansas State,Southland,,11,5,6,0,5,2,3,0,5,3,2,0,6,2,4,0
+1976,Army,FBS Independents,,11,5,6,0,8,3,5,0,7,5,2,0,4,0,4,0
+1976,Auburn,SEC,,11,3,8,0,6,2,4,0,5,2,3,0,6,1,5,0
+1976,Ball State,Mid-American,,11,8,3,0,5,4,1,0,5,3,2,0,6,5,1,0
+1976,Baylor,Southwest,,11,7,4,0,8,4,4,0,4,3,1,0,7,4,3,0
+1976,Boston College,FBS Independents,,11,8,3,0,9,6,3,0,5,4,1,0,6,4,2,0
+1976,Bowling Green,Mid-American,,11,6,5,0,7,4,3,0,6,3,3,0,5,3,2,0
+1976,Brown,Ivy,,9,8,1,0,7,6,1,0,5,4,1,0,4,4,0,0
+1976,BYU,Western Athletic,,12,9,3,0,7,6,1,0,6,5,1,0,5,4,1,0
+1976,California,Pac-8,,11,5,6,0,7,3,4,0,5,3,2,0,6,2,4,0
+1976,Cal State Fullerton,PCAA,,11,4,7,0,4,1,3,0,7,3,4,0,4,1,3,0
+1976,Central Michigan,Mid-American,,11,7,4,0,7,4,3,0,5,4,1,0,6,3,3,0
+1976,Chattanooga,FBS Independents,,11,7,4,0,1,1,0,0,6,4,2,0,5,3,2,0
+1976,Cincinnati,FBS Independents,,11,8,3,0,3,3,0,0,5,5,0,0,6,3,3,0
+1976,Clemson,ACC,,11,4,7,0,5,0,5,0,5,3,2,0,6,1,5,0
+1976,Colgate,FBS Independents,,10,8,2,0,3,1,2,0,3,3,0,0,7,5,2,0
+1976,Colorado,Big 8,,12,8,4,0,7,5,2,0,6,5,1,0,5,3,2,0
+1976,Colorado State,Western Athletic,,11,6,5,0,6,2,4,0,5,4,1,0,6,2,4,0
+1976,Columbia,Ivy,,9,3,6,0,7,2,5,0,4,2,2,0,5,1,4,0
+1976,Cornell,Ivy,,9,2,7,0,7,2,5,0,5,1,4,0,4,1,3,0
+1976,Dartmouth,Ivy,,9,6,3,0,7,4,3,0,4,3,1,0,5,3,2,0
+1976,Dayton,FBS Independents,,11,4,7,0,5,2,3,0,5,1,4,0,6,3,3,0
+1976,Drake,Missouri Valley,,11,1,10,0,4,1,3,0,5,1,4,0,6,0,6,0
+1976,Duke,ACC,,11,6,5,0,6,3,3,0,5,2,3,0,6,4,2,0
+1976,East Carolina,Southern,,11,9,2,0,6,5,1,0,4,4,0,0,7,5,2,0
+1976,Eastern Michigan,Mid-American,,11,2,9,0,6,1,5,0,5,2,3,0,6,0,6,0
+1976,Florida,SEC,,12,8,4,0,6,4,2,0,7,6,1,0,4,2,2,0
+1976,Florida State,FBS Independents,,11,5,6,0,6,4,2,0,5,3,2,0,6,2,4,0
+1976,Fresno State,PCAA,,11,5,6,0,4,3,1,0,6,5,1,0,5,0,5,0
+1976,Furman,Southern,,11,7,4,0,6,3,3,0,7,5,2,0,4,2,2,0
+1976,Georgia,SEC,,12,10,2,0,6,5,1,0,7,7,0,0,4,3,1,0
+1976,Georgia Tech,FBS Independents,,11,4,7,0,5,2,3,0,6,3,3,0,5,1,4,0
+1976,Harvard,Ivy,,9,6,3,0,7,4,3,0,6,3,3,0,3,3,0,0
+1976,Hawai'i,FBS Independents,,11,3,8,0,0,0,0,0,9,3,6,0,2,0,2,0
+1976,Holy Cross,FBS Independents,,11,3,8,0,4,0,4,0,5,2,3,0,6,1,5,0
+1976,Houston,Southwest,,12,10,2,0,8,7,1,0,5,4,1,0,6,5,1,0
+1976,Illinois,Big Ten,,11,5,6,0,8,4,4,0,6,3,3,0,5,2,3,0
+1976,Illinois State,FBS Independents,,11,5,6,0,5,2,3,0,5,3,2,0,6,2,4,0
+1976,Indiana,Big Ten,,11,5,6,0,8,4,4,0,6,2,4,0,5,3,2,0
+1976,Indiana State,FBS Independents,,10,3,7,0,3,0,3,0,5,2,3,0,5,1,4,0
+1976,Iowa,Big Ten,,11,5,6,0,8,3,5,0,5,2,3,0,6,3,3,0
+1976,Iowa State,Big 8,,11,8,3,0,7,4,3,0,6,5,1,0,5,3,2,0
+1976,Kansas,Big 8,,11,6,5,0,7,2,5,0,6,3,3,0,5,3,2,0
+1976,Kansas State,Big 8,,11,1,10,0,7,0,7,0,6,1,5,0,5,0,5,0
+1976,Kent State,Mid-American,,12,8,4,0,8,6,2,0,6,5,1,0,6,3,3,0
+1976,Kentucky,SEC,,12,8,4,0,6,4,2,0,7,6,1,0,4,1,3,0
+1976,Lamar,Southland,,11,2,9,0,5,0,5,0,5,1,4,0,6,1,5,0
+1976,Long Beach State,PCAA,,11,8,3,0,4,2,2,0,4,3,1,0,7,5,2,0
+1976,Louisiana,Southland,,11,9,2,0,5,4,1,0,7,6,1,0,4,3,1,0
+1976,Louisiana Monroe,FBS Independents,,11,2,9,0,3,0,3,0,5,1,4,0,6,1,5,0
+1976,Louisiana Tech,Southland,,11,6,5,0,5,2,3,0,4,2,2,0,7,4,3,0
+1976,Louisville,FBS Independents,,11,4,7,0,5,1,4,0,6,4,2,0,5,0,5,0
+1976,LSU,SEC,,11,6,5,0,6,2,4,0,6,6,0,0,5,0,5,0
+1976,Marshall,FBS Independents,,11,4,7,0,4,2,2,0,6,3,3,0,5,1,4,0
+1976,Maryland,ACC,,12,11,1,0,5,5,0,0,6,6,0,0,5,5,0,0
+1976,McNeese,Southland,,12,10,2,0,5,4,1,0,6,5,1,0,5,4,1,0
+1976,Memphis,FBS Independents,,11,7,4,0,4,3,1,0,7,5,2,0,4,2,2,0
+1976,Miami,FBS Independents,,11,3,8,0,5,2,3,0,5,3,2,0,6,0,6,0
+1976,Miami (OH),Mid-American,,11,3,8,0,6,2,4,0,5,3,2,0,6,0,6,0
+1976,Michigan,Big Ten,,12,10,2,0,8,7,1,0,7,7,0,0,4,3,1,0
+1976,Michigan State,Big Ten,,11,5,6,0,8,3,5,0,7,4,3,0,4,1,3,0
+1976,Minnesota,Big Ten,,11,6,5,0,8,4,4,0,6,4,2,0,5,2,3,0
+1976,Mississippi State,SEC,,11,9,2,0,6,4,2,0,7,7,0,0,4,2,2,0
+1976,Missouri,Big 8,,11,6,5,0,7,3,4,0,5,2,3,0,6,4,2,0
+1976,Navy,FBS Independents,,11,4,7,0,8,3,5,0,6,2,4,0,5,2,3,0
+1976,NC State,ACC,,11,3,8,0,5,2,3,0,5,1,4,0,6,2,4,0
+1976,Nebraska,Big 8,,13,10,3,0,7,4,3,0,7,5,2,0,5,4,1,0
+1976,New Mexico,Western Athletic,,11,4,7,0,7,3,4,0,5,2,3,0,6,2,4,0
+1976,New Mexico State,Missouri Valley,,11,4,7,0,4,2,2,0,4,2,2,0,7,2,5,0
+1976,North Carolina,ACC,,12,9,3,0,5,4,1,0,6,5,1,0,5,4,1,0
+1976,Northern Illinois,Mid-American,,11,1,10,0,6,0,6,0,4,1,3,0,7,0,7,0
+1976,North Texas,FBS Independents,,11,6,5,0,1,0,1,0,3,2,1,0,8,4,4,0
+1976,Northwestern,Big Ten,,11,1,10,0,8,1,7,0,6,1,5,0,5,0,5,0
+1976,Northwestern State,FBS Independents,,10,5,5,0,1,1,0,0,6,4,2,0,4,1,3,0
+1976,Notre Dame,FBS Independents,,12,9,3,0,6,4,2,0,6,5,1,0,5,3,2,0
+1976,Ohio,Mid-American,,11,7,4,0,8,6,2,0,5,4,1,0,6,3,3,0
+1976,Ohio State,Big Ten,,12,9,3,0,8,7,1,0,5,3,2,0,6,5,1,0
+1976,Oklahoma,Big 8,,12,9,3,0,7,5,2,0,5,4,1,0,6,4,2,0
+1976,Oklahoma State,Big 8,,12,9,3,0,7,5,2,0,6,5,1,0,5,3,2,0
+1976,Ole Miss,SEC,,11,5,6,0,7,3,4,0,4,3,1,0,7,2,5,0
+1976,Oregon,Pac-8,,11,4,7,0,7,1,6,0,5,2,3,0,6,2,4,0
+1976,Oregon State,Pac-8,,12,2,10,0,7,1,6,0,5,1,4,0,7,1,6,0
+1976,Pacific,PCAA,,11,2,9,0,4,0,4,0,5,2,3,0,6,0,6,0
+1976,Penn State,FBS Independents,,12,7,5,0,7,5,2,0,6,4,2,0,5,3,2,0
+1976,Pennsylvania,Ivy,,9,3,6,0,7,2,5,0,4,0,4,0,5,3,2,0
+1976,Pittsburgh,FBS Independents,,12,12,0,0,10,10,0,0,7,7,0,0,4,4,0,0
+1976,Princeton,Ivy,,9,2,7,0,7,2,5,0,6,0,6,0,3,2,1,0
+1976,Purdue,Big Ten,,11,5,6,0,8,4,4,0,6,3,3,0,5,2,3,0
+1976,Rice,Southwest,,11,3,8,0,8,2,6,0,6,2,4,0,5,1,4,0
+1976,Richmond,Southern,,11,5,6,0,5,3,2,0,5,3,2,0,6,2,4,0
+1976,Rutgers,FBS Independents,,11,11,0,0,4,4,0,0,6,6,0,0,5,5,0,0
+1976,San Diego State,FBS Independents,,11,10,1,0,1,1,0,0,7,6,1,0,4,4,0,0
+1976,San José State,PCAA,,11,7,4,0,4,4,0,0,5,5,0,0,6,2,4,0
+1976,SMU,Southwest,,11,3,8,0,8,2,6,0,5,3,2,0,6,0,6,0
+1976,South Carolina,FBS Independents,,11,6,5,0,2,1,1,0,7,5,2,0,4,1,3,0
+1976,Southern Illinois,FBS Independents,,11,7,4,0,3,3,0,0,5,4,1,0,6,3,3,0
+1976,Southern Mississippi,FBS Independents,,11,2,9,0,4,1,3,0,5,2,3,0,6,0,6,0
+1976,Stanford,Pac-8,,11,6,5,0,7,5,2,0,4,3,1,0,7,3,4,0
+1976,Syracuse,FBS Independents,,11,3,8,0,7,2,5,0,6,3,3,0,5,0,5,0
+1976,TCU,Southwest,,11,0,11,0,8,0,8,0,4,0,4,0,7,0,7,0
+1976,Temple,FBS Independents,,10,4,6,0,6,1,5,0,4,1,3,0,6,3,3,0
+1976,Tennessee,SEC,,11,6,5,0,6,2,4,0,7,3,4,0,4,3,1,0
+1976,Texas,Southwest,,11,6,5,0,8,4,4,0,6,4,2,0,5,2,3,0
+1976,Texas A&M,Southwest,,12,10,2,0,8,6,2,0,6,5,1,0,5,4,1,0
+1976,Texas-Arlington,Southland,,11,5,6,0,5,3,2,0,6,3,3,0,5,2,3,0
+1976,Texas Tech,Southwest,,12,10,2,0,8,7,1,0,6,5,1,0,5,5,0,0
+1976,The Citadel,Southern,,11,6,5,0,6,2,4,0,5,4,1,0,6,2,4,0
+1976,Toledo,Mid-American,,11,3,8,0,8,2,6,0,5,3,2,0,6,0,6,0
+1976,Tulane,FBS Independents,,11,2,9,0,8,1,7,0,6,1,5,0,5,1,4,0
+1976,Tulsa,Missouri Valley,,12,7,5,0,4,2,2,0,4,3,1,0,7,4,3,0
+1976,UCLA,Pac-8,,12,10,2,0,7,6,1,0,7,6,1,0,4,4,0,0
+1976,USC,Pac-8,,12,11,1,0,7,7,0,0,6,5,1,0,5,5,0,0
+1976,Utah,Western Athletic,,11,3,8,0,6,3,3,0,5,2,3,0,6,1,5,0
+1976,Utah State,FBS Independents,,11,3,8,0,1,0,1,0,5,3,2,0,6,0,6,0
+1976,UTEP,Western Athletic,,12,1,11,0,7,0,7,0,6,1,5,0,6,0,6,0
+1976,Vanderbilt,SEC,,11,2,9,0,6,0,6,0,6,2,4,0,5,0,5,0
+1976,Villanova,FBS Independents,,11,7,4,0,7,5,2,0,7,5,2,0,4,2,2,0
+1976,Virginia,ACC,,11,2,9,0,4,1,3,0,5,1,4,0,6,1,5,0
+1976,Virginia Tech,FBS Independents,,11,6,5,0,3,2,1,0,6,4,2,0,5,2,3,0
+1976,VMI,Southern,,10,5,5,0,6,2,4,0,5,3,2,0,5,2,3,0
+1976,Wake Forest,ACC,,11,5,6,0,6,3,3,0,5,2,3,0,6,3,3,0
+1976,Washington,Pac-8,,11,5,6,0,7,3,4,0,7,3,4,0,4,2,2,0
+1976,Washington State,Pac-8,,11,3,8,0,7,2,5,0,5,2,3,0,6,1,5,0
+1976,Western Michigan,Mid-American,,11,7,4,0,9,6,3,0,6,5,1,0,5,2,3,0
+1976,West Texas A&M,Missouri Valley,,11,6,5,0,4,3,1,0,7,6,1,0,4,0,4,0
+1976,West Virginia,FBS Independents,,11,5,6,0,8,4,4,0,5,3,2,0,6,2,4,0
+1976,Wichita State,Missouri Valley,,11,4,7,0,4,2,2,0,5,3,2,0,6,1,5,0
+1976,William & Mary,Southern,,11,7,4,0,6,3,3,0,5,3,2,0,6,4,2,0
+1976,Wisconsin,Big Ten,,11,5,6,0,8,3,5,0,6,4,2,0,5,1,4,0
+1976,Wyoming,Western Athletic,,12,8,4,0,7,6,1,0,5,5,0,0,6,3,3,0
+1976,Yale,Ivy,,9,8,1,0,7,6,1,0,6,6,0,0,3,2,1,0
