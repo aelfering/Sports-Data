@@ -166,7 +166,7 @@ server <- function(input, output) {
                    AP_Top_10,
                    Rolling.Championships) %>%
             mutate(Pct.Won = Rolling.Wins/(Rolling.Wins + Rolling.Losses + Rolling.Ties)) %>%
-            # Removing independents right now because it is technically not a conference
+            # Removing teams that did not compete on the FBS level
             filter(!Conf %in% c('Did not compete in FBS')) %>%
             # Here is where we aggregate the team results by conference
             group_by(Season,
@@ -204,7 +204,6 @@ server <- function(input, output) {
                      Conf) %>%
             mutate(Rows = as.character(Rows)) %>%
             spread(Rows, Team_Name) %>%
-            #replace(is.na(.), '') %>%
             unite(Leaders, -c('Season', 'Conf'), sep = ', ', na.rm = TRUE) %>%
             distinct(Season,
                      Conf,
@@ -224,8 +223,6 @@ server <- function(input, output) {
             group_by(Conf) %>%
             mutate(Rolling.AP.Rank = rollapplyr(Conf_AP_Rank, input$Variable, sum, partial = TRUE)/input$Variable,
                    Rolling.AP.10 = rollapplyr(Conf_AP_10, input$Variable, sum, partial = TRUE)/input$Variable) %>%
-            #mutate(Rolling.AP.Rank = round(Rolling.AP.Rank, 3),
-            #       Rolling.AP.10 = round(Rolling.AP.10, 3)) %>%
             ungroup()
         
         #       Joining the various data frames together
@@ -237,9 +234,7 @@ server <- function(input, output) {
             mutate(Earlier = (Season-input$Variable)+1) %>%
             filter(Season == input$range) %>%
             mutate(Period = paste(Earlier, Season, sep = '-'),
-                   Conf_Record = paste(Total.Wins, Total.Losses, Total.Ties, sep = '-')#,
-                   #Rolling.AP.Rank = as.integer(format(round(Rolling.AP.Rank, 2), nsmall = 2)),
-                   #Rolling.AP.10 = as.integer(format(round(Rolling.AP.10, 2), nsmall = 2))
+                   Conf_Record = paste(Total.Wins, Total.Losses, Total.Ties, sep = '-')
             ) %>%
             arrange(Conf) %>%
             select(Conference = Conf,
@@ -253,9 +248,6 @@ server <- function(input, output) {
                    `Average in AP 10` = Rolling.AP.10,
                    `Winningest Team(s)` = Leaders) %>%
             replace(is.na(.), 0)
-        
-        
-        str(conf.record.table)
         
         reactable(conf.record.table,
                   pagination = FALSE,
