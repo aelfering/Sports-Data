@@ -78,7 +78,7 @@ server <- function(input, output) {
         championships$National.Champion <- gsub("\\s*\\([^\\)]+\\)","",as.character(championships$National.Champion))
         data.frame(championships,do.call(rbind,strsplit(championships$National.Champion,",")))
         
-        mark1 <- championships %>%
+        champ_pivot <- championships %>%
             mutate(National.Champion = ifelse(National.Champion == 'Miami', 'Miami (FL)', National.Champion)) %>%
             separate(National.Champion, into = paste("C", 1:4, sep = '-'), sep = ', ') %>%
             select(Year,
@@ -86,21 +86,21 @@ server <- function(input, output) {
                    `C-2`,
                    `C-3`)
         
-        one_champ <- mark1 %>%
+        one_champ <- champ_pivot %>%
             mutate(Won.Championship = 1) %>%
             select(Year,
                    Champion = `C-1`,
                    Won.Championship) %>%
             filter(!is.na(Champion))
         
-        two_champ <- mark1 %>%
+        two_champ <- champ_pivot %>%
             mutate(Won.Championship = 1) %>%
             select(Year,
                    Champion = `C-2`,
                    Won.Championship) %>%
             filter(!is.na(Champion))
         
-        three_champ <- mark1 %>%
+        three_champ <- champ_pivot %>%
             mutate(Won.Championship = 1) %>%
             select(Year,
                    Champion = `C-3`,
