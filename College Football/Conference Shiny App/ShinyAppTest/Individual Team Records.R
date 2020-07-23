@@ -32,7 +32,7 @@ setwd("~/Documents/GitHub/Sports-Data/College Football/Conference Shiny App/Shin
 ####  Loading data  ####
 cfb_team_games <- read.csv('Games teams CFB.csv')
 
-####  Creat rank strings and function to trim white space ####
+####  Create rank strings and function to trim white space ####
 seq <- 1:25
 seasons <- paste('(', seq, ')', sep = "")
 
@@ -137,3 +137,16 @@ ranked_record <- all_games %>%
   ungroup()
 
 overall_and_ranked_wins <- left_join(overall_team_record, ranked_record, by = c('Season' = 'Season', 'Team' = 'Team'))
+
+overall_names_fixed <- overall_and_ranked_wins %>%
+  # Adjusting specific team names with acronyms
+  mutate(Team = ifelse(Team == 'Southern California', 'USC', Team),
+         Team = ifelse(Team == 'Central Florida', 'UCF', Team),
+         Team = ifelse(Team == 'Texas-San Antonio', 'UTSA', Team),
+         Team = ifelse(Team == 'Texas-El Paso', 'UTEP', Team),
+         Team = ifelse(Team == 'Alabama-Birmingham', 'UAB', Team),
+         Team = ifelse(Team == 'Southern Methodist', 'SMU', Team),
+         Team = ifelse(Team == 'Pittsburgh', 'Pitt', Team),
+         Team = ifelse(Team == 'Mississippi', 'Ole Miss', Team),
+         Team = ifelse(Team == 'Louisiana State', 'LSU', Team),
+         Team = ifelse(Team == 'Brigham Young', 'BYU', Team))
