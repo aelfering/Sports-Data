@@ -85,6 +85,43 @@ all_games <- bind_rows(winning_games, losing_games)
 
 head(all_games)
 
+
+knockout_column <- function(maxWidth = 70, class = NULL, ...) {
+  colDef(
+    cell = format_pct,
+    maxWidth = maxWidth,
+    class = paste("cell number", class),
+    style = function(value) {
+      # Lighter color for <1%
+      if (value < 0.01) {
+        list(color = "#aaa")
+      } else {
+        list(color = "#111", background = knockout_pct_color(value))
+      }
+    },
+    ...
+  )
+}
+
+format_pct <- function(value) {
+  if (value == 0) "  \u2013 "    # en dash for 0%
+  else if (value == 1) "\u2713"  # checkmark for 100%
+  else if (value < 0.01) " <1%"
+  else if (value > 0.99) ">99%"
+  else formatC(paste0(round(value * 100), "%"), width = 4)
+}
+
+make_color_pal <- function(colors, bias = 1) {
+  get_color <- colorRamp(colors, bias = bias)
+  function(x) rgb(get_color(x), maxColorValue = 255)
+}
+
+off_rating_color <- make_color_pal(c("#ff2700", "#f8fcf8", "#44ab43"), bias = 1.3)
+def_rating_color <- make_color_pal(c("#ff2700", "#f8fcf8", "#44ab43"), bias = 0.6)
+knockout_pct_color <- make_color_pal(c("#ffffff", "#f2fbd2", "#c9ecb4", "#93d3ab", "#35b0ab"), bias = 2)
+
+knockout_pct_color <- make_color_pal(c("#ffffff", "#f2fbd2", "#c9ecb4", "#93d3ab", "#35b0ab"), bias = 2)
+
 # game outcomes
 outcome_season_records <- all_games %>%
   mutate(Wins = ifelse(Team.Pts > Opp.Pts, 1, 0),
@@ -105,7 +142,7 @@ outcome_season_records <- all_games %>%
 # How many times has a team gone a specific record?
 outcome_pivot <- outcome_season_records %>%
   # Look at seasons after overtime introduced
-  filter(Season > 1995) %>%
+  filter(Season > 2005) %>%
   unite(Team.Record, c('Season.Wins', 'Season.Losses'), sep = '-') %>%
   select(Season,
          Team,
@@ -158,13 +195,40 @@ mark1 <- overall_pivot_freq %>%
            Team.Record) %>%
   spread(Won.6,
          Game.Outcome) %>%
+  replace(is.na(.), 0) %>%
   arrange(Total.Games) %>%
-  select(Team.Record,
-         Total.Games,
+  select(Total.Games,
+         Team.Record,
          Pct.Freq,
          Won.6 = `TRUE`,
-         Lost.More = `FALSE`)
+         Lost.More = `FALSE`) %>%
+  as.data.frame()
 
+str(mark1)
 
+reactable(subset(mark1, Total.Games == 4),
+          pagination = FALSE,
+          outlined = TRUE,
+          highlight = TRUE,
+          striped = TRUE,
+          resizable = TRUE,
+          wrap = TRUE,
+          defaultColDef = colDef(headerClass = "header", 
+                                 align = "left"),
+          style = list(fontFamily = 'Arial', 
+                       fontSize = '14px'),
+          theme = reactableTheme(
+            headerStyle = list(
+              "&:hover[aria-sort]" = list(background = "hsl(0, 0%, 96%)"),
+              "&[aria-sort='ascending'], &[aria-sort='descending']" = list(background = "hsl(0, 0%, 96%)"),
+              borderColor = "#555"
+            )),
+          columns = list(Total.Games = colDef(name = 'Games Played'),
+                         Team.Record = colDef(name = 'Record'),
+                         Pct.Freq = knockout_column(name = "Frequency"),
+                         Won.6 = knockout_column(name = "Won 6+ Games"),
+                         Lost.More = knockout_column(name = "Won < 6 Games")
+                         )
+          )
 
 #
