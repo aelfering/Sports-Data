@@ -204,9 +204,11 @@ mark1 <- overall_pivot_freq %>%
          Lost.More = `FALSE`) %>%
   as.data.frame()
 
+
+
 str(mark1)
 
-reactable(subset(mark1, Total.Games == 4),
+reactable(subset(mark1, Total.Games == 7),
           pagination = FALSE,
           outlined = TRUE,
           highlight = TRUE,
@@ -230,5 +232,3 @@ reactable(subset(mark1, Total.Games == 4),
                          Lost.More = knockout_column(name = "Won < 6 Games")
                          )
           )
-
-#
