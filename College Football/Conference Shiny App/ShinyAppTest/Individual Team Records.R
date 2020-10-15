@@ -131,9 +131,9 @@ ranked_record <- all_games %>%
   ungroup() %>%
   group_by(Team) %>%
   # Complete missing seasons among teams and replace those missing values with NA
-  mutate(Rolling.Ranked.Wins = rollapplyr(Ranked.Wins, 10, sum, partial = TRUE),
-         Rolling.Ranked.Losses = rollapplyr(Ranked.Losses, 10, sum, partial = TRUE),
-         Rolling.Ranked.Ties = rollapplyr(Ranked.Ties, 10, sum, partial = TRUE)) %>%
+  mutate(Rolling.Ranked.Wins = rollapplyr(Ranked.Wins, 5, sum, partial = TRUE),
+         Rolling.Ranked.Losses = rollapplyr(Ranked.Losses, 5, sum, partial = TRUE),
+         Rolling.Ranked.Ties = rollapplyr(Ranked.Ties, 5, sum, partial = TRUE)) %>%
   ungroup()
 
 overall_and_ranked_wins <- left_join(overall_team_record, ranked_record, by = c('Season' = 'Season', 'Team' = 'Team'))
