@@ -13,6 +13,9 @@ library(zoo)
 library(ggrepel)
 library(rsconnect)
 
+setwd("~/Documents/GitHub/Sports-Data/College Football/Conference Shiny App/ShinyAppTest")
+conf_performance <- read.csv('cfb conf.csv')
+
 ui <- shinyUI(fluidPage(  
   titlePanel("Conference Performance"),  
   sidebarLayout(  
@@ -75,7 +78,7 @@ server <- shinyServer(function(input, output) {
       select(Team,
              Rolling.Wins)
     
-    top_sort <- top_teams[order(top_teams$Rolling.Wins), decreasing = input$rank]
+    top_sort <- top_teams[order(top_teams$Rolling.Wins, decreasing = TRUE),]
     
     top_teams_sort <- top_sort %>%
       filter(rank((Rolling.Wins)) <= 5) %>%
