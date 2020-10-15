@@ -78,7 +78,7 @@ server <- shinyServer(function(input, output) {
       select(Team,
              Rolling.Wins)
     
-    top_sort <- top_teams[order(top_teams$Rolling.Wins, decreasing = TRUE),]
+    top_sort <- top_teams[with(top_teams, order(Rolling.Wins, decreasing = T)),]
     
     top_teams_sort <- top_sort %>%
       filter(rank((Rolling.Wins)) <= 5) %>%
