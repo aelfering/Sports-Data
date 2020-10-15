@@ -13,9 +13,6 @@ library(zoo)
 library(ggrepel)
 library(rsconnect)
 
-setwd("~/Documents/GitHub/Sports-Data/College Football/Conference Shiny App/ShinyAppTest")
-conf_performance <- read.csv('cfb conf.csv')
-
 ui <- shinyUI(fluidPage(  
   titlePanel("Conference Performance"),  
   sidebarLayout(  
@@ -25,13 +22,14 @@ ui <- shinyUI(fluidPage(
       sliderInput("season", "Select a Season:",
                   min = 1936, max = 2019,
                   value = 1999),
+      selectInput('ranking', 'Select a Rank:',
+                  min = 1, max = 5,
+                  value = 3),
       selectInput("running", "Select a Measure for Running Calc:",
                   c('sum', 'mean', 'median', 'max')),
       sliderInput("variable", "Select a Variable for Running Calculation:",
                   min = 3, max = 10,
                   value = 5),
-      selectInput("rank", 'Filter on Top/Bottom Teams (TRUE for top teams):',
-                  c(TRUE, FALSE)),
       width=2),
     mainPanel(
       plotOutput("Plot", width = "100%")  
@@ -76,12 +74,9 @@ server <- shinyServer(function(input, output) {
       filter(Conf == input$conference,
              Season == input$season) %>%
       select(Team,
-             Rolling.Wins)
-    
-    top_sort <- top_teams[with(top_teams, order(Rolling.Wins, decreasing = T)),]
-    
-    top_teams_sort <- top_sort %>%
-      filter(rank((Rolling.Wins)) <= 5) %>%
+             Rolling.Wins) %>%
+      arrange(desc(Rolling.Wins)) %>%
+      filter(rank(desc(Rolling.Wins)) <= input$ranking) %>%
       select(Team)
     
     team_conf %>%
@@ -92,14 +87,14 @@ server <- shinyServer(function(input, output) {
       geom_line(alpha = 0.2, 
                 color = 'gray',
                 size = 1) +
-      geom_line(data = subset(team_conf, Team %in% top_teams_sort$Team & Conf == input$conference),
+      geom_line(data = subset(team_conf, Team %in% top_teams$Team & Conf == input$conference),
                 mapping = aes(x = Season,
                               y = Rolling.Wins,
                               group = Team,
                               color = Team),
                 alpha = 0.3,
                 size = 2) +
-      geom_line(data = subset(team_conf, Team %in% top_teams_sort$Team & Season <= input$season & Conf == input$conference),
+      geom_line(data = subset(team_conf, Team %in% top_teams$Team & Season <= input$season & Conf == input$conference),
                 mapping = aes(x = Season,
                               y = Rolling.Wins,
                               group = Team,
