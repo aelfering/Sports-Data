@@ -132,7 +132,7 @@ server <- shinyServer(function(input, output) {
     
     
     
-  }, height=700, width = 1150)
+  }, height = 'auto', width = 'auto')
   output$dt <- renderDataTable({
     
     team_conf <- conf_performance %>%
@@ -182,22 +182,7 @@ server <- shinyServer(function(input, output) {
              Conf.Record,
              Latest.Conf.Record)
     
-    sketch = htmltools::withTags(table(
-      class = 'display',
-      thead(
-        tr(
-          th(rowspan = 2, 'Team'),
-          th(colspan = 2, 'Overall'),
-          th(colspan = 2, 'Conference Play')
-        ),
-        tr(
-          lapply(rep(c(paste('Rolling ', tes_var, sep = ''), 'Last Season'), 2), th)
-        )
-      )
-    ))
-    
     datatable(tbl_test, 
-              container = sketch, 
               rownames = FALSE,
               caption = paste(conf_var, ' Conference performance between ', season_var-rolling_var, ' and ', season_var, sep = ''),
               options = list(paging = FALSE))
