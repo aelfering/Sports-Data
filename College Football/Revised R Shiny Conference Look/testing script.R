@@ -1,12 +1,15 @@
+#install.packages('DT')
+
 library(dplyr)
 library(ggplot2)
 library(tidyr)
 library(tidyverse)
 library(zoo)
+library(DT)
 
-setwd("~/Documents/GitHub/Sports-Data/College Football/Revised R Shiny Conference Look")
+setwd("~/GitHub/Sports-Data/College Football/Revised R Shiny Conference Look")
 
-conf_performance <- read.csv('cfb conf.csv')
+conf_performance <- read.csv('cfb conf.csv' , fileEncoding="UTF-8-BOM")
 
 rolling_var <- 5
 
@@ -45,8 +48,8 @@ team_conf <- conf_performance %>%
          Rolling.Conf.Pct.Won = Rolling.Conf.Wins/Rolling.Conf.Total.Games) %>%
   filter(Season >= 1936)
 
-season_var <- 2008
-conf_var <- 'PAC-12'
+season_var <- 2010
+conf_var <- 'Big Ten'
 
 library(DT)
 
@@ -82,7 +85,7 @@ print(sketch)
 datatable(tbl_test, 
           container = sketch, 
           rownames = FALSE,
-          caption = paste('Conference performance between ', season_var-rolling_var, ' and ', season_var, sep = ''))
+          caption = paste(conf_var, ' Conference performance between ', season_var-rolling_var, ' and ', season_var, sep = ''))
 
 
 
