@@ -185,6 +185,11 @@ server <- shinyServer(function(input, output) {
     datatable(tbl_test, 
               rownames = FALSE,
               caption = paste(conf_var, ' Conference performance between ', season_var-rolling_var, ' and ', season_var, sep = ''),
+              colnames=c("Team", 
+                         paste('Rolling ', input$running, sep = ''),
+                         paste('Record as of ', input$season, sep = '-'),
+                         paste('Rolling Conference ', input$running, sep = ''),
+                         paste('Conference Record as of ', input$season, sep = '-')),
               options = list(paging = FALSE))
     
     
