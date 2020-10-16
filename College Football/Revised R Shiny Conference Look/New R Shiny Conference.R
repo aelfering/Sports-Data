@@ -18,15 +18,15 @@ ui <- shinyUI(fluidPage(
   sidebarLayout(  
     sidebarPanel(
       selectInput("conference", "Select a Conference",
-                  c('Big Ten', 'Big 12', 'ACC', 'PAC-12', 'SEC')),
+                  c('Big Ten', 'Big 12', 'ACC', 'PAC-12', 'SEC', 'AAC', 'MWC', 'MAC', 'CUSA', 'Big 8', 'WAC', 'Big East')),
       sliderInput("season", "Select a Season:",
                   min = 1936, max = 2019,
                   value = 1999),
-      selectInput('ranking', 'Select a Rank:',
+      sliderInput('ranking', 'Select a Rank:',
                   min = 1, max = 5,
                   value = 3),
       selectInput("running", "Select a Measure for Running Calc:",
-                  c('sum', 'mean', 'median', 'max')),
+                  c('sum', 'mean', 'median', 'max', 'min')),
       sliderInput("variable", "Select a Variable for Running Calculation:",
                   min = 3, max = 10,
                   value = 5),
@@ -76,7 +76,7 @@ server <- shinyServer(function(input, output) {
       select(Team,
              Rolling.Wins) %>%
       arrange(desc(Rolling.Wins)) %>%
-      filter(rank(desc(Rolling.Wins)) <= input$ranking) %>%
+      filter(dense_rank(desc(Rolling.Wins)) <= input$ranking) %>%
       select(Team)
     
     team_conf %>%
@@ -92,7 +92,7 @@ server <- shinyServer(function(input, output) {
                               y = Rolling.Wins,
                               group = Team,
                               color = Team),
-                alpha = 0.3,
+                alpha = 0.5,
                 size = 2) +
       geom_line(data = subset(team_conf, Team %in% top_teams$Team & Season <= input$season & Conf == input$conference),
                 mapping = aes(x = Season,
@@ -103,7 +103,9 @@ server <- shinyServer(function(input, output) {
       geom_vline(xintercept = input$season,
                  linetype = 'dashed') +
       labs(title = paste('Winningest Teams in the ', input$conference, ' as of ', input$season, sep = ''),
-           subtitle = paste('Based on a Rolling ', input$variable, ' Season Sum', sep = '')) +
+           subtitle = paste('Based on a Rolling ', input$variable, ' Season ', input$running, '.', sep = ''),
+           y = '',
+           x = '') +
       theme(plot.title = element_text(face = 'bold', size = 18, family = 'Arial'),
             legend.position = 'top',
             legend.background=element_blank(),
