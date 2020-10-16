@@ -13,9 +13,10 @@ library(zoo)
 library(ggrepel)
 library(rsconnect)
 
-setwd("~/Documents/GitHub/Sports-Data/College Football/Revised R Shiny Conference Look")
+setwd("~/GitHub/Sports-Data/College Football/Revised R Shiny Conference Look")
 
 conf_performance <- read.csv('cfb conf.csv')
+
 
 ui <- shinyUI(fluidPage(  
   titlePanel("Conference Performance"),  
