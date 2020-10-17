@@ -36,11 +36,11 @@ library(ggrepel)
 library(rsconnect)
 library(DT)
 
+# loading data source
 setwd("~/GitHub/Sports-Data/College Football/Revised R Shiny Conference Look")
-
 conf_performance <- read.csv('cfb conf.csv' , fileEncoding="UTF-8-BOM")
 
-
+# building the r shiny dashboard
 ui <- shinyUI(fluidPage(  
   titlePanel("Conference Performance"),  
   sidebarLayout(  
@@ -67,7 +67,8 @@ ui <- shinyUI(fluidPage(
   )  
 ))
 
-server <- shinyServer(function(input, output) {  
+server <- shinyServer(function(input, output) { 
+  # time series graph
   output$Plot <- renderPlot({  
     
     # this dataframe builds the running calculation for both the regular season and conference play
@@ -166,6 +167,7 @@ server <- shinyServer(function(input, output) {
     
     
   }, height = 'auto', width = 'auto')
+  # summary table
   output$dt <- renderDataTable({
     
     team_conf <- conf_performance %>%
