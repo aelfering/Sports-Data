@@ -48,6 +48,8 @@ ui <- shinyUI(fluidPage(
 server <- shinyServer(function(input, output) {  
   output$Plot <- renderPlot({  
     
+    # this dataframe builds the running calculation for both the regular season and conference play
+    # teams that move between conferences (Nebraska from Big 12 -> Big Ten) should have their conference play record start over again
     team_conf <- conf_performance %>%
       replace(is.na(.), 0) %>%
       arrange(Team, 
@@ -64,11 +66,16 @@ server <- shinyServer(function(input, output) {
       mutate(Total.Games = Total.Wins + Total.Losses + Total.Ties,
              Total.Conf.Games = Conf.Wins + Conf.Losses + Conf.Ties,
              Pct.Win = Total.Wins/Total.Games) %>%
+      # regular season
       group_by(Team) %>%
       mutate(Rolling.Wins = rollapplyr(Total.Wins, input$variable, input$running, partial = TRUE),
              Rolling.Losses = rollapplyr(Total.Losses, input$variable, input$running, partial = TRUE),
              Rolling.Ties = rollapplyr(Total.Ties, input$variable, input$running, partial = TRUE),
              Rolling.Total.Games = rollapplyr(Total.Games, input$variable, input$running, partial = TRUE)) %>%
+      ungroup() %>%
+      # conference play
+      group_by(Conf,
+               Team) %>%
       mutate(Rolling.Conf.Wins = rollapplyr(Conf.Wins, input$variable, input$running, partial = TRUE),
              Rolling.Conf.Losses = rollapplyr(Conf.Losses, input$variable, input$running, partial = TRUE),
              Rolling.Conf.Ties = rollapplyr(Conf.Ties, input$variable, input$running, partial = TRUE),
@@ -76,6 +83,7 @@ server <- shinyServer(function(input, output) {
       ungroup() %>%
       mutate(Rolling.Pct.Won = Rolling.Wins/Rolling.Total.Games,
              Rolling.Conf.Pct.Won = Rolling.Conf.Wins/Rolling.Conf.Total.Games) %>%
+      # filtering for the beginning of the AP Polling era
       filter(Season >= 1936)
     
     top_teams <- team_conf %>%
