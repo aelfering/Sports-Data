@@ -1,14 +1,29 @@
+list.of.packages <- c("ggplot2", 
+                      "shiny", 
+                      'htmltools', 
+                      'shinydashboard', 
+                      'shinythemes', 
+                      'dplyr', 
+                      'tidyr', 
+                      'tidyverse', 
+                      'scales', 
+                      'zoo',
+                      'ggrepel',
+                      'rsconnect',
+                      'DT')
+new.packages <- list.of.packages[!(list.of.packages %in% installed.packages()[,"Package"])]
+if(length(new.packages)) install.packages(new.packages)
+
+
 library(ggplot2)  
 library(shiny)
 library(htmltools)
 library(shinydashboard)
 library(shinythemes) 
 library(dplyr) 
-library(lubridate)
 library(tidyr)
 library(tidyverse)
 library(scales)
-library(data.table)
 library(zoo)
 library(ggrepel)
 library(rsconnect)
@@ -85,6 +100,8 @@ server <- shinyServer(function(input, output) {
              Rolling.Conf.Pct.Won = Rolling.Conf.Wins/Rolling.Conf.Total.Games) %>%
       # filtering for the beginning of the AP Polling era
       filter(Season >= 1936)
+    
+    
     
     top_teams <- team_conf %>%
       filter(Conf == input$conference,
