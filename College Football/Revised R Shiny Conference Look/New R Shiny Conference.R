@@ -186,7 +186,7 @@ server <- shinyServer(function(input, output) {
     datatable(tbl_test, 
               rownames = FALSE,
               extensions = 'Buttons', 
-              caption = paste(conf_var, ' Conference Records between ', input$season-input$variable, ' and ', season_var, '. Conference Play also includes conference championships.' sep = ''),
+              caption = paste(input$conference, ' Conference Records between ', input$season-input$variable, ' and ', season_var, '. Conference Play also includes conference championships.', sep = ''),
               colnames=c("Team", 
                          paste('Reg. Season Record between ', input$season-input$variable, ' and ', season_var, sep = ''),
                          paste('Reg. Season Record as of ', input$season, sep = ''),
