@@ -1,3 +1,10 @@
+# College Football Conference Dashboard
+# Created by Alex Elfering
+
+# This dashboard is designed to examine how well college football teams perform over the short-term and long-term
+
+# Data Sources Used: College Football Reference
+
 list.of.packages <- c("ggplot2", 
                       "shiny", 
                       'htmltools', 
