@@ -46,7 +46,7 @@ ui <- shinyUI(fluidPage(
   sidebarLayout(  
     sidebarPanel(
       selectInput("conference", "Select a Conference",
-                  c('Big Ten', 'Big 12', 'ACC', 'PAC-12', 'SEC', 'AAC', 'MWC', 'MAC', 'CUSA', 'Big 8', 'WAC', 'Big East')),
+                  c('Big Ten', 'Big 12', 'ACC', 'PAC-12', 'SEC', 'AAC', 'MWC', 'MAC', 'CUSA', 'Big 8', 'WAC', 'Big East', 'Sun Belt')),
       textInput('inputId', 'label', value = "", width = NULL, placeholder = NULL),
       sliderInput("season", "Select a Season:",
                   min = 1936, max = 2019,
@@ -71,7 +71,7 @@ server <- shinyServer(function(input, output) {
   # time series graph
   output$Plot <- renderPlot({  
     
-    # this dataframe builds the running calculation for both the regular season and conference play
+    # this data frame builds the running calculation for both the regular season and conference play
     # teams that move between conferences (Nebraska from Big 12 -> Big Ten) should have their conference play record start over again
     team_conf <- conf_performance %>%
       replace(is.na(.), 0) %>%
@@ -108,8 +108,6 @@ server <- shinyServer(function(input, output) {
              Rolling.Conf.Pct.Won = Rolling.Conf.Wins/Rolling.Conf.Total.Games) %>%
       # filtering for the beginning of the AP Polling era
       filter(Season >= 1936)
-    
-    
     
     top_teams <- team_conf %>%
       filter(Conf == input$conference,
