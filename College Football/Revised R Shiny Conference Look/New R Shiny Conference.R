@@ -109,6 +109,13 @@ server <- shinyServer(function(input, output) {
       # filtering for the beginning of the AP Polling era
       filter(Season >= 1936)
     
+    fill_missing_time_series <- team_conf %>%
+      filter(Conf == input$conference) %>%
+      group_by(Team) %>%
+      complete(Season = seq(min(Season), max(Season), by = 1)) %>%
+      ungroup() %>%
+      fill(Conf)
+    
     top_teams <- team_conf %>%
       filter(Conf == input$conference,
              Season == input$season) %>%
@@ -118,7 +125,7 @@ server <- shinyServer(function(input, output) {
       filter(dense_rank(desc(Rolling.Wins)) <= input$ranking) %>%
       select(Team)
     
-    team_conf %>%
+    fill_missing_time_series %>%
       filter(Conf == input$conference) %>%
       ggplot(aes(x = Season,
                  y = Rolling.Wins,
@@ -126,14 +133,14 @@ server <- shinyServer(function(input, output) {
       geom_line(alpha = 0.2, 
                 color = 'gray',
                 size = 1) +
-      geom_line(data = subset(team_conf, Team %in% top_teams$Team & Conf == input$conference),
+      geom_line(data = subset(fill_missing_time_series, Team %in% top_teams$Team & Conf == input$conference),
                 mapping = aes(x = Season,
                               y = Rolling.Wins,
                               group = Team,
                               color = Team),
                 alpha = 0.5,
                 size = 2) +
-      geom_line(data = subset(team_conf, Team %in% top_teams$Team & Season <= input$season & Conf == input$conference),
+      geom_line(data = subset(fill_missing_time_series, Team %in% top_teams$Team & Season <= input$season & Conf == input$conference),
                 mapping = aes(x = Season,
                               y = Rolling.Wins,
                               group = Team,
@@ -221,7 +228,7 @@ server <- shinyServer(function(input, output) {
               #caption = paste(input$conference, ' Conference Records between ', input$season-input$variable, ' and ', season_var, '. Conference Play also includes conference championships.', sep = ''),
               caption = htmltools::tags$caption(
                 style = 'caption-side: bottom; text-align: left;',
-                htmltools::em(paste(input$conference, ' Conference Records between ', input$season-input$variable, ' and ', season_var, '. Conference Play also includes conference championships.\nVisualization and design by Alex Elfering. Data Source: College Football Reference.', sep = ''))),
+                htmltools::em(paste(input$conference, ' Conference Records between ', input$season-input$variable, ' and ', season_var, '. Conference Play also includes conference championships. Averages are rounded. \nVisualization and design by Alex Elfering. Data Source: College Football Reference.', sep = ''))),
               colnames=c("Team", 
                          paste('Reg. Season Record between ', input$season-input$variable, ' and ', season_var, sep = ''),
                          paste('Reg. Season Record as of ', input$season, sep = ''),
