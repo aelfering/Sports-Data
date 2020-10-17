@@ -25,6 +25,7 @@ ui <- shinyUI(fluidPage(
     sidebarPanel(
       selectInput("conference", "Select a Conference",
                   c('Big Ten', 'Big 12', 'ACC', 'PAC-12', 'SEC', 'AAC', 'MWC', 'MAC', 'CUSA', 'Big 8', 'WAC', 'Big East')),
+      textInput('inputId', 'label', value = "", width = NULL, placeholder = NULL),
       sliderInput("season", "Select a Season:",
                   min = 1936, max = 2019,
                   value = 1999),
@@ -184,13 +185,16 @@ server <- shinyServer(function(input, output) {
     
     datatable(tbl_test, 
               rownames = FALSE,
+              extensions = 'Buttons', 
               caption = paste(conf_var, ' Conference performance between ', season_var-rolling_var, ' and ', season_var, sep = ''),
               colnames=c("Team", 
                          paste('Rolling ', input$running, sep = ''),
-                         paste('Record as of ', input$season, sep = '-'),
+                         paste('Record as of ', input$season, sep = ''),
                          paste('Rolling Conference ', input$running, sep = ''),
-                         paste('Conference Record as of ', input$season, sep = '-')),
-              options = list(paging = FALSE))
+                         paste('Conference Record as of ', input$season, sep = '')),
+              options = list(paging = FALSE,
+                             dom = 'Bfrtip',
+                             buttons = c('copy', 'csv', 'excel')))
     
     
   })
