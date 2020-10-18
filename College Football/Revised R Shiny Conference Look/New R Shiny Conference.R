@@ -46,8 +46,7 @@ ui <- shinyUI(fluidPage(
   sidebarLayout(  
     sidebarPanel(
       selectInput("conference", "Select a Conference",
-                  c('Big Ten', 'Big 12', 'ACC', 'PAC-12', 'SEC', 'AAC', 'MWC', 'MAC', 'CUSA', 'Big 8', 'WAC', 'Big East', 'Sun Belt')),
-      textInput('inputId', 'label', value = "", width = NULL, placeholder = NULL),
+                  unique(conf_performance$Conf)),
       sliderInput("season", "Select a Season:",
                   min = 1936, max = 2019,
                   value = 1999),
