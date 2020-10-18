@@ -40,22 +40,16 @@ library(DT)
 setwd("~/GitHub/Sports-Data/College Football/Revised R Shiny Conference Look")
 conf_performance <- read.csv('cfb conf.csv' , fileEncoding="UTF-8-BOM")
 
-conf_performance %>%
-  group_by(Conf) %>%
-  summarise(beg_year = min(Season),
-            end_year = max(Season)) %>%
-  ungroup()
-
 # building the r shiny dashboard
 ui <- shinyUI(fluidPage(  
   titlePanel("Conference Performance"),  
   sidebarLayout(  
     sidebarPanel(
       selectInput("conference", "Select a Conference",
-                  unique(conf_performance$Conf)),
+                  sort(unique(conf_performance$Conf))),
       sliderInput("season", "Select a Season:",
                   min = 1936, max = 2019,
-                  value = 1999),
+                  value = 2019),
       sliderInput('ranking', 'Select a Rank:',
                   min = 1, max = 5,
                   value = 3),
@@ -63,6 +57,9 @@ ui <- shinyUI(fluidPage(
                   c('sum', 'mean', 'median')),
       sliderInput("variable", "Select a Variable for Running Calculation:",
                   min = 3, max = 10,
+                  value = 5),
+      sliderInput("axis", "Select a Variable to Format Axis:",
+                  min = 5, max = 20,
                   value = 5),
       width=2),
     mainPanel(
@@ -130,6 +127,9 @@ server <- shinyServer(function(input, output) {
       filter(dense_rank(desc(Rolling.Wins)) <= input$ranking) %>%
       select(Team)
     
+    beg_season <- min(fill_missing_time_series$Season)
+    end_season <- max(fill_missing_time_series$Season)
+    
     fill_missing_time_series %>%
       filter(Conf == input$conference) %>%
       ggplot(aes(x = Season,
@@ -153,6 +153,8 @@ server <- shinyServer(function(input, output) {
                 size = 2) +
       geom_vline(xintercept = input$season,
                  linetype = 'dashed') +
+      scale_x_continuous(limits=c(beg_season, end_season),
+                         breaks = seq(beg_season, end_season, by = input$axis)) +
       labs(title = paste('Winningest Teams in the ', input$conference, ' as of ', input$season, sep = ''),
            subtitle = paste('Based on a Rolling ', input$variable, ' Season ', input$running, '.', sep = ''),
            y = '',
@@ -241,7 +243,7 @@ server <- shinyServer(function(input, output) {
                            'Finished Ranked in Top 10'),
               caption = htmltools::tags$caption(
                 style = 'caption-side: bottom; text-align: left;',
-                htmltools::em(paste(input$conference, ' Conference Records between ', input$season-input$variable, ' and ', input$season, '. Conference Play also includes conference championships. Averages and medians are rounded. \nVisualization and design by Alex Elfering. Data Source: College Football Reference.', sep = ''))),
+                htmltools::em(paste(input$conference, ' Conference Records between ', input$season-input$variable, ' and ', input$season, '. Conference Play also includes conference championships. Averages and medians are rounded. Teams are dense ranked based on total wins. Visualization and design by Alex Elfering. Data Source: College Football Reference.', sep = ''))),
               options = list(paging = FALSE,
                              dom = 'Bfrtip',
                              buttons = c('copy', 'csv', 'excel')))
