@@ -16,7 +16,7 @@ rolling_var <- 10
 tes_var <- 'mean'
 
 season_var <- 2000
-conf_var <- 'Ind'
+conf_var <- 'MAC'
 
 library(DT)
 
@@ -58,26 +58,6 @@ team_conf <- conf_performance %>%
   mutate(Rolling.Pct.Won = Rolling.Wins/Rolling.Total.Games,
          Rolling.Conf.Pct.Won = Rolling.Conf.Wins/Rolling.Conf.Total.Games) %>%
   filter(Season >= 1936)
-
-team_conf %>%
-  filter(Conf == conf_var) %>%
-  group_by(Season) %>%
-  summarise(Rolling.Ranked = mean(Rolling.Ranked),
-            Rolling.Top.10 = mean(Rolling.Top.10)) %>%
-  ungroup() %>%
-  ggplot(aes(x = Season,
-             y = Rolling.Ranked)) +
-  geom_line()
-
-window <- 2
-team_conf %>%
-  filter(Conf == conf_var) %>%
-  rowwise() %>% 
-  mutate(Season = list(Season + lubridate::days(0:(window - 1)))) %>% 
-  unnest(cols = when) %>%
-  group_by(when) %>% 
-  summarise(twoDayCount = n_distinct(user))
-
 
 tbl_test <- team_conf %>%
   filter(Conf == conf_var,
