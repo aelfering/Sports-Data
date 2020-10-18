@@ -228,8 +228,8 @@ server <- shinyServer(function(input, output) {
       arrange(desc(Rolling.Pct.Won)) %>%
       mutate(Rolling.Ties = ifelse(Rolling.Ties == 0, NA, Rolling.Ties),
              Rolling.Conf.Ties = ifelse(Rolling.Conf.Ties == 0, NA, Rolling.Conf.Ties)) %>%
-      unite(Record, c('Rolling.Wins', 'Rolling.Losses', 'Rolling.Ties'), sep = '-', na.rm = TRUE) %>%
-      unite(Conf.Record, c('Rolling.Conf.Wins', 'Rolling.Conf.Losses', 'Rolling.Conf.Ties'), sep = '-', na.rm = TRUE) %>%
+      unite(Record, c('Rolling.Wins', 'Rolling.Losses', 'Rolling.Ties'), sep = ' - ', na.rm = TRUE) %>%
+      unite(Conf.Record, c('Rolling.Conf.Wins', 'Rolling.Conf.Losses', 'Rolling.Conf.Ties'), sep = ' - ', na.rm = TRUE) %>%
       select(Team,
              Record,
              Conf.Record,
