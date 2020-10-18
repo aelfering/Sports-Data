@@ -24,6 +24,7 @@ head(conf_performance)
 
 team_conf <- conf_performance %>%
   replace(is.na(.), 0) %>%
+  filter(Team == 'Appalachian State') %>%
   arrange(Team, 
           Season) %>%
   select(Team, 
@@ -42,22 +43,24 @@ team_conf <- conf_performance %>%
          Finish.Ranked = ifelse(Post > 0, 1, 0),
          Finished.Top.10 = ifelse(Post > 0 & Post <= 10, 1, 0)) %>%
   group_by(Team) %>%
-  mutate(Rolling.Wins = round(rollapplyr(Total.Wins, rolling_var, tes_var, partial = TRUE)),
-         Rolling.Losses = round(rollapplyr(Total.Losses, rolling_var, tes_var, partial = TRUE)),
-         Rolling.Ties = round(rollapplyr(Total.Ties, rolling_var, tes_var, partial = TRUE)),
+  complete(Season = seq(min(Season), max(Season), by = 1)) %>%
+  mutate(Rolling.Wins = round(rollapplyr(Total.Wins, rolling_var, tes_var, partial = TRUE, na.rm = TRUE)),
+         Rolling.Losses = round(rollapplyr(Total.Losses, rolling_var, tes_var, partial = TRUE, na.rm = TRUE)),
+         Rolling.Ties = round(rollapplyr(Total.Ties, rolling_var, tes_var, partial = TRUE, na.rm = TRUE)),
          Rolling.Total.Games = rollapplyr(Total.Games, rolling_var, tes_var, partial = TRUE),
          Rolling.Ranked = rollapplyr(Finish.Ranked, rolling_var, sum, partial = TRUE),
          Rolling.Top.10 = rollapplyr(Finished.Top.10, rolling_var, sum, partial = TRUE)) %>%
   ungroup() %>%
   group_by(Team, Conf) %>%
-  mutate(Rolling.Conf.Wins = round(rollapplyr(Conf.Wins, rolling_var, tes_var, partial = TRUE)),
-         Rolling.Conf.Losses = round(rollapplyr(Conf.Losses, rolling_var, tes_var, partial = TRUE)),
-         Rolling.Conf.Ties = round(rollapplyr(Conf.Ties, rolling_var, tes_var, partial = TRUE)),
+  mutate(Rolling.Conf.Wins = round(rollapplyr(Conf.Wins, rolling_var, tes_var, partial = TRUE, na.rm = TRUE)),
+         Rolling.Conf.Losses = round(rollapplyr(Conf.Losses, rolling_var, tes_var, partial = TRUE, na.rm = TRUE)),
+         Rolling.Conf.Ties = round(rollapplyr(Conf.Ties, rolling_var, tes_var, partial = TRUE, na.rm = TRUE)),
          Rolling.Conf.Total.Games = rollapplyr(Total.Conf.Games, rolling_var, tes_var, partial = TRUE)) %>%
   ungroup() %>%
   mutate(Rolling.Pct.Won = Rolling.Wins/Rolling.Total.Games,
          Rolling.Conf.Pct.Won = Rolling.Conf.Wins/Rolling.Conf.Total.Games) %>%
-  filter(Season >= 1936)
+  filter(Season >= 1936,
+         !is.na(Total.Games))
 
 fill_missing_time_series <- team_conf %>%
   filter(Conf == conf_var) %>%
