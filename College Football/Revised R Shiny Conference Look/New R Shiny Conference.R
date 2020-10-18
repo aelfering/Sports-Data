@@ -54,7 +54,7 @@ ui <- shinyUI(fluidPage(
                   min = 1, max = 5,
                   value = 3),
       selectInput("running", "Select a Measure for Running Calc:",
-                  c('sum', 'mean', 'median', 'max', 'min')),
+                  c('sum', 'mean', 'median')),
       sliderInput("variable", "Select a Variable for Running Calculation:",
                   min = 3, max = 10,
                   value = 5),
@@ -231,7 +231,7 @@ server <- shinyServer(function(input, output) {
               #caption = paste(input$conference, ' Conference Records between ', input$season-input$variable, ' and ', season_var, '. Conference Play also includes conference championships.', sep = ''),
               caption = htmltools::tags$caption(
                 style = 'caption-side: bottom; text-align: left;',
-                htmltools::em(paste(input$conference, ' Conference Records between ', input$season-input$variable, ' and ', input$season, '. Conference Play also includes conference championships. Averages are rounded. \nVisualization and design by Alex Elfering. Data Source: College Football Reference.', sep = ''))),
+                htmltools::em(paste(input$conference, ' Conference Records between ', input$season-input$variable, ' and ', input$season, '. Conference Play also includes conference championships. Averages and medians are rounded. \nVisualization and design by Alex Elfering. Data Source: College Football Reference.', sep = ''))),
               options = list(paging = FALSE,
                              dom = 'Bfrtip',
                              buttons = c('copy', 'csv', 'excel')))
