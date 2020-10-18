@@ -40,6 +40,12 @@ library(DT)
 setwd("~/GitHub/Sports-Data/College Football/Revised R Shiny Conference Look")
 conf_performance <- read.csv('cfb conf.csv' , fileEncoding="UTF-8-BOM")
 
+conf_performance %>%
+  group_by(Conf) %>%
+  summarise(beg_year = min(Season),
+            end_year = max(Season)) %>%
+  ungroup()
+
 # building the r shiny dashboard
 ui <- shinyUI(fluidPage(  
   titlePanel("Conference Performance"),  
