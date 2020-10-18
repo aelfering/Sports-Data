@@ -61,7 +61,7 @@ ui <- shinyUI(fluidPage(
       width=2),
     mainPanel(
       plotOutput("Plot", width = "100%")  ,
-      dataTableOutput('dt')
+      DT::dataTableOutput('dt')
     )  
   )  
 ))
@@ -172,7 +172,7 @@ server <- shinyServer(function(input, output) {
     
   }, height = 'auto', width = 'auto')
   # summary table
-  output$dt <- renderDataTable({
+  output$dt <- DT::renderDataTable({
     
     team_conf <- conf_performance %>%
       replace(is.na(.), 0) %>%
@@ -181,6 +181,7 @@ server <- shinyServer(function(input, output) {
       select(Team, 
              Season,
              Conf,
+             Post,
              Total.Wins,
              Total.Losses,
              Total.Ties,
@@ -189,19 +190,22 @@ server <- shinyServer(function(input, output) {
              Conf.Ties) %>%
       mutate(Total.Games = Total.Wins + Total.Losses + Total.Ties,
              Total.Conf.Games = Conf.Wins + Conf.Losses + Conf.Ties,
-             Pct.Win = Total.Wins/Total.Games) %>%
+             Pct.Win = Total.Wins/Total.Games,
+             Finish.Ranked = ifelse(Post > 0, 1, 0),
+             Finished.Top.10 = ifelse(Post > 0 & Post <= 10, 1, 0)) %>%
       group_by(Team) %>%
       mutate(Rolling.Wins = round(rollapplyr(Total.Wins, input$variable, input$running, partial = TRUE)),
              Rolling.Losses = round(rollapplyr(Total.Losses, input$variable, input$running, partial = TRUE)),
              Rolling.Ties = round(rollapplyr(Total.Ties, input$variable, input$running, partial = TRUE)),
-             Rolling.Total.Games = round(rollapplyr(Total.Games, input$variable, input$running, partial = TRUE))) %>%
+             Rolling.Total.Games = rollapplyr(Total.Games, input$variable, input$running, partial = TRUE),
+             Rolling.Ranked = rollapplyr(Finish.Ranked, input$variable, sum, partial = TRUE),
+             Rolling.Top.10 = rollapplyr(Finished.Top.10, input$variable, sum, partial = TRUE)) %>%
       ungroup() %>%
-      group_by(Team,
-               Conf) %>%
+      group_by(Team, Conf) %>%
       mutate(Rolling.Conf.Wins = round(rollapplyr(Conf.Wins, input$variable, input$running, partial = TRUE)),
              Rolling.Conf.Losses = round(rollapplyr(Conf.Losses, input$variable, input$running, partial = TRUE)),
              Rolling.Conf.Ties = round(rollapplyr(Conf.Ties, input$variable, input$running, partial = TRUE)),
-             Rolling.Conf.Total.Games = round(rollapplyr(Total.Conf.Games, input$variable, input$running, partial = TRUE))) %>%
+             Rolling.Conf.Total.Games = rollapplyr(Total.Conf.Games, input$variable, input$running, partial = TRUE)) %>%
       ungroup() %>%
       mutate(Rolling.Pct.Won = Rolling.Wins/Rolling.Total.Games,
              Rolling.Conf.Pct.Won = Rolling.Conf.Wins/Rolling.Conf.Total.Games) %>%
@@ -211,15 +215,15 @@ server <- shinyServer(function(input, output) {
       filter(Conf == input$conference,
              Season == input$season) %>%
       arrange(desc(Rolling.Pct.Won)) %>%
+      mutate(Rolling.Ties = ifelse(Rolling.Ties == 0, NA, Rolling.Ties),
+             Rolling.Conf.Ties = ifelse(Rolling.Conf.Ties == 0, NA, Rolling.Conf.Ties)) %>%
       unite(Record, c('Rolling.Wins', 'Rolling.Losses', 'Rolling.Ties'), sep = '-', na.rm = TRUE) %>%
-      unite(Latest.Record, c('Total.Wins', 'Total.Losses', 'Total.Ties'), sep = '-', na.rm = TRUE) %>%
       unite(Conf.Record, c('Rolling.Conf.Wins', 'Rolling.Conf.Losses', 'Rolling.Conf.Ties'), sep = '-', na.rm = TRUE) %>%
-      unite(Latest.Conf.Record, c('Conf.Wins', 'Conf.Losses', 'Conf.Ties'), sep = '-', na.rm = TRUE) %>%
       select(Team,
              Record,
-             Latest.Record,
              Conf.Record,
-             Latest.Conf.Record)
+             Rolling.Ranked,
+             Rolling.Top.10)
     
     datatable(tbl_test, 
               rownames = FALSE,
@@ -227,12 +231,7 @@ server <- shinyServer(function(input, output) {
               #caption = paste(input$conference, ' Conference Records between ', input$season-input$variable, ' and ', season_var, '. Conference Play also includes conference championships.', sep = ''),
               caption = htmltools::tags$caption(
                 style = 'caption-side: bottom; text-align: left;',
-                htmltools::em(paste(input$conference, ' Conference Records between ', input$season-input$variable, ' and ', season_var, '. Conference Play also includes conference championships. Averages are rounded. \nVisualization and design by Alex Elfering. Data Source: College Football Reference.', sep = ''))),
-              colnames=c("Team", 
-                         paste('Reg. Season Record between ', input$season-input$variable, ' and ', season_var, sep = ''),
-                         paste('Reg. Season Record as of ', input$season, sep = ''),
-                         paste('Conference Play Record between ', input$season-input$variable, ' and ', season_var, sep = ''),
-                         paste('Conference Record as of ', input$season, sep = '')),
+                htmltools::em(paste(input$conference, ' Conference Records between ', input$season-input$variable, ' and ', input$season, '. Conference Play also includes conference championships. Averages are rounded. \nVisualization and design by Alex Elfering. Data Source: College Football Reference.', sep = ''))),
               options = list(paging = FALSE,
                              dom = 'Bfrtip',
                              buttons = c('copy', 'csv', 'excel')))
