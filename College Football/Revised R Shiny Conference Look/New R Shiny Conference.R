@@ -1,10 +1,12 @@
 # College Football Conference Dashboard
 # Created by Alex Elfering
 
-# This dashboard is designed to examine how well college football teams perform over the short-term and long-term
+# This dashboard is designed to examine how well college football teams perform over the short-term and long-term by conference
 
 # Data Sources Used: College Football Reference
 
+
+# Load packages
 list.of.packages <- c("ggplot2", 
                       "shiny", 
                       'htmltools', 
@@ -20,7 +22,6 @@ list.of.packages <- c("ggplot2",
                       'DT')
 new.packages <- list.of.packages[!(list.of.packages %in% installed.packages()[,"Package"])]
 if(length(new.packages)) install.packages(new.packages)
-
 
 library(ggplot2)  
 library(shiny)
@@ -59,7 +60,7 @@ ui <- shinyUI(fluidPage(
                   min = 3, max = 10,
                   value = 5),
       sliderInput("axis", "Select a Variable to Format Axis:",
-                  min = 5, max = 20,
+                  min = 1, max = 20,
                   value = 5),
       width=2),
     mainPanel(
@@ -202,17 +203,17 @@ server <- shinyServer(function(input, output) {
              Finish.Ranked = ifelse(Post > 0, 1, 0),
              Finished.Top.10 = ifelse(Post > 0 & Post <= 10, 1, 0)) %>%
       group_by(Team) %>%
-      mutate(Rolling.Wins = round(rollapplyr(Total.Wins, input$variable, input$running, partial = TRUE)),
-             Rolling.Losses = round(rollapplyr(Total.Losses, input$variable, input$running, partial = TRUE)),
-             Rolling.Ties = round(rollapplyr(Total.Ties, input$variable, input$running, partial = TRUE)),
+      mutate(Rolling.Wins = round(rollapplyr(Total.Wins, input$variable, input$running, partial = TRUE),1),
+             Rolling.Losses = round(rollapplyr(Total.Losses, input$variable, input$running, partial = TRUE),1),
+             Rolling.Ties = round(rollapplyr(Total.Ties, input$variable, input$running, partial = TRUE),1),
              Rolling.Total.Games = rollapplyr(Total.Games, input$variable, input$running, partial = TRUE),
              Rolling.Ranked = rollapplyr(Finish.Ranked, input$variable, sum, partial = TRUE),
              Rolling.Top.10 = rollapplyr(Finished.Top.10, input$variable, sum, partial = TRUE)) %>%
       ungroup() %>%
       group_by(Team, Conf) %>%
-      mutate(Rolling.Conf.Wins = round(rollapplyr(Conf.Wins, input$variable, input$running, partial = TRUE)),
-             Rolling.Conf.Losses = round(rollapplyr(Conf.Losses, input$variable, input$running, partial = TRUE)),
-             Rolling.Conf.Ties = round(rollapplyr(Conf.Ties, input$variable, input$running, partial = TRUE)),
+      mutate(Rolling.Conf.Wins = round(rollapplyr(Conf.Wins, input$variable, input$running, partial = TRUE),1),
+             Rolling.Conf.Losses = round(rollapplyr(Conf.Losses, input$variable, input$running, partial = TRUE),1),
+             Rolling.Conf.Ties = round(rollapplyr(Conf.Ties, input$variable, input$running, partial = TRUE),1),
              Rolling.Conf.Total.Games = rollapplyr(Total.Conf.Games, input$variable, input$running, partial = TRUE)) %>%
       ungroup() %>%
       mutate(Rolling.Pct.Won = Rolling.Wins/Rolling.Total.Games,
