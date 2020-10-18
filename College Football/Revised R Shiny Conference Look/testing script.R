@@ -15,7 +15,7 @@ rolling_var <- 10
 
 tes_var <- 'mean'
 
-season_var <- 1980
+season_var <- 2000
 conf_var <- 'Ind'
 
 library(DT)
@@ -80,7 +80,7 @@ team_conf %>%
 
 
 tbl_test <- team_conf %>%
-  filter(#Conf == conf_var,
+  filter(Conf == conf_var,
          Season == season_var) %>%
   arrange(desc(Rolling.Pct.Won)) %>%
   mutate(Rolling.Ties = ifelse(Rolling.Ties == 0, NA, Rolling.Ties),
