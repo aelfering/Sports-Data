@@ -158,7 +158,8 @@ server <- shinyServer(function(input, output) {
       labs(title = paste('Winningest Teams in the ', input$conference, ' as of ', input$season, sep = ''),
            subtitle = paste('Based on a Rolling ', input$variable, ' Season ', input$running, '.', sep = ''),
            y = '',
-           x = '') +
+           x = '',
+           caption = 'Visualization by Alex Elfering | Data provided by College Football Reference') +
       theme(plot.title = element_text(face = 'bold', size = 18, family = 'Arial'),
             legend.position = 'top',
             legend.background=element_blank(),
