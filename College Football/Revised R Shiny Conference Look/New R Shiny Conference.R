@@ -38,7 +38,6 @@ library(rsconnect)
 library(DT)
 
 # loading data source
-setwd("~/GitHub/Sports-Data/College Football/Revised R Shiny Conference Look")
 conf_performance <- read.csv('cfb conf.csv' , fileEncoding="UTF-8-BOM")
 
 # building the r shiny dashboard
