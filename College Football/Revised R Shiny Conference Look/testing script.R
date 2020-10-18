@@ -59,18 +59,70 @@ team_conf <- conf_performance %>%
          Rolling.Conf.Pct.Won = Rolling.Conf.Wins/Rolling.Conf.Total.Games) %>%
   filter(Season >= 1936)
 
-tbl_test <- team_conf %>%
+fill_missing_time_series <- team_conf %>%
+  filter(Conf == conf_var) %>%
+  group_by(Team) %>%
+  complete(Season = seq(min(Season), max(Season), by = 1)) %>%
+  ungroup() %>%
+  fill(Conf)
+
+top_teams <- team_conf %>%
   filter(Conf == conf_var,
          Season == season_var) %>%
-  arrange(desc(Rolling.Pct.Won)) %>%
-  mutate(Rolling.Ties = ifelse(Rolling.Ties == 0, NA, Rolling.Ties),
-         Rolling.Conf.Ties = ifelse(Rolling.Conf.Ties == 0, NA, Rolling.Conf.Ties)) %>%
-  unite(Record, c('Rolling.Wins', 'Rolling.Losses', 'Rolling.Ties'), sep = '-', na.rm = TRUE) %>%
-  unite(Conf.Record, c('Rolling.Conf.Wins', 'Rolling.Conf.Losses', 'Rolling.Conf.Ties'), sep = '-', na.rm = TRUE) %>%
   select(Team,
-         Record,
-         Conf.Record,
-         Rolling.Ranked,
-         Rolling.Top.10)
+         Rolling.Wins) %>%
+  arrange(desc(Rolling.Wins)) %>%
+  filter(dense_rank(desc(Rolling.Wins)) <= 3) %>%
+  select(Team)
 
-tbl_test
+beg_season <- min(fill_missing_time_series$Season)
+end_season <- max(fill_missing_time_series$Season)
+
+time_series_var <- 5
+
+fill_missing_time_series %>%
+  filter(Conf == conf_var) %>%
+  ggplot(aes(x = Season,
+             y = Rolling.Wins,
+             group = Team)) +
+  geom_line(alpha = 0.2, 
+            color = 'gray',
+            size = 1) +
+  geom_line(data = subset(fill_missing_time_series, Team %in% top_teams$Team & Conf == conf_var),
+            mapping = aes(x = Season,
+                          y = Rolling.Wins,
+                          group = Team,
+                          color = Team),
+            alpha = 0.5,
+            size = 2) +
+  geom_line(data = subset(fill_missing_time_series, Team %in% top_teams$Team & Season <= season_var & Conf == conf_var),
+            mapping = aes(x = Season,
+                          y = Rolling.Wins,
+                          group = Team,
+                          color = Team),
+            size = 2) +
+  geom_vline(xintercept = season_var,
+             linetype = 'dashed') +
+  scale_x_continuous(limits=c(beg_season, end_season),
+                     breaks = seq(beg_season, end_season, by = time_series_var)) +
+  labs(#title = paste('Winningest Teams in the ', input$conference, ' as of ', input$season, sep = ''),
+       #subtitle = paste('Based on a Rolling ', input$variable, ' Season ', input$running, '.', sep = ''),
+       y = '',
+       x = '') +
+  theme(plot.title = element_text(face = 'bold', size = 18, family = 'Arial'),
+        legend.position = 'top',
+        legend.background=element_blank(),
+        legend.key=element_blank(),
+        legend.text = element_text(size = 12, family = 'Arial'),
+        legend.title = element_text(size = 12, family = 'Arial'),
+        plot.subtitle = element_text(size = 15, family = 'Arial'),
+        plot.caption = element_text(size = 12, family = 'Arial'),
+        axis.title = element_text(size = 12, family = 'Arial'),
+        axis.text = element_text(size = 12, family = 'Arial'),
+        strip.text = ggplot2::element_text(size = 12, hjust = 0, face = 'bold', color = 'black', family = 'Arial'),
+        strip.background = element_rect(fill = NA),
+        panel.background = ggplot2::element_blank(),
+        axis.line = element_line(colour = "#222222", linetype = "solid"),
+        panel.grid.major.y = element_line(colour = "#c1c1c1", linetype = "dashed"),
+        panel.grid.major.x = element_blank()) 
+
