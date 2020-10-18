@@ -43,7 +43,7 @@ conf_performance <- read.csv('cfb conf.csv' , fileEncoding="UTF-8-BOM")
 
 # building the r shiny dashboard
 ui <- shinyUI(fluidPage(  
-  titlePanel("Conference Performance"),  
+  titlePanel("Conference Performance by Team since 1936"),  
   sidebarLayout(  
     sidebarPanel(
       selectInput("conference", "Select a Conference",
@@ -203,22 +203,24 @@ server <- shinyServer(function(input, output) {
              Finish.Ranked = ifelse(Post > 0, 1, 0),
              Finished.Top.10 = ifelse(Post > 0 & Post <= 10, 1, 0)) %>%
       group_by(Team) %>%
-      mutate(Rolling.Wins = round(rollapplyr(Total.Wins, input$variable, input$running, partial = TRUE),1),
-             Rolling.Losses = round(rollapplyr(Total.Losses, input$variable, input$running, partial = TRUE),1),
-             Rolling.Ties = round(rollapplyr(Total.Ties, input$variable, input$running, partial = TRUE),1),
+      complete(Season = seq(min(Season), max(Season), by = 1)) %>%
+      mutate(Rolling.Wins = round(rollapplyr(Total.Wins, input$variable, input$running, partial = TRUE, na.rm = TRUE),1),
+             Rolling.Losses = round(rollapplyr(Total.Losses, input$variable, input$running, partial = TRUE, na.rm = TRUE),1),
+             Rolling.Ties = round(rollapplyr(Total.Ties, input$variable, input$running, partial = TRUE, na.rm = TRUE),1),
              Rolling.Total.Games = rollapplyr(Total.Games, input$variable, input$running, partial = TRUE),
              Rolling.Ranked = rollapplyr(Finish.Ranked, input$variable, sum, partial = TRUE),
              Rolling.Top.10 = rollapplyr(Finished.Top.10, input$variable, sum, partial = TRUE)) %>%
       ungroup() %>%
       group_by(Team, Conf) %>%
-      mutate(Rolling.Conf.Wins = round(rollapplyr(Conf.Wins, input$variable, input$running, partial = TRUE),1),
-             Rolling.Conf.Losses = round(rollapplyr(Conf.Losses, input$variable, input$running, partial = TRUE),1),
-             Rolling.Conf.Ties = round(rollapplyr(Conf.Ties, input$variable, input$running, partial = TRUE),1),
+      mutate(Rolling.Conf.Wins = round(rollapplyr(Conf.Wins, input$variable, input$running, partial = TRUE, na.rm = TRUE),1),
+             Rolling.Conf.Losses = round(rollapplyr(Conf.Losses, input$variable, input$running, partial = TRUE, na.rm = TRUE),1),
+             Rolling.Conf.Ties = round(rollapplyr(Conf.Ties, input$variable, input$running, partial = TRUE, na.rm = TRUE),1),
              Rolling.Conf.Total.Games = rollapplyr(Total.Conf.Games, input$variable, input$running, partial = TRUE)) %>%
       ungroup() %>%
       mutate(Rolling.Pct.Won = Rolling.Wins/Rolling.Total.Games,
              Rolling.Conf.Pct.Won = Rolling.Conf.Wins/Rolling.Conf.Total.Games) %>%
-      filter(Season >= 1936)
+      filter(Season >= 1936,
+             !is.na(Total.Games))
     
     tbl_test <- team_conf %>%
       filter(Conf == input$conference,
