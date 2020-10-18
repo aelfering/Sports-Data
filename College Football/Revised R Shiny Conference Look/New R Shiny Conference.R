@@ -245,7 +245,7 @@ server <- shinyServer(function(input, output) {
                            'Finished Ranked in Top 10'),
               caption = htmltools::tags$caption(
                 style = 'caption-side: bottom; text-align: left;',
-                htmltools::em(paste(input$conference, ' Conference Records between ', input$season-input$variable, ' and ', input$season, '. Conference Play also includes conference championships. Averages and medians are rounded. Teams are dense ranked based on total wins. Visualization and design by Alex Elfering. Data Source: College Football Reference.', sep = ''))),
+                htmltools::em(paste(input$conference, ' Conference Records between ', input$season-input$variable, ' and ', input$season, '. Conference Play also includes conference championships. Averages and medians are rounded. Teams are dense ranked based on percent of wins. Visualization and design by Alex Elfering. Data Source: College Football Reference.', sep = ''))),
               options = list(paging = FALSE,
                              dom = 'Bfrtip',
                              buttons = c('copy', 'csv', 'excel')))
