@@ -5,9 +5,9 @@ account: aelfering
 server: shinyapps.io
 hostUrl: https://api.shinyapps.io/v1
 appId: 3042722
-bundleId: 3755085
+bundleId: 3755123
 url: https://aelfering.shinyapps.io/ConferenceTeamPerformance/
-when: 1603039069.8157
+when: 1603040058.24913
 asMultiple: FALSE
 asStatic: FALSE
 ignoredFiles: testing script.R
