@@ -228,7 +228,11 @@ server <- shinyServer(function(input, output) {
     datatable(tbl_test, 
               rownames = FALSE,
               extensions = 'Buttons', 
-              #caption = paste(input$conference, ' Conference Records between ', input$season-input$variable, ' and ', season_var, '. Conference Play also includes conference championships.', sep = ''),
+              colnames = c('Team',
+                           'Regular Season Record',
+                           'Conference Play Record',
+                           'Finished Ranked in Top 25',
+                           'Finished Ranked in Top 10'),
               caption = htmltools::tags$caption(
                 style = 'caption-side: bottom; text-align: left;',
                 htmltools::em(paste(input$conference, ' Conference Records between ', input$season-input$variable, ' and ', input$season, '. Conference Play also includes conference championships. Averages and medians are rounded. \nVisualization and design by Alex Elfering. Data Source: College Football Reference.', sep = ''))),
