@@ -39,10 +39,11 @@ cfb_conferences <- read.csv('cfb conf.csv', fileEncoding="UTF-8-BOM")
 
 # building the r shiny dashboard
 ui <- shinyUI(fluidPage(  
-  titlePanel("College Football Season Progress Dashboard"),  
+  titlePanel("College Football Season Team Progress Dashboard"),  
   mainPanel(
     DT::dataTableOutput('records'),
-    DT::dataTableOutput('streaks')
+    DT::dataTableOutput('streaks'),
+    textInput('caption', '* Indicates an FCS Team\nDesign and Code by Alex Elfering\nData Source: College Football Reference')
   )  
 ))
 
