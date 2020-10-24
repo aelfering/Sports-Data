@@ -37,28 +37,35 @@ library(DT)
 cfb_games <- read.csv('Games teams CFB.csv', fileEncoding="UTF-8-BOM")
 cfb_conferences <- read.csv('cfb conf.csv', fileEncoding="UTF-8-BOM")
 
+
+# Data cleaning
+colnames(cfb_games) <- c('Season', 'Rk', 'Wk', 'Date', 'Day', 'Team', 'Team.Pts', 'Location', 'Opponent', 'Opp.Pts', 'Notes')
+
+rank_patterns <- paste('\\(', 1:25, '\\)', sep = '')
+trim <- function (x) gsub("^\\s+|\\s+$", "", x)
+
+cfb_games$Team <- trim(str_remove_all(cfb_games$Team, paste(rank_patterns, collapse = "|")))
+cfb_games$Opponent <- trim(str_remove_all(cfb_games$Opponent, paste(rank_patterns, collapse = "|")))
+
+
+
+# R Shiny App
+
 # building the r shiny dashboard
 ui <- shinyUI(fluidPage(  
   titlePanel("College Football Season Team Progress Dashboard"),  
   mainPanel(
-    DT::dataTableOutput('records'),
-    DT::dataTableOutput('streaks'),
-    textInput('caption', '* Indicates an FCS Team\nDesign and Code by Alex Elfering\nData Source: College Football Reference')
-  )  
+    print(paste('Code by Alex Elfering | Data Source: College Football Reference | Last Updated:', Sys.time(), sep = '' )),
+    tabsetPanel(
+      id = 'dataset',
+      tabPanel("When was the Last Time a Team Held a Specific Record?", DT::dataTableOutput('records')),
+      tabPanel("Busted Series Winning Streaks", DT::dataTableOutput('streaks'))
+    )
+  )
 ))
 
 server <- shinyServer(function(input, output) { 
   output$records <- DT::renderDataTable({
-    
-    colnames(cfb_games) <- c('Season', 'Rk', 'Wk', 'Date', 'Day', 'Team', 'Team.Pts', 'Location', 'Opponent', 'Opp.Pts', 'Notes')
-    
-    rank_patterns <- paste('\\(', 1:25, '\\)', sep = '')
-    trim <- function (x) gsub("^\\s+|\\s+$", "", x)
-    
-    cfb_games$Team <- trim(str_remove_all(cfb_games$Team, paste(rank_patterns, collapse = "|")))
-    cfb_games$Opponent <- trim(str_remove_all(cfb_games$Opponent, paste(rank_patterns, collapse = "|")))
-    
-    head(cfb_conferences,3)
     
     # find the fbs teams
     cfb_select <- dplyr::select(cfb_conferences, Season, Conf, Team) %>%
@@ -220,7 +227,9 @@ server <- shinyServer(function(input, output) {
                            'Streak',
                            'Latest Opponent',
                            'Next Opponent'),
-              caption = ("When was the Last Time a Team Held a Specific Record?"),
+              caption = htmltools::tags$caption(
+                style = 'caption-side: bottom; text-align: center;',
+                htmltools::em('* Indicates an FCS Team')),
               options = list(paging = FALSE,
                              dom = 'Bfrtip',
                              scroller = TRUE,
@@ -230,16 +239,6 @@ server <- shinyServer(function(input, output) {
     
   })
   output$streaks <- DT::renderDataTable({
-    
-    colnames(cfb_games) <- c('Season', 'Rk', 'Wk', 'Date', 'Day', 'Team', 'Team.Pts', 'Location', 'Opponent', 'Opp.Pts', 'Notes')
-    
-    rank_patterns <- paste('\\(', 1:25, '\\)', sep = '')
-    trim <- function (x) gsub("^\\s+|\\s+$", "", x)
-    
-    cfb_games$Team <- trim(str_remove_all(cfb_games$Team, paste(rank_patterns, collapse = "|")))
-    cfb_games$Opponent <- trim(str_remove_all(cfb_games$Opponent, paste(rank_patterns, collapse = "|")))
-    
-    head(cfb_conferences,3)
     
     # find the fbs teams
     cfb_select <- dplyr::select(cfb_conferences, Season, Conf, Team) %>%
@@ -335,12 +334,12 @@ server <- shinyServer(function(input, output) {
                            'Final Score',
                            'Streak Broken',
                            'Last Season Won'),
-              caption = 'Series Winning Records Busted This Season',
               options = list(paging = FALSE,
                              dom = 'Bfrtip',
                              buttons = c('copy', 'csv', 'excel')))
     
   })
+  #output$caption <- renderText({ input$caption })
 })
 
 shinyApp(ui=ui, server=server)
