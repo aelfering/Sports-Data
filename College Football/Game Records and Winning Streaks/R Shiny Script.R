@@ -16,7 +16,8 @@ list.of.packages <- c("ggplot2",
                       'zoo',
                       'ggrepel',
                       'rsconnect',
-                      'DT')
+                      'DT',
+                      'stringr')
 new.packages <- list.of.packages[!(list.of.packages %in% installed.packages()[,"Package"])]
 if(length(new.packages)) install.packages(new.packages)
 
@@ -33,6 +34,9 @@ library(zoo)
 library(ggrepel)
 library(rsconnect)
 library(DT)
+library(stringi)
+
+#setwd("~/GitHub/Sports-Data/College Football/Game Records and Winning Streaks")
 
 cfb_games <- read.csv('Games teams CFB.csv', fileEncoding="UTF-8-BOM")
 cfb_conferences <- read.csv('cfb conf.csv', fileEncoding="UTF-8-BOM")
@@ -42,10 +46,10 @@ cfb_conferences <- read.csv('cfb conf.csv', fileEncoding="UTF-8-BOM")
 colnames(cfb_games) <- c('Season', 'Rk', 'Wk', 'Date', 'Day', 'Team', 'Team.Pts', 'Location', 'Opponent', 'Opp.Pts', 'Notes')
 
 rank_patterns <- paste('\\(', 1:25, '\\)', sep = '')
-trim <- function (x) gsub("^\\s+|\\s+$", "", x)
 
-cfb_games$Team <- trim(str_remove_all(cfb_games$Team, paste(rank_patterns, collapse = "|")))
-cfb_games$Opponent <- trim(str_remove_all(cfb_games$Opponent, paste(rank_patterns, collapse = "|")))
+cfb_games <- cfb_games %>%
+  mutate(Team = stri_trim_both(str_remove_all(Team, paste(rank_patterns, collapse = "|"))),
+         Opponent = stri_trim_both(str_remove_all(Opponent, paste(rank_patterns, collapse = "|"))))
 
 # find the fbs teams
 cfb_select <- dplyr::select(cfb_conferences, Season, Conf, Team) %>%
@@ -204,6 +208,61 @@ performance_bind <- bind_rows(team_record_break, team_performance)
 
 
 
+####  Broken Winning Streaks  ####
+game_streaks <- bind_all_games %>%
+  # played teams
+  filter(!is.na(Team.Pts)) %>%
+  arrange(Season,
+          Wk) %>%
+  mutate(Wins = ifelse(Team.Pts > Opp.Pts, 1, 0),
+         Ties = ifelse(Team.Pts == Opp.Pts, 1, 0),
+         Loses = ifelse(Team.Pts < Opp.Pts, 1, 0)) %>%
+  group_by(Team,
+           Opponent) %>%
+  # cauclating winning and losing streaks ongoing 
+  mutate(Win.Streak = ave(Wins, cumsum(Wins==0), FUN = seq_along) - 1,
+         Lose.Streak = ave(Loses, cumsum(Loses==0), FUN = seq_along) - 1) %>%
+  ungroup()
+
+flag_streak_broken <- game_streaks %>%
+  group_by(Team,
+           Opponent) %>%
+  mutate(Streak.Broken = lag(Lose.Streak),
+         Series.Number = row_number(),
+         Last.Win = (Series.Number-Streak.Broken)-1,
+         Major.Streak.Broken = ifelse(Streak.Broken > 2 & Win.Streak > 0, 1, 0)) %>%
+  ungroup() 
+
+series_numbers <- flag_streak_broken %>%
+  distinct(Team,
+           Opponent,
+           Series.Number,
+           Season)
+
+current_streaks_broken <- flag_streak_broken %>%
+  filter(Season == max(Season),
+         Major.Streak.Broken == 1) %>%
+  select(Season,
+         Team,
+         Opponent,
+         Team.Pts,
+         Opp.Pts,
+         Streak.Broken,
+         Last.Win) %>%
+  inner_join(series_numbers, by = c('Last.Win' = 'Series.Number', 'Team' = 'Team', 'Opponent' = 'Opponent')) %>%
+  unite(Final_Score, c('Team.Pts', 'Opp.Pts'), sep = '-') %>%
+  select(Season = Season.x,
+         Team,
+         Opponent,
+         Final_Score,
+         Streak.Broken,
+         Last_Win = Season.y) %>%
+  arrange(desc(Streak.Broken))
+
+
+
+
+
 #### R Shiny App  ####
 
 # building the r shiny dashboard
@@ -245,92 +304,6 @@ server <- shinyServer(function(input, output) {
   })
   output$streaks <- DT::renderDataTable({
     
-    # find the fbs teams
-    cfb_select <- dplyr::select(cfb_conferences, Season, Conf, Team) %>%
-      mutate(Team = case_when(Team == 'UTEP' ~ 'Texas-El Paso',
-                              Team == 'UAB' ~ 'Alabama-Birmingham',
-                              Team == 'BYU' ~ "Brigham Young",
-                              Team == 'UCF' ~ "Central Florida",
-                              Team == "LSU" ~ "Louisiana State",
-                              Team == "Ole Miss" ~ "Mississippi",
-                              Team == "Pitt" ~ "Pittsburgh",
-                              Team == "USC" ~ 'Southern California',
-                              Team == 'SMU' ~ "Southern Methodist",
-                              Team == 'UTSA' ~ 'Texas-San Antonio',
-                              TRUE ~ Team))
-    
-    # all fbs teams in the latest season 
-    fbs_teams <- cfb_games %>%
-      filter(Season == max(Season)) %>%
-      inner_join(cfb_select) %>%
-      distinct(Conf, 
-               Team)
-    
-    # expand games
-    opp_select <- cfb_games %>%
-      select(Season,
-             Rk,
-             Wk,
-             Date,
-             Day,
-             Team = Opponent,
-             Team.Pts = Opp.Pts,
-             Location,
-             Opponent = Team,
-             Opp.Pts = Team.Pts,
-             Notes)
-    bind_all_games <- bind_rows(cfb_games, opp_select)
-    
-    game_streaks <- bind_all_games %>%
-      # played teams
-      filter(!is.na(Team.Pts)) %>%
-      arrange(Season,
-              Wk) %>%
-      mutate(Wins = ifelse(Team.Pts > Opp.Pts, 1, 0),
-             Ties = ifelse(Team.Pts == Opp.Pts, 1, 0),
-             Loses = ifelse(Team.Pts < Opp.Pts, 1, 0)) %>%
-      group_by(Team,
-               Opponent) %>%
-      # cauclating winning and losing streaks ongoing 
-      mutate(Win.Streak = ave(Wins, cumsum(Wins==0), FUN = seq_along) - 1,
-             Lose.Streak = ave(Loses, cumsum(Loses==0), FUN = seq_along) - 1) %>%
-      ungroup()
-    
-    flag_streak_broken <- game_streaks %>%
-      group_by(Team,
-               Opponent) %>%
-      mutate(Streak.Broken = lag(Lose.Streak),
-             Series.Number = row_number(),
-             Last.Win = (Series.Number-Streak.Broken)-1,
-             Major.Streak.Broken = ifelse(Streak.Broken > 2 & Win.Streak > 0, 1, 0)) %>%
-      ungroup() 
-    
-    series_numbers <- flag_streak_broken %>%
-      distinct(Team,
-               Opponent,
-               Series.Number,
-               Season)
-    
-    current_streaks_broken <- flag_streak_broken %>%
-      filter(Season == max(Season),
-             Major.Streak.Broken == 1) %>%
-      select(Season,
-             Team,
-             Opponent,
-             Team.Pts,
-             Opp.Pts,
-             Streak.Broken,
-             Last.Win) %>%
-      inner_join(series_numbers, by = c('Last.Win' = 'Series.Number', 'Team' = 'Team', 'Opponent' = 'Opponent')) %>%
-      unite(Final_Score, c('Team.Pts', 'Opp.Pts'), sep = '-') %>%
-      select(Season = Season.x,
-             Team,
-             Opponent,
-             Final_Score,
-             Streak.Broken,
-             Last_Win = Season.y) %>%
-      arrange(desc(Streak.Broken))
-    
     datatable(current_streaks_broken,
               extensions = 'Buttons', 
               colnames = c('Season',
@@ -344,7 +317,6 @@ server <- shinyServer(function(input, output) {
                              buttons = c('copy', 'csv', 'excel')))
     
   })
-  #output$caption <- renderText({ input$caption })
 })
 
 shinyApp(ui=ui, server=server)
