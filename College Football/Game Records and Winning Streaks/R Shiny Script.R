@@ -269,7 +269,7 @@ current_streaks_broken <- flag_streak_broken %>%
 ui <- shinyUI(fluidPage(  
   titlePanel("College Football Season Team Progress Dashboard"),  
   mainPanel(
-    print(paste('Code by Alex Elfering | Data Source: College Football Reference | Last Updated:', Sys.time(), sep = '' )),
+    print(paste('Code by Alex Elfering | Data Source: College Football Reference | Last Updated:', format(Sys.time(), tz="America/Los_Angeles",usetz=TRUE), sep = '' )),
     tabsetPanel(
       id = 'dataset',
       tabPanel("When was the Last Time a Team Held a Specific Record?", DT::dataTableOutput('records')),
