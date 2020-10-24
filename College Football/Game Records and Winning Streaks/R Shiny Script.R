@@ -219,9 +219,7 @@ server <- shinyServer(function(input, output) {
                            'Streak',
                            'Latest Opponent',
                            'Next Opponent'),
-              caption = htmltools::tags$caption(
-                style = 'caption-side: bottom; text-align: left;',
-                htmltools::em(paste('Visualization and design by Alex Elfering. Data Source: College Football Reference.', sep = ''))),
+              caption = ("Table 1: This is a simple caption for the table."),
               options = list(paging = FALSE,
                              dom = 'Bfrtip',
                              scroller = TRUE,
