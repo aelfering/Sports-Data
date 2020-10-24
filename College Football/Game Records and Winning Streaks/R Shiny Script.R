@@ -1,3 +1,8 @@
+# This script identifies when the last time a team finished with a particular record, as well as winning streaks that are snapped in the latest season
+# Script by Alex Elfering
+
+# Last Updated: 
+
 # Load packages
 list.of.packages <- c("ggplot2", 
                       "shiny", 
@@ -29,7 +34,6 @@ library(ggrepel)
 library(rsconnect)
 library(DT)
 
-setwd("C:/Users/alexe/Desktop")
 cfb_games <- read.csv('Games teams CFB.csv', fileEncoding="UTF-8-BOM")
 cfb_conferences <- read.csv('cfb conf.csv', fileEncoding="UTF-8-BOM")
 
