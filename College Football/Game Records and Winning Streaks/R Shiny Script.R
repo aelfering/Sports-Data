@@ -39,7 +39,7 @@ cfb_conferences <- read.csv('cfb conf.csv', fileEncoding="UTF-8-BOM")
 
 # building the r shiny dashboard
 ui <- shinyUI(fluidPage(  
-  titlePanel("College Football Win-Loss Records"),  
+  titlePanel("College Football Season Progress Dashboard"),  
   mainPanel(
     DT::dataTableOutput('records'),
     DT::dataTableOutput('streaks')
@@ -219,7 +219,7 @@ server <- shinyServer(function(input, output) {
                            'Streak',
                            'Latest Opponent',
                            'Next Opponent'),
-              caption = ("Table 1: This is a simple caption for the table."),
+              caption = ("When was the Last Time a Team Held a Specific Record?"),
               options = list(paging = FALSE,
                              dom = 'Bfrtip',
                              scroller = TRUE,
@@ -228,7 +228,6 @@ server <- shinyServer(function(input, output) {
     
     
   })
-  
   output$streaks <- DT::renderDataTable({
     
     colnames(cfb_games) <- c('Season', 'Rk', 'Wk', 'Date', 'Day', 'Team', 'Team.Pts', 'Location', 'Opponent', 'Opp.Pts', 'Notes')
@@ -335,9 +334,7 @@ server <- shinyServer(function(input, output) {
                            'Final Score',
                            'Streak Broken',
                            'Last Season Won'),
-              caption = htmltools::tags$caption(
-                style = 'caption-side: bottom; text-align: left;',
-                htmltools::em(paste('Visualization and design by Alex Elfering. Data Source: College Football Reference.', sep = ''))),
+              caption = 'Series Winning Records Busted This Season',
               options = list(paging = FALSE,
                              dom = 'Bfrtip',
                              buttons = c('copy', 'csv', 'excel')))
