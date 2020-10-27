@@ -502,7 +502,7 @@ server <- shinyServer(function(input, output) {
       mutate(Total_Ties = ifelse(Total_Ties == 0, NA, Total_Ties),
              Points_Per_Game = round(Points_For/Total_Games, 2),
              Points_Allowed_Per_Game = round(Points_Against/Total_Games, 2),
-             Diff = Points_Per_Game-Points_Allowed_Per_Game) %>%
+             Diff = round(Points_Per_Game-Points_Allowed_Per_Game, 2)) %>%
       unite(Record, c('Total_Wins', 'Total_Losses', 'Total_Ties'), sep = '-', na.rm = TRUE) %>%
       select(Season,
              Team,
