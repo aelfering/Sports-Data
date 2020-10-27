@@ -118,6 +118,8 @@ ui <- fluidPage(
 )
 
 server <- shinyServer(function(input, output) { 
+  
+  # When was the last time that a team held a specific record?
   output$records <- DT::renderDataTable({
     
     # calculate the running games won and lost by team per season
@@ -256,6 +258,8 @@ server <- shinyServer(function(input, output) {
     
     
   })
+  
+  # Visualization of total games that ended winning streaks
   output$count <- renderPlot({
     
     game_streaks <- bind_all_games %>%
@@ -360,6 +364,8 @@ server <- shinyServer(function(input, output) {
       geom_label_repel(data = subset(streak_end_count, Season %in% low_season_int))
     
   })
+  
+  # Table of winning streaks
   output$streaks <- DT::renderDataTable({
     
     game_streaks <- bind_all_games %>%
@@ -425,6 +431,8 @@ server <- shinyServer(function(input, output) {
                              buttons = c('copy', 'csv', 'excel')))
     
   })
+  
+  # Visualization of point differential
   output$Plot <- renderPlot({
     
     fbs_teams <- cfb_games %>%
@@ -450,6 +458,8 @@ server <- shinyServer(function(input, output) {
     ggplot(mark1, aes(Diff, group = Team)) + geom_histogram(color = 'white')
     
   })
+  
+  # Table for point differential
   output$scoring <- DT::renderDataTable({
     
     fbs_teams <- cfb_games %>%
