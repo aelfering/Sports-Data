@@ -334,7 +334,7 @@ server <- shinyServer(function(input, output) {
       ungroup() %>%
       left_join(total_games) %>%
       mutate(pct = Streaks/Total_Games,
-             pct_label = ifelse(pct < 0.01, '<1%', paste(round(pct*100, 1), '%', sep = '') ))
+             pct_label = ifelse(pct < 0.01, '<1%', paste(round(pct*100), '%', sep = '') ))
     
     lowest_season <- streak_end_count %>%
       filter(dense_rank(pct) == 1)
@@ -345,7 +345,7 @@ server <- shinyServer(function(input, output) {
            aes(x =Season, 
                y = pct,
                label = pct_label)) + 
-      geom_line(size = 1) +
+      geom_step(size = 1) +
       geom_point(data = subset(streak_end_count, Season == season_int),
                  mapping = aes(x = Season, 
                                y = pct),
