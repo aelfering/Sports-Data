@@ -469,7 +469,8 @@ server <- shinyServer(function(input, output) {
     ggplot(mark1, 
            aes(Diff, 
                group = Team)) + 
-      geom_histogram(color = 'white')
+      geom_histogram(color = 'white',
+                     binwidth = 1)
     
   })
   
@@ -488,13 +489,31 @@ server <- shinyServer(function(input, output) {
       filter(!is.na(Team.Pts),
              Season == input$range,
              Team %in% fbs_teams$Team) %>%
+      mutate(Wins = ifelse(Team.Pts > Opp.Pts, 1, 0),
+             Loses = ifelse(Team.Pts < Opp.Pts, 1, 0),
+             Ties = ifelse(Team.Pts == Opp.Pts, 1, 0)) %>%
       summarise(Total_Games = n_distinct(Date),
                 Points_For = sum(Team.Pts),
-                Points_Against = sum(Opp.Pts)) %>%
+                Points_Against = sum(Opp.Pts),
+                Total_Wins = sum(Wins),
+                Total_Losses = sum(Loses),
+                Total_Ties = sum(Ties)) %>%
       ungroup() %>%
-      mutate(Points_Per_Game = round(Points_For/Total_Games, 2),
+      mutate(Total_Ties = ifelse(Total_Ties == 0, NA, Total_Ties),
+             Points_Per_Game = round(Points_For/Total_Games, 2),
              Points_Allowed_Per_Game = round(Points_Against/Total_Games, 2),
-             Diff = Points_Per_Game-Points_Allowed_Per_Game)
+             Diff = Points_Per_Game-Points_Allowed_Per_Game) %>%
+      unite(Record, c('Total_Wins', 'Total_Losses', 'Total_Ties'), sep = '-', na.rm = TRUE) %>%
+      select(Season,
+             Team,
+             Total_Games,
+             Record,
+             Points_For,
+             Points_Against,
+             Points_Per_Game,
+             Points_Allowed_Per_Game,
+             Diff) %>%
+      arrange(desc(Diff))
     
     datatable(mark1,
               extensions = 'Buttons', 
