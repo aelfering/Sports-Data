@@ -94,6 +94,7 @@ bind_all_games <- bind_rows(cfb_games, opp_select)
 # building the r shiny dashboard
 ui <- fluidPage(
   titlePanel("How Has Each College Football Conference Performed Over Time?"),
+  
   # The filters on the side panel
   sidebarLayout(
     sidebarPanel(
@@ -103,6 +104,8 @@ ui <- fluidPage(
       width=2),
     mainPanel(
       print(paste('Code by Alex Elfering | Data Source: College Football Reference | Last Updated:', format(Sys.time(), tz="America/Chicago",usetz=TRUE), sep = '' )),
+      
+      # tabs for each page
       tabsetPanel(
         id = 'dataset',
         tabPanel("When was the Last Time a Team Held a Specific Record?",
@@ -272,7 +275,7 @@ server <- shinyServer(function(input, output) {
              Loses = ifelse(Team.Pts < Opp.Pts, 1, 0)) %>%
       group_by(Team,
                Opponent) %>%
-      # cauclating winning and losing streaks ongoing 
+      # calculating winning and losing streaks ongoing 
       mutate(Win.Streak = ave(Wins, cumsum(Wins==0), FUN = seq_along) - 1,
              Lose.Streak = ave(Loses, cumsum(Loses==0), FUN = seq_along) - 1) %>%
       ungroup()
@@ -313,12 +316,14 @@ server <- shinyServer(function(input, output) {
              Last_Win = Season.y) %>%
       arrange(desc(Streak.Broken))
     
+    # total games played this season
     total_games <- cfb_games %>%
       filter(!is.na(Team.Pts)) %>%
       group_by(Season) %>%
       summarise(Total_Games = n_distinct(Rk)) %>%
       ungroup()
     
+    # what is the current season and latest week played?
     current_wk <- cfb_games %>%
       filter(Season == max(Season),
              !is.na(Team.Pts)) %>%
@@ -329,6 +334,7 @@ server <- shinyServer(function(input, output) {
     season_int <- as.numeric(current_wk$Season)
     wk_int <- as.numeric(current_wk$Wk)
     
+    # calculate percent of games that ended winning streaks
     streak_end_count <- current_streaks_broken %>%
       filter(Wk <= wk_int) %>%
       group_by(Season) %>%
@@ -340,11 +346,13 @@ server <- shinyServer(function(input, output) {
       mutate(pct = Streaks/Total_Games,
              pct_label = ifelse(pct < 0.01, '<1%', paste(round(pct*100), '%', sep = '') ))
     
+    # identify the season with the lowest percentage points
     lowest_season <- streak_end_count %>%
       filter(dense_rank(pct) == 1)
     
     low_season_int <- as.numeric(lowest_season$Season)
     
+    # the visualization
     ggplot(streak_end_count, 
            aes(x =Season, 
                y = pct,
@@ -435,12 +443,14 @@ server <- shinyServer(function(input, output) {
   # Visualization of point differential
   output$Plot <- renderPlot({
     
+    # return fbs teams that played that season
     fbs_teams <- cfb_games %>%
       filter(Season == input$range) %>%
       inner_join(cfb_select) %>%
       distinct(Conf, 
                Team)
     
+    # calculate points scored and allowed, the average points scored and allowed, and the point differential
     mark1 <- bind_all_games %>%
       group_by(Season, 
                Team) %>%
@@ -455,7 +465,11 @@ server <- shinyServer(function(input, output) {
              Points_Allowed_Per_Game = round(Points_Against/Total_Games, 2),
              Diff = round(Points_Per_Game-Points_Allowed_Per_Game, 2))
     
-    ggplot(mark1, aes(Diff, group = Team)) + geom_histogram(color = 'white')
+    # the visualization
+    ggplot(mark1, 
+           aes(Diff, 
+               group = Team)) + 
+      geom_histogram(color = 'white')
     
   })
   
