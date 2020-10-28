@@ -87,6 +87,7 @@ opp_select <- cfb_games %>%
          Notes)
 bind_all_games <- bind_rows(cfb_games, opp_select)
 
+distinct_bind <- dplyr::distinct(bind_all_games, Season, Wk, Date, Day, Team, Team.Pts, Location, Opponent, Opp.Pts)
 
 
 #### R Shiny App  ####
@@ -126,7 +127,7 @@ server <- shinyServer(function(input, output) {
   output$records <- DT::renderDataTable({
     
     # calculate the running games won and lost by team per season
-    running_games <- bind_all_games %>%
+    running_games <- distinct_bind %>%
       # played teams
       filter(!is.na(Team.Pts)) %>%
       arrange(Season,
@@ -168,7 +169,7 @@ server <- shinyServer(function(input, output) {
       unite(Record, c('Rolling.Wins', 'Rolling.Losses'), sep = '-', na.rm = TRUE)
     
     # what is each team's next game?
-    next_game <- bind_all_games %>%
+    next_game <- distinct_bind %>%
       filter(is.na(Team.Pts),
              Season == input$range) %>%
       group_by(Team) %>%
@@ -265,7 +266,7 @@ server <- shinyServer(function(input, output) {
   # Visualization of total games that ended winning streaks
   output$count <- renderPlot({
     
-    game_streaks <- bind_all_games %>%
+    game_streaks <- distinct_bind %>%
       # played teams
       filter(!is.na(Team.Pts)) %>%
       arrange(Season,
@@ -361,11 +362,11 @@ server <- shinyServer(function(input, output) {
       geom_point(data = subset(streak_end_count, Season == season_int),
                  mapping = aes(x = Season, 
                                y = pct),
-                 size = 2) +
+                 size = 3) +
       geom_point(data = subset(streak_end_count, Season == low_season_int),
                  mapping = aes(x = Season, 
                                y = pct),
-                 size = 2) +
+                 size = 3) +
       labs(title = paste('Of all ', 999, ' games played through week ', wk_int, ' of ', season_int, sep = '')) +
       
       geom_label_repel(data = subset(streak_end_count, Season == season_int)) +
@@ -376,7 +377,7 @@ server <- shinyServer(function(input, output) {
   # Table of winning streaks
   output$streaks <- DT::renderDataTable({
     
-    game_streaks <- bind_all_games %>%
+    game_streaks <- distinct_bind %>%
       # played teams
       filter(!is.na(Team.Pts)) %>%
       arrange(Season,
@@ -451,7 +452,7 @@ server <- shinyServer(function(input, output) {
                Team)
     
     # calculate points scored and allowed, the average points scored and allowed, and the point differential
-    mark1 <- bind_all_games %>%
+    mark1 <- distinct_bind %>%
       group_by(Season, 
                Team) %>%
       filter(!is.na(Team.Pts),
@@ -461,16 +462,38 @@ server <- shinyServer(function(input, output) {
                 Points_For = sum(Team.Pts),
                 Points_Against = sum(Opp.Pts)) %>%
       ungroup() %>%
-      mutate(Points_Per_Game = round(Points_For/Total_Games, 2),
-             Points_Allowed_Per_Game = round(Points_Against/Total_Games, 2),
-             Diff = round(Points_Per_Game-Points_Allowed_Per_Game, 2))
+      mutate(Points_Per_Game = round(Points_For/Total_Games, 1),
+             Points_Allowed_Per_Game = round(Points_Against/Total_Games, 1),
+             Diff = round(Points_Per_Game-Points_Allowed_Per_Game, 1),
+             Diff_Rank = dense_rank(desc(Diff)),
+             Reverse_Rank = dense_rank(Diff)) 
     
     # the visualization
     ggplot(mark1, 
-           aes(Diff, 
+           aes(x = Points_Per_Game, 
+               y = Points_Allowed_Per_Game,
                group = Team)) + 
-      geom_histogram(color = 'white',
-                     binwidth = 1)
+      geom_point(size = 3,
+                 alpha = 0.4,
+                 mapping = aes(color = Points_Per_Game > Points_Allowed_Per_Game)) +
+      geom_point(data = subset(mark1, Diff_Rank <= 5),
+                 shape = 1,
+                 size = 3,
+                 colour = "black") +
+      geom_point(data = subset(mark1, Reverse_Rank <= 5),
+                 shape = 1,
+                 size = 3,
+                 colour = "black") +
+      geom_label_repel(data = subset(mark1, Diff_Rank <= 5),
+                       mapping = aes(x = Points_Per_Game, 
+                                     y = Points_Allowed_Per_Game,
+                                     label = Team),
+                       box.padding = 2) +
+      geom_label_repel(data = subset(mark1, Reverse_Rank <= 5),
+                       mapping = aes(x = Points_Per_Game, 
+                                     y = Points_Allowed_Per_Game,
+                                     label = Team),
+                       box.padding = 2)
     
   })
   
@@ -483,7 +506,7 @@ server <- shinyServer(function(input, output) {
       distinct(Conf, 
                Team)
     
-    mark1 <- bind_all_games %>%
+    mark1 <- distinct_bind %>%
       group_by(Season, 
                Team) %>%
       filter(!is.na(Team.Pts),
@@ -500,9 +523,9 @@ server <- shinyServer(function(input, output) {
                 Total_Ties = sum(Ties)) %>%
       ungroup() %>%
       mutate(Total_Ties = ifelse(Total_Ties == 0, NA, Total_Ties),
-             Points_Per_Game = round(Points_For/Total_Games, 2),
-             Points_Allowed_Per_Game = round(Points_Against/Total_Games, 2),
-             Diff = round(Points_Per_Game-Points_Allowed_Per_Game, 2)) %>%
+             Points_Per_Game = round(Points_For/Total_Games, 1),
+             Points_Allowed_Per_Game = round(Points_Against/Total_Games, 1),
+             Diff = round(Points_Per_Game-Points_Allowed_Per_Game, 1)) %>%
       unite(Record, c('Total_Wins', 'Total_Losses', 'Total_Ties'), sep = '-', na.rm = TRUE) %>%
       select(Season,
              Team,
