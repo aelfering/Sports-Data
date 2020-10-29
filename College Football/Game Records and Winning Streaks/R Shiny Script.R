@@ -105,6 +105,12 @@ ui <- fluidPage(
         id = 'dataset',
         tabPanel("When was the Last Time a Team Held a Specific Record?",
                  br(),
+                 print('Teams Holding Records for the First Time'),
+                 br(),
+                 DT::dataTableOutput('first'),
+                 br(),
+                 print('Teams with Historic Records'),
+                 br(),
                  DT::dataTableOutput('records')),
         tabPanel("Busted Series Winning Streaks", 
                  br(),
@@ -142,7 +148,7 @@ ui <- fluidPage(
 server <- shinyServer(function(input, output) { 
   
   # When was the last time that a team held a specific record?
-  output$records <- DT::renderDataTable({
+  output$first <- DT::renderDataTable({
     
     # calculate the running games won and lost by team per season
     running_games <- distinct_bind %>%
@@ -171,7 +177,7 @@ server <- shinyServer(function(input, output) {
     
     # return the latest records of each team in the latest season 
     latest_season_records <- running_games %>%
-      filter(Season == 2015) %>%
+      filter(Season == input$range) %>%
       mutate(Result = ifelse(Team.Pts > Opp.Pts, 'W', 'L'),
              Latest_Game = paste(Result, ' ', Team.Pts, '-', Opp.Pts, ' vs ', Opponent, sep = '')) %>%
       group_by(Team) %>%
@@ -189,7 +195,7 @@ server <- shinyServer(function(input, output) {
     # what is each team's next game?
     next_game <- distinct_bind %>%
       filter(is.na(Team.Pts),
-             Season == 2015) %>%
+             Season == input$range) %>%
       group_by(Team) %>%
       slice(which.min(Wk)) %>%
       ungroup() %>%
@@ -203,7 +209,7 @@ server <- shinyServer(function(input, output) {
     
     # what is every fbs team's record of all time?
     all_records <- running_games %>%
-      filter(Season < 2015) %>%
+      filter(Season < input$range) %>%
       select(Season,
              Team, 
              Rolling.Wins,
@@ -235,6 +241,104 @@ server <- shinyServer(function(input, output) {
              Latest_Game,
              Next_Game)
     
+    datatable(team_record_break,
+              extensions = 'Buttons', 
+              colnames = c('Season',
+                           'Team',
+                           'Conference',
+                           'Record',
+                           'First Time Since',
+                           'Streak',
+                           'Latest Opponent',
+                           'Next Opponent'),
+              caption = htmltools::tags$caption(
+                style = 'caption-side: bottom; text-align: center;',
+                htmltools::em('* Indicates an FCS Team')),
+              options = list(paging = FALSE,
+                             dom = 'Bfrtip',
+                             scroller = TRUE,
+                             buttons = c('copy', 'csv', 'excel')))
+    
+    
+    
+  })
+  
+  # When was the last time that a team held a specific record?
+  output$records <- DT::renderDataTable({
+    
+    # calculate the running games won and lost by team per season
+    running_games <- distinct_bind %>%
+      # played teams
+      filter(!is.na(Team.Pts)) %>%
+      arrange(Season,
+              Wk) %>%
+      mutate(Wins = ifelse(Team.Pts > Opp.Pts, 1, 0),
+             Ties = ifelse(Team.Pts == Opp.Pts, 1, 0),
+             Loses = ifelse(Team.Pts < Opp.Pts, 1, 0)) %>%
+      # cumulative sum of games won and lost
+      group_by(Season,
+               Team) %>%
+      mutate(Rolling.Wins = cumsum(Wins),
+             Rolling.Losses = cumsum(Loses),
+             Rolling.Ties = cumsum(Ties)) %>%
+      ungroup() %>%
+      group_by(Team) %>%
+      # cauclating winning and losing streaks ongoing 
+      mutate(Win.Streak = ave(Wins, cumsum(Wins==0), FUN = seq_along) - 1,
+             Lose.Streak = ave(Loses, cumsum(Loses==0), FUN = seq_along) - 1,
+             Streak.Status = ifelse(Win.Streak > 0, 
+                                    paste('W', Win.Streak, sep = ''), 
+                                    paste('L', Lose.Streak, sep = ''))) %>%
+      ungroup()
+    
+    # return the latest records of each team in the latest season 
+    latest_season_records <- running_games %>%
+      filter(Season == input$range) %>%
+      mutate(Result = ifelse(Team.Pts > Opp.Pts, 'W', 'L'),
+             Latest_Game = paste(Result, ' ', Team.Pts, '-', Opp.Pts, ' vs ', Opponent, sep = '')) %>%
+      group_by(Team) %>%
+      slice(which.max(Wk)) %>%
+      select(Team, 
+             Season,
+             Streak.Status,
+             Latest_Game,
+             Rolling.Wins,
+             Rolling.Losses) %>%
+      arrange(desc(Rolling.Wins), 
+              Rolling.Losses) %>%
+      unite(Record, c('Rolling.Wins', 'Rolling.Losses'), sep = '-', na.rm = TRUE)
+    
+    # what is each team's next game?
+    next_game <- distinct_bind %>%
+      filter(is.na(Team.Pts),
+             Season == input$range) %>%
+      group_by(Team) %>%
+      slice(which.min(Wk)) %>%
+      ungroup() %>%
+      left_join(latest_season_records, by = c('Season' = 'Season', 'Opponent' = 'Team')) %>%
+      mutate(Record = ifelse(!Opponent %in% fbs_teams$Team, '*', Record),
+             Record = ifelse(is.na(Record), ' (0-0)', paste(' (', Record, ')', sep = '')),
+             Record = ifelse(grepl('\\*', Record), gsub("[()]", "", Record),  Record)) %>%
+      mutate(Next_Game = paste('vs ', Opponent, Record, sep = '')) %>%
+      select(Team, 
+             Next_Game)
+    
+    # what is every fbs team's record of all time?
+    all_records <- running_games %>%
+      filter(Season < input$range) %>%
+      select(Season,
+             Team, 
+             Rolling.Wins,
+             Rolling.Losses,
+             Rolling.Ties) %>%
+      arrange(desc(Rolling.Wins), 
+              Rolling.Losses) %>%
+      unite(Record, c('Rolling.Wins', 'Rolling.Losses'), sep = '-', na.rm = TRUE) %>%
+      group_by(Team,
+               Record) %>%
+      summarise(Last_Season = max(Season),
+                Seasons = n_distinct(Season))
+    
     # when was the last time that a team had a specific record?
     # if a team is 4-0 for the first time since 1960, they will show up here
     team_performance <- latest_season_records %>%
@@ -257,9 +361,7 @@ server <- shinyServer(function(input, output) {
              Latest_Game,
              Next_Game)
     
-    performance_bind <- bind_rows(team_record_break, team_performance)
-    
-    datatable(performance_bind,
+    datatable(team_performance,
               extensions = 'Buttons', 
               colnames = c('Season',
                            'Team',
@@ -488,6 +590,7 @@ server <- shinyServer(function(input, output) {
              Reverse_Rank = dense_rank(Diff),
              Avg_PG = mean(Points_Per_Game),
              Avg_PGA = mean(Points_Allowed_Per_Game),
+             Team = ifelse(Total_Games == 1, paste(Team, '*', sep = ''), Team),
              Pct_Group = cut(Pct_Won, c(0, 0.2, 0.4, 0.6, 0.8, 1), labels = c('0-20%', '20-40%', '40-60%', '60-80%', '80-100%'), include.lowest=TRUE))
     
     # the visualization
@@ -534,7 +637,8 @@ server <- shinyServer(function(input, output) {
            subtitle = 'Teams by Average Points Scored and Points Allowed, and Percent of Games Won',
            color = 'Percent of Games Won',
            x = 'Points Scored per Game',
-           y = 'Points Allowed per Game') +
+           y = 'Points Allowed per Game',
+           caption = '*Team has only played one game') +
       theme(plot.title = element_text(face = 'bold', size = 18, family = 'Arial'),
             legend.position = 'top',
             legend.background=element_blank(),
