@@ -65,13 +65,6 @@ cfb_select <- dplyr::select(cfb_conferences, Season, Conf, Team) %>%
                           Team == 'UTSA' ~ 'Texas-San Antonio',
                           TRUE ~ Team))
 
-# all fbs teams in the latest season 
-fbs_teams <- cfb_games %>%
-  filter(Season == max(Season)) %>%
-  inner_join(cfb_select) %>%
-  distinct(Conf, 
-           Team)
-
 # expand games
 opp_select <- cfb_games %>%
   select(Season,
@@ -87,7 +80,8 @@ opp_select <- cfb_games %>%
          Notes)
 bind_all_games <- bind_rows(cfb_games, opp_select)
 
-distinct_bind <- dplyr::distinct(bind_all_games, Season, Wk, Date, Day, Team, Team.Pts, Location, Opponent, Opp.Pts)
+distinct_bind <- dplyr::distinct(bind_all_games, Season, Wk, Date, Day, Team, Team.Pts, Location, Opponent, Opp.Pts) %>%
+  inner_join(cfb_select)
 
 
 #### R Shiny App  ####
@@ -153,7 +147,7 @@ server <- shinyServer(function(input, output) {
     
     # return the latest records of each team in the latest season 
     latest_season_records <- running_games %>%
-      filter(Season == input$range) %>%
+      filter(Season == 2015) %>%
       mutate(Result = ifelse(Team.Pts > Opp.Pts, 'W', 'L'),
              Latest_Game = paste(Result, ' ', Team.Pts, '-', Opp.Pts, ' vs ', Opponent, sep = '')) %>%
       group_by(Team) %>%
@@ -171,7 +165,7 @@ server <- shinyServer(function(input, output) {
     # what is each team's next game?
     next_game <- distinct_bind %>%
       filter(is.na(Team.Pts),
-             Season == input$range) %>%
+             Season == 2015) %>%
       group_by(Team) %>%
       slice(which.min(Wk)) %>%
       ungroup() %>%
@@ -185,7 +179,7 @@ server <- shinyServer(function(input, output) {
     
     # what is every fbs team's record of all time?
     all_records <- running_games %>%
-      filter(Season < input$range) %>%
+      filter(Season < 2015) %>%
       select(Season,
              Team, 
              Rolling.Wins,
@@ -318,14 +312,14 @@ server <- shinyServer(function(input, output) {
       arrange(desc(Streak.Broken))
     
     # total games played this season
-    total_games <- cfb_games %>%
+    total_games <- distinct_bind %>%
       filter(!is.na(Team.Pts)) %>%
       group_by(Season) %>%
-      summarise(Total_Games = n_distinct(Rk)) %>%
+      summarise(Total_Games = n()) %>%
       ungroup()
     
     # what is the current season and latest week played?
-    current_wk <- cfb_games %>%
+    current_wk <- distinct_bind %>%
       filter(Season == max(Season),
              !is.na(Team.Pts)) %>%
       group_by(Season) %>%
@@ -440,9 +434,8 @@ server <- shinyServer(function(input, output) {
   output$Plot <- renderPlot({
     
     # return fbs teams that played that season
-    fbs_teams <- cfb_games %>%
+    fbs_teams <- distinct_bind %>%
       filter(Season == input$range) %>%
-      inner_join(cfb_select) %>%
       distinct(Conf, 
                Team)
     
@@ -531,9 +524,8 @@ server <- shinyServer(function(input, output) {
   # Table for point differential
   output$scoring <- DT::renderDataTable({
     
-    fbs_teams <- cfb_games %>%
+    fbs_teams <- distinct_bind %>%
       filter(Season == input$range) %>%
-      inner_join(cfb_select) %>%
       distinct(Conf, 
                Team)
     
@@ -541,7 +533,7 @@ server <- shinyServer(function(input, output) {
       group_by(Season, 
                Team) %>%
       filter(!is.na(Team.Pts),
-             Season == input$range,
+             Season == 2015,
              Team %in% fbs_teams$Team) %>%
       mutate(Wins = ifelse(Team.Pts > Opp.Pts, 1, 0),
              Loses = ifelse(Team.Pts < Opp.Pts, 1, 0),
