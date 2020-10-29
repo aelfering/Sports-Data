@@ -358,20 +358,15 @@ server <- shinyServer(function(input, output) {
            aes(x =Season, 
                y = pct,
                label = pct_label)) + 
-      geom_step(size = 1) +
-      geom_point(data = subset(streak_end_count, Season == season_int),
-                 mapping = aes(x = Season, 
-                               y = pct),
-                 size = 3) +
-      geom_point(data = subset(streak_end_count, Season == low_season_int),
+      geom_vline(xintercept = input$range, 
+                 linetype = 'dashed') +
+      geom_line(size = 1) +
+      geom_point(data = subset(streak_end_count, Season == input$range),
                  mapping = aes(x = Season, 
                                y = pct),
                  size = 3) +
       labs(title = paste('Of all ', 999, ' games played through week ', wk_int, ' of ', season_int, sep = '')) +
-      
-      geom_label_repel(data = subset(streak_end_count, Season == season_int)) +
-      geom_label_repel(data = subset(streak_end_count, Season %in% low_season_int))
-    
+      geom_label_repel(data = subset(streak_end_count, Season == input$range))
   })
   
   # Table of winning streaks
@@ -458,44 +453,80 @@ server <- shinyServer(function(input, output) {
       filter(!is.na(Team.Pts),
              Season == input$range,
              Team %in% fbs_teams$Team) %>%
+      mutate(Wins = ifelse(Team.Pts > Opp.Pts, 1, 0),
+             Loses = ifelse(Team.Pts < Opp.Pts, 1, 0),
+             Ties = ifelse(Team.Pts == Opp.Pts, 1, 0)) %>%
       summarise(Total_Games = n_distinct(Date),
                 Points_For = sum(Team.Pts),
-                Points_Against = sum(Opp.Pts)) %>%
+                Points_Against = sum(Opp.Pts),
+                Total_Wins = sum(Wins),
+                Total_Losses = sum(Loses),
+                Total_Ties = sum(Ties)) %>%
       ungroup() %>%
       mutate(Points_Per_Game = round(Points_For/Total_Games, 1),
              Points_Allowed_Per_Game = round(Points_Against/Total_Games, 1),
+             Pct_Won = Total_Wins/(Total_Wins+Total_Losses+Total_Ties),
              Diff = round(Points_Per_Game-Points_Allowed_Per_Game, 1),
              Diff_Rank = dense_rank(desc(Diff)),
-             Reverse_Rank = dense_rank(Diff)) 
+             Reverse_Rank = dense_rank(Diff),
+             Avg_PG = mean(Points_Per_Game),
+             Avg_PGA = mean(Points_Allowed_Per_Game),
+             Pct_Group = cut(Pct_Won, c(0, 0.2, 0.4, 0.6, 0.8, 1), labels = c('0-20%', '20-40%', '40-60%', '60-80%', '80-100%'), include.lowest=TRUE))
     
     # the visualization
     ggplot(mark1, 
            aes(x = Points_Per_Game, 
                y = Points_Allowed_Per_Game,
-               group = Team)) + 
-      geom_point(size = 3,
-                 alpha = 0.4,
-                 mapping = aes(color = Points_Per_Game > Points_Allowed_Per_Game)) +
+               group = Team, 
+               color = Pct_Group)) + 
+      geom_vline(aes(xintercept = Avg_PG)) +
+      geom_hline(aes(yintercept = Avg_PGA)) +
+      geom_point(size = 4,
+                 alpha = 0.4) +
       geom_point(data = subset(mark1, Diff_Rank <= 5),
                  shape = 1,
-                 size = 3,
+                 size = 4,
                  colour = "black") +
       geom_point(data = subset(mark1, Reverse_Rank <= 5),
                  shape = 1,
-                 size = 3,
+                 size = 4,
                  colour = "black") +
+      scale_color_manual(values = c('#e41a1c', '#377eb8', '#4daf4a', '#984ea3', '#ff7f00')) +
       geom_label_repel(data = subset(mark1, Diff_Rank <= 5),
                        mapping = aes(x = Points_Per_Game, 
                                      y = Points_Allowed_Per_Game,
                                      label = Team),
-                       box.padding = 2) +
+                       box.padding = 1,
+                       color = 'black') +
       geom_label_repel(data = subset(mark1, Reverse_Rank <= 5),
                        mapping = aes(x = Points_Per_Game, 
                                      y = Points_Allowed_Per_Game,
                                      label = Team),
-                       box.padding = 2)
+                       box.padding = 1,
+                       color = 'black') +
+      labs(title = paste(input$range, ' Season: Which CFB Teams Had the Best and Worst Point Differential?', sep = ''),
+           subtitle = 'Teams by Average Points Scored and Points Allowed, and Percent of Games Won',
+           color = 'Percent of Games Won',
+           x = 'Points Scored per Game',
+           y = 'Points Allowed per Game') +
+      theme(plot.title = element_text(face = 'bold', size = 18, family = 'Arial'),
+            legend.position = 'top',
+            legend.background=element_blank(),
+            legend.key=element_blank(),
+            legend.text = element_text(size = 12, family = 'Arial'),
+            legend.title = element_text(size = 12, family = 'Arial'),
+            plot.subtitle = element_text(size = 15, family = 'Arial'),
+            plot.caption = element_text(size = 12, family = 'Arial'),
+            axis.title = element_text(size = 12, family = 'Arial'),
+            axis.text = element_text(size = 12, family = 'Arial'),
+            strip.text = ggplot2::element_text(size = 12, hjust = 0, face = 'bold', color = 'black', family = 'Arial'),
+            strip.background = element_rect(fill = NA),
+            panel.background = ggplot2::element_blank(),
+            axis.line = element_line(colour = "#222222", linetype = "solid"),
+            panel.grid.major.y = element_line(colour = "#c1c1c1", linetype = "dashed"),
+            panel.grid.major.x = element_line(colour = "#c1c1c1", linetype = "dashed")) 
     
-  })
+  }, height = "auto")
   
   # Table for point differential
   output$scoring <- DT::renderDataTable({
