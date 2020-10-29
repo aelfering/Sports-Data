@@ -104,12 +104,36 @@ ui <- fluidPage(
       tabsetPanel(
         id = 'dataset',
         tabPanel("When was the Last Time a Team Held a Specific Record?",
+                 br(),
                  DT::dataTableOutput('records')),
         tabPanel("Busted Series Winning Streaks", 
+                 br(),
                  plotOutput("count", width = "100%"),
                  DT::dataTableOutput('streaks')),
         tabPanel("Point Differential",  
+                 br(),
                  plotOutput("Plot", width = "100%"), 
+                 br(),
+                 br(),
+                 br(),
+                 br(),
+                 br(),
+                 br(),
+                 br(),
+                 br(),
+                 br(),
+                 br(),
+                 br(),
+                 br(),
+                 br(),
+                 br(),
+                 br(),
+                 br(),
+                 br(),
+                 br(),
+                 br(),
+                 br(),
+                 br(),
                  DT::dataTableOutput('scoring'))
       )
     ))
@@ -312,8 +336,8 @@ server <- shinyServer(function(input, output) {
       arrange(desc(Streak.Broken))
     
     # total games played this season
-    total_games <- distinct_bind %>%
-      filter(!is.na(Team.Pts)) %>%
+    total_games <- cfb_games %>%
+      distinct(Season, Wk, Date, Day, Team, Team.Pts, Location, Opponent, Opp.Pts) %>%
       group_by(Season) %>%
       summarise(Total_Games = n()) %>%
       ungroup()
@@ -472,19 +496,28 @@ server <- shinyServer(function(input, output) {
                y = Points_Allowed_Per_Game,
                group = Team, 
                color = Pct_Group)) + 
-      geom_vline(aes(xintercept = Avg_PG)) +
-      geom_hline(aes(yintercept = Avg_PGA)) +
-      geom_point(size = 4,
+      # season averages
+      geom_vline(aes(xintercept = Avg_PG),
+                 linetype = 'dashed',
+                 alpha = 0.6,
+                 size = 1) +
+      geom_hline(aes(yintercept = Avg_PGA),
+                 linetype = 'dashed',
+                 alpha = 0.6,
+                 size = 1) +
+      # scatterplot points
+      geom_point(size = 5,
                  alpha = 0.4) +
       geom_point(data = subset(mark1, Diff_Rank <= 5),
                  shape = 1,
-                 size = 4,
+                 size = 5,
                  colour = "black") +
       geom_point(data = subset(mark1, Reverse_Rank <= 5),
                  shape = 1,
-                 size = 4,
+                 size = 5,
                  colour = "black") +
       scale_color_manual(values = c('#e41a1c', '#377eb8', '#4daf4a', '#984ea3', '#ff7f00')) +
+      # scatterplot labels
       geom_label_repel(data = subset(mark1, Diff_Rank <= 5),
                        mapping = aes(x = Points_Per_Game, 
                                      y = Points_Allowed_Per_Game,
@@ -519,7 +552,7 @@ server <- shinyServer(function(input, output) {
             panel.grid.major.y = element_line(colour = "#c1c1c1", linetype = "dashed"),
             panel.grid.major.x = element_line(colour = "#c1c1c1", linetype = "dashed")) 
     
-  }, height = "auto")
+  }, height = 800)
   
   # Table for point differential
   output$scoring <- DT::renderDataTable({
@@ -531,9 +564,10 @@ server <- shinyServer(function(input, output) {
     
     mark1 <- distinct_bind %>%
       group_by(Season, 
-               Team) %>%
+               Team,
+               Conf) %>%
       filter(!is.na(Team.Pts),
-             Season == 2015,
+             Season == input$range,
              Team %in% fbs_teams$Team) %>%
       mutate(Wins = ifelse(Team.Pts > Opp.Pts, 1, 0),
              Loses = ifelse(Team.Pts < Opp.Pts, 1, 0),
@@ -552,6 +586,7 @@ server <- shinyServer(function(input, output) {
       unite(Record, c('Total_Wins', 'Total_Losses', 'Total_Ties'), sep = '-', na.rm = TRUE) %>%
       select(Season,
              Team,
+             Conf,
              Total_Games,
              Record,
              Points_For,
@@ -562,7 +597,17 @@ server <- shinyServer(function(input, output) {
       arrange(desc(Diff))
     
     datatable(mark1,
-              extensions = 'Buttons', 
+              extensions = 'Buttons',
+              colnames = c('Season',
+                           'Team',
+                           'Conference',
+                           'Total Games',
+                           'Record',
+                           'Points For',
+                           'Points Against',
+                           'Points per Game',
+                           'Points Allowed Per Game',
+                           'Point Differential'),
               options = list(paging = FALSE,
                              dom = 'Bfrtip',
                              buttons = c('copy', 'csv', 'excel')))
