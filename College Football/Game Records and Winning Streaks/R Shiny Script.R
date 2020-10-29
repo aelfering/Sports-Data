@@ -428,65 +428,51 @@ server <- shinyServer(function(input, output) {
              Last.Win) %>%
       inner_join(series_numbers, by = c('Last.Win' = 'Series.Number', 'Team' = 'Team', 'Opponent' = 'Opponent')) %>%
       unite(Final_Score, c('Team.Pts', 'Opp.Pts'), sep = '-') %>%
+      unite(Series, c('Team', 'Opponent'), sep = ' vs. ', na.rm = TRUE) %>%
       select(Season = Season.x,
-             Team,
+             Series,
              Wk,
-             Opponent,
              Final_Score,
              Streak.Broken,
              Last_Win = Season.y) %>%
-      arrange(desc(Streak.Broken))
+      arrange(desc(Streak.Broken)) %>%
+      filter(Season == input$range) %>%
+      mutate(Rnk = dense_rank(desc(Streak.Broken))) %>%
+      filter(Rnk <= 5)
     
-    # total games played this season
-    total_games <- cfb_games %>%
-      distinct(Season, Wk, Date, Day, Team, Team.Pts, Location, Opponent, Opp.Pts) %>%
-      group_by(Season) %>%
-      summarise(Total_Games = n()) %>%
-      ungroup()
+    ggplot(current_streaks_broken,
+           aes(x = reorder(Series, Streak.Broken),
+               y = Streak.Broken)) +
+      geom_bar(stat = 'identity',
+               position = 'identity') +
+      coord_flip() +
+      labs(title = paste(input$range, ' Season: Longest Winning Streaks Ended', sep = ''),
+           x = '',
+           y = '') +
+      geom_text(aes(label = Last_Win,
+                    y = -0.02),
+                hjust = 1) +
+      geom_text(aes(label = paste(Streak.Broken, ' games', sep = '')),
+                hjust = -0.5) +
+      scale_y_continuous(expand = c(.1, .1)) +
+      theme(plot.title = element_text(face = 'bold', size = 18, family = 'Arial'),
+            legend.position = 'top',
+            legend.background=element_blank(),
+            legend.key=element_blank(),
+            legend.text = element_text(size = 12, family = 'Arial'),
+            legend.title = element_text(size = 12, family = 'Arial'),
+            plot.subtitle = element_text(size = 15, family = 'Arial'),
+            plot.caption = element_text(size = 12, family = 'Arial'),
+            axis.title = element_text(size = 12, family = 'Arial'),
+            axis.text = element_text(size = 12, family = 'Arial'),
+            strip.text = ggplot2::element_text(size = 12, hjust = 0, face = 'bold', color = 'black', family = 'Arial'),
+            strip.background = element_rect(fill = NA),
+            panel.background = ggplot2::element_blank(),
+            axis.line = element_line(colour = "#222222", linetype = "solid"),
+            panel.grid.major.y = element_blank(),
+            panel.grid.major.x = element_line(colour = "#c1c1c1", linetype = "dashed")) 
     
-    # what is the current season and latest week played?
-    current_wk <- distinct_bind %>%
-      filter(Season == max(Season),
-             !is.na(Team.Pts)) %>%
-      group_by(Season) %>%
-      filter(Wk == max(Wk)) %>%
-      distinct(Season, Wk)
     
-    season_int <- as.numeric(current_wk$Season)
-    wk_int <- as.numeric(current_wk$Wk)
-    
-    # calculate percent of games that ended winning streaks
-    streak_end_count <- current_streaks_broken %>%
-      filter(Wk <= wk_int) %>%
-      group_by(Season) %>%
-      mutate(Team_Opp = paste(Season, Team, Opponent, sep = '-')) %>%
-      summarise(Streaks = n_distinct(Team_Opp)) %>%
-      filter(Season >= 1936) %>%
-      ungroup() %>%
-      left_join(total_games) %>%
-      mutate(pct = Streaks/Total_Games,
-             pct_label = ifelse(pct < 0.01, '<1%', paste(round(pct*100), '%', sep = '') ))
-    
-    # identify the season with the lowest percentage points
-    lowest_season <- streak_end_count %>%
-      filter(dense_rank(pct) == 1)
-    
-    low_season_int <- as.numeric(lowest_season$Season)
-    
-    # the visualization
-    ggplot(streak_end_count, 
-           aes(x =Season, 
-               y = pct,
-               label = pct_label)) + 
-      geom_vline(xintercept = input$range, 
-                 linetype = 'dashed') +
-      geom_line(size = 1) +
-      geom_point(data = subset(streak_end_count, Season == input$range),
-                 mapping = aes(x = Season, 
-                               y = pct),
-                 size = 3) +
-      labs(title = paste('Of all ', 999, ' games played through week ', wk_int, ' of ', season_int, sep = '')) +
-      geom_label_repel(data = subset(streak_end_count, Season == input$range))
   })
   
   # Table of winning streaks
