@@ -95,7 +95,7 @@ ui <- fluidPage(
     sidebarPanel(
       sliderInput("range", "Select a Season:",
                   min = 1936, max = max(cfb_games$Season),
-                  value = 2015),
+                  value = max(cfb_games$Season)),
       width=2),
     mainPanel(
       print(paste('Code by Alex Elfering | Data Source: College Football Reference | Last Updated:', format(Sys.time(), tz="America/Chicago",usetz=TRUE), sep = '' )),
@@ -149,6 +149,11 @@ server <- shinyServer(function(input, output) {
   
   # When was the last time that a team held a specific record?
   output$first <- DT::renderDataTable({
+    
+    fbs_teams <- distinct_bind %>%
+      filter(Season == input$range) %>%
+      distinct(Conf, 
+               Team)
     
     # calculate the running games won and lost by team per season
     running_games <- distinct_bind %>%
@@ -265,6 +270,11 @@ server <- shinyServer(function(input, output) {
   
   # When was the last time that a team held a specific record?
   output$records <- DT::renderDataTable({
+    
+    fbs_teams <- distinct_bind %>%
+      filter(Season == input$range) %>%
+      distinct(Conf, 
+               Team)
     
     # calculate the running games won and lost by team per season
     running_games <- distinct_bind %>%
@@ -444,36 +454,42 @@ server <- shinyServer(function(input, output) {
            aes(x = reorder(Series, Streak.Broken),
                y = Streak.Broken)) +
       geom_bar(stat = 'identity',
-               position = 'identity') +
+               position = 'identity',
+               fill = '#377eb8') +
       coord_flip() +
       labs(title = paste(input$range, ' Season: Longest Winning Streaks Ended', sep = ''),
            x = '',
            y = '') +
       geom_text(aes(label = Last_Win,
                     y = -0.02),
-                hjust = 1) +
+                hjust = 1.3) +
       geom_text(aes(label = paste(Streak.Broken, ' games', sep = '')),
-                hjust = -0.5) +
+                hjust = -0.1) +
       scale_y_continuous(expand = c(.1, .1)) +
       theme(plot.title = element_text(face = 'bold', size = 18, family = 'Arial'),
+            
             legend.position = 'top',
             legend.background=element_blank(),
             legend.key=element_blank(),
             legend.text = element_text(size = 12, family = 'Arial'),
             legend.title = element_text(size = 12, family = 'Arial'),
+            
             plot.subtitle = element_text(size = 15, family = 'Arial'),
             plot.caption = element_text(size = 12, family = 'Arial'),
+            
             axis.title = element_text(size = 12, family = 'Arial'),
             axis.text = element_text(size = 12, family = 'Arial'),
+
             strip.text = ggplot2::element_text(size = 12, hjust = 0, face = 'bold', color = 'black', family = 'Arial'),
             strip.background = element_rect(fill = NA),
+            
             panel.background = ggplot2::element_blank(),
             axis.line = element_line(colour = "#222222", linetype = "solid"),
             panel.grid.major.y = element_blank(),
             panel.grid.major.x = element_line(colour = "#c1c1c1", linetype = "dashed")) 
     
     
-  })
+  }, height = 500)
   
   # Table of winning streaks
   output$streaks <- DT::renderDataTable({
