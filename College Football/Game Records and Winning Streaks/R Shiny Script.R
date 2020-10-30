@@ -114,7 +114,6 @@ ui <- fluidPage(
                  DT::dataTableOutput('records')),
         tabPanel("Busted Series Winning Streaks", 
                  br(),
-                 plotOutput("count", width = "100%"),
                  DT::dataTableOutput('streaks')),
         tabPanel("Point Differential",  
                  br(),
@@ -393,104 +392,6 @@ server <- shinyServer(function(input, output) {
     
   })
   
-  # Visualization of total games that ended winning streaks
-  output$count <- renderPlot({
-    
-    game_streaks <- distinct_bind %>%
-      # played teams
-      filter(!is.na(Team.Pts)) %>%
-      arrange(Season,
-              Wk) %>%
-      mutate(Wins = ifelse(Team.Pts > Opp.Pts, 1, 0),
-             Ties = ifelse(Team.Pts == Opp.Pts, 1, 0),
-             Loses = ifelse(Team.Pts < Opp.Pts, 1, 0)) %>%
-      group_by(Team,
-               Opponent) %>%
-      # calculating winning and losing streaks ongoing 
-      mutate(Win.Streak = ave(Wins, cumsum(Wins==0), FUN = seq_along) - 1,
-             Lose.Streak = ave(Loses, cumsum(Loses==0), FUN = seq_along) - 1) %>%
-      ungroup()
-    
-    flag_streak_broken <- game_streaks %>%
-      group_by(Team,
-               Opponent) %>%
-      mutate(Streak.Broken = lag(Lose.Streak),
-             Series.Number = row_number(),
-             Last.Win = (Series.Number-Streak.Broken)-1,
-             Major.Streak.Broken = ifelse(Streak.Broken > 2 & Win.Streak > 0, 1, 0)) %>%
-      ungroup() 
-    
-    series_numbers <- flag_streak_broken %>%
-      distinct(Team,
-               Opponent,
-               Series.Number,
-               Season)
-    
-    current_streaks_broken <- flag_streak_broken %>%
-      filter(Major.Streak.Broken == 1) %>%
-      select(Season,
-             Team,
-             Wk,
-             Opponent,
-             Team.Pts,
-             Opp.Pts,
-             Streak.Broken,
-             Last.Win) %>%
-      inner_join(series_numbers, by = c('Last.Win' = 'Series.Number', 'Team' = 'Team', 'Opponent' = 'Opponent')) %>%
-      unite(Final_Score, c('Team.Pts', 'Opp.Pts'), sep = '-') %>%
-      unite(Series, c('Team', 'Opponent'), sep = ' vs. ', na.rm = TRUE) %>%
-      select(Season = Season.x,
-             Series,
-             Wk,
-             Final_Score,
-             Streak.Broken,
-             Last_Win = Season.y) %>%
-      arrange(desc(Streak.Broken)) %>%
-      filter(Season == input$range) %>%
-      mutate(Rnk = dense_rank(desc(Streak.Broken))) %>%
-      filter(Rnk <= 5)
-    
-    ggplot(current_streaks_broken,
-           aes(x = reorder(Series, Streak.Broken),
-               y = Streak.Broken)) +
-      geom_bar(stat = 'identity',
-               position = 'identity',
-               fill = '#377eb8') +
-      coord_flip() +
-      labs(title = paste(input$range, ' Season: Longest Winning Streaks Ended', sep = ''),
-           x = '',
-           y = '') +
-      geom_text(aes(label = Last_Win,
-                    y = -0.02),
-                hjust = 1.3) +
-      geom_text(aes(label = paste(Streak.Broken, ' games', sep = '')),
-                hjust = -0.1) +
-      scale_y_continuous(expand = c(.1, .1)) +
-      theme(plot.title = element_text(face = 'bold', size = 18, family = 'Arial'),
-            
-            legend.position = 'top',
-            legend.background=element_blank(),
-            legend.key=element_blank(),
-            legend.text = element_text(size = 12, family = 'Arial'),
-            legend.title = element_text(size = 12, family = 'Arial'),
-            
-            plot.subtitle = element_text(size = 15, family = 'Arial'),
-            plot.caption = element_text(size = 12, family = 'Arial'),
-            
-            axis.title = element_text(size = 12, family = 'Arial'),
-            axis.text = element_text(size = 12, family = 'Arial'),
-
-            strip.text = ggplot2::element_text(size = 12, hjust = 0, face = 'bold', color = 'black', family = 'Arial'),
-            strip.background = element_rect(fill = NA),
-            
-            panel.background = ggplot2::element_blank(),
-            axis.line = element_line(colour = "#222222", linetype = "solid"),
-            panel.grid.major.y = element_blank(),
-            panel.grid.major.x = element_line(colour = "#c1c1c1", linetype = "dashed")) 
-    
-    
-  }, height = 500)
-  
   # Table of winning streaks
   output$streaks <- DT::renderDataTable({
     
@@ -544,17 +445,49 @@ server <- shinyServer(function(input, output) {
              Last_Win = Season.y) %>%
       arrange(desc(Streak.Broken))
     
-    datatable(current_streaks_broken,
+    head(distinct_bind)
+    
+    mark1 <- distinct_bind %>%
+      filter(!is.na(Team.Pts)) %>%
+      mutate(Wins = ifelse(Team.Pts > Opp.Pts, 1, 0),
+             Loses = ifelse(Team.Pts < Opp.Pts, 1, 0),
+             Ties = ifelse(Team.Pts == Opp.Pts, 1, 0)) %>%
+      arrange(Season,
+              Wk) %>%
+      group_by(Team, 
+               Opponent) %>%
+      mutate(Total.Wins = cumsum(Wins),
+             Total.Losses = cumsum(Loses),
+             Total.Ties = cumsum(Ties)) %>%
+      ungroup() %>%
+      select(Season,
+             Team,
+             Opponent,
+             Total.Wins,
+             Total.Losses,
+             Total.Ties) %>%
+      unite(Record, c('Total.Wins', 'Total.Losses', 'Total.Ties'), sep = '-', na.rm = TRUE)
+    
+    join_streaks <- current_streaks_broken %>%
+      inner_join(mark1)
+    
+    
+    
+    datatable(join_streaks,
               extensions = 'Buttons', 
               colnames = c('Season',
                            'Team',
                            'Opponent',
                            'Final Score',
                            'Streak Broken',
-                           'Last Season Won'),
+                           'Last Season Won',
+                           'Current Series'),
               options = list(paging = FALSE,
                              dom = 'Bfrtip',
-                             buttons = c('copy', 'csv', 'excel')))
+                             buttons = c('copy', 'csv', 'excel')),
+              caption = htmltools::tags$caption(
+                style = 'caption-side: bottom; text-align: center;',
+                htmltools::em('Winning Streaks have at least three consecutive wins')))
     
   })
   
