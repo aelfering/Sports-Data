@@ -98,7 +98,7 @@ ui <- fluidPage(
                   value = max(cfb_games$Season)),
       width=2),
     mainPanel(
-      print(paste('Code by Alex Elfering | Data Source: College Football Reference | Last Updated:', format(Sys.time(), tz="America/Chicago",usetz=TRUE), sep = '' )),
+      print(paste('Code by Alex Elfering | Data Source: College Football Reference', sep = '' )),
       
       # tabs for each page
       tabsetPanel(
@@ -731,6 +731,7 @@ server <- shinyServer(function(input, output) {
     
     
   })
+  
 })
 
 shinyApp(ui=ui, server=server)
