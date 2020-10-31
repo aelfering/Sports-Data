@@ -1,7 +1,7 @@
 # This script identifies when the last time a team finished with a particular record, as well as winning streaks that are snapped in the latest season
 # Script by Alex Elfering
 
-# Last Updated: 24 October 2020
+# Last Updated: 31 October 2020
 
 # Load packages
 list.of.packages <- c("ggplot2", 
