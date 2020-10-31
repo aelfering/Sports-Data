@@ -86,6 +86,16 @@ distinct_bind <- dplyr::distinct(bind_all_games, Season, Wk, Date, Day, Team, Te
 
 #### R Shiny App  ####
 
+max_season_name <- max(distinct_bind$Season)
+
+get_max_week <- distinct_bind %>%
+  filter(!is.na(Team.Pts),
+         Season == max(max_season_name)) %>%
+  summarise(MAX_WK = max(Wk))
+
+max_week_name <- as.numeric(get_max_week$MAX_WK)
+  
+
 # building the r shiny dashboard
 ui <- fluidPage(
   titlePanel("College Football Team Performance"),
@@ -98,7 +108,7 @@ ui <- fluidPage(
                   value = max(cfb_games$Season)),
       width=2),
     mainPanel(
-      print(paste('Code by Alex Elfering | Data Source: College Football Reference', sep = '' )),
+      print(paste('Code by Alex Elfering | Data Source: College Football Reference | ', max_season_name, ' Season through Week ', max_week_name, '.', sep = '' )),
       
       # tabs for each page
       tabsetPanel(
