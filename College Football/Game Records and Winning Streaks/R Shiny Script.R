@@ -103,7 +103,7 @@ ui <- fluidPage(
       # tabs for each page
       tabsetPanel(
         id = 'dataset',
-        tabPanel("When was the Last Time a Team Held a Specific Record?",
+        tabPanel("Historic Season Records",
                  br(),
                  print('Teams Holding Records for the First Time'),
                  br(),
@@ -113,6 +113,8 @@ ui <- fluidPage(
                  br(),
                  DT::dataTableOutput('records')),
         tabPanel("Busted Series Winning Streaks", 
+                 br(),
+                 DT::dataTableOutput('active'),
                  br(),
                  DT::dataTableOutput('streaks')),
         tabPanel("Point Differential",  
@@ -392,6 +394,69 @@ server <- shinyServer(function(input, output) {
     
   })
   
+  # Table of active streaks
+  output$active <- DT::renderDataTable({
+    
+    
+    end_season <- input$range-5
+    
+    game_streaks <- distinct_bind %>%
+      # played teams
+      filter(!is.na(Team.Pts)) %>%
+      arrange(Season,
+              Wk) %>%
+      mutate(Wins = ifelse(Team.Pts > Opp.Pts, 1, 0),
+             Ties = ifelse(Team.Pts == Opp.Pts, 1, 0),
+             Loses = ifelse(Team.Pts < Opp.Pts, 1, 0)) %>%
+      group_by(Team,
+               Opponent) %>%
+      # cauclating winning and losing streaks ongoing 
+      mutate(Win.Streak = ave(Wins, cumsum(Wins==0), FUN = seq_along)-1,
+             Lose.Streak = ave(Loses, cumsum(Loses==0), FUN = seq_along)-1) %>%
+      ungroup()
+    
+    game_series <- game_streaks %>%
+      group_by(Team, 
+               Opponent) %>%
+      mutate(Total_Wins = cumsum(Wins),
+             Total_Losses = cumsum(Loses),
+             Total_Ties = cumsum(Ties)) %>%
+      ungroup() %>%
+      unite(Record, c('Total_Wins', 'Total_Losses', 'Total_Ties'), sep = '-', na.rm = TRUE) %>%
+      select(Season,
+             Team,
+             Opponent,
+             Record)
+    
+    active_streaks <- game_streaks %>%
+      filter(Season <= input$range) %>%
+      group_by(Team,
+               Opponent) %>%
+      filter(Season == max(Season),
+             Wins > 0,
+             Win.Streak >= 3,
+             Season >= end_season) %>%
+      arrange(desc(Win.Streak)) %>%
+      left_join(game_series) %>%
+      select(Last_Season = Season,
+             Team,
+             Opponent,
+             Win.Streak,
+             Record) 
+    
+    datatable(active_streaks,
+              colnames = c('Last Met',
+                           'Team',
+                           'Opponent',
+                           'Winning Streak',
+                           'Record'),
+              options = list(paging = FALSE,
+                             dom = 'Bfrtip',
+                             scroller = TRUE,
+                             buttons = c('copy', 'csv', 'excel')))
+    
+  })
+  
   # Table of winning streaks
   output$streaks <- DT::renderDataTable({
     
@@ -406,8 +471,8 @@ server <- shinyServer(function(input, output) {
       group_by(Team,
                Opponent) %>%
       # cauclating winning and losing streaks ongoing 
-      mutate(Win.Streak = ave(Wins, cumsum(Wins==0), FUN = seq_along) - 1,
-             Lose.Streak = ave(Loses, cumsum(Loses==0), FUN = seq_along) - 1) %>%
+      mutate(Win.Streak = ave(Wins, cumsum(Wins==0), FUN = seq_along)-1,
+             Lose.Streak = ave(Loses, cumsum(Loses==0), FUN = seq_along)-1) %>%
       ungroup()
     
     flag_streak_broken <- game_streaks %>%
