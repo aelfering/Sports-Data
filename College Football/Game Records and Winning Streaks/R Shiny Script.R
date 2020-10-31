@@ -88,7 +88,7 @@ distinct_bind <- dplyr::distinct(bind_all_games, Season, Wk, Date, Day, Team, Te
 
 # building the r shiny dashboard
 ui <- fluidPage(
-  titlePanel("How Has Each College Football Conference Performed Over Time?"),
+  titlePanel("College Football Team Performance"),
   
   # The filters on the side panel
   sidebarLayout(
