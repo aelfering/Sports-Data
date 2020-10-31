@@ -112,7 +112,7 @@ ui <- fluidPage(
                  print('Teams with Historic Records'),
                  br(),
                  DT::dataTableOutput('records')),
-        tabPanel("Busted Series Winning Streaks", 
+        tabPanel("Winning Streaks", 
                  br(),
                  DT::dataTableOutput('active'),
                  br(),
