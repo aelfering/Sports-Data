@@ -257,12 +257,14 @@ server <- shinyServer(function(input, output) {
                            'Streak',
                            'Latest Opponent',
                            'Next Opponent'),
+              fillContainer = TRUE,
               caption = htmltools::tags$caption(
                 style = 'caption-side: bottom; text-align: center;',
                 htmltools::em('* Indicates an FCS Team')),
               options = list(paging = FALSE,
                              dom = 'Bfrtip',
                              scroller = TRUE,
+                             scrollY = "500px",
                              buttons = c('copy', 'csv', 'excel')))
     
     
@@ -382,12 +384,14 @@ server <- shinyServer(function(input, output) {
                            'Streak',
                            'Latest Opponent',
                            'Next Opponent'),
+              fillContainer = TRUE,
               caption = htmltools::tags$caption(
                 style = 'caption-side: bottom; text-align: center;',
                 htmltools::em('* Indicates an FCS Team')),
               options = list(paging = FALSE,
                              dom = 'Bfrtip',
                              scroller = TRUE,
+                             scrollY = "500px",
                              buttons = c('copy', 'csv', 'excel')))
     
     
@@ -453,6 +457,7 @@ server <- shinyServer(function(input, output) {
               options = list(paging = FALSE,
                              dom = 'Bfrtip',
                              scroller = TRUE,
+                             scrollY = "500px",
                              buttons = c('copy', 'csv', 'excel')))
     
   })
@@ -550,6 +555,7 @@ server <- shinyServer(function(input, output) {
               fillContainer = TRUE,
               options = list(paging = FALSE,
                              dom = 'Bfrtip',
+                             scrollY = "500px",
                              buttons = c('copy', 'csv', 'excel')),
               caption = htmltools::tags$caption(
                 style = 'caption-side: bottom; text-align: center;',
