@@ -397,7 +397,6 @@ server <- shinyServer(function(input, output) {
   # Table of active streaks
   output$active <- DT::renderDataTable({
     
-    
     end_season <- input$range-5
     
     game_streaks <- distinct_bind %>%
