@@ -36,7 +36,7 @@ library(rsconnect)
 library(DT)
 library(stringi)
 
-#setwd("~/GitHub/Sports-Data/College Football/Game Records and Winning Streaks")
+setwd("~/GitHub/Sports-Data/College Football/Game Records and Winning Streaks")
 
 cfb_games <- read.csv('Games teams CFB.csv', fileEncoding="UTF-8-BOM")
 cfb_conferences <- read.csv('cfb conf.csv', fileEncoding="UTF-8-BOM")
@@ -530,8 +530,6 @@ server <- shinyServer(function(input, output) {
              Last_Win = Season.y) %>%
       arrange(desc(Streak.Broken))
     
-    head(distinct_bind)
-    
     mark1 <- distinct_bind %>%
       filter(!is.na(Team.Pts)) %>%
       mutate(Wins = ifelse(Team.Pts > Opp.Pts, 1, 0),
@@ -543,20 +541,28 @@ server <- shinyServer(function(input, output) {
                Opponent) %>%
       mutate(Total.Wins = cumsum(Wins),
              Total.Losses = cumsum(Loses),
-             Total.Ties = cumsum(Ties)) %>%
+             Total.Ties = cumsum(Ties),
+             First.Win = ifelse(Total.Wins == 1, 'First Win Ever', NA)) %>%
       ungroup() %>%
       select(Season,
              Team,
              Opponent,
              Total.Wins,
              Total.Losses,
-             Total.Ties) %>%
+             Total.Ties,
+             First.Win) %>%
       unite(Record, c('Total.Wins', 'Total.Losses', 'Total.Ties'), sep = '-', na.rm = TRUE)
     
     join_streaks <- current_streaks_broken %>%
-      inner_join(mark1)
-    
-    
+      inner_join(mark1) %>%
+      mutate(Last_Win = ifelse(!is.na(First.Win), First.Win, Last_Win)) %>%
+      select(Season,
+             Team,
+             Opponent,
+             Final_Score,
+             Streak.Broken,
+             Last_Win,
+             Record)
     
     datatable(join_streaks,
               extensions = 'Buttons', 
