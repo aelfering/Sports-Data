@@ -108,7 +108,7 @@ ui <- fluidPage(
                   value = max(cfb_games$Season)),
       width=2),
     mainPanel(
-      print(paste('Data Source: College Football Reference | ', max_season_name, ' Season through Week ', max_week_name, '.', sep = '' )),
+      print(paste('Code & Design by Alex Elfering | Data Source: College Football Reference | ', max_season_name, ' Season through Week ', max_week_name, '.', sep = '' )),
       
       # tabs for each page
       tabsetPanel(
