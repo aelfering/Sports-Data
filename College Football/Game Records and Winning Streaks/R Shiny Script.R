@@ -147,15 +147,6 @@ ui <- fluidPage(
                  br(),
                  br(),
                  br(),
-                 br(),
-                 br(),
-                 br(),
-                 br(),
-                 br(),
-                 br(),
-                 br(),
-                 br(),
-                 br(),
                  DT::dataTableOutput('scoring'))
       )
     ))
@@ -684,7 +675,7 @@ server <- shinyServer(function(input, output) {
             panel.grid.major.y = element_line(colour = "#c1c1c1", linetype = "dashed"),
             panel.grid.major.x = element_line(colour = "#c1c1c1", linetype = "dashed")) 
     
-  }, height = 800)
+  }, height = 600)
   
   # Table for point differential
   output$scoring <- DT::renderDataTable({
