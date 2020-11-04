@@ -36,7 +36,7 @@ library(rsconnect)
 library(DT)
 library(stringi)
 
-#setwd("~/GitHub/Sports-Data/College Football/Game Records and Winning Streaks")
+setwd("~/GitHub/Sports-Data/College Football/Game Records and Winning Streaks")
 
 cfb_games <- read.csv('Games teams CFB.csv', fileEncoding="UTF-8-BOM")
 cfb_conferences <- read.csv('cfb conf.csv', fileEncoding="UTF-8-BOM")
@@ -435,6 +435,7 @@ server <- shinyServer(function(input, output) {
       select(Season,
              Team,
              Opponent,
+             Wk,
              Record)
     
     active_streaks <- game_streaks %>%
@@ -447,13 +448,21 @@ server <- shinyServer(function(input, output) {
              Season >= end_season) %>%
       arrange(desc(Win.Streak)) %>%
       left_join(game_series) %>%
-      select(Last_Season = Season,
+      select(Season,
+             Wk,
              Team,
              Opponent,
              Win.Streak,
              Record) 
     
-    datatable(active_streaks,
+    filter_streaks <- active_streaks %>%
+      group_by(Team,
+               Opponent) %>%
+      filter(Season == max(Season),
+             Wk == max(Wk)) %>%
+      select(-Wk)
+    
+    datatable(filter_streaks,
               colnames = c('Last Met',
                            'Team',
                            'Opponent',
