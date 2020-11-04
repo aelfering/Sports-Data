@@ -5,8 +5,8 @@ account: aelfering
 server: shinyapps.io
 hostUrl: https://api.shinyapps.io/v1
 appId: 3087414
-bundleId: 3810334
+bundleId: 3819701
 url: https://aelfering.shinyapps.io/CFBSeasonProgressDashboard/
-when: 1604315402.79972
+when: 1604500628.91507
 asMultiple: FALSE
 asStatic: FALSE
