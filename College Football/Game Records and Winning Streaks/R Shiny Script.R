@@ -664,8 +664,11 @@ server <- function(input, output, session){
                  shape = 1,
                  size = 5,
                  colour = "black") +
-      scale_color_manual(values = c('#e41a1c', '#377eb8', '#4daf4a', '#984ea3', '#ff7f00')) +
-      # scatterplot labels
+      scale_color_manual(values = c('0-20%' = '#e41a1c', 
+                                    '20-40%' = '#377eb8', 
+                                    '40-60%' = '#4daf4a', 
+                                    '60-80%' = '#984ea3', 
+                                    '80-100%' = '#ff7f00')) +
       geom_label_repel(data = subset(mark1, Diff_Rank <= 5),
                        mapping = aes(x = Points_Per_Game, 
                                      y = Points_Allowed_Per_Game,
@@ -728,8 +731,7 @@ server <- function(input, output, session){
                 Total_Losses = sum(Loses),
                 Total_Ties = sum(Ties)) %>%
       ungroup() %>%
-      mutate(
-             Points_Per_Game = round(Points_For/Total_Games, 1),
+      mutate(Points_Per_Game = round(Points_For/Total_Games, 1),
              Points_Allowed_Per_Game = round(Points_Against/Total_Games, 1),
              Pct_Won = Total_Wins/(Total_Wins+Total_Losses+Total_Ties),
              Total_Ties = ifelse(Total_Ties == 0, NA, Total_Ties),
