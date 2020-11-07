@@ -36,7 +36,7 @@ library(rsconnect)
 library(DT)
 library(stringi)
 
-#setwd("~/GitHub/Sports-Data/College Football/Game Records and Winning Streaks")
+setwd("~/GitHub/Sports-Data/College Football/Game Records and Winning Streaks")
 
 cfb_games <- read.csv('Games teams CFB.csv', fileEncoding="UTF-8-BOM")
 cfb_conferences <- read.csv('cfb conf.csv', fileEncoding="UTF-8-BOM")
@@ -98,62 +98,78 @@ max_week_name <- as.numeric(get_max_week$MAX_WK)
 
 # building the r shiny dashboard
 ui <- fluidPage(
-  titlePanel("College Football Team Performance"),
   
-  # The filters on the side panel
-  sidebarLayout(
-    sidebarPanel(
-      sliderInput("range", "Select a Season:",
-                  min = 1936, max = max(cfb_games$Season),
-                  value = max(cfb_games$Season)),
-      width=2),
-    mainPanel(
-      print(paste('Code & Design by Alex Elfering | Data Source: College Football Reference | ', max_season_name, ' Season through Week ', max_week_name, '.', sep = '' )),
-      
-      # tabs for each page
-      tabsetPanel(
-        id = 'dataset',
-        tabPanel("Historic Season Records",
-                 br(),
-                 print('Teams Holding Records for the First Time'),
-                 br(),
-                 DT::dataTableOutput('first'),
-                 br(),
-                 br(),
-                 br(),
-                 print('Teams with Historic Records'),
-                 DT::dataTableOutput('records')),
-        tabPanel("Winning Streaks", 
-                 br(),
-                 print('Active Winning Streaks in the Last 5 Seasons'),
-                 DT::dataTableOutput('active'),
-                 br(),
-                 br(),
-                 br(),
-                 print('Winning Streaks that Ended This Season'),
-                 DT::dataTableOutput('streaks')),
-        tabPanel("Point Differential",  
-                 br(),
-                 plotOutput("Plot", width = "100%"), 
-                 br(),
-                 br(),
-                 br(),
-                 br(),
-                 br(),
-                 br(),
-                 br(),
-                 br(),
-                 br(),
-                 br(),
-                 br(),
-                 br(),
-                 DT::dataTableOutput('scoring'))
-      )
-    ))
-)
+  titlePanel("College Football Team Performance"),    
+  sidebarLayout(position = "left",
+                sidebarPanel(
+                  conditionalPanel(condition = "input.tabs1==1",
+                                   sliderInput("range", "Select a Season:",
+                                               min = 1936, 
+                                               max = max(cfb_games$Season),
+                                               value = max(cfb_games$Season))),
+                  
+                  conditionalPanel(condition = "input.tabs1==2",
+                                   sliderInput("season", "Select a Season:",
+                                               min = 1936, 
+                                               max = max(cfb_games$Season),
+                                               value = max(cfb_games$Season)),
+                                   selectInput("percent",
+                                               "Percent of Games Won:",
+                                               c('0-20%', '20-40%', '40-60%', '60-80%', '80-100%'),
+                                               selected = c('0-20%', '20-40%', '40-60%', '60-80%', '80-100%'),
+                                               multiple = TRUE)),
+                  
+                  width = 2),
+                mainPanel(
+                  print(paste('Code & Design by Alex Elfering | Data Source: College Football Reference | ', max_season_name, ' Season through Week ', max_week_name, '.', sep = '' )),
+                  tabsetPanel(id="tabs1",
+                              tabPanel("Historic Season Records",
+                                       value = 1,
+                                       br(),
+                                       print('Teams Holding Records for the First Time'),
+                                       br(),
+                                       DT::dataTableOutput('first'),
+                                       br(),
+                                       br(),
+                                       br(),
+                                       print('Teams with Historic Records'),
+                                       DT::dataTableOutput('records')),
+                              tabPanel("Winning Streaks", 
+                                       value = 1,
+                                       br(),
+                                       print('Active Winning Streaks in the Last 5 Seasons'),
+                                       DT::dataTableOutput('active'),
+                                       br(),
+                                       br(),
+                                       br(),
+                                       print('Winning Streaks that Ended This Season'),
+                                       DT::dataTableOutput('streaks')),
+                              tabPanel("Trending Wins and Losses", 
+                                       value= 1,
+                                       br(),
+                                       plotOutput("PlotWins", width = "100%")),
+                              tabPanel("Point Differential",  
+                                       value = 2,
+                                       br(),
+                                       plotOutput("Plot", width = "100%"), 
+                                       br(),
+                                       br(),
+                                       br(),
+                                       br(),
+                                       br(),
+                                       br(),
+                                       br(),
+                                       br(),
+                                       br(),
+                                       br(),
+                                       br(),
+                                       br(),
+                                       DT::dataTableOutput('scoring'))
+                  )
+                )
+  )) 
 
-server <- shinyServer(function(input, output) { 
-  
+server <- function(input, output, session){
   # When was the last time that a team held a specific record?
   output$first <- DT::renderDataTable({
     
@@ -598,7 +614,7 @@ server <- shinyServer(function(input, output) {
       group_by(Season, 
                Team) %>%
       filter(!is.na(Team.Pts),
-             Season == input$range,
+             Season == input$season,
              Team %in% fbs_teams$Team) %>%
       mutate(Wins = ifelse(Team.Pts > Opp.Pts, 1, 0),
              Loses = ifelse(Team.Pts < Opp.Pts, 1, 0),
@@ -614,12 +630,13 @@ server <- shinyServer(function(input, output) {
              Points_Allowed_Per_Game = round(Points_Against/Total_Games, 1),
              Pct_Won = Total_Wins/(Total_Wins+Total_Losses+Total_Ties),
              Diff = round(Points_Per_Game-Points_Allowed_Per_Game, 1),
-             Diff_Rank = dense_rank(desc(Diff)),
-             Reverse_Rank = dense_rank(Diff),
              Avg_PG = mean(Points_Per_Game),
              Avg_PGA = mean(Points_Allowed_Per_Game),
              Team = ifelse(Total_Games == 1, paste(Team, '*', sep = ''), Team),
-             Pct_Group = cut(Pct_Won, c(0, 0.2, 0.4, 0.6, 0.8, 1), labels = c('0-20%', '20-40%', '40-60%', '60-80%', '80-100%'), include.lowest=TRUE))
+             Pct_Group = cut(Pct_Won, c(0, 0.2, 0.4, 0.6, 0.8, 1), labels = c('0-20%', '20-40%', '40-60%', '60-80%', '80-100%'), include.lowest=TRUE)) %>%
+      filter(Pct_Group %in% input$percent) %>%
+      mutate(Diff_Rank = dense_rank(desc(Diff)),
+             Reverse_Rank = dense_rank(Diff))
     
     # the visualization
     ggplot(mark1, 
@@ -661,7 +678,7 @@ server <- shinyServer(function(input, output) {
                                      label = Team),
                        box.padding = 1,
                        color = 'black') +
-      labs(title = paste(input$range, ' Season: Which CFB Teams Had the Best and Worst Point Differential?', sep = ''),
+      labs(title = paste(input$season, ' Season: Which CFB Teams Had the Best and Worst Point Differential?', sep = ''),
            subtitle = 'Teams by Average Points Scored and Points Allowed, and Percent of Games Won',
            color = 'Percent of Games Won',
            x = 'Points Scored per Game',
@@ -747,7 +764,6 @@ server <- shinyServer(function(input, output) {
     
     
   })
-  
-})
+}
 
-shinyApp(ui=ui, server=server)
+shinyApp(ui, server)
