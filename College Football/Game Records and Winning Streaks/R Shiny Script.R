@@ -605,7 +605,7 @@ server <- function(input, output, session){
     
     # return fbs teams that played that season
     fbs_teams <- distinct_bind %>%
-      filter(Season == input$range) %>%
+      filter(Season == input$season) %>%
       distinct(Conf, 
                Team)
     
@@ -707,7 +707,7 @@ server <- function(input, output, session){
   output$scoring <- DT::renderDataTable({
     
     fbs_teams <- distinct_bind %>%
-      filter(Season == input$range) %>%
+      filter(Season == input$season) %>%
       distinct(Conf, 
                Team)
     
@@ -716,7 +716,7 @@ server <- function(input, output, session){
                Team,
                Conf) %>%
       filter(!is.na(Team.Pts),
-             Season == input$range,
+             Season == input$season,
              Team %in% fbs_teams$Team) %>%
       mutate(Wins = ifelse(Team.Pts > Opp.Pts, 1, 0),
              Loses = ifelse(Team.Pts < Opp.Pts, 1, 0),
@@ -728,15 +728,23 @@ server <- function(input, output, session){
                 Total_Losses = sum(Loses),
                 Total_Ties = sum(Ties)) %>%
       ungroup() %>%
-      mutate(Total_Ties = ifelse(Total_Ties == 0, NA, Total_Ties),
+      mutate(
              Points_Per_Game = round(Points_For/Total_Games, 1),
              Points_Allowed_Per_Game = round(Points_Against/Total_Games, 1),
-             Diff = round(Points_Per_Game-Points_Allowed_Per_Game, 1)) %>%
+             Pct_Won = Total_Wins/(Total_Wins+Total_Losses+Total_Ties),
+             Total_Ties = ifelse(Total_Ties == 0, NA, Total_Ties),
+             Diff = round(Points_Per_Game-Points_Allowed_Per_Game, 1),
+             Avg_PG = mean(Points_Per_Game),
+             Avg_PGA = mean(Points_Allowed_Per_Game),
+             Team = ifelse(Total_Games == 1, paste(Team, '*', sep = ''), Team),
+             Pct_Group = cut(Pct_Won, c(0, 0.2, 0.4, 0.6, 0.8, 1), labels = c('0-20%', '20-40%', '40-60%', '60-80%', '80-100%'), include.lowest=TRUE)) %>%
       unite(Record, c('Total_Wins', 'Total_Losses', 'Total_Ties'), sep = '-', na.rm = TRUE) %>%
+      filter(Pct_Group %in% input$percent) %>%
       select(Season,
              Team,
              Conf,
              Total_Games,
+             Pct_Group,
              Record,
              Points_For,
              Points_Against,
@@ -751,6 +759,7 @@ server <- function(input, output, session){
                            'Team',
                            'Conference',
                            'Total Games',
+                           'Percent Won',
                            'Record',
                            'Points For',
                            'Points Against',
