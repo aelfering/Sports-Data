@@ -36,7 +36,7 @@ library(rsconnect)
 library(DT)
 library(stringi)
 
-setwd("~/GitHub/Sports-Data/College Football/Game Records and Winning Streaks")
+#setwd("~/GitHub/Sports-Data/College Football/Game Records and Winning Streaks")
 
 cfb_games <- read.csv('Games teams CFB.csv', fileEncoding="UTF-8-BOM")
 cfb_conferences <- read.csv('cfb conf.csv', fileEncoding="UTF-8-BOM")
@@ -247,9 +247,9 @@ server <- function(input, output, session){
                  by = c('Opponent' = 'Team', 'Season' = 'Season')) %>%
       group_by(Season,
                Team) %>%
-      summarise(Opponent_Wins = round(sum(Rolling.Wins)),
-                Opponent_Losses = round(sum(Rolling.Losses)),
-                Opponent_Ties = round(sum(Rolling.Ties))) %>%
+      summarise(Opponent_Wins = round(mean(Rolling.Wins)),
+                Opponent_Losses = round(mean(Rolling.Losses)),
+                Opponent_Ties = round(mean(Rolling.Ties))) %>%
       ungroup() %>%
       unite(Opponent_FBS_Record, c('Opponent_Wins', 'Opponent_Losses', 'Opponent_Ties'), sep = '-', na.rm = TRUE)
     
