@@ -123,7 +123,7 @@ ui <- fluidPage(
                 mainPanel(
                   print(paste('Code & Design by Alex Elfering | Data Source: College Football Reference | ', max_season_name, ' Season through Week ', max_week_name, '.', sep = '' )),
                   tabsetPanel(id="tabs1",
-                              tabPanel('Current Records',
+                              tabPanel('Current Team Records',
                                        value = 1,
                                        br(),
                                        DT::dataTableOutput('first')),
@@ -311,6 +311,8 @@ server <- function(input, output, session){
                              dom = 'Bfrtip',
                              scroller = TRUE,
                              scrollY = "500px",
+                             scrollX = TRUE,
+                             fixedColumns = TRUE,
                              buttons = c('copy', 'csv', 'excel')))
     
     
