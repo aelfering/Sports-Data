@@ -119,12 +119,24 @@ ui <- fluidPage(
                                                selected = c('0-20%', '20-40%', '40-60%', '60-80%', '80-100%'),
                                                multiple = TRUE)),
                   
+                  conditionalPanel(condition = "input.tabs1==3",
+                                   sliderInput("Tab3Range", 
+                                               "Select a Season:",
+                                               min = 1936, 
+                                               max = max(cfb_games$Season),
+                                               value = max(cfb_games$Season)),
+                                   selectInput('Tab3Conference',
+                                               'Select a Conference:',
+                                               unique(cfb_conferences$Conf),
+                                               selected = c('Big Ten', 'ACC', 'Big 12', 'SEC', 'PAC-12', 'AAC', 'MWC', 'Ind', 'Sun Belt'),
+                                               multiple = TRUE)),
+                  
                   width = 2),
                 mainPanel(
                   print(paste('Code & Design by Alex Elfering | Data Source: College Football Reference | ', max_season_name, ' Season through Week ', max_week_name, '.', sep = '' )),
                   tabsetPanel(id="tabs1",
                               tabPanel('Current Team Records',
-                                       value = 1,
+                                       value = 3,
                                        br(),
                                        DT::dataTableOutput('first')),
                               tabPanel("Winning Streaks", 
@@ -163,7 +175,7 @@ server <- function(input, output, session){
   output$first <- DT::renderDataTable({
     
     fbs_teams <- distinct_bind %>%
-      filter(Season == input$range) %>%
+      filter(Season == input$Tab3Range) %>%
       distinct(Conf, 
                Team)
     
@@ -195,7 +207,7 @@ server <- function(input, output, session){
     
     # return the latest records of each team in the latest season 
     latest_season_records <- running_games %>%
-      filter(Season == input$range) %>%
+      filter(Season == input$Tab3Range) %>%
       mutate(Result = ifelse(Team.Pts > Opp.Pts, 'W', 'L'),
              Latest_Game = paste(Result, ' ', Team.Pts, '-', Opp.Pts, ' vs ', Opponent, sep = '')) %>%
       group_by(Team) %>%
@@ -213,7 +225,7 @@ server <- function(input, output, session){
       unite(Record, c('Rolling.Wins', 'Rolling.Losses', 'Rolling.Ties'), sep = '-', na.rm = TRUE)
     
     current_team_wins_losses <- running_games %>%
-      filter(Season == input$range) %>%
+      filter(Season == input$Tab3Range) %>%
       mutate(Result = ifelse(Team.Pts > Opp.Pts, 'W', 'L'),
              Latest_Game = paste(Result, ' ', Team.Pts, '-', Opp.Pts, ' vs ', Opponent, sep = '')) %>%
       group_by(Team) %>%
@@ -226,7 +238,7 @@ server <- function(input, output, session){
              Rolling.Total.Games)
     
     win_strength <- running_games %>%
-      filter(Season == input$range) %>%
+      filter(Season == input$Tab3Range) %>%
       filter(Team.Pts > Opp.Pts) %>%
       select(Season,
              Team,
@@ -244,7 +256,7 @@ server <- function(input, output, session){
     # what is each team's next game?
     next_game <- distinct_bind %>%
       filter(is.na(Team.Pts),
-             Season == input$range) %>%
+             Season == input$Tab3Range) %>%
       group_by(Team) %>%
       slice(which.min(Wk)) %>%
       ungroup() %>%
@@ -258,7 +270,7 @@ server <- function(input, output, session){
     
     # what is every fbs team's record of all time?
     all_records <- running_games %>%
-      filter(Season < input$range) %>%
+      filter(Season < input$Tab3Range) %>%
       select(Season,
              Team, 
              Rolling.Wins,
@@ -279,7 +291,8 @@ server <- function(input, output, session){
       left_join(next_game, by = c('Team' = 'Team')) %>%
       left_join(win_strength) %>%
       inner_join(fbs_teams) %>%
-      filter(Team %in% unique(fbs_teams$Team)) %>%
+      filter(Team %in% unique(fbs_teams$Team),
+             Conf %in% input$Tab3Conference) %>%
       mutate(Next_Game = ifelse(is.na(Next_Game), 'Season Finished', Next_Game),
              Team = ifelse(is.na(Last_Season), paste(Team, '*', sep = ''), Team)) %>%
       select(Season,
