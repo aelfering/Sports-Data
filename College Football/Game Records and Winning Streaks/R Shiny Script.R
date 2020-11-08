@@ -107,19 +107,19 @@ ui <- fluidPage(
                                    print(" "),
                                    sliderInput("range", "Select a Season:",
                                                min = 1936, 
-                                               max = max(cfb_games$Season),
-                                               value = max(cfb_games$Season))),
+                                               max = max(distinct_bind$Season),
+                                               value = max(distinct_bind$Season))),
                   
                   conditionalPanel(condition = "input.tabs1==2",
                                    h4("Average points scored and allowed and the plus-minus score for all FBS teams.\n"),
                                    print(" "),
                                    sliderInput("season", "Select a Season:",
                                                min = 1936, 
-                                               max = max(cfb_games$Season),
-                                               value = max(cfb_games$Season)),
+                                               max = max(distinct_bind$Season),
+                                               value = max(distinct_bind$Season)),
                                    selectInput('Tab2Conference',
                                                'Select a Conference:',
-                                               unique(cfb_conferences$Conf),
+                                               unique(distinct_bind$Conf),
                                                selected = c('Big Ten', 'ACC', 'Big 12', 'SEC', 'PAC-12', 'AAC', 'MWC', 'Ind', 'Sun Belt'),
                                                multiple = TRUE),
                                    selectInput("percent",
@@ -134,8 +134,8 @@ ui <- fluidPage(
                                    sliderInput("Tab3Range", 
                                                "Select a Season:",
                                                min = 1936, 
-                                               max = max(cfb_games$Season),
-                                               value = max(cfb_games$Season)),
+                                               max = max(distinct_bind$Season),
+                                               value = max(distinct_bind$Season)),
                                    selectInput('Tab3Conference',
                                                'Select a Conference:',
                                                unique(cfb_conferences$Conf),
@@ -147,8 +147,13 @@ ui <- fluidPage(
                                    print(" "),
                                    selectInput('Tab4Team',
                                                'Select a Team:',
-                                               unique(cfb_conferences$Team),
-                                               selected = 'Iowa')),
+                                               unique(distinct_bind$Team),
+                                               selected = 'Iowa'),
+                                   sliderInput("Tab4Range", 
+                                               "Select a Season:",
+                                               min = 1900, 
+                                               max = max(distinct_bind$Season),
+                                               value = max(distinct_bind$Season))),
                   
                   width = 2),
                 mainPanel(
@@ -161,7 +166,20 @@ ui <- fluidPage(
                               tabPanel('Select a Team',
                                        value = 4,
                                        br(),
-                                       plotOutput("TeamPlusMinus", width = "100%")),
+                                       plotOutput("TeamPlusMinus", width = "100%"),
+                                       br(),
+                                       br(),
+                                       br(),
+                                       br(),
+                                       br(),
+                                       br(),
+                                       br(),
+                                       br(),
+                                       br(),
+                                       br(),
+                                       br(),
+                                       br(),
+                                       plotOutput("TeamScatter", width = "100%")),
                               tabPanel("Winning Streaks", 
                                        value = 1,
                                        br(),
@@ -537,6 +555,22 @@ server <- function(input, output, session){
   
   # Visualization of team point differential
   output$TeamPlusMinus <- renderPlot({
+    
+    incomplete_seasons <- distinct_bind %>%
+      filter(Team == input$Tab4Team,
+             is.na(Team.Pts)) %>%
+      distinct(Season)
+    
+    # highlight variables
+    
+    season_var <- input$Tab4Range
+    years_back <- 10
+    
+    end_season_var <- season_var-years_back
+    
+    begin_season <- season_var + 0.5
+    end_season <- end_season_var-0.5
+    
     plus_minus <- distinct_bind %>%
       filter(Team == input$Tab4Team,
              !is.na(Team.Pts)) %>%
@@ -584,9 +618,69 @@ server <- function(input, output, session){
                                     'Negative' = NA)) +
       geom_hline(yintercept = 0) +
       labs(title = paste(team_variable, ' Football Plus-Minus Scores by Season', sep = ''),
-           subtitle = 'Averaged for Total Games Played',
            y = 'Plus-Minus Average',
            x = 'Season') +
+      theme(plot.title = element_text(face = 'bold', size = 18, family = 'Arial'),
+            legend.position = 'none',
+            legend.background=element_blank(),
+            legend.key=element_blank(),
+            legend.text = element_text(size = 12, family = 'Arial'),
+            legend.title = element_text(size = 12, family = 'Arial'),
+            plot.subtitle = element_text(size = 15, family = 'Arial'),
+            plot.caption = element_text(size = 12, family = 'Arial'),
+            axis.title = element_text(size = 12, family = 'Arial'),
+            axis.text = element_text(size = 12, family = 'Arial'),
+            strip.text = ggplot2::element_text(size = 12, hjust = 0, face = 'bold', color = 'black', family = 'Arial'),
+            strip.background = element_rect(fill = NA),
+            panel.background = ggplot2::element_blank(),
+            axis.line = element_line(colour = "#222222", linetype = "solid"),
+            panel.grid.major.y = element_line(colour = "#c1c1c1", linetype = "dashed"),
+            panel.grid.major.x = element_blank()) 
+    
+  }, height = 600)
+  
+  # Visualization of team scatter plot
+  output$TeamScatter <- renderPlot({
+    
+    incomplete_seasons <- distinct_bind %>%
+      filter(Team == input$Tab4Team,
+             is.na(Team.Pts)) %>%
+      distinct(Season)
+    
+    # highlight variables
+    
+    season_var <- input$Tab4Range
+    years_back <- 10
+    
+    end_season_var <- season_var-years_back
+    
+    begin_season <- season_var + 0.5
+    end_season <- end_season_var-0.5
+    
+    distinct_bind %>%
+      filter(Team == input$Tab4Team,
+             !is.na(Team.Pts)) %>%
+      arrange(Season,
+              Wk) %>%
+      mutate(Margin = Team.Pts-Opp.Pts) %>%
+      group_by(Season) %>%
+      summarise(Team.Pts = sum(Team.Pts),
+                Opp.Pts = sum(Opp.Pts),
+                Margin = sum(Margin),
+                Games = n_distinct(Date)) %>%
+      ungroup() %>%
+      mutate(Points_Game = Team.Pts/Games,
+             Points_Allowed = Opp.Pts/Games) %>%
+      filter(Season >= end_season,
+             Season <= begin_season) %>%
+      ggplot(aes(x = Points_Game,
+                 y = Points_Allowed)) +
+      geom_point() +
+      geom_segment(aes(
+        xend=c(tail(Points_Game, n=-1), NA), 
+        yend=c(tail(Points_Allowed, n=-1), NA))) +
+      geom_label_repel(aes(label = Season)) +
+      labs(title = 'Average Points Allowed and Scored Over Time') +
       theme(plot.title = element_text(face = 'bold', size = 18, family = 'Arial'),
             legend.position = 'none',
             legend.background=element_blank(),
