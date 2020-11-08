@@ -1,7 +1,7 @@
 # This script identifies when the last time a team finished with a particular record, as well as winning streaks that are snapped in the latest season
 # Script by Alex Elfering
 
-# Last Updated: 31 October 2020
+# Last Updated: 7 November 2020
 
 # Load packages
 list.of.packages <- c("ggplot2", 
@@ -123,7 +123,7 @@ ui <- fluidPage(
                 mainPanel(
                   print(paste('Code & Design by Alex Elfering | Data Source: College Football Reference | ', max_season_name, ' Season through Week ', max_week_name, '.', sep = '' )),
                   tabsetPanel(id="tabs1",
-                              tabPanel("Historic Season Records",
+                              tabPanel("Current Team Records",
                                        value = 1,
                                        br(),
                                        print('Teams Holding Records for the First Time'),
@@ -144,10 +144,6 @@ ui <- fluidPage(
                                        br(),
                                        print('Winning Streaks that Ended This Season'),
                                        DT::dataTableOutput('streaks')),
-                              tabPanel("Trending Wins and Losses", 
-                                       value= 1,
-                                       br(),
-                                       plotOutput("PlotWins", width = "100%")),
                               tabPanel("Point Differential",  
                                        value = 2,
                                        br(),
@@ -170,7 +166,7 @@ ui <- fluidPage(
   )) 
 
 server <- function(input, output, session){
-  # When was the last time that a team held a specific record?
+  # Teams holding a record for the first time in team history
   output$first <- DT::renderDataTable({
     
     fbs_teams <- distinct_bind %>%
@@ -293,7 +289,7 @@ server <- function(input, output, session){
     
   })
   
-  # When was the last time that a team held a specific record?
+  # Other Team Historic Records
   output$records <- DT::renderDataTable({
     
     fbs_teams <- distinct_bind %>%
