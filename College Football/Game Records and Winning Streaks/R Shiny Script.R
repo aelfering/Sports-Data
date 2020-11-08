@@ -123,17 +123,10 @@ ui <- fluidPage(
                 mainPanel(
                   print(paste('Code & Design by Alex Elfering | Data Source: College Football Reference | ', max_season_name, ' Season through Week ', max_week_name, '.', sep = '' )),
                   tabsetPanel(id="tabs1",
-                              tabPanel("Current Team Records",
+                              tabPanel('Current Records',
                                        value = 1,
                                        br(),
-                                       print('Teams Holding Records for the First Time'),
-                                       br(),
-                                       DT::dataTableOutput('first'),
-                                       br(),
-                                       br(),
-                                       br(),
-                                       print('Teams with Historic Records'),
-                                       DT::dataTableOutput('records')),
+                                       DT::dataTableOutput('first')),
                               tabPanel("Winning Streaks", 
                                        value = 1,
                                        br(),
@@ -188,7 +181,8 @@ server <- function(input, output, session){
                Team) %>%
       mutate(Rolling.Wins = cumsum(Wins),
              Rolling.Losses = cumsum(Loses),
-             Rolling.Ties = cumsum(Ties)) %>%
+             Rolling.Ties = cumsum(Ties),
+             Rolling.Total.Games = Rolling.Wins + Rolling.Losses + Rolling.Ties) %>%
       ungroup() %>%
       group_by(Team) %>%
       # cauclating winning and losing streaks ongoing 
@@ -211,133 +205,41 @@ server <- function(input, output, session){
              Streak.Status,
              Latest_Game,
              Rolling.Wins,
-             Rolling.Losses) %>%
-      arrange(desc(Rolling.Wins), 
-              Rolling.Losses) %>%
-      unite(Record, c('Rolling.Wins', 'Rolling.Losses'), sep = '-', na.rm = TRUE)
-    
-    # what is each team's next game?
-    next_game <- distinct_bind %>%
-      filter(is.na(Team.Pts),
-             Season == input$range) %>%
-      group_by(Team) %>%
-      slice(which.min(Wk)) %>%
-      ungroup() %>%
-      left_join(latest_season_records, by = c('Season' = 'Season', 'Opponent' = 'Team')) %>%
-      mutate(Record = ifelse(!Opponent %in% fbs_teams$Team, '*', Record),
-             Record = ifelse(is.na(Record), ' (0-0)', paste(' (', Record, ')', sep = '')),
-             Record = ifelse(grepl('\\*', Record), gsub("[()]", "", Record),  Record)) %>%
-      mutate(Next_Game = paste('vs ', Opponent, Record, sep = '')) %>%
-      select(Team, 
-             Next_Game)
-    
-    # what is every fbs team's record of all time?
-    all_records <- running_games %>%
-      filter(Season < input$range) %>%
-      select(Season,
-             Team, 
-             Rolling.Wins,
              Rolling.Losses,
              Rolling.Ties) %>%
-      arrange(desc(Rolling.Wins), 
-              Rolling.Losses) %>%
-      unite(Record, c('Rolling.Wins', 'Rolling.Losses'), sep = '-', na.rm = TRUE) %>%
-      group_by(Team,
-               Record) %>%
-      summarise(Last_Season = max(Season),
-                Seasons = n_distinct(Season))
+      arrange(desc(Rolling.Wins),
+              Rolling.Losses,
+              Rolling.Ties) %>%
+      unite(Record, c('Rolling.Wins', 'Rolling.Losses', 'Rolling.Ties'), sep = '-', na.rm = TRUE)
     
-    # do any team records break team history?
-    # if a team goes 4-0 for the first time ever, they will show up here
-    team_record_break <- latest_season_records %>%
-      left_join(all_records) %>%
-      mutate(Season_Gap = Season-Last_Season) %>%
-      left_join(next_game, by = c('Team' = 'Team')) %>%
-      filter(is.na(Last_Season)) %>%
-      mutate(Last_Season = 'First Time') %>%
-      inner_join(fbs_teams, by = c('Team' = 'Team')) %>%
+    current_team_wins_losses <- running_games %>%
+      filter(Season == input$range) %>%
+      mutate(Result = ifelse(Team.Pts > Opp.Pts, 'W', 'L'),
+             Latest_Game = paste(Result, ' ', Team.Pts, '-', Opp.Pts, ' vs ', Opponent, sep = '')) %>%
+      group_by(Team) %>%
+      slice(which.max(Wk)) %>%
+      select(Team, 
+             Season,
+             Rolling.Wins,
+             Rolling.Losses,
+             Rolling.Ties,
+             Rolling.Total.Games)
+    
+    win_strength <- running_games %>%
+      filter(Season == input$range) %>%
+      filter(Team.Pts > Opp.Pts) %>%
       select(Season,
              Team,
-             Conf,
-             Record,
-             Last_Season,
-             Streak.Status,
-             Latest_Game,
-             Next_Game)
-    
-    datatable(team_record_break,
-              extensions = 'Buttons', 
-              colnames = c('Season',
-                           'Team',
-                           'Conference',
-                           'Record',
-                           'First Time Since',
-                           'Streak',
-                           'Latest Opponent',
-                           'Next Opponent'),
-              fillContainer = TRUE,
-              caption = htmltools::tags$caption(
-                style = 'caption-side: bottom; text-align: center;',
-                htmltools::em('* Indicates an FCS Team')),
-              options = list(paging = FALSE,
-                             dom = 'Bfrtip',
-                             scroller = TRUE,
-                             scrollY = "500px",
-                             buttons = c('copy', 'csv', 'excel')))
-    
-    
-    
-  })
-  
-  # Other Team Historic Records
-  output$records <- DT::renderDataTable({
-    
-    fbs_teams <- distinct_bind %>%
-      filter(Season == input$range) %>%
-      distinct(Conf, 
-               Team)
-    
-    # calculate the running games won and lost by team per season
-    running_games <- distinct_bind %>%
-      # played teams
-      filter(!is.na(Team.Pts)) %>%
-      arrange(Season,
-              Wk) %>%
-      mutate(Wins = ifelse(Team.Pts > Opp.Pts, 1, 0),
-             Ties = ifelse(Team.Pts == Opp.Pts, 1, 0),
-             Loses = ifelse(Team.Pts < Opp.Pts, 1, 0)) %>%
-      # cumulative sum of games won and lost
+             Opponent) %>%
+      inner_join(current_team_wins_losses,
+                 by = c('Opponent' = 'Team', 'Season' = 'Season')) %>%
       group_by(Season,
                Team) %>%
-      mutate(Rolling.Wins = cumsum(Wins),
-             Rolling.Losses = cumsum(Loses),
-             Rolling.Ties = cumsum(Ties)) %>%
+      summarise(Opponent_Wins = round(sum(Rolling.Wins)),
+                Opponent_Losses = round(sum(Rolling.Losses)),
+                Opponent_Ties = round(sum(Rolling.Ties))) %>%
       ungroup() %>%
-      group_by(Team) %>%
-      # cauclating winning and losing streaks ongoing 
-      mutate(Win.Streak = ave(Wins, cumsum(Wins==0), FUN = seq_along) - 1,
-             Lose.Streak = ave(Loses, cumsum(Loses==0), FUN = seq_along) - 1,
-             Streak.Status = ifelse(Win.Streak > 0, 
-                                    paste('W', Win.Streak, sep = ''), 
-                                    paste('L', Lose.Streak, sep = ''))) %>%
-      ungroup()
-    
-    # return the latest records of each team in the latest season 
-    latest_season_records <- running_games %>%
-      filter(Season == input$range) %>%
-      mutate(Result = ifelse(Team.Pts > Opp.Pts, 'W', 'L'),
-             Latest_Game = paste(Result, ' ', Team.Pts, '-', Opp.Pts, ' vs ', Opponent, sep = '')) %>%
-      group_by(Team) %>%
-      slice(which.max(Wk)) %>%
-      select(Team, 
-             Season,
-             Streak.Status,
-             Latest_Game,
-             Rolling.Wins,
-             Rolling.Losses) %>%
-      arrange(desc(Rolling.Wins), 
-              Rolling.Losses) %>%
-      unite(Record, c('Rolling.Wins', 'Rolling.Losses'), sep = '-', na.rm = TRUE)
+      unite(Opponent_FBS_Record, c('Opponent_Wins', 'Opponent_Losses', 'Opponent_Ties'), sep = '-', na.rm = TRUE)
     
     # what is each team's next game?
     next_game <- distinct_bind %>%
@@ -347,7 +249,7 @@ server <- function(input, output, session){
       slice(which.min(Wk)) %>%
       ungroup() %>%
       left_join(latest_season_records, by = c('Season' = 'Season', 'Opponent' = 'Team')) %>%
-      mutate(Record = ifelse(!Opponent %in% fbs_teams$Team, '*', Record),
+      mutate(Record = ifelse(!Opponent %in% fbs_teams$Team, '**', Record),
              Record = ifelse(is.na(Record), ' (0-0)', paste(' (', Record, ')', sep = '')),
              Record = ifelse(grepl('\\*', Record), gsub("[()]", "", Record),  Record)) %>%
       mutate(Next_Game = paste('vs ', Opponent, Record, sep = '')) %>%
@@ -364,7 +266,7 @@ server <- function(input, output, session){
              Rolling.Ties) %>%
       arrange(desc(Rolling.Wins), 
               Rolling.Losses) %>%
-      unite(Record, c('Rolling.Wins', 'Rolling.Losses'), sep = '-', na.rm = TRUE) %>%
+      unite(Record, c('Rolling.Wins', 'Rolling.Losses', 'Rolling.Ties'), sep = '-', na.rm = TRUE) %>%
       group_by(Team,
                Record) %>%
       summarise(Last_Season = max(Season),
@@ -374,19 +276,17 @@ server <- function(input, output, session){
     # if a team is 4-0 for the first time since 1960, they will show up here
     team_performance <- latest_season_records %>%
       left_join(all_records) %>%
-      mutate(Season_Gap = Season-Last_Season) %>%
       left_join(next_game, by = c('Team' = 'Team')) %>%
+      left_join(win_strength) %>%
       inner_join(fbs_teams) %>%
       filter(Team %in% unique(fbs_teams$Team)) %>%
-      arrange(desc(Season_Gap)) %>%
-      filter(!is.na(Last_Season),
-             Season_Gap >= 5) %>%
       mutate(Next_Game = ifelse(is.na(Next_Game), 'Season Finished', Next_Game),
-             Last_Season = as.character(Last_Season)) %>%
+             Team = ifelse(is.na(Last_Season), paste(Team, '*', sep = ''), Team)) %>%
       select(Season,
              Team,
              Conf,
              Record,
+             Opponent_FBS_Record,
              Last_Season,
              Streak.Status,
              Latest_Game,
@@ -398,14 +298,15 @@ server <- function(input, output, session){
                            'Team',
                            'Conference',
                            'Record',
-                           'First Time Since',
+                           'Strength of FBS Win',
+                           'Last Season',
                            'Streak',
-                           'Latest Opponent',
-                           'Next Opponent'),
+                           'Last Game',
+                           'Next Game'),
               fillContainer = TRUE,
               caption = htmltools::tags$caption(
                 style = 'caption-side: bottom; text-align: center;',
-                htmltools::em('* Indicates an FCS Team')),
+                htmltools::em('* Indicates Team Holding a Historic Record | ** Indicates an FCS Team')),
               options = list(paging = FALSE,
                              dom = 'Bfrtip',
                              scroller = TRUE,
