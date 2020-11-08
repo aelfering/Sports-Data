@@ -142,6 +142,14 @@ ui <- fluidPage(
                                                selected = c('Big Ten', 'ACC', 'Big 12', 'SEC', 'PAC-12', 'AAC', 'MWC', 'Ind', 'Sun Belt'),
                                                multiple = TRUE)),
                   
+                  conditionalPanel(condition = "input.tabs1==4",
+                                   h4("team profile"),
+                                   print(" "),
+                                   selectInput('Tab4Team',
+                                               'Select a Team:',
+                                               unique(cfb_conferences$Team),
+                                               selected = 'Iowa')),
+                  
                   width = 2),
                 mainPanel(
                   print(paste('Code & Design by Alex Elfering | Data Source: College Football Reference | ', max_season_name, ' Season through Week ', max_week_name, '.', sep = '' )),
@@ -150,6 +158,10 @@ ui <- fluidPage(
                                        value = 3,
                                        br(),
                                        DT::dataTableOutput('first')),
+                              tabPanel('Select a Team',
+                                       value = 4,
+                                       br(),
+                                       plotOutput("TeamPlusMinus", width = "100%")),
                               tabPanel("Winning Streaks", 
                                        value = 1,
                                        br(),
@@ -522,6 +534,77 @@ server <- function(input, output, session){
                 htmltools::em('Winning Streaks have at least three consecutive wins')))
     
   })
+  
+  # Visualization of team point differential
+  output$TeamPlusMinus <- renderPlot({
+    plus_minus <- distinct_bind %>%
+      filter(Team == input$Tab4Team,
+             !is.na(Team.Pts)) %>%
+      arrange(Season,
+              Wk) %>%
+      mutate(Margin = Team.Pts-Opp.Pts) %>%
+      group_by(Season) %>%
+      summarise(Team.Pts = sum(Team.Pts),
+                Opp.Pts = sum(Opp.Pts),
+                Plus_Minus = sum(Margin),
+                Games = n_distinct(Date)) %>%
+      ungroup() %>%
+      mutate(TBA_Season = ifelse(Season == incomplete_seasons$Season & Plus_Minus < 0, 'Negative TBA', NA),
+             TBA_Season = ifelse(Season == incomplete_seasons$Season & Plus_Minus > 0, 'Positive TBA', TBA_Season),
+             TBA_Season = ifelse(Season != incomplete_seasons$Season & Plus_Minus > 0, 'Positive', TBA_Season),
+             TBA_Season = ifelse(Season != incomplete_seasons$Season & Plus_Minus < 0, 'Negative', TBA_Season),
+             Plus_Minus_Avg = Plus_Minus/Games)
+    
+    
+    ggplot(plus_minus,
+           aes(x = Season,
+               y = Plus_Minus)) +
+      geom_rect(aes(xmin=begin_season, 
+                    xmax=end_season, 
+                    ymin=-Inf, 
+                    ymax=Inf),
+                alpha = 0.05,
+                fill = '#d9d9d9') +
+      geom_bar(stat = 'identity',
+               position = 'identity',
+               aes(fill = TBA_Season,
+                   color = TBA_Season)) +
+      geom_text(data = subset(plus_minus, TBA_Season %in% c('Negative TBA', 'Positive TBA')),
+                mapping = aes(x = Season,
+                              y = Plus_Minus),
+                label = 'Season\nOngoing',
+                hjust = -0.15) +
+      scale_fill_manual(values = c('Negative TBA' = '#fdd49e', 
+                                   'Positive TBA' = '#a6bddb',
+                                   'Positive' = '#3690c0',
+                                   'Negative' = '#ef6548')) +
+      scale_color_manual(values = c('Negative TBA' = 'black', 
+                                    'Positive TBA' = 'black',
+                                    'Positive' = NA,
+                                    'Negative' = NA)) +
+      geom_hline(yintercept = 0) +
+      labs(title = paste(team_variable, ' Football Plus-Minus Scores by Season', sep = ''),
+           subtitle = 'Averaged for Total Games Played',
+           y = 'Plus-Minus Average',
+           x = 'Season') +
+      theme(plot.title = element_text(face = 'bold', size = 18, family = 'Arial'),
+            legend.position = 'none',
+            legend.background=element_blank(),
+            legend.key=element_blank(),
+            legend.text = element_text(size = 12, family = 'Arial'),
+            legend.title = element_text(size = 12, family = 'Arial'),
+            plot.subtitle = element_text(size = 15, family = 'Arial'),
+            plot.caption = element_text(size = 12, family = 'Arial'),
+            axis.title = element_text(size = 12, family = 'Arial'),
+            axis.text = element_text(size = 12, family = 'Arial'),
+            strip.text = ggplot2::element_text(size = 12, hjust = 0, face = 'bold', color = 'black', family = 'Arial'),
+            strip.background = element_rect(fill = NA),
+            panel.background = ggplot2::element_blank(),
+            axis.line = element_line(colour = "#222222", linetype = "solid"),
+            panel.grid.major.y = element_line(colour = "#c1c1c1", linetype = "dashed"),
+            panel.grid.major.x = element_blank()) 
+    
+  }, height = 600)
   
   # Visualization of point differential
   output$Plot <- renderPlot({

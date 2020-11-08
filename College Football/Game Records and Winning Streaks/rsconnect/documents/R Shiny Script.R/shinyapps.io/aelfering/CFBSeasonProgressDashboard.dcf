@@ -5,9 +5,9 @@ account: aelfering
 server: shinyapps.io
 hostUrl: https://api.shinyapps.io/v1
 appId: 3087414
-bundleId: 3834357
+bundleId: 3834410
 url: https://aelfering.shinyapps.io/CFBSeasonProgressDashboard/
-when: 1604851329.31986
+when: 1604852719.74012
 asMultiple: FALSE
 asStatic: FALSE
 ignoredFiles: Rplot.png|trending page idea.R
