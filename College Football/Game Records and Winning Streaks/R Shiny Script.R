@@ -103,16 +103,25 @@ ui <- fluidPage(
   sidebarLayout(position = "left",
                 sidebarPanel(
                   conditionalPanel(condition = "input.tabs1==1",
+                                   h4("Ongoing winning streaks and streaks that ended each season.\n"),
+                                   print(" "),
                                    sliderInput("range", "Select a Season:",
                                                min = 1936, 
                                                max = max(cfb_games$Season),
                                                value = max(cfb_games$Season))),
                   
                   conditionalPanel(condition = "input.tabs1==2",
+                                   h4("Average points scored and allowed and the plus-minus score for all FBS teams.\n"),
+                                   print(" "),
                                    sliderInput("season", "Select a Season:",
                                                min = 1936, 
                                                max = max(cfb_games$Season),
                                                value = max(cfb_games$Season)),
+                                   selectInput('Tab2Conference',
+                                               'Select a Conference:',
+                                               unique(cfb_conferences$Conf),
+                                               selected = c('Big Ten', 'ACC', 'Big 12', 'SEC', 'PAC-12', 'AAC', 'MWC', 'Ind', 'Sun Belt'),
+                                               multiple = TRUE),
                                    selectInput("percent",
                                                "Percent of Games Won:",
                                                c('0-20%', '20-40%', '40-60%', '60-80%', '80-100%'),
@@ -120,6 +129,8 @@ ui <- fluidPage(
                                                multiple = TRUE)),
                   
                   conditionalPanel(condition = "input.tabs1==3",
+                                   h4("The current standing among FBS teams. Includes average strength of win, and the last time a team held a specific record."),
+                                   print(" "),
                                    sliderInput("Tab3Range", 
                                                "Select a Season:",
                                                min = 1936, 
@@ -247,9 +258,9 @@ server <- function(input, output, session){
                  by = c('Opponent' = 'Team', 'Season' = 'Season')) %>%
       group_by(Season,
                Team) %>%
-      summarise(Opponent_Wins = round(mean(Rolling.Wins)),
-                Opponent_Losses = round(mean(Rolling.Losses)),
-                Opponent_Ties = round(mean(Rolling.Ties))) %>%
+      summarise(Opponent_Wins = round(median(Rolling.Wins)),
+                Opponent_Losses = round(median(Rolling.Losses)),
+                Opponent_Ties = round(median(Rolling.Ties))) %>%
       ungroup() %>%
       unite(Opponent_FBS_Record, c('Opponent_Wins', 'Opponent_Losses', 'Opponent_Ties'), sep = '-', na.rm = TRUE)
     
@@ -524,7 +535,8 @@ server <- function(input, output, session){
     # calculate points scored and allowed, the average points scored and allowed, and the point differential
     mark1 <- distinct_bind %>%
       group_by(Season, 
-               Team) %>%
+               Team,
+               Conf) %>%
       filter(!is.na(Team.Pts),
              Season == input$season,
              Team %in% fbs_teams$Team) %>%
@@ -546,7 +558,8 @@ server <- function(input, output, session){
              Avg_PGA = mean(Points_Allowed_Per_Game),
              Team = ifelse(Total_Games == 1, paste(Team, '*', sep = ''), Team),
              Pct_Group = cut(Pct_Won, c(0, 0.2, 0.4, 0.6, 0.8, 1), labels = c('0-20%', '20-40%', '40-60%', '60-80%', '80-100%'), include.lowest=TRUE)) %>%
-      filter(Pct_Group %in% input$percent) %>%
+      filter(Pct_Group %in% input$percent,
+             Conf %in% input$Tab2Conference) %>%
       mutate(Diff_Rank = dense_rank(desc(Diff)),
              Reverse_Rank = dense_rank(Diff))
     
@@ -653,7 +666,8 @@ server <- function(input, output, session){
              Team = ifelse(Total_Games == 1, paste(Team, '*', sep = ''), Team),
              Pct_Group = cut(Pct_Won, c(0, 0.2, 0.4, 0.6, 0.8, 1), labels = c('0-20%', '20-40%', '40-60%', '60-80%', '80-100%'), include.lowest=TRUE)) %>%
       unite(Record, c('Total_Wins', 'Total_Losses', 'Total_Ties'), sep = '-', na.rm = TRUE) %>%
-      filter(Pct_Group %in% input$percent) %>%
+      filter(Pct_Group %in% input$percent,
+             Conf %in% input$Tab2Conference) %>%
       select(Season,
              Team,
              Conf,
