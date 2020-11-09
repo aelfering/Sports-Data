@@ -36,7 +36,7 @@ library(rsconnect)
 library(DT)
 library(stringi)
 
-#setwd("~/GitHub/Sports-Data/College Football/Game Records and Winning Streaks")
+setwd("~/GitHub/Sports-Data/College Football/Game Records and Winning Streaks")
 
 cfb_games <- read.csv('Games teams CFB.csv', fileEncoding="UTF-8-BOM")
 cfb_conferences <- read.csv('cfb conf.csv', fileEncoding="UTF-8-BOM")
@@ -48,6 +48,10 @@ colnames(cfb_games) <- c('Season', 'Rk', 'Wk', 'Date', 'Day', 'Team', 'Team.Pts'
 rank_patterns <- paste('\\(', 1:25, '\\)', sep = '')
 
 cfb_games <- cfb_games %>%
+  mutate(Team_Rank = gsub("[^0-9.-]", "", Team),
+         Opponent_Rank = gsub("[^0-9.-]", "", Opponent),
+         Team_Rank = gsub('-', '', Team_Rank),
+         Opponent_Rank = gsub('-', '', Opponent_Rank)) %>%
   mutate(Team = stri_trim_both(str_remove_all(Team, paste(rank_patterns, collapse = "|"))),
          Opponent = stri_trim_both(str_remove_all(Opponent, paste(rank_patterns, collapse = "|"))))
 
@@ -73,14 +77,28 @@ opp_select <- cfb_games %>%
          Date,
          Day,
          Team = Opponent,
+         Team_Rank = Opponent_Rank,
          Team.Pts = Opp.Pts,
          Location,
          Opponent = Team,
+         Opponent_Rank = Team_Rank,
          Opp.Pts = Team.Pts,
          Notes)
-bind_all_games <- bind_rows(cfb_games, opp_select)
+bind_all_games <- bind_rows(cfb_games, 
+                            opp_select)
 
-distinct_bind <- dplyr::distinct(bind_all_games, Season, Wk, Date, Day, Team, Team.Pts, Location, Opponent, Opp.Pts) %>%
+distinct_bind <- dplyr::distinct(bind_all_games, 
+                                 Season, 
+                                 Wk, 
+                                 Date, 
+                                 Day, 
+                                 Team, 
+                                 Team_Rank, 
+                                 Team.Pts, 
+                                 Location, 
+                                 Opponent, 
+                                 Opponent_Rank, 
+                                 Opp.Pts) %>%
   inner_join(cfb_select)
 
 
@@ -288,9 +306,9 @@ server <- function(input, output, session){
                  by = c('Opponent' = 'Team', 'Season' = 'Season')) %>%
       group_by(Season,
                Team) %>%
-      summarise(Opponent_Wins = round(median(Rolling.Wins)),
-                Opponent_Losses = round(median(Rolling.Losses)),
-                Opponent_Ties = round(median(Rolling.Ties))) %>%
+      summarise(Opponent_Wins = round(sum(Rolling.Wins)),
+                Opponent_Losses = round(sum(Rolling.Losses)),
+                Opponent_Ties = round(sum(Rolling.Ties))) %>%
       ungroup() %>%
       unite(Opponent_FBS_Record, c('Opponent_Wins', 'Opponent_Losses', 'Opponent_Ties'), sep = '-', na.rm = TRUE)
     
