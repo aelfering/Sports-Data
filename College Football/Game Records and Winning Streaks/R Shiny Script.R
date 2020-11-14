@@ -84,6 +84,7 @@ opp_select <- cfb_games %>%
          Opponent_Rank = Team_Rank,
          Opp.Pts = Team.Pts,
          Notes)
+
 bind_all_games <- bind_rows(cfb_games, 
                             opp_select)
 
@@ -99,7 +100,10 @@ distinct_bind <- dplyr::distinct(bind_all_games,
                                  Opponent, 
                                  Opponent_Rank, 
                                  Opp.Pts) %>%
-  inner_join(cfb_select)
+  inner_join(cfb_select) %>%
+  # Iowa is the only team to hold dual-conference membership, and this groups Iowa into the Big Ten/Western Conference
+  mutate(Team_Conf = paste(Team, Conf, sep = '-')) %>%
+  filter(Team_Conf != 'Iowa-Big 8')
 
 
 #### R Shiny App  ####
