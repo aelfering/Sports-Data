@@ -431,7 +431,7 @@ server <- function(input, output, session){
                Opponent) %>%
       filter(Season == max(Season),
              Wins > 0,
-             Win.Streak >= 3,
+             Win.Streak > 1,
              Season >= end_season) %>%
       arrange(desc(Win.Streak)) %>%
       left_join(game_series) %>%
