@@ -142,7 +142,7 @@ ui <- fluidPage(
                                    selectInput('Tab2Conference',
                                                'Select a Conference:',
                                                unique(distinct_bind$Conf),
-                                               selected = c('Big Ten', 'ACC', 'Big 12', 'SEC', 'PAC-12', 'AAC', 'MWC', 'Ind', 'Sun Belt'),
+                                               selected = c('Big Ten', 'ACC', 'Big 12', 'SEC', 'PAC-12', 'AAC', 'MWC', 'Ind', 'Sun Belt', 'MAC', 'CUSA'),
                                                multiple = TRUE),
                                    selectInput("percent",
                                                "Percent of Games Won:",
@@ -161,7 +161,7 @@ ui <- fluidPage(
                                    selectInput('Tab3Conference',
                                                'Select a Conference:',
                                                unique(cfb_conferences$Conf),
-                                               selected = c('Big Ten', 'ACC', 'Big 12', 'SEC', 'PAC-12', 'AAC', 'MWC', 'Ind', 'Sun Belt'),
+                                               selected = c('Big Ten', 'ACC', 'Big 12', 'SEC', 'PAC-12', 'AAC', 'MWC', 'Ind', 'Sun Belt', 'MAC', 'CUSA'),
                                                multiple = TRUE)),
                   
                   conditionalPanel(condition = "input.tabs1==4",
