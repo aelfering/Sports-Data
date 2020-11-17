@@ -173,9 +173,14 @@ ui <- fluidPage(
                                                selected = 'Iowa'),
                                    sliderInput("Tab4Range", 
                                                "Select a Season:",
-                                               min = 1900, 
+                                               min = 1936, 
                                                max = max(distinct_bind$Season),
-                                               value = max(distinct_bind$Season))),
+                                               value = c(2000,2020)),
+                                   sliderInput("Tab4Ranks", 
+                                               "Annotate the Graph! Highlight the Best and Worst Games:",
+                                               min = 1, 
+                                               max = 5,
+                                               value = 3)),
                   
                   width = 2),
                 mainPanel(
@@ -211,7 +216,11 @@ ui <- fluidPage(
                                        br(),
                                        br(),
                                        br(),
-                                       DT::dataTableOutput('scoring'))
+                                       DT::dataTableOutput('scoring')),
+                              tabPanel("Team Profile",  
+                                       value = 4,
+                                       br(),
+                                       plotOutput("TeamTimeline", width = "100%"))
                   )
                 )
   )) 
@@ -883,6 +892,121 @@ server <- function(input, output, session){
     
     
   })
+  
+  # Visualization for Team Output
+  output$TeamTimeline <- renderPlot({
+    
+    margins <- distinct_bind %>%
+      filter(Team == input$Tab4Team,
+             !is.na(Team.Pts),
+             Season >= 1936) %>%
+      arrange(Season,
+              Wk) %>%
+      mutate(Margin = Team.Pts-Opp.Pts,
+             Winning_Margin = ifelse(Margin > 0, Margin, NA),
+             Losing_Margin = ifelse(Margin < 0, Margin, NA))
+    
+    winning_margins <- dplyr::filter(margins, !is.na(Winning_Margin))
+    losing_margins <- dplyr::filter(margins, is.na(Winning_Margin))
+    
+    winning_summary <- winning_margins %>%
+      filter(!is.na(Winning_Margin)) %>%
+      group_by(Season) %>%
+      summarise(Winning_Margin = median(Winning_Margin)) %>%
+      ungroup()
+    
+    losing_summary <- losing_margins %>%
+      filter(!is.na(Losing_Margin)) %>%
+      group_by(Season) %>%
+      summarise(Losing_Margin = median(Losing_Margin)) %>%
+      ungroup()
+    
+    
+    best_margin <- margins %>%
+      filter(Season >= min(input$Tab4Range),
+             Season <= max(input$Tab4Range)) %>%
+      filter(dense_rank(desc(Margin)) <= input$Tab4Ranks)
+    
+    worst_margin <- margins %>%
+      filter(Season >= min(input$Tab4Range),
+             Season <= max(input$Tab4Range)) %>%
+      filter(dense_rank((Margin)) <= input$Tab4Ranks)
+    
+    
+    ggplot(winning_summary,
+           aes(x = Season,
+               y = Winning_Margin)) +
+      geom_bar(stat = 'identity',
+               position = 'identity',
+               alpha = 0.2,
+               fill = 'steelblue') +
+      geom_bar(data = losing_summary,
+               mapping = aes(x = Season,
+                             y = Losing_Margin),
+               stat = 'identity',
+               position = 'identity',
+               alpha = 0.2,
+               fill = 'Orange') +
+      geom_point(data = margins,
+                 mapping = aes(x = Season,
+                               y = Margin,
+                               color = Margin > 0),
+                 alpha = 0.4) +
+      scale_color_manual(values = c('orange', 'steelblue')) +
+      geom_bar(data = subset(winning_summary, Season >= min(input$Tab4Range) & Season <= max(input$Tab4Range)),
+               mapping = aes(x = Season,
+                             y = Winning_Margin),
+               alpha = 0.5,
+               fill = 'steelblue',
+               stat = 'identity',
+               position = 'identity') +
+      geom_bar(data = subset(losing_summary, Season >= min(input$Tab4Range) & Season <= max(input$Tab4Range)),
+               mapping = aes(x = Season,
+                             y = Losing_Margin),
+               alpha = 0.5,
+               fill = 'orange',
+               stat = 'identity',
+               position = 'identity') +
+      geom_point(data = subset(margins, Season >= min(input$Tab4Range) & Season <= max(input$Tab4Range)),
+                 mapping = aes(x = Season,
+                               y = Margin,
+                               color = Margin > 0),
+                 size = 3) +
+      geom_label_repel(data = best_margin,
+                       mapping = aes(x = Season,
+                                     y = Margin,
+                                     label = paste(Season, Opponent, sep = '-')),
+                       arrow = arrow(length = unit(0.01, "npc")),
+                       box.padding = 1,
+                       color = 'black') +
+      geom_label_repel(data = worst_margin,
+                       mapping = aes(x = Season,
+                                     y = Margin,
+                                     label = paste(Season, Opponent, sep = '-')),
+                       arrow = arrow(length = unit(0.01, "npc")),
+                       box.padding = 1,
+                       color = 'black') +
+      geom_hline(yintercept = 0,
+                 size = 1) +
+      theme(plot.title = element_text(face = 'bold', size = 18, family = 'Arial'),
+            legend.position = 'none',
+            legend.background=element_blank(),
+            legend.key=element_blank(),
+            legend.text = element_text(size = 12, family = 'Arial'),
+            legend.title = element_text(size = 12, family = 'Arial'),
+            plot.subtitle = element_text(size = 15, family = 'Arial'),
+            plot.caption = element_text(size = 12, family = 'Arial'),
+            axis.title = element_text(size = 12, family = 'Arial'),
+            axis.text = element_text(size = 12, family = 'Arial'),
+            strip.text = ggplot2::element_text(size = 12, hjust = 0, face = 'bold', color = 'black', family = 'Arial'),
+            strip.background = element_rect(fill = NA),
+            panel.background = ggplot2::element_blank(),
+            axis.line = element_line(colour = "#222222", linetype = "solid"),
+            panel.grid.major.x = element_line(colour = "#c1c1c1", linetype = "dashed"),
+            panel.grid.major.y = element_blank()) 
+    
+  }, height = 600)
+  
 }
 
 shinyApp(ui, server)
