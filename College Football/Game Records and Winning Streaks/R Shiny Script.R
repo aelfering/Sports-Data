@@ -904,7 +904,19 @@ server <- function(input, output, session){
               Wk) %>%
       mutate(Margin = Team.Pts-Opp.Pts,
              Winning_Margin = ifelse(Margin > 0, Margin, NA),
-             Losing_Margin = ifelse(Margin < 0, Margin, NA))
+             Losing_Margin = ifelse(Margin < 0, Margin, NA),
+             Wins = ifelse(Team.Pts > Opp.Pts, 1, 0),
+             Loses = ifelse(Team.Pts < Opp.Pts, 1, 0),
+             Ties = ifelse(Team.Pts == Opp.Pts, 1, 0))
+    
+    record_summary <- margins %>%
+      filter(Season >= min(input$Tab4Range),
+             Season <= max(input$Tab4Range)) %>%
+      summarise(Wins = sum(Wins),
+                Losses = sum(Loses),
+                Ties = sum(Ties)) %>%
+      mutate(Ties = ifelse(Ties == 0, NA, Ties)) %>%
+      unite(Overall_Record, c('Wins', 'Losses', 'Ties'), sep = '-', na.rm = TRUE)
     
     winning_margins <- dplyr::filter(margins, !is.na(Winning_Margin))
     losing_margins <- dplyr::filter(margins, is.na(Winning_Margin))
@@ -988,6 +1000,7 @@ server <- function(input, output, session){
                        color = 'black') +
       geom_hline(yintercept = 0,
                  size = 1) +
+      labs(title = paste(min(input$Tab4Range), '-', max(input$Tab4Range), ':', input$Tab4Team, 'is ', record_summary$Overall_Record,sep = '')) +
       theme(plot.title = element_text(face = 'bold', size = 18, family = 'Arial'),
             legend.position = 'none',
             legend.background=element_blank(),
