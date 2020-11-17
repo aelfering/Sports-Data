@@ -914,7 +914,9 @@ server <- function(input, output, session){
              Season <= max(input$Tab4Range)) %>%
       summarise(Wins = sum(Wins),
                 Losses = sum(Loses),
-                Ties = sum(Ties)) %>%
+                Ties = sum(Ties),
+                min_Season = min(Season),
+                max_Season = max(Season)) %>%
       mutate(Ties = ifelse(Ties == 0, NA, Ties)) %>%
       unite(Overall_Record, c('Wins', 'Losses', 'Ties'), sep = '-', na.rm = TRUE)
     
@@ -924,13 +926,13 @@ server <- function(input, output, session){
     winning_summary <- winning_margins %>%
       filter(!is.na(Winning_Margin)) %>%
       group_by(Season) %>%
-      summarise(Winning_Margin = median(Winning_Margin)) %>%
+      summarise(Winning_Margin = mean(Winning_Margin)) %>%
       ungroup()
     
     losing_summary <- losing_margins %>%
       filter(!is.na(Losing_Margin)) %>%
       group_by(Season) %>%
-      summarise(Losing_Margin = median(Losing_Margin)) %>%
+      summarise(Losing_Margin = mean(Losing_Margin)) %>%
       ungroup()
     
     
@@ -1000,7 +1002,7 @@ server <- function(input, output, session){
                        color = 'black') +
       geom_hline(yintercept = 0,
                  size = 1) +
-      labs(title = paste(min(input$Tab4Range), '-', max(input$Tab4Range), ':', input$Tab4Team, 'is ', record_summary$Overall_Record,sep = '')) +
+      labs(title = paste(record_summary$min_Season, '-', record_summary$max_Season, ':', input$Tab4Team, ' is ', record_summary$Overall_Record,sep = '')) +
       theme(plot.title = element_text(face = 'bold', size = 18, family = 'Arial'),
             legend.position = 'none',
             legend.background=element_blank(),
