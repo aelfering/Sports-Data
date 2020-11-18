@@ -36,7 +36,7 @@ library(rsconnect)
 library(DT)
 library(stringi)
 
-#setwd("~/GitHub/Sports-Data/College Football/Game Records and Winning Streaks")
+setwd("~/GitHub/Sports-Data/College Football/Game Records and Winning Streaks")
 
 cfb_games <- read.csv('Games teams CFB.csv', fileEncoding="UTF-8-BOM")
 cfb_conferences <- read.csv('cfb conf.csv', fileEncoding="UTF-8-BOM")
@@ -1002,7 +1002,7 @@ server <- function(input, output, session){
                        color = 'black') +
       geom_hline(yintercept = 0,
                  size = 1) +
-      labs(title = paste(record_summary$min_Season, '-', record_summary$max_Season, ':', input$Tab4Team, ' is ', record_summary$Overall_Record,sep = '')) +
+      labs(title = paste(record_summary$min_Season, '-', record_summary$max_Season, ': ', input$Tab4Team, ' is ', record_summary$Overall_Record,sep = '')) +
       theme(plot.title = element_text(face = 'bold', size = 18, family = 'Arial'),
             legend.position = 'none',
             legend.background=element_blank(),
