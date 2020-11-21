@@ -141,7 +141,7 @@ ui <- fluidPage(
                                                value = max(distinct_bind$Season)),
                                    selectInput('Tab2Conference',
                                                'Select a Conference:',
-                                               unique(distinct_bind$Conf),
+                                               sort(unique(distinct_bind$Conf)),
                                                selected = c('Big Ten', 'ACC', 'Big 12', 'SEC', 'PAC-12', 'AAC', 'MWC', 'Ind', 'Sun Belt', 'MAC', 'CUSA'),
                                                multiple = TRUE),
                                    selectInput("percent",
@@ -160,7 +160,7 @@ ui <- fluidPage(
                                                value = max(distinct_bind$Season)),
                                    selectInput('Tab3Conference',
                                                'Select a Conference:',
-                                               unique(cfb_conferences$Conf),
+                                               sort(unique(cfb_conferences$Conf)),
                                                selected = c('Big Ten', 'ACC', 'Big 12', 'SEC', 'PAC-12', 'AAC', 'MWC', 'Ind', 'Sun Belt', 'MAC', 'CUSA'),
                                                multiple = TRUE)),
                   
@@ -169,7 +169,7 @@ ui <- fluidPage(
                                    print(" "),
                                    selectInput('Tab4Team',
                                                'Select a Team:',
-                                               unique(distinct_bind$Team),
+                                               sort(unique(distinct_bind$Team)),
                                                selected = 'Iowa'),
                                    sliderInput("Tab4Range", 
                                                "Select a Season:",
@@ -220,7 +220,18 @@ ui <- fluidPage(
                               tabPanel("Team Profile",  
                                        value = 4,
                                        br(),
-                                       plotOutput("TeamTimeline", width = "100%"))
+                                       plotOutput("TeamTimeline", width = "100%"),
+                                       br(),
+                                       br(),
+                                       br(),
+                                       br(),
+                                       br(),
+                                       br(),
+                                       br(),
+                                       br(),
+                                       br(),
+                                       br(),
+                                       plotOutput("TeamPercentChart", width = "100%"))
                   )
                 )
   )) 
@@ -803,17 +814,17 @@ server <- function(input, output, session){
            x = 'Points Scored per Game',
            y = 'Points Allowed per Game',
            caption = '*Team has only played one game') +
-      theme(plot.title = element_text(face = 'bold', size = 18, family = 'Arial'),
+      theme(plot.title = element_text(face = 'bold', size = 20, family = 'Arial'),
             legend.position = 'top',
             legend.background=element_blank(),
             legend.key=element_blank(),
-            legend.text = element_text(size = 12, family = 'Arial'),
-            legend.title = element_text(size = 12, family = 'Arial'),
+            legend.text = element_text(size = 14, family = 'Arial'),
+            legend.title = element_text(size = 14, family = 'Arial'),
             plot.subtitle = element_text(size = 15, family = 'Arial'),
-            plot.caption = element_text(size = 12, family = 'Arial'),
-            axis.title = element_text(size = 12, family = 'Arial'),
-            axis.text = element_text(size = 12, family = 'Arial'),
-            strip.text = ggplot2::element_text(size = 12, hjust = 0, face = 'bold', color = 'black', family = 'Arial'),
+            plot.caption = element_text(size = 14, family = 'Arial'),
+            axis.title = element_text(size = 14, family = 'Arial'),
+            axis.text = element_text(size = 14, family = 'Arial'),
+            strip.text = ggplot2::element_text(size = 14, hjust = 0, face = 'bold', color = 'black', family = 'Arial'),
             strip.background = element_rect(fill = NA),
             panel.background = ggplot2::element_blank(),
             axis.line = element_line(colour = "#222222", linetype = "solid"),
@@ -926,13 +937,13 @@ server <- function(input, output, session){
     winning_summary <- winning_margins %>%
       filter(!is.na(Winning_Margin)) %>%
       group_by(Season) %>%
-      summarise(Winning_Margin = mean(Winning_Margin)) %>%
+      summarise(Winning_Margin = median(Winning_Margin)) %>%
       ungroup()
     
     losing_summary <- losing_margins %>%
       filter(!is.na(Losing_Margin)) %>%
       group_by(Season) %>%
-      summarise(Losing_Margin = mean(Losing_Margin)) %>%
+      summarise(Losing_Margin = median(Losing_Margin)) %>%
       ungroup()
     
     
@@ -990,19 +1001,119 @@ server <- function(input, output, session){
                        mapping = aes(x = Season,
                                      y = Margin,
                                      label = paste(Season, Opponent, sep = '-')),
-                       arrow = arrow(length = unit(0.01, "npc")),
+                       arrow = arrow(length = unit(0.02, "npc")),
                        box.padding = 1,
+                       size = 5,
                        color = 'black') +
       geom_label_repel(data = worst_margin,
                        mapping = aes(x = Season,
                                      y = Margin,
                                      label = paste(Season, Opponent, sep = '-')),
-                       arrow = arrow(length = unit(0.01, "npc")),
+                       arrow = arrow(length = unit(0.02, "npc")),
                        box.padding = 1,
+                       size = 5,
                        color = 'black') +
       geom_hline(yintercept = 0,
                  size = 1) +
-      labs(title = paste(record_summary$min_Season, '-', record_summary$max_Season, ': ', input$Tab4Team, ' is ', record_summary$Overall_Record,sep = '')) +
+      labs(title = ,
+           x = '',
+           y = '') +
+      theme(plot.title = element_text(face = 'bold', size = 18, family = 'Arial'),
+            legend.position = 'none',
+            legend.background=element_blank(),
+            legend.key=element_blank(),
+            legend.text = element_text(size = 14, family = 'Arial'),
+            legend.title = element_text(size = 14, family = 'Arial'),
+            plot.subtitle = element_text(size = 15, family = 'Arial'),
+            plot.caption = element_text(size = 14, family = 'Arial'),
+            axis.title = element_text(size = 14, family = 'Arial'),
+            axis.text = element_text(size = 14, family = 'Arial'),
+            strip.text = ggplot2::element_text(size = 14, hjust = 0, face = 'bold', color = 'black', family = 'Arial'),
+            strip.background = element_rect(fill = NA),
+            panel.background = ggplot2::element_blank(),
+            axis.line = element_line(colour = "#222222", linetype = "solid"),
+            panel.grid.major.x = element_line(colour = "#c1c1c1", linetype = "dashed"),
+            panel.grid.major.y = element_blank()) 
+    
+  }, height = 600)
+  
+  # Visualization for Team Output
+  output$TeamPercentChart <- renderPlot({
+    
+    team_margin_groups <- distinct_bind %>%
+      filter(!is.na(Team.Pts)) %>%
+      arrange(Season,
+              Wk) %>%
+      mutate(Margin = Team.Pts-Opp.Pts,
+             Margin_ABS = abs(Margin)) %>%
+      select(Season, 
+             Wk,
+             Team,
+             Opponent,
+             Team.Pts,
+             Opp.Pts,
+             Margin,
+             Margin_ABS,
+             Conf) %>%
+      mutate(Wins = ifelse(Team.Pts > Opp.Pts, 1, 0),
+             Loses = ifelse(Team.Pts < Opp.Pts, 1, 0),
+             Ties = ifelse(Team.Pts == Opp.Pts, 1, 0)) %>%
+      filter(Season >= min(input$Tab4Range),
+             Season <= max(input$Tab4Range),
+             Team == input$Tab4Team) %>%
+      mutate(Margin.Group = ifelse(Margin_ABS < 7, '<1 Touchdown', NA),
+             Margin.Group = ifelse(Margin_ABS >= 7 & Margin_ABS < 14, '1 Touchdown', Margin.Group),
+             Margin.Group = ifelse(Margin_ABS >= 14, '+2 Touchdowns', Margin.Group)) %>%
+      group_by(Team,
+               #Season,
+               Margin.Group) %>%
+      summarise(Wins = sum(Wins),
+                Losses = sum(Loses),
+                Ties = sum(Ties)) %>%
+      ungroup() %>%
+      group_by(Team) %>%
+      mutate(Matches = Wins + Losses,
+             Total_Games = sum(Matches),
+             Pct_Won = Wins/Matches,
+             Pct_Total_Games = Matches/Total_Games) %>%
+      ungroup() %>%
+      unite(Record, c('Wins', 'Losses', 'Ties'), sep = '-', na.rm = TRUE)
+    
+    margin_pivot <- team_margin_groups %>%
+      select(Team,
+             Margin.Group,
+             Pct_Won,
+             Pct_Total_Games) %>%
+      group_by(Team,
+               Margin.Group) %>%
+      pivot_longer(cols = c('Pct_Won', 'Pct_Total_Games'),
+                   names_to = 'Variable',
+                   values_to = 'Values') %>%
+      ungroup() 
+    
+    ggplot(margin_pivot,
+           aes(x = Variable,
+               y = Values,
+               group = Margin.Group,
+               color = Margin.Group)) +
+      geom_line(size = 1) +
+      geom_point(size = 2) +
+      scale_y_continuous(labels = scales::percent) +
+      geom_text_repel(data = subset(margin_pivot, Variable == 'Pct_Won'),
+                      mapping = aes(x = Variable, 
+                                    y = Values,
+                                    label = paste0(round(Values, 3)*100, '%' )),
+                      arrow = arrow(length = unit(0.02, "npc")),
+                      size = 7,
+                      nudge_x = 0.2) +
+      geom_text_repel(data = subset(margin_pivot, Variable == 'Pct_Total_Games'),
+                      mapping = aes(x = Variable, 
+                                    y = Values,
+                                    label = Margin.Group),
+                      arrow = arrow(length = unit(0.02, "npc")),
+                      size = 7,
+                      nudge_x = -0.2) +
+      labs(title = 'Percent of Games Won by Margin') +
       theme(plot.title = element_text(face = 'bold', size = 18, family = 'Arial'),
             legend.position = 'none',
             legend.background=element_blank(),
@@ -1017,8 +1128,8 @@ server <- function(input, output, session){
             strip.background = element_rect(fill = NA),
             panel.background = ggplot2::element_blank(),
             axis.line = element_line(colour = "#222222", linetype = "solid"),
-            panel.grid.major.x = element_line(colour = "#c1c1c1", linetype = "dashed"),
-            panel.grid.major.y = element_blank()) 
+            panel.grid.major.y = element_line(colour = "#c1c1c1", linetype = "dashed"),
+            panel.grid.major.x = ggplot2::element_blank()) 
     
   }, height = 600)
   
