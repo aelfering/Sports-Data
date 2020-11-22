@@ -1,7 +1,7 @@
-# This script identifies when the last time a team finished with a particular record, as well as winning streaks that are snapped in the latest season
-# Script by Alex Elfering
+# College Football Season Progress Tracker
+# Script & Dashboard by Alex Elfering
 
-# Last Updated: 7 November 2020
+# Last Updated: 22 November 2020
 
 # Load packages
 list.of.packages <- c("ggplot2", 
@@ -36,7 +36,7 @@ library(rsconnect)
 library(DT)
 library(stringi)
 
-#setwd("~/GitHub/Sports-Data/College Football/Game Records and Winning Streaks")
+setwd("~/GitHub/Sports-Data/College Football/Game Records and Winning Streaks")
 
 cfb_games <- read.csv('Games teams CFB.csv', fileEncoding="UTF-8-BOM")
 cfb_conferences <- read.csv('cfb conf.csv', fileEncoding="UTF-8-BOM")
@@ -165,7 +165,7 @@ ui <- fluidPage(
                                                multiple = TRUE)),
                   
                   conditionalPanel(condition = "input.tabs1==4",
-                                   h4("team profile"),
+                                   h4("The median winning and losing margin by season among FBS teams."),
                                    print(" "),
                                    selectInput('Tab4Team',
                                                'Select a Team:',
@@ -285,8 +285,8 @@ server <- function(input, output, session){
              Rolling.Wins,
              Rolling.Losses,
              Rolling.Ties) %>%
-      arrange(desc(Rolling.Wins),
-              Rolling.Losses,
+      arrange(Rolling.Losses,
+              desc(Rolling.Wins),
               Rolling.Ties) %>%
       unite(Record, c('Rolling.Wins', 'Rolling.Losses', 'Rolling.Ties'), sep = '-', na.rm = TRUE)
     
@@ -342,8 +342,7 @@ server <- function(input, output, session){
              Rolling.Wins,
              Rolling.Losses,
              Rolling.Ties) %>%
-      arrange(desc(Rolling.Wins), 
-              Rolling.Losses) %>%
+      arrange(Rolling.Losses) %>%
       unite(Record, c('Rolling.Wins', 'Rolling.Losses', 'Rolling.Ties'), sep = '-', na.rm = TRUE) %>%
       group_by(Team,
                Record) %>%
@@ -906,7 +905,6 @@ server <- function(input, output, session){
   
   # Visualization for Team Output
   output$TeamTimeline <- renderPlot({
-    
     margins <- distinct_bind %>%
       filter(Team == input$Tab4Team,
              !is.na(Team.Pts),
@@ -921,8 +919,8 @@ server <- function(input, output, session){
              Ties = ifelse(Team.Pts == Opp.Pts, 1, 0))
     
     record_summary <- margins %>%
-      filter(Season >= 2004,
-             Season <= 2010) %>%
+      filter(Season >= min(input$Tab4Range),
+             Season <= max(input$Tab4Range)) %>%
       summarise(Wins = sum(Wins),
                 Losses = sum(Loses),
                 Ties = sum(Ties),
@@ -935,12 +933,13 @@ server <- function(input, output, session){
     losing_margins <- dplyr::filter(margins, is.na(Winning_Margin))
     
     winning_summary <- winning_margins %>%
+      filter(!is.na(Winning_Margin)) %>%
       group_by(Season) %>%
       summarise(Winning_Margin = median(Winning_Margin)) %>%
-      ungroup() %>%
-      complete(Season = seq.int(min(Season), max(Season), by = 1))
+      ungroup()
     
     losing_summary <- losing_margins %>%
+      filter(!is.na(Losing_Margin)) %>%
       group_by(Season) %>%
       summarise(Losing_Margin = median(Losing_Margin)) %>%
       ungroup()
@@ -1014,7 +1013,24 @@ server <- function(input, output, session){
                        color = 'black') +
       geom_hline(yintercept = 0,
                  size = 1) +
-      labs(title = ,
+      geom_label_repel(data = subset(losing_summary, Season == min(Season)),
+                       mapping = aes(x = Season,
+                                     y = Losing_Margin),
+                       box.padding = 2,
+                       size = 5,
+                       arrow = arrow(length = unit(0.02, "npc")),
+                       color = 'orange',
+                       label = 'Median Losing Margin') +
+      geom_label_repel(data = subset(winning_summary, Season == min(Season)),
+                       mapping = aes(x = Season,
+                                     y = Winning_Margin),
+                       box.padding = 2,
+                       size = 5,
+                       arrow = arrow(length = unit(0.02, "npc")),
+                       color = 'steelblue',
+                       label = 'Median Winning Margin') +
+      labs(title = paste('Median Winning and Losing Margins between ', min(input$Tab4Range), ' and ', max(input$Tab4Range), sep= ''),
+           subtitle = paste(input$Tab4Team, ' finished with a record of ', record_summary$Overall_Record, sep = ''),
            x = '',
            y = '') +
       theme(plot.title = element_text(face = 'bold', size = 18, family = 'Arial'),
