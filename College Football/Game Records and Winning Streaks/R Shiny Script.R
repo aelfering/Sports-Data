@@ -36,7 +36,7 @@ library(rsconnect)
 library(DT)
 library(stringi)
 
-setwd("~/GitHub/Sports-Data/College Football/Game Records and Winning Streaks")
+#setwd("~/GitHub/Sports-Data/College Football/Game Records and Winning Streaks")
 
 cfb_games <- read.csv('Games teams CFB.csv', fileEncoding="UTF-8-BOM")
 cfb_conferences <- read.csv('cfb conf.csv', fileEncoding="UTF-8-BOM")
@@ -231,7 +231,7 @@ ui <- fluidPage(
                                        br(),
                                        br(),
                                        br(),
-                                       plotOutput("TeamPercentChart", width = "100%"))
+                                       DT::dataTableOutput('TeamTimelineTable'))
                   )
                 )
   )) 
@@ -921,8 +921,8 @@ server <- function(input, output, session){
              Ties = ifelse(Team.Pts == Opp.Pts, 1, 0))
     
     record_summary <- margins %>%
-      filter(Season >= min(input$Tab4Range),
-             Season <= max(input$Tab4Range)) %>%
+      filter(Season >= 2004,
+             Season <= 2010) %>%
       summarise(Wins = sum(Wins),
                 Losses = sum(Loses),
                 Ties = sum(Ties),
@@ -935,13 +935,12 @@ server <- function(input, output, session){
     losing_margins <- dplyr::filter(margins, is.na(Winning_Margin))
     
     winning_summary <- winning_margins %>%
-      filter(!is.na(Winning_Margin)) %>%
       group_by(Season) %>%
       summarise(Winning_Margin = median(Winning_Margin)) %>%
-      ungroup()
+      ungroup() %>%
+      complete(Season = seq.int(min(Season), max(Season), by = 1))
     
     losing_summary <- losing_margins %>%
-      filter(!is.na(Losing_Margin)) %>%
       group_by(Season) %>%
       summarise(Losing_Margin = median(Losing_Margin)) %>%
       ungroup()
@@ -1037,102 +1036,111 @@ server <- function(input, output, session){
     
   }, height = 600)
   
-  # Visualization for Team Output
-  output$TeamPercentChart <- renderPlot({
+  # Table for point differential
+  output$TeamTimelineTable <- DT::renderDataTable({
     
-    team_margin_groups <- distinct_bind %>%
-      filter(!is.na(Team.Pts)) %>%
+    margins <- distinct_bind %>%
+      filter(Season >= min(input$Tab4Range),
+             Season <= max(input$Tab4Range),
+             Team == input$Tab4Team,
+             !is.na(Team.Pts)) %>%
       arrange(Season,
               Wk) %>%
       mutate(Margin = Team.Pts-Opp.Pts,
-             Margin_ABS = abs(Margin)) %>%
-      select(Season, 
-             Wk,
-             Team,
-             Opponent,
-             Team.Pts,
-             Opp.Pts,
-             Margin,
-             Margin_ABS,
-             Conf) %>%
-      mutate(Wins = ifelse(Team.Pts > Opp.Pts, 1, 0),
+             Winning_Margin = ifelse(Margin > 0, Margin, NA),
+             Losing_Margin = ifelse(Margin < 0, Margin, NA),
+             Wins = ifelse(Team.Pts > Opp.Pts, 1, 0),
              Loses = ifelse(Team.Pts < Opp.Pts, 1, 0),
-             Ties = ifelse(Team.Pts == Opp.Pts, 1, 0)) %>%
-      filter(Season >= min(input$Tab4Range),
-             Season <= max(input$Tab4Range),
-             Team == input$Tab4Team) %>%
-      mutate(Margin.Group = ifelse(Margin_ABS < 7, '<1 Touchdown', NA),
-             Margin.Group = ifelse(Margin_ABS >= 7 & Margin_ABS < 14, '1 Touchdown', Margin.Group),
-             Margin.Group = ifelse(Margin_ABS >= 14, '+2 Touchdowns', Margin.Group)) %>%
-      group_by(Team,
-               #Season,
-               Margin.Group) %>%
-      summarise(Wins = sum(Wins),
-                Losses = sum(Loses),
-                Ties = sum(Ties)) %>%
+             Ties = ifelse(Team.Pts == Opp.Pts, 1, 0))
+    
+    season_record <- margins %>%
+      select(Season,
+             Wins,
+             Loses,
+             Ties) %>%
+      group_by(Season) %>%
+      summarise_if(is.numeric, sum) %>%
       ungroup() %>%
-      group_by(Team) %>%
-      mutate(Matches = Wins + Losses,
-             Total_Games = sum(Matches),
-             Pct_Won = Wins/Matches,
-             Pct_Total_Games = Matches/Total_Games) %>%
+      mutate(Ties = ifelse(Ties == 0, NA, Ties)) %>%
+      unite(Record, c('Wins', 'Loses', 'Ties'), sep = '-', na.rm = TRUE)
+    
+    winning_margins <- margins %>%
+      filter(!is.na(Winning_Margin)) %>%
+      select(Season,
+             Winning_Margin) %>%
+      group_by(Season) %>%
+      summarise(Median_Margin = median(Winning_Margin),
+                Largest_Winning_Margin = max(Winning_Margin)) %>%
+      ungroup()
+    
+    losing_margns <- margins %>%
+      filter(!is.na(Losing_Margin)) %>%
+      select(Season,
+             Losing_Margin) %>%
+      group_by(Season) %>%
+      summarise(Median_Margin = median(Losing_Margin),
+                Largest_Losing_Margin = min(Losing_Margin)) %>%
+      ungroup()
+    
+    best_games <- margins %>%
+      filter(Margin > 0) %>%
+      group_by(Season) %>%
+      mutate(Margin_Rank = dense_rank(desc(Margin))) %>%
       ungroup() %>%
-      unite(Record, c('Wins', 'Losses', 'Ties'), sep = '-', na.rm = TRUE)
+      filter(Margin_Rank == 1) %>%
+      mutate(Biggest_Wins = paste(Opponent, ' (', Team.Pts, '-', Opp.Pts, ')', sep = '')) %>%
+      select(Season,
+             Biggest_Wins) %>%
+      group_by(Season) %>%
+      mutate(Rows = row_number()) %>%
+      spread(Rows, Biggest_Wins) %>%
+      unite(Biggest_Wins, -c('Season'), sep = ', ', na.rm = TRUE)
     
-    margin_pivot <- team_margin_groups %>%
-      select(Team,
-             Margin.Group,
-             Pct_Won,
-             Pct_Total_Games) %>%
-      group_by(Team,
-               Margin.Group) %>%
-      pivot_longer(cols = c('Pct_Won', 'Pct_Total_Games'),
-                   names_to = 'Variable',
-                   values_to = 'Values') %>%
-      ungroup() 
+    worst_games <- margins %>%
+      filter(Margin < 0) %>%
+      group_by(Season) %>%
+      mutate(Margin_Rank = dense_rank((Margin))) %>%
+      ungroup() %>%
+      filter(Margin_Rank == 1)  %>%
+      mutate(Biggest_Losses = paste(Opponent, ' (', Team.Pts, '-', Opp.Pts, ')', sep = '')) %>%
+      select(Season,
+             Biggest_Losses)  %>%
+      group_by(Season) %>%
+      mutate(Rows = row_number()) %>%
+      spread(Rows, Biggest_Losses) %>%
+      unite(Biggest_Losses, -c('Season'), sep = ', ', na.rm = TRUE)
     
-    ggplot(margin_pivot,
-           aes(x = Variable,
-               y = Values,
-               group = Margin.Group,
-               color = Margin.Group)) +
-      geom_line(size = 1) +
-      geom_point(size = 2) +
-      scale_y_continuous(labels = scales::percent) +
-      geom_text_repel(data = subset(margin_pivot, Variable == 'Pct_Won'),
-                      mapping = aes(x = Variable, 
-                                    y = Values,
-                                    label = paste0(round(Values, 3)*100, '%' )),
-                      arrow = arrow(length = unit(0.02, "npc")),
-                      size = 7,
-                      nudge_x = 0.2) +
-      geom_text_repel(data = subset(margin_pivot, Variable == 'Pct_Total_Games'),
-                      mapping = aes(x = Variable, 
-                                    y = Values,
-                                    label = Margin.Group),
-                      arrow = arrow(length = unit(0.02, "npc")),
-                      size = 7,
-                      nudge_x = -0.2) +
-      labs(title = 'Percent of Games Won by Margin') +
-      theme(plot.title = element_text(face = 'bold', size = 18, family = 'Arial'),
-            legend.position = 'none',
-            legend.background=element_blank(),
-            legend.key=element_blank(),
-            legend.text = element_text(size = 12, family = 'Arial'),
-            legend.title = element_text(size = 12, family = 'Arial'),
-            plot.subtitle = element_text(size = 15, family = 'Arial'),
-            plot.caption = element_text(size = 12, family = 'Arial'),
-            axis.title = element_text(size = 12, family = 'Arial'),
-            axis.text = element_text(size = 12, family = 'Arial'),
-            strip.text = ggplot2::element_text(size = 12, hjust = 0, face = 'bold', color = 'black', family = 'Arial'),
-            strip.background = element_rect(fill = NA),
-            panel.background = ggplot2::element_blank(),
-            axis.line = element_line(colour = "#222222", linetype = "solid"),
-            panel.grid.major.y = element_line(colour = "#c1c1c1", linetype = "dashed"),
-            panel.grid.major.x = ggplot2::element_blank()) 
+    final_tble_stats <- season_record %>%
+      full_join(winning_margins, by = c('Season' = 'Season')) %>%
+      full_join(losing_margns, by = c('Season' = 'Season')) %>%
+      full_join(best_games, by = c('Season' = 'Season')) %>%
+      full_join(worst_games, by = c('Season' = 'Season')) %>%
+      select(Season,
+             Record,
+             Median_Winning_Margin = Median_Margin.x,
+             Largest_Winning_Margin,
+             Biggest_Wins,
+             Median_Losing_Margin = Median_Margin.y,
+             Largest_Losing_Margin,
+             Biggest_Losses)
     
-  }, height = 600)
-  
+    datatable(final_tble_stats,
+              extensions = 'Buttons',
+              colnames = c('Season',
+                           'Record',
+                           'Median Winning Margin',
+                           'Largest Margin',
+                           'Biggest Wins',
+                           'Median Losing Margin',
+                           'Largest Margin',
+                           'Biggest Losses'),
+              options = list(paging = FALSE,
+                             dom = 'Bfrtip',
+                             buttons = c('copy', 'csv', 'excel')))
+    
+    
+    
+  })
 }
 
 shinyApp(ui, server)
