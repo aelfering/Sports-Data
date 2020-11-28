@@ -17,7 +17,8 @@ list.of.packages <- c("ggplot2",
                       'ggrepel',
                       'rsconnect',
                       'DT',
-                      'stringr')
+                      'stringr',
+                      'tidylog')
 new.packages <- list.of.packages[!(list.of.packages %in% installed.packages()[,"Package"])]
 if(length(new.packages)) install.packages(new.packages)
 
@@ -35,8 +36,9 @@ library(ggrepel)
 library(rsconnect)
 library(DT)
 library(stringi)
+library(tidylog)
 
-#setwd("~/GitHub/Sports-Data/College Football/Game Records and Winning Streaks")
+setwd("~/GitHub/Sports-Data/College Football/Game Records and Winning Streaks")
 
 cfb_games <- read.csv('Games teams CFB.csv', fileEncoding="UTF-8-BOM")
 cfb_conferences <- read.csv('cfb conf.csv', fileEncoding="UTF-8-BOM")
@@ -182,9 +184,23 @@ ui <- fluidPage(
                                                max = 5,
                                                value = 3)),
                   
+                  conditionalPanel(condition = "input.tabs1==5",
+                                   h4("Which FBS teams have performed better than their overall record suggests against their opponents?"),
+                                   print(" "),
+                                   sliderInput("Tab4Range", 
+                                               "Select a Season:",
+                                               min = 1936, 
+                                               max = max(distinct_bind$Season),
+                                               value = c(2000,2020)),
+                                   sliderInput("Tab4TimeVariable", 
+                                               "Total Recent Matchups",
+                                               min = 3, 
+                                               max = 10,
+                                               value = 8)),
+                  
                   width = 2),
                 mainPanel(
-                  print(paste('Code & Design by Alex Elfering | Data Source: College Football Reference | ', max_season_name, ' Season through Week ', max_week_name, '.', sep = '' )),
+                  print(paste('Code & Design by Alex Elfering | Data Source: College Football Reference | ', max_season_name, ' Season through Week ', max_week_name, sep = '' )),
                   tabsetPanel(id="tabs1",
                               tabPanel('Current Team Records',
                                        value = 3,
