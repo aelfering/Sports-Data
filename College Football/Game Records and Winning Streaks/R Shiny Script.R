@@ -187,12 +187,12 @@ ui <- fluidPage(
                   conditionalPanel(condition = "input.tabs1==5",
                                    h4("Which FBS teams have performed better than their overall record suggests against their opponents?"),
                                    print(" "),
-                                   sliderInput("Tab4Range", 
+                                   sliderInput("Tab5Range", 
                                                "Select a Season:",
                                                min = 1936, 
                                                max = max(distinct_bind$Season),
-                                               value = c(2000,2020)),
-                                   sliderInput("Tab4TimeVariable", 
+                                               value = max(distinct_bind$Season)),
+                                   sliderInput("Tab5TimeVariable", 
                                                "Total Recent Matchups",
                                                min = 3, 
                                                max = 10,
@@ -202,11 +202,11 @@ ui <- fluidPage(
                 mainPanel(
                   print(paste('Code & Design by Alex Elfering | Data Source: College Football Reference | ', max_season_name, ' Season through Week ', max_week_name, sep = '' )),
                   tabsetPanel(id="tabs1",
-                              tabPanel('Current Team Records',
+                              tabPanel('Current Team Season Records',
                                        value = 3,
                                        br(),
                                        DT::dataTableOutput('first')),
-                              tabPanel("Winning Streaks", 
+                              tabPanel("Series Winning Streaks", 
                                        value = 1,
                                        br(),
                                        print('Active Winning Streaks in the Last 5 Seasons'),
@@ -216,7 +216,7 @@ ui <- fluidPage(
                                        br(),
                                        print('Winning Streaks that Ended This Season'),
                                        DT::dataTableOutput('streaks')),
-                              tabPanel("Point Differential",  
+                              tabPanel("Season Point Differential",  
                                        value = 2,
                                        br(),
                                        plotOutput("Plot", width = "100%"), 
@@ -233,7 +233,7 @@ ui <- fluidPage(
                                        br(),
                                        br(),
                                        DT::dataTableOutput('scoring')),
-                              tabPanel("Team Profile",  
+                              tabPanel("Team Median Winning and Losing Margins",  
                                        value = 4,
                                        br(),
                                        plotOutput("TeamTimeline", width = "100%"),
@@ -247,7 +247,11 @@ ui <- fluidPage(
                                        br(),
                                        br(),
                                        br(),
-                                       DT::dataTableOutput('TeamTimelineTable'))
+                                       DT::dataTableOutput('TeamTimelineTable')),
+                              tabPanel("Team-Rivalry Performance",  
+                                       value = 5,
+                                       br(),
+                                       plotOutput("RivalryIndex", width = "100%"))
                   )
                 )
   )) 
@@ -374,7 +378,7 @@ server <- function(input, output, session){
       inner_join(fbs_teams) %>%
       filter(Team %in% unique(fbs_teams$Team),
              Conf %in% input$Tab3Conference) %>%
-      mutate(Next_Game = ifelse(is.na(Next_Game), 'Season Finished', Next_Game),
+      mutate(Next_Game = ifelse(is.na(Next_Game), '', Next_Game),
              Team = ifelse(is.na(Last_Season), paste(Team, '*', sep = ''), Team)) %>%
       select(Season,
              Team,
@@ -1068,7 +1072,7 @@ server <- function(input, output, session){
     
   }, height = 600)
   
-  # Table for point differential
+  # Table for team timeline
   output$TeamTimelineTable <- DT::renderDataTable({
     
     margins <- distinct_bind %>%
@@ -1173,6 +1177,128 @@ server <- function(input, output, session){
     
     
   })
+  
+  # Visualization for Team Output
+  output$RivalryIndex <- renderPlot({
+    mark1 <- distinct_bind %>%
+      filter(!is.na(Team.Pts)) %>%
+      arrange(Season,
+              Wk) %>%
+      select(Season,
+             Date,
+             Team,
+             Opponent,
+             Team.Pts,
+             Opp.Pts) %>%
+      mutate(Wins = ifelse(Team.Pts > Opp.Pts, 1, 0),
+             Loses = ifelse(Team.Pts < Opp.Pts, 1, 0),
+             Ties = ifelse(Team.Pts == Opp.Pts, 1, 0)) %>%
+      #filter(Team == team_var, Opponent == opponent_var) %>%
+      group_by(Team,
+               Opponent) %>%
+      mutate(Cumulative.Wins = cumsum(Wins),
+             Cumulative.Losses = cumsum(Loses),
+             Cumulative.Ties = cumsum(Ties)) %>%
+      mutate(Rows = row_number()) %>%
+      mutate(Rolling.Wins = rollapplyr(Wins, input$Tab5TimeVariable, sum, partial = TRUE),
+             Rolling.Losses = rollapplyr(Loses, input$Tab5TimeVariable, sum, partial = TRUE),
+             Rolling.Ties = rollapplyr(Ties, input$Tab5TimeVariable, sum, partial = TRUE)) %>%
+      mutate(Total.Cumulative.Games = Cumulative.Wins + Cumulative.Losses + Cumulative.Ties,
+             Total.Rolling.Games = Rolling.Wins + Rolling.Losses + Rolling.Ties,
+             Percent.Cumulative.Won = Cumulative.Wins/Total.Cumulative.Games,
+             Percent.Rolling.Won = Rolling.Wins/Total.Rolling.Games,
+             Percent.Gap = Percent.Rolling.Won-Percent.Cumulative.Won,
+             Abs.Gap = abs(Percent.Gap)) %>%
+      #slice(which.max(Season)) %>%
+      filter(Season == input$Tab5Range) %>%
+      ungroup() 
+    
+    mark1_over_performing_rivalries <- mark1 %>%
+      select(Season,
+             Team,
+             Opponent,
+             Cumulative.Wins,
+             Cumulative.Losses,
+             Cumulative.Ties,
+             Percent.Cumulative.Won,
+             Total.Cumulative.Games,
+             Rolling.Wins,
+             Rolling.Losses,
+             Rolling.Ties,
+             Percent.Rolling.Won,
+             Total.Rolling.Games,
+             Percent.Gap) %>%
+      unite(Cumulative.Record, c('Cumulative.Wins', 'Cumulative.Losses', 'Cumulative.Ties'), sep = '-', na.rm = TRUE) %>%
+      unite(Rolling.Record, c('Rolling.Wins', 'Rolling.Losses', 'Rolling.Ties'), sep = '-', na.rm = TRUE) %>%
+      filter(Total.Rolling.Games >= input$Tab5TimeVariable,
+             Percent.Rolling.Won > 0.6) %>%
+      mutate(Rank = dense_rank(desc(Percent.Gap))) %>%
+      filter(Rank <= 10) %>%
+    arrange(desc(Percent.Gap))
+    
+    ggplot(mark1_over_performing_rivalries,
+           aes(x = reorder(paste(Team, Opponent, sep = '-'), Percent.Gap),
+               y = Percent.Cumulative.Won)) +
+      coord_flip() +
+      geom_point(size = 5,
+                 color = 'orange') +
+      geom_point(mapping = aes(x = reorder(paste(Team, Opponent, sep = '-'), Percent.Gap),
+                               y = Percent.Rolling.Won),
+                 size = 5,
+                 color = 'steelblue') +
+      geom_segment(mapping = aes(x = reorder(paste(Team, Opponent, sep = '-'), Percent.Gap),
+                                 xend = reorder(paste(Team, Opponent, sep = '-'), Percent.Gap),
+                                 y = Percent.Cumulative.Won,
+                                 yend = Percent.Rolling.Won),
+                   arrow = arrow(length = unit(0.02, "npc")),
+                   size = 1) +
+      geom_text(mapping = aes(x = reorder(paste(Team, Opponent, sep = '-'), Percent.Gap),
+                              y = Percent.Cumulative.Won,
+                              label = Cumulative.Record),
+                size = 5,
+                vjust = 2) +
+      geom_text(mapping = aes(x = reorder(paste(Team, Opponent, sep = '-'), Percent.Gap),
+                              y = Percent.Rolling.Won,
+                              label = Rolling.Record),
+                size = 5,
+                vjust = 2) +
+      geom_text(data = subset(mark1_over_performing_rivalries, Percent.Gap == max(Percent.Gap)),
+                mapping = aes(x = reorder(paste(Team, Opponent, sep = '-'), Percent.Gap),
+                              y = Percent.Cumulative.Won),
+                size = 5,
+                label = 'Overall Record',
+                color = 'orange',
+                #fontface 'bold',
+                vjust = -1.1) +
+      geom_text(data = subset(mark1_over_performing_rivalries, Percent.Gap == max(Percent.Gap)),
+                mapping = aes(x = reorder(paste(Team, Opponent, sep = '-'), Percent.Gap),
+                              y = Percent.Rolling.Won),
+                size = 5,
+                label = paste('Last ', input$Tab5TimeVariable, ' Matches', sep = ''),
+                color = 'steelblue',
+                vjust = -1.1) +
+      labs(x = '',
+           y = '',
+           title = paste(input$Tab5Range, ' Season: Which Rivalries have Over-Performed Relative to their Overall Record?', sep = '')) +
+      scale_y_continuous(labels = scales::percent) +
+      theme(plot.title = element_text(face = 'bold', size = 18, family = 'Arial'),
+            legend.position = 'none',
+            legend.background=element_blank(),
+            legend.key=element_blank(),
+            legend.text = element_text(size = 14, family = 'Arial'),
+            legend.title = element_text(size = 14, family = 'Arial'),
+            plot.subtitle = element_text(size = 15, family = 'Arial'),
+            plot.caption = element_text(size = 14, family = 'Arial'),
+            axis.title = element_text(size = 14, family = 'Arial'),
+            axis.text = element_text(size = 14, family = 'Arial'),
+            strip.text = ggplot2::element_text(size = 14, hjust = 0, face = 'bold', color = 'black', family = 'Arial'),
+            strip.background = element_rect(fill = NA),
+            panel.background = ggplot2::element_blank(),
+            axis.line = element_line(colour = "#222222", linetype = "solid"),
+            panel.grid.major.x = element_line(colour = "#c1c1c1", linetype = "dashed"),
+            panel.grid.major.y = element_blank()) 
+    
+  }, height = 600)
 }
 
 shinyApp(ui, server)
