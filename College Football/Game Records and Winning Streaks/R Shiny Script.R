@@ -38,7 +38,7 @@
   library(stringi)
   library(tidylog)
   
-  #setwd("~/GitHub/Sports-Data/College Football/Game Records and Winning Streaks")
+setwd("~/GitHub/Sports-Data/College Football/Game Records and Winning Streaks")
   
   cfb_games <- read.csv('Games teams CFB.csv', fileEncoding="UTF-8-BOM")
   cfb_conferences <- read.csv('cfb conf.csv', fileEncoding="UTF-8-BOM")
