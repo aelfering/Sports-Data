@@ -18,7 +18,8 @@
                         'rsconnect',
                         'DT',
                         'stringr',
-                        'tidylog')
+                        'tidylog',
+                        'elo')
   new.packages <- list.of.packages[!(list.of.packages %in% installed.packages()[,"Package"])]
   if(length(new.packages)) install.packages(new.packages)
   
@@ -37,8 +38,9 @@
   library(DT)
   library(stringi)
   library(tidylog)
+  library(elo)
   
-setwd("~/GitHub/Sports-Data/College Football/Game Records and Winning Streaks")
+#setwd("~/GitHub/Sports-Data/College Football/Game Records and Winning Streaks")
   
   cfb_games <- read.csv('Games teams CFB.csv', fileEncoding="UTF-8-BOM")
   cfb_conferences <- read.csv('cfb conf.csv', fileEncoding="UTF-8-BOM")
