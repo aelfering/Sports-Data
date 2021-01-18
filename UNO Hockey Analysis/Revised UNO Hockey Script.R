@@ -1,5 +1,5 @@
 library(tidyverse)
-library(stringr)
+library(stringi)
 library(zoo)
 library(lubridate)
 
@@ -9,14 +9,17 @@ uno_hockey <- read.csv('UNO Hockey.csv',
 days.of.week <- paste('\\(', weekdays(x=as.Date(seq(7), origin="1950-01-01")), '\\)', sep = '')
 ot.games <- c('OT', '1OT', '2OT', '3OT')
 
-
+# data cleaning
 clean_hockey <- uno_hockey %>%
   select(-Time,
          -City,
          -Tournament) %>%
+  # removing games that are yet to happen or have been cancelled
   filter(!Result %in% c('', 'Canceled')) %>%
+  # remove all non-score elements in the results column
   mutate(Result = gsub("\\s*\\([^\\)]+\\)","",as.character(Result)),
          Result = stri_trim_both(str_remove_all(Result, paste(ot.games, collapse = "|"))) ) %>%
+  # split the results column to create a 'Points For' and 'Points Against' column, respectively
   separate(sep = ', ',
            col = 'Result',
            into = c('Result', 'Score')) %>%
@@ -26,13 +29,14 @@ clean_hockey <- uno_hockey %>%
            col = 'Score',
            into = c('Team.Points', 'Opp.Points')) %>%
   group_by(Season) %>%
+  # identify games won, lost, and tied and WLT records
+  # also calculating margin and total goals scored and allowed
   mutate(Team.Points = as.numeric(Team.Points),
          Opp.Points = as.numeric(Opp.Points),
          Wins = ifelse(Team.Points > Opp.Points, 1, 0),
          Loses = ifelse(Team.Points < Opp.Points, 1, 0),
          Ties = ifelse(Team.Points == Opp.Points, 1, 0),
          Margin = Team.Points-Opp.Points,
-         
          Rolling.Wins = cumsum(Wins),
          Rolling.Losses = cumsum(Loses),
          Rolling.Ties = cumsum(Ties),
@@ -40,19 +44,19 @@ clean_hockey <- uno_hockey %>%
          Points.Allowed = cumsum(Opp.Points),
          Rolling.Margin = cumsum(Margin)) %>%
   ungroup() %>%
+  # counting win, lose, and tie streaks
   mutate(Win.Streak = ave(Wins, cumsum(Wins==0), FUN = seq_along) - 1,
          Lose.Streak = ave(Loses, cumsum(Loses==0), FUN = seq_along) - 1,
          Tie.Streak = ave(Ties, cumsum(Ties==0), FUN = seq_along) - 1,
          Streak.Status = case_when(Win.Streak > 0 ~ 'W',
                                    Lose.Streak > 0 ~ 'L',
-                                   Tie.Streak > 0 ~ 'T'
-                                   )) %>%
-  mutate(#Exhib = grepl('Exhib', Opponent),
-         Games = row_number()) %>%
+                                   Tie.Streak > 0 ~ 'T')) %>%
+  mutate(Games = row_number()) %>%
   mutate(Date = stri_trim_both(str_remove_all(Date, paste(days.of.week, collapse = "|"))),
          Date = mdy(format(mdy(Date), "%m/%d/%Y")) )
 
-
+# exploratory analysis
+# how did UNO perform at the end of every season?
 clean_hockey %>%
   group_by(Season) %>%
   slice(which.max(Date)) %>%
@@ -68,6 +72,7 @@ clean_hockey %>%
          Points.Allowed) %>%
   arrange(desc(Rolling.Margin))
 
+# create a data frame to label the x-axis correctly
 season_lines <- clean_hockey %>%
   group_by(Season) %>%
   summarise(FirstGame = min(Games),
@@ -75,6 +80,7 @@ season_lines <- clean_hockey %>%
   ungroup() %>%
   mutate(Season.Label = paste("'", substr(Season, 3, 4), sep = ''))
 
+# identify games to annotate in the final visualization
 lines_for_annotation <- clean_hockey %>%
   filter((Season == 2003 & Games >= 260 & Games <= 280) | 
            (Season == 2000 & Games >= 148 & Games <= 157) |
@@ -83,7 +89,8 @@ lines_for_annotation <- clean_hockey %>%
            (Season == 2008 & Games >= 467 & Games <= 488) |
            (Season == 2010 & Games >= 555 & Games <= 571))
 
-season_highlight_summary <- lines_for_annotation %>%
+# and how did UNO perform in these annotated sections?
+lines_for_annotation %>%
   group_by(Season) %>%
   summarise(Wins = sum(Wins),
             Losses = sum(Loses),
@@ -92,6 +99,7 @@ season_highlight_summary <- lines_for_annotation %>%
             Points.Against = sum(Opp.Points)) %>%
   ungroup()
 
+# identify single games where UNO performed well
 annotation_geom_point <- clean_hockey %>%
   filter((Season == 2014 & Games == 729) |
            (Season == 1999 & Games == 114) |
@@ -99,7 +107,7 @@ annotation_geom_point <- clean_hockey %>%
            (Season == 2020 & Games == max(Games)))
 
 
-
+# the final visualization
 ggplot(clean_hockey,
        aes(x = Games,
            y = Rolling.Margin,
