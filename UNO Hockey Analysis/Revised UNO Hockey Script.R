@@ -141,7 +141,7 @@ ggplot(clean_hockey,
              alpha = 0.4) +
   labs(title = 'The History of Nebraska-Omaha Hockey',
        subtitle = paste('Based on Goal Differential by Season between ' , min(clean_hockey$Season), ' and ', max(clean_hockey$Season), sep = ''),
-       caption = paste('As of ', max(clean_hockey$Date), '\nVisualization by Alex Elfering; Data courtesy of University of Nebraska, Omaha', sep = ''),
+       caption = paste('As of ', max(clean_hockey$Date), '\nVisualization by Alex Elfering; Data courtesy of University of Nebraska, Omaha\nExhibition games are included', sep = ''),
        x = '\nSeason',
        y = 'Goal Differential\n') +
   theme(plot.title = element_text(face = 'bold', size = 20, family = 'Arial'),
