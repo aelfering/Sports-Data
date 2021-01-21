@@ -108,7 +108,7 @@ annotation_geom_point <- clean_hockey %>%
 
 
 # the final visualization
-ggplot(clean_hockey,
+hockey_graph <- ggplot(clean_hockey,
        aes(x = Games,
            y = Rolling.Margin,
            group = Season)) +
@@ -161,7 +161,13 @@ ggplot(clean_hockey,
 
 
 
-
+ggsave(
+  'hockey graph.png',
+  hockey_graph,
+  #plot = last_plot(),
+  device = 'png',
+  width = 28,
+  height = 11.333)
 
 
 
