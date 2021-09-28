@@ -5,13 +5,18 @@ GamesNoBowls <- FullSchedule %>%
          Year = as.character(Year),
          Day = as.character(Day),
          Season = as.character(Season)) %>% 
-  anti_join(ConfChamp) #%>% filter(!is.na(Pts))
+  anti_join(ConfChamp) %>%
+  group_by(School,
+           Opponent,
+           Season) %>%
+  filter(Day == max(Day)) %>%
+  ungroup()
 
 str(FullSchedule)
 
 # pre-season forecast ----
 PreSeasonForecastOutcomesList1 <- list()
-for(a in 2001:2001){
+for(a in 2021:2021){
   
   varSeason <- a
   varSeasonL <- varSeason-1
@@ -64,7 +69,8 @@ for(a in 2001:2001){
                by = c('Season' = 'Season',
                       'School' = 'Var.2')) %>%
     mutate(Conf = trim(Conf),
-           OppConf = trim(ifelse(is.na(OppConf), 'Non-Major', OppConf)))
+           OppConf = trim(ifelse(is.na(OppConf), 'Non-Major', OppConf))) %>%
+    mutate(Div = ifelse(Season >= 2020 & Conf == 'American', NA, Div))
   
   PreSeasonList <- list()
   for(i in 1:10000){
@@ -131,7 +137,9 @@ for(a in 2001:2001){
 SeasonForecastWeeks <- list()
 WinForecastWeeks <- list()
 ConfFinishForecastWeeks <- list()
-for(b in 2001:2001){
+for(b in 2021:2021){
+  
+  #print(b)
   
   seasonInt <- tibble(Season = 1996:2021) %>%
     mutate(Rows = row_number()) %>%
@@ -185,7 +193,8 @@ for(b in 2001:2001){
     mutate(Wk = as.numeric(Wk)) %>%
     mutate(OppConf = case_when(Opponent == 'Notre Dame' & Season != 2020 ~ 'Ind',
                             Opponent == 'Connecticut' & Season > 2020 ~ 'Ind',
-                            TRUE ~ as.character(OppConf)))
+                            TRUE ~ as.character(OppConf)))  %>%
+    mutate(Div = ifelse(Season >= 2020 & Conf == 'American', NA, Div))
   
   MaxSeasnWk <- max(GameSeasonOutcomes %>% filter(!is.na(Pts)) %>% select(Wk))
   
@@ -221,7 +230,10 @@ for(b in 2001:2001){
         Month,
         Day) %>%
       filter(Season == varSeason) %>%
-      inner_join(Weeks) %>%
+      inner_join(Weeks,
+                 by = c('Month' = 'Month',
+                        'Day' = 'Day',
+                        'Year' = 'Year')) %>%
       mutate(Wk = as.numeric(Wk)) %>%
       filter(Wk <= c) %>%
       group_by(team.A) %>%
@@ -275,19 +287,64 @@ for(b in 2001:2001){
              NextOpponent = Opponent)
     
     ProbabilityIter <- list()
+    GameOutcomeList <- list()
+    BowlWinList <- list()
+    GamesNeededtoBowl <- list()
     for(i in 1:10000){
+      
+      print(b)
+      print(c)
+      print(i)
       
       PWinForecast <- runif(nrow(NewProbability), 0, 1)
       
+      # continuing the forecast
       UpdatedFutureGames <- NewProbability %>%
-        mutate(Values = PWinForecast) %>%
+        mutate(Values = runif(nrow(.), 0, 1)) %>%
+        left_join(ResultsSoFar,
+                  by = c('School' = 'School',
+                         'Conf' = 'Conf',
+                         'Div' = 'Div')) %>%
+        select(-Wk.y,
+               -ConfWins,
+               -ConfLoses) %>%
+        rename(CWins = Wins,
+               CLoses = Loses) %>%
         mutate(Wins = ifelse(Values <= p.Win, 1, 0),
                Loses = ifelse(Values >= p.Win, 1, 0),
                ConfWins = ifelse(Values <= p.Win & Conf == OppConf, 1, 0),
                ConfLoses = ifelse(Values >= p.Win & Conf == OppConf, 1, 0),
+               #  in 2021 Wake Forest and North Carolina play a non-conference game despite being in the same conference
                ConfWins = ifelse((School == 'North Carolina' | School == 'Wake Forest') & (Opponent == 'North Carolina' | Opponent == 'Wake Forest'), 0, ConfWins ),
                ConfLoses = ifelse((School == 'North Carolina' | School == 'Wake Forest') & (Opponent == 'North Carolina' | Opponent == 'Wake Forest'), 0, ConfLoses )) %>%
-        #filter(School %in% c('Iowa State', 'Missouri')) %>%
+        mutate(iter = i)  %>%
+        group_by(School) %>%
+        mutate(RollingFWins = cumsum(Wins),
+               PotentialWins = CWins + RollingFWins) %>%
+        mutate(Games = row_number()) %>%
+        ungroup()
+      
+      TeamGetsBowlWin <- UpdatedFutureGames %>%
+        filter(PotentialWins == 6) %>%
+        #filter(School == 'Iowa')
+        group_by(School) %>%
+        filter(Wk.x == min(Wk.x)) %>%
+        ungroup() %>%
+        select(School,
+               Opponent,
+               Wk = Wk.x,
+               iter) 
+      
+      GamesNeededToWin <- UpdatedFutureGames %>%
+        filter(School %in% TeamGetsBowlWin$School) %>%
+        #filter(School == 'Alabama') %>%
+        filter(Wins == 1) %>%
+        select(School,
+               Opponent,
+               Wk = Wk.x,
+               iter) 
+      
+        SummariseOutcomes <- UpdatedFutureGames %>%
         group_by(School,
                  Conf,
                  Div) %>%
@@ -299,7 +356,7 @@ for(b in 2001:2001){
         mutate(FinishesOut = ifelse(Loses == 0, 1, 0))
       
       
-      OutLook <- UpdatedFutureGames %>%
+      OutLook <- SummariseOutcomes %>%
         group_by(School,
                  Conf,
                  Div) %>%
@@ -312,7 +369,10 @@ for(b in 2001:2001){
       
       Outlook1 <- ResultsSoFar %>%
         #filter(School %in% c('Iowa State', 'Missouri')) %>%
-        full_join(OutLook) %>%
+        full_join(OutLook,
+                  by = c('School' = 'School', 
+                         'Conf' = 'Conf',
+                         'Div' = 'Div')) %>%
         mutate(Wins = ifelse(is.na(Wins), 0, Wins),
                Loses = ifelse(is.na(Loses), 0, Loses),
                ConfWins = ifelse(is.na(ConfWins), 0, ConfWins),
@@ -340,7 +400,10 @@ for(b in 2001:2001){
       
       Outlook1NA <- Outlook1 %>%
         filter(is.na(ForecastedWins)) %>%
-        left_join(ResultsSoFar) %>%
+        left_join(ResultsSoFar,
+                  by = c('School' = 'School',
+                         'Conf' = 'Conf',
+                         'Div' = 'Div')) %>%
         select(-ForecastedWins,
                -ForecastedLosses,
                -ForecastedConfWins,
@@ -361,20 +424,28 @@ for(b in 2001:2001){
                TotalFirst = sum(FirstinConfDiv),
                WinConfDivOR = case_when(ConfDivRank ==1 & TotalFirst == 1 ~ 1 )) %>%
         ungroup() %>%
-        left_join(RealRecord) %>%
+        left_join(RealRecord,
+                  by = c('School' = 'School',
+                         'Conf' = 'Conf',
+                         'Div' = 'Div')) %>%
         mutate(RealRecord = ifelse(is.na(RealRecord), '0-0', RealRecord),
                RealRecord = paste0("'", RealRecord)) %>%
-        left_join(NextMatch) %>%
+        left_join(NextMatch,
+                  by = c('School' = 'School',
+                         'Conf' = 'Conf',
+                         'Div' = 'Div')) %>%
         mutate(Iter = i)
       
       ProbabilityIter[[i]] <- BindOutlook
-      
+      GameOutcomeList[[i]] <- UpdatedFutureGames
+      BowlWinList[[i]] <- TeamGetsBowlWin
+      GamesNeededtoBowl[[i]] <- GamesNeededToWin
     }
     
     FutureGames <- rbindlist(ProbabilityIter)
     
     Range <- FutureGames %>%
-      #filter(School == 'Ohio State') %>%
+      filter(School == 'Nebraska') %>%
       mutate(zscore = (ForecastedWins - mean(ForecastedWins))/sd(ForecastedWins)) %>%
       arrange(desc(zscore)) %>%
       filter(zscore >= -1.28 & zscore <= 1.28) %>%
@@ -401,8 +472,7 @@ for(b in 2001:2001){
                 Win0500 = sum(Win0500)
       ) %>%
       ungroup() %>%
-      mutate(Week = c + 1) %>%
-      left_join(Range)
+      mutate(Week = c + 1)
     
     PredictedWins <- FutureGames %>%
       group_by(School,
@@ -448,47 +518,43 @@ for(b in 2001:2001){
   
 }
 
-rbindlist(ConfFinishForecastWeeks) %>%
-  filter(Week == 5,
-         Conf == 'ACC') %>%
-  ggplot() + 
-  coord_flip() +
-  geom_tile(mapping = aes(x = School,
-                          y = ConfDivRank,
-                          fill = n/10000),
-            color = 'white') +
-  geom_text(mapping = aes(x = School,
-                          y = ConfDivRank,
-                          label = n/10000)) +
-  facet_wrap(~Div,
-             scales = 'free_y')
 
-rbindlist(WinForecastWeeks) %>%
-  filter(Week == 1,
-         Conf == 'Big 12') %>%
-  ggplot() + 
-  coord_flip() +
-  geom_tile(mapping = aes(x = School,
-                          y = ForecastedWins,
-                          fill = n/100))
+rbindlist(BowlWinList) %>%
+  #filter(School == 'Wisconsin') %>%
+  group_by(School,
+           Opponent,
+           Wk) %>%
+  summarise(n = n()) %>%
+  ungroup() %>%
+  group_by(School) %>%
+  mutate(Pct = n/sum(n),
+         Sum = sum(n)) %>%
+  filter(n == max(n)) %>%
+  ungroup() %>%
+  arrange(Wk)
 
-Mark1 <- rbindlist(SeasonForecastWeeks) %>%
-  filter(#Conf == 'Big 12',
-         School == 'Florida State') %>%
-  ggplot() + 
-  geom_hline(yintercept = 0) +
-  geom_hline(yintercept = 100) +
-  geom_step(mapping = aes(x = Week,
-                          y = WinConfDivOR  ,
-                          color = School),
-            size = 1) +
-  geom_point(mapping = aes(x = Week,
-                          y = WinConfDivOR  ,
-                          color = School),
-            size = 1.5) +
-  facet_wrap(~School)
+rbindlist(GamesNeededtoBowl) %>%
+  filter(School == 'Oregon') %>%
+  group_by(School,
+           Opponent) %>%
+  summarise(n = n()) %>%
+  ungroup() %>%
+  arrange(desc(n))
 
-
-
-
-
+rbindlist(GamesNeededtoBowl) %>%
+  filter(School == 'Oregon') %>%
+  group_by(School,
+           iter) %>%
+  mutate(Row = row_number()) %>%
+  select(School,
+         Opponent,
+         Row) %>%
+  pivot_wider(names_from = Row,
+              values_from = Opponent) %>%
+  unite(GamesWin, -c(iter, School), sep = ', ', na.rm = TRUE) %>%
+  ungroup() %>%
+  group_by(School,
+           GamesWin) %>%
+  summarise(n = n()) %>%
+  ungroup() %>%
+  arrange(desc(n))
