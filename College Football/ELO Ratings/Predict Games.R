@@ -14,9 +14,13 @@ GamesNoBowls <- FullSchedule %>%
 
 str(FullSchedule)
 
+Sims <- 10000
+
 # pre-season forecast ----
 PreSeasonForecastOutcomesList1 <- list()
 for(a in 2021:2021){
+  
+  print(a)
   
   varSeason <- a
   varSeasonL <- varSeason-1
@@ -73,7 +77,7 @@ for(a in 2021:2021){
     mutate(Div = ifelse(Season >= 2020 & Conf == 'American', NA, Div))
   
   PreSeasonList <- list()
-  for(i in 1:10000){
+  for(i in 1:Sims){
     
     WinValues <- runif(nrow(PreSeasonELOGames), 0, 1)
     
@@ -139,7 +143,7 @@ WinForecastWeeks <- list()
 ConfFinishForecastWeeks <- list()
 for(b in 2021:2021){
   
-  #print(b)
+  print(b)
   
   seasonInt <- tibble(Season = 1996:2021) %>%
     mutate(Rows = row_number()) %>%
@@ -208,10 +212,10 @@ for(b in 2021:2021){
       group_by(School,
                Conf,
                Div) %>%
-      summarise(Wins = sum(Wins),
-                Loses = sum(Loses),
-                ConfWins = sum(ConfWins),
-                ConfLoses = sum(ConfLoses),
+      summarise(Wins = sum(Wins, na.rm = TRUE),
+                Loses = sum(Loses, na.rm = TRUE),
+                ConfWins = sum(ConfWins, na.rm = TRUE),
+                ConfLoses = sum(ConfLoses, na.rm = TRUE),
                 Wk = max(Wk)) %>%
       ungroup() 
     
@@ -290,11 +294,11 @@ for(b in 2021:2021){
     GameOutcomeList <- list()
     BowlWinList <- list()
     GamesNeededtoBowl <- list()
-    for(i in 1:10000){
+    for(i in 1:Sims){
       
-      print(b)
-      print(c)
-      print(i)
+      #print(b)
+     # print(c)
+      #print(i)
       
       PWinForecast <- runif(nrow(NewProbability), 0, 1)
       
@@ -326,7 +330,6 @@ for(b in 2021:2021){
       
       TeamGetsBowlWin <- UpdatedFutureGames %>%
         filter(PotentialWins == 6) %>%
-        #filter(School == 'Iowa')
         group_by(School) %>%
         filter(Wk.x == min(Wk.x)) %>%
         ungroup() %>%
@@ -534,7 +537,7 @@ rbindlist(BowlWinList) %>%
   arrange(Wk)
 
 rbindlist(GamesNeededtoBowl) %>%
-  filter(School == 'Oregon') %>%
+  filter(School == 'Nebraska') %>%
   group_by(School,
            Opponent) %>%
   summarise(n = n()) %>%
@@ -542,7 +545,7 @@ rbindlist(GamesNeededtoBowl) %>%
   arrange(desc(n))
 
 rbindlist(GamesNeededtoBowl) %>%
-  filter(School == 'Oregon') %>%
+  filter(School == 'Florida State') %>%
   group_by(School,
            iter) %>%
   mutate(Row = row_number()) %>%

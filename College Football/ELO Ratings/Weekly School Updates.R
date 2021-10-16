@@ -86,7 +86,7 @@ for(a in Schools){
                             TRUE ~ as.character(name))) %>%
     filter(!is.na(value))
   
-  MaxWeek <- max(SchoolPivotConfLabel$Week)
+  MaxWeek <- max(SchoolPivotConfLabel$Week)-1
   
   SchoolProgress <- ggplot() + 
     geom_hline(yintercept = 0,
