@@ -6,7 +6,7 @@ library(rvest)
 library(data.table)
 library(lubridate)
 
-seasonsbowl <- 1996:year(Sys.Date())-1
+seasonsbowl <- 1960:year(Sys.Date())-1
 
 BowlListFinal <- list()
 for(i in seasonsbowl){

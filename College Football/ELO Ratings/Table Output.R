@@ -3,39 +3,42 @@ library(htmltools)
 library(tidyverse)
 library(glue)
 
-source("~/New CFB.R")
-source("~/GitHub/Sports-Data/College Football/ELO Ratings/Bowl Games.R")
-source("~/GitHub/Sports-Data/College Football/ELO Ratings/Predict Games.R")
+#source("~/New CFB.R")
+#source("~/GitHub/Sports-Data/College Football/ELO Ratings/Bowl Games.R")
+#source("~/GitHub/Sports-Data/College Football/ELO Ratings/Predict Games.R")
 
 # dataset ----
 SeasonDFTable <- rbindlist(SeasonForecastWeeks)
 
 Season <- max(SeasonDFTable$Season)
-WeekNumber <- max(SeasonDFTable$Week)-2
+WeekNumber <- max(SeasonDFTable$Week)
 
 PreSeason <- SeasonDFTable %>%
   filter(!grepl("NA", RealRecord)) %>%
   group_by(School) %>%
-  filter(Week == max(Week)) %>%
+  filter(Week == 14) %>%
   ungroup() %>%
   #select(-Season) %>%
   mutate(ForecastedWins = round(ForecastedWins),
          Div = ifelse(Div == '', NA, Div),
          ForecastedLosses = round(ForecastedLosses),
+         ForecastedTies = round(ForecastedTies),
          ForecastedConfWins = round(ForecastedConfWins),
          ForecastedConfLosses = round(ForecastedConfLosses),
-         FirstinConfDiv = round(FirstinConfDiv/10000, 4),
-         WinConfDivOR = round(WinConfDivOR/10000, 4),
-         FinishesOut = round(FinishesOut/10000, 4),
-         Win0500 = round(Win0500/10000, 4)) %>%
+         ForecastedConfTies = round(ForecastedConfTies),
+         FirstinConfDiv = round(FirstinConfDiv/100, 4),
+         WinConfDivOR = round(WinConfDivOR/100, 4),
+         FinishesOut = round(FinishesOut/100, 4),
+         Win0500 = round(Win0500/100, 4)) %>%
   group_by(Conf,
            Div) %>%
   mutate(DivisionRank = dense_rank(desc(ForecastedConfWins))) %>%
   ungroup() %>%
-  unite(SimulatedRecord, c('ForecastedWins', 'ForecastedLosses'), sep = '-') %>%
-  unite(SimulatedConference, c('ForecastedConfWins', 'ForecastedConfLosses'), sep = '-', na.rm = TRUE) %>%
+  unite(SimulatedRecord, c('ForecastedWins', 'ForecastedLosses', 'ForecastedTies'), sep = '-', na.rm = TRUE) %>%
+  unite(SimulatedConference, c('ForecastedConfWins', 'ForecastedConfLosses', 'ForecastedConfTies'), sep = '-', na.rm = TRUE) %>%
   mutate(FirstinConfDiv = ifelse(is.na(FirstinConfDiv), 0, FirstinConfDiv),
          RealRecord = gsub("\\'", '', RealRecord)) %>%
+  #filter(Conf == 'Big Ten') %>%
   unite(ConferenceDivision, c('Conf', 'Div'), sep = ' - ', na.rm = TRUE) %>%
   dplyr::select(                School,
                                 RealRecord,
@@ -182,5 +185,5 @@ library(webshot)
 saveWidget(widget = withtitle, file = "~/College Football Team Forecasts/table.png", selfcontained = TRUE)
 saveWidget(withtitle, html)
 html <- "table.html"
-webshot(html, glue('~/College Football Team Forecasts/{Season} Conference Forecast after Week {WeekNumber}.pdf'))
+webshot(html, glue('~/College Football Team Forecasts/{Season} Conference Forecast after Week {WeekNumber}.png'))
 
