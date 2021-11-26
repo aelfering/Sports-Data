@@ -16,7 +16,11 @@ options(dplyr.summarise.inform = FALSE)
 # load data for the forecast  ----
 WinningGames <- read.csv('C:/Users/alexe/Desktop/FBS Winning Games.csv')
 FullSchedule <- read.csv('C:/Users/alexe/Desktop/FBS Full Schedule.csv')
-BowlGames <- read.csv('C:/Users/alexe/Desktop/Bowl Games.csv')
+BowlGames <- read.csv('C:/Users/alexe/Desktop/Bowl Games.csv') %>% 
+  mutate(Month = as.character(Month), 
+         Year = as.character(Year),
+         Day = as.character(Day),
+         Season = as.character(Season))
 
 # prepare data  ----
 GamesNoBowls <- FullSchedule %>% 
@@ -24,7 +28,7 @@ GamesNoBowls <- FullSchedule %>%
          Year = as.character(Year),
          Day = as.character(Day),
          Season = as.character(Season)) %>% 
-  anti_join(ConfChamp) %>%
+  anti_join(BowlGames) %>%
   group_by(School,
            Opponent,
            Season) %>%

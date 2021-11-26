@@ -6,6 +6,8 @@ library(rvest)
 library(data.table)
 library(lubridate)
 
+rank_patterns <- paste('\\(', 1:25, '\\)', sep = '')
+
 seasonsbowl <- 1960:year(Sys.Date())-1
 
 BowlListFinal <- list()
@@ -69,9 +71,9 @@ ConfChamp <- FullSchedule %>%
          Year = trim(Year),
          Season = (trim(Season)),
          School = trim(School),
-         Opponent = trim(Opponent))
+         Opponent = trim(Opponent)) 
 
-
+write.csv(ConfChamp, 'C:/Users/alexe/Desktop/Bowl Games.csv')
 
 
 
