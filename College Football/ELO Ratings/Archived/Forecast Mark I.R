@@ -1,10 +1,24 @@
 ####  COLLEGE FOOTBALL FORECAST
+# MARK I
 
-# load data for the forecast
-WinningGames <- read.csv('C:/Users/alexe/Desktop/FBS Winning Games.csv')
-FullSchedule <- read.csv('C:/Users/alexe/Desktop/FBS Full Schedule.csv')
+# libraries ----
+Sims <- 100
+HomeAdv <- 55
+AwayAdv <- -55
+SeasonVec <- 1950
+
+library(tidyverse)
+library(tidylog)
+library(glue)
 
 options(dplyr.summarise.inform = FALSE)
+
+# load data for the forecast  ----
+WinningGames <- read.csv('C:/Users/alexe/Desktop/FBS Winning Games.csv')
+FullSchedule <- read.csv('C:/Users/alexe/Desktop/FBS Full Schedule.csv')
+BowlGames <- read.csv('C:/Users/alexe/Desktop/Bowl Games.csv')
+
+# prepare data  ----
 GamesNoBowls <- FullSchedule %>% 
   mutate(Month = as.character(Month), 
          Year = as.character(Year),
@@ -17,24 +31,21 @@ GamesNoBowls <- FullSchedule %>%
   filter(Day == max(Day)) %>%
   ungroup()
 
-Sims <- 10000
-
 # pre-season forecast ----
 PreSeasonForecastOutcomesList1 <- list()
-for(a in 2021:2021){
+for(a in SeasonVec:SeasonVec){
+  
+  # this pre-season loops through each week of games to predict win-loss ratio and likelihood of winning conference division
   
   print(a)
   
   varSeason <- a
   varSeasonL <- varSeason-1
   
-  HomeAdv <- 55
-  AwayAdv <- -55
-  
   GamesFilter <- dplyr::filter(GamesNoBowls, Season == a)
   
   PreSeasonELO <- ELODF %>%
-    arrange(#team.A,
+    arrange(
       Year,
       Month,
       Day) %>%
@@ -76,6 +87,7 @@ for(a in 2021:2021){
                       'School' = 'Var.2')) %>%
     mutate(Conf = trim(Conf),
            OppConf = trim(ifelse(is.na(OppConf), 'Non-Major', OppConf))) %>%
+    # AAC removed divisions starting in 2020
     mutate(Div = ifelse(Season >= 2020 & Conf == 'American', NA, Div))
   
   PreSeasonList <- list()
@@ -91,7 +103,6 @@ for(a in 2021:2021){
              Loses = ifelse(Value > p.Win, 1, 0),
              ConfWins = ifelse(Value <= p.Win & Conf == OppConf, 1, 0),
              ConfLoses = ifelse(Value > p.Win & Conf == OppConf, 1, 0)) %>%
-      #filter(School == 'Missouri') %>%
       group_by(School,
                Conf,
                Div) %>%
@@ -125,10 +136,10 @@ for(a in 2021:2021){
               FMeanLosses = round(mean(FLosses), 1),
               FMeanConfWins = round(mean(FConfWins), 1),
               FMeanConfLosses = round(mean(FConfLosses), 1),
-              FUndefeated = (sum(Undefeated)/10000),
-              FirstinConfDiv = sum(FirstinConfDiv)/10000,
-              Win0500 = sum(Win0500)/10000,
-              WinConfDivOR = sum(WinConfDivOR, na.rm = TRUE)/10000) %>%
+              FUndefeated = (sum(Undefeated)/Sims),
+              FirstinConfDiv = sum(FirstinConfDiv)/Sims,
+              Win0500 = sum(Win0500)/Sims,
+              WinConfDivOR = sum(WinConfDivOR, na.rm = TRUE)/Sims) %>%
     arrange(Conf,
             Div,
             desc(WinConfDivOR),
@@ -140,14 +151,12 @@ for(a in 2021:2021){
   
 }
 
-# week-by-week forecast ----
+# Season forecast ----
 
 SeasonForecastWeeks <- list()
 WinForecastWeeks <- list()
 ConfFinishForecastWeeks <- list()
-for(b in 2021:2021){
-  
-  #b <- 2021 
+for(b in SeasonVec:SeasonVec){
   
   seasonInt <- tibble(Season = 1970:2021) %>%
     mutate(Rows = row_number()) %>%
@@ -156,13 +165,10 @@ for(b in 2021:2021){
   varSeason <- b
   varSeasonL <- varSeason-1
   
-  HomeAdv <- 55
-  AwayAdv <- -55
-  
   GamesFilter <- dplyr::filter(GamesNoBowls, Season == b)
   
   InitEloRatings <- ELODF %>%
-    arrange(#team.A,
+    arrange(
       Year,
       Month,
       Day) %>%
@@ -195,15 +201,19 @@ for(b in 2021:2021){
            ConfWins = ifelse(Pts > Opp & Conf == OppConf, Wins, 0),
            ConfLoses = ifelse(Opp > Pts & Conf == OppConf, Loses, 0),
            ConfTies = ifelse(Pts == Opp & Conf == OppConf, Ties, 0),
+           #  Wake Forest and UNC are playing a non-conf just because
            ConfWins = ifelse((School == 'North Carolina' | School == 'Wake Forest') & (Opponent == 'North Carolina' | Opponent == 'Wake Forest'), 0, ConfWins ),
            ConfLoses = ifelse((School == 'North Carolina' | School == 'Wake Forest') & (Opponent == 'North Carolina' | Opponent == 'Wake Forest'), 0, ConfLoses )
     ) %>%
     mutate(Wk = as.numeric(Wk)) %>%
+    # ensuring independents remain independent
     mutate(OppConf = case_when(Opponent == 'Notre Dame' & Season != 2020 ~ 'Ind',
                                Opponent == 'Connecticut' & Season > 2020 ~ 'Ind',
                                TRUE ~ as.character(OppConf)))  %>%
+    # AAC not doing divisions since 2020
     mutate(Div = ifelse(Season >= 2020 & Conf == 'American', NA, Div))
   
+  # latest week
   MaxSeasnWk <- max(GameSeasonOutcomes %>% filter(!is.na(Pts)) %>% select(Wk))
   
   SeasonIterList <- list()
@@ -573,55 +583,3 @@ for(b in 2021:2021){
   write.csv(rbindlist(ConfFinishForecastList) %>% mutate(Season = b), glue('C:/Users/alexe/Desktop/Logs/{b} Season Forecasted Conf Div Rank.csv'))
   
 }
-
-
-rbindlist(BowlWinList) %>%
-  filter(School == 'Illinois') %>%
-  group_by(School,
-           Opponent,
-           Wk) %>%
-  summarise(n = n()) %>%
-  ungroup() %>%
-  group_by(School) %>%
-  mutate(Pct = n/sum(n),
-         Sum = sum(n)) %>%
-  #filter(n == max(n)) %>%
-  ungroup() %>%
-  arrange(Pct)
-
-rbindlist(GamesNeededtoBowl) %>%
-  filter(School == 'Minnesota') %>%
-  group_by(School,
-           Opponent) %>%
-  summarise(n = n()) %>%
-  ungroup() %>%
-  arrange(desc(n)) %>%
-  
-  
-  rbindlist(GamesNeededtoBowl) %>%
-  filter(School == 'Nebraska') %>%
-  group_by(School,
-           iter) %>%
-  mutate(Row = row_number()) %>%
-  select(School,
-         Opponent,
-         Row) %>%
-  pivot_wider(names_from = Row,
-              values_from = Opponent) %>%
-  unite(GamesWin, -c(iter, School), sep = ', ', na.rm = TRUE) %>%
-  ungroup() %>%
-  group_by(School,
-           GamesWin) %>%
-  summarise(n = n()) %>%
-  ungroup() %>%
-  arrange(desc(n))
-
-  Mark1 %>%
-    filter(School == 'Louisiana State') %>%
-    tibble() %>%
-    select(School,
-           RealRecord,
-           FirstinConfDiv,
-           WinConfDivOR,
-           WinsShareWinningOut)
-
