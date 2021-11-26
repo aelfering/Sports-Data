@@ -21,7 +21,7 @@ BowlGames <- read.csv('C:/Users/alexe/Desktop/Bowl Games.csv') %>%
          Year = as.character(Year),
          Day = as.character(Day),
          Season = as.character(Season))
-ELODF <- 
+ELODF <- read.csv('C:/Users/alexe/Desktop/ELODF.csv')
 
 # prepare data  ----
 GamesNoBowls <- FullSchedule %>% 
