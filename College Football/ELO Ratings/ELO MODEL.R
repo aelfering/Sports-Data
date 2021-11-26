@@ -1,5 +1,7 @@
 #### ELO MODEL 
 
+Conferences <- read.csv('C:/Users/alexe/Desktop/Conferences.csv')
+
 SeasonVar <- c(1869:1870, 1872:2021)
 BegSeason <- min(SeasonVar)
 
@@ -163,4 +165,5 @@ ELODF <- rbindlist(SeasonGames, fill = TRUE) %>%
           Month,
           Day)
 
+write.csv(ELODF, 'C:/Users/alexe/Desktop/ELODF.csv')
 
