@@ -2,14 +2,15 @@
 # MARK I
 
 # libraries ----
-Sims <- 10000
+Sims <- 100
 HomeAdv <- 55
 AwayAdv <- -55
-SeasonVec <- 1971
+SeasonVec <- 2008
 
 library(tidyverse)
-library(tidylog)
+#library(tidylog)
 library(glue)
+library(data.table)
 
 options(dplyr.summarise.inform = FALSE)
 
@@ -22,6 +23,7 @@ BowlGames <- read.csv('C:/Users/alexe/Desktop/Bowl Games.csv') %>%
          Day = as.character(Day),
          Season = as.character(Season))
 ELODF <- read.csv('C:/Users/alexe/Desktop/ELODF.csv')
+Conferences <- read.csv('C:/Users/alexe/Desktop/Conferences.csv')
 
 # prepare data  ----
 GamesNoBowls <- FullSchedule %>% 
@@ -587,7 +589,24 @@ for(b in SeasonVec:SeasonVec){
   
 }
 
-rbindlist(SeasonForecastWeeks)
+rbindlist(SeasonForecastWeeks) %>%
+  filter(School == 'Alabama')
+  mutate(Conf = trim(Conf)) %>%
+  filter(Week == MaxSeasnWk) %>%
+  group_by(Conf,
+           Div) %>%
+  mutate(ConfDivRank = dense_rank(desc(ForecastedConfWins))) %>%
+  filter(ConfDivRank == 1) %>%
+  filter(n() > 1) %>%
+  ungroup() %>%
+  select(School,
+         Conf,
+         Div,
+         RealRecord,
+         ForecastedWins,
+         ForecastedLosses,
+         ForecastedConfWins ,
+         ForecastedConfLosses )
 
 
 

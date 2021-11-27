@@ -16,7 +16,7 @@ WeekNumber <- max(SeasonDFTable$Week)
 PreSeason <- SeasonDFTable %>%
   filter(!grepl("NA", RealRecord)) %>%
   group_by(School) %>%
-  filter(Week == 14) %>%
+  filter(Week == 12) %>%
   ungroup() %>%
   #select(-Season) %>%
   mutate(ForecastedWins = round(ForecastedWins),
@@ -26,14 +26,16 @@ PreSeason <- SeasonDFTable %>%
          ForecastedConfWins = round(ForecastedConfWins),
          ForecastedConfLosses = round(ForecastedConfLosses),
          ForecastedConfTies = round(ForecastedConfTies),
-         FirstinConfDiv = round(FirstinConfDiv/100, 4),
-         WinConfDivOR = round(WinConfDivOR/100, 4),
-         FinishesOut = round(FinishesOut/100, 4),
-         Win0500 = round(Win0500/100, 4)) %>%
+         FirstinConfDiv = round(FirstinConfDiv/Sims, 4),
+         WinConfDivOR = round(WinConfDivOR/Sims, 4),
+         FinishesOut = round(FinishesOut/Sims, 4),
+         Win0500 = round(Win0500/Sims, 4)) %>%
   group_by(Conf,
            Div) %>%
   mutate(DivisionRank = dense_rank(desc(ForecastedConfWins))) %>%
   ungroup() %>%
+  mutate(ForecastedTies = ifelse(ForecastedTies == 0, NA, ForecastedTies),
+         ForecastedConfTies = ifelse(ForecastedConfTies == 0, NA, ForecastedConfTies)) %>%
   unite(SimulatedRecord, c('ForecastedWins', 'ForecastedLosses', 'ForecastedTies'), sep = '-', na.rm = TRUE) %>%
   unite(SimulatedConference, c('ForecastedConfWins', 'ForecastedConfLosses', 'ForecastedConfTies'), sep = '-', na.rm = TRUE) %>%
   mutate(FirstinConfDiv = ifelse(is.na(FirstinConfDiv), 0, FirstinConfDiv),
