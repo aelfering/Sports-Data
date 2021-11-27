@@ -16,12 +16,14 @@ options(dplyr.summarise.inform = FALSE)
 
 # load data for the forecast  ----
 WinningGames <- read.csv('C:/Users/alexe/Desktop/FBS Winning Games.csv')
-FullSchedule <- read.csv('C:/Users/alexe/Desktop/FBS Full Schedule.csv')
+FullSchedule <- read.csv('C:/Users/alexe/Desktop/FBS Full Schedule.csv') %>%
+  select(-X)
 BowlGames <- read.csv('C:/Users/alexe/Desktop/Bowl Games.csv') %>% 
   mutate(Month = as.character(Month), 
          Year = as.character(Year),
          Day = as.character(Day),
-         Season = as.character(Season))
+         Season = as.character(Season)) %>%
+  select(-X)
 ELODF <- read.csv('C:/Users/alexe/Desktop/ELODF.csv')
 Conferences <- read.csv('C:/Users/alexe/Desktop/Conferences.csv')
 
