@@ -2,10 +2,10 @@
 # MARK I
 
 # libraries ----
-Sims <- 100
+Sims <- 10000
 HomeAdv <- 55
 AwayAdv <- -55
-SeasonVec <- 1950
+SeasonVec <- 1971
 
 library(tidyverse)
 library(tidylog)
@@ -163,7 +163,7 @@ WinForecastWeeks <- list()
 ConfFinishForecastWeeks <- list()
 for(b in SeasonVec:SeasonVec){
   
-  seasonInt <- tibble(Season = 1970:2021) %>%
+  seasonInt <- tibble(Season = 1869:2021) %>%
     mutate(Rows = row_number()) %>%
     filter(Season == b)
   
@@ -207,8 +207,8 @@ for(b in SeasonVec:SeasonVec){
            ConfLoses = ifelse(Opp > Pts & Conf == OppConf, Loses, 0),
            ConfTies = ifelse(Pts == Opp & Conf == OppConf, Ties, 0),
            #  Wake Forest and UNC are playing a non-conf just because
-           ConfWins = ifelse((School == 'North Carolina' | School == 'Wake Forest') & (Opponent == 'North Carolina' | Opponent == 'Wake Forest'), 0, ConfWins ),
-           ConfLoses = ifelse((School == 'North Carolina' | School == 'Wake Forest') & (Opponent == 'North Carolina' | Opponent == 'Wake Forest'), 0, ConfLoses )
+           ConfWins = ifelse(((School == 'North Carolina' | School == 'Wake Forest') & Season == 2021) & ((School == 'North Carolina' | School == 'Wake Forest') & Season == 2021), 0, ConfWins ),
+           ConfLoses = ifelse(((School == 'North Carolina' | School == 'Wake Forest') & Season == 2021) & ((School == 'North Carolina' | School == 'Wake Forest') & Season == 2021), 0, ConfLoses )
     ) %>%
     mutate(Wk = as.numeric(Wk)) %>%
     # ensuring independents remain independent
@@ -355,8 +355,8 @@ for(b in SeasonVec:SeasonVec){
                ConfWins = ifelse(Values <= p.Win & Conf == OppConf, 1, 0),
                ConfLoses = ifelse(Values >= p.Win & Conf == OppConf, 1, 0),
                #  in 2021 Wake Forest and North Carolina play a non-conference game despite being in the same conference
-               ConfWins = ifelse((School == 'North Carolina' | School == 'Wake Forest') & (Opponent == 'North Carolina' | Opponent == 'Wake Forest'), 0, ConfWins ),
-               ConfLoses = ifelse((School == 'North Carolina' | School == 'Wake Forest') & (Opponent == 'North Carolina' | Opponent == 'Wake Forest'), 0, ConfLoses )
+               ConfWins = ifelse(((School == 'North Carolina' | School == 'Wake Forest') & Season == 2021) & ((School == 'North Carolina' | School == 'Wake Forest') & Season == 2021), 0, ConfWins ),
+               ConfLoses = ifelse(((School == 'North Carolina' | School == 'Wake Forest') & Season == 2021) & ((School == 'North Carolina' | School == 'Wake Forest') & Season == 2021), 0, ConfLoses )
         ) %>%
         mutate(iter = i)  %>%
         group_by(School) %>%
@@ -570,8 +570,6 @@ for(b in SeasonVec:SeasonVec){
   }
   
   Mark1 <- rbindlist(SeasonIterList) %>%
-    #filter(School == 'North Carolina') %>%
-    #filter(Conf == 'Pac-12') %>%
     mutate(Season = b) %>%
     mutate(ForecastedConfWins = ifelse(Conf == 'Ind', NA, ForecastedConfWins),
            ForecastedConfLosses = ifelse(Conf == 'Ind', NA, ForecastedConfLosses),
@@ -588,3 +586,8 @@ for(b in SeasonVec:SeasonVec){
   write.csv(rbindlist(ConfFinishForecastList) %>% mutate(Season = b), glue('C:/Users/alexe/Desktop/Logs/{b} Season Forecasted Conf Div Rank.csv'))
   
 }
+
+rbindlist(SeasonForecastWeeks)
+
+
+
