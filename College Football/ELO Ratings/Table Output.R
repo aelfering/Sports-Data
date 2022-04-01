@@ -16,7 +16,7 @@ WeekNumber <- max(SeasonDFTable$Week)
 PreSeason <- SeasonDFTable %>%
   filter(!grepl("NA", RealRecord)) %>%
   group_by(School) %>%
-  filter(Week == 12) %>%
+  filter(Week == 16) %>%
   ungroup() %>%
   #select(-Season) %>%
   mutate(ForecastedWins = round(ForecastedWins),

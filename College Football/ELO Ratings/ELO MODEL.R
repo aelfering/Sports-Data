@@ -1,9 +1,17 @@
 #### ELO MODEL 
+# generates historical ELO ratings for each CFB team in FBS
+# HUGE THANKS TO https://www.sports-reference.com/ for providing the data
 
-Conferences <- read.csv('C:/Users/alexe/Desktop/Conferences.csv')
+library(elo)
+library(data.table)
+library(tidyverse)
+library(ggplot2)
+library(rvest)
+library(stringi)
+library(glue)
 
-SeasonVar <- c(1869:1870, 1872:2021)
-BegSeason <- min(SeasonVar)
+# data sources ----
+source('~/CFB Parent Variables.R')
 
 FilterSeason <- WinningGames %>%
   #filter(School == 'Kentucky' | Opponent == 'Kentucky') %>%
@@ -15,11 +23,6 @@ FilterSeason <- WinningGames %>%
 AllSchools <- FilterSeason$School
 AllOpponents <- FilterSeason$Opponent
 
-K <- 30
-Adv <- 55
-DisAdv <- -55
-NoAdv <- 0
-
 InitRatings <- tibble(School = unique(c(AllOpponents, AllSchools)),
                       Rating = 1500)
 UseELODF <- data.frame()
@@ -27,6 +30,7 @@ NewRatings <- data.frame()
 
 WeekGames <- list()
 SeasonGames <- list()
+FinalELORatings <- list()
 for(a in SeasonVar){
   
   #a <- 1972
@@ -64,12 +68,13 @@ for(a in SeasonVar){
                                    Location == 'N' ~ OppELO + NoAdv)) %>%
       mutate(m = (SchoolELOAdj - OppELOAdj)/400,
              EloDiff = abs(SchoolELOAdj-OppELOAdj),
+             PS = round(EloDiff/25, 1),
              p.Opponent = 1/(1+10^m),
              p.Team = 1-p.Opponent,
              MarginABS = abs(Pts-Opp),
              MovMult = log(MarginABS + 1)*(2.2/(EloDiff * 0.001 + 2.2)),
              KAdj = K*log(MarginABS + 1),
-             ELOAdj = KAdj * (1-p.Team),
+             ELOAdj = (K * MovMult) * (1-p.Team),
              TeamELOUpdate = case_when(Wins == 1 ~ SchoolELO + ELOAdj,
                                        Ties == 1 ~ SchoolELO,
                                        Loses == 1 ~ SchoolELO + (ELOAdj*-1) ),
@@ -88,6 +93,8 @@ for(a in SeasonVar){
              Location,
              Pts,
              Opp,
+             PS,
+             ELOAdj,
              p.Team,
              p.Opponent,
              SchoolELO = TeamELOUpdate,
@@ -110,7 +117,7 @@ for(a in SeasonVar){
     
     if(i == EndWeek){
       
-      print('Regress happens')
+      #print('Regress happens')
       
       SeasonConf <- Conferences %>%
         filter(Season == a) %>%
@@ -124,9 +131,9 @@ for(a in SeasonVar){
         group_by(Conf) %>%
         mutate(MeanConfELO = mean(Rating)) %>%
         ungroup() %>%
-        mutate(RegressRating = case_when(Rating > MeanConfELO ~ Rating-((Rating-MeanConfELO)*0.33),
+        mutate(RegressRating = case_when(Rating > MeanConfELO ~ Rating-((Rating-MeanConfELO)*RegressVal),
                                          is.na(Conf) ~ 1500,
-                                         Rating < MeanConfELO ~ Rating + ((MeanConfELO-Rating)*0.33))) %>%
+                                         Rating < MeanConfELO ~ Rating + ((MeanConfELO-Rating)*RegressVal))) %>%
         arrange(desc(Rating))
       
       NewRatings <- UpdateRatings %>%
@@ -134,14 +141,20 @@ for(a in SeasonVar){
                Rating = RegressRating) %>%
         arrange(desc(Rating))
       
+      ExportRatings <- UpdateRatings %>%
+        mutate(Season = a)
+      
+      FinalELORatings[[a]] <- ExportRatings
+      
       print(a)
-      print(UpdateRatings)
+      print(ExportRatings)
       
     }else{
       
       #print('No Regress happens')
       
       NewRatings <- NewRatings
+      
     }
     
     WeekGames[[i]] <- WeekUpdate
@@ -155,6 +168,7 @@ for(a in SeasonVar){
 }
 
 ELODF <- rbindlist(SeasonGames, fill = TRUE) %>%
+  distinct() %>%
   rename(elo.A = SchoolELO,
          elo.B = OpponentELO,
          p.A = p.Team,
@@ -164,6 +178,29 @@ ELODF <- rbindlist(SeasonGames, fill = TRUE) %>%
   arrange(Year,
           Month,
           Day)
+
+FullELODF <- ELODF %>%
+  distinct() %>%
+  select(Season,
+         Wk,
+         Month,
+         Day,
+         Year,
+         team.A = team.B,
+         team.B = team.A,
+         Location,
+         Pts = Opp,
+         Opp = Pts,
+         PS,
+         ELOAdj,
+         p.A,
+         elo.A = elo.B,
+         elo.B = elo.A) %>%
+  mutate(p.A = 1-p.A,
+         Location = case_when(Location == '' ~ '@',
+                              Location == '@' ~ '',
+                              Location == 'N' ~ 'N')) %>%
+  bind_rows(ELODF)
 
 write.csv(ELODF, 'C:/Users/alexe/Desktop/ELODF.csv')
 

@@ -5,13 +5,16 @@ library(tidyverse)
 library(rvest)
 library(data.table)
 library(lubridate)
+library(stringi)
 
 rank_patterns <- paste('\\(', 1:25, '\\)', sep = '')
 
-seasonsbowl <- 1960:year(Sys.Date())-1
+seasonsbowl <- 1946:year(Sys.Date())-1
 
 BowlListFinal <- list()
 for(i in seasonsbowl){
+  
+  print(i)
 
     Bowls <- read_html(glue('https://www.sports-reference.com/cfb/years/{i}-bowls.html'))
     
@@ -65,7 +68,7 @@ ConfChamp <- FullSchedule %>%
          Opponent) %>%
   mutate(Year = as.integer(Year)) %>%
   bind_rows(CompleteBowls) %>%
-  select(-Date) %>%
+  #select(-Date) %>%
   mutate(Month = (trim(Month)),
          Day = (trim(Day)),
          Year = trim(Year),

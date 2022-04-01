@@ -2,33 +2,28 @@
 # MARK I
 
 # libraries ----
-Sims <- 100
-HomeAdv <- 55
-AwayAdv <- -55
-SeasonVec <- 2008
-
-library(tidyverse)
-#library(tidylog)
-library(glue)
-library(data.table)
-
-options(dplyr.summarise.inform = FALSE)
-
-# load data for the forecast  ----
-WinningGames <- read.csv('C:/Users/alexe/Desktop/FBS Winning Games.csv')
-FullSchedule <- read.csv('C:/Users/alexe/Desktop/FBS Full Schedule.csv') %>%
-  select(-X)
-BowlGames <- read.csv('C:/Users/alexe/Desktop/Bowl Games.csv') %>% 
-  mutate(Month = as.character(Month), 
-         Year = as.character(Year),
-         Day = as.character(Day),
-         Season = as.character(Season)) %>%
-  select(-X)
-ELODF <- read.csv('C:/Users/alexe/Desktop/ELODF.csv')
-Conferences <- read.csv('C:/Users/alexe/Desktop/Conferences.csv')
+source('~/CFB Parent Variables.R')
 
 # prepare data  ----
 GamesNoBowls <- FullSchedule %>% 
+  left_join(UniqueID,
+            by = c('School' = 'School',
+                   'Season' = 'Season',
+                   'Wk' = 'Wk',
+                   'Opponent' = 'Opponent')) %>%
+  left_join(UniqueID,
+            by = c('School' = 'Opponent',
+                   'Season' = 'Season',
+                   'Wk' = 'Wk',
+                   'Opponent' = 'School')) %>%
+  unite(ID, c('UniqueGameID.x', 'UniqueGameID.y'), na.rm = TRUE, sep = '') %>%
+  arrange(ID) %>%
+  group_by(ID) %>%
+  mutate(ID1 = row_number()) %>%
+  ungroup() %>%
+  filter(ID1 == 1) %>%
+  select(-ID,
+         -ID1) %>%
   mutate(Month = as.character(Month), 
          Year = as.character(Year),
          Day = as.character(Day),
@@ -41,19 +36,16 @@ GamesNoBowls <- FullSchedule %>%
   ungroup()
 
 # pre-season forecast ----
-PreSeasonForecastOutcomesList1 <- list()
 for(a in SeasonVec:SeasonVec){
   
   # this pre-season loops through each week of games to predict win-loss ratio and likelihood of winning conference division
-  
-  print(a)
   
   varSeason <- a
   varSeasonL <- varSeason-1
   
   GamesFilter <- dplyr::filter(GamesNoBowls, Season == a)
   
-  PreSeasonELO <- ELODF %>%
+  PreSeasonELO <- FullELODF %>%
     arrange(
       Year,
       Month,
@@ -64,8 +56,16 @@ for(a in SeasonVec:SeasonVec){
     ungroup() %>%
     select(team.A,
            elo.A) %>%
-    mutate(elo.R = case_when(elo.A >= 1500 ~ elo.A-((elo.A-1500)*0.33),
-                             elo.A < 1500 ~ elo.A + ((1500-elo.A)*0.33) )) %>%
+    left_join(SeasonConf,
+              by = c('team.A' = 'Var.2')) %>%
+    group_by(Conf) %>%
+    mutate(MeanConfELO = mean(elo.A)) %>%
+    ungroup() %>%
+    mutate(elo.R = case_when(elo.A >= MeanConfELO ~ elo.A-((elo.A-MeanConfELO)*0.5),
+                             elo.A < MeanConfELO ~ elo.A + ((MeanConfELO-elo.A)*0.5),
+                             is.na(Conf) ~ 1500),
+           elo.R = ifelse(is.na(Conf), 1500, elo.R)) %>%
+    arrange(desc(elo.R)) %>%
     select(team.A,
            -elo.A,
            elo.A = elo.R)
@@ -80,11 +80,11 @@ for(a in SeasonVec:SeasonVec){
     left_join(PreSeasonELO,
               by = c('Opponent' = 'team.A')) %>%
     mutate(elo.A.y = ifelse(is.na(elo.A.y), 1500, as.numeric(elo.A.y)),
-           elo.A.x = case_when(Location == '' ~ as.numeric(elo.A.x) + HomeAdv,
-                               Location == '@' ~ as.numeric(elo.A.x) + AwayAdv,
+           elo.A.x = case_when(Location == '' ~ as.numeric(elo.A.x) + Adv,
+                               Location == '@' ~ as.numeric(elo.A.x) + DisAdv,
                                Location == 'N' ~ as.numeric(elo.A.x)),
-           elo.A.y = case_when(Location == '' ~ as.numeric(elo.A.y) + AwayAdv,
-                               Location == '@' ~ as.numeric(elo.A.y) + HomeAdv,
+           elo.A.y = case_when(Location == '' ~ as.numeric(elo.A.y) + DisAdv,
+                               Location == '@' ~ as.numeric(elo.A.y) + Adv,
                                Location == 'N' ~ as.numeric(elo.A.y)),
            m = (elo.A.y - elo.A.x)/400,
            p.Win = 1/(1+10^m) ) %>%
@@ -100,18 +100,23 @@ for(a in SeasonVec:SeasonVec){
     mutate(Div = ifelse(Season >= 2020 & Conf == 'American', NA, Div))
   
   PreSeasonList <- list()
+  PreSeasonGamesOutcome <- list()
+  BadResultsList <- list()
   for(i in 1:Sims){
     
-    print(i)
+    print(paste0('Preseason ', varSeason, ' iter ', i))
     
     WinValues <- runif(nrow(PreSeasonELOGames), 0, 1)
     
-    PreSeasonOutComes <- PreSeasonELOGames %>%
+    PreSeasonResults <- PreSeasonELOGames %>%
       mutate(Value = WinValues) %>%
       mutate(Wins = ifelse(Value <= p.Win, 1, 0),
              Loses = ifelse(Value > p.Win, 1, 0),
              ConfWins = ifelse(Value <= p.Win & Conf == OppConf, 1, 0),
-             ConfLoses = ifelse(Value > p.Win & Conf == OppConf, 1, 0)) %>%
+             ConfLoses = ifelse(Value > p.Win & Conf == OppConf, 1, 0),
+             iter = i)
+    
+    PreSeasonOutComes <- PreSeasonResults %>%
       group_by(School,
                Conf,
                Div) %>%
@@ -123,17 +128,67 @@ for(a in SeasonVec:SeasonVec){
       mutate(FConfWins = ifelse(Conf == 'Ind', NA, FConfWins),
              FConfLosses = ifelse(Conf == 'Ind', NA, FConfLosses)) %>%
       mutate(TotalGames = FWins + FLosses,
-             Undefeated = ifelse(FWins == TotalGames, 1, 0)) %>%
+             Undefeated = ifelse(FWins == TotalGames, 1, 0),
+             UndefeatedConf = ifelse(FConfLosses == 0, 1, 0)) %>%
       group_by(Conf, 
                Div) %>%
       mutate(ConfDivRank = dense_rank(desc(FConfWins))) %>%
       mutate(FirstinConfDiv = ifelse(ConfDivRank == 1, 1, 0),
              TotalFirst = sum(FirstinConfDiv),
+             Undefeated = sum(Undefeated),
+             UndefeatedConf = sum(UndefeatedConf),
              WinConfDivOR = case_when(ConfDivRank ==1 & TotalFirst == 1 ~ 1 ) ) %>%
       ungroup() %>%
-      mutate(Win0500 = ifelse((FWins/ (FWins+ FLosses) ) >= 0.5, 1, 0))
+      mutate(Win0500 = ifelse((FWins/ (FWins+ FLosses) ) >= 0.5, 1, 0),
+             iter = i,
+             Season = a)
     
+    BadResultsPre <- PreSeasonResults %>%
+      #filter((School == 'Kentucky' & Opponent == 'Central Michigan') | (School == 'Central Michigan' & Opponent == 'Kentucky'),
+      #       Season == 1983) %>%
+      #head(2) %>%
+      select(Month,
+             Day,
+             Year,
+             School,
+             Season,
+             Wk,
+             Location,
+             Opponent,
+             Wins,
+             Loses) %>%
+      left_join(UniqueID,
+                by = c('School' = 'School',
+                       'Season' = 'Season',
+                       'Wk' = 'Wk',
+                       'Opponent' = 'Opponent')) %>%
+      left_join(UniqueID,
+                by = c('School' = 'Opponent',
+                       'Season' = 'Season',
+                       'Wk' = 'Wk',
+                       'Opponent' = 'School')) %>%
+      unite(ID, c('UniqueGameID.x', 'UniqueGameID.y'), na.rm = TRUE, sep = '') %>%
+      group_by(ID) %>%
+      mutate(FlagWins = sum(Wins),
+             FlagLosses = sum(Loses)) %>%
+      #filter(sum(Wins) > 1 | sum(Loses) > 1) %>%
+      ungroup() %>%
+      filter(FlagWins > 1 | FlagLosses > 1) %>%
+      distinct(ID) %>%
+      summarise(BadRows = n_distinct(ID)) %>%
+      as.numeric()
+    
+    if(BadResultsPre > 0){
+      
+      print(paste(BadResultsPre, ' bad rows of data!'))
+      
+    }else{
+      
     PreSeasonList[[i]] <- PreSeasonOutComes
+    PreSeasonGamesOutcome[[i]] <- PreSeasonResults
+    
+    }
+    
     
   }
   
@@ -145,17 +200,36 @@ for(a in SeasonVec:SeasonVec){
               FMeanLosses = round(mean(FLosses), 1),
               FMeanConfWins = round(mean(FConfWins), 1),
               FMeanConfLosses = round(mean(FConfLosses), 1),
-              FUndefeated = (sum(Undefeated)/Sims),
-              FirstinConfDiv = sum(FirstinConfDiv)/Sims,
-              Win0500 = sum(Win0500)/Sims,
-              WinConfDivOR = sum(WinConfDivOR, na.rm = TRUE)/Sims) %>%
+              FUndefeated = (sum(Undefeated)),
+              FirstinConfDiv = sum(FirstinConfDiv),
+              Win0500 = sum(Win0500),
+              WinConfDivOR = sum(WinConfDivOR, na.rm = TRUE)) %>%
     arrange(Conf,
             Div,
             desc(WinConfDivOR),
             desc(FMeanWins),
             FMeanLosses) %>%
-    mutate(Season = a)
+    mutate(Season = a) %>%
+    group_by(Conf,
+             Div) %>%
+    mutate(PctWinOR = WinConfDivOR/sum(WinConfDivOR, na.rm = TRUE),
+           WinShare = FirstinConfDiv/sum(FirstinConfDiv, na.rm = TRUE) ) %>%
+    ungroup() %>%
+    select(Season,
+           School,
+           Conf,
+           Div,
+           Win0500,
+           FMeanWins,
+           FMeanLosses,
+           FMeanConfWins,
+           FMeanConfLosses,
+           PctWinOR,
+           WinShare) %>%
+    mutate(Win0500 = Win0500/Sims)
   
+  print(PreSeasonForecast)
+
   write.csv(PreSeasonForecast, glue::glue('{a} Pre-Season Forecast.csv'))
   
 }
@@ -165,6 +239,7 @@ for(a in SeasonVec:SeasonVec){
 SeasonForecastWeeks <- list()
 WinForecastWeeks <- list()
 ConfFinishForecastWeeks <- list()
+FinalBowlList <- list()
 for(b in SeasonVec:SeasonVec){
   
   seasonInt <- tibble(Season = 1869:2021) %>%
@@ -176,23 +251,40 @@ for(b in SeasonVec:SeasonVec){
   
   GamesFilter <- dplyr::filter(GamesNoBowls, Season == b)
   
-  InitEloRatings <- ELODF %>%
-    arrange(
-      Year,
-      Month,
-      Day) %>%
+  FBSTeams <- Conferences %>%
+    filter(Season == b) %>%
+    select(team.A = Var.2)
+  
+  SeasonConf <- Conferences %>%
+    filter(Season == b) %>%
+    mutate(Conf = trim(Conf)) %>%
+    select(Var.2,
+           Conf)
+  
+  InitEloRatings <- FullELODF %>%
+    #filter(team.A == 'Iowa State') %>%
+    arrange(Wk) %>%
+    mutate(SeasonWk = as.numeric(paste0(Season, Wk))) %>%
+    arrange(SeasonWk) %>%
     filter(Season <= varSeasonL) %>%
     group_by(team.A) %>%
     filter(row_number() == max(row_number())) %>%
     ungroup() %>%
     select(team.A,
            elo.A) %>%
-    mutate(elo.R = case_when(elo.A >= 1500 ~ elo.A-((elo.A-1500)*0.33),
-                             elo.A < 1500 ~ elo.A + ((1500-elo.A)*0.33) )) %>%
+    left_join(SeasonConf,
+               by = c('team.A' = 'Var.2')) %>%
+    group_by(Conf) %>%
+    mutate(MeanConfELO = mean(elo.A)) %>%
+    ungroup() %>%
+    mutate(elo.R = case_when(elo.A >= MeanConfELO ~ elo.A-((elo.A-MeanConfELO)*0.5),
+                             is.na(Conf) ~ 1500,
+                             elo.A < MeanConfELO ~ elo.A + ((MeanConfELO-elo.A)*0.5) )) %>%
     select(team.A,
            -elo.A,
            elo.A = elo.R) %>%
-    mutate(Row = 0)
+    mutate(Row = 0) %>%
+    arrange(desc(elo.A))
   
   GameSeasonOutcomes <- GamesFilter %>%
     rename(OppConf = Conf) %>%
@@ -200,6 +292,7 @@ for(b in SeasonVec:SeasonVec){
     inner_join(Conferences,
                by = c('Season' = 'Season',
                       'School' = 'Var.2')) %>%
+    select(-X) %>%
     mutate(Conf = trim(Conf),
            OppConf = trim(ifelse(is.na(OppConf), 'Non-Major', OppConf)),
            Pts = as.numeric(Pts),
@@ -222,15 +315,36 @@ for(b in SeasonVec:SeasonVec){
     # AAC not doing divisions since 2020
     mutate(Div = ifelse(Season >= 2020 & Conf == 'American', NA, Div))
   
+  GameSeasonOutcomes %>%
+    filter(School == 'Nebraska')
+  
+  GameSeasonOutcomes %>%
+    filter(Opponent == 'Nebraska') %>%
+    mutate(Location = case_when(Location == "" ~ "@",
+                                Location == "@" ~ "",
+                                TRUE ~ Location)) %>%
+    rename(Opponent = School,
+           School = Opponent,
+           Opp = Pts,
+           Pts = Opp,
+           Wins = Loses,
+           Loses = Wins,
+           ConfWins = ConfLoses,
+           ConfLoses = ConfWins)
+  
+  
+  
+  
+  
   # latest week
   MaxSeasnWk <- max(GameSeasonOutcomes %>% filter(!is.na(Pts)) %>% select(Wk))
   
+  # forecasting wins and losses each week
   SeasonIterList <- list()
   WinForecastList <- list()
   ConfFinishForecastList <- list()
+  BowlList <- list()
   for(c in 1:MaxSeasnWk ){
-    
-    print(c)
     
     ResultsSoFar <- GameSeasonOutcomes %>%
       filter(Wk <= c) %>%
@@ -261,11 +375,7 @@ for(b in SeasonVec:SeasonVec){
       unite(RealRecord, c('Wins', 'Loses', 'Ties'), sep = '-', na.rm = TRUE) %>%
       unite(RealConfRecord, c('ConfWins', 'ConfLoses', 'ConfTies'), sep = '-', na.rm = TRUE)
     
-    FBSTeams <- Conferences %>%
-      filter(Season == b) %>%
-      select(team.A = Var.2)
-    
-    ELOSoFar <- ELODF %>%
+    ELOSoFar <- FullELODF %>%
       arrange(#team.A,
         Year,
         Month,
@@ -273,24 +383,20 @@ for(b in SeasonVec:SeasonVec){
       filter(Season == varSeason) %>%
       mutate(Wk = as.numeric(Wk)) %>%
       filter(Wk <= c) %>%
-      group_by(team.A) %>%
-      filter(row_number() == max(row_number())) %>%
-      ungroup() %>%
-      select(team.A,
-             elo.A) %>%
-      mutate(Row = c)
-    
-    ELORank <- ELOSoFar %>%
-      inner_join(FBSTeams) %>%
-      arrange(desc(elo.A)) %>%
-      mutate(Rank = dense_rank(desc(elo.A)))
+      select(Wk,
+             team.A,
+             elo.A)
     
     UpdateTheELO <- InitEloRatings %>%
+      #filter(team.A == 'Kansas State') %>%
       bind_rows(ELOSoFar) %>%
       group_by(team.A) %>%
+      mutate(Row = row_number()) %>%
       filter(Row == max(Row)) %>%
+      arrange(desc(elo.A)) %>%
       ungroup() %>%
-      select(-Row)
+      select(-Row) %>%
+      select(-Wk)
     
     NewProbability <- GameSeasonOutcomes %>%
       filter(Wk > c) %>%
@@ -309,15 +415,18 @@ for(b in SeasonVec:SeasonVec){
                  by = c('School' = 'team.A')) %>%
       left_join(UpdateTheELO,
                 by = c('Opponent' = 'team.A'))  %>%
-      mutate(elo.A.y = ifelse(is.na(elo.A.y), 1500, as.numeric(elo.A.y)),
-             elo.A.x = case_when(Location == '' ~ as.numeric(elo.A.x) + HomeAdv,
-                                 Location == '@' ~ as.numeric(elo.A.x) + AwayAdv,
-                                 Location == 'N' ~ as.numeric(elo.A.x)),
-             elo.A.y = case_when(Location == '' ~ as.numeric(elo.A.y) + AwayAdv,
-                                 Location == '@' ~ as.numeric(elo.A.y) + HomeAdv,
-                                 Location == 'N' ~ as.numeric(elo.A.y)),
-             m = (elo.A.y - elo.A.x)/400,
-             p.Win = 1/(1+10^m) )
+      rename(elo.A = elo.A.x,
+             elo.B = elo.A.y) %>%
+      mutate(elo.B = ifelse(is.na(elo.B), 1500, as.numeric(elo.B)),
+             elo.A.x = case_when(Location == '' ~ as.numeric(elo.A) + Adv,
+                                 Location == '@' ~ as.numeric(elo.A) + DisAdv,
+                                 Location == 'N' ~ as.numeric(elo.A)),
+             elo.A.y = case_when(Location == '' ~ as.numeric(elo.B) + DisAdv,
+                                 Location == '@' ~ as.numeric(elo.B) + Adv,
+                                 Location == 'N' ~ as.numeric(elo.B)),
+             m = (elo.B - elo.A)/400,
+             p.Win = 1/(1+10^m) ) %>%
+      select(-m)
     
     NextMatch <- NewProbability %>%
       group_by(School) %>%
@@ -334,17 +443,14 @@ for(b in SeasonVec:SeasonVec){
     GamesNeededtoBowl <- list()
     for(i in 1:Sims){
       
-      print(i)
-      
-      #print(b)
-      # print(c)
-      #print(i)
-      
+       print(paste0(b, ' week ', c,' iter ', i))
+
       PWinForecast <- runif(nrow(NewProbability), 0, 1)
       
       # continuing the forecast
       UpdatedFutureGames <- NewProbability %>%
         mutate(Values = runif(nrow(.), 0, 1)) %>%
+        #filter(School == 'Nebraska') %>%
         left_join(ResultsSoFar,
                   by = c('School' = 'School',
                          'Conf' = 'Conf',
@@ -364,7 +470,8 @@ for(b in SeasonVec:SeasonVec){
         ) %>%
         mutate(iter = i)  %>%
         group_by(School) %>%
-        mutate(RollingFWins = cumsum(Wins),
+        mutate(CWins = ifelse(is.na(CWins), 0, CWins),
+               RollingFWins = cumsum(Wins),
                PotentialWins = CWins + RollingFWins) %>%
         mutate(Games = row_number()) %>%
         ungroup()
@@ -377,7 +484,8 @@ for(b in SeasonVec:SeasonVec){
         select(School,
                Opponent,
                Wk = Wk.x,
-               iter) 
+               iter) %>%
+        mutate(wk = c)
       
       GamesNeededToWin <- UpdatedFutureGames %>%
         filter(School %in% TeamGetsBowlWin$School) %>%
@@ -387,6 +495,12 @@ for(b in SeasonVec:SeasonVec){
                Opponent,
                Wk = Wk.x,
                iter) 
+      
+      MostLikelyBowlWin <- TeamGetsBowlWin %>%
+        select(School,
+               Opponent,
+               Wk) %>%
+        mutate(iter = i)
       
       SummariseOutcomes <- UpdatedFutureGames %>%
         group_by(School,
@@ -450,25 +564,7 @@ for(b in SeasonVec:SeasonVec){
       Outlook1NO <- Outlook1 %>%
         filter(!is.na(ForecastedWins))
       
-      Outlook1NA <- Outlook1 %>%
-        filter(is.na(ForecastedWins)) %>%
-        left_join(ResultsSoFar,
-                  by = c('School' = 'School',
-                         'Conf' = 'Conf',
-                         'Div' = 'Div')) %>%
-        select(-ForecastedWins,
-               -ForecastedLosses,
-               -ForecastedConfWins,
-               -ForecastedConfLosses,
-               -Wk) %>%
-        rename(ForecastedWins = Wins,
-               ForecastedLosses = Loses,
-               ForecastedConfWins = ConfWins,
-               ForecastedConfLosses = ConfLoses) %>%
-        mutate(Win0500 = ifelse(ForecastedWins/(ForecastedWins + ForecastedLosses) >= 0.5, 1, 0),
-               TotalGames = ForecastedWins + ForecastedLosses)
-      
-      BindOutlook <- bind_rows(Outlook1NO, Outlook1NA)  %>%
+      BindOutlook <- bind_rows(Outlook1NO)  %>%
         group_by(Conf, 
                  Div) %>%
         mutate(ConfDivRank = dense_rank(desc(ForecastedConfWins))) %>%
@@ -516,7 +612,7 @@ for(b in SeasonVec:SeasonVec){
     FutureGames <- rbindlist(ProbabilityIter)
     
     Range <- FutureGames %>%
-      filter(School == 'Nebraska') %>%
+      #filter(School == 'Nebraska') %>%
       mutate(zscore = (ForecastedWins - mean(ForecastedWins))/sd(ForecastedWins)) %>%
       arrange(desc(zscore)) %>%
       filter(zscore >= -1.28 & zscore <= 1.28) %>%
@@ -547,7 +643,13 @@ for(b in SeasonVec:SeasonVec){
       ) %>%
       ungroup() %>% 
       mutate(WinsShareWinningOut = WinOutWinDiv/FinishesOut) %>%
-      mutate(Week = c + 1)
+      mutate(Week = c + 1) %>%
+      left_join(Range) %>%
+      group_by(Conf,
+               Div) %>%
+      mutate(PctWinOR = WinConfDivOR/sum(WinConfDivOR),
+             PctWin = FirstinConfDiv/sum(FirstinConfDiv)) %>%
+      ungroup()
     
     PredictedWins <- FutureGames %>%
       group_by(School,
@@ -567,6 +669,17 @@ for(b in SeasonVec:SeasonVec){
       ungroup() %>%
       mutate(Week = c + 1)
     
+    BowlWinDF <- rbindlist(BowlWinList) %>%
+      group_by(Wk,
+               School,
+               Opponent,
+               wk) %>%
+      summarise(n = n()) %>%
+      ungroup() %>%
+      arrange(School,
+              Wk)
+    
+    BowlList[[c]] <- BowlWinDF
     ConfFinishForecastList[[c]] <- PredictedConfFinish
     WinForecastList[[c]] <- PredictedWins
     SeasonIterList[[c]] <- SummariseFuture
@@ -590,25 +703,3 @@ for(b in SeasonVec:SeasonVec){
   write.csv(rbindlist(ConfFinishForecastList) %>% mutate(Season = b), glue('C:/Users/alexe/Desktop/Logs/{b} Season Forecasted Conf Div Rank.csv'))
   
 }
-
-rbindlist(SeasonForecastWeeks) %>%
-  filter(School == 'Alabama')
-  mutate(Conf = trim(Conf)) %>%
-  filter(Week == MaxSeasnWk) %>%
-  group_by(Conf,
-           Div) %>%
-  mutate(ConfDivRank = dense_rank(desc(ForecastedConfWins))) %>%
-  filter(ConfDivRank == 1) %>%
-  filter(n() > 1) %>%
-  ungroup() %>%
-  select(School,
-         Conf,
-         Div,
-         RealRecord,
-         ForecastedWins,
-         ForecastedLosses,
-         ForecastedConfWins ,
-         ForecastedConfLosses )
-
-
-
